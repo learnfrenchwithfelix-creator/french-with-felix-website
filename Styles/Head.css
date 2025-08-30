@@ -1,0 +1,80 @@
+    .homepage-header {
+      background-color: white;
+      padding: 0px;
+      width: 100%;
+      height: 127px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .header-left{
+      min-width: 120px;
+      flex: 1;
+      display: flex;
+      justify-content: flex-start; /* pousse à gauche */
+      align-items: center;
+    }   
+
+    .logoheader {
+      height: 80px;
+      padding-left: 120px;
+      cursor: pointer;
+    }
+    
+    .header-center{
+      padding: 0 70px 0 70px;
+      display: flex;
+      flex: 1;
+      text-align: center;
+      justify-content: space-evenly;
+      gap: clamp(10px, 15px, 40px);
+      align-items: center;
+    }  
+
+    .header-button {
+      border-style: none;
+      background-color: white;
+      font-size: 18px;
+      font-family: Roboto;
+      font-weight: 400;
+      color: black;
+      width: 130px;
+      height: 60px;
+      cursor: pointer;
+      border-radius: 20%;
+    }
+
+    .header-button:hover {
+      transform: scale(1.05);
+      color:rgb(94, 94, 143);
+      transition: 0.1s;
+    }
+    .header-button:active {
+      color:rgb(94, 94, 143);
+      transform: scale(0.98);
+      transition: 0.05s;
+    }
+    
+    .header-right{
+      min-width: 120px;
+      margin-right: 120px;
+      flex: 1;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 40px;
+      text-align: center;
+    }   
+
+    .social-logo {
+      height: 30px;
+      cursor: pointer;
+    }
+    
+
+    .social-logo:active {
+      color:rgb(94, 94, 143);
+      transform: scale(0.98);
+      transition: 0.05s;
+    }
