@@ -46,13 +46,13 @@
     }
 
     .header-button:hover {
-      transform: scale(1.05);
+      transform: scale(1.03);
       color:rgb(94, 94, 143);
       transition: 0.1s;
     }
     .header-button:active {
       color:rgb(94, 94, 143);
-      transform: scale(0.98);
+      transform: scale(1);
       transition: 0.05s;
     }
     
