@@ -5,18 +5,18 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="Styles/Head.css">
-  <link rel="stylesheet" href="Styles/podcast-body.css">
-  <link rel="stylesheet" href="Styles/Footer.css">
-  <title>Pourquoi vous avez aimé le voyage de Chihiro ?</title>  <!-- CHANGER LE TITRE -->
+  <link rel="stylesheet" href="../Styles/Head.css">
+  <link rel="stylesheet" href="../Styles/podcast-body.css">
+  <link rel="stylesheet" href="../Styles/Footer.css">
+  <title class="js-title">Pourquoi vous avez aimé le voyage de Chihiro ?</title>  <!-- CHANGER LE TITRE -->
 </head>
 
 
 <body>
 <div class="homepage-header">
   <div class="header-left">
-    <a href="">
-      <img class="logoheader" src="Images/Homepage/logo_flag_bigger.png" alt="Logo French with Félix">
+    <a href="../homepage.html">
+      <img class="logoheader" src="../Images/Homepage/logo_flag_bigger.png" alt="Logo French with Félix">
     </a>
   </div>
 
@@ -38,19 +38,19 @@
   <div class="header-right">
     <div>
       <a href="https://www.instagram.com/frenchwithfelix/" target="_blank">           
-        <img class="social-logo" src="Images/Homepage/Items/instagram.png" alt="Instagram">
+        <img class="social-logo" src="../Images/Homepage/Items/instagram.png" alt="Instagram">
       </a> 
     </div>
 
     <div>
       <a href="https://www.youtube.com/@frenchwithfelix" target="_blank">
-        <img class="social-logo" src="Images/Homepage/Items/Youtube.png" alt="Youtube">
+        <img class="social-logo" src="../Images/Homepage/Items/Youtube.png" alt="Youtube">
       </a>
     </div>
 
     <div>
       <a href="https://www.tiktok.com/@frenchwithfelix" target="_blank">
-        <img class="social-logo" src="Images/Homepage/items/Tiktok.png" alt="Tiktok">
+        <img class="social-logo" src="../Images/Homepage/items/Tiktok.png" alt="Tiktok">
       </a>
     </div>
   </div>
@@ -59,13 +59,13 @@
   
 <div class="podcast-body">
     
-    <img src="Images/Homepage/cover.jpg" class="podcast-topcover">
+    <img src="../Images/Homepage/cover.jpg" class="podcast-topcover">
 
 
     <div class="script-container">
       
       <!-- CHANGER LE TITRE -->
-      <div class="script-titre"> 
+      <div class="script-titre js-titre-podcast"> 
         Pourquoi vous avez aimé le voyage de Chihiro ? 
       </div>
 
@@ -83,15 +83,11 @@
       <div id="player"></div>
     </div>
 
-    <div class="rs-dl-buttons">
+    <!-- <div class="rs-dl-buttons">
       <a href="docs/mon-document.pdf" download class="download-btn">
         Download Script (PDF)
       </a>
-
-      <a href="docs/mon-document.pdf" download class="download-btn">
-        Download Anki Deck
-      </a>
-    </div>
+    </div> -->
 
   </div>
 
@@ -100,36 +96,15 @@
 
 
 <script src="https://www.youtube.com/iframe_api"></script>
-<script src="Scripts/srttransfo.js"></script>
-<script>
-  var player;
-
-  function onYouTubeIframeAPIReady() {
-    player = new YT.Player('player', {
-      height: '360',
-      width: '640',
-      videoId: 'rpy1qU1pAKA', // CHANGER LE ID
-    });
-  }
-
-  document.addEventListener("click", function(e) {
-    var p = e.target.closest("p");
-    if (!p || !p.dataset.start) return; 
-    if (!document.getElementById('transcript').contains(p)) return; 
-
-    var start = parseFloat(p.dataset.start);
-    if (isNaN(start)) return;
-
-    if (player && typeof player.seekTo === "function") {
-      player.seekTo(start, true);
-      player.playVideo();
-    }
-  });
+<script src="../Scripts/srttransfo.js"></script>
+<script src="../Scripts/impVideo.js"></script>
+<script class="js-frameYT"> 
+  // ID Youtube
+  onYouTubeIframeAPIReady('rpy1qU1pAKA');
 </script>
-
-<script>
+<script class="js-srtimport">
   // CHANGER LE SRT IMPORTE
-  loadTranscript('srt/le-voyage-de-chihiro.srt', 'transcript');
+  loadTranscript('../srt/le-voyage-de-chihiro.srt', 'transcript');
 </script>
 
   
