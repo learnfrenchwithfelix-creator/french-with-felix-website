@@ -1,0 +1,1032 @@
+1
+00:00:00,600 --> 00:00:02,600
+ Bonjour à toutes et à tous
+
+2
+00:00:02,833 --> 00:00:05,100
+et bienvenue dans ce nouveau podcast
+
+3
+00:00:05,566 --> 00:00:08,233
+aujourd'hui on va se poser la question suivante
+
+4
+00:00:08,266 --> 00:00:12,066
+qui est "est-ce que ça sert toujours à quelque chose
+
+5
+00:00:12,566 --> 00:00:14,533
+d'apprendre une langue ?"
+
+6
+00:00:14,966 --> 00:00:15,666
+cette question
+
+7
+00:00:15,666 --> 00:00:17,300
+elle m'est venue naturellement
+
+8
+00:00:17,366 --> 00:00:19,833
+au moment où j'ai voulu changer de 
+métier
+
+9
+00:00:20,066 --> 00:00:22,566
+pour devenir professeur de français
+
+10
+00:00:23,866 --> 00:00:26,166
+c'est une question naturelle puisque
+
+11
+00:00:26,366 --> 00:00:28,733
+avec l'évolution de la technologie
+
+12
+00:00:29,433 --> 00:00:32,966
+on est en droit de se demander si c'est toujours utile
+
+13
+00:00:33,766 --> 00:00:35,233
+d'apprendre une langue
+
+14
+00:00:36,266 --> 00:00:37,666
+ce que je veux dire c'est que
+
+15
+00:00:38,033 --> 00:00:40,666
+on a des outils de traduction automatique
+
+16
+00:00:40,966 --> 00:00:42,533
+de plus en plus efficace
+
+17
+00:00:43,033 --> 00:00:44,400
+de plus en plus direct
+
+18
+00:00:44,766 --> 00:00:47,500
+et on peut donc se poser la question
+
+19
+00:00:48,166 --> 00:00:50,533
+de savoir si c'est toujours utile
+
+20
+00:00:51,133 --> 00:00:53,000
+d'apprendre une langue
+
+21
+00:00:54,800 --> 00:00:56,933
+d'autant plus que apprendre une langue
+
+22
+00:00:57,000 --> 00:00:59,833
+ça ne se fait pas en quelques heures
+
+23
+00:01:00,433 --> 00:01:02,000
+ça demande du temps
+
+24
+00:01:02,766 --> 00:01:04,000
+et des efforts
+
+25
+00:01:05,166 --> 00:01:07,500
+on va donc essayer de voir
+
+26
+00:01:08,033 --> 00:01:09,133
+quelles sont les raisons
+
+27
+00:01:09,400 --> 00:01:12,166
+pour lesquelles on apprend une langue
+
+28
+00:01:12,633 --> 00:01:14,433
+et si l'apprentissage
+
+29
+00:01:14,666 --> 00:01:18,900
+d'une langue doit nécessairement avoir une utilité
+
+30
+00:01:21,200 --> 00:01:23,566
+le premier point donc c'est
+
+31
+00:01:23,966 --> 00:01:25,566
+l'évolution technologique
+
+32
+00:01:26,533 --> 00:01:28,333
+on voit par exemple avec
+
+33
+00:01:28,366 --> 00:01:31,300
+chat GPT ou même avec d'autres outils
+
+34
+00:01:32,033 --> 00:01:34,000
+que la traduction automatique
+
+35
+00:01:34,433 --> 00:01:36,400
+devient de plus en plus efficace
+
+36
+00:01:36,866 --> 00:01:38,900
+de plus en plus
+
+37
+00:01:39,000 --> 00:01:41,300
+rapide et quasiment "en direct"
+
+38
+00:01:42,166 --> 00:01:44,533
+il y avait notamment une vidéo
+
+39
+00:01:44,866 --> 00:01:46,700
+assez impressionnante
+
+40
+00:01:47,066 --> 00:01:50,266
+qui était traduite directement en live
+
+41
+00:01:52,266 --> 00:01:54,466
+la personne parlait
+
+42
+00:01:54,633 --> 00:01:57,466
+et l'outil traduisait automatiquement
+
+43
+00:01:57,633 --> 00:01:59,333
+dans différentes langues
+
+44
+00:02:00,200 --> 00:02:01,600
+là où avant
+
+45
+00:02:01,633 --> 00:02:04,866
+l'apprentissage d'une langue pouvait 
+être un avantage
+
+46
+00:02:05,066 --> 00:02:07,366
+notamment dans le monde professionnel
+
+47
+00:02:08,233 --> 00:02:09,533
+avec ce genre d'outil
+
+48
+00:02:09,633 --> 00:02:11,133
+on se demande donc
+
+49
+00:02:11,566 --> 00:02:14,666
+quelle est l'utilité d'apprendre une langue
+
+50
+00:02:17,166 --> 00:02:19,133
+sur le point de la technologie
+
+51
+00:02:19,466 --> 00:02:22,533
+je pense qu'on est encore loin d'avoir des outils
+
+52
+00:02:22,566 --> 00:02:23,733
+qui fassent des traductions
+
+53
+00:02:24,200 --> 00:02:27,633
+en direct et qui deviennent quasiment invisibles
+
+54
+00:02:27,766 --> 00:02:29,100
+quand on les utilise
+
+55
+00:02:30,433 --> 00:02:32,533
+pour l'instant quand on part en voyage
+
+56
+00:02:32,666 --> 00:02:35,100
+on est toujours en train d'utiliser son portable
+
+57
+00:02:35,566 --> 00:02:37,433
+avec Google traduction
+
+58
+00:02:38,133 --> 00:02:38,933
+par exemple
+
+59
+00:02:39,366 --> 00:02:42,600
+à dire des choses au portable qui traduit
+
+60
+00:02:43,000 --> 00:02:45,500
+on fait écouter à la personne en face
+
+61
+00:02:46,133 --> 00:02:48,733
+qui elle-même enregistre
+
+62
+00:02:50,000 --> 00:02:51,933
+avec le portable qui traduit
+
+63
+00:02:52,000 --> 00:02:53,700
+et qui nous le fait écouter
+
+64
+00:02:55,266 --> 00:02:59,566
+donc il y a toujours une certaine barrière technologique
+
+65
+00:02:59,866 --> 00:03:03,766
+où la discussion n'est pas forcément super fluide
+
+66
+00:03:04,733 --> 00:03:07,866
+alors même si c'est assez impressionnant
+
+67
+00:03:08,933 --> 00:03:12,966
+de pouvoir échanger avec n'importe qui sur cette terre
+
+68
+00:03:13,266 --> 00:03:15,166
+juste à l'aide d'un téléphone
+
+69
+00:03:16,766 --> 00:03:19,966
+l'apprentissage d'une langue reste toujours je pense
+
+70
+00:03:20,200 --> 00:03:22,866
+le moyen le plus direct pour échanger
+
+71
+00:03:23,066 --> 00:03:24,333
+avec les personnes
+
+72
+00:03:27,566 --> 00:03:28,633
+de plus
+
+73
+00:03:28,666 --> 00:03:31,700
+j'ai l'impression que cette approche technologique
+
+74
+00:03:32,666 --> 00:03:37,466
+elle a plus vocation à répondre à une contrainte
+
+75
+00:03:37,833 --> 00:03:39,266
+c'est-à-dire à des situations
+
+76
+00:03:39,600 --> 00:03:42,133
+où la langue représente une barrière
+
+77
+00:03:43,133 --> 00:03:46,200
+le cas le plus évident c'est le cas du travail
+
+78
+00:03:47,200 --> 00:03:49,800
+pour ma part quand j'ai commencé à travailler
+
+79
+00:03:49,933 --> 00:03:52,266
+j'ai rejoint une entreprise française
+
+80
+00:03:52,333 --> 00:03:54,700
+qui avait des bureaux partout en Europe
+
+81
+00:03:55,766 --> 00:03:58,100
+on était donc dans les équipes
+
+82
+00:03:58,600 --> 00:04:01,166
+des Français, des Italiens
+
+83
+00:04:01,366 --> 00:04:02,166
+des Espagnols
+
+84
+00:04:02,333 --> 00:04:05,400
+des Allemands et cetera et cetera et
+
+85
+00:04:05,600 --> 00:04:08,000
+dans ce cas précis on parlait tous anglais
+
+86
+00:04:08,233 --> 00:04:10,133
+mais personne n'avait vraiment un niveau
+
+87
+00:04:10,466 --> 00:04:11,533
+fluent
+
+88
+00:04:11,666 --> 00:04:12,833
+un niveau vraiment parfait
+
+89
+00:04:13,366 --> 00:04:16,133
+et du coup on perdait en efficacité
+
+90
+00:04:17,566 --> 00:04:18,766
+dans ce genre de situation
+
+91
+00:04:18,833 --> 00:04:22,466
+avoir un outil qui permette une traduction directe
+
+92
+00:04:23,200 --> 00:04:25,533
+permettrait de gagner en efficacité
+
+93
+00:04:27,366 --> 00:04:30,000
+dans un cadre professionnel
+
+94
+00:04:30,366 --> 00:04:31,933
+ce serait un avantage
+
+95
+00:04:33,466 --> 00:04:35,733
+même si ce genre d'outil permet de
+
+96
+00:04:35,833 --> 00:04:37,700
+communiquer plus facilement avec
+
+97
+00:04:37,833 --> 00:04:40,300
+n'importe qui à l'autre bout de la terre
+
+98
+00:04:41,166 --> 00:04:43,966
+je ne pense pas que ça remplacera le plaisir
+
+99
+00:04:44,000 --> 00:04:45,466
+d'apprendre une langue
+
+100
+00:04:47,366 --> 00:04:48,700
+premièrement
+
+101
+00:04:48,766 --> 00:04:50,200
+apprendre une langue c'est
+
+102
+00:04:50,533 --> 00:04:51,466
+mettre un pied
+
+103
+00:04:51,600 --> 00:04:54,666
+dans la culture du pays ou des pays concernés
+
+104
+00:04:55,400 --> 00:04:56,866
+si je dois prendre mon exemple
+
+105
+00:04:57,333 --> 00:05:00,400
+lorsque j'ai décidé d'apprendre le japonais
+
+106
+00:05:01,033 --> 00:05:02,333
+je ne me rendais pas compte
+
+107
+00:05:02,466 --> 00:05:05,466
+mais ça m'a rapproché de la culture du Japon
+
+108
+00:05:05,800 --> 00:05:07,500
+de la culture japonaise
+
+109
+00:05:09,766 --> 00:05:11,200
+apprendre une langue
+
+110
+00:05:11,266 --> 00:05:14,966
+c'est apprendre à comprendre les gens qui la parlent
+
+111
+00:05:15,433 --> 00:05:18,066
+mais aussi à réfléchir dans cette langue
+
+112
+00:05:19,000 --> 00:05:21,333
+et ça implique forcément
+
+113
+00:05:21,733 --> 00:05:24,033
+qu'on se projette beaucoup plus
+
+114
+00:05:24,566 --> 00:05:26,666
+dans la culture du pays
+
+115
+00:05:28,233 --> 00:05:30,400
+le plaisir d'apprendre une langue
+
+116
+00:05:30,433 --> 00:05:33,266
+ce n'est pas une question d'utilité en fait
+
+117
+00:05:33,466 --> 00:05:34,966
+il s'agit plus d'une porte
+
+118
+00:05:35,066 --> 00:05:37,933
+qu'on ouvre sur une culture qui nous 
+intéresse
+
+119
+00:05:38,966 --> 00:05:39,966
+dans votre cas
+
+120
+00:05:40,400 --> 00:05:42,066
+vous apprenez le français
+
+121
+00:05:42,200 --> 00:05:43,766
+mais j'imagine que c'est sûrement
+
+122
+00:05:44,233 --> 00:05:46,800
+la culture française qui vous intéresse
+
+123
+00:05:47,633 --> 00:05:50,833
+quand bien même de nouveaux outils permettraient de
+
+124
+00:05:51,033 --> 00:05:52,700
+traduire tout de façon
+
+125
+00:05:53,166 --> 00:05:54,533
+parfaite et directe
+
+126
+00:05:55,533 --> 00:05:56,533
+apprendre une langue
+
+127
+00:05:56,666 --> 00:06:00,566
+ça restera un moyen de se rapprocher 
+d'une culture
+
+128
+00:06:02,400 --> 00:06:05,733
+j'ai par exemple appris beaucoup de choses sur le Japon
+
+129
+00:06:05,966 --> 00:06:09,266
+à travers mon apprentissage du japonais
+
+130
+00:06:10,033 --> 00:06:13,066
+et j'imagine que c'est la même chose
+
+131
+00:06:13,633 --> 00:06:16,833
+pour vous par rapport à la culture 
+française
+
+132
+00:06:20,466 --> 00:06:23,666
+enfin je pense que se poser la question de
+
+133
+00:06:23,733 --> 00:06:25,766
+l'utilité d'apprendre une langue
+
+134
+00:06:26,200 --> 00:06:28,833
+ça suppose qu'apprendre une langue 
+c'est difficile
+
+135
+00:06:28,966 --> 00:06:30,233
+c'est ennuyeux
+
+136
+00:06:30,433 --> 00:06:32,866
+et que finalement on n'a pas envie de le faire
+
+137
+00:06:34,200 --> 00:06:35,266
+et là je pense
+
+138
+00:06:35,366 --> 00:06:38,000
+qu'il y a des manières de contourner ce problème
+
+139
+00:06:38,366 --> 00:06:41,400
+de rendre l'apprentissage plus 
+intéressant
+
+140
+00:06:42,533 --> 00:06:45,900
+premièrement il y a l'approche par 
+l'immersion
+
+141
+00:06:45,966 --> 00:06:49,200
+qui pousse à regarder ou à lire du contenu
+
+142
+00:06:49,633 --> 00:06:51,066
+le plus rapidement possible
+
+143
+00:06:51,533 --> 00:06:53,666
+pour s'imprégner de la langue
+
+144
+00:06:55,233 --> 00:06:58,700
+c'est aussi une manière de mettre un premier pas
+
+145
+00:06:58,966 --> 00:07:01,100
+dans la culture concernée
+
+146
+00:07:02,966 --> 00:07:06,066
+et au-delà de juste apprendre une langue
+
+147
+00:07:06,333 --> 00:07:08,666
+on se retrouve donc à apprendre
+
+148
+00:07:09,000 --> 00:07:11,100
+de nouvelles choses sur une culture
+
+149
+00:07:11,200 --> 00:07:13,066
+ce qui est très intéressant
+
+150
+00:07:15,633 --> 00:07:17,600
+pour ce qui est du côté
+
+151
+00:07:18,200 --> 00:07:20,000
+fastidieux de l'apprentissage
+
+152
+00:07:20,433 --> 00:07:22,366
+d'une langue
+
+153
+00:07:22,566 --> 00:07:25,933
+fastidieux qui signifie fatiguant et ennuyeux
+
+154
+00:07:26,866 --> 00:07:30,133
+j'aime bien faire le parallèle avec la course à pied
+
+155
+00:07:30,933 --> 00:07:32,133
+quand on y réfléchit
+
+156
+00:07:32,200 --> 00:07:33,933
+la course à pied c'est très ennuyeux
+
+157
+00:07:34,133 --> 00:07:36,466
+on court tout droit pendant plusieurs minutes
+
+158
+00:07:36,633 --> 00:07:37,533
+plusieurs heures
+
+159
+00:07:37,833 --> 00:07:39,133
+et puis c'est fini
+
+160
+00:07:40,133 --> 00:07:43,566
+et pourtant je pratique moi-même la course à pied
+
+161
+00:07:43,866 --> 00:07:47,233
+et c'est là où le parallèle est intéressant je pense
+
+162
+00:07:48,166 --> 00:07:50,366
+j'ai trouvé des similitudes entre
+
+163
+00:07:50,666 --> 00:07:51,733
+les motivations
+
+164
+00:07:51,800 --> 00:07:54,166
+qui nous poussent à faire de la course à pied
+
+165
+00:07:54,966 --> 00:07:57,633
+et les motivations qui peuvent nous pousser à apprendre
+
+166
+00:07:57,800 --> 00:07:58,600
+une langue
+
+167
+00:07:59,000 --> 00:08:01,900
+l'une d'entre elles c'est la notion de progression
+
+168
+00:08:02,833 --> 00:08:04,400
+si on se sent progresser
+
+169
+00:08:04,533 --> 00:08:06,600
+on va être de plus en plus motivé
+
+170
+00:08:06,733 --> 00:08:08,166
+à continuer de travailler
+
+171
+00:08:08,833 --> 00:08:10,966
+pour continuer de progresser
+
+172
+00:08:12,966 --> 00:08:15,533
+dans la course à pied ça va être
+
+173
+00:08:15,933 --> 00:08:17,866
+avec des statistiques par exemple
+
+174
+00:08:18,833 --> 00:08:22,466
+courir une distance dans un certain temps
+
+175
+00:08:22,800 --> 00:08:24,100
+pour la fois d'après
+
+176
+00:08:24,366 --> 00:08:27,400
+essayer d'aller plus vite ou même d'aller plus loin
+
+177
+00:08:28,800 --> 00:08:31,766
+quand on voit des applications comme Strava
+
+178
+00:08:32,000 --> 00:08:33,766
+qui est une sorte de réseau social
+
+179
+00:08:34,400 --> 00:08:37,133
+pour la course à pied pardon
+
+180
+00:08:37,933 --> 00:08:40,700
+les gens partagent leurs performances
+
+181
+00:08:40,700 --> 00:08:44,866
+et du coup on voit nos amis courir à une certaine vitesse
+
+182
+00:08:45,200 --> 00:08:47,033
+et ça nous donne nous aussi
+
+183
+00:08:47,266 --> 00:08:50,066
+l'envie de faire ce genre de performance
+
+184
+00:08:50,966 --> 00:08:52,600
+dès qu'on a un objectif
+
+185
+00:08:52,800 --> 00:08:55,066
+dès qu'on a une envie de progresser
+
+186
+00:08:55,466 --> 00:08:58,333
+le travail même s'il est fastidieux
+
+187
+00:08:58,533 --> 00:09:01,300
+même s'il est fatiguant ou ennuyeux
+
+188
+00:09:01,766 --> 00:09:03,133
+devient intéressant
+
+189
+00:09:03,866 --> 00:09:07,200
+on sait pourquoi on le fait et on est motivé
+
+190
+00:09:07,466 --> 00:09:08,533
+par le résultat
+
+191
+00:09:08,533 --> 00:09:10,200
+dans l'apprentissage d'une langue
+
+192
+00:09:10,333 --> 00:09:12,866
+je pense que c'est une difficulté qu'on peut rencontrer
+
+193
+00:09:13,133 --> 00:09:16,633
+c'est-à-dire que parfois on peut être un peu perdu
+
+194
+00:09:17,033 --> 00:09:19,033
+on ne sait pas vraiment si on progresse
+
+195
+00:09:19,266 --> 00:09:21,566
+on ne sait pas vraiment si on apprend des choses
+
+196
+00:09:21,833 --> 00:09:24,633
+et j'ai trouvé plusieurs façons de
+
+197
+00:09:24,633 --> 00:09:26,633
+stimuler cette motivation
+
+198
+00:09:27,400 --> 00:09:29,400
+c'est là aussi avec des statistiques
+
+199
+00:09:29,400 --> 00:09:32,466
+si on prend des outils comme Anki par exemple
+
+200
+00:09:33,066 --> 00:09:35,266
+il y a des manières de se motiver
+
+201
+00:09:35,533 --> 00:09:39,266
+ça peut être par exemple avec une heat map
+
+202
+00:09:39,666 --> 00:09:42,466
+ou avec un compteur de jours 
+consécutifs
+
+203
+00:09:42,933 --> 00:09:44,633
+durant lesquels on travaille
+
+204
+00:09:46,466 --> 00:09:50,266
+ce genre de statistique nous pousse à 
+être régulier
+
+205
+00:09:50,433 --> 00:09:52,400
+quand on sait qu'on a passé
+
+206
+00:09:52,766 --> 00:09:54,766
+je sais pas 60 jours d'affilée
+
+207
+00:09:55,566 --> 00:09:57,066
+à apprendre une langue
+
+208
+00:09:57,733 --> 00:10:00,033
+on n'a pas envie de casser ce compteur
+
+209
+00:10:00,166 --> 00:10:00,966
+on veut continuer
+
+210
+00:10:01,333 --> 00:10:03,266
+avec le soixante-et-unième jour
+
+211
+00:10:03,566 --> 00:10:06,633
+62e jour et cetera et cetera
+
+212
+00:10:07,766 --> 00:10:10,133
+pour ma part quand j'ai appris le japonais
+
+213
+00:10:10,466 --> 00:10:13,133
+et notamment les caractères japonais
+
+214
+00:10:13,600 --> 00:10:16,000
+je me suis retrouvé avec un compteur de plus de 1000
+
+215
+00:10:16,200 --> 00:10:18,366
+jours sans même m'en rendre compte
+
+216
+00:10:18,366 --> 00:10:20,233
+et plus ça avançait
+
+217
+00:10:20,233 --> 00:10:22,166
+moins j'avais envie de laisser tomber
+
+218
+00:10:22,866 --> 00:10:25,000
+et plus j'étais motivé
+
+219
+00:10:25,200 --> 00:10:27,333
+pardon de continuer coûte que coûte
+
+220
+00:10:28,400 --> 00:10:30,900
+idem pour évaluer notre progression
+
+221
+00:10:31,333 --> 00:10:33,233
+il y a plusieurs façons de le faire
+
+222
+00:10:33,766 --> 00:10:37,100
+il y a des outils par exemple comme migaku
+
+223
+00:10:37,233 --> 00:10:38,200
+que j'utilise
+
+224
+00:10:38,200 --> 00:10:40,900
+qui ont un compteur de mots appris
+
+225
+00:10:40,966 --> 00:10:42,400
+c'est-à-dire qu'on peut voir
+
+226
+00:10:42,733 --> 00:10:44,900
+la progression de notre vocabulaire
+
+227
+00:10:46,366 --> 00:10:48,833
+il y a aussi tout bêtement les tests de langue
+
+228
+00:10:49,166 --> 00:10:51,566
+en français les niveaux C E C R L
+
+229
+00:10:52,266 --> 00:10:54,933
+qui permettent de se situer sur une 
+échelle de niveau
+
+230
+00:10:55,566 --> 00:10:56,600
+l'idée c'est
+
+231
+00:10:56,800 --> 00:10:59,666
+ici c'est que l'apprentissage d'une langue
+
+232
+00:10:59,866 --> 00:11:02,800
+ce n'est pas une compétition avec 
+d'autres personnes
+
+233
+00:11:03,666 --> 00:11:07,133
+mais le sentiment de progression
+
+234
+00:11:07,366 --> 00:11:10,200
+c'est-ce qui continue à nous motiver
+
+235
+00:11:11,666 --> 00:11:12,866
+et cette motivation
+
+236
+00:11:12,866 --> 00:11:13,800
+elle est importante
+
+237
+00:11:13,833 --> 00:11:16,200
+parce que c'est la régularité avec laquelle
+
+238
+00:11:17,000 --> 00:11:20,300
+vous allez travailler qui va vous faire progresser
+
+239
+00:11:21,433 --> 00:11:24,400
+alors même s'il y a des jours où on n'a pas du tout
+
+240
+00:11:24,600 --> 00:11:25,966
+envie de travailler
+
+241
+00:11:26,633 --> 00:11:28,233
+juste prendre 5
+
+242
+00:11:28,233 --> 00:11:31,666
+10 minutes pour conserver son compteur de jours
+
+243
+00:11:31,766 --> 00:11:32,600
+c'est toujours bien
+
+244
+00:11:32,866 --> 00:11:33,833
+pour conclure
+
+245
+00:11:33,966 --> 00:11:36,866
+je pense qu'on aura toujours un intérêt à apprendre une
+
+246
+00:11:37,000 --> 00:11:40,933
+langue notamment cette curiosité pour une culture
+
+247
+00:11:41,766 --> 00:11:43,766
+et pour ce qui est du côté fastidieux
+
+248
+00:11:43,800 --> 00:11:45,366
+de cet apprentissage
+
+249
+00:11:45,633 --> 00:11:46,933
+il y a des méthodes
+
+250
+00:11:47,266 --> 00:11:48,500
+pour les éviter
+
+251
+00:11:50,633 --> 00:11:52,266
+j'espère que ce podcast
+
+252
+00:11:52,566 --> 00:11:53,733
+vous aura plu
+
+253
+00:11:54,133 --> 00:11:57,266
+si c'est le cas n'hésitez pas à laisser un commentaire
+
+254
+00:11:57,366 --> 00:11:59,166
+un like et à vous abonner
+
+255
+00:11:59,633 --> 00:12:01,566
+et je vous dis à la prochaine
+
