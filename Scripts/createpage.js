@@ -44,49 +44,7 @@ function createPodcastPage({ pageName, title, videoId, cover, transcriptFile }) 
 
 
 <body>
-<div class="homepage-header">
-  <div class="header-left">
-    <a href="homepage.html">
-      <img class="logoheader" src="../Images/Homepage/logo_flag_bigger.png" alt="Logo French with Félix">
-    </a>
-  </div>
-
-  <div class="header-center">
-    <div>
-      <button class="header-button">Podcast</button>
-    </div>
-    <div>
-      <button class="header-button">Join the community</button>
-    </div>
-    <div>
-      <button class="header-button">Blog</button>
-    </div>
-    <div>
-      <button class="header-button">About Me</button>
-    </div>
-  </div>
-
-  <div class="header-right">
-    <div>
-      <a href="https://www.instagram.com/frenchwithfelix/" target="_blank">           
-        <img class="social-logo" src="../Images/Homepage/Items/instagram.png" alt="Instagram">
-      </a> 
-    </div>
-
-    <div>
-      <a href="https://www.youtube.com/@frenchwithfelix" target="_blank">
-        <img class="social-logo" src="../Images/Homepage/Items/Youtube.png" alt="Youtube">
-      </a>
-    </div>
-
-    <div>
-      <a href="https://www.tiktok.com/@frenchwithfelix" target="_blank">
-        <img class="social-logo" src="../Images/Homepage/items/Tiktok.png" alt="Tiktok">
-      </a>
-    </div>
-  </div>
-</div>
-
+<div id="header" class="homepage-header"></div>
   
 <div class="podcast-body">
     
@@ -125,7 +83,7 @@ function createPodcastPage({ pageName, title, videoId, cover, transcriptFile }) 
 
 </div> 
 
-
+<script src="../Elements/chargeElements.js"></script>
 <script src="../Scripts/srttransfo.js"></script>
 <script src="../Scripts/impVideo.js"></script>
 
