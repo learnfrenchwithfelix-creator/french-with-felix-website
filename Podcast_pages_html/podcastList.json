@@ -7,7 +7,7 @@
     "cover": "Images/Homepage/chihiro_cover.png",
     "transcriptFile": "le-voyage-de-chihiro.srt",
     "outputPath": "../Podcast_pages_html/pourquoi-vous-avez-aime-le-voyage-de-chihiro.html"
-  }, 
+  },
   {
     "id": 1,
     "pageName": "pourquoi-jai-demenage",
@@ -16,5 +16,23 @@
     "cover": "Images/Homepage/pourquoi-jai-demenage.png",
     "transcriptFile": "pourquoi-jai-demenage.srt",
     "outputPath": "../Podcast_pages_html/pourquoi-jai-demenage.html"
+  },
+  {
+    "id": 2,
+    "pageName": "le-running",
+    "title": "Le Running",
+    "videoId": "pe-Tv4lDaCQ",
+    "cover": "le-running.png",
+    "transcriptFile": "le-running.srt",
+    "outputPath": "../Podcast_pages_html/le-running.html"
+  },
+  {
+    "id": 3,
+    "pageName": "vous-pouvez-depenser-autant-que-vous-voulez",
+    "title": "Vous pouvez dépenser autant que vous voulez",
+    "videoId": "6zuM_7Y1LPM",
+    "cover": "vous-pouvez-depenser-autant-que-vous-voulez.png",
+    "transcriptFile": "vous-pouvez-depenser-autant-que-vous-voulez.srt",
+    "outputPath": "../Podcast_pages_html/vous-pouvez-depenser-autant-que-vous-voulez.html"
   }
 ]

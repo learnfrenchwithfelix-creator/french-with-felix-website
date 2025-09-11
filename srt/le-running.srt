@@ -1,45 +1,21 @@
 1
 00:00:00,733 --> 00:00:03,933
 Bonjour à toutes et à tous et bienvenue
-
-2
-00:00:04,333 --> 00:00:06,566
 dans ce nouveau podcast
 
 3
 00:00:06,566 --> 00:00:07,200
-récemment
-
-4
-00:00:07,266 --> 00:00:08,733
+récemment,
 j'ai l'impression que tout le monde
-
-5
-00:00:09,000 --> 00:00:10,733
-se met à la course à pied
-
-6
-00:00:11,233 --> 00:00:13,133
+se met à la course à pied, 
 que tout le monde se met au running
 
 7
 00:00:13,933 --> 00:00:16,600
-et je trouve ça assez surprenant
-
-8
-00:00:16,833 --> 00:00:19,400
+et je trouve ça assez surprenant.
 c'est surprenant parce que finalement
-
-9
-00:00:19,633 --> 00:00:23,200
-c'est un sport qui paraît assez ennuyeux
-
-10
-00:00:23,966 --> 00:00:27,066
+c'est un sport qui paraît assez ennuyeux,
 ce n'est pas un sport qui a l'air très amusant
-
-11
-00:00:27,566 --> 00:00:29,500
 au premier regard
 
 12

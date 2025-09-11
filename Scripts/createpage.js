@@ -126,13 +126,30 @@ function createPodcastPage({ pageName, title, videoId, cover, transcriptFile }) 
 </div> 
 
 
-<script src="https://www.youtube.com/iframe_api"></script>
 <script src="../Scripts/srttransfo.js"></script>
 <script src="../Scripts/impVideo.js"></script>
+
 <script class="js-frameYT"> 
+  
+  // This code loads the IFrame Player API code asynchronously.
+    var tag = document.createElement('script');
+
+    tag.src = "https://www.youtube.com/iframe_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
   // ID Youtube
-  onYouTubeIframeAPIReady('${videoId}');
+  var player;
+  var videoIdToLoad = "${videoId}"; // change selon ta page
+
+  window.onYouTubeIframeAPIReady = function() {
+    player = new YT.Player('player', {
+      videoId: videoIdToLoad
+    });
+  }
+
 </script>
+
 <script class="js-srtimport">
   // CHANGER LE SRT IMPORTE
   loadTranscript('../srt/${transcriptFile}', 'transcript');
@@ -158,3 +175,7 @@ function createPodcastPage({ pageName, title, videoId, cover, transcriptFile }) 
 
 
 createPodcastPage({ pageName, title, videoId, cover, transcriptFile });
+
+
+
+// node createPage.js chihiro "Pourquoi vous avez aimé le voyage de Chihiro ?" rpy1qU1pAKA cover.jpg le-voyage-de-chihiro.srt

@@ -1,15 +1,12 @@
 var player;
 
-  function onYouTubeIframeAPIReady(videoId) {
+  function onYouTubeIframeAPIReady() {
     player = new YT.Player('player', {
       height: '360',
       width: '640',
       videoId, // CHANGER LE ID
     });
   }
-
-    
-
 
   document.addEventListener("click", function(e) {
     var p = e.target.closest("p");
