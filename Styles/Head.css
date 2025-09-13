@@ -1,7 +1,7 @@
     .homepage-header {
       background-color: white;
       padding: 0 clamp(0.9rem, 3vw, 8.1rem);
-      height: clamp(3.75rem, 8.5vw + 0.8em, 7.5rem);
+      height: clamp(3.75rem, 8.5vw + 0.8em, 7rem);
       display: flex;
       justify-content: center;
       align-items: center;

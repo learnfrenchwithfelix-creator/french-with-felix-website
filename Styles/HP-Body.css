@@ -141,19 +141,20 @@
   }
 
   .podcast-image {
-    width: 100%;
-    height: 100%;
-    flex: 0 0 60%;
+    display: flex;
+    justify-content: center; /* centre horizontalement */
+    align-items: flex-start;
+    flex: 0 0 50%;
   }
 
   .podcast-image img {
-    width: 100%;
     height: 100%;
+    width: 110%;
     object-fit: cover;
   }
 
   .podcast-titre {
-    flex: 0 0 25%;
+    flex: 0 0 40%;
     margin: 15px 15px 0 15px;
     font-size: 18px;
     font-weight: 400;
@@ -161,7 +162,6 @@
   }
 
   .podcast-titre-en {
-    flex: 0 0 15%;
     font-size: 12px;
     font-style: italic;
   }

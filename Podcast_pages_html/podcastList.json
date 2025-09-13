@@ -4,7 +4,7 @@
     "pageName": "pourquoi-vous-avez-aime-le-voyage-de-chihiro",
     "title": "Pourquoi vous avez aimé le Voyage de Chihiro ?",
     "videoId": "rpy1qU1pAKA",
-    "cover": "Images/Homepage/chihiro_cover.png",
+    "cover": "chihiro_cover.png",
     "transcriptFile": "le-voyage-de-chihiro.srt",
     "outputPath": "../Podcast_pages_html/pourquoi-vous-avez-aime-le-voyage-de-chihiro.html"
   },
@@ -13,7 +13,7 @@
     "pageName": "pourquoi-jai-demenage",
     "title": "Pourquoi j'ai déménagé ?",
     "videoId": "axQ_JmzaahIA",
-    "cover": "Images/Homepage/pourquoi-jai-demenage.png",
+    "cover": "pourquoi-jai-demenage.png",
     "transcriptFile": "pourquoi-jai-demenage.srt",
     "outputPath": "../Podcast_pages_html/pourquoi-jai-demenage.html"
   },

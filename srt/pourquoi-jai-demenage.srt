@@ -1,598 +1,195 @@
 1
 00:00:00,533 --> 00:00:02,766
-bonjour à toutes et à tous
-
-2
-00:00:03,466 --> 00:00:05,800
+bonjour à toutes et à tous 
 et bienvenue dans ce nouveau podcast
 
 3
 00:00:07,733 --> 00:00:10,733
-pourquoi est-ce que j'ai déménagé
-
-4
-00:00:11,166 --> 00:00:15,333
-alors je suis originaire du sud-ouest
-
-5
-00:00:15,933 --> 00:00:16,733
-de la France
-
-6
-00:00:17,400 --> 00:00:20,400
-je viens d'une ville qui s'appelle Anglet
-
-7
-00:00:21,166 --> 00:00:23,566
-et je suis né dans la ville juste à côté
-
-8
-00:00:24,700 --> 00:00:26,866
-qui s'appelle Bayonne
-
-9
-00:00:27,366 --> 00:00:30,900
-toutes les deux se situent dans le sud-ouest de la france
-
-10
-00:00:32,466 --> 00:00:35,700
+pourquoi est-ce que j'ai déménagé ? 
+alors je suis originaire du sud-ouest 
+de la France. Je viens d'une ville qui s'appelle Anglet 
+et je suis né dans la ville juste à côté 
+qui s'appelle Bayonne. Toutes les deux se situent dans le sud-ouest de la France 
 et j'ai grandi là-bas jusqu'à mes 18 ans
 
 11
 00:00:36,933 --> 00:00:41,266
-c'est une région proche de l'océan et des montagnes
-
-12
-00:00:41,700 --> 00:00:42,566
-que j'aime beaucoup
-
-13
-00:00:43,466 --> 00:00:46,866
-et j'estime vraiment avoir été chanceux
-
-14
-00:00:47,300 --> 00:00:49,300
-d'y avoir grandi
-
-15
-00:00:51,500 --> 00:00:54,200
-cependant au moment de
-
-16
-00:00:54,500 --> 00:00:56,066
-continuer mes études
-
-17
-00:00:56,700 --> 00:00:58,233
-après le lycée donc
-
-18
-00:00:58,666 --> 00:01:00,566
-après mes 18 ans
-
-19
-00:01:01,166 --> 00:01:04,300
-j'ai dû aller habiter dans une autre ville
-
-20
-00:01:04,700 --> 00:01:07,400
-afin de continuer mes études
-
-21
-00:01:07,733 --> 00:01:10,833
+c'est une région proche de l'océan et des montagnes 
+que j'aime beaucoup 
+et j'estime vraiment avoir été chanceux 
+d'y avoir grandi. Cependant au moment de 
+continuer mes études, 
+après le lycée donc, 
+après mes 18 ans, 
+j'ai dû aller habiter dans une autre ville 
+afin de continuer mes études, 
 afin d'accéder aux études supérieures
 
 22
 00:01:11,666 --> 00:01:14,600
-c'est assez classique en france
-
-23
-00:01:14,733 --> 00:01:16,700
-pour les personnes comme moi
-
-24
-00:01:17,133 --> 00:01:20,033
-qui ne viennent pas d'une grande ville
-
-25
-00:01:20,533 --> 00:01:23,100
-de déménager pour ses études
-
-26
-00:01:24,000 --> 00:01:26,800
-on commence donc à vivre seul
-
-27
-00:01:27,100 --> 00:01:28,566
+c'est assez classique en France 
+pour les personnes comme moi 
+qui ne viennent pas d'une grande ville 
+de déménager pour ses études 
+on commence donc à vivre seul 
 à 18 ans
 
 28
 00:01:29,133 --> 00:01:32,900
-j'ai vécu pendant deux ans à Pau
-
-29
-00:01:33,166 --> 00:01:35,100
-une autre ville du sud-ouest
-
-30
-00:01:35,466 --> 00:01:38,200
-un peu plus grande que celle où j'habitais
-
-31
-00:01:38,733 --> 00:01:40,966
-puis j'ai habité deux ans à Bordeaux
-
-32
-00:01:41,466 --> 00:01:45,166
-la ville très connue pour le vin
-
-33
-00:01:45,533 --> 00:01:46,600
-et enfin pour finir
-
-34
-00:01:46,766 --> 00:01:49,966
-j'ai fini par habiter à Paris
-
-35
-00:01:50,166 --> 00:01:53,100
+j'ai vécu pendant deux ans à Pau 
+une autre ville du sud-ouest 
+un peu plus grande que celle où j'habitais 
+puis j'ai habité deux ans à Bordeaux 
+la ville très connue pour le vin 
+et enfin pour finir 
+j'ai fini par habiter à Paris 
 afin de faire des stages dans des entreprises
 
 36
 00:01:53,800 --> 00:01:54,800
-à la suite de quoi
-
-37
-00:01:55,166 --> 00:01:57,400
-j'ai commencé à travailler
-
-38
-00:01:57,966 --> 00:01:59,300
-j'ai commencé à
-
-39
-00:01:59,733 --> 00:02:03,300
+à la suite de quoi 
+j'ai commencé à travailler, 
+j'ai commencé à 
 travailler à 23 ans
 
 40
 00:02:04,666 --> 00:02:08,366
-entre le moment où j'ai fini mes études
-
-41
-00:02:08,933 --> 00:02:09,733
-et maintenant
-
-42
-00:02:10,133 --> 00:02:13,066
-il s'est passé environ 6 ans je dirais
-
-43
-00:02:13,500 --> 00:02:14,733
-j'ai donc vécu
-
-44
-00:02:15,166 --> 00:02:18,100
+entre le moment où j'ai fini mes études 
+et maintenant 
+il s'est passé environ 6 ans je dirais 
+j'ai donc vécu 
 environ 5 à 6 ans à paris
 
 45
 00:02:20,166 --> 00:02:23,300
-et en soi paris c'est une ville que j'aime beaucoup
-
-46
-00:02:23,466 --> 00:02:25,266
-c'est une ville très jolie
-
-47
-00:02:25,666 --> 00:02:27,766
-il y a beaucoup de choses à faire
-
-48
-00:02:28,366 --> 00:02:30,400
-beaucoup de choses à visiter
-
-49
-00:02:30,866 --> 00:02:35,833
+et en soi paris c'est une ville que j'aime beaucoup 
+c'est une ville très jolie 
+il y a beaucoup de choses à faire 
+beaucoup de choses à visiter 
 et on n'a jamais fini de connaître la ville
 
 50
 00:02:36,366 --> 00:02:38,566
-cependant il y a un an
-
-51
-00:02:38,800 --> 00:02:41,500
-on a décidé avec ma femme
-
-52
-00:02:42,300 --> 00:02:46,466
+cependant il y a un an 
+on a décidé avec ma femme 
 de partir voyager pendant un an à 
-l'étranger
-
-53
-00:02:46,900 --> 00:02:49,400
-et en particulier au japon
-
-54
-00:02:49,933 --> 00:02:52,133
-on a pris une année sabbatique
-
-55
-00:02:52,500 --> 00:02:54,266
-une année de pause
-
-56
-00:02:57,100 --> 00:03:02,333
-on avait 29 ans et comme on avait pas de maison
-
-57
-00:03:02,600 --> 00:03:04,733
-ni d'appartement ni d'enfant
-
-58
-00:03:04,966 --> 00:03:06,633
-on s'est dit que c'était le
-
-59
-00:03:07,066 --> 00:03:09,533
+l'étranger 
+et en particulier au japon. On a pris une année sabbatique, 
+une année de pause, 
+on avait 29 ans et comme on avait pas de maison 
+ni d'appartement ni d'enfant 
+on s'est dit que c'était 
 le moment de vivre ce genre d'expérience
 
 60
 00:03:10,866 --> 00:03:14,700
-d'autant plus que depuis notre premier voyage au japon
-
-61
-00:03:15,066 --> 00:03:17,600
-on est tombé amoureux du pays
-
-62
-00:03:18,133 --> 00:03:20,600
-on a commencé à apprendre le japonais
-
-63
-00:03:25,533 --> 00:03:26,700
-pendant ce voyage
-
-64
-00:03:27,066 --> 00:03:29,533
-on a eu la chance de vivre
-
-65
-00:03:30,066 --> 00:03:31,433
-des expériences
-
-66
-00:03:31,800 --> 00:03:34,366
-exceptionnelles mais aussi de rencontrer
-
-67
-00:03:34,733 --> 00:03:36,033
-de nouvelles personnes
+d'autant plus que depuis notre premier voyage au japon 
+on est tombé amoureux du pays 
+on a commencé à apprendre le japonais. Pendant ce voyage 
+on a eu la chance de vivre 
+des expériences 
+exceptionnelles mais aussi de rencontrer 
+de nouvelles personnes.
 
 68
 00:03:37,933 --> 00:03:40,033
-on a entre autres travaillé
-
-69
-00:03:40,500 --> 00:03:43,033
-dans des fermes en faisant ce qu'on appelle
-
-70
-00:03:43,533 --> 00:03:45,000
-du woofing
-
-71
-00:03:45,333 --> 00:03:47,800
-c'est-à-dire qu'on travaille à la ferme
-
-72
-00:03:48,333 --> 00:03:53,500
-et en échange on est nourri et logé gratuitement
-
-73
-00:03:54,166 --> 00:03:58,066
-et à l'occasion de ces expériences
-
-74
-00:03:58,533 --> 00:04:02,566
-on a eu la chance de rencontrer des gens formidables
-
-75
-00:04:02,800 --> 00:04:05,833
-qui nous ont partagé leurs expériences de vie
-
-76
-00:04:07,266 --> 00:04:09,800
-je pense particulièrement à un couple
-
-77
-00:04:10,166 --> 00:04:11,866
-qui nous a accueilli
-
-78
-00:04:12,533 --> 00:04:13,933
-et qui nous a expliqué
-
-79
-00:04:14,100 --> 00:04:16,533
+on a entre autres travaillé 
+dans des fermes en faisant ce qu'on appelle 
+du woofing. C'est-à-dire qu'on travaille à la ferme 
+et en échange on est nourri et logé gratuitement 
+et à l'occasion de ces expériences 
+on a eu la chance de rencontrer des gens formidables 
+qui nous ont partagé leurs expériences de vie 
+je pense particulièrement à un couple 
+qui nous a accueilli 
+et qui nous a expliqué 
 comment ils avaient changé de vie
 
 80
 00:04:17,200 --> 00:04:19,133
-il y a plusieurs années la
-
-81
-00:04:19,466 --> 00:04:21,166
-la femme de ce couple
-
-82
-00:04:21,866 --> 00:04:24,066
-avait découvert qu'elle avait un cancer
-
-83
-00:04:24,600 --> 00:04:28,366
-et elle a décidé de faire un tour du monde en bateau
-
-84
-00:04:28,800 --> 00:04:30,566
-puis en rentrant
-
-85
-00:04:30,933 --> 00:04:32,866
-de changer totalement de vie
-
-86
-00:04:34,733 --> 00:04:35,533
-pour faire court
-
-87
-00:04:35,800 --> 00:04:37,966
-c'est comme ça qu'ils sont devenus
-
-88
-00:04:38,333 --> 00:04:42,400
-agriculteurs et qu'ils ont commencé à accueillir
-
-89
-00:04:42,866 --> 00:04:45,200
+il y a plusieurs années la femme de ce couple 
+avait découvert qu'elle avait un cancer 
+et elle a décidé de faire un tour du monde en bateau 
+puis en rentrant 
+de changer totalement de vie. Pour faire court 
+c'est comme ça qu'ils sont devenus 
+agriculteurs et qu'ils ont commencé à accueillir 
 des personnes en woofing
 
 90
 00:04:46,366 --> 00:04:50,300
- c'est peut-être un peu cliché
-
-91
-00:04:50,500 --> 00:04:54,900
+ c'est peut-être un peu cliché 
 mais je pense que ce genre de partage 
-d'expérience
-
-92
-00:04:55,766 --> 00:04:59,966
-permet un peu de de remettre les choses en ordre
-
-93
-00:05:00,133 --> 00:05:02,733
- également
-
-94
-00:05:02,900 --> 00:05:06,866
-le fait d'être une année entière dans un autre pays
-
-95
-00:05:07,200 --> 00:05:10,500
-loin de notre cadre habituel
-
-96
-00:05:11,200 --> 00:05:14,333
-ça permet aussi de prendre du recul sur sa propre
-
-97
-00:05:14,500 --> 00:05:17,066
-situation sur notre propre vie
+d'expérience 
+permet un peu de de remettre les choses en ordre. Egalement 
+le fait d'être une année entière dans un autre pays 
+loin de notre cadre habituel 
+ça permet aussi de prendre du recul sur sa propre 
+situation, sur notre propre vie
 
 98
 00:05:18,600 --> 00:05:21,833
-je pense donc que ça a été
-
-99
-00:05:22,200 --> 00:05:23,766
-un élément déclencheur
-
-100
-00:05:24,100 --> 00:05:25,966
-qui nous a fait remettre en question
-
-101
-00:05:26,333 --> 00:05:28,500
-la vie qu'on voulait avoir
-
-102
-00:05:30,800 --> 00:05:32,000
-c'est pourquoi
-
-103
-00:05:32,300 --> 00:05:34,133
-on s'est dit qu'en rentrant en france
-
-104
-00:05:34,466 --> 00:05:37,900
-on voulait essayer un autre style de vie
-
-105
-00:05:38,200 --> 00:05:40,933
+je pense donc que ça a été 
+un élément déclencheur 
+qui nous a fait remettre en question 
+la vie qu'on voulait avoir. C'est pourquoi 
+on s'est dit qu'en rentrant en France 
+on voulait essayer un autre style de vie 
 à commencer par l'endroit où on habite
 
 106
 00:05:44,566 --> 00:05:46,100
-la particularité
-
-107
-00:05:46,400 --> 00:05:48,000
-mais je pense que c'est
-
-108
-00:05:48,600 --> 00:05:51,033
-que c'est commun à beaucoup de pays
-
-109
-00:05:52,000 --> 00:05:54,133
-c'est qu'en france
-
-110
-00:05:54,366 --> 00:05:56,366
-les offres de travail
-
-111
-00:05:57,266 --> 00:06:00,033
-se situent surtout dans les grandes villes
-
-112
-00:06:00,700 --> 00:06:02,466
-et surtout à paris
-
-113
-00:06:02,700 --> 00:06:04,666
+la particularité, 
+mais je pense que c'est commun à beaucoup de pays, 
+c'est qu'en France 
+les offres de travail 
+se situent surtout dans les grandes villes 
+et surtout à paris 
 dans la capitale
 
 114
 00:06:04,800 --> 00:06:08,133
-vivre en dehors de ces grandes villes
-
-115
-00:06:08,400 --> 00:06:11,766
-ça veut dire avoir moins de chance de trouver
-
-116
-00:06:12,100 --> 00:06:14,000
-un travail qui nous convient
-
-117
-00:06:14,733 --> 00:06:16,133
-mais cette expérience
-
-118
-00:06:16,466 --> 00:06:18,200
-au japon
-
-119
-00:06:18,566 --> 00:06:20,533
-nous a fait réaliser que la priorité
-
-120
-00:06:20,666 --> 00:06:21,800
-n'était pas nécessairement
-
-121
-00:06:22,366 --> 00:06:23,600
-notre travail
-
-122
-00:06:24,500 --> 00:06:25,966
-et on a décidé
-
-123
-00:06:26,300 --> 00:06:28,400
-euh de prendre un risque
-
-124
-00:06:28,766 --> 00:06:30,533
-qui est de se lancer dans notre
-
-125
-00:06:30,866 --> 00:06:33,766
-dans nos propres aventures professionnelles
-
-126
-00:06:34,300 --> 00:06:35,533
-en habitant euh
-
-127
-00:06:35,866 --> 00:06:37,533
+vivre en dehors de ces grandes villes 
+ça veut dire avoir moins de chance de trouver 
+un travail qui nous convient 
+mais cette expérience 
+au japon 
+nous a fait réaliser que la priorité 
+n'était pas nécessairement 
+notre travail 
+et on a décidé 
+de prendre un risque 
+qui est de se lancer dans notre 
+dans nos propres aventures professionnelles 
+en habitant 
 en dehors d'une grosse ville
 
 128
 00:06:41,466 --> 00:06:42,700
-financièrement
-
-129
-00:06:43,266 --> 00:06:44,600
-notre situation
-
-130
-00:06:44,766 --> 00:06:46,800
-euh sera moins stable
-
-131
-00:06:48,133 --> 00:06:52,066
+financièrement 
+notre situation sera moins stable 
 mais on pourra vivre dans un endroit qui nous plaît
 
 132
 00:06:54,066 --> 00:06:56,200
-au moment où j'enregistre cette vidéo
-
-133
-00:06:56,533 --> 00:06:57,566
-c'est le début
-
-134
-00:06:58,166 --> 00:07:00,000
-de cette nouvelle aventure
-
-135
-00:07:00,733 --> 00:07:02,666
-pour ma part j'ai décidé de devenir
-
-136
-00:07:03,133 --> 00:07:07,900
-professeur de français en ligne et créateur de contenu
-
-137
-00:07:08,300 --> 00:07:11,600
-et c'est le but de cette chaîne de vous fournir
-
-138
-00:07:11,866 --> 00:07:15,833
-du contenu qui vous aide à apprendre le français
-
-139
-00:07:16,733 --> 00:07:18,533
- alors si vous voulez
-
-140
-00:07:18,700 --> 00:07:20,600
-me soutenir dans cette nouvelle aventure
-
-141
-00:07:20,966 --> 00:07:25,033
-et si ce contenu vous aide à progresser en français
-
-142
-00:07:25,700 --> 00:07:26,733
-n'hésitez pas
-
-143
-00:07:27,100 --> 00:07:28,133
-à vous abonner
-
-144
-00:07:28,400 --> 00:07:29,666
-à laisser un like
-
-145
-00:07:30,066 --> 00:07:31,166
+au moment où j'enregistre cette vidéo 
+c'est le début 
+de cette nouvelle aventure. Pour ma part j'ai décidé de devenir 
+professeur de français en ligne et créateur de contenu 
+et c'est le but de cette chaîne de vous fournir 
+du contenu qui vous aide à apprendre le français 
+ alors si vous voulez 
+me soutenir dans cette nouvelle aventure 
+et si ce contenu vous aide à progresser en français 
+n'hésitez pas 
+à vous abonner, 
+à laisser un like, 
 un commentaire
 
 146
 00:07:32,100 --> 00:07:35,166
-j'espère que ce format vous aura plu
-
-147
-00:07:36,166 --> 00:07:37,200
-n'hésitez pas non plus
-
-148
-00:07:37,200 --> 00:07:39,800
-si vous avez des retours ou des critiques
-
-149
-00:07:40,400 --> 00:07:43,166
+j'espère que ce format vous aura plu 
+n'hésitez pas non plus 
+si vous avez des retours ou des critiques 
 à utiliser les commentaires
 

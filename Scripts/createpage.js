@@ -72,16 +72,12 @@ function createPodcastPage({ pageName, title, videoId, cover, transcriptFile }) 
       <div id="player"></div>
     </div>
 
-    <!-- <div class="rs-dl-buttons">
-      <a href="docs/mon-document.pdf" download class="download-btn">
-        Download Script (PDF)
-      </a>
-    </div> -->
-
   </div>
 
 
 </div> 
+
+<div id="footer" class="homepage-footer"></div>
 
 <script src="../Elements/chargeElements.js"></script>
 <script src="../Scripts/srttransfo.js"></script>
