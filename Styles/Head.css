@@ -40,6 +40,7 @@
       height: 3.2rem;
       cursor: pointer;
       border-radius: 20%;
+      text-decoration: none;
     }
 
     .header-button:hover {
