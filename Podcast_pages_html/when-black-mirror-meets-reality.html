@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../Styles/Head.css">
+  <link rel="stylesheet" href="../Styles/podcast-body.css">
+  <link rel="stylesheet" href="../Styles/Footer.css">
+  <title class="js-title">When Black Mirror meets reality</title>  <!-- CHANGER LE TITRE -->
+</head>
+
+
+<body>
+<div id="header" class="homepage-header"></div>
+  
+<div class="podcast-body">
+    
+    <img src="../Images/Homepage/cover.jpg" class="podcast-topcover">
+
+
+    <div class="script-container">
+      
+      <!-- CHANGER LE TITRE -->
+      <div class="script-titre js-titre-podcast"> 
+        When Black Mirror meets reality 
+      </div>
+
+
+      <div class="podcast-script"  id="transcript">
+
+      </div>
+      
+
+    </div>
+
+    <div class="rs-container">
+
+    <div class="player-wrapper" style="max-width:900px; width:100%;">
+      <div id="player"></div>
+    </div>
+
+  </div>
+
+
+</div> 
+
+<div id="footer" class="homepage-footer"></div>
+
+<script src="../Elements/chargeElements.js"></script>
+<script src="../Scripts/srttransfo.js"></script>
+<script src="../Scripts/impVideo.js"></script>
+
+<script class="js-frameYT"> 
+  
+  // This code loads the IFrame Player API code asynchronously.
+    var tag = document.createElement('script');
+
+    tag.src = "https://www.youtube.com/iframe_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+  // ID Youtube
+  var player;
+  var videoIdToLoad = "Ohw3MOWvdU0"; // change selon ta page
+
+  window.onYouTubeIframeAPIReady = function() {
+    player = new YT.Player('player', {
+      videoId: videoIdToLoad
+    });
+  }
+
+</script>
+
+<script class="js-srtimport">
+  // CHANGER LE SRT IMPORTE
+  loadTranscript('../srt/when-black-mirror-meets-reality.srt', 'transcript');
+</script>
+
+  
+</body>
+
+</html>

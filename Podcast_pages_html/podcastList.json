@@ -34,5 +34,122 @@
     "cover": "vous-pouvez-depenser-autant-que-vous-voulez.png",
     "transcriptFile": "vous-pouvez-depenser-autant-que-vous-voulez.srt",
     "outputPath": "../Podcast_pages_html/vous-pouvez-depenser-autant-que-vous-voulez.html"
+  },
+  {
+    "id": 4,
+    "pageName": "est-ce-que-cest-toujours-utile",
+    "title": "Est-ce que c'est toujours utile d'apprendre une langue ?",
+    "videoId": "ykXiCyAF4J0",
+    "cover": "est-ce-que-cest-toujours-utile-dapprendre-une-langue.png",
+    "transcriptFile": "est-ce-que-cest-toujours-utile-dapprendre-une-langue.srt",
+    "outputPath": "../Podcast_pages_html/est-ce-que-cest-toujours-utile.html"
+  },
+  {
+    "id": 5,
+    "pageName": "how-much-do-you-need",
+    "title": "How much do you need ?",
+    "videoId": "cyU8GGEFnNg",
+    "cover": "how-much-do-you-need.png",
+    "transcriptFile": "how-much-do-you-need.srt",
+    "outputPath": "../Podcast_pages_html/how-much-do-you-need.html"
+  },
+  {
+    "id": 6,
+    "pageName": "le-plateau-intermediaire",
+    "title": "Le plateau intermédiaire",
+    "videoId": "FBilXVeHMT8",
+    "cover": "le-plateau-intermediaire.png",
+    "transcriptFile": "le-plateau-intermediaire.srt",
+    "outputPath": "../Podcast_pages_html/le-plateau-intermediaire.html"
+  },
+  {
+    "id": 7,
+    "pageName": "un-nouveau-travail",
+    "title": "Un nouveau travail",
+    "videoId": "f_I-oXVQxzo",
+    "cover": "un-nouveau-travail.png",
+    "transcriptFile": "un-nouveau-travail.srt",
+    "outputPath": "../Podcast_pages_html/un-nouveau-travail.html"
+  },
+  {
+    "id": 8,
+    "pageName": "les-cliches",
+    "title": "Les clichés",
+    "videoId": "GabG6oZqYwQ",
+    "cover": "les-cliches.png",
+    "transcriptFile": "les-cliches.srt",
+    "outputPath": "../Podcast_pages_html/les-cliches.html"
+  },
+  {
+    "id": 9,
+    "pageName": "le-contenu-ideal",
+    "title": "Le contenu idéal",
+    "videoId": "nnHQotPdFJc",
+    "cover": "le-contenu-ideal.png",
+    "transcriptFile": "le-contenu-ideal.srt",
+    "outputPath": "../Podcast_pages_html/le-contenu-ideal.html"
+  },
+  {
+    "id": 10,
+    "pageName": "comprendre-le-francais-fluent",
+    "title": "Comprendre le français fluent",
+    "videoId": "pU2M8EMGdy0",
+    "cover": "comprendre-le-francais-fluent.png",
+    "transcriptFile": "comprendre-le-francais-fluent.srt",
+    "outputPath": "../Podcast_pages_html/comprendre-le-francais-fluent.html"
+  },
+  {
+    "id": 11,
+    "pageName": "le-voyage-est-une-aventure",
+    "title": "Le voyage est une aventure",
+    "videoId": "SjOih_Jpxpg",
+    "cover": "le-voyage-est-une-aventure.png",
+    "transcriptFile": "le-voyage-est-une-aventure.srt",
+    "outputPath": "../Podcast_pages_html/le-voyage-est-une-aventure.html"
+  },
+  {
+    "id": 12,
+    "pageName": "gladiator-review",
+    "title": "Is Gladiator 2 really bad ?",
+    "videoId": "5VlYfV9dFAk",
+    "cover": "gladiator-review.png",
+    "transcriptFile": "gladiator-review.srt",
+    "outputPath": "../Podcast_pages_html/gladiator-review.html"
+  },
+  {
+    "id": 13,
+    "pageName": "sydney-sweeney-a-de-bons-genes",
+    "title": "Sydney Sweeney has great genes",
+    "videoId": "ohDEdTWwP0c",
+    "cover": "sydney-sweeney-a-de-bons-genes.png",
+    "transcriptFile": "sydney-sweeney-a-de-bons-genes.srt",
+    "outputPath": "../Podcast_pages_html/sydney-sweeney-a-de-bons-genes.html"
+  },
+  {
+    "id": 14,
+    "pageName": "when-black-mirror-meets-reality",
+    "title": "When Black Mirror meets reality",
+    "videoId": "Ohw3MOWvdU0",
+    "cover": "when-black-mirror-meets-reality.png",
+    "transcriptFile": "when-black-mirror-meets-reality.srt",
+    "outputPath": "../Podcast_pages_html/when-black-mirror-meets-reality.html"
+  },
+  {
+    "id": 15,
+    "pageName": "from-a-well-paid-job-to-french-teacher",
+    "title": "From a well paid job to French teacher",
+    "videoId": "6j3u_N_LCNo",
+    "cover": "from-a-well-paid-job-to-french-teacher.png",
+    "transcriptFile": "from-a-well-paid-job-to-french-teacher.srt",
+    "outputPath": "../Podcast_pages_html/from-a-well-paid-job-to-french-teacher.html"
+  },
+  {
+    "id": 16,
+    "pageName": "how-chatgpt-can-makes-you-fluent-in-french",
+    "title": "How can Chat GPT makes you fluent in French",
+    "videoId": "oCEb2lGINxU",
+    "cover": "how-chatgpt-can-makes-you-fluent-in-french.png",
+    "transcriptFile": "how-chatgpt-can-makes-you-fluent-in-french.srt",
+    "outputPath": "../Podcast_pages_html/how-chatgpt-can-makes-you-fluent-in-french.html"
   }
 ]

@@ -1,568 +1,234 @@
 1
 00:00:00,066 --> 00:00:02,366
-Aujourd'hui j'avais envie de vous parler
-
-2
-00:00:02,666 --> 00:00:04,866
+Aujourd'hui j'avais envie de vous parler 
 un peu de mon nouveau travail
 
 3
 00:00:06,000 --> 00:00:08,000
-comme vous le savez peut-être
-
-4
-00:00:08,666 --> 00:00:12,533
-j'ai décidé de devenir professeur de français
-
-5
-00:00:13,300 --> 00:00:15,166
-et forcément ça implique
-
-6
-00:00:15,533 --> 00:00:17,000
+comme vous le savez peut-être 
+j'ai décidé de devenir professeur de français 
+et forcément ça implique 
 de donner des cours
 
 7
 00:00:18,300 --> 00:00:19,000
-pour commencer
-
-8
-00:00:19,066 --> 00:00:21,566
-je me suis inscrit sur une plateforme qui s'appelle
-
-9
-00:00:21,700 --> 00:00:23,800
-preply ou preply
-
-10
-00:00:24,533 --> 00:00:26,733
-c'est un site où on peut trouver des
-
-11
-00:00:26,933 --> 00:00:30,300
+pour commencer 
+je me suis inscrit sur une plateforme qui s'appelle 
+preply ou preply, 
+c'est un site où on peut trouver des 
 profs de langue pour prendre des cours en ligne
 
 12
 00:00:31,666 --> 00:00:34,966
-et en tant que prof débutant
-
-13
-00:00:35,466 --> 00:00:36,933
-c'est assez pratique
-
-14
-00:00:37,733 --> 00:00:41,500
-on peut trouver des élèves de différents pays
-
-15
-00:00:41,833 --> 00:00:43,900
+et en tant que prof débutant 
+c'est assez pratique 
+on peut trouver des élèves de différents pays 
 avec des niveaux très variés
 
 16
 00:00:45,533 --> 00:00:48,333
-ça permet de se lancer
-
-17
-00:00:48,733 --> 00:00:52,200
-de se faire la main et surtout de gagner
-
-18
-00:00:52,533 --> 00:00:54,100
-un peu d'expérience
-
-19
-00:00:55,033 --> 00:00:56,366
+ça permet de se lancer 
+de se faire la main et surtout de gagner 
+un peu d'expérience 
 dès les premiers cours
 
 20
 00:00:56,366 --> 00:00:59,466
-alors bien sûr au début c'est un peu impressionnant
-
-21
-00:01:00,066 --> 00:01:02,400
-on n'a pas encore d'expérience
-
-22
-00:01:03,166 --> 00:01:06,366
-mais les élèves eux ont des attentes
-
-23
-00:01:07,266 --> 00:01:09,933
+alors bien sûr au début c'est un peu impressionnant 
+on n'a pas encore d'expérience 
+mais les élèves eux ont des attentes 
 donc parfois on se sent un peu perdu
 
 24
 00:01:11,133 --> 00:01:14,400
-mais pour l'instant ça se passe très bien pour moi
-
-25
-00:01:15,333 --> 00:01:18,600
-ce qui est bien aussi c'est que ce sont des cours
-
-26
-00:01:18,800 --> 00:01:23,133
-payants donc en parallèle de la création de contenu
-
-27
-00:01:23,633 --> 00:01:25,266
-ça me permet de commencer
-
-28
-00:01:25,833 --> 00:01:27,933
+mais pour l'instant ça se passe très bien pour moi 
+ce qui est bien aussi c'est que ce sont des cours 
+payants donc en parallèle de la création de contenu 
+ça me permet de commencer 
 à avoir un petit revenu
 
 29
 00:01:28,733 --> 00:01:31,333
-ce qui est important parce que je n'ai pas d'autre
-
-30
-00:01:31,333 --> 00:01:32,800
-travail à côté
-
-31
-00:01:33,366 --> 00:01:35,566
-c'est un bon compromis
-
-32
-00:01:35,566 --> 00:01:37,433
-pour moi en ce moment
-
-33
-00:01:37,933 --> 00:01:39,400
-je gagne un peu d'argent
-
-34
-00:01:39,833 --> 00:01:41,766
-et je gagne de l'expérience
-
-35
-00:01:42,133 --> 00:01:45,533
+ce qui est important parce que je n'ai pas d'autre 
+travail à côté. 
+C'est un bon compromis 
+pour moi en ce moment: 
+je gagne un peu d'argent 
+et je gagne de l'expérience, 
 je découvre ce nouveau métier petit à petit
 
 36
 00:01:47,533 --> 00:01:50,633
-ce que je trouve aussi super intéressant
-
-37
-00:01:51,266 --> 00:01:53,766
+ce que je trouve aussi super intéressant 
 c'est la diversité des profils
 
 38
 00:01:54,666 --> 00:01:56,900
-actuellement j'ai un élève britannique
-
-39
-00:01:57,000 --> 00:01:59,200
+actuellement j'ai un élève britannique, 
 un américain et deux japonais
 
 40
 00:01:59,933 --> 00:02:03,966
-ils ont chacun un niveau différent et des objectifs
-
-41
-00:02:04,633 --> 00:02:05,600
-différents
-
-42
-00:02:07,400 --> 00:02:11,400
+ils ont chacun un niveau différent et des objectifs 
+différents 
 donc je dois m'adapter à chaque élève
 
 43
 00:02:12,866 --> 00:02:15,066
-certains sont complètement débutants
-
-44
-00:02:15,733 --> 00:02:19,533
-donc il faut réussir à expliquer les bases du français
-
-45
-00:02:20,233 --> 00:02:22,000
-sans que ce soit trop théorique
-
-46
-00:02:22,433 --> 00:02:24,566
+certains sont complètement débutants 
+donc il faut réussir à expliquer les bases du français 
+sans que ce soit trop théorique 
 ni trop ennuyeux
 
 47
 00:02:25,033 --> 00:02:28,566
-faire 1h entière sur la grammaire par exemple
-
-48
-00:02:29,533 --> 00:02:31,200
+faire 1h entière sur la grammaire par exemple 
 c'est rarement très motivant
 
 49
 00:02:32,066 --> 00:02:35,033
-le vrai défi c'est de faire des cours utiles
-
-50
-00:02:35,666 --> 00:02:36,600
-mais aussi vivants
-
-51
-00:02:37,000 --> 00:02:38,233
-agréables à suivre
-
-52
-00:02:38,666 --> 00:02:39,833
-et d'un autre côté
-
-53
-00:02:40,666 --> 00:02:43,133
-j'ai aussi des élèves avec 
-
-54
-00:02:43,600 --> 00:02:44,833
-un bon niveau
-
-55
-00:02:45,466 --> 00:02:46,433
-là l'objectif
-
-56
-00:02:47,133 --> 00:02:50,133
-c'est de leur apporter quelque chose de nouveau
-
-57
-00:02:50,800 --> 00:02:53,466
+le vrai défi c'est de faire des cours utiles 
+mais aussi vivants, 
+agréables à suivre 
+et d'un autre côté 
+j'ai aussi des élèves avec  
+un bon niveau, 
+là l'objectif 
+c'est de leur apporter quelque chose de nouveau 
 tout en gardant des contenus intéressants
 
 58
 00:02:53,966 --> 00:02:55,633
-d'ailleurs
-
-59
-00:02:56,000 --> 00:02:59,166
-avant même de commencer sur preply
-
-60
-00:02:59,433 --> 00:03:01,033
-j'avais fait un petit test
-
-61
-00:03:01,166 --> 00:03:03,666
-j'avais proposé à des amis japonais
-
-62
-00:03:03,733 --> 00:03:06,000
-de leur donner des cours gratuits
-
-63
-00:03:07,033 --> 00:03:10,566
-mais je pense que j'étais un peu trop théorique
-
-64
-00:03:11,066 --> 00:03:13,066
-un peu trop académique
-
-65
-00:03:14,033 --> 00:03:17,100
+d'ailleurs 
+avant même de commencer sur preply 
+j'avais fait un petit test. J'avais proposé à des amis japonais 
+de leur donner des cours gratuits 
+mais je pense que j'étais un peu trop théorique, 
+un peu trop académique 
 et ça a eu l'effet inverse je pense
 
 66
 00:03:17,533 --> 00:03:20,000
-ça les a un peu découragé
-
-67
-00:03:21,600 --> 00:03:24,433
-donc j'ai compris qu'il fallait trouver
-
-68
-00:03:24,433 --> 00:03:26,500
-un meilleur équilibre
-
-69
-00:03:27,233 --> 00:03:29,433
-et c'est cette idée-là
-
-70
-00:03:29,733 --> 00:03:32,266
-que j'essaie d'appliquer maintenant
-
-71
-00:03:33,066 --> 00:03:35,100
-faire des cours utiles
-
-72
-00:03:35,333 --> 00:03:37,033
-mais pas trop scolaires
-
-73
-00:03:37,933 --> 00:03:41,000
-trouver ce juste milieu
-
-74
-00:03:41,433 --> 00:03:44,300
-entre apprentissage sérieux
-
-75
-00:03:44,633 --> 00:03:46,800
-et plaisir d'apprendre
-
-76
-00:03:48,766 --> 00:03:51,733
-c'est aussi ce que j'essaie de faire dans mes contenus
-
-77
-00:03:52,133 --> 00:03:54,866
-podcast vidéo ou même
-
-78
-00:03:55,200 --> 00:03:56,066
+ça les a un peu découragé 
+donc j'ai compris qu'il fallait trouver 
+un meilleur équilibre 
+et c'est cette idée-là 
+que j'essaie d'appliquer maintenant: 
+faire des cours utiles 
+mais pas trop scolaires, 
+trouver ce juste milieu 
+entre apprentissage sérieux 
+et plaisir d'apprendre 
+c'est aussi ce que j'essaie de faire dans mes contenus 
+podcast vidéo ou même 
 les shorts
 
 79
 00:03:59,200 --> 00:04:00,066
-en ce moment
-
-80
-00:04:00,966 --> 00:04:02,466
-je publie surtout des
-
-81
-00:04:02,600 --> 00:04:06,200
-des formats courts pour commencer à avoir 
-
-82
-00:04:06,366 --> 00:04:07,600
-une communauté pardon
-
-83
-00:04:08,966 --> 00:04:10,800
-mais à terme
-
-84
-00:04:10,800 --> 00:04:13,100
-j'aimerais proposer des contenus plus longs
-
-85
-00:04:13,266 --> 00:04:14,466
+en ce moment 
+je publie surtout 
+des formats courts pour commencer à avoir  
+une communauté 
+mais à terme 
+j'aimerais proposer des contenus plus longs, 
 plus immersifs
 
 86
 00:04:15,433 --> 00:04:17,333
-ce que je remarque
-
-87
-00:04:17,833 --> 00:04:19,466
-aussi c'est que sur les réseaux
-
-88
-00:04:20,533 --> 00:04:21,400
-les vidéos
-
-89
-00:04:21,533 --> 00:04:24,100
-qui marchent le mieux sont parfois très simples
-
-90
-00:04:24,733 --> 00:04:26,700
-juste des listes de vocabulaire
-
-91
-00:04:27,200 --> 00:04:28,066
+ce que je remarque 
+aussi c'est que sur les réseaux 
+les vidéos 
+qui marchent le mieux sont parfois très simples, 
+juste des listes de vocabulaire 
 par exemple
 
 92
 00:04:28,933 --> 00:04:30,000
-et ça
-
-93
-00:04:30,066 --> 00:04:33,100
-ça fonctionne très bien en terme de vues et de likes
-
-94
-00:04:34,266 --> 00:04:36,800
-mais est-ce que c'est vraiment utile
-
-95
-00:04:37,266 --> 00:04:38,266
-pour apprendre
-
-96
-00:04:39,200 --> 00:04:40,433
+et ça, 
+ça fonctionne très bien en terme de vues et de likes 
+mais est-ce que c'est vraiment utile 
+pour apprendre 
 je ne suis pas sûr
 
 97
 00:04:41,266 --> 00:04:44,733
-alors je me pose souvent cette question
-
-98
-00:04:45,266 --> 00:04:49,233
-faut-il faire des contenus simples et populaires
-
-99
-00:04:50,033 --> 00:04:54,033
+alors je me pose souvent cette question 
+faut-il faire des contenus simples et populaires 
 ou essayer de créer quelque chose de plus utile
 
 100
 00:04:54,033 --> 00:04:57,833
-selon moi, même si ça touche moins de monde
-
-101
-00:04:59,033 --> 00:05:02,866
-ce que j'essaie de faire c'est du contenu immersif
-
-102
-00:05:03,433 --> 00:05:07,333
-un français un peu plus lent que celui des natifs
-
-103
-00:05:07,733 --> 00:05:11,266
+selon moi, même si ça touche moins de monde 
+ce que j'essaie de faire c'est du contenu immersif 
+un français un peu plus lent que celui des natifs 
 mais plus naturel que les contenus pour débutants
 
 104
 00:05:11,800 --> 00:05:13,300
-parce que souvent entre
-
-105
-00:05:13,466 --> 00:05:16,566
-les vidéos très lentes pour débutant
-
-106
-00:05:16,766 --> 00:05:19,233
-et les vidéos natives trop rapides
-
-107
-00:05:19,266 --> 00:05:21,100
+parce que souvent entre 
+les vidéos très lentes pour débutant 
+et les vidéos natives trop rapides 
 il manque un pont
 
 108
 00:05:21,566 --> 00:05:23,500
-et c'est ce que j'aimerais proposer
-
-109
-00:05:23,633 --> 00:05:25,900
-un contenu intermédiaire
-
-110
-00:05:26,966 --> 00:05:30,600
+et c'est ce que j'aimerais proposer 
+un contenu intermédiaire 
 pour vous aider pardon à progresser sans être perdu
 
 111
 00:05:31,933 --> 00:05:33,633
-et d'ailleurs si vous avez
-
-112
-00:05:33,966 --> 00:05:35,733
-un avis là-dessus
-
-113
-00:05:36,466 --> 00:05:38,233
+et d'ailleurs si vous avez 
+un avis là-dessus 
 n'hésitez pas à me le dire
 
 114
 00:05:39,066 --> 00:05:42,166
-vous trouvez les contenus sur internet trop facile
-
-115
-00:05:42,566 --> 00:05:43,633
-ou trop difficile
-
-116
-00:05:44,866 --> 00:05:47,666
-vous préférez un français très lent
-
-117
-00:05:47,666 --> 00:05:48,966
+vous trouvez les contenus sur internet trop facile 
+ou trop difficile, 
+vous préférez un français très lent 
 ou un peu plus naturel
 
 118
 00:05:50,533 --> 00:05:52,900
-ça m'intéresse d'avoir votre retour
-
-119
-00:05:53,633 --> 00:05:55,766
+ça m'intéresse d'avoir votre retour 
 pour adapter ce que je fais
 
 120
 00:05:58,566 --> 00:05:59,900
-en tout cas
-
-121
-00:06:00,066 --> 00:06:03,833
-en pensant à mon propre apprentissage du japonais
-
-122
-00:06:04,733 --> 00:06:07,300
-je me rends compte que j'ai commencé par des contenus
-
-123
-00:06:07,833 --> 00:06:08,733
-très simples
-
-124
-00:06:09,633 --> 00:06:13,333
-et petit à petit je suis passé à des contenus
-
-125
-00:06:13,966 --> 00:06:14,866
+en tout cas 
+en pensant à mon propre apprentissage du japonais 
+je me rends compte que j'ai commencé par des contenus 
+très simples 
+et petit à petit je suis passé à des contenus 
 plus complexes
 
 126
 00:06:15,566 --> 00:06:16,766
-c'est ça l'idée
-
-127
-00:06:16,766 --> 00:06:20,366
+c'est ça l'idée, 
 créer un parcours qui accompagne cette progression
 
 128
 00:06:21,033 --> 00:06:24,200
-à terme j'aimerais créer des vidéos plus montées
-
-129
-00:06:24,200 --> 00:06:25,700
-plus agréables à regarder
-
-130
-00:06:26,433 --> 00:06:27,966
-des vidéos immersives
-
-131
-00:06:28,400 --> 00:06:30,066
-mais aussi divertissantes
-
-132
-00:06:31,733 --> 00:06:34,666
-des formats où vous oubliez presque que vous êtes
-
-133
-00:06:34,666 --> 00:06:35,733
-en train d'apprendre
-
-134
-00:06:35,800 --> 00:06:36,733
+à terme j'aimerais créer des vidéos plus montées, 
+plus agréables à regarder, 
+des vidéos immersives 
+mais aussi divertissantes, 
+des formats où vous oubliez presque que vous êtes 
+en train d'apprendre 
 le français
 
 135
 00:06:37,733 --> 00:06:40,066
-voilà un peu où j'en suis
-
-136
-00:06:41,066 --> 00:06:42,733
-pour l'instant
-
-137
-00:06:43,400 --> 00:06:47,566
-je continue à faire au moins un podcast par semaine
-
-138
-00:06:48,966 --> 00:06:50,100
-et petit à petit
-
-139
-00:06:50,133 --> 00:06:52,933
+voilà un peu où j'en suis, 
+pour l'instant 
+je continue à faire au moins un podcast par semaine 
+et petit à petit 
 je vais essayer de développer d'autres formats
 
 140
 00:06:54,066 --> 00:06:56,700
-alors si ce podcast vous a plu
-
-141
-00:06:57,033 --> 00:06:59,666
-n'hésitez pas à laisser un like et un commentaire
-
-142
-00:07:00,733 --> 00:07:03,266
+alors si ce podcast vous a plu 
+n'hésitez pas à laisser un like et un commentaire 
 et je vous dis à la prochaine
 

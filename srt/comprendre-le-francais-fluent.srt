@@ -1,877 +1,352 @@
 1
 00:00:00,366 --> 00:00:02,100
-Bonjour à toutes et à tous
-
-2
-00:00:02,166 --> 00:00:04,266
+Bonjour à toutes et à tous 
 et bienvenue dans ce nouveau podcast
 
 3
 00:00:05,033 --> 00:00:07,433
-aujourd'hui on va parler d'un sujet qui je pense
-
-4
-00:00:07,433 --> 00:00:08,666
+aujourd'hui on va parler d'un sujet qui je pense 
 va vous intéresser
 
 5
 00:00:09,733 --> 00:00:10,633
-pourquoi
-
-6
-00:00:10,766 --> 00:00:13,533
-vous ne comprenez pas quand les français parlent
+pourquoi 
+vous ne comprenez pas quand les français parlent ?
 
 7
 00:00:14,833 --> 00:00:15,766
-alors
-
-8
-00:00:16,333 --> 00:00:17,333
-je vous rassure
-
-9
-00:00:17,333 --> 00:00:19,466
+alors 
+je vous rassure 
 déjà c'est le cas dans toutes les langues
 
 10
 00:00:19,633 --> 00:00:21,733
-dès qu'on apprend une nouvelle langue
-
-11
-00:00:22,333 --> 00:00:24,733
-on a une approche assez théorique
-
-12
-00:00:24,966 --> 00:00:26,500
-assez scolaire de la langue
-
-13
-00:00:27,166 --> 00:00:29,200
-et dès qu'on passe à un niveau natif
-
-14
-00:00:29,200 --> 00:00:32,533
-à une langue parlée dans la vie de de tous les jours
-
-15
-00:00:33,133 --> 00:00:34,133
-il y a toujours
-
-16
-00:00:34,166 --> 00:00:37,000
+dès qu'on apprend une nouvelle langue 
+on a une approche assez théorique, 
+assez scolaire de la langue 
+et dès qu'on passe à un niveau natif, 
+à une langue parlée dans la vie de de tous les jours 
+il y a toujours 
 un gros écart qui peut être impressionnant
 
 17
 00:00:39,266 --> 00:00:42,200
-donc le but de cette vidéo
-
-18
-00:00:42,200 --> 00:00:44,666
-c'est plutôt d'essayer de vous expliquer
-
-19
-00:00:45,266 --> 00:00:47,866
-un peu les spécificités du français
-
-20
-00:00:48,266 --> 00:00:49,933
-pour que vous ayez en tête
-
-21
-00:00:50,533 --> 00:00:53,566
-les raisons pour lesquelles vous ne comprenez pas
-
-22
-00:00:53,666 --> 00:00:55,533
+donc le but de cette vidéo 
+c'est plutôt d'essayer de vous expliquer 
+un peu les spécificités du français 
+pour que vous ayez en tête 
+les raisons pour lesquelles vous ne comprenez pas 
 ou vous comprenez difficilement
 
 23
 00:00:55,966 --> 00:00:56,900
-et après
-
-24
-00:00:57,066 --> 00:01:00,600
-j'essaierai de vous donner des pistes pour améliorer ça
-
-25
-00:01:00,966 --> 00:01:02,200
-et pour vous entraîner
-
-26
-00:01:02,533 --> 00:01:05,800
+et après 
+j'essaierai de vous donner des pistes pour améliorer ça 
+et pour vous entraîner 
 à comprendre ce niveau oral de la langue
 
 27
 00:01:06,433 --> 00:01:07,866
-déjà la première raison
-
-28
-00:01:07,866 --> 00:01:09,633
-c'est que comme pour toutes les langues
-
-29
-00:01:09,766 --> 00:01:11,233
-dès qu'on commence à parler
-
-30
-00:01:11,666 --> 00:01:13,433
+déjà la première raison 
+c'est que comme pour toutes les langues 
+dès qu'on commence à parler 
 on va beaucoup contracter
 
 31
 00:01:14,200 --> 00:01:15,566
-l'écriture française
-
-32
-00:01:15,733 --> 00:01:17,266
-elle est assez difficile
-
-33
-00:01:17,266 --> 00:01:18,666
-elle est très normée
-
-34
-00:01:19,000 --> 00:01:20,866
-il y a beaucoup de règles
-
-35
-00:01:21,533 --> 00:01:24,000
-mais dès qu'on bascule dans l'oral
-
-36
-00:01:24,166 --> 00:01:26,733
-dès qu'on commence à parler le français
-
-37
-00:01:26,966 --> 00:01:28,933
+l'écriture française 
+elle est assez difficile, 
+elle est très normée, 
+il y a beaucoup de règles 
+mais dès qu'on bascule dans l'oral, 
+dès qu'on commence à parler le français 
 là c'est beaucoup plus flexible
 
 38
 00:01:29,400 --> 00:01:32,700
-c'est fait de manière à ce que ce soit plus simple
-
-39
-00:01:32,833 --> 00:01:34,000
-à prononcer
-
-40
-00:01:34,000 --> 00:01:35,333
-et c'est normal
-
-41
-00:01:35,400 --> 00:01:37,266
-parce que dans la vie de tous les jours
-
-42
-00:01:37,266 --> 00:01:40,200
-on n'a pas forcément le temps de faire attention
-
-43
-00:01:40,266 --> 00:01:42,766
-à toutes les lettres qu'il y a dans les mots
-
-44
-00:01:42,766 --> 00:01:46,100
-et on doit faire passer des messages assez rapidement
-
-45
-00:01:46,466 --> 00:01:48,633
+c'est fait de manière à ce que ce soit plus simple 
+à prononcer 
+et c'est normal 
+parce que dans la vie de tous les jours 
+on n'a pas forcément le temps de faire attention 
+à toutes les lettres qu'il y a dans les mots 
+et on doit faire passer des messages assez rapidement 
 pour communiquer entre nous
 
 46
 00:01:50,000 --> 00:01:51,433
-donc pour cela
-
-47
-00:01:51,433 --> 00:01:55,500
-on va faire plein de contractions orales
-
-48
-00:01:55,600 --> 00:01:58,200
-donc quand vous apprenez dans des classes
-
-49
-00:01:58,200 --> 00:01:59,700
-ou avec des professeurs
-
-50
-00:01:59,933 --> 00:02:02,366
-quand vous avez un niveau débutant
-
-51
-00:02:02,600 --> 00:02:06,900
-on a tendance à bien écrire à bien articuler chaque mot
-
-52
-00:02:06,900 --> 00:02:08,933
-chaque son qu'on va prononcer
-
-53
-00:02:09,133 --> 00:02:10,766
-et c'est ce qui fait que
-
-54
-00:02:10,766 --> 00:02:13,800
-dès qu'on va le prononcer de manière plus naturelle
-
-55
-00:02:13,966 --> 00:02:16,866
+donc pour cela 
+on va faire plein de contractions orales 
+donc quand vous apprenez dans des classes 
+ou avec des professeurs, 
+quand vous avez un niveau débutant 
+on a tendance à bien écrire à bien articuler chaque mot, 
+chaque son qu'on va prononcer 
+et c'est ce qui fait que 
+dès qu'on va le prononcer de manière plus naturelle 
 ça va être difficile à comprendre
 
 56
 00:02:18,200 --> 00:02:21,666
-il est bien évidemment important de
-
-57
-00:02:21,933 --> 00:02:24,166
-savoir prononcer les mots correctement
-
-58
-00:02:24,666 --> 00:02:27,200
-avant de les prononcer rapidement
-
-59
-00:02:27,200 --> 00:02:28,933
+il est bien évidemment important de 
+savoir prononcer les mots correctement 
+avant de les prononcer rapidement, 
 avant de les contracter
 
 60
 00:02:29,233 --> 00:02:31,966
-c'est un peu comme quand vous apprenez le piano
-
-61
-00:02:31,966 --> 00:02:33,766
-on vous demande d'apprendre à jouer
-
-62
-00:02:34,166 --> 00:02:36,000
-correctement selon des règles
-
-63
-00:02:36,200 --> 00:02:38,033
-pour ensuite prendre
-
-64
-00:02:38,266 --> 00:02:39,300
-plus de liberté
-
-65
-00:02:39,400 --> 00:02:42,166
+c'est un peu comme quand vous apprenez le piano 
+on vous demande d'apprendre à jouer 
+correctement selon des règles 
+pour ensuite prendre 
+plus de liberté 
 une fois que vous maîtrisez les règles de base
 
 66
 00:02:42,866 --> 00:02:44,400
-et c'est pareil en français
-
-67
-00:02:44,400 --> 00:02:46,700
-et pour n'importe quelle langue d'ailleurs
-
-68
-00:02:47,766 --> 00:02:51,866
-mais une fois que vous connaissez la langue basique
-
-69
-00:02:52,033 --> 00:02:54,100
-utilisée selon les règles
-
-70
-00:02:54,433 --> 00:02:56,666
-il faut passer à la langue parlée
-
-71
-00:02:56,666 --> 00:02:58,666
-et c'est là où je vais essayer
-
-72
-00:02:58,933 --> 00:03:00,066
+et c'est pareil en français 
+et pour n'importe quelle langue d'ailleurs 
+mais une fois que vous connaissez la langue basique 
+utilisée selon les règles 
+il faut passer à la langue parlée 
+et c'est là où je vais essayer 
 de vous aider
 
 73
 00:03:00,266 --> 00:03:01,600
-la première chose déjà
-
-74
-00:03:01,633 --> 00:03:03,666
-c'est que comme pour toutes les langues
-
-75
-00:03:03,666 --> 00:03:04,866
-on va contracter
-
-76
-00:03:05,566 --> 00:03:07,166
-et ça il y a des choses qui sont
-
-77
-00:03:07,366 --> 00:03:09,666
+la première chose déjà 
+c'est que comme pour toutes les langues 
+on va contracter 
+et ça il y a des choses qui sont 
 tout le temps contractées de la même manière
 
 78
 00:03:11,200 --> 00:03:12,866
-par exemple si je vous dis
-
-79
-00:03:13,133 --> 00:03:14,066
-"il y a"
-
-80
-00:03:14,066 --> 00:03:16,900
-vous allez vraiment le lire ou vouloir l'entendre
-
-81
-00:03:16,966 --> 00:03:18,100
+par exemple si je vous dis 
+"il y a" 
+vous allez vraiment le lire ou vouloir l'entendre 
 comme "il y a"
 
 82
 00:03:18,933 --> 00:03:19,833
-mais en français
-
-83
-00:03:19,833 --> 00:03:20,733
-enfin
-
-84
-00:03:20,866 --> 00:03:23,333
-quand on parle dans la vie de de tous les jours
-
-85
-00:03:23,400 --> 00:03:25,033
+mais en français, 
+enfin, 
+quand on parle dans la vie de de tous les jours 
 on ne le dit jamais de cette manière
 
 86
 00:03:25,833 --> 00:03:29,500
-on va toujours contracter en disant "ya"
-
-87
-00:03:31,066 --> 00:03:34,366
-et du coup on va toujours prononcer une phrase comme
-
-88
-00:03:35,066 --> 00:03:36,366
-"il y a un problème"
-
-89
-00:03:37,366 --> 00:03:39,566
-de manière plus rapide c'est-à-dire
-
-90
-00:03:39,866 --> 00:03:41,033
+on va toujours contracter en disant "ya" 
+et du coup on va toujours prononcer une phrase comme 
+"il y a un problème" 
+de manière plus rapide c'est-à-dire 
 "ya un problème"
 
 91
 00:03:41,200 --> 00:03:43,366
-c'est pareil avec la négation
-
-92
-00:03:43,366 --> 00:03:46,666
-on vous apprend à la dire en disant "ne ... pas"
-
-93
-00:03:46,966 --> 00:03:48,533
-or quand on parle
-
-94
-00:03:48,566 --> 00:03:52,366
+c'est pareil avec la négation 
+on vous apprend à la dire en disant "ne ... pas" 
+or quand on parle 
 la majorité des francophones n'utilise jamais le "ne"
 
 95
 00:03:53,566 --> 00:03:55,433
-si je reprends ma phrase
-
-96
-00:03:55,666 --> 00:03:57,433
-normalement ça devrait donner
-
-97
-00:03:57,833 --> 00:03:59,633
-"il n'y a pas de problème"
-
-98
-00:04:00,333 --> 00:04:02,400
-mais dans la réalité on va plutôt dire
-
-99
-00:04:02,400 --> 00:04:03,433
+si je reprends ma phrase 
+normalement ça devrait donner 
+"il n'y a pas de problème" 
+mais dans la réalité on va plutôt dire 
 "ya pas de problème"
 
 100
 00:04:03,633 --> 00:04:05,800
-alors une autre chose assez commune
-
-101
-00:04:05,800 --> 00:04:07,833
-c'est-ce qu'on appelle le E caduc
-
-102
-00:04:08,166 --> 00:04:09,966
-le nom vous vous en fichez
-
-103
-00:04:09,966 --> 00:04:10,666
-mais en gros
-
-104
-00:04:10,666 --> 00:04:14,166
-il faut garder en tête qu'on a tendance à couper les E
-
-105
-00:04:14,566 --> 00:04:16,066
-pour raccourcir les mots
-
-106
-00:04:16,433 --> 00:04:19,133
-par exemple si vous dites "vous venez"
-
-107
-00:04:19,733 --> 00:04:23,233
-en général on va le contracter et on va dire "vous v'nez"
-
-108
-00:04:23,233 --> 00:04:26,266
-et du coup on va couper ce E pour prononcer le mot
-
-109
-00:04:26,266 --> 00:04:27,266
+alors une autre chose assez commune 
+c'est-ce qu'on appelle le E caduc, 
+le nom vous vous en fichez 
+mais en gros 
+il faut garder en tête qu'on a tendance à couper les E 
+pour raccourcir les mots 
+par exemple si vous dites "vous venez" 
+en général on va le contracter et on va dire "vous v'nez" 
+et du coup on va couper ce E pour prononcer le mot 
 plus rapidement
 
 110
 00:04:28,866 --> 00:04:30,833
-ça peut être le cas aussi dans
-
-111
-00:04:30,933 --> 00:04:32,333
-"il n'y a pas de problème"
-
-112
-00:04:33,033 --> 00:04:34,533
-on va dire "ya pas d'problème"
-
-113
-00:04:35,166 --> 00:04:39,033
+ça peut être le cas aussi dans 
+"il n'y a pas de problème" 
+on va dire "ya pas d'problème" 
 et on va couper un E pour prononcer plus rapidement
 
 114
 00:04:39,866 --> 00:04:41,933
-ça va être le cas aussi avec "je peux"
-
-115
-00:04:42,166 --> 00:04:44,333
+ça va être le cas aussi avec "je peux" 
 où on va souvent dire "j'peux"
 
 116
 00:04:44,566 --> 00:04:46,266
-alors là il y a un deuxième mécanisme
-
-117
-00:04:46,666 --> 00:04:50,666
+alors là il y a un deuxième mécanisme 
 qui est qu'on va contracter et le "je" va se prononcer 
-"sheu"
-
-118
-00:04:51,833 --> 00:04:52,800
-la raison à ça
-
-119
-00:04:52,800 --> 00:04:54,933
-c'est qu'en fait il y a des consonnes qu'on appelle
-
-120
-00:04:55,200 --> 00:04:56,600
-sonores ou sourdes
-
-121
-00:04:57,266 --> 00:05:00,433
-c'est-à-dire que dans le cadre des consonnes sonores
-
-122
-00:05:00,433 --> 00:05:02,700
-on va utiliser nos cordes vocales
-
-123
-00:05:03,200 --> 00:05:05,733
-pour produire le son et dans le cas
-
-124
-00:05:05,766 --> 00:05:07,300
-des consonnes sourdes pardon
-
-125
-00:05:07,400 --> 00:05:09,200
+"sheu". 
+La raison à ça 
+c'est qu'en fait il y a des consonnes qu'on appelle 
+sonores ou sourdes 
+c'est-à-dire que dans le cadre des consonnes sonores 
+on va utiliser nos cordes vocales 
+pour produire le son et dans le cas 
+des consonnes sourdes pardon 
 on ne les utilise pas
 
 126
 00:05:10,966 --> 00:05:14,266
-la seule différence entre "je" et "sheu"
-
-127
-00:05:14,466 --> 00:05:17,566
-c'est l'utilisation des cordes vocales dans le "je"
-
-128
-00:05:19,066 --> 00:05:21,066
-j'utilise les cordes vocales
-
-129
-00:05:21,066 --> 00:05:23,033
-ce qui fait que ça devient sonore
-
-130
-00:05:23,233 --> 00:05:25,233
+la seule différence entre "je" et "sheu" 
+c'est l'utilisation des cordes vocales dans le "je" 
+j'utilise les cordes vocales 
+ce qui fait que ça devient sonore, 
 c'est moins sec on va dire
 
 131
 00:05:26,466 --> 00:05:27,400
-et en fait
-
-132
-00:05:27,400 --> 00:05:30,333
-quand on fait des liaisons comme dans "je peux"
-
-133
-00:05:30,800 --> 00:05:33,700
-on a un problème qui est que le "je" est sonore
-
-134
-00:05:33,766 --> 00:05:35,200
-et le P de "peux"
-
-135
-00:05:35,433 --> 00:05:36,366
+et en fait 
+quand on fait des liaisons comme dans "je peux" 
+on a un problème qui est que le "je" est sonore 
+et le P de "peux" 
 est sourd
 
 136
 00:05:36,833 --> 00:05:39,600
-c'est-à-dire qu'on n'utilise pas les cordes vocales
-
-137
-00:05:39,633 --> 00:05:40,566
+c'est-à-dire qu'on n'utilise pas les cordes vocales 
 pour dire "peux"
 
 138
 00:05:41,600 --> 00:05:44,600
-là du coup pour pouvoir prononcer rapidement
-
-139
-00:05:44,600 --> 00:05:47,600
-on va devoir décider si on utilise les cordes vocales
-
-140
-00:05:47,666 --> 00:05:48,600
-dans les deux cas
-
-141
-00:05:48,966 --> 00:05:50,100
-ou l'inverse
-
-142
-00:05:51,000 --> 00:05:54,166
+là du coup pour pouvoir prononcer rapidement 
+on va devoir décider si on utilise les cordes vocales 
+dans les deux cas 
+ou l'inverse 
 et en général ici on ne va pas du tout les utiliser
 
 143
 00:05:54,666 --> 00:05:56,900
-ce qui fait que le "je" va devenir "sheu"
-
-144
-00:05:57,266 --> 00:05:59,000
+ce qui fait que le "je" va devenir "sheu" 
 et on va dire "sh'peux"
 
 145
 00:05:59,333 --> 00:06:02,000
-voilà vous pouvez essayer de faire la contraction
-
-146
-00:06:02,033 --> 00:06:05,033
-tout en utilisant les cordes vocales pour dire le "je"
-
-147
-00:06:05,566 --> 00:06:07,333
-ce sera difficile
-
-148
-00:06:07,633 --> 00:06:09,100
+voilà vous pouvez essayer de faire la contraction 
+tout en utilisant les cordes vocales pour dire le "je" 
+ce sera difficile 
 à dire rapidement
 
 149
 00:06:09,466 --> 00:06:11,966
-il y a des cas de figure où c'est l'inverse
-
-150
-00:06:11,966 --> 00:06:13,900
-mais voilà dans la vie de tous les jours
-
-151
-00:06:14,133 --> 00:06:15,533
-on utilise souvent le "Je"
-
-152
-00:06:15,800 --> 00:06:18,933
-et dès que c'est suivi par une consonne sourde
-
-153
-00:06:19,066 --> 00:06:21,333
-pardon on va avoir tendance à le dire "sheu"
+il y a des cas de figure où c'est l'inverse 
+mais voilà dans la vie de tous les jours 
+on utilise souvent le "Je" 
+et dès que c'est suivi par une consonne sourde 
+on va avoir tendance à le dire "sheu"
 
 154
 00:06:21,866 --> 00:06:23,566
-il faut bien garder en tête que voilà
-
-155
-00:06:23,566 --> 00:06:25,233
-si vous n'entendez pas clairement "je"
-
-156
-00:06:25,533 --> 00:06:27,966
-il faut vous habituer à entendre le son "sheu"
-
-157
-00:06:28,066 --> 00:06:30,133
+il faut bien garder en tête que voilà 
+si vous n'entendez pas clairement "je" 
+il faut vous habituer à entendre le son "sheu" 
 qui veut finalement dire la même chose
 
 158
 00:06:31,633 --> 00:06:33,833
-et ça c'est pareil pour plein de mots
-
-159
-00:06:33,833 --> 00:06:36,033
-où on va constamment les raccourcir
-
-160
-00:06:36,066 --> 00:06:38,066
+et ça c'est pareil pour plein de mots 
+où on va constamment les raccourcir 
 pour pouvoir les prononcer très rapidement
 
 161
 00:06:39,233 --> 00:06:42,700
-par exemple si je prends le mot "maintenant"
-
-162
-00:06:43,166 --> 00:06:44,966
-on va avoir tendance
-
-163
-00:06:44,966 --> 00:06:47,133
-à complètement supprimer le "te"
-
-164
-00:06:47,400 --> 00:06:48,733
+par exemple si je prends le mot "maintenant" 
+on va avoir tendance 
+à complètement supprimer le "te" 
 pour dire "main'nant"
 
 165
 00:06:51,400 --> 00:06:55,900
-et ça on on pourrait en faire une vidéo entière
-
-166
-00:06:55,933 --> 00:06:58,000
-sur tous les mots et sur leurs utilisations
-
-167
-00:06:58,000 --> 00:06:59,766
-dans la vie de tous les jours
-
-168
-00:07:00,466 --> 00:07:03,600
-mais la vraie solution je pense c'est
-
-169
-00:07:04,366 --> 00:07:06,633
-d'arriver à faire de l'immersion
-
-170
-00:07:06,633 --> 00:07:08,966
+et ça on on pourrait en faire une vidéo entière 
+sur tous les mots et sur leurs utilisations 
+dans la vie de tous les jours 
+mais la vraie solution je pense c'est 
+d'arriver à faire de l'immersion 
 avec des contenus qui soient plus naturels
 
 171
 00:07:09,633 --> 00:07:11,400
-parce que par exemple quand
-
-172
-00:07:11,633 --> 00:07:13,900
-j'enregistre ce genre de podcast
-
-173
-00:07:14,400 --> 00:07:15,600
-je fais attention
-
-174
-00:07:15,933 --> 00:07:17,500
-à parler doucement
-
-175
-00:07:17,666 --> 00:07:19,066
+parce que par exemple quand 
+j'enregistre ce genre de podcast 
+je fais attention 
+à parler doucement 
 à parler lentement
 
 176
 00:07:19,533 --> 00:07:23,000
-et je peux avoir parfois tendance à prononcer voilà
-
-177
-00:07:23,266 --> 00:07:25,433
-correctement les mots pour que ce soit
-
-178
-00:07:26,133 --> 00:07:28,766
+et je peux avoir parfois tendance à prononcer 
+correctement les mots pour que ce soit 
 facile pour vous à comprendre
 
 179
 00:07:28,833 --> 00:07:31,366
-parce que l'idée c'est que ce soit accessible
-
-180
-00:07:31,800 --> 00:07:34,766
-mais du coup ça peut créer un contenu
-
-181
-00:07:35,000 --> 00:07:36,633
-qui est un peu décalé
-
-182
-00:07:37,033 --> 00:07:38,166
+parce que l'idée c'est que ce soit accessible 
+mais du coup ça peut créer un contenu 
+qui est un peu décalé 
 avec la réalité
 
 183
 00:07:38,733 --> 00:07:41,200
-et c'est ce décalage
-
-184
-00:07:41,200 --> 00:07:44,366
+et c'est ce décalage 
 qu'il faut réussir à combler au fur et à mesure
 
 185
 00:07:46,466 --> 00:07:50,300
-c'est difficile parce que quand on crée du contenu
-
-186
-00:07:50,666 --> 00:07:52,900
-on a envie que ce soit accessible
-
-187
-00:07:53,066 --> 00:07:55,800
-et on ne peut pas parler à vitesse normale
-
-188
-00:07:56,466 --> 00:07:58,466
-tout en faisant ces contractions
-
-189
-00:07:59,000 --> 00:08:00,966
-et d'un autre côté
-
-190
-00:08:00,966 --> 00:08:02,366
-c'est aussi difficile
-
-191
-00:08:02,366 --> 00:08:05,433
-parce que si vous regardez un contenu natif
-
-192
-00:08:06,233 --> 00:08:09,666
+c'est difficile parce que quand on crée du contenu 
+on a envie que ce soit accessible 
+et on ne peut pas parler à vitesse normale 
+tout en faisant ces contractions 
+et d'un autre côté 
+c'est aussi difficile 
+parce que si vous regardez un contenu natif 
 directement ce sera très difficile à comprendre
 
 193
 00:08:12,033 --> 00:08:13,866
-l'idée c'est toujours pareil
-
-194
-00:08:13,866 --> 00:08:16,366
-c'est de réussir à trouver un contenu
-
-195
-00:08:16,566 --> 00:08:20,000
-intermédiaire qui jongle un peu avec les deux aspects
-
-196
-00:08:20,433 --> 00:08:22,900
-un aspect plus normé avec des règles
-
-197
-00:08:23,066 --> 00:08:24,766
-et un aspect plus naturel
-
-198
-00:08:25,133 --> 00:08:28,433
+l'idée c'est toujours pareil 
+c'est de réussir à trouver un contenu 
+intermédiaire qui jongle un peu avec les deux aspects, 
+un aspect plus normé avec des règles 
+et un aspect plus naturel 
 où ça va être plus rapide et plus contracté
 
 199
 00:08:28,766 --> 00:08:30,266
-c'est aussi dans votre immersion
-
-200
-00:08:30,266 --> 00:08:32,033
-de chercher du contenu de temps en temps
-
-201
-00:08:32,133 --> 00:08:35,400
-plus naturel pour commencer à vous y habituer
-
-202
-00:08:35,400 --> 00:08:36,633
-petit à petit
-
-203
-00:08:36,766 --> 00:08:38,233
+c'est aussi dans votre immersion 
+de chercher du contenu de temps en temps 
+plus naturel pour commencer à vous y habituer 
+petit à petit 
 même si c'est difficile
 
 204
 00:08:39,566 --> 00:08:42,266
-car encore une fois je pense pas que c'est
-
-205
-00:08:42,266 --> 00:08:45,000
-en apprenant toutes les règles que vous allez
-
-206
-00:08:45,066 --> 00:08:46,800
-habituer vos oreilles
-
-207
-00:08:46,966 --> 00:08:49,366
-à ce genre de modification
-
-208
-00:08:49,466 --> 00:08:50,333
-et d'ailleurs
-
-209
-00:08:50,466 --> 00:08:52,000
-pour rebondir là-dessus
-
-210
-00:08:52,033 --> 00:08:53,533
-c'est peut-être aussi une bonne idée
-
-211
-00:08:53,533 --> 00:08:54,933
-de faire de l'immersion
-
-212
-00:08:55,033 --> 00:08:57,533
-passive avec du contenu natif
-
-213
-00:08:58,066 --> 00:08:59,133
-pour que vos oreilles
-
-214
-00:08:59,200 --> 00:09:01,800
-commencent à s'habituer à cette prononciation
-
-215
-00:09:02,033 --> 00:09:03,500
+car encore une fois je pense pas que c'est 
+en apprenant toutes les règles que vous allez 
+habituer vos oreilles 
+à ce genre de modification 
+et d'ailleurs 
+pour rebondir là-dessus 
+c'est peut-être aussi une bonne idée 
+de faire de l'immersion 
+passive avec du contenu natif 
+pour que vos oreilles 
+commencent à s'habituer à cette prononciation 
 qui est moins articulée
 
 216
 00:09:04,666 --> 00:09:08,066
-voilà j'espère que ce podcast vous aura plu
-
-217
-00:09:08,066 --> 00:09:08,933
-si c'est le cas
-
-218
-00:09:08,933 --> 00:09:12,200
-n'hésitez pas à laisser un like et un commentaire
-
-219
-00:09:12,333 --> 00:09:14,133
+voilà j'espère que ce podcast vous aura plu 
+si c'est le cas 
+n'hésitez pas à laisser un like et un commentaire 
 et je vous dis à la prochaine
 

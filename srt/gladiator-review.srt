@@ -1,157 +1,67 @@
 1
 00:00:00,300 --> 00:00:01,300
-Bonjour tout le monde
-
-2
-00:00:01,600 --> 00:00:04,166
-aujourd'hui on se retrouve pour un nouveau format
-
-3
-00:00:04,300 --> 00:00:06,333
+Bonjour tout le monde 
+aujourd'hui on se retrouve pour un nouveau format 
 qui est une critique de film
 
 4
 00:00:06,833 --> 00:00:09,700
-c'est un format très populaire sur YouTube
-
-5
-00:00:10,166 --> 00:00:11,500
-et je me suis donc demandé
-
-6
-00:00:12,200 --> 00:00:14,100
-pourquoi ne pas l'adapter
-
-7
-00:00:14,100 --> 00:00:15,800
-à un contenu pour les personnes
-
-8
-00:00:16,200 --> 00:00:17,966
+c'est un format très populaire sur YouTube 
+et je me suis donc demandé 
+pourquoi ne pas l'adapter 
+à un contenu pour les personnes 
 qui apprennent le français
 
 9
 00:00:18,366 --> 00:00:21,033
-cette critique va contenir des spoils
-
-10
-00:00:21,233 --> 00:00:22,900
-donc si vous n'avez pas vu le film
-
-11
-00:00:23,066 --> 00:00:25,333
-et que vous ne voulez pas être spoilé
-
-12
-00:00:25,966 --> 00:00:28,366
+cette critique va contenir des spoils 
+donc si vous n'avez pas vu le film 
+et que vous ne voulez pas être spoilé 
 je vous conseille d'aller le voir avant
 
 13
 00:00:28,566 --> 00:00:30,833
-dans cette vidéo je vais donner mon avis
-
-14
-00:00:30,900 --> 00:00:33,633
-mais je ne suis en aucun cas un spécialiste
-
-15
-00:00:34,166 --> 00:00:36,766
-je vais juste dire ce que j'ai pensé du film
-
-16
-00:00:37,300 --> 00:00:38,700
-donc si vous n'êtes pas d'accord
-
-17
-00:00:38,900 --> 00:00:41,433
+dans cette vidéo je vais donner mon avis 
+mais je ne suis en aucun cas un spécialiste 
+je vais juste dire ce que j'ai pensé du film 
+donc si vous n'êtes pas d'accord 
 vous pouvez bien sûr me le dire dans les commentaires
 
 18
 00:00:41,866 --> 00:00:45,800
-Et donc aujourd'hui on va parler de Gladiator 2
-
-19
-00:00:45,800 --> 00:00:46,800
-la suite
-
-20
-00:00:47,666 --> 00:00:48,766
+Et donc aujourd'hui on va parler de Gladiator 2 
+la suite 
 de Gladiator
 
 21
 00:00:49,533 --> 00:00:51,233
-comme son nom l'indique
-
-22
-00:00:51,266 --> 00:00:53,766
-c'est bien évidemment la suite du film
-
-23
-00:00:53,800 --> 00:00:58,200
+comme son nom l'indique 
+c'est bien évidemment la suite du film 
 Gladiator réalisé par Ridley Scott et sorti en 2000
 
 24
 00:00:58,733 --> 00:01:01,600
-ce film avait été un très gros succès
-
-25
-00:01:02,400 --> 00:01:03,800
-après plus de 20 ans
-
-26
-00:01:03,800 --> 00:01:04,666
-le public
-
-27
-00:01:04,666 --> 00:01:07,533
-avait donc de grandes attentes pour ce 2e film
-
-28
-00:01:08,300 --> 00:01:11,066
-avec entre autres de très grands acteurs comme
-
-29
-00:01:11,266 --> 00:01:12,500
-Denzel Washington
-
-30
-00:01:12,866 --> 00:01:15,766
-Pedro Pascal ou même Paul mescal
-
-31
-00:01:15,900 --> 00:01:18,766
+ce film avait été un très gros succès, 
+après plus de 20 ans 
+le public 
+avait donc de grandes attentes pour ce 2e film 
+avec entre autres de très grands acteurs comme 
+Denzel Washington, 
+Pedro Pascal ou même Paul mescal 
 qu'on a pu voir dans le très bon film Aftersun
 
 32
 00:01:18,966 --> 00:01:21,300
-bref un nouveau film de Ridley Scott
-
-33
-00:01:21,300 --> 00:01:23,433
-qui est un suite d'un très grand film
-
-34
-00:01:23,433 --> 00:01:24,833
-avec de grands acteurs
-
-35
-00:01:25,133 --> 00:01:27,666
+bref un nouveau film de Ridley Scott 
+qui est un suite d'un très grand film 
+avec de grands acteurs, 
 c'est un peu quitte ou double
 
 36
 00:01:29,766 --> 00:01:33,433
-dans le premier film on suivait l'histoire de Maximus
-
-37
-00:01:33,566 --> 00:01:37,900
-le film commençait sur une scène de bataille avec Maximus
-
-38
-00:01:38,133 --> 00:01:40,300
-en commandant des armées romaines
-
-39
-00:01:40,733 --> 00:01:43,033
+dans le premier film on suivait l'histoire de Maximus 
+le film commençait sur une scène de bataille avec Maximus 
+en commandant des armées romaines 
 général des légions Félix
 
 40
@@ -160,577 +70,233 @@ oui oui vous avez bien entendu
 
 41
 00:01:50,500 --> 00:01:53,366
-sauf qu'après cette bataille il se passe des trucs
-
-42
-00:01:53,366 --> 00:01:54,733
-pas cool cool
-
-43
-00:01:54,900 --> 00:01:58,533
-et le héros devient esclave puis gladiateur
-
-44
-00:01:58,633 --> 00:02:00,300
+sauf qu'après cette bataille il se passe des trucs 
+pas cool cool 
+et le héros devient esclave puis gladiateur 
 d'où le nom du film
 
 45
 00:02:00,466 --> 00:02:01,233
-alors attention
-
-46
-00:02:01,300 --> 00:02:04,166
-je vais spoiler la fin parce que ça fait quand-même
-
-47
-00:02:04,366 --> 00:02:06,633
-25 ans que le film est sorti
-
-48
-00:02:07,100 --> 00:02:09,600
-mais à la fin Maximus meurt
-
-49
-00:02:10,100 --> 00:02:14,566
-et César qui est joué par joaquin Phoenix meurt aussi
-
-50
-00:02:15,000 --> 00:02:17,666
-mais du coup il reste qui pour ce 2e film
+alors attention 
+je vais spoiler la fin parce que ça fait quand-même 
+25 ans que le film est sorti 
+mais à la fin Maximus meurt 
+et César qui est joué par joaquin Phoenix meurt aussi. Mais du coup il reste qui pour ce 2e film ?
 
 51
 00:02:18,533 --> 00:02:21,200
-et bien ça fait un peu partie du scénario
-
-52
-00:02:21,200 --> 00:02:23,433
-donc si vous ne voulez pas être spoilé
-
-53
-00:02:23,433 --> 00:02:26,033
+et bien ça fait un peu partie du scénario 
+donc si vous ne voulez pas être spoilé 
 il vaut mieux arrêter la vidéo maintenant
 
 54
 00:02:29,466 --> 00:02:31,500
-parce qu'en fait le héros principal
-
-55
-00:02:31,800 --> 00:02:34,933
-joué par Paul mescal et bien c'est Lucius
-
-56
-00:02:35,533 --> 00:02:37,500
-le fils de la sœur de César
-
-57
-00:02:37,800 --> 00:02:40,066
-Lucia et de Maximus
+parce qu'en fait le héros principal 
+joué par Paul mescal et bien c'est Lucius 
+le fils de la sœur de César, 
+Lucia, et de Maximus
 
 58
 00:02:40,600 --> 00:02:41,833
-et honnêtement
-
-59
-00:02:41,833 --> 00:02:44,066
-je trouve que le lien entre les deux films
-
-60
-00:02:44,200 --> 00:02:45,266
-est vraiment pas mal
-
-61
-00:02:46,100 --> 00:02:47,600
-à la mort de César
-
-62
-00:02:47,600 --> 00:02:48,366
-Lucius
-
-63
-00:02:48,366 --> 00:02:51,366
-et sa mère se cachent pour éviter de se faire tuer
-
-64
-00:02:51,533 --> 00:02:52,733
-ce qui est crédible
-
-65
-00:02:52,766 --> 00:02:56,766
-on y croit, Lucius étant techniquement l'héritier
-
-66
-00:02:56,766 --> 00:02:59,100
+et honnêtement 
+je trouve que le lien entre les deux films 
+est vraiment pas mal. A la mort de César, 
+Lucius 
+et sa mère se cachent pour éviter de se faire tuer 
+ce qui est crédible, 
+on y croit, Lucius étant techniquement l'héritier 
 mais encore trop jeune pour gouverner
 
 67
 00:02:59,500 --> 00:03:03,133
-et donc Gladiator 2 commence par une scène de bataille
-
-68
-00:03:03,333 --> 00:03:04,833
-durant laquelle Lucius
-
-69
-00:03:04,833 --> 00:03:07,700
-qui a grandi dans une ville qui se situe en Afrique
-
-70
-00:03:07,700 --> 00:03:11,700
-il me semble, se fait capturer par l'armée romaine
-
-71
-00:03:12,000 --> 00:03:13,500
-et dès l'introduction
-
-72
-00:03:13,500 --> 00:03:16,500
+et donc Gladiator 2 commence par une scène de bataille 
+durant laquelle Lucius 
+qui a grandi dans une ville qui se situe en Afrique 
+il me semble, se fait capturer par l'armée romaine 
+et dès l'introduction 
 j'ai donc commencé à être un peu méfiant
 
 73
 00:03:16,833 --> 00:03:20,733
-premièrement le film s'ouvre sur une scène de bataille
-
-74
-00:03:21,033 --> 00:03:22,366
-comme le premier
-
-75
-00:03:22,433 --> 00:03:25,433
-et j'ai commencé à avoir peur que la structure du film
-
-76
-00:03:25,433 --> 00:03:26,733
+premièrement le film s'ouvre sur une scène de bataille 
+comme le premier 
+et j'ai commencé à avoir peur que la structure du film 
 soit trop similaire
 
 77
 00:03:27,100 --> 00:03:28,066
-deuxièmement
-
-78
-00:03:28,233 --> 00:03:31,600
-au début du film on voit Lucius avec sa femme
-
-79
-00:03:31,733 --> 00:03:34,933
-qui malheureusement se fait tuer pendant la bataille
-
-80
-00:03:35,566 --> 00:03:38,166
-là encore ça rappelle quand-même beaucoup
-
-81
-00:03:38,200 --> 00:03:39,133
-le premier film
-
-82
-00:03:39,166 --> 00:03:42,466
+deuxièmement 
+au début du film on voit Lucius avec sa femme 
+qui malheureusement se fait tuer pendant la bataille 
+là encore ça rappelle quand-même beaucoup 
+le premier film 
 avec Maximus et les événements pas cool cool
 
 83
 00:03:43,033 --> 00:03:45,033
-sauf que c'est beaucoup moins dramatique
-
-84
-00:03:45,333 --> 00:03:47,900
-et j'ai essayé de réfléchir à pourquoi
-
-85
-00:03:48,366 --> 00:03:49,900
-la scène dans le premier film
-
-86
-00:03:50,400 --> 00:03:53,433
+sauf que c'est beaucoup moins dramatique 
+et j'ai essayé de réfléchir à pourquoi 
+la scène dans le premier film 
 est beaucoup plus réussie que celle dans le deuxième
 
 87
 00:03:53,900 --> 00:03:55,133
-je pense que dans
-
-88
-00:03:55,333 --> 00:03:58,566
-Gladiator 2 on nous présente la femme de Lucius
-
-89
-00:03:58,833 --> 00:03:59,766
-très rapidement
-
-90
-00:03:59,766 --> 00:04:02,633
-et on n'a pas vraiment le temps de s'y attacher
-
-91
-00:04:02,833 --> 00:04:03,766
-émotionnellement
-
-92
-00:04:03,833 --> 00:04:06,966
-donc quand elle meurt on est un peu en mode
-
-93
-00:04:08,166 --> 00:04:09,400
-ah dommage
-
-94
-00:04:10,133 --> 00:04:11,166
-tant pis
+je pense que dans 
+Gladiator 2 on nous présente la femme de Lucius 
+très rapidement 
+et on n'a pas vraiment le temps de s'y attacher 
+émotionnellement 
+donc quand elle meurt on est un peu en mode "
+ah dommage, 
+tant pis"
 
 95
 00:04:11,166 --> 00:04:12,633
-alors que dans le premier film
-
-96
-00:04:12,766 --> 00:04:14,633
-l'événement pas cool cool
-
-97
-00:04:14,966 --> 00:04:16,866
-est construit crescendo
-
-98
-00:04:16,933 --> 00:04:20,100
-avec l'armée romaine qui essaie de tuer Maximus
-
-99
-00:04:20,633 --> 00:04:22,533
-qui arrive à se sauver
-
-100
-00:04:22,966 --> 00:04:26,133
-puis qui se dépêche parce qu'il comprend que sa famille
-
-101
-00:04:26,133 --> 00:04:27,366
-est en danger
-
-102
-00:04:27,833 --> 00:04:28,766
-pour que finalement
-
-103
-00:04:28,833 --> 00:04:30,633
-le drame arrive
-
-104
-00:04:30,633 --> 00:04:32,866
+alors que dans le premier film 
+l'événement pas cool cool 
+est construit crescendo 
+avec l'armée romaine qui essaie de tuer Maximus 
+qui arrive à se sauver 
+puis qui se dépêche parce qu'il comprend que sa famille 
+est en danger 
+pour que finalement 
+le drame arrive 
 à son paroxysme à son plus haut niveau
 
 105
 00:04:34,833 --> 00:04:35,633
-parce que finalement
-
-106
-00:04:35,733 --> 00:04:37,466
-on ne s'attache pas vraiment à la femme
-
-107
-00:04:37,466 --> 00:04:39,800
-de Maximus et son fils
-
-108
-00:04:40,366 --> 00:04:43,200
-mais la scène est dramatique parce que Maximus
-
-109
-00:04:43,200 --> 00:04:45,900
+parce que finalement 
+on ne s'attache pas vraiment à la femme 
+de Maximus et son fils 
+mais la scène est dramatique parce que Maximus 
 a tout perdu et qu'il est désespéré
 
 110
 00:04:46,133 --> 00:04:46,800
-et juste avant
-
-111
-00:04:46,933 --> 00:04:50,133
+et juste avant 
 il était quand-même général des légions Félix
 
 112
 00:04:50,133 --> 00:04:54,066
-donc dès cette 1ère scène j'ai été un peu méfiant
-
-113
-00:04:54,066 --> 00:04:56,466
-et honnêtement je préfère vous le dire tout de suite
-
-114
-00:04:56,566 --> 00:04:59,133
+donc dès cette 1ère scène j'ai été un peu méfiant 
+et honnêtement je préfère vous le dire tout de suite 
 mais je n'ai pas vraiment aimé ce film
 
 115
 00:04:59,700 --> 00:05:01,866
-j'ai trouvé la structure du film
-
-116
-00:05:01,866 --> 00:05:04,733
-un peu trop similaire à celle du premier
-
-117
-00:05:05,366 --> 00:05:06,833
-mais j'ai aussi trouvé
-
-118
-00:05:06,966 --> 00:05:11,100
+j'ai trouvé la structure du film 
+un peu trop similaire à celle du premier 
+mais j'ai aussi trouvé 
 l'histoire et les personnages un peu superficiels
 
 119
 00:05:11,366 --> 00:05:14,066
-j'ai eu du mal à m'attacher aux personnages
-
-120
-00:05:14,666 --> 00:05:16,533
-aux problèmes qu'ils rencontrent
-
-121
-00:05:16,533 --> 00:05:19,100
-ou même leurs objectifs dans l'histoire
-
-122
-00:05:19,366 --> 00:05:21,000
-et ça c'est aussi en partie
-
-123
-00:05:21,000 --> 00:05:23,466
-parce que j'ai trouvé le jeu des acteurs un peu
-
-124
-00:05:23,700 --> 00:05:26,300
+j'ai eu du mal à m'attacher aux personnages 
+aux problèmes qu'ils rencontrent 
+ou même leurs objectifs dans l'histoire 
+et ça c'est aussi en partie 
+parce que j'ai trouvé le jeu des acteurs un peu 
 superficiel voir caricatural
 
 125
 00:05:27,166 --> 00:05:28,033
-je m'explique
-
-126
-00:05:28,466 --> 00:05:29,333
-bien évidemment
-
-127
-00:05:29,333 --> 00:05:30,466
-Denzel Washington
-
-128
-00:05:30,600 --> 00:05:31,933
-Pedro Pascal
-
-129
-00:05:31,933 --> 00:05:32,700
-et les autres
-
-130
-00:05:32,866 --> 00:05:34,766
-sont de très bons acteurs
-
-131
-00:05:34,766 --> 00:05:36,400
-mais j'ai eu l'impression que les personnages
-
-132
-00:05:36,666 --> 00:05:39,300
+je m'explique: 
+bien évidemment 
+Denzel Washington, 
+Pedro Pascal 
+et les autres 
+sont de très bons acteurs 
+mais j'ai eu l'impression que les personnages 
 qu'ils jouaient étaient trop caricaturaux
 
 133
 00:05:39,300 --> 00:05:40,900
-que ce soit leur personnalité
-
-134
-00:05:41,266 --> 00:05:42,300
-leurs émotions
-
-135
-00:05:42,766 --> 00:05:44,366
-leurs objectifs dans l'histoire
-
-136
-00:05:44,500 --> 00:05:46,766
+que ce soit leur personnalité, 
+leurs émotions, 
+leurs objectifs dans l'histoire, 
 tout m'a semblé superficiel
 
 137
 00:05:47,133 --> 00:05:50,400
-par exemple les deux frères qui sont je trouve
-
-138
-00:05:50,400 --> 00:05:52,533
-des personnages pas vraiment intéressants
-
-139
-00:05:53,100 --> 00:05:55,233
-on a l'impression qu'on leur a juste dit
-
-140
-00:05:55,666 --> 00:05:59,266
-soyez fous, inconscients et irresponsables
+par exemple les deux frères qui sont je trouve 
+des personnages pas vraiment intéressants 
+on a l'impression qu'on leur a juste dit 
+"soyez fous, inconscients et irresponsables"
 
 141
 00:05:59,266 --> 00:06:01,866
-et si on compare avec le premier film
-
-142
-00:06:02,133 --> 00:06:05,633
-et notamment le personnage joué par joaquin Phoenix
-
-143
-00:06:06,000 --> 00:06:08,333
+et si on compare avec le premier film 
+et notamment le personnage joué par joaquin Phoenix 
 on voit quand-même une grande différence
 
 144
 00:06:08,800 --> 00:06:09,966
-dans le premier film
-
-145
-00:06:09,966 --> 00:06:12,266
-même s'il est aussi un peu fou
-
-146
-00:06:12,366 --> 00:06:15,733
+dans le premier film 
+même s'il est aussi un peu fou 
 on comprend ce que fait César et on y croit
 
 147
 00:06:15,900 --> 00:06:17,166
-tout au long de l'histoire
-
-148
-00:06:17,166 --> 00:06:18,366
-on comprend les émotions
-
-149
-00:06:18,733 --> 00:06:21,466
-et les objectifs des différents personnages
-
-150
-00:06:21,466 --> 00:06:23,366
-et ça rend l'histoire crédible
-
-151
-00:06:23,733 --> 00:06:24,700
+tout au long de l'histoire 
+on comprend les émotions 
+et les objectifs des différents personnages 
+et ça rend l'histoire crédible, 
 on y croit
 
 152
 00:06:24,866 --> 00:06:26,100
-enfin le dernier point
-
-153
-00:06:26,100 --> 00:06:28,433
-pour pas que cette vidéo soit trop longue
-
-154
-00:06:28,733 --> 00:06:30,166
-c'est les effets spéciaux
-
-155
-00:06:30,700 --> 00:06:32,666
+enfin le dernier point 
+pour pas que cette vidéo soit trop longue 
+c'est les effets spéciaux, 
 ils ne sont pas vraiment réalistes
 
 156
 00:06:33,066 --> 00:06:36,733
-ça rejoint le côté superficiel de l'histoire
-
-157
-00:06:37,133 --> 00:06:39,800
-mais ce qui était impressionnant dans le premier film
-
-158
-00:06:39,933 --> 00:06:42,566
-c'est que les combats étaient très réalistes
-
-159
-00:06:43,166 --> 00:06:45,600
+ça rejoint le côté superficiel de l'histoire 
+mais ce qui était impressionnant dans le premier film 
+c'est que les combats étaient très réalistes 
 du moins c'est l'impression qu'on en avait
 
 160
 00:06:45,933 --> 00:06:46,966
-dans le 2e film
-
-161
-00:06:46,966 --> 00:06:48,500
-on a par exemple un moment
-
-162
-00:06:48,533 --> 00:06:50,766
-des animaux qui ressemblent à un mix
-
-163
-00:06:50,766 --> 00:06:52,466
-entre des singes et des chiens
-
-164
-00:06:52,533 --> 00:06:54,866
+dans le 2e film 
+on a par exemple un moment 
+des animaux qui ressemblent à un mix 
+entre des singes et des chiens 
 et qui ne semblent pas du tout réels
 
 165
 00:06:55,733 --> 00:06:58,566
-idem pour le passage dans l'arène
-
-166
-00:06:58,700 --> 00:07:00,533
-en bateau avec des requins
-
-167
-00:07:00,700 --> 00:07:02,466
-même si d'après des historiens
-
-168
-00:07:02,466 --> 00:07:04,000
-il y aurait bien eu des batailles
-
-169
-00:07:04,166 --> 00:07:05,866
-navales dans le Colisée
-
-170
-00:07:06,300 --> 00:07:08,200
-je trouve qu'avec tous les effets spéciaux
-
-171
-00:07:08,200 --> 00:07:10,233
+idem pour le passage dans l'arène 
+en bateau avec des requins, 
+même si d'après des historiens 
+il y aurait bien eu des batailles 
+navales dans le Colisée 
+je trouve qu'avec tous les effets spéciaux 
 ça donne un air un peu Disneyland
 
 172
 00:07:10,733 --> 00:07:13,166
-et tout ça fait qu'on croit moins à l'histoire
-
-173
-00:07:13,933 --> 00:07:15,500
+et tout ça fait qu'on croit moins à l'histoire 
 contrairement au premier film
 
 174
 00:07:16,133 --> 00:07:16,866
-Bref
-
-175
-00:07:16,866 --> 00:07:19,433
-je vais m'arrêter là pour cette 1ère critique
-
-176
-00:07:19,800 --> 00:07:22,833
+Bref 
+je vais m'arrêter là pour cette 1ère critique 
 c'est un nouveau format donc j'espère que ça vous plaira
 
 177
 00:07:23,400 --> 00:07:24,833
-ça demande plus de travail
-
-178
-00:07:25,133 --> 00:07:28,100
-plus d'heures de préparation donc si vous avez aimé
-
-179
-00:07:28,366 --> 00:07:30,833
-n'hésitez pas à laisser des likes ou des commentaires
-
-180
-00:07:31,166 --> 00:07:33,766
-et si vous avez envie que je fasse une vidéo
-
-181
-00:07:33,766 --> 00:07:35,333
-sur un autre film
-
-182
-00:07:35,333 --> 00:07:38,800
+ça demande plus de travail, 
+plus d'heures de préparation donc si vous avez aimé 
+n'hésitez pas à laisser des likes ou des commentaires 
+et si vous avez envie que je fasse une vidéo 
+sur un autre film 
 vous pouvez aussi me donner vos recommandations
 
 183
 00:07:39,066 --> 00:07:40,766
-merci d'avoir regardé jusqu'au bout
-
-184
-00:07:41,000 --> 00:07:42,533
+merci d'avoir regardé jusqu'au bout 
 je vous dis à la prochaine
 

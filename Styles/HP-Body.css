@@ -111,7 +111,7 @@
   .podcastlist {
     display: flex;
     flex-wrap: wrap;
-    max-width: 90vw; /* limite la largeur */
+    max-width: 1500px; /* limite la largeur */
     margin: 0 auto;    /* centre le container dans la page */
     width: 100%;       /* prend toute la largeur dispo, mais limité par max-width */
     gap: 40px;

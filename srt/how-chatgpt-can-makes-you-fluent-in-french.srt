@@ -1,0 +1,458 @@
+1
+00:00:00,400 --> 00:00:01,600
+Est-ce qu'il est vraiment 
+facile d'apprendre une langue avec chat GPT ?
+
+3
+00:00:05,866 --> 00:00:09,400
+le plus grand paradoxe pour l'apprentissage des langues 
+c'est qu'avec l'intelligence artificielle 
+il n'a jamais été aussi inutile d'apprendre une langue 
+et en même temps ça n'a jamais été aussi facile
+
+7
+00:00:20,500 --> 00:00:22,033
+et ce paradoxe 
+il est valable pour tout ce qui touche 
+à la connaissance. 
+Nous n'avons jamais eu accès à autant de connaissance 
+et de savoir gratuitement 
+et pourtant ça nous a jamais été aussi inutile
+
+13
+00:00:36,633 --> 00:00:39,500
+à quoi bon apprendre l'histoire de France 
+alors que Chat GPT peut vous faire un résumé complet 
+en quelques secondes. 
+Pourquoi apprendre une langue 
+alors que tout est de plus en plus traduit 
+automatiquement. 
+Sur YouTube par exemple 
+vous avez de plus en plus de vidéos 
+directement 
+traduites et doublées dans n'importe quelle langue 
+vous pouvez même regarder Mister Beast en français
+
+24
+00:01:05,400 --> 00:01:07,933
+j'ai recréé chaque décor de Squid Game 
+dans la vraie vie 
+et celui qui 
+parmi ces 456 personnes 
+survit le plus longtemps 
+gagnera 456 000 dollars
+
+30
+00:01:14,900 --> 00:01:16,766
+idem si vous êtes au Japon 
+en Chine ou dans n'importe quel pays qui utilise 
+un autre alphabet que le vôtre 
+il vous suffit de sortir 
+Google traduction et d'utiliser l'appareil photo, 
+par magie, 
+tout est traduit et tout est directement accessible 
+sans effort
+
+38
+00:01:34,933 --> 00:01:36,000
+à cette question 
+pourquoi apprendre une langue 
+ma réponse est plutôt simple: 
+c'est juste que c'est intéressant, 
+c'est amusant, 
+c'est stimulant, 
+ça fait travailler notre mémoire, 
+notre cerveau, 
+notre façon de réfléchir 
+et ça nous ouvre des portes sur d'autres cultures
+
+48
+00:01:55,133 --> 00:01:57,266
+tout ça c'est assez évident 
+ce que je veux dire c'est que toutes ces technologies 
+visent plutôt à répondre à une contrainte
+
+51
+00:02:04,033 --> 00:02:05,366
+en France, par exemple, 
+parler anglais 
+c'est une compétence qui peut être valorisée 
+dans le cadre du travail 
+car ça permet de travailler avec des personnes 
+de n'importe quel pays
+
+57
+00:02:16,666 --> 00:02:19,800
+et je pense que ça va être de moins en moins valorisé 
+jusqu'à devenir inutile. 
+Mais si on compare avec d'autres disciplines 
+on peut facilement comprendre 
+pourquoi l'apprentissage des langues 
+ne va pas disparaître
+
+63
+00:02:32,033 --> 00:02:33,966
+personnellement j'ai peur du vide 
+donc quand je vois des gens faire de l'escalade 
+j'ai juste envie de leur dire: 
+qu'est-ce que tu fous ?? 
+pourquoi t'es accroché au bout d'une corde 
+à 30m de haut ?? 
+on a inventé les hélicoptères, 
+les ascenseurs 
+mais non certaines personnes 
+s'obstinent à vouloir monter des falaises 
+parfois même sans sécurité
+
+74
+00:02:56,400 --> 00:02:59,566
+et ça c'est applicable à beaucoup de discipline: 
+tous les gens qui courent des marathons 
+il faudrait peut-être leur dire qu'on a inventé 
+la voiture
+
+78
+00:03:07,266 --> 00:03:08,700
+bref ce que je veux dire 
+c'est que malgré les évolutions technologiques 
+ça vaudra toujours le coup d'apprendre une langue. 
+On apprend pas une langue pour répondre à une contrainte, 
+on apprend une langue parce que c'est intéressant
+
+83
+00:03:22,266 --> 00:03:25,166
+la question maintenant c'est donc de savoir 
+comment utiliser cette technologie 
+pour faciliter son apprentissage. 
+Comment utiliser chat GPT 
+pour apprendre plus facilement
+
+88
+00:03:36,666 --> 00:03:38,266
+et je vais donc vous présenter 
+ce que je fais pour mon apprentissage du japonais
+
+90
+00:03:42,200 --> 00:03:44,500
+mais et j'insiste sur ce mais, 
+chat GPT ne va pas vous rendre bilingue.  
+Si vous voulez devenir bilingue 
+il faut construire une habitude 
+c'est-à-dire passer 15 
+30 minutes voir 1h par jour 
+à apprendre le français 
+ou n'importe quelle autre langue
+
+98
+00:04:02,666 --> 00:04:04,533
+Chat GPT est un outil 
+et vous devez-vous en servir 
+vous ne devez pas attendre 
+qu'il fasse tout à votre place
+
+102
+00:04:10,900 --> 00:04:12,533
+bon on peut commencer 
+la première étape c'est de faire connaissance 
+on va appeler ça le Weaknesse Targeting. 
+Ce que je veux dire 
+c'est que la force de Chat GPT 
+c'est qu'il va s'adapter à vos besoins, 
+il va prendre en compte 
+votre niveau et vos objectifs 
+et ensuite vous pourrez lui demander 
+tout ce que vous voulez 
+et il s'y adaptera
+
+113
+00:04:36,966 --> 00:04:40,533
+au fur et à mesure que vous échangez avec lui 
+dans la langue que vous apprenez 
+il va identifier vos faiblesses et il pourra ensuite 
+vous aider à les améliorer
+
+117
+00:04:49,800 --> 00:04:50,433
+pour ça 
+vous pouvez commencer par quelque chose comme: 
+je suis A2 en français, 
+afin de m'améliorer 
+est-ce qu'on peut parler en français 
+et tu me corriges mes erreurs si besoin
+
+123
+00:05:03,000 --> 00:05:05,033
+ensuite il faut construire un historique, 
+il faut parler avec lui 
+et d'ailleurs il vous propose même des thèmes
+
+126
+00:05:09,866 --> 00:05:11,333
+tout ce que vous allez écrire 
+et toutes les fautes que vous allez faire vont être 
+utiles parce qu'il va s'en rappeler 
+et ça permettra d'identifier vos faiblesses 
+d'où le nom weaknesses targeting
+
+131
+00:05:24,600 --> 00:05:27,233
+la deuxième étape c'est construire un plan, 
+alors je ne suis pas fan de cette méthode 
+mais je vous la montre quand-même. 
+C'est assez simple 
+en gros: 
+je suis niveau A2 et je veux être B2 dans un an, 
+en travaillant 15 minutes par jour 
+fais-moi un plan détaillé.
+Et il va vous donner un plan 
+plus ou moins détaillé selon ce que vous demandez
+
+141
+00:05:48,333 --> 00:05:49,266
+c'est pratique 
+mais attention 
+il faut prendre ça comme une recommandation, 
+on est tous différents par rapport à l'apprentissage 
+et certaines choses sont plus efficaces que d'autres 
+selon notre profil 
+donc il ne faut surtout pas 
+appliquer bêtement ce que vous dit chat GPT
+
+149
+00:06:08,700 --> 00:06:10,933
+prenez toujours du recul 
+et voyez ses réponses plus comme un conseil. 
+Si je prends sa réponse 
+il va par exemple me dire de faire de la compréhension 
+orale pendant 3 mois 
+puis de la lecture pendant 3 mois
+
+155
+00:06:24,966 --> 00:06:26,666
+c'est un peu déséquilibré 
+et ça ne prend pas vraiment en compte 
+la manière dont vous aimez travailler 
+donc soyez vigilant
+
+159
+00:06:33,533 --> 00:06:36,233
+demandez-lui de l'aide pour construire un plan 
+mais n'hésitez pas à le modifier à votre manière. 
+J'insiste à nouveau là-dessus 
+mais ce qui va faire votre réussite 
+ce n'est pas les objectifs que vous fixez 
+ce sont les habitudes que vous vous créez
+
+165
+00:06:51,266 --> 00:06:52,466
+la troisième étape 
+c'est de pratiquer de la grammaire et du vocabulaire 
+un peu tous les jours. 
+Je fais ça personnellement pour le japonais 
+et en gros 
+je lui ai demandé de m'envoyer tous les jours 
+une règle de grammaire  
+correspondant au niveau que je vise. 
+Pour le japonais c'est le JLPT N2
+
+175
+00:07:14,500 --> 00:07:16,566
+avec bien sûr des phrases d'exemple, 
+ne demandez 
+surtout pas des listes de vocabulaire à chat GPT 
+c'est vraiment pas efficace. 
+Apprenez toujours votre vocabulaire dans des phrases 
+et là c'est donc quelque chose que vous pouvez intégrer 
+directement dans votre apprentissage
+
+182
+00:07:34,166 --> 00:07:35,200
+personnellement 
+je transforme 
+ce qu'il me donne en flashcard avec l'outil Migaku 
+et donc après 
+je revois régulièrement les points de grammaire 
+qu'il m'a donné 
+mais vous pouvez très bien faire la même chose avec 
+Anki
+
+190
+00:07:48,933 --> 00:07:52,800
+la quatrième étape c'est le content adaptation, 
+dans un autre podcast je parlais du contenu idéal 
+qui est en gros un contenu adapté à ce que vous aimez et à votre niveau 
+dans la langue
+
+195
+00:08:03,866 --> 00:08:06,133
+c'est-à-dire quelque chose de juste 
+un peu plus difficile 
+que votre niveau 
+pour vous permettre de pouvoir lire quelque chose 
+d'intéressant 
+sans que ce soit trop difficile 
+et ça chat GPT est très bon pour ça
+
+202
+00:08:19,800 --> 00:08:20,366
+en plus 
+vous ajoutez la fréquence d'utilisation des mots 
+et c'est magique. 
+En gros 
+les langues suivent en quelque sorte une loi de pareto 
+c'est-à-dire que 80% de ce qui est dit ou écrit 
+utilise environ 20% des mots existants. 
+C'est très approximatif 
+mais du coup l'idée 
+c'est de se concentrer sur les mots les plus utilisés, 
+les mots les plus fréquents
+
+213
+00:08:47,066 --> 00:08:49,266
+et donc on peut demander: 
+créer moi un texte de 1000 mots 
+sur l'histoire de l'équipe de France de football 
+adapté à mon niveau 
+avec les 2000 mots les plus fréquents en français 
+c'est magique, 
+vous avez du contenu à volonté dans un niveau adapté, 
+vous pouvez ensuite créer des cartes Anki 
+et je crois d'ailleurs 
+qu'il y a des manières de l'automatiser 
+directement avec chat GPT
+
+224
+00:09:14,200 --> 00:09:15,666
+la dernière étape 
+c'est la conversation 
+et là ça devient un peu flippant. 
+En gros vous pouvez parler avec Chat GPT 
+directement dans la langue de votre choix 
+et il peut vous corriger ou vous faire pratiquer
+
+230
+00:09:29,600 --> 00:09:32,833
+c'est très pratique pour pratiquer la conversation 
+n'importe quand sur n'importe quel sujet. 
+Bon par contre la voix est un peu robotique 
+et je ne sais pas pourquoi 
+mais Chat GPT a un accent américain en français 
+et j'ai l'impression en japonais également
+
+236
+00:09:46,566 --> 00:09:48,000
+à la fin de la discussion 
+il vous donne même une retranscription 
+et vous avez aussi la possibilité de réécouter 
+tous les messages 
+donc c'est très pratique
+
+241
+00:09:58,400 --> 00:10:02,133
+bonjour j'aimerais apprendre à parler français
+
+242
+00:10:03,733 --> 00:10:04,800
+bonjour
+
+243
+00:10:04,800 --> 00:10:07,800
+avec plaisir je peux t'aider à pratiquer le français
+
+244
+00:10:08,000 --> 00:10:09,933
+dis-moi ce que tu aimerais apprendre 
+ou si tu as des questions particulières 
+et on va faire ça ensemble
+
+247
+00:10:14,133 --> 00:10:16,633
+je veux pratiquer la conversation
+
+248
+00:10:17,500 --> 00:10:20,633
+donc je veux discuter autour d'un thème
+
+249
+00:10:20,900 --> 00:10:24,400
+et si besoin tu corriges mes erreurs
+
+250
+00:10:25,666 --> 00:10:27,900
+avec grand plaisir 
+on peut choisir un thème qui t'intéresse 
+par exemple les voyages, 
+la cuisine 
+ou même le quotidien et je te corrigerai si besoin, 
+pas de souci alors quel thème te ferait plaisir
+
+256
+00:10:40,533 --> 00:10:42,866
+euh je vais parler de mon quotidien
+
+257
+00:10:44,366 --> 00:10:47,100
+super idée alors raconte-moi un peu comment 
+se passe une journée typique pour toi 
+et je t'écouterai avec attention
+
+260
+00:10:51,366 --> 00:10:53,433
+ça sonne un peu américain 
+super idée
+
+262
+00:10:55,533 --> 00:10:57,300
+le matin je me lève 
+à 6h et je bois la café
+
+264
+00:11:01,300 --> 00:11:03,466
+ok parfait c'est très clair 
+juste une petite correction on dit je bois du café 
+sinon c'est très bien continue
+
+267
+00:11:09,566 --> 00:11:13,433
+je mange des tartines avec de la beurre
+
+268
+00:11:13,900 --> 00:11:16,300
+très bien c'est parfait continue comme ça 
+si tu veux-tu peux 
+poursuivre en décrivant ce que tu fais ensuite 
+et je t'écouterai avec plaisir
+
+272
+00:11:21,800 --> 00:11:22,066
+merci
+
+273
+00:11:22,300 --> 00:11:26,066
+euh j'aime apprendre la français tous les jours
+
+274
+00:11:26,933 --> 00:11:28,966
+c'est super et c'est très bien dit 
+on dira juste 
+j'aime apprendre le français tous les jours
+
+277
+00:11:35,800 --> 00:11:36,666
+bon par contre 
+parfois j'ai l'impression qu'il 
+passe à côté de certaines erreurs
+
+280
+00:11:42,166 --> 00:11:43,200
+voilà donc comment 
+chat GPT peut vous aider 
+à apprendre plus rapidement une langue 
+je le redis une dernière fois 
+mais c'est un outil qui vous aide à apprendre 
+il ne va pas apprendre à votre place 
+alors construisez une habitude, 
+faites un peu tous les jours 
+et quelle que soit votre méthode 
+vous allez progresser
+

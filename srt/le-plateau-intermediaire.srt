@@ -1,561 +1,241 @@
 1
 00:00:00,800 --> 00:00:03,533
-Aujourd'hui je voulais vous parler du plateau
-
-2
-00:00:03,733 --> 00:00:04,633
-intermédiaire
-
-3
-00:00:04,766 --> 00:00:06,900
+Aujourd'hui je voulais vous parler du plateau 
+intermédiaire 
 dans l'apprentissage d'une langue
 
 4
 00:00:07,633 --> 00:00:10,933
-ça fait maintenant 5 ans que j'ai commencé à apprendre
-
-5
-00:00:11,066 --> 00:00:11,966
-le japonais
-
-6
-00:00:12,666 --> 00:00:15,833
-dont 4 ans où je m'y suis mis sérieusement
-
-7
-00:00:16,566 --> 00:00:19,500
+ça fait maintenant 5 ans que j'ai commencé à apprendre 
+le japonais 
+dont 4 ans où je m'y suis mis sérieusement, 
 c'est-à-dire que je travaille un peu tous les jours
 
 8
 00:00:21,200 --> 00:00:24,033
-pendant ces 4 années j'ai beaucoup progressé
-
-9
-00:00:24,966 --> 00:00:27,466
-j'ai appris à lire un bon nombre de
-
-10
-00:00:27,633 --> 00:00:29,733
-Kanji, les caractères japonais
-
-11
-00:00:30,600 --> 00:00:32,333
+pendant ces 4 années j'ai beaucoup progressé, 
+j'ai appris à lire un bon nombre de 
+Kanji, les caractères japonais, 
 j'ai enrichi mon vocabulaire
 
 12
 00:00:32,633 --> 00:00:34,766
-j'ai appris pardon
-
-13
-00:00:35,033 --> 00:00:37,466
-à parler à lire à comprendre
-
-14
-00:00:38,266 --> 00:00:39,966
-mais récemment j'ai eu le sentiment
-
-15
-00:00:39,966 --> 00:00:42,633
-d'être arrivé à ce qu'on appelle le plateau
-
-16
-00:00:42,833 --> 00:00:43,733
+j'ai appris à parler à lire à comprendre 
+mais récemment j'ai eu le sentiment 
+d'être arrivé à ce qu'on appelle le plateau 
 intermédiaire
 
 17
 00:00:43,766 --> 00:00:46,633
-c'est cette phase où on a un niveau intermédiaire
-
-18
-00:00:47,200 --> 00:00:49,933
-mais où on ne sent plus vraiment de progression
-
-19
-00:00:50,733 --> 00:00:52,900
+c'est cette phase où on a un niveau intermédiaire 
+mais où on ne sent plus vraiment de progression, 
 je pense que ça vient de plusieurs choses
 
 20
 00:00:54,133 --> 00:00:55,033
-premièrement
-
-21
-00:00:55,333 --> 00:00:58,300
-comme on a déjà acquis pas mal de connaissances
-
-22
-00:00:58,966 --> 00:01:01,700
+premièrement 
+comme on a déjà acquis pas mal de connaissances 
 c'est difficile de voir clairement nos progrès
 
 23
 00:01:03,866 --> 00:01:04,766
-deuxièmement
-
-24
-00:01:05,333 --> 00:01:07,466
-une fois les bases apprises
-
-25
-00:01:08,000 --> 00:01:12,100
-il devient plus dur de savoir quoi apprendre ensuite
-
-26
-00:01:12,666 --> 00:01:15,733
+deuxièmement 
+une fois les bases apprises 
+il devient plus dur de savoir quoi apprendre ensuite, 
 de s'orienter dans l'apprentissage
 
 27
 00:01:17,800 --> 00:01:19,000
-par exemple
-
-28
-00:01:19,000 --> 00:01:23,666
-on peut se tourner vers les manuels de grammaire
-
-29
-00:01:24,566 --> 00:01:28,800
-mais ces contenus sont parfois trop théoriques
-
-30
-00:01:29,733 --> 00:01:32,633
+par exemple, 
+on peut se tourner vers les manuels de grammaire 
+mais ces contenus sont parfois trop théoriques 
 et pas vraiment utilisés à l'oral
 
 31
 00:01:33,233 --> 00:01:36,666
-j'avais un manuel de grammaire niveau N 2
-
-32
-00:01:36,866 --> 00:01:38,300
-c'est un niveau
-
-33
-00:01:38,333 --> 00:01:42,866
+j'avais un manuel de grammaire niveau N2, 
+c'est un niveau 
 du JLPT l'équivalent du CECRL en japonais
 
 34
 00:01:43,666 --> 00:01:46,533
-et un ami japonais l'a feuilleté
-
-35
-00:01:46,833 --> 00:01:48,300
-et m'a dit
-
-36
-00:01:48,833 --> 00:01:51,266
-"on utilise jamais ces structures-là"
-
-37
-00:01:52,233 --> 00:01:54,933
-et je pense qu'en français c'est pareil
-
-38
-00:01:55,566 --> 00:01:58,133
-certaines structures sont très littéraires
-
-39
-00:01:59,000 --> 00:02:03,133
-utiles pour lire des romans ou des articles par exemple
-
-40
-00:02:03,800 --> 00:02:06,033
+et un ami japonais l'a feuilleté 
+et m'a dit 
+"on utilise jamais ces structures-là" 
+et je pense qu'en français c'est pareil, 
+certaines structures sont très littéraires, 
+utiles pour lire des romans ou des articles par exemple 
 mais peu naturelles à l'oral
 
 41
 00:02:08,266 --> 00:02:10,566
-il y a donc ce paradoxe
-
-42
-00:02:11,133 --> 00:02:14,766
-on apprend des choses complexes pour progresser
-
-43
-00:02:15,666 --> 00:02:17,000
-mais ces choses
-
-44
-00:02:17,200 --> 00:02:20,000
-ne nous aident pas forcément à mieux nous exprimer
-
-45
-00:02:20,000 --> 00:02:21,333
+il y a donc ce paradoxe 
+on apprend des choses complexes pour progresser 
+mais ces choses 
+ne nous aident pas forcément à mieux nous exprimer 
 dans la vie quotidienne
 
 46
 00:02:23,200 --> 00:02:24,233
-à l'inverse
-
-47
-00:02:24,733 --> 00:02:29,200
-tout ce qui est langage familier ou argot
-
-48
-00:02:29,733 --> 00:02:33,200
-n'est pas toujours bien expliqué dans les manuels
-
-49
-00:02:34,366 --> 00:02:37,433
-et pourtant c'est-ce qui est utilisé dans la rue
-
-50
-00:02:37,600 --> 00:02:39,666
+à l'inverse 
+tout ce qui est langage familier ou argot 
+n'est pas toujours bien expliqué dans les manuels 
+et pourtant c'est-ce qui est utilisé dans la rue, 
 dans les conversations réelles
 
 51
 00:02:41,566 --> 00:02:44,866
-en français un bon exemple c'est le verlan
-
-52
-00:02:45,266 --> 00:02:48,566
-on inverse les syllabes d'un mot
-
-53
-00:02:48,566 --> 00:02:49,566
-par exemple
-
-54
-00:02:49,866 --> 00:02:53,733
+en français un bon exemple c'est le verlan, 
+on inverse les syllabes d'un mot 
+par exemple 
 "chelou" ça veut dire "louche" c'est-à-dire bizarre
 
 55
 00:02:54,600 --> 00:02:56,466
-mais si on ne connaît pas ce mot
-
-56
-00:02:56,533 --> 00:02:58,033
-on risque de ne rien comprendre
-
-57
-00:02:58,633 --> 00:03:01,566
+mais si on ne connaît pas ce mot 
+on risque de ne rien comprendre 
 même avec un bon niveau C1 par exemple
 
 58
 00:03:02,200 --> 00:03:04,500
-il y a aussi le rythme de l'oral
-
-59
-00:03:04,600 --> 00:03:08,433
-on coupe les mots et on mâche certaines syllabes
-
-60
-00:03:09,066 --> 00:03:10,300
-par exemple
-
-61
-00:03:10,566 --> 00:03:13,700
-"vous venez demain soir" devient
-
-62
-00:03:13,866 --> 00:03:15,366
+il y a aussi le rythme de l'oral 
+on coupe les mots et on mâche certaines syllabes,
+par exemple 
+"vous venez demain soir" devient 
 "vous v'nez d'main soir"
 
 63
 00:03:16,600 --> 00:03:19,866
-si on n'y est pas habitué ça complique
-
-64
-00:03:20,066 --> 00:03:21,400
-la compréhension
-
-65
-00:03:22,333 --> 00:03:25,866
+si on n'y est pas habitué ça complique 
+la compréhension 
 et c'est ça pour moi le plateau intermédiaire
 
 66
 00:03:26,233 --> 00:03:28,966
-on a beau avoir appris beaucoup de choses
-
-67
-00:03:29,366 --> 00:03:34,600
-il reste un écart énorme pour arriver à une vraie aisance
-
-68
-00:03:35,000 --> 00:03:38,033
+on a beau avoir appris beaucoup de choses 
+il reste un écart énorme pour arriver à une vraie aisance, 
 une vraie facilité d'expression
 
 69
 00:03:39,633 --> 00:03:43,100
-personnellement quand je regarde des vidéos sur YouTube
-
-70
-00:03:43,400 --> 00:03:46,400
-je comprends bien les profs de japonais
-
-71
-00:03:46,400 --> 00:03:47,866
-qui parlent lentement
-
-72
-00:03:48,066 --> 00:03:49,200
-et articulent
-
-73
-00:03:50,600 --> 00:03:53,700
-mais dès que je passe à du contenu natif
-
-74
-00:03:54,200 --> 00:03:57,133
-fait par et pour les japonais
-
-75
-00:03:57,833 --> 00:03:59,800
+personnellement quand je regarde des vidéos sur YouTube 
+je comprends bien les profs de japonais 
+qui parlent lentement 
+et articulent 
+mais dès que je passe à du contenu natif 
+fait par et pour les japonais 
 ça devient très aléatoire
 
 76
 00:04:00,666 --> 00:04:02,200
-parfois je comprends
-
-77
-00:04:02,833 --> 00:04:05,400
+parfois je comprends, 
 parfois je suis complètement perdu
 
 78
 00:04:07,133 --> 00:04:09,800
-quand j'étais au Japon c'était pareil
-
-79
-00:04:11,033 --> 00:04:15,833
-une soirée j'arrivais à discuter tranquillement
-
-80
-00:04:17,166 --> 00:04:20,400
-le lendemain je parlais avec quelqu'un d'autre
-
-81
-00:04:21,066 --> 00:04:24,000
-avec un accent ou qui parlait plus vite
-
-82
-00:04:24,133 --> 00:04:26,600
+quand j'étais au Japon c'était pareil 
+une soirée j'arrivais à discuter tranquillement, 
+le lendemain je parlais avec quelqu'un d'autre 
+avec un accent ou qui parlait plus vite 
 et là je ne comprenais plus rien
 
 83
 00:04:28,933 --> 00:04:31,666
-et c'est ça qui est frustrant
-
-84
-00:04:32,000 --> 00:04:36,166
-on a travaillé, on a bossé, on sait qu'on peut parler
-
-85
-00:04:36,833 --> 00:04:39,400
-mais parfois on est quand-même perdu
+et c'est ça qui est frustrant 
+on a travaillé, on a bossé, on sait qu'on peut parler 
+mais parfois on est quand même perdu
 
 86
 00:04:41,766 --> 00:04:45,533
-aujourd'hui je me pose donc la question
-
-87
-00:04:47,366 --> 00:04:52,766
-comment continuer à progresser malgré ce plateau
-
-88
-00:04:54,133 --> 00:04:57,333
+aujourd'hui je me pose donc la question 
+comment continuer à progresser malgré ce plateau 
 et voici ce que j'essaie de mettre en place
 
 89
 00:04:57,933 --> 00:05:03,100
-les tests de niveau comme le JLPT ou le CECRL
-
-90
-00:05:03,466 --> 00:05:05,333
-même si ce n'est pas directement
-
-91
-00:05:05,333 --> 00:05:07,266
-utile dans la vie quotidienne
-
-92
-00:05:07,833 --> 00:05:11,800
-ça me permet de rester motivé d'avoir un objectif clair
-
-93
-00:05:11,933 --> 00:05:14,866
-et le simple fait de s'inscrire à un test
-
-94
-00:05:15,200 --> 00:05:16,900
+les tests de niveau comme le JLPT ou le CECRL 
+même si ce n'est pas directement 
+utile dans la vie quotidienne 
+ça me permet de rester motivé d'avoir un objectif clair 
+et le simple fait de s'inscrire à un test 
 ça donne une deadline
 
 95
 00:05:17,966 --> 00:05:21,466
-le risque c'est de tomber dans une routine mécanique
-
-96
-00:05:21,933 --> 00:05:25,533
-on révise mais sans vraiment y prêter attention
-
-97
-00:05:26,400 --> 00:05:27,700
-comme quand on ouvre
-
-98
-00:05:27,800 --> 00:05:31,466
-Duolingo juste pour ne pas perdre sa série de jours
-
-99
-00:05:31,733 --> 00:05:34,166
+le risque c'est de tomber dans une routine mécanique 
+on révise mais sans vraiment y prêter attention 
+comme quand on ouvre 
+Duolingo juste pour ne pas perdre sa série de jours 
 sans rien retenir quoi que ce soit
 
 100
 00:05:35,733 --> 00:05:39,333
-il y a aussi l'immersion avec du contenu natif
-
-101
-00:05:40,033 --> 00:05:43,466
-je cherche maintenant à regarder des vidéos de natifs
-
-102
-00:05:43,666 --> 00:05:45,966
-qui ne sont pas faites spécifiquement
-
-103
-00:05:45,966 --> 00:05:47,366
-pour les apprenants
-
-104
-00:05:47,800 --> 00:05:49,700
+il y a aussi l'immersion avec du contenu natif, 
+je cherche maintenant à regarder des vidéos de natifs 
+qui ne sont pas faites spécifiquement 
+pour les apprenants 
 mais qui restent accessibles
 
 105
 00:05:50,666 --> 00:05:53,933
-des gens qui parlent un peu plus lentement
-
-106
-00:05:54,000 --> 00:05:56,566
-qui articulent bien par exemple
-
-107
-00:05:57,433 --> 00:06:00,266
-j'ai trouvé quelques vlogs comme ça
-
-108
-00:06:00,933 --> 00:06:03,600
-et ça m'aide à faire la transition
-
-109
-00:06:03,733 --> 00:06:05,433
-vers du contenu natif
-
-110
-00:06:06,000 --> 00:06:08,000
+des gens qui parlent un peu plus lentement, 
+qui articulent bien par exemple. J'ai trouvé quelques vlogs comme ça 
+et ça m'aide à faire la transition 
+vers du contenu natif 
 sans être totalement perdu
 
 111
 00:06:08,466 --> 00:06:10,666
-enfin pour l'expression orale
-
-112
-00:06:11,200 --> 00:06:14,000
-c'est un point que je n'ai jamais vraiment travaillé
-
-113
-00:06:14,000 --> 00:06:17,133
-sérieusement j'ai parlé japonais avec des amis
-
-114
-00:06:17,400 --> 00:06:18,466
-sur place
-
-115
-00:06:19,133 --> 00:06:22,966
+enfin pour l'expression orale 
+c'est un point que je n'ai jamais vraiment travaillé 
+sérieusement j'ai parlé japonais avec des amis 
+sur place 
 mais jamais avec l'objectif de m'améliorer activement
 
 116
 00:06:24,433 --> 00:06:27,033
-pour ça j'utilise
-
-117
-00:06:27,233 --> 00:06:31,366
-Hello Talk pour poster et écrire régulièrement
-
-118
-00:06:31,966 --> 00:06:34,233
-et je veux me mettre au shadowing
-
-119
-00:06:34,633 --> 00:06:36,033
-écouter des natifs
-
-120
-00:06:36,366 --> 00:06:39,733
-m'enregistrer en répétant exactement ce qu'ils disent
-
-121
-00:06:40,033 --> 00:06:42,466
+pour ça j'utilise 
+Hello Talk pour poster et écrire régulièrement 
+et je veux me mettre au shadowing, 
+écouter des natifs, 
+m'enregistrer en répétant exactement ce qu'ils disent 
 pour améliorer ma prononciation
 
 122
 00:06:43,000 --> 00:06:44,566
-je ne me suis encore jamais
-
-123
-00:06:44,566 --> 00:06:46,633
-enregistré en parlant japonais
-
-124
-00:06:46,966 --> 00:06:49,366
-donc je ne sais même pas si je prononce bien
-
-125
-00:06:50,366 --> 00:06:53,333
+je ne me suis encore jamais 
+enregistré en parlant japonais 
+donc je ne sais même pas si je prononce bien 
 et sans s'enregistrer on ne peut pas savoir
 
 126
 00:06:54,200 --> 00:06:55,766
-peut-être que vous ressentez
-
-127
-00:06:55,766 --> 00:06:58,700
+peut-être que vous ressentez 
 la même chose dans votre apprentissage du français
 
 128
 00:06:59,566 --> 00:07:02,400
-si vous êtes en plein dans ce plateau ou si
-
-129
-00:07:02,433 --> 00:07:05,166
-vous l'avez déjà traversé dans une autre langue
-
-130
-00:07:05,766 --> 00:07:08,033
-n'hésitez pas à partager vos ressentis
-
-131
-00:07:08,200 --> 00:07:09,500
+si vous êtes en plein dans ce plateau ou si 
+vous l'avez déjà traversé dans une autre langue 
+n'hésitez pas à partager vos ressentis 
 ou vos stratégies
 
 132
 00:07:10,333 --> 00:07:13,766
-je vous tiendrai au courant de ce que je mets en place
-
-133
-00:07:14,033 --> 00:07:15,833
+je vous tiendrai au courant de ce que je mets en place 
 et si ça fonctionne
 
 134
 00:07:16,633 --> 00:07:19,933
-en attendant je pense que la clé c'est la constance
-
-135
-00:07:20,766 --> 00:07:22,566
-travailler un peu chaque jour
-
-136
-00:07:22,766 --> 00:07:25,000
+en attendant je pense que la clé c'est la constance 
+travailler un peu chaque jour, 
 en essayant de rester efficace
 
 137
 00:07:26,266 --> 00:07:28,500
-si ce podcast vous a plu
-
-138
-00:07:28,966 --> 00:07:31,433
-n'hésitez pas à laisser un like ou un commentaire
-
-139
-00:07:32,233 --> 00:07:35,700
-et je vais essayer de publier un épisode chaque semaine
-
-140
-00:07:36,000 --> 00:07:37,833
+si ce podcast vous a plu 
+n'hésitez pas à laisser un like ou un commentaire 
+et je vais essayer de publier un épisode chaque semaine 
 voir plus si je peux
 
 141
