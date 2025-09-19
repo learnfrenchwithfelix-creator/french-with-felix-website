@@ -1,5 +1,5 @@
 async function displayLatestpodcast () {
-  const res = await fetch("../Podcast_pages_html/podcastList.json");
+  const res = await fetch("/french-with-felix-website/Podcast_pages_html/podcastList.json");
   const podcasts = await res.json();
   
   const latest = podcasts.slice(-4).reverse();
@@ -26,7 +26,7 @@ displayLatestpodcast();
 
 
 async function displayAllPodcast () {
-  const res = await fetch("../Podcast_pages_html/podcastList.json");
+  const res = await fetch("/french-with-felix-website/Podcast_pages_html/podcastList.json");
   const podcasts = await res.json();
   const container = document.getElementById("all-podcasts");
   const allExceptLast = podcasts.slice(0, -1).reverse();
@@ -53,7 +53,7 @@ displayAllPodcast ();
 
 
 async function displayLastPodcast () {
-  const res = await fetch("../Podcast_pages_html/podcastList.json");
+  const res = await fetch("/french-with-felix-website/Podcast_pages_html/podcastList.json");
   const podcasts = await res.json();
   const container = document.getElementById("last-podcast");
   const last = podcasts.slice(-1)[0];
