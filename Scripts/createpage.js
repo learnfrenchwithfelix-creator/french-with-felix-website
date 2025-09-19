@@ -41,7 +41,8 @@ function createPodcastPage({ pageName, title, videoId, cover, transcriptFile }) 
   <link rel="stylesheet" href="../Styles/Footer.css">
   <title class="js-title">${title}</title>  <!-- CHANGER LE TITRE -->
 
-  <link rel="icon" type="image/png" href="/french-with-felix-website/Images/Homepage/Items/favico.svg">
+  <link rel="icon" type="image/png" href="Images/Homepage/Items/favico.svg">
+
 </head>
 
 
