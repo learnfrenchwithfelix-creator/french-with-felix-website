@@ -10,7 +10,7 @@
   align-items: center;
   justify-content: center;
   height: clamp(250px, 15vw ,400px);
-  max-width: clamp(800px, 52vw ,950px);
+  max-width: clamp(600px, 64vw ,950px);
   width: 100%;
   background-color: rgb(237, 242, 244);
   border-radius: 10px;
@@ -43,4 +43,8 @@
   font-size: 35px;
   font-weight: 400;
   text-overflow: ellipsis;   
+}
+
+.podcastlist {
+  max-width: 80%;
 }
