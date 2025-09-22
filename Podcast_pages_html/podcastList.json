@@ -151,5 +151,14 @@
     "cover": "how-chatgpt-can-makes-you-fluent-in-french.png",
     "transcriptFile": "how-chatgpt-can-makes-you-fluent-in-french.srt",
     "outputPath": "../Podcast_pages_html/how-chatgpt-can-makes-you-fluent-in-french.html"
+  },
+  {
+    "id": 17,
+    "pageName": "ia-rend-bete",
+    "title": "L'intelligence artificielle nous rend bête",
+    "videoId": "BNPJ_GkYQlo",
+    "cover": "ia-rend-bete.png",
+    "transcriptFile": "ia-rend-bete.srt",
+    "outputPath": "../Podcast_pages_html/ia-rend-bete.html"
   }
 ]
