@@ -1,976 +1,418 @@
 1
 00:00:00,333 --> 00:00:01,466
-Bonjour tout le monde
-
-2
-00:00:01,700 --> 00:00:03,866
+Bonjour tout le monde,
 bienvenue dans ce nouveau podcast
 
 3
 00:00:04,000 --> 00:00:07,233
-alors aujourd'hui c'est un peu particulier
-
-4
-00:00:07,266 --> 00:00:09,300
+alors aujourd'hui c'est un peu particulier 
 parce que je suis à l'extérieur
 
 5
 00:00:09,300 --> 00:00:13,433
-je ne suis pas dans le cadre habituel
-
-6
-00:00:13,533 --> 00:00:15,300
-je ne suis pas dans mon bureau
-
-7
-00:00:16,133 --> 00:00:17,633
+je ne suis pas dans le cadre habituel,
+je ne suis pas dans mon bureau, 
 je suis à l'extérieur
 
 8
 00:00:17,900 --> 00:00:21,200
-tout simplement parce qu'on m'a prêté une petite caméra
-
-9
-00:00:21,200 --> 00:00:22,300
-DJI
-
-10
-00:00:24,366 --> 00:00:27,000
-qui est une caméra très populaire
-
-11
-00:00:27,300 --> 00:00:29,266
-pour les YouTubeurs
-
-12
-00:00:29,266 --> 00:00:31,533
+tout simplement parce qu'on m'a prêté une petite caméra 
+DJI 
+qui est une caméra très populaire 
+pour les YouTubeurs, 
 pour les vlogs etc
 
 13
 00:00:32,066 --> 00:00:34,933
-et on me l'a prêté pour que je puisse essayer
-
-14
-00:00:35,500 --> 00:00:37,233
-voir si c'est très utile
-
-15
-00:00:37,666 --> 00:00:41,266
-voir si j'ai besoin d'en acheter une pour pouvoir
-
-16
-00:00:41,733 --> 00:00:44,633
+et on me l'a prêté pour que je puisse essayer, 
+voir si c'est très utile, 
+voir si j'ai besoin d'en acheter une pour pouvoir 
 faire des vidéos dans des cadres différents
 
 17
 00:00:46,100 --> 00:00:49,533
-et donc aujourd'hui pour tester
-
-18
-00:00:50,166 --> 00:00:51,400
-cette caméra
-
-19
-00:00:51,700 --> 00:00:55,266
+et donc aujourd'hui pour tester 
+cette caméra 
 j'avais envie de parler de l'intelligence artificielle
 
 20
 00:00:55,466 --> 00:00:57,166
-donc faire un podcast
-
-21
-00:00:57,766 --> 00:01:00,200
+donc faire un podcast 
 sur l'intelligence artificielle
 
 22
 00:01:01,400 --> 00:01:05,433
-c'est un sujet qui est très à la mode
-
-23
-00:01:05,533 --> 00:01:07,566
-tout simplement parce que voilà
-
-24
-00:01:07,700 --> 00:01:10,533
-depuis 1 ou 2 ans maintenant
-
-25
-00:01:10,566 --> 00:01:13,566
-chat GPT est arrivé dans nos vies
-
-26
-00:01:13,900 --> 00:01:16,633
+c'est un sujet qui est très à la mode 
+tout simplement parce que voilà 
+depuis 1 ou 2 ans maintenant 
+chat GPT est arrivé dans nos vies 
 et c'est devenu un outil très utile
 
 27
 00:01:18,266 --> 00:01:21,700
-j'avais envie d'en parler pour deux raisons
-
-28
-00:01:21,900 --> 00:01:23,900
-donc bien évidemment la première
-
-29
-00:01:23,966 --> 00:01:26,200
+j'avais envie d'en parler pour deux raisons: 
+donc bien évidemment la première 
 c'est que c'est un sujet très populaire
 
 30
 00:01:26,600 --> 00:01:27,600
-en France
-
-31
-00:01:27,600 --> 00:01:32,033
-il y a notamment l'entreprise Mistral AI
-
-32
-00:01:32,300 --> 00:01:33,900
-qui a fait une nouvelle
-
-33
-00:01:34,133 --> 00:01:38,033
-levée de fond et qui a dépassé une valorisation
-
-34
-00:01:38,266 --> 00:01:39,700
+en France 
+il y a notamment l'entreprise Mistral AI 
+qui a fait une nouvelle 
+levée de fond et qui a dépassé une valorisation 
 de 10 milliards d'euros
 
 35
 00:01:40,166 --> 00:01:41,333
-c'est-à-dire que cette
-
-36
-00:01:42,100 --> 00:01:43,300
-entreprise
-
-37
-00:01:43,300 --> 00:01:46,133
-cette startup à l'origine
-
-38
-00:01:46,500 --> 00:01:49,866
-grossit de plus en plus vite et a envie de
-
-39
-00:01:50,100 --> 00:01:53,266
+c'est-à-dire que cette 
+entreprise, 
+cette startup à l'origine, 
+grossit de plus en plus vite et a envie de 
 concurrencer une entreprise comme Chat GPT
 
 40
 00:01:53,466 --> 00:01:54,866
-donc en ce moment
-
-41
-00:01:54,966 --> 00:01:57,333
-ce sujet de l'intelligence artificielle
-
-42
-00:01:57,500 --> 00:01:59,233
-est encore plus populaire
-
-43
-00:01:59,300 --> 00:02:00,533
-parce qu'il y a cette
-
-44
-00:02:00,766 --> 00:02:02,733
-entreprise française
-
-45
-00:02:02,933 --> 00:02:05,533
-qui grossit de plus en plus vite
-
-46
-00:02:05,533 --> 00:02:08,000
-qui se développe de plus en plus vite
-
-47
-00:02:08,800 --> 00:02:10,933
+donc en ce moment 
+ce sujet de l'intelligence artificielle 
+est encore plus populaire 
+parce qu'il y a cette 
+entreprise française 
+qui grossit de plus en plus vite, 
+qui se développe de plus en plus vite 
 donc ça c'est la première raison
 
 48
 00:02:11,300 --> 00:02:13,133
-et la deuxième raison c'est que
-
-49
-00:02:13,533 --> 00:02:17,166
-récemment j'ai beaucoup utilisé chat GPT
-
-50
-00:02:18,500 --> 00:02:20,966
-j'ai beaucoup utilisé chat GPT
-
-51
-00:02:21,066 --> 00:02:24,533
+et la deuxième raison c'est que 
+récemment j'ai beaucoup utilisé chat GPT. 
+J'ai beaucoup utilisé chat GPT 
 pour m'aider à construire mon propre site web
 
 52
 00:02:25,200 --> 00:02:27,500
-je l'ai beaucoup utilisé
-
-53
-00:02:27,500 --> 00:02:31,166
+je l'ai beaucoup utilisé 
 parce que je fais mon site web de A à Z
 
 54
 00:02:31,166 --> 00:02:34,766
-c'est-à-dire que je fais tout, je le fais en codant
-
-55
-00:02:35,000 --> 00:02:37,366
-donc je code
-
-56
-00:02:37,600 --> 00:02:39,700
+c'est-à-dire que je fais tout, je le fais en codant 
+donc je code 
 directement mon site web
 
 57
 00:02:40,400 --> 00:02:43,133
-pour ça j'ai fait 2 choses
-
-58
-00:02:43,966 --> 00:02:46,766
-j'ai regardé des tutoriels sur YouTube
-
-59
-00:02:47,066 --> 00:02:50,166
-notamment la chaîne Simple.dev
-
-60
-00:02:50,466 --> 00:02:53,533
-il me semble que le propriétaire s'appelle
-
-61
-00:02:53,700 --> 00:02:56,900
+pour ça j'ai fait 2 choses: 
+j'ai regardé des tutoriels sur YouTube 
+notamment la chaîne Simple.dev, 
+il me semble que le propriétaire s'appelle 
 Simon donc merci Simon
 
 62
 00:02:56,900 --> 00:02:59,500
-et ensuite quand je mettais en pratique
-
-63
-00:02:59,533 --> 00:03:02,166
+et ensuite quand je mettais en pratique 
 quand je pratiquais le code
 
 64
 00:03:02,566 --> 00:03:05,666
-là je m'appuyais sur chat GPT
-
-65
-00:03:05,866 --> 00:03:07,700
-pour résoudre
-
-66
-00:03:07,700 --> 00:03:10,433
-tous les problèmes que je pouvais rencontrer
-
-67
-00:03:10,933 --> 00:03:12,866
-toutes les erreurs que je pouvais faire
-
-68
-00:03:12,866 --> 00:03:15,000
-sauf que quand on écrit beaucoup de code
-
-69
-00:03:15,366 --> 00:03:17,900
+là je m'appuyais sur chat GPT 
+pour résoudre 
+tous les problèmes que je pouvais rencontrer, 
+toutes les erreurs que je pouvais faire 
+sauf que quand on écrit beaucoup de code 
 c'est difficile de trouver l'erreur spécifique
 
 70
 00:03:19,800 --> 00:03:21,066
-et donc d'un côté
-
-71
-00:03:21,066 --> 00:03:23,633
-c'est un sujet qui est très d'actualité
-
-72
-00:03:23,700 --> 00:03:25,533
-c'est un sujet qui est très populaire
-
-73
-00:03:25,666 --> 00:03:27,133
+et donc d'un côté 
+c'est un sujet qui est très d'actualité, 
+c'est un sujet qui est très populaire 
 l'intelligence artificielle
 
 74
 00:03:27,766 --> 00:03:32,133
-et de l'autre moi-même je l'ai utilisé de plus en plus
-
-75
-00:03:32,766 --> 00:03:36,333
-récemment je l'ai beaucoup utilisé récemment
+et de l'autre moi-même je l'ai utilisé de plus en plus 
+récemment, je l'ai beaucoup utilisé récemment
 
 76
 00:03:37,100 --> 00:03:38,666
-et en fait
-
-77
-00:03:38,666 --> 00:03:40,333
-je me suis posé une question
-
-78
-00:03:40,766 --> 00:03:44,700
-entre le moment où je voyais les interviews du CEO
-
-79
-00:03:44,733 --> 00:03:46,666
-de Mistral AI
-
-80
-00:03:46,666 --> 00:03:47,766
-du PDG
-
-81
-00:03:48,733 --> 00:03:51,100
-du président directeur général
-
-82
-00:03:51,800 --> 00:03:56,466
+et en fait 
+je me suis posé une question 
+entre le moment où je voyais les interviews du CEO 
+de Mistral AI, 
+du PDG,  
+du président directeur général, 
 et le moment où j'utilisais moi-même Chat GPT
 
 83
 00:03:56,766 --> 00:04:00,066
-il y a une question qui ressort quand-même pas mal c'est
-
-84
-00:04:00,700 --> 00:04:03,066
-est-ce que l'intelligence artificielle
-
-85
-00:04:03,066 --> 00:04:04,900
+il y a une question qui ressort quand même pas mal c'est 
+est-ce que l'intelligence artificielle 
 va nous rendre bête ?
 
 86
 00:04:04,966 --> 00:04:07,900
-est-ce que on va devenir de plus en plus bête
-
-87
-00:04:08,100 --> 00:04:12,366
-à cause de l'utilisation de l'intelligence artificielle
+est-ce que on va devenir de plus en plus bête 
+à cause de l'utilisation de l'intelligence artificielle ?
 
 88
 00:04:13,166 --> 00:04:16,633
-ça c'est un sujet qui est important je pense
-
-89
-00:04:17,366 --> 00:04:18,533
-parce que
-
-90
-00:04:19,533 --> 00:04:22,100
-on va avoir tendance à avoir une
-
-91
-00:04:22,200 --> 00:04:24,666
-utilisation de Chat GPT
-
-92
-00:04:24,866 --> 00:04:26,866
-qui peut être
-
-93
-00:04:27,366 --> 00:04:29,500
+ça c'est un sujet qui est important je pense 
+parce que 
+on va avoir tendance à avoir une 
+utilisation de Chat GPT 
+qui peut être, 
 comment dire, qui peut être fainéante
 
 94
 00:04:29,533 --> 00:04:31,233
-c'est-à-dire qu'on va poser toutes les questions
-
-95
-00:04:31,266 --> 00:04:35,400
-à Chat GPT et on va prendre ses réponses comme telles
-
-96
-00:04:35,400 --> 00:04:38,400
+c'est-à-dire qu'on va poser toutes les questions 
+à Chat GPT et on va prendre ses réponses comme telles, 
 on ne va pas réfléchir aux réponses qu'il peut fournir
 
 97
 00:04:39,400 --> 00:04:40,133
-c'est
-
-98
-00:04:40,133 --> 00:04:44,066
-une question qu'on a beaucoup posé au PDG de Mistral AI
-
-99
-00:04:44,733 --> 00:04:47,800
-quand il allait dans des émissions de télévision
-
-100
-00:04:47,800 --> 00:04:50,800
+c'est 
+une question qu'on a beaucoup posé au PDG de Mistral AI 
+quand il allait dans des émissions de télévision, 
 quand il allait sur des plateaux de télévision
 
 101
 00:04:51,300 --> 00:04:52,433
-on lui demandait
-
-102
-00:04:52,900 --> 00:04:55,400
-est-ce que cette intelligence artificielle
-
-103
-00:04:55,566 --> 00:04:57,400
+on lui demandait 
+est-ce que cette intelligence artificielle 
 ne va pas nous rendre bête
 
 104
 00:04:58,966 --> 00:05:02,900
-je pense que on a tous en tête l'exemple d'un étudiant
-
-105
-00:05:03,000 --> 00:05:06,300
-qui doit faire une dissertation sur un sujet
-
-106
-00:05:06,300 --> 00:05:09,100
-qui doit faire un travail sur un sujet
-
-107
-00:05:09,333 --> 00:05:12,733
-et qui va finir par demander à Chat GPT
-
-108
-00:05:12,733 --> 00:05:15,200
-de lui écrire je sais pas
-
-109
-00:05:15,200 --> 00:05:20,400
-de lui écrire 8 pages sur l'histoire de France
-
-110
-00:05:20,400 --> 00:05:21,900
+je pense que on a tous en tête l'exemple d'un étudiant 
+qui doit faire une dissertation sur un sujet, 
+qui doit faire un travail sur un sujet 
+et qui va finir par demander à Chat GPT 
+de lui écrire, je sais pas, 
+de lui écrire 8 pages sur l'histoire de France 
 pour son devoir
 
 111
 00:05:21,900 --> 00:05:25,300
-et donc on a cette image
-
-112
-00:05:25,933 --> 00:05:27,700
-de l'être humain
-
-113
-00:05:27,766 --> 00:05:29,100
-de n'importe qui
-
-114
-00:05:29,133 --> 00:05:32,500
-qui demande à Chat GPT de tout faire à sa place
-
-115
-00:05:32,666 --> 00:05:34,733
-sans prendre le temps de réfléchir
-
-116
-00:05:35,300 --> 00:05:38,033
-et sans prendre le temps de
-
-117
-00:05:38,366 --> 00:05:40,966
-regarder la réponse de Chat GPT
-
-118
-00:05:40,966 --> 00:05:43,366
+et donc on a cette image 
+de l'être humain, 
+de n'importe qui, 
+qui demande à Chat GPT de tout faire à sa place 
+sans prendre le temps de réfléchir 
+et sans prendre le temps de 
+regarder la réponse de Chat GPT 
 et d'avoir un regard critique
 
 119
 00:05:46,400 --> 00:05:50,566
-et ça je l'ai expérimenté aussi dans mon utilisation
-
-120
-00:05:50,700 --> 00:05:53,300
-pour la création de mon site web
-
-121
-00:05:53,300 --> 00:05:57,000
-c'est-à-dire que parfois je demandais à chat GPT
-
-122
-00:05:58,500 --> 00:06:00,766
-je lui posais des questions
-
-123
-00:06:00,766 --> 00:06:02,200
-j'avais besoin de solution
-
-124
-00:06:02,733 --> 00:06:06,533
+et ça je l'ai expérimenté aussi dans mon utilisation 
+pour la création de mon site web 
+c'est-à-dire que parfois je demandais à chat GPT, 
+je lui posais des questions, 
+j'avais besoin de solution 
 et il me répondait et parfois j'appliquais bêtement
 
 125
 00:06:06,900 --> 00:06:09,233
-je copiais collais sa réponse
-
-126
-00:06:09,533 --> 00:06:12,066
-sans même me poser la question de savoir
-
-127
-00:06:12,366 --> 00:06:14,866
-si c'est-ce que je voulais
-
-128
-00:06:15,166 --> 00:06:17,600
+je copiais collais sa réponse 
+sans même me poser la question de savoir 
+si c'est-ce que je voulais, 
 si ça répondait vraiment à mon problème
 
 129
 00:06:18,800 --> 00:06:20,666
-à tel point qu'à un moment
-
-130
-00:06:21,366 --> 00:06:23,133
-j'ai appliqué des réponses
-
-131
-00:06:23,200 --> 00:06:26,000
-bêtement de Chat GPT
-
-132
-00:06:26,333 --> 00:06:30,100
-et des paramètres de mon site
-
-133
-00:06:30,466 --> 00:06:32,066
-ont complètement sauté
-
-134
-00:06:32,100 --> 00:06:33,966
-ça a quasiment tout cassé
-
-135
-00:06:34,700 --> 00:06:36,900
-jusqu'au point où je me suis demandé
-
-136
-00:06:36,900 --> 00:06:39,766
+à tel point qu'à un moment 
+j'ai appliqué des réponses 
+bêtement de Chat GPT 
+et des paramètres de mon site 
+ont complètement sauté, 
+ça a quasiment tout cassé 
+jusqu'au point où je me suis demandé 
 si je n'allais pas devoir tout refaire
 
 137
 00:06:40,300 --> 00:06:42,066
-et à ce moment-là en fait
-
-138
-00:06:42,333 --> 00:06:43,933
-j'ai compris cette question de
-
-139
-00:06:43,933 --> 00:06:44,500
-est-ce que
-
-140
-00:06:44,500 --> 00:06:49,566
-on ne va pas devenir bête à force d'utiliser Chat GPT
+et à ce moment-là en fait 
+j'ai compris cette question de "
+est-ce que 
+on ne va pas devenir bête à force d'utiliser Chat GPT ?"
 
 141
 00:06:50,566 --> 00:06:52,000
-parce que je n'ai pas
-
-142
-00:06:52,100 --> 00:06:55,933
-je ne me suis pas posé de question sur la
-
-143
-00:06:56,100 --> 00:06:58,000
+parce que je n'ai pas, 
+je ne me suis pas posé de question sur la 
 solution qu'il me donnait
 
 144
 00:06:58,466 --> 00:07:00,300
-j'ai appliqué bêtement
-
-145
-00:07:00,466 --> 00:07:03,733
-quelque chose que m'a donné chat GPT
-
-146
-00:07:03,733 --> 00:07:06,033
+j'ai appliqué bêtement 
+quelque chose que m'a donné chat GPT 
 et j'ai failli perdre tout mon travail
 
 147
 00:07:07,400 --> 00:07:10,933
-désolé pour le bruit de la moto c'est le risque
-
-148
-00:07:11,066 --> 00:07:13,366
+désolé pour le bruit de la moto c'est le risque 
 d'enregistrer en extérieur
 
 149
 00:07:14,566 --> 00:07:17,200
-mais du coup à ce moment-là en fait
-
-150
-00:07:18,000 --> 00:07:22,000
-le fait que Mistral AI soit très populaire en France
-
-151
-00:07:22,000 --> 00:07:24,833
-et l'utilisation de Chat GPT
-
-152
-00:07:24,933 --> 00:07:27,700
+mais du coup à ce moment-là en fait, 
+le fait que Mistral AI soit très populaire en France 
+et l'utilisation de Chat GPT 
 que j'ai eu pour la création de mon site
 
 153
 00:07:28,333 --> 00:07:30,566
-cette question de savoir
-
-154
-00:07:30,566 --> 00:07:32,600
-si l'intelligence artificielle
-
-155
-00:07:32,766 --> 00:07:34,200
-allait nous rendre plus bête
-
-156
-00:07:34,733 --> 00:07:36,766
-cette question elle m'est apparue
-
-157
-00:07:36,800 --> 00:07:39,666
+cette question de savoir 
+si l'intelligence artificielle 
+allait nous rendre plus bête, 
+cette question elle m'est apparue, 
 enfin elle a vraiment croisé les deux sujets
 
 158
 00:07:42,700 --> 00:07:44,533
-et je trouve ça intéressant
-
-159
-00:07:44,533 --> 00:07:47,433
-parce que du coup c'est une question à laquelle
-
-160
-00:07:47,966 --> 00:07:51,033
+et je trouve ça intéressant 
+parce que du coup c'est une question à laquelle 
 a répondu le PDG de Mistral AI
 
 161
 00:07:51,533 --> 00:07:54,233
-et en gros ce qu'il dit c'est que
-
-162
-00:07:54,600 --> 00:07:57,533
-ça va dépendre de l'utilisation qu'on a
-
-163
-00:07:57,733 --> 00:07:59,700
-de l'intelligence artificielle
-
-164
-00:07:59,800 --> 00:08:04,133
+et en gros ce qu'il dit c'est que 
+ça va dépendre de l'utilisation qu'on a 
+de l'intelligence artificielle 
 de manière générale et donc en particulier de chat GPT
 
 165
 00:08:05,466 --> 00:08:09,133
-en gros ce qu'il dit c'est que oui
-
-166
-00:08:09,133 --> 00:08:12,300
-si on demande tout sans réfléchir
-
-167
-00:08:12,900 --> 00:08:14,500
-à ChatGPT
-
-168
-00:08:15,266 --> 00:08:17,566
+en gros ce qu'il dit c'est que oui 
+si on demande tout sans réfléchir 
+à ChatGPT 
 on risque de devenir plus bête
 
 169
 00:08:18,100 --> 00:08:20,733
-on risque de moins réfléchir par nous-même
-
-170
-00:08:20,766 --> 00:08:22,233
-et on risque de juste
-
-171
-00:08:22,733 --> 00:08:27,300
+on risque de moins réfléchir par nous-même 
+et on risque de juste 
 tout demander à Chat GPT sans même se poser une question
 
 172
 00:08:29,166 --> 00:08:33,300
-et pour ça le PDG de Mistral AI
-
-173
-00:08:33,533 --> 00:08:34,333
-il parlait
-
-174
-00:08:34,333 --> 00:08:37,100
-justement de la manière dont l'outil est fait
-
-175
-00:08:37,166 --> 00:08:39,100
-de la manière dont le Chat
-
-176
-00:08:39,366 --> 00:08:42,300
-qu'on va avoir avec l'intelligence artificielle
-
-177
-00:08:43,100 --> 00:08:46,333
+et pour ça le PDG de Mistral AI 
+il parlait 
+justement de la manière dont l'outil est fait, 
+de la manière dont le Chat 
+qu'on va avoir avec l'intelligence artificielle, 
 la manière dont cela va être construit
 
 178
 00:08:47,533 --> 00:08:49,133
-en gros il disait que
-
-179
-00:08:49,133 --> 00:08:52,033
-dans le cadre de Chat GPT par exemple
-
-180
-00:08:52,966 --> 00:08:55,433
-Chat GPT a tendance à vouloir
-
-181
-00:08:55,800 --> 00:08:57,533
-tout nous faire par lui-même
-
-182
-00:08:57,533 --> 00:08:59,900
+en gros il disait que 
+dans le cadre de Chat GPT par exemple, 
+Chat GPT a tendance à vouloir 
+tout nous faire par lui-même, 
 il ne nous pousse jamais à réfléchir
 
 183
 00:09:00,533 --> 00:09:02,733
-c'est-à-dire que quand vous posez une question
-
-184
-00:09:02,866 --> 00:09:03,933
-il va vous dire
-
-185
-00:09:04,066 --> 00:09:05,100
-voici la réponse
-
-186
-00:09:05,533 --> 00:09:08,000
+c'est-à-dire que quand vous posez une question 
+il va vous dire 
+voici la réponse 
 mais si tu veux je peux faire ça ça ça
 
 187
 00:09:08,700 --> 00:09:13,366
-et à aucun moment il nous demande d'arbitrer
-
-188
-00:09:13,366 --> 00:09:14,900
-à aucun moment il nous demande
-
-189
-00:09:15,200 --> 00:09:16,400
-vraiment de choisir
-
-190
-00:09:16,766 --> 00:09:19,466
+et à aucun moment il nous demande d'arbitrer, 
+à aucun moment il nous demande 
+vraiment de choisir 
 et de pousser notre propre réflexion
 
 191
 00:09:20,800 --> 00:09:23,366
-bon c'est un concurrent de Chat GPT
-
-192
-00:09:23,400 --> 00:09:26,266
-donc il a plus intérêt à dire que
-
-193
-00:09:26,266 --> 00:09:29,366
-Chat GPT fait comme ça et que eux ils font mieux
-
-194
-00:09:29,733 --> 00:09:31,666
-mais j'ai trouvé le sujet intéressant
-
-195
-00:09:31,700 --> 00:09:34,100
-parce qu'il disait que justement
-
-196
-00:09:34,600 --> 00:09:38,000
-ce qu'ils cherchaient à faire avec Mistral AI
-
-197
-00:09:38,166 --> 00:09:41,633
-avec leur chatbot enfin leur IA
-
-198
-00:09:41,900 --> 00:09:43,233
-leur* chat
-
-199
-00:09:44,200 --> 00:09:47,000
-c'est de pousser les gens qui l'utilisent
-
-200
-00:09:47,300 --> 00:09:50,266
-à réfléchir à leur question
-
-201
-00:09:50,266 --> 00:09:52,933
+bon c'est un concurrent de Chat GPT 
+donc il a plus intérêt à dire que 
+Chat GPT fait comme ça et que eux ils font mieux 
+mais j'ai trouvé le sujet intéressant 
+parce qu'il disait que justement 
+ce qu'ils cherchaient à faire avec Mistral AI, 
+avec leur chatbot enfin leur IA, 
+leur* chat 
+c'est de pousser les gens qui l'utilisent 
+à réfléchir à leur question 
 et à réfléchir à ce dont ils ont besoin
 
 202
 00:09:54,000 --> 00:09:57,633
-si on demande quelque chose à Chat GPT
-
-203
-00:09:58,866 --> 00:10:01,833
-et qu'on sait ce qu'on doit attendre comme réponse
-
-204
-00:10:01,933 --> 00:10:03,933
-qu'on réfléchit
-
-205
-00:10:03,933 --> 00:10:05,733
-à ce qu'il nous faut comme solution
-
-206
-00:10:06,800 --> 00:10:10,166
+si on demande quelque chose à Chat GPT 
+et qu'on sait ce qu'on doit attendre comme réponse, 
+qu'on réfléchit 
+à ce qu'il nous faut comme solution, 
 on reste dans une démarche de réflexion
 
 207
 00:10:10,200 --> 00:10:12,133
-on continue de se poser des questions
-
-208
-00:10:12,133 --> 00:10:14,533
+on continue de se poser des questions 
 et du coup ça ne nous rend pas plus bête
 
 209
 00:10:15,466 --> 00:10:18,266
-dans mon expérience pour la création de mon site
-
-210
-00:10:18,600 --> 00:10:21,500
-c'est quelque chose dont j'ai fait l'expérience
-
-211
-00:10:22,700 --> 00:10:25,533
-quand je demandais des réponses à Chat GPT
-
-212
-00:10:25,600 --> 00:10:27,400
+dans mon expérience pour la création de mon site 
+c'est quelque chose dont j'ai fait l'expérience, 
+quand je demandais des réponses à Chat GPT 
 et que je connaissais le sujet
 
 213
 00:10:27,400 --> 00:10:30,400
-donc que je m'étais posé la question et que finalement
-
-214
-00:10:30,766 --> 00:10:34,633
-il me disait juste de choisir entre A ou B par exemple
-
-215
-00:10:35,666 --> 00:10:36,666
-c'était très utile
-
-216
-00:10:36,666 --> 00:10:39,066
-parce que en même temps que j'utilisais chat
-
-217
-00:10:39,200 --> 00:10:42,033
-GPT j'apprenais plus
-
-218
-00:10:42,466 --> 00:10:44,500
-j'en apprenais plus sur le sujet
-
-219
-00:10:45,100 --> 00:10:46,700
-qui me concernait
-
-220
-00:10:46,800 --> 00:10:49,533
+donc que je m'étais posé la question et que finalement 
+il me disait juste de choisir entre A ou B par exemple, 
+c'était très utile 
+parce que en même temps que j'utilisais chat 
+GPT j'apprenais plus, 
+j'en apprenais plus sur le sujet 
+qui me concernait 
 donc le code dans ce cas-là
 
 221
 00:10:51,466 --> 00:10:54,166
-et à l'inverse quand je ne me posais aucune question
-
-222
-00:10:54,166 --> 00:10:55,566
-j'appliquais bêtement
-
-223
-00:10:55,866 --> 00:10:57,500
-et je n'ai rien appris
-
-224
-00:10:57,533 --> 00:11:00,333
+et à l'inverse quand je ne me posais aucune question 
+j'appliquais bêtement 
+et je n'ai rien appris 
 et ça a finalement juste créé des erreurs
 
 225
 00:11:03,133 --> 00:11:06,233
-donc voilà je pense que le sujet c'est de
-
-226
-00:11:06,400 --> 00:11:08,300
-savoir quelle posture
-
-227
-00:11:08,300 --> 00:11:09,900
-quelle position on a
-
-228
-00:11:09,966 --> 00:11:12,400
+donc voilà je pense que le sujet c'est de 
+savoir quelle posture, 
+quelle position on a 
 par rapport à l'intelligence artificielle
 
 229
 00:11:12,933 --> 00:11:16,433
-savoir si quand on pose des questions à Chat GPT
-
-230
-00:11:16,466 --> 00:11:18,866
-si on se pose nous-même des questions
-
-231
-00:11:18,966 --> 00:11:22,700
+savoir si quand on pose des questions à Chat GPT, 
+si on se pose nous-même des questions 
 ou si on attend juste qu'il fasse tout à notre place
 
 232
 00:11:23,966 --> 00:11:25,900
-je vais m'arrêter là aujourd'hui
-
-233
-00:11:25,900 --> 00:11:27,333
-parce que c'est un sujet
-
-234
-00:11:27,666 --> 00:11:30,666
-un peu compliqué et que comme je n'ai pas de script
-
-235
-00:11:30,666 --> 00:11:33,066
+je vais m'arrêter là aujourd'hui 
+parce que c'est un sujet 
+un peu compliqué et que comme je n'ai pas de script 
 j'ai sûrement parlé un peu vite parfois
 
 236
 00:11:34,500 --> 00:11:37,066
-n'hésitez pas à me dire si vous aimez ce cadre
-
-237
-00:11:37,133 --> 00:11:38,100
-si la qualité
-
-238
-00:11:38,200 --> 00:11:40,766
- vidéo et audio sont bonnes
-
-239
-00:11:41,300 --> 00:11:44,333
-et moi je vais réfléchir à si j'ai besoin d'acheter
-
-240
-00:11:44,666 --> 00:11:46,133
+n'hésitez pas à me dire si vous aimez ce cadre, 
+si la qualité 
+ vidéo et audio sont bonnes 
+et moi je vais réfléchir à si j'ai besoin d'acheter 
 cette caméra ou non
 
 241
 00:11:46,600 --> 00:11:49,500
-et pourquoi pas demander à Chat GPT
-
-242
-00:11:49,500 --> 00:11:50,966
+et pourquoi pas demander à Chat GPT 
 si j'en ai vraiment besoin
 
 243
 00:11:51,733 --> 00:11:53,600
-merci d'avoir regardé jusqu'au bout
-
-244
-00:11:53,600 --> 00:11:55,366
+merci d'avoir regardé jusqu'au bout 
 et je vous dis à la prochaine
 
