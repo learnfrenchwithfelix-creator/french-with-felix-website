@@ -160,5 +160,14 @@
     "cover": "ia-rend-bete.png",
     "transcriptFile": "ia-rend-bete.srt",
     "outputPath": "../Podcast_pages_html/ia-rend-bete.html"
+  },
+  {
+    "id": 18,
+    "pageName": "apprendre-une-nouvelle-langue",
+    "title": "J'apprends une nouvelle langue en 3 mois",
+    "videoId": "gMhfOgE_3m4",
+    "cover": "apprendre-une-nouvelle-langue.jpg",
+    "transcriptFile": "apprendre-une-nouvelle-langue.srt",
+    "outputPath": "../Podcast_pages_html/apprendre-une-nouvelle-langue.html"
   }
 ]
