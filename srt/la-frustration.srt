@@ -8,1101 +8,453 @@ et bienvenue sur ce nouveau podcast
 
 3
 00:00:05,500 --> 00:00:08,500
-alors pour ce podcast on est encore une fois
-
-4
-00:00:08,500 --> 00:00:11,266
-avec la petite caméra DJI
-
-5
-00:00:13,333 --> 00:00:15,666
+alors pour ce podcast on est encore une fois 
+avec la petite caméra DJI 
 donc dans un cadre différent
 
 6
 00:00:16,100 --> 00:00:17,166
-et encore une fois
-
-7
-00:00:17,166 --> 00:00:20,100
-ça va être un podcast qui n'est pas scripté
-
-8
-00:00:20,100 --> 00:00:21,766
-donc je n'ai rien écrit
-
-9
-00:00:22,066 --> 00:00:24,100
+et encore une fois 
+ça va être un podcast qui n'est pas scripté 
+donc je n'ai rien écrit, 
 ça va être de l'improvisation
 
 10
 00:00:25,100 --> 00:00:28,766
-donc ça risque d'être un peu plus brouillon
-
-11
-00:00:29,066 --> 00:00:32,500
+donc ça risque d'être un peu plus brouillon 
 mais ce sera un français plus naturel
 
 12
 00:00:33,933 --> 00:00:36,333
-aujourd'hui pour ce nouveau podcast
-
-13
-00:00:36,333 --> 00:00:38,600
+aujourd'hui pour ce nouveau podcast 
 je voulais parler de la frustration
 
 14
 00:00:39,766 --> 00:00:41,066
-la frustration
-
-15
-00:00:41,100 --> 00:00:43,133
-c'est quelque chose de très présent
-
-16
-00:00:43,400 --> 00:00:46,066
+la frustration 
+c'est quelque chose de très présent 
 dans l'apprentissage d'une langue
 
 17
 00:00:47,166 --> 00:00:49,966
-je pense que la raison principale
-
-18
-00:00:50,866 --> 00:00:54,300
-vient du fait que c'est très difficile de savoir
-
-19
-00:00:54,966 --> 00:00:58,733
-à quel point on progresse quand on apprend une langue
-
-20
-00:01:00,000 --> 00:01:03,266
-c'est difficile de voir notre niveau évoluer
-
-21
-00:01:03,300 --> 00:01:06,866
+je pense que la raison principale 
+vient du fait que c'est très difficile de savoir 
+à quel point on progresse quand on apprend une langue, 
+c'est difficile de voir notre niveau évoluer 
 parce qu'il n'y a pas vraiment de palier bien défini
 
 22
 00:01:07,800 --> 00:01:10,533
-il y a les tests de langue
-
-23
-00:01:11,200 --> 00:01:12,166
-mais c'est
-
-24
-00:01:12,166 --> 00:01:15,133
-pas quelque chose qu'on peut faire toutes les semaines
-
-25
-00:01:15,166 --> 00:01:17,433
-ce n'est pas quelque chose qu'on peut avoir
-
-26
-00:01:17,533 --> 00:01:18,900
-régulièrement
-
-27
-00:01:19,166 --> 00:01:21,800
+il y a les tests de langue 
+mais c'est 
+pas quelque chose qu'on peut faire toutes les semaines, 
+ce n'est pas quelque chose qu'on peut avoir 
+régulièrement 
 et parfois c'est un peu aléatoire
 
 28
 00:01:22,500 --> 00:01:24,666
-parfois on va réussir un test
-
-29
-00:01:24,733 --> 00:01:27,200
-alors que on aurait pu rater
-
-30
-00:01:27,200 --> 00:01:29,866
+parfois on va réussir un test 
+alors que on aurait pu rater 
 le même test dans d'autres conditions
 
 31
 00:01:31,933 --> 00:01:35,133
-donc parce qu'on a du mal à savoir
-
-32
-00:01:35,400 --> 00:01:37,633
-comment évolue notre niveau
-
-33
-00:01:37,766 --> 00:01:40,800
+donc parce qu'on a du mal à savoir 
+comment évolue notre niveau 
 ça peut générer beaucoup de frustration
 
 34
 00:01:41,400 --> 00:01:44,866
-si je prends l'exemple des jeux vidéos par exemple
-
-35
-00:01:44,966 --> 00:01:47,200
-vous avez souvent dans les jeux vidéos
-
-36
-00:01:47,200 --> 00:01:48,600
-une barre d'expérience
-
-37
-00:01:49,133 --> 00:01:50,433
-par exemple dans Pokémon
-
-38
-00:01:50,700 --> 00:01:52,533
-et plus vous jouez
-
-39
-00:01:52,566 --> 00:01:54,933
+si je prends l'exemple des jeux vidéos par exemple 
+vous avez souvent dans les jeux vidéos 
+une barre d'expérience, 
+par exemple dans Pokémon, 
+et plus vous jouez 
 plus cette barre d'expérience va progresser
 
 40
 00:01:55,500 --> 00:01:57,700
-et vous allez monter de niveau
-
-41
-00:01:57,900 --> 00:02:01,500
-votre Pokémon peut monter de niveau il passe niveau 3
-
-42
-00:02:01,600 --> 00:02:03,300
-niveau 4 etc
-
-43
-00:02:03,566 --> 00:02:05,800
+et vous allez monter de niveau 
+votre Pokémon peut monter de niveau il passe niveau 3 
+niveau 4 etc 
 donc c'est quelque chose de très visuel
 
 44
 00:02:06,333 --> 00:02:07,633
-et ça
-
-45
-00:02:08,200 --> 00:02:09,900
-ça nous garde motivé
-
-46
-00:02:09,900 --> 00:02:13,766
-on reste motivé parce que on voit la progression
-
-47
-00:02:13,766 --> 00:02:15,800
+et ça 
+ça nous garde motivé, 
+on reste motivé parce que on voit la progression, 
 on le voit vraiment à l'écran
 
 48
 00:02:16,466 --> 00:02:18,366
-alors que quand on apprend une langue
-
-49
-00:02:18,366 --> 00:02:19,533
+alors que quand on apprend une langue 
 c'est tout l'inverse
 
 50
 00:02:20,733 --> 00:02:23,100
-à ça s'ajoute une autre chose
-
-51
-00:02:23,166 --> 00:02:25,366
-c'est que notre niveau de langue
-
-52
-00:02:25,766 --> 00:02:28,433
-il va dépendre aussi de la situation
-
-53
-00:02:29,800 --> 00:02:33,733
-on va avoir tendance à juger notre niveau de langue
-
-54
-00:02:33,733 --> 00:02:36,066
-à se dire ah aujourd'hui je suis bon
-
-55
-00:02:36,166 --> 00:02:37,433
-aujourd'hui je suis mauvais
-
-56
-00:02:38,266 --> 00:02:40,000
-selon l'utilisation
-
-57
-00:02:40,133 --> 00:02:42,633
+à ça s'ajoute une autre chose 
+c'est que notre niveau de langue 
+il va dépendre aussi de la situation, 
+on va avoir tendance à juger notre niveau de langue 
+à se dire ah aujourd'hui je suis bon, 
+aujourd'hui je suis mauvais 
+selon l'utilisation 
 qu'on va avoir de la langue qu'on apprend
 
 58
 00:02:43,333 --> 00:02:45,866
-l'utilisation ça peut être par exemple
-
-59
-00:02:46,100 --> 00:02:47,633
-parler avec quelqu'un
-
-60
-00:02:48,766 --> 00:02:50,700
-quand vous allez parler avec quelqu'un
-
-61
-00:02:51,366 --> 00:02:54,633
-parfois vous allez avoir le sentiment de progresser
-
-62
-00:02:54,666 --> 00:02:57,200
-parce que vous comprenez tout ce que la personne dit
-
-63
-00:02:57,666 --> 00:02:59,500
-et parfois à l'inverse
-
-64
-00:02:59,700 --> 00:03:03,366
-vous allez avoir l'impression de faire, de régresser
-
-65
-00:03:03,366 --> 00:03:05,566
-c'est-à-dire que votre niveau baisse
-
-66
-00:03:05,933 --> 00:03:08,700
-tout simplement parce que vous n'allez rien comprendre
-
-67
-00:03:09,166 --> 00:03:11,500
+l'utilisation ça peut être par exemple 
+parler avec quelqu'un, 
+quand vous allez parler avec quelqu'un 
+parfois vous allez avoir le sentiment de progresser 
+parce que vous comprenez tout ce que la personne dit 
+et parfois à l'inverse 
+vous allez avoir l'impression de faire, de régresser 
+c'est-à-dire que votre niveau baisse 
+tout simplement parce que vous n'allez rien comprendre 
 et vous n'allez pas arriver à parler
 
 68
 00:03:12,700 --> 00:03:13,966
-ces situations-là
-
-69
-00:03:13,966 --> 00:03:16,166
-elles dépendent de beaucoup de facteurs
-
-70
-00:03:16,333 --> 00:03:18,566
-et c'est pareil quand vous écoutez quelque chose
-
-71
-00:03:18,766 --> 00:03:20,566
-quand vous lisez quelque chose
-
-72
-00:03:21,100 --> 00:03:23,166
+ces situations-là 
+elles dépendent de beaucoup de facteurs 
+et c'est pareil quand vous écoutez quelque chose, 
+quand vous lisez quelque chose 
 ça va dépendre de beaucoup de facteurs
 
 73
 00:03:24,266 --> 00:03:26,600
-premièrement déjà si
-
-74
-00:03:26,600 --> 00:03:30,533
-le contenu que ce soit une discussion avec quelqu'un
-
-75
-00:03:30,600 --> 00:03:34,166
-un texte ou de l'audio
-
-76
-00:03:34,700 --> 00:03:36,166
-si ce contenu
-
-77
-00:03:36,666 --> 00:03:40,000
-contient beaucoup de mots que vous ne connaissez pas
-
-78
-00:03:40,166 --> 00:03:42,700
+premièrement déjà si 
+le contenu que ce soit une discussion avec quelqu'un 
+un texte ou de l'audio, 
+si ce contenu 
+contient beaucoup de mots que vous ne connaissez pas 
 ça va être très difficile de comprendre
 
 79
 00:03:43,466 --> 00:03:45,000
-ça paraît évident
-
-80
-00:03:45,000 --> 00:03:46,133
-mais parfois
-
-81
-00:03:46,366 --> 00:03:50,300
+ça paraît évident 
+mais parfois 
 on peut ne pas avoir un certain type de vocabulaire
 
 82
 00:03:51,266 --> 00:03:52,000
-par exemple
-
-83
-00:03:52,000 --> 00:03:55,166
-vous pouvez avoir un très bon niveau en français
-
-84
-00:03:55,566 --> 00:03:58,566
-mais si vous ne vous êtes jamais
-
-85
-00:03:58,566 --> 00:04:01,866
-intéressé aux légumes en français ou
-
-86
-00:04:02,200 --> 00:04:04,600
+par exemple 
+vous pouvez avoir un très bon niveau en français 
+mais si vous ne vous êtes jamais 
+intéressé aux légumes en français ou 
 à la nourriture de manière générale
 
 87
 00:04:04,900 --> 00:04:06,800
-si vous regardez une vidéo
-
-88
-00:04:06,900 --> 00:04:08,966
-un tutoriel de cuisine
-
-89
-00:04:09,133 --> 00:04:10,733
-vous n'allez rien comprendre
-
-90
-00:04:10,733 --> 00:04:13,633
-tout simplement parce que le vocabulaire utilisé
-
-91
-00:04:13,666 --> 00:04:14,833
+si vous regardez une vidéo 
+un tutoriel de cuisine 
+vous n'allez rien comprendre 
+tout simplement parce que le vocabulaire utilisé 
 est très spécifique
 
 92
 00:04:15,866 --> 00:04:17,533
-donc le premier
-
-93
-00:04:17,700 --> 00:04:19,433
-paramètre c'est le vocabulaire
-
-94
-00:04:19,966 --> 00:04:22,800
+donc le premier 
+paramètre c'est le vocabulaire 
 ensuite il y a aussi notre fatigue
 
 95
 00:04:25,533 --> 00:04:26,466
-notre fatigue
-
-96
-00:04:26,600 --> 00:04:29,733
-tout simplement parce que
-
-97
-00:04:30,266 --> 00:04:33,500
-comprendre parler ou lire une langue
-
-98
-00:04:33,666 --> 00:04:35,733
+notre fatigue 
+tout simplement parce que 
+comprendre parler ou lire une langue 
 ça demande de la concentration
 
 99
 00:04:35,733 --> 00:04:38,800
-il faut être en bonne forme pour
-
-100
-00:04:38,933 --> 00:04:40,266
-pouvoir tout comprendre
-
-101
-00:04:40,333 --> 00:04:42,100
+il faut être en bonne forme pour 
+pouvoir tout comprendre 
 et pouvoir parler avec quelqu'un
 
 102
 00:04:42,100 --> 00:04:43,200
-par exemple
-
-103
-00:04:43,500 --> 00:04:46,600
-ça j'en ai fait l'expérience au Japon
-
-104
-00:04:47,000 --> 00:04:51,000
-où parfois j'arrivais à avoir une discussion
-
-105
-00:04:51,000 --> 00:04:52,533
-fluide avec quelqu'un
-
-106
-00:04:53,100 --> 00:04:55,533
-mais à un autre moment de la journée
-
-107
-00:04:55,600 --> 00:04:57,166
-parce que j'étais fatigué
-
-108
-00:04:57,600 --> 00:04:59,766
-j'avais l'impression que les mots me
-
-109
-00:04:59,766 --> 00:05:01,100
-traversaient la tête
-
-110
-00:05:01,300 --> 00:05:03,333
+par exemple 
+ça j'en ai fait l'expérience au Japon 
+où parfois j'arrivais à avoir une discussion 
+fluide avec quelqu'un 
+mais à un autre moment de la journée, 
+parce que j'étais fatigué 
+j'avais l'impression que les mots me 
+traversaient la tête 
 et que je ne comprenais rien
 
 111
 00:05:03,700 --> 00:05:06,000
-j'avais l'impression vraiment d'être débile
-
-112
-00:05:06,000 --> 00:05:10,066
+j'avais l'impression vraiment d'être débile, 
 d'être idiot et de ne rien comprendre au japonais
 
 113
 00:05:10,566 --> 00:05:12,433
-donc cette question
-
-114
-00:05:12,666 --> 00:05:15,100
-de la fatigue ou d'être en bonne forme
-
-115
-00:05:15,133 --> 00:05:18,333
+donc cette question 
+de la fatigue ou d'être en bonne forme 
 ça a un gros impact aussi sur votre compréhension
 
 116
 00:05:18,933 --> 00:05:20,933
-ensuite dans tout ce qui est discussion
-
-117
-00:05:20,933 --> 00:05:23,933
-il va aussi y avoir bien évidemment
-
-118
-00:05:24,300 --> 00:05:26,733
-la vitesse à laquelle la personne parle
-
-119
-00:05:27,133 --> 00:05:29,066
+ensuite dans tout ce qui est discussion 
+il va aussi y avoir bien évidemment 
+la vitesse à laquelle la personne parle 
 et aussi si elle a un accent
 
 120
 00:05:29,866 --> 00:05:32,400
-parfois vous allez tomber
-
-121
-00:05:32,466 --> 00:05:33,733
-pour faire un cliché
-
-122
-00:05:33,733 --> 00:05:35,600
-mais vous allez tomber sur des vieilles personnes
-
-123
-00:05:36,100 --> 00:05:37,266
-qui mâchent leurs mots
-
-124
-00:05:37,366 --> 00:05:39,133
-c'est-à-dire qui n'articulent pas
-
-125
-00:05:39,166 --> 00:05:41,333
+parfois vous allez tomber, 
+pour faire un cliché, 
+mais vous allez tomber sur des vieilles personnes 
+qui mâchent leurs mots 
+c'est-à-dire qui n'articulent pas 
 ce n'est pas clair quand ils parlent
 
 126
 00:05:41,600 --> 00:05:44,566
-et ça c'est une difficulté supplémentaire
-
-127
-00:05:44,866 --> 00:05:48,233
-qui va faire que ça va être beaucoup plus difficile
-
-128
-00:05:48,666 --> 00:05:51,533
-de comprendre ce que la personne dit
-
-129
-00:05:51,800 --> 00:05:55,433
-et donc si vous êtes dans cette situation-là
-
-130
-00:05:55,566 --> 00:05:56,766
-vous allez vous dire
-
-131
-00:05:56,800 --> 00:06:00,300
-mais mon niveau ne fait que baisser
-
-132
-00:06:00,300 --> 00:06:02,033
+et ça c'est une difficulté supplémentaire 
+qui va faire que ça va être beaucoup plus difficile 
+de comprendre ce que la personne dit 
+et donc si vous êtes dans cette situation-là 
+vous allez vous dire 
+mais mon niveau ne fait que baisser, 
 je n'arrive pas à progresser
 
 133
 00:06:02,133 --> 00:06:04,233
-j'ai encore énormément de mal
-
-134
-00:06:04,666 --> 00:06:06,933
-à parler avec une personne
-
-135
-00:06:06,933 --> 00:06:08,600
-une discussion toute simple
-
-136
-00:06:09,066 --> 00:06:11,233
-j'ai beau avoir passé des tests
-
-137
-00:06:11,266 --> 00:06:14,466
-j'ai beau être B1 B2
-
-138
-00:06:14,566 --> 00:06:15,833
+j'ai encore énormément de mal 
+à parler avec une personne 
+une discussion toute simple, 
+j'ai beau avoir passé des tests, 
+j'ai beau être B1 B2 
 ou plus
 
 139
 00:06:16,100 --> 00:06:17,933
-dès que je parle avec cette personne
-
-140
-00:06:17,933 --> 00:06:19,400
-je ne comprends plus rien
-
-141
-00:06:19,700 --> 00:06:21,000
-et donc là
-
-142
-00:06:21,066 --> 00:06:24,266
-on a beaucoup de frustration c'est-à-dire qu'on se dit
-
-143
-00:06:24,566 --> 00:06:27,466
-j'ai fait tous ces efforts pour au final
-
-144
-00:06:27,466 --> 00:06:28,733
+dès que je parle avec cette personne 
+je ne comprends plus rien 
+et donc là 
+on a beaucoup de frustration c'est-à-dire qu'on se dit 
+j'ai fait tous ces efforts pour au final 
 ne rien comprendre
 
 145
 00:06:29,366 --> 00:06:30,433
-et donc
-
-146
-00:06:30,866 --> 00:06:32,733
-on a cette frustration
-
-147
-00:06:32,766 --> 00:06:34,800
-cette frustration pardon
-
-148
-00:06:34,800 --> 00:06:35,733
-elle est
-
-149
-00:06:35,766 --> 00:06:38,466
+et donc 
+on a cette frustration, 
+cette frustration pardon, 
+elle est 
 très présente dans l'apprentissage des langues
 
 150
 00:06:39,266 --> 00:06:41,433
-en fait je pense que c'est une balance entre
-
-151
-00:06:41,466 --> 00:06:43,533
-de la frustration et de la motivation
-
-152
-00:06:44,366 --> 00:06:46,333
-c'est-à-dire que quand on a le sentiment
-
-153
-00:06:46,400 --> 00:06:47,333
-qu'on progresse
-
-154
-00:06:47,400 --> 00:06:49,266
+en fait je pense que c'est une balance entre 
+de la frustration et de la motivation 
+c'est-à-dire que quand on a le sentiment 
+qu'on progresse 
 on va être très motivé
 
 155
 00:06:49,400 --> 00:06:50,600
-et en général
-
-156
-00:06:50,600 --> 00:06:52,466
-juste après on va avoir
-
-157
-00:06:52,533 --> 00:06:56,266
-un moment de frustration où on va perdre cette
-
-158
-00:06:56,400 --> 00:06:59,100
+et en général 
+juste après on va avoir 
+un moment de frustration où on va perdre cette 
 motivation et on va se sentir nul
 
 159
 00:07:00,266 --> 00:07:03,266
-donc la motivation ce n'est pas un problème
-
-160
-00:07:03,366 --> 00:07:06,166
-c'est même un moteur dans votre apprentissage
-
-161
-00:07:06,533 --> 00:07:08,166
+donc la motivation ce n'est pas un problème 
+c'est même un moteur dans votre apprentissage 
 le problème c'est la frustration
 
 162
 00:07:09,133 --> 00:07:10,933
-j'ai des élèves qui me disent
-
-163
-00:07:10,933 --> 00:07:14,100
-j'ai l'impression que c'est les montagnes russes
-
-164
-00:07:14,200 --> 00:07:15,666
-mon niveau dans la langue
-
-165
-00:07:15,666 --> 00:07:19,033
+j'ai des élèves qui me disent 
+j'ai l'impression que c'est les montagnes russes, 
+mon niveau dans la langue 
 c'est comme les montagnes russes ça monte et ça descend
 
 166
 00:07:19,933 --> 00:07:22,000
-ce que j'ai tendance à dire c'est que
-
-167
-00:07:22,000 --> 00:07:24,766
-il faut essayer de voir la moyenne
-
-168
-00:07:26,266 --> 00:07:27,500
-c'est difficile à expliquer
-
-169
-00:07:27,600 --> 00:07:30,000
-mais si votre courbe d'apprentissage
-
-170
-00:07:30,133 --> 00:07:32,433
+ce que j'ai tendance à dire c'est que 
+il faut essayer de voir la moyenne, 
+c'est difficile à expliquer 
+mais si votre courbe d'apprentissage 
 si votre niveau fait des mouvements comme ça
 
 171
 00:07:33,200 --> 00:07:34,700
-ce dont il faut être sûr
-
-172
-00:07:34,700 --> 00:07:37,733
-c'est que la moyenne est une droite qui monte
-
-173
-00:07:37,866 --> 00:07:42,100
+ce dont il faut être sûr 
+c'est que la moyenne est une droite qui monte 
 que votre niveau moyen continue d'augmenter constamment
 
 174
 00:07:42,533 --> 00:07:43,633
-ça c'est important
-
-175
-00:07:43,933 --> 00:07:47,200
-on a du mal à pouvoir mesurer cette
-
-176
-00:07:47,200 --> 00:07:49,100
-cette moyenne qui progresse
-
-177
-00:07:49,300 --> 00:07:50,566
+ça c'est important, 
+on a du mal à pouvoir mesurer cette 
+cette moyenne qui progresse 
 mais c'est ça qui compte
 
 178
 00:07:50,966 --> 00:07:53,900
-parce que même si une journée vous allez avoir
-
-179
-00:07:54,133 --> 00:07:56,166
-beaucoup de mal à parler
-
-180
-00:07:56,466 --> 00:07:59,633
-si votre niveau moyen continue de progresser
-
-181
-00:07:59,766 --> 00:08:01,833
+parce que même si une journée vous allez avoir 
+beaucoup de mal à parler 
+si votre niveau moyen continue de progresser 
 vous êtes sur la bonne voie
 
 182
 00:08:01,966 --> 00:08:03,966
-et d'une manière générale
-
-183
-00:08:03,966 --> 00:08:05,966
-je pense que c'est le cas pour tout le monde
-
-184
-00:08:05,966 --> 00:08:07,300
-si vous travaillez
-
-185
-00:08:07,533 --> 00:08:08,700
-chaque jour
-
-186
-00:08:08,866 --> 00:08:12,166
-même si vous n'avez pas le sentiment de trop progresser
-
-187
-00:08:12,200 --> 00:08:14,733
-ou parfois même de régresser
-
-188
-00:08:15,900 --> 00:08:20,300
-cette courbe aura sûrement tendance à augmenter
-
-189
-00:08:20,300 --> 00:08:21,533
+et d'une manière générale 
+je pense que c'est le cas pour tout le monde, 
+si vous travaillez 
+chaque jour 
+même si vous n'avez pas le sentiment de trop progresser 
+ou parfois même de régresser 
+cette courbe aura sûrement tendance à augmenter, 
 à s'améliorer
 
 190
 00:08:21,600 --> 00:08:25,100
-votre niveau moyen va continuer de s'améliorer
-
-191
-00:08:26,466 --> 00:08:28,966
-et donc le tout le problème de la frustration
-
-192
-00:08:28,966 --> 00:08:31,866
-c'est qu'on a du mal à voir cette courbe moyenne
-
-193
-00:08:31,966 --> 00:08:35,366
+votre niveau moyen va continuer de s'améliorer 
+et donc le tout le problème de la frustration 
+c'est qu'on a du mal à voir cette courbe moyenne, 
 à voir notre niveau moyen s'améliorer
 
 194
 00:08:36,133 --> 00:08:37,800
-pour finir sur ce podcast
-
-195
-00:08:38,666 --> 00:08:41,866
-ma recommandation du coup par rapport à la frustration
-
-196
-00:08:42,300 --> 00:08:44,166
-c'est de prendre du recul
-
-197
-00:08:44,200 --> 00:08:45,733
+pour finir sur ce podcast 
+ma recommandation du coup par rapport à la frustration 
+c'est de prendre du recul 
 par rapport à cette frustration
 
 198
 00:08:45,733 --> 00:08:48,800
-c'est-à-dire de ne pas prendre trop à cœur
-
-199
-00:08:48,866 --> 00:08:50,966
-ne pas prendre trop sérieusement
-
-200
-00:08:51,566 --> 00:08:53,300
-les moments
-
-201
-00:08:53,333 --> 00:08:55,466
-où vous n'arrivez pas à comprendre la langue
-
-202
-00:08:55,466 --> 00:08:57,066
+c'est-à-dire de ne pas prendre trop à cœur, 
+ne pas prendre trop sérieusement 
+les moments 
+où vous n'arrivez pas à comprendre la langue, 
 où vous n'arrivez pas à parler
 
 203
 00:08:57,533 --> 00:08:58,900
-il faut prendre du recul
-
-204
-00:08:58,966 --> 00:09:00,566
-il faut se dire ce n'est pas grave
-
-205
-00:09:00,766 --> 00:09:03,633
-je vais continuer de travailler et ça va s'améliorer
-
-206
-00:09:04,100 --> 00:09:06,666
-et là vous vous assurez que la courbe moyenne
-
-207
-00:09:06,666 --> 00:09:08,100
+il faut prendre du recul, 
+il faut se dire ce n'est pas grave, 
+je vais continuer de travailler et ça va s'améliorer 
+et là vous vous assurez que la courbe moyenne 
 continue d'augmenter
 
 208
 00:09:08,866 --> 00:09:12,933
-le deuxième conseil c'est d'utiliser des  statistiques
-
-209
-00:09:12,933 --> 00:09:14,400
-d'utiliser des données
-
-210
-00:09:14,733 --> 00:09:18,366
-et notamment d'utiliser des outils d'apprentissage
-
-211
-00:09:18,733 --> 00:09:20,900
+le deuxième conseil c'est d'utiliser des  statistiques, 
+d'utiliser des données 
+et notamment d'utiliser des outils d'apprentissage 
 qui vous montrent ce genre de données
 
 212
 00:09:21,666 --> 00:09:23,566
-pour ma part j'utilise
-
-213
-00:09:23,900 --> 00:09:26,600
-une application pour faire mes cartes de vocabulaire
-
-214
-00:09:26,600 --> 00:09:27,800
-qui s'appelle migaku
-
-215
-00:09:28,266 --> 00:09:29,933
-et c'est tout bête mais migaku
-
-216
-00:09:30,066 --> 00:09:32,133
+pour ma part j'utilise 
+une application pour faire mes cartes de vocabulaire 
+qui s'appelle migaku 
+et c'est tout bête mais migaku 
 il y a un compteur de mots que je connais
 
 217
 00:09:32,866 --> 00:09:34,033
-donc en japonais
-
-218
-00:09:34,066 --> 00:09:35,633
-je dois être à 4200
-
-219
-00:09:35,700 --> 00:09:36,800
-mots que je connais
-
-220
-00:09:37,466 --> 00:09:40,766
-même si beaucoup de ces mots je les ai oubliés
-
-221
-00:09:41,200 --> 00:09:44,566
-de voir que il y a un compteur qui augmente chaque jour
-
-222
-00:09:44,966 --> 00:09:46,400
+donc en japonais 
+je dois être à 4200 
+mots que je connais 
+même si beaucoup de ces mots je les ai oubliés 
+de voir que il y a un compteur qui augmente chaque jour 
 ça me garde motivé
 
 223
 00:09:46,466 --> 00:09:49,533
-et ça représente cette progression linéaire
-
-224
-00:09:49,533 --> 00:09:51,066
-cette progression moyenne
-
-225
-00:09:51,666 --> 00:09:54,300
-donc même si parfois je me sens perdu
-
-226
-00:09:54,500 --> 00:09:57,333
-même si parfois je ne comprends rien au japonais
-
-227
-00:09:57,333 --> 00:10:01,700
-que je lis que j'écoute ou que j'essaie de parler
-
-228
-00:10:02,333 --> 00:10:03,666
-même si je ne comprends rien
-
-229
-00:10:04,133 --> 00:10:06,500
+et ça représente cette progression linéaire 
+cette progression moyenne 
+donc même si parfois je me sens perdu, 
+même si parfois je ne comprends rien au japonais 
+que je lis que j'écoute ou que j'essaie de parler 
+même si je ne comprends rien 
 je vois que mon niveau progresse
 
 230
 00:10:07,600 --> 00:10:08,766
-il y a des choses comme ça
-
-231
-00:10:08,766 --> 00:10:11,200
-donc des compteurs de mots que vous connaissez
-
-232
-00:10:11,866 --> 00:10:15,100
-et il y a aussi tout simplement des heatmaps
-
-233
-00:10:15,166 --> 00:10:16,000
-donc des
-
-234
-00:10:16,066 --> 00:10:18,533
-des sortes de cartes ou même des compteurs de jours
-
-235
-00:10:18,733 --> 00:10:22,600
-qui vous représentent le nombre de jours consécutifs
-
-236
-00:10:22,900 --> 00:10:25,333
+il y a des choses comme ça, 
+donc des compteurs de mots que vous connaissez 
+et il y a aussi tout simplement des heatmaps 
+donc des 
+des sortes de cartes ou même des compteurs de jours 
+qui vous représentent le nombre de jours consécutifs 
 durant lesquels vous travaillez
 
 237
 00:10:25,400 --> 00:10:27,233
-et ça c'est important pour
-
-238
-00:10:27,366 --> 00:10:29,133
+et ça c'est important pour 
 garder cette motivation
 
 239
 00:10:29,733 --> 00:10:33,866
-une application très efficace pour ça c'est Duolingo
-
-240
-00:10:34,066 --> 00:10:36,600
-c'est très gamifié comme on dit
-
-241
-00:10:36,600 --> 00:10:37,100
-et du coup
-
-242
-00:10:37,100 --> 00:10:39,233
+une application très efficace pour ça c'est Duolingo 
+c'est très gamifié comme on dit 
+et du coup 
 ça donne envie de faire un peu tous les jours
 
 243
 00:10:39,666 --> 00:10:43,766
-alors même si je ne suis pas fan de l'application
-
-244
-00:10:43,933 --> 00:10:47,033
-il faut reconnaître que c'est une très bonne utilisation
-
-245
-00:10:47,700 --> 00:10:51,366
-pour commencer à s'habituer à suivre des statistiques
-
-246
-00:10:51,733 --> 00:10:55,333
-et qui nous font prendre conscience, que on a, voilà
-
-247
-00:10:55,333 --> 00:10:57,666
-toujours cette progression moyenne
-
-248
-00:10:57,900 --> 00:10:58,933
+alors même si je ne suis pas fan de l'application 
+il faut reconnaître que c'est une très bonne utilisation 
+pour commencer à s'habituer à suivre des statistiques 
+et qui nous font prendre conscience, que on a, voilà 
+toujours cette progression moyenne 
 linéaire
 
 249
 00:10:59,300 --> 00:11:02,266
-même si on a pas le sentiment de progresser
-
-250
-00:11:02,300 --> 00:11:03,966
-même si on a une frustration
-
-251
-00:11:04,866 --> 00:11:07,966
-on continue de progresser tous les jours en
-
-252
-00:11:07,966 --> 00:11:09,866
+même si on a pas le sentiment de progresser 
+même si on a une frustration 
+on continue de progresser tous les jours en 
 travaillant un peu tous les jours
 
 253
 00:11:11,000 --> 00:11:13,266
-donc voilà mon message
-
-254
-00:11:13,266 --> 00:11:16,333
-global c'est même si vous sentez cette frustration
-
-255
-00:11:16,400 --> 00:11:17,400
-ce qui compte
-
-256
-00:11:17,400 --> 00:11:18,533
+donc voilà mon message 
+global c'est même si vous sentez cette frustration 
+ce qui compte 
 c'est de continuer
 
 257
 00:11:18,700 --> 00:11:19,900
-si vous continuez
-
-258
-00:11:20,300 --> 00:11:21,466
-vous allez progresser
-
-259
-00:11:21,800 --> 00:11:25,166
-votre niveau moyen pardon va progresser
-
-260
-00:11:25,400 --> 00:11:26,866
-et petit à petit
-
-261
-00:11:26,866 --> 00:11:29,600
-vous allez devenir meilleur dans la langue
-
-262
-00:11:29,800 --> 00:11:31,133
+si vous continuez 
+vous allez progresser, 
+votre niveau moyen pardon va progresser 
+et petit à petit 
+vous allez devenir meilleur dans la langue 
 que vous apprenez
 
 263
 00:11:31,666 --> 00:11:34,833
-voilà c'était un nouveau test du coup avec cette caméra
-
-264
-00:11:35,200 --> 00:11:39,433
-et un podcast sans script
-
-265
-00:11:39,600 --> 00:11:41,266
-j'espère que ça vous aura plu
-
-266
-00:11:41,766 --> 00:11:43,966
-je pense que c'est un français plus naturel
-
-267
-00:11:43,966 --> 00:11:46,166
-et que du coup c'est peut-être plus intéressant
-
-268
-00:11:47,066 --> 00:11:49,300
+voilà c'était un nouveau test du coup avec cette caméra 
+et un podcast sans script, 
+j'espère que ça vous aura plu, 
+je pense que c'est un français plus naturel 
+et que du coup c'est peut-être plus intéressant 
 justement pour préparer les discussions
 
 269
 00:11:51,366 --> 00:11:53,200
-typiquement je dis souvent "euh"
-
-270
-00:11:53,333 --> 00:11:54,866
-enfin je fais souvent ce bruit
-
-271
-00:11:54,866 --> 00:11:56,766
-et c'est quelque chose que les français font souvent
-
-272
-00:11:57,266 --> 00:11:59,533
-donc si vous vous habituez à ce genre
-
-273
-00:12:00,166 --> 00:12:01,033
-de podcast
-
-274
-00:12:01,366 --> 00:12:04,133
-ça pourra peut-être vous aider pour les discussions
-
-275
-00:12:04,366 --> 00:12:05,233
+typiquement je dis souvent "euh" 
+enfin je fais souvent ce bruit 
+et c'est quelque chose que les français font souvent 
+donc si vous vous habituez à ce genre 
+de podcast 
+ça pourra peut-être vous aider pour les discussions 
 plus naturelles
 
 276
 00:12:06,100 --> 00:12:07,833
-merci d'avoir regardé jusqu'au bout
-
-277
-00:12:07,966 --> 00:12:09,666
+merci d'avoir regardé jusqu'au bout 
 et je vous dis à la prochaine
 
