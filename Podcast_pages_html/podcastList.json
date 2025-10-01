@@ -178,5 +178,14 @@
     "cover": "la-frustration.png",
     "transcriptFile": "la-frustration.srt",
     "outputPath": "../Podcast_pages_html/la-frustration.html"
+  },
+  {
+    "id": 20,
+    "pageName": "le-pouvoir-des-habitudes",
+    "title": "Le pouvoir des habitudes",
+    "videoId": "3Hz6C4k0MIQ",
+    "cover": "le-pouvoir-des-habitudes.png",
+    "transcriptFile": "le-pouvoir-des-habitudes.srt",
+    "outputPath": "../Podcast_pages_html/le-pouvoir-des-habitudes.html"
   }
 ]
