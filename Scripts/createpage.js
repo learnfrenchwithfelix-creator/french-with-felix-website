@@ -135,4 +135,4 @@ createPodcastPage({ pageName, title, videoId, cover, transcriptFile });
 
 
 
-// node createPage.js chihiro "Pourquoi vous avez aimé le voyage de Chihiro ?" rpy1qU1pAKA cover.jpg le-voyage-de-chihiro.srt
+// node createPage.js la-frustration "La frustration" hQe6_ugdNZQ la-frustration.png la-frustration.srt

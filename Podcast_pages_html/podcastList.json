@@ -169,5 +169,14 @@
     "cover": "apprendre-une-nouvelle-langue.png",
     "transcriptFile": "apprendre-une-nouvelle-langue.srt",
     "outputPath": "../Podcast_pages_html/apprendre-une-nouvelle-langue.html"
+  },
+  {
+    "id": 19,
+    "pageName": "la-frustration",
+    "title": "La frustration",
+    "videoId": "hQe6_ugdNZQ",
+    "cover": "la-frustration.png",
+    "transcriptFile": "la-frustration.srt",
+    "outputPath": "../Podcast_pages_html/la-frustration.html"
   }
 ]
