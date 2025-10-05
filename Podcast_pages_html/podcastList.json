@@ -187,5 +187,14 @@
     "cover": "le-pouvoir-des-habitudes.png",
     "transcriptFile": "le-pouvoir-des-habitudes.srt",
     "outputPath": "../Podcast_pages_html/le-pouvoir-des-habitudes.html"
+  },
+  {
+    "id": 21,
+    "pageName": "portugais-1",
+    "title": "J'apprends le Portugais en 3 mois",
+    "videoId": "_0USECTqa-I",
+    "cover": "portugais-1.png",
+    "transcriptFile": "portugais-1.srt",
+    "outputPath": "../Podcast_pages_html/portugais-1.html"
   }
 ]

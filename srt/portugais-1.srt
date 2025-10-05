@@ -1,0 +1,577 @@
+1
+00:00:00,400 --> 00:00:02,300
+Bonjour à toutes et à tous 
+et bienvenue dans ce nouveau podcast
+
+3
+00:00:06,100 --> 00:00:07,966
+alors j'espère que la lumière 
+est assez bonne pour cette vidéo 
+parce que aujourd'hui il ne fait pas beau
+
+6
+00:00:13,533 --> 00:00:15,166
+depuis midi environ 
+il pleut beaucoup et du coup le ciel est gris 
+et du coup la lumière risque d'être un peu sombre
+
+9
+00:00:22,000 --> 00:00:22,966
+bon, 
+vous me direz en commentaire si c'est vraiment gênant
+
+11
+00:00:27,200 --> 00:00:28,266
+mais du coup aujourd'hui 
+on se retrouve pour un nouveau podcast 
+un peu particulier
+
+14
+00:00:33,166 --> 00:00:35,400
+dans une autre vidéo j'ai expliqué 
+que je me lançais le défi d'apprendre le portugais 
+en 3 mois en travaillant 1h par jour 
+j'espère maîtriser le portugais en 3 mois
+
+18
+00:00:48,100 --> 00:00:49,400
+quand je dis maîtriser 
+c'est à dire pouvoir discuter 
+avec n'importe qui en portugais 
+même si ce n'est pas parfait 
+pouvoir m'exprimer et comprendre 
+les Portugais
+
+24
+00:01:00,600 --> 00:01:02,733
+donc j'ai sorti une vidéo dans laquelle 
+j'explique ce projet et 
+du coup l'idée c'est d'apprendre 
+de début octobre jusqu'à fin décembre 
+le portugais en travaillant 1h par jour
+
+29
+00:01:17,133 --> 00:01:19,066
+aujourd'hui au moment où je tourne 
+on est le samedi 4 Octobre 
+et j'ai donc commencé 
+à apprendre le portugais le premier octobre, 
+le mercredi premier octobre 
+et du coup aujourd'hui 
+on se retrouve pour le premier épisode 
+où je vous raconte comment j'apprends le portugais
+
+37
+00:01:39,333 --> 00:01:42,000
+je vais sortir un podcast toutes les semaines 
+ça va être un podcast hebdomadaire 
+dans lequel 
+je raconte je vous raconte mon apprentissage 
+du portugais et du coup aujourd'hui on se retrouve 
+pour le premier épisode
+
+43
+00:02:00,733 --> 00:02:02,700
+la première chose à prendre en compte 
+c'est la langue que l'on apprend c'est à dire la 
+la ressemblance de la langue qu'on apprend 
+avec notre propre langue maternelle
+
+47
+00:02:13,333 --> 00:02:14,233
+bien évidemment 
+plus la langue que l'on veut apprendre est différente 
+de notre langue maternelle, 
+plus ça va être difficile, 
+plus il va falloir pardon 
+travailler et passer d'heures à étudier cette langue
+
+53
+00:02:30,866 --> 00:02:31,766
+c'est évident 
+mais voilà si je prends l'exemple 
+du japonais 
+ça demande beaucoup plus d'heures de travail
+
+57
+00:02:39,566 --> 00:02:42,300
+c'est une langue que j'apprends depuis 5 ans maintenant 
+et je ne la maîtrise pas je ne la maîtrise même pas
+
+59
+00:02:47,166 --> 00:02:49,933
+donc quand je dis que j'apprends le portugais en 3 mois 
+à raison d'une heure par jour 
+c'est parce que 
+c'est une langue très similaire au français
+
+63
+00:02:56,200 --> 00:02:58,533
+c'est une langue latine donc 
+l'italien l'espagnol 
+le français le portugais 
+appartiennent 
+à la même famille de langue 
+ce qui fait que c'est plus facile pour moi d'apprendre 
+le portugais dans une 
+durée assez courte
+
+71
+00:03:16,266 --> 00:03:19,500
+si je dis ça même si c'est évident c'est pour une raison 
+cette raison c'est que je pense que 
+la ressemblance 
+qu'on va avoir entre la langue que l'on veut apprendre 
+et notre propre propre langue maternelle 
+pardon 
+va avoir un impact sur la méthodologie 
+qu'on va utiliser
+
+79
+00:03:37,166 --> 00:03:38,633
+si je caricature 
+il y a deux extrêmes 
+d'un côté il y a ce qu'on pourrait appeler 
+l'apprentissage naturel 
+c'est à dire 
+la manière dont apprends un nouveau né
+
+85
+00:03:51,000 --> 00:03:53,300
+un nouveau-né, un bébé quand il naît 
+il arrive il ne sait pas parler 
+mais parce qu'il entend tout le monde autour de lui 
+parler une langue 
+petit à petit il associe les mots 
+à des objets à des significations
+
+91
+00:04:06,333 --> 00:04:09,000
+et il commence à apprendre à parler comme ça 
+ça c'est vraiment la langue la méthode pardon 
+naturelle
+
+94
+00:04:13,333 --> 00:04:16,500
+si on l'applique à un adulte ça va être par exemple 
+je pars vivre dans un pays 
+sans connaître la langue 
+et parce que j'habite dans ce pays et que 
+je n'entends que cette langue 
+et que les gens ne parlent que cette langue
+
+100
+00:04:27,166 --> 00:04:28,533
+je vais petit à petit 
+apprendre à parler cette langue 
+ça c'est l'apprentissage naturel
+
+103
+00:04:34,166 --> 00:04:36,266
+et de l'autre côté à l'autre extrême 
+il y a l'apprentissage théorique 
+et là ça va être là 
+ça va être apprendre, 
+étudier toutes les règles théoriques, 
+les règles de grammaire par exemple 
+qui explique le fonctionnement d'une langue 
+ça va plus se rapprocher par exemple de la linguistique
+
+111
+00:04:55,266 --> 00:04:58,066
+et si je vous donne un exemple 
+d'un côté 
+l'apprentissage naturel 
+un exemple très concret c'est que quand 
+j'ai commencé à donner des cours de français 
+j'avais souvent des étudiants qui me posaient 
+des questions
+
+118
+00:05:10,366 --> 00:05:11,933
+pourquoi on dit ça comme ça, 
+pourquoi on utilise ce mot là de cette manière 
+et la plupart du temps je ne savais même pas 
+tout simplement parce que la manière dont je parle 
+je parle d'une certaine manière 
+tout simplement parce que ça me paraît naturel, 
+ça sonne bien
+
+125
+00:05:31,466 --> 00:05:33,700
+et c'est pareil dans toutes les langues 
+si vous réfléchissez 
+à votre propre langue maternelle 
+la plupart du temps 
+vous parlez juste parce que ça sonne bien
+
+130
+00:05:42,666 --> 00:05:44,333
+si je vous demande par exemple 
+dans votre langue maternelle 
+où se place l'adjectif par rapport au nom 
+il y a de fortes chances que vous ne savez pas 
+que vous ne pouviez pas répondre à cette question
+
+135
+00:05:58,133 --> 00:06:00,733
+quand on me l'a posé pendant un cours de français 
+je ne pouvais pas répondre 
+et j'ai donc cherché pour pouvoir expliquer
+
+138
+00:06:05,566 --> 00:06:08,833
+ça c'est l'apprentissage naturel par la répétition 
+on a voilà une sorte de 
+de on a une sorte
+
+141
+00:06:14,500 --> 00:06:18,000
+on se fait une idée de ce qui sonne naturel ou pas 
+et de l'autre côté par exemple 
+quand j'apprends le japonais j'ai besoin de théorie 
+parce que rien ne ressemble aux français, 
+je suis complètement perdu
+
+146
+00:06:29,466 --> 00:06:31,933
+et du coup j'ai besoin de commencer à comprendre 
+les règles pour pouvoir structurer mon apprentissage, 
+pour pouvoir commencer à parler, 
+à faire des phrases, 
+voilà j'ai besoin de ces règles théoriques
+
+151
+00:06:44,066 --> 00:06:46,766
+l'exemple tout bête c'est que en français 
+on va dire 
+je mange une pomme donc ça va être sujet verbe objet, 
+en japonais on va dire watashi ha ringo wo taberu 
+et ce qui veut dire je 
+une pomme mange donc ça va être sujet objet verbe
+
+157
+00:07:05,866 --> 00:07:08,266
+donc rien que la structure de la phrase 
+elle est différente, 
+on a besoin de cette théorie 
+parce que sinon on est complètement perdu
+
+161
+00:07:15,800 --> 00:07:16,600
+ce que je veux dire 
+c'est que quand on commence à apprendre une langue 
+notre méthodologie elle va être entre ces 2 points
+
+164
+00:07:22,766 --> 00:07:24,833
+ce n'est pas blanc ou noir, 
+ce n'est pas binaire 
+c'est plus un curseur qu'on déplace entre ces 2 points, 
+entre l'apprentissage naturel, 
+et l'apprentissage théorique 
+pour s'adapter à la langue qu'on apprend
+
+170
+00:07:38,366 --> 00:07:40,500
+une fois que j'ai dit ça ça fait quand-même 
+quasiment 8 minutes que je parle 
+tout ça pour dire en fait que 
+comme le portugais est très similaire au français 
+j'ai décidé de commencer avec une approche très naturelle
+
+175
+00:07:52,600 --> 00:07:56,400
+c'est à dire que j'ai commencé directement par écouter, 
+par regarder des vidéos en portugais 
+même si je n'ai jamais vraiment appris le portugais
+
+178
+00:08:05,533 --> 00:08:07,800
+rien qu'en regardant des vidéos au début 
+je comprends beaucoup de choses par rapport 
+au volume d'heure que j'ai passé à étudier
+
+181
+00:08:15,066 --> 00:08:17,600
+et donc c'est pour ça que cette approche naturelle 
+me semble efficace 
+parce que ça me permet 
+d'activer rapidement 
+du portugais dans ma tête 
+sans passer trop de temps sur de la théorie
+
+187
+00:08:29,466 --> 00:08:30,666
+ce que j'ai fait 
+par contre pour la théorie c'est que j'ai voulu 
+apprendre directement 
+tout ce qui touche à la conjugaison
+
+191
+00:08:39,000 --> 00:08:40,200
+la conjugaison 
+c'est un point assez important dans les langues latines, 
+c'est un point assez difficile 
+et c'est un point assez central
+
+195
+00:08:47,866 --> 00:08:48,933
+puisque dans chaque phrase 
+on a besoin de conjuguer les verbes 
+et donc 
+j'ai envie de maîtriser 
+le plus rapidement la conjugaison 
+pour après pouvoir me concentrer plus 
+sur du vocabulaire par exemple
+
+202
+00:09:03,300 --> 00:09:06,433
+ce que j'ai fait c'est que j'ai demandé à Chat GPT 
+je vais vous retrouver ça, 
+je lui ai demandé en fait de me 
+donner les verbes principaux, 
+les verbes les plus utilisés en portugais 
+et de me faire des 
+phrases d'exemple en utilisant ces verbes 
+et en les conjugant au temps principaux 
+au temps les plus utilisés
+
+211
+00:09:29,900 --> 00:09:31,033
+typiquement 
+il y a le présent 
+et ensuite il y a le passé le futur 
+le conditionnel
+
+215
+00:09:37,533 --> 00:09:38,600
+alors 
+voilà 
+du coup 
+il m'a dit les verbes principaux en portugais européen 
+donc être avoir 
+aller faire dire 
+pouvoir vouloir
+
+222
+00:09:51,666 --> 00:09:52,266
+et ensuite 
+il a commencé à me donner des exemples de conjugaison, 
+je vais essayer de vous trouver ça
+
+225
+00:09:59,700 --> 00:10:01,966
+voilà donc si je vous montre 
+je sais pas si vous voyez bien 
+mais en gros il m'a envoyé une phrase 
+pour chaque conjugaison du verbe 
+pour chaque temps 
+grâce à ces phrases 
+j'apprends aussi en même temps du vocabulaire
+
+232
+00:10:15,733 --> 00:10:17,800
+c'est du vocabulaire qui est très ressemblant 
+au français donc je ne suis pas perdu 
+quand je lis ce genre de phrase
+
+235
+00:10:23,066 --> 00:10:26,233
+si j'avais fait ça pour le japonais par exemple 
+ça n'aurait pas pu fonctionner 
+tout simplement parce que 
+c'est trop différent et je n'aurais pas pu comprendre 
+les phrases que me propose chat GPT
+
+240
+00:10:37,000 --> 00:10:38,933
+et ce que je fais ensuite c'est que 
+à partir de ces phrases 
+je crée des cartes, 
+des flashcards 
+dans l'application 
+migaku
+
+246
+00:10:47,666 --> 00:10:49,400
+si je vous donne un exemple 
+hop 
+je vais essayer de vous trouver ça
+
+249
+00:10:54,500 --> 00:10:57,200
+si je vous donne un exemple voilà 
+et du coup ça me donne ce genre de carte
+
+251
+00:11:01,800 --> 00:11:04,900
+ensuite ce que je fais c'est que chaque jour je révise 
+20 nouvelles cartes 
+pour aller le plus rapidement possible 
+pour maîtriser 
+le plus rapidement possible ces conjugaisons
+
+256
+00:11:14,666 --> 00:11:16,600
+c'est une manière assez rapide 
+et qui n'est pas très réfléchie 
+qui est plus naturelle 
+parce que le portugais est similaire au français
+
+260
+00:11:24,100 --> 00:11:26,266
+quand j'ai demandé à Chat GPT 
+une phrase d'exemple pour chaque conjugaison 
+pour chaque temps pour chaque verbe principaux 
+du portugais 
+j'ai dû créer le le premier jour 
+environ 130 cartes je crois
+
+266
+00:11:40,100 --> 00:11:43,066
+donc là je fais 20 nouvelles cartes par jour 
+je vais en avoir à peu près pour 1 semaine 
+à étudier ces 
+ces nouvelles cartes
+
+270
+00:11:50,133 --> 00:11:50,733
+en même temps 
+ce que je fais 
+c'est que pour travailler un peu ma conjugaison 
+donc pour être plus dans une approche un peu théorique 
+je lui ai demandé 
+j'ai demandé à chat GPT 
+en fait de me faire des questionnaires de conjugaison 
+hop je vais essayer de vous trouver ça c'est assez long
+
+278
+00:12:07,266 --> 00:12:08,533
+voilà 
+donc en gros je demande à chat GPT 
+de me faire des phrases à trous où je dois 
+conjuguer les verbes
+
+282
+00:12:18,500 --> 00:12:21,300
+et si je vous montre ça 
+toc toc toc 
+donc voilà 
+il m'envoie ce genre de phrase à trou à compléter 
+je lui réponds avec mes conjugaisons 
+et ensuite 
+il me dit si c'est correct ou pas
+
+289
+00:12:42,733 --> 00:12:43,466
+et vous voyez 
+je n'ai même pas vraiment révisé la conjugaison 
+et pourtant j'arrive quand-même à avoir 
+beaucoup de réponses correctes
+
+293
+00:12:51,466 --> 00:12:54,366
+alors bien sûr il faut que j'apprenne un peu plus 
+spécifiquement la conjugaison 
+mais tout ça pour dire que 
+parce que le portugais est très ressemblant 
+au français
+
+298
+00:13:01,133 --> 00:13:03,733
+je peux me permettre d'aller plus rapidement 
+vers de l'immersion, 
+vers de l'écoute, 
+vers de la lecture
+
+302
+00:13:07,900 --> 00:13:08,933
+et avoir 
+une approche pardon dans mon apprentissage plus naturel 
+ça me permet d'aller plus vite 
+et ça me permet d'avoir 
+une approche plus instinctive
+
+307
+00:13:20,466 --> 00:13:21,933
+c'est à dire que je vais commencer 
+à réfléchir en portugais 
+de manière plus instinctive 
+là où encore une fois je prends l'exemple 
+contraire avec le japonais 
+où cette méthode est tout simplement impossible 
+parce que c'est trop différent du français
+
+314
+00:13:37,966 --> 00:13:39,666
+donc pour ces quatre premiers jours 
+c'est encore un peu court 
+mais je vous donnerai plus de nouvelles 
+la semaine prochaine
+
+318
+00:13:44,466 --> 00:13:45,566
+pour ces quatre premiers jours 
+j'ai passé le 
+le plus de temps possible 
+à créer des cartes et à les réviser
+
+322
+00:13:52,266 --> 00:13:54,866
+20 nouvelles cartes par jour ça demande du temps 
+et plus je vais avancer plus ça va demander du temps 
+parce que plus je vais avoir de cartes 
+à réviser
+
+326
+00:14:00,866 --> 00:14:02,100
+donc voilà 
+pour le moment je me concentre sur cette approche 
+ensuite il va y avoir aussi des  
+sujets sur les articles, 
+sur les particules qu'il faut que je regarde 
+voir comment ça fonctionne 
+si c'est similaire au français
+
+333
+00:14:15,266 --> 00:14:16,833
+et sinon je pense continuer 
+un maximum avec cet approche de l'immersion 
+en écoutant des podcasts en regardant des vidéos
+
+336
+00:14:23,166 --> 00:14:26,266
+et en créant des flashcards à partir 
+de ce contenu que je consomme
+
+338
+00:14:31,900 --> 00:14:34,066
+première étape donc c'est la conjugaison 
+et d'ici la semaine prochaine
+
+340
+00:14:36,333 --> 00:14:37,266
+je pense que je 
+pourrais vous donner plus de détails sur mon avancée 
+sur cette conjugaison portugaise
+
+343
+00:14:44,533 --> 00:14:47,866
+voilà j'espère que le ce format vous aura plu 
+j'espère que ça vous aide 
+aussi à réfléchir à votre façon 
+d'apprendre le français
+
+347
+00:14:53,766 --> 00:14:54,800
+si vous avez des questions 
+n'hésitez pas à les écrire en commentaire 
+et je pourrais répondre
+
+350
+00:15:00,866 --> 00:15:03,266
+je vais continuer à apprendre le portugais 
+j'espère que je vais pouvoir progresser rapidement 
+et d'ici là je vous dis à la semaine prochaine
+

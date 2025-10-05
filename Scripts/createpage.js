@@ -135,4 +135,4 @@ createPodcastPage({ pageName, title, videoId, cover, transcriptFile });
 
 
 
-// node createPage.js le-pouvoir-des-habitudes "Le pouvoir des habitudes" 3Hz6C4k0MIQ le-pouvoir-des-habitudes.png le-pouvoir-des-habitudes.srt
+// node createPage.js portugais-1 "J'apprends le Portugais en 3 mois" _0USECTqa-I portugais-1.png portugais-1.srt
