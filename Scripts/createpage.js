@@ -135,4 +135,4 @@ createPodcastPage({ pageName, title, videoId, cover, transcriptFile });
 
 
 
-// node createPage.js portugais-1 "J'apprends le Portugais en 3 mois" _0USECTqa-I portugais-1.png portugais-1.srt
+// node createPage.js le-metier-de-ma-femme "Le métier de ma femme" 8ll_h_hbLIU le-metier-de-ma-femme.png le-metier-de-ma-femme.srt

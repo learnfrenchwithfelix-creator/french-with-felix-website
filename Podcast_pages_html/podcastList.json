@@ -196,5 +196,14 @@
     "cover": "portugais-1.png",
     "transcriptFile": "portugais-1.srt",
     "outputPath": "../Podcast_pages_html/portugais-1.html"
+  },
+  {
+    "id": 22,
+    "pageName": "le-metier-de-ma-femme",
+    "title": "Le métier de ma femme",
+    "videoId": "8ll_h_hbLIU",
+    "cover": "le-metier-de-ma-femme.png",
+    "transcriptFile": "le-metier-de-ma-femme.srt",
+    "outputPath": "../Podcast_pages_html/le-metier-de-ma-femme.html"
   }
 ]
