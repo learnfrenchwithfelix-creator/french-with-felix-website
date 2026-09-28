@@ -29,5 +29,14 @@ export const social = {
   applePodcasts: 'https://podcasts.apple.com/podcast/id1832184743',       // the podcast show
 };
 
+/** Official podcast name, as on Spotify and Apple Podcasts (schema.org PodcastSeries). */
+export const podcastName = 'French with Félix';
+
+/**
+ * Organization logo for schema.org (square PNG/JPG, at least 112×112 px, e.g. '/images/logo.png').
+ * TODO: add the file to public/ and set its path here. Empty = no logo in the JSON-LD.
+ */
+export const logoPath = '';
+
 /** Podcast RSS feed (Acast): "RSS" links and <link rel="alternate"> in every page's <head>. */
 export const podcastRssUrl = 'https://feeds.acast.com/public/shows/6596d8903a2c300016c9c8f5';
