@@ -4,7 +4,7 @@ description: "Watching movies is popular language-learning advice, but doing it 
 articleNumber: 25
 publishDate: 2026-09-04
 slug: learn-french-watching-movies
-level: ["A2", "B1", "B2"]
+level: ["B1"]
 category: methodes
 tags: ["films", "immersion", "compréhension orale", "méthode"]
 lang: en

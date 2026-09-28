@@ -4,7 +4,7 @@ description: "A personal reflection on the difference between planned tourism an
 articleNumber: 38
 publishDate: 2026-09-14
 slug: travel-is-an-adventure-japan
-level: ["B1", "B2"]
+level: ["A2"]
 category: culture
 tags: ["voyage", "japon", "culture", "récit personnel"]
 lang: en

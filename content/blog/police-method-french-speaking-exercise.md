@@ -4,7 +4,7 @@ description: "A practical speaking exercise using question words (quand, où, av
 articleNumber: 12
 publishDate: 2026-07-20
 slug: police-method-french-speaking-exercise
-level: ["A2", "B1", "B2"]
+level: ["A2"]
 category: methodes
 tags: ["expression orale", "grammaire", "exercice pratique", "mots interrogatifs"]
 lang: en

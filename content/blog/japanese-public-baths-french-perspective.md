@@ -4,7 +4,7 @@ description: "A French teacher's first experience at a Japanese sento reveals a 
 articleNumber: 8
 publishDate: 2026-07-06
 slug: japanese-public-baths-french-perspective
-level: ["B1", "B2"]
+level: ["B1"]
 category: culture
 tags: ["culture japonaise", "pudeur", "voyage", "différences culturelles"]
 lang: en

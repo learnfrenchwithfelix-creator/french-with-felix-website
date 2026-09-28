@@ -4,7 +4,7 @@ description: "A balanced, first-hand review of Duolingo's real strengths (habit-
 articleNumber: 32
 publishDate: 2026-08-03
 slug: honest-review-duolingo-language-learning
-level: ["A1", "A2", "B1"]
+level: ["A1"]
 category: methodes
 tags: ["duolingo", "application", "méthode", "avis"]
 lang: en

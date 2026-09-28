@@ -4,7 +4,7 @@ description: "Buying books you'll never read, setting dramatic three-month goals
 articleNumber: 21
 publishDate: 2026-08-21
 slug: dont-be-too-motivated-french-learning
-level: ["A2", "B1", "B2"]
+level: ["A1"]
 category: methodes
 tags: ["motivation", "habitudes", "psychologie", "méthode"]
 lang: en

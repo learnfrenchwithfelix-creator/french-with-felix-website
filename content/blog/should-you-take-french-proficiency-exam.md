@@ -4,7 +4,7 @@ description: "A honest look at whether DELF/DALF-style exams are worth your time
 articleNumber: 13
 publishDate: 2026-07-24
 slug: should-you-take-french-proficiency-exam
-level: ["B1", "B2", "C1"]
+level: ["B2"]
 category: methodes
 tags: ["DELF", "DALF", "CECRL", "grammaire", "examen"]
 lang: en

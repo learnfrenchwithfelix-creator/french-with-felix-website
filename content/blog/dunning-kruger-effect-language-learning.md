@@ -4,7 +4,7 @@ description: "Why beginners often overestimate their French after learning 1,000
 articleNumber: 10
 publishDate: 2026-07-13
 slug: dunning-kruger-effect-language-learning
-level: ["A2", "B1", "B2"]
+level: ["A2"]
 category: methodes
 tags: ["motivation", "psychologie", "apprentissage", "mindset"]
 lang: en

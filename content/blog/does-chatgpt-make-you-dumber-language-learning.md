@@ -4,7 +4,7 @@ description: "Whether AI tools make you dumber depends entirely on how you use t
 articleNumber: 33
 publishDate: 2026-08-10
 slug: does-chatgpt-make-you-dumber-language-learning
-level: ["B1", "B2"]
+level: ["B1"]
 category: methodes
 tags: ["intelligence artificielle", "chatgpt", "esprit critique", "méthode"]
 lang: en

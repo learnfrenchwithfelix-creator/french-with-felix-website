@@ -4,7 +4,7 @@ description: "What 'la crise de la trentaine' means in French culture, how the F
 articleNumber: 16
 publishDate: 2026-08-03
 slug: french-quarter-life-crisis-crise-de-la-trentaine
-level: ["B1", "B2"]
+level: ["B1"]
 category: culture
 tags: ["culture française", "système éducatif", "carrière", "vie quotidienne"]
 lang: en

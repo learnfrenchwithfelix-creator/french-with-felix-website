@@ -4,7 +4,7 @@ description: "From daily 'fêtes' (name days) to a clichéd restaurant date gone
 articleNumber: 17
 publishDate: 2026-08-07
 slug: valentines-day-in-france
-level: ["A2", "B1"]
+level: ["A2"]
 category: culture
 tags: ["culture française", "traditions", "vocabulaire", "vie quotidienne"]
 lang: en

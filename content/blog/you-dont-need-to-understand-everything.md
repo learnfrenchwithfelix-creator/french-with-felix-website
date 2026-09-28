@@ -4,7 +4,7 @@ description: "Why pausing every time you miss a word is the biggest mistake imme
 articleNumber: 11
 publishDate: 2026-07-17
 slug: you-dont-need-to-understand-everything
-level: ["A2", "B1", "B2"]
+level: ["B1"]
 category: methodes
 tags: ["immersion", "compréhension", "écoute", "flashcards"]
 lang: en

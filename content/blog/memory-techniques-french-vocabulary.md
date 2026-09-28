@@ -4,7 +4,7 @@ description: "How to use spaced repetition, habit-tracking statistics, and vivid
 articleNumber: 28
 publishDate: 2026-09-15
 slug: memory-techniques-french-vocabulary
-level: ["A2", "B1", "B2"]
+level: ["A2"]
 category: methodes
 tags: ["mémorisation", "vocabulaire", "mnémotechnique", "habitudes"]
 lang: en

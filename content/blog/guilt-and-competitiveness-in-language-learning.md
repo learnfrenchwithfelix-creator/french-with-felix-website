@@ -4,7 +4,7 @@ description: "Why feeling guilty about screen time and feeling competitive about
 articleNumber: 23
 publishDate: 2026-08-28
 slug: guilt-and-competitiveness-in-language-learning
-level: ["A2", "B1", "B2"]
+level: ["B1"]
 category: methodes
 tags: ["motivation", "psychologie", "habitudes", "mindset"]
 lang: en

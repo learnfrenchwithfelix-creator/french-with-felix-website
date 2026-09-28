@@ -4,7 +4,7 @@ description: "A guide to the vulgar expressions French people use constantly in 
 articleNumber: 22
 publishDate: 2026-08-25
 slug: pardon-my-french-vulgar-expressions-explained
-level: ["B1", "B2", "C1"]
+level: ["B2"]
 category: vocabulaire
 tags: ["français familier", "expressions", "registre de langue", "argot"]
 lang: en
