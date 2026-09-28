@@ -1,12 +1,13 @@
 ---
 import SectionHeader from '../ui/SectionHeader.astro';
 
-// Feature switcher: 3 steps, all shown at once (active = highlighted, rest = greyed out).
-// No animation library — the crossfade runs on plain CSS transitions.
-// Cards are switched by click or by scroll: wheel scroll steps through the cards locally,
-// and scrolling past the first/last card lets the event fall through to the page-level
-// section magnet (see SectionDots.astro). Below lg, the switcher is hidden and the cards are
-// simply stacked.
+// "What you get": 3 steps, each written ONCE in the HTML (no mobile/desktop duplicates).
+// - Below lg: the steps simply follow one another (heading, then subtitle + bullets).
+// - lg and up: a CSS grid turns the same markup into a switcher. The step headings stack in the
+//   left column (active one highlighted, the rest greyed out) and the active step's body shows on
+//   the right, with a staggered crossfade on plain CSS transitions. Steps switch on click, or on
+//   wheel scroll one notch at a time; scrolling past the first/last step falls through to the
+//   page-level section magnet (see SectionDots.astro).
 const steps = [
   {
     label: 'Learn',
@@ -46,133 +47,53 @@ const steps = [
 <section class="mx-auto max-w-[1180px] px-6 pb-28 md:px-12">
   <SectionHeader eyebrow="Included" headingLight="What" headingBold="you get" />
 
-  <!-- Phones and tablets: the three cards simply follow one another, no switcher -->
-  <div class="flex flex-col gap-12 lg:hidden">
-    {steps.map(step => (
-      <div data-reveal class="flex flex-col items-start gap-4">
-        <p class="font-mono text-[11px] font-medium uppercase tracking-[0.14em] text-accent">{step.label}</p>
-        <h3 class="font-display text-2xl font-bold tracking-[-0.02em] text-title md:text-[28px]">{step.title}</h3>
-        <p class="text-[15px] italic leading-[1.5] text-muted">{step.subtitle}</p>
-        <ul class="feature-visual-list">
-          {step.bullets.map(bullet => <li>{bullet}</li>)}
-        </ul>
-      </div>
-    ))}
-  </div>
-
-  <!-- Desktop (lg+): the interactive switcher -->
-  <div
-    class="feature-steps hidden items-center gap-14 lg:grid lg:grid-cols-[minmax(0,2fr)_minmax(0,3fr)]"
-    data-feature-steps
-  >
-
-    <!-- Steps — all shown at once; the active one is highlighted, the rest are greyed out (40%) -->
-    <div data-reveal class="order-2 lg:order-1">
-      <div class="feature-list flex flex-col gap-6" data-track aria-label="What you get — steps">
-        {steps.map((step, i) => (
-          <button
-            type="button"
-            aria-pressed={i === 0}
-            class="feature-step text-left"
-            data-step={i}
-          >
+  <div class="feature-steps" data-feature-steps>
+    {steps.map((step, i) => (
+      <div class="feature-step" class:list={[{ 'is-active': i === 0 }]} data-step={i}>
+        <h3 data-reveal class="feature-step-head">
+          <button type="button" class="feature-step-btn" aria-pressed={i === 0 ? 'true' : 'false'} aria-controls={`wyg-step-${i}`}>
             <span class="feature-step-label mb-2 block font-mono text-[11px] font-medium uppercase tracking-[0.14em]">{step.label}</span>
             <span class="feature-step-title block font-display text-2xl font-bold tracking-[-0.02em] md:text-[28px]">{step.title}</span>
           </button>
-        ))}
+        </h3>
+        <div data-reveal class="feature-step-body" id={`wyg-step-${i}`}>
+          <p class="max-w-[600px] text-[15px] italic leading-[1.5] text-muted">{step.subtitle}</p>
+          <ul class="feature-list max-w-[600px]">
+            {step.bullets.map(bullet => <li>{bullet}</li>)}
+          </ul>
+        </div>
       </div>
-    </div>
-
-    <!-- Visual (60%) — decorative, shows the active step's description; on mobile it sits above the list -->
-    <div data-reveal class="order-1 lg:order-2" aria-hidden="true">
-      <!-- Panels are stacked in one grid cell, so the card grows to fit the longest one -->
-      <div class="feature-visual grid min-h-[300px] rounded-card lg:min-h-[420px]">
-        {steps.map((step, i) => (
-          <div
-            class="feature-visual-panel flex flex-col items-start justify-center gap-4 py-8 md:py-10 lg:pl-4"
-            class:list={[{ 'is-active': i === 0 }]}
-            data-panel={i}
-          >
-            <p class="font-mono text-[11px] font-medium uppercase tracking-[0.14em] text-accent">{step.label}</p>
-            <h3 class="font-display text-2xl font-bold tracking-[-0.02em] text-title md:text-[28px]">{step.title}</h3>
-            <p class="max-w-[600px] text-[15px] italic leading-[1.5] text-muted">{step.subtitle}</p>
-            <ul class="feature-visual-list max-w-[600px]">
-              {step.bullets.map(bullet => <li>{bullet}</li>)}
-            </ul>
-          </div>
-        ))}
-      </div>
-    </div>
-
+    ))}
   </div>
 </section>
 
 <style>
-  .feature-step {
-    cursor: pointer;
+  /* ── Shared ── */
+  .feature-step-btn {
     background: none;
-    opacity: 0.55;
-    transition: opacity 200ms ease;
+    text-align: left;
+    cursor: default;
   }
-  .feature-step[aria-pressed='true'] {
-    opacity: 1;
-  }
-
-  /* Inactive: muted. Active: title takes --color-title, label stays accent. */
-  .feature-step-label,
-  .feature-step-title {
-    color: var(--color-muted);
-    transition: color 200ms ease;
-  }
-  .feature-step[aria-pressed='true'] .feature-step-label {
+  .feature-step-label {
     color: var(--color-accent);
   }
-  .feature-step[aria-pressed='true'] .feature-step-title {
+  .feature-step-title {
     color: var(--color-title);
   }
+  .feature-step-body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
 
-  /* Transition: the outgoing panel fades out; the incoming one fades in while its
-     lines slide up into place one after another (staggered). */
-  .feature-visual-panel {
-    grid-area: 1 / 1;
-    opacity: 0;
-    transition: opacity 240ms ease;
-    pointer-events: none;
-  }
-  .feature-visual-panel.is-active {
-    opacity: 1;
-    transition-delay: 120ms;
-  }
-  /* Scoped to the desktop panels: the stacked mobile cards reuse .feature-visual-list and must stay visible */
-  .feature-visual-panel > *,
-  .feature-visual-panel .feature-visual-list li {
-    opacity: 0;
-    transform: translateY(14px);
-    transition:
-      opacity 420ms ease,
-      transform 520ms cubic-bezier(0.22, 1, 0.36, 1);
-  }
-  .feature-visual-panel.is-active > *,
-  .feature-visual-panel.is-active .feature-visual-list li {
-    opacity: 1;
-    transform: none;
-  }
-  .feature-visual-panel.is-active > :nth-child(1) { transition-delay: 120ms; }
-  .feature-visual-panel.is-active > :nth-child(2) { transition-delay: 170ms; }
-  .feature-visual-panel.is-active > :nth-child(3) { transition-delay: 220ms; }
-  .feature-visual-panel.is-active > :nth-child(4) { transition-delay: 260ms; }
-  .feature-visual-panel.is-active .feature-visual-list li:nth-child(1) { transition-delay: 280ms; }
-  .feature-visual-panel.is-active .feature-visual-list li:nth-child(2) { transition-delay: 330ms; }
-  .feature-visual-panel.is-active .feature-visual-list li:nth-child(3) { transition-delay: 380ms; }
-  .feature-visual-panel.is-active .feature-visual-list li:nth-child(4) { transition-delay: 430ms; }
-
-  .feature-visual-list {
+  .feature-list {
     display: flex;
     flex-direction: column;
     gap: 10px;
     list-style: none;
   }
-  .feature-visual-list li {
+  .feature-list li {
     position: relative;
     padding-left: 20px;
     text-align: left;
@@ -180,7 +101,7 @@ const steps = [
     line-height: 1.65;
     color: var(--color-body);
   }
-  .feature-visual-list li::before {
+  .feature-list li::before {
     content: '';
     position: absolute;
     left: 0;
@@ -191,10 +112,100 @@ const steps = [
     background: var(--color-accent);
   }
 
+  /* ── Phones and tablets: steps follow one another ── */
+  @media (max-width: 1023.98px) {
+    .feature-steps {
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+    }
+    .feature-step-btn {
+      pointer-events: none; /* a plain heading here: nothing to switch */
+    }
+    .feature-step-body {
+      margin-top: 1rem;
+    }
+  }
+
+  /* ── Desktop: the same markup laid out as a switcher ── */
+  @media (min-width: 1024px) {
+    /* Headings in rows 2–4 of the left column; the 1fr rows around them keep the three
+       headings together, vertically centred, however tall the right-hand body is. */
+    .feature-steps {
+      display: grid;
+      grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
+      grid-template-rows: 1fr auto auto auto 1fr;
+      column-gap: 3.5rem;
+      row-gap: 1.5rem;
+      min-height: 420px;
+    }
+    .feature-step {
+      display: contents;
+    }
+    .feature-step-head {
+      grid-column: 1;
+    }
+    .feature-step:nth-child(1) .feature-step-head { grid-row: 2; }
+    .feature-step:nth-child(2) .feature-step-head { grid-row: 3; }
+    .feature-step:nth-child(3) .feature-step-head { grid-row: 4; }
+
+    .feature-step-btn {
+      cursor: pointer;
+      opacity: 0.55;
+      transition: opacity 200ms ease;
+    }
+    .feature-step-label,
+    .feature-step-title {
+      color: var(--color-muted);
+      transition: color 200ms ease;
+    }
+    .feature-step.is-active .feature-step-btn { opacity: 1; }
+    .feature-step.is-active .feature-step-label { color: var(--color-accent); }
+    .feature-step.is-active .feature-step-title { color: var(--color-title); }
+
+    /* Bodies share the whole right column; only the active one is visible */
+    .feature-step-body {
+      grid-column: 2;
+      grid-row: 1 / -1;
+      align-self: center;
+      justify-content: center;
+      padding: 2.5rem 0 2.5rem 1rem;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 240ms ease;
+    }
+    .feature-step.is-active .feature-step-body {
+      opacity: 1;
+      pointer-events: auto;
+      transition-delay: 120ms;
+    }
+
+    /* The incoming body's lines slide up one after another (staggered) */
+    .feature-step-body > *,
+    .feature-step-body li {
+      opacity: 0;
+      transform: translateY(14px);
+      transition:
+        opacity 420ms ease,
+        transform 520ms cubic-bezier(0.22, 1, 0.36, 1);
+    }
+    .feature-step.is-active .feature-step-body > *,
+    .feature-step.is-active .feature-step-body li {
+      opacity: 1;
+      transform: none;
+    }
+    .feature-step.is-active .feature-step-body > :nth-child(1) { transition-delay: 120ms; }
+    .feature-step.is-active .feature-step-body > :nth-child(2) { transition-delay: 170ms; }
+    .feature-step.is-active .feature-step-body li:nth-child(1) { transition-delay: 240ms; }
+    .feature-step.is-active .feature-step-body li:nth-child(2) { transition-delay: 290ms; }
+    .feature-step.is-active .feature-step-body li:nth-child(3) { transition-delay: 340ms; }
+    .feature-step.is-active .feature-step-body li:nth-child(4) { transition-delay: 390ms; }
+  }
+
   @media (prefers-reduced-motion: reduce) {
-    .feature-visual-panel,
-    .feature-visual-panel > *,
-    .feature-visual-panel .feature-visual-list li {
+    .feature-step-body,
+    .feature-step-body > *,
+    .feature-step-body li {
       transition: none !important;
       transform: none !important;
     }
@@ -202,38 +213,36 @@ const steps = [
 </style>
 
 <script>
-  // Feature switcher: all cards shown at once, active one highlighted. Cards are switched by
-  // click, or by scrolling (wheel) which steps through them one at a time; scrolling past the
-  // first/last card falls through to the page's section magnet (see SectionDots.astro).
   document.querySelectorAll<HTMLElement>('[data-feature-steps]').forEach(root => {
-    const tabs = Array.from(root.querySelectorAll<HTMLButtonElement>('.feature-step'));
-    const panels = Array.from(root.querySelectorAll<HTMLElement>('.feature-visual-panel'));
+    const steps = Array.from(root.querySelectorAll<HTMLElement>('.feature-step'));
+    const buttons = steps.map(step => step.querySelector<HTMLButtonElement>('.feature-step-btn')!);
+    const desktop = window.matchMedia('(min-width: 1024px)'); // the switcher layout (see styles)
     const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-    if (!tabs.length) return;
+    if (!steps.length) return;
 
     let active = 0;
 
     const render = () => {
-      tabs.forEach((tab, i) => tab.setAttribute('aria-pressed', String(i === active)));
-      panels.forEach((panel, i) => panel.classList.toggle('is-active', i === active));
+      steps.forEach((step, i) => step.classList.toggle('is-active', i === active));
+      buttons.forEach((btn, i) => btn.setAttribute('aria-pressed', String(i === active)));
     };
 
     function goTo(i: number) {
-      active = (i + tabs.length) % tabs.length;
+      active = (i + steps.length) % steps.length;
       render();
     }
 
-    tabs.forEach((tab, i) => tab.addEventListener('click', () => goTo(i)));
+    buttons.forEach((btn, i) => btn.addEventListener('click', () => { if (desktop.matches) goTo(i); }));
 
-    // ── One wheel notch = one card. Stepping through the cards consumes the event; once
-    //    you're past the first/last card, let it bubble up to the page-level section magnet
+    // ── One wheel notch = one step (desktop switcher only). Stepping through the steps consumes
+    //    the event; once past the first/last step it bubbles up to the page-level section magnet
     //    (see SectionDots.astro) so the page moves to the previous/next block instead. ──
     let wheelLock = 0;
     root.addEventListener(
       'wheel',
       e => {
-        if (reduceMotion || e.ctrlKey) return;
+        if (!desktop.matches || reduceMotion || e.ctrlKey) return;
         if (Math.abs(e.deltaX) > Math.abs(e.deltaY)) return;
         const now = performance.now();
         if (now < wheelLock) {
@@ -243,7 +252,7 @@ const steps = [
         }
         const dir = Math.sign(e.deltaY);
         if (dir === 0) return;
-        const atEdge = (dir > 0 && active === tabs.length - 1) || (dir < 0 && active === 0);
+        const atEdge = (dir > 0 && active === steps.length - 1) || (dir < 0 && active === 0);
         if (atEdge) return; // hand off to the page-level magnet
 
         e.preventDefault();

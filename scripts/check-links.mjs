@@ -6,6 +6,9 @@
 //    the sitemap if and only if it is indexable).
 // 3. Language: on episode pages the H1 carries a lang and every transcript paragraph is lang="fr";
 //    every episode card title carries a lang (the site itself is <html lang="en">).
+// 4. No duplicated content: the same heading text never appears twice at the same level (h1, h2
+//    or h3) on one page, e.g. a section rendered once for mobile and once for desktop. Different
+//    levels are allowed (the podcast listing's featured h2 repeats the first card's h3 on purpose).
 import { readFileSync, readdirSync, existsSync, statSync } from 'node:fs';
 import { join, relative } from 'node:path';
 
@@ -85,6 +88,18 @@ for (const page of pages) {
   for (const [card] of html.matchAll(/<a\b[^>]*class="episode-card[^"]*"[\s\S]*?<\/a>/g)) {
     const h3 = card.match(/<h3\b[^>]*>/)?.[0];
     if (h3 && !/\slang="(fr|en)"/.test(h3)) { note('episode card title without lang', path, page); break; }
+  }
+}
+
+// ── Duplicated headings ──
+const text = html => html.replace(/<[^>]+>/g, ' ').replace(/&[a-z#0-9]+;/gi, ' ').replace(/\s+/g, ' ').trim();
+for (const page of pages) {
+  const seen = new Set();
+  for (const [, level, inner] of readFileSync(page, 'utf-8').matchAll(/<h([1-3])\b[^>]*>([\s\S]*?)<\/h\1>/g)) {
+    const t = text(inner);
+    if (!t) continue;
+    if (seen.has(`${level}|${t}`)) note(`h${level} duplicated on the page`, t, page);
+    seen.add(`${level}|${t}`);
   }
 }
 
