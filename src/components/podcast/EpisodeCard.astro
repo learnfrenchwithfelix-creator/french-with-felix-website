@@ -10,11 +10,13 @@ interface Props {
   theme: string;
   href: string;
   youtubeId?: string | null;
+  /** Language of the title (French for most episodes), for its `lang` attribute */
+  titleLang?: 'fr' | 'en';
   /** Extra attributes (data-*, hidden…) are forwarded to the root link */
   [attr: string]: unknown;
 }
 
-const { number, level, title, duration, wpm, theme, href, youtubeId, ...rest } = Astro.props;
+const { number, level, title, duration, wpm, theme, href, youtubeId, titleLang = 'fr', ...rest } = Astro.props;
 const thumbUrl = youtubeId ? `https://img.youtube.com/vi/${youtubeId}/maxresdefault.jpg` : null;
 const footer = wpm > 0 ? `${wpm} wpm · ${theme}` : theme;
 ---
@@ -31,6 +33,7 @@ const footer = wpm > 0 ? `${wpm} wpm · ${theme}` : theme;
       <img
         src={thumbUrl}
         alt={title}
+        lang={titleLang}
         width="1280"
         height="720"
         class="absolute inset-0 h-full w-full object-cover"
@@ -46,7 +49,7 @@ const footer = wpm > 0 ? `${wpm} wpm · ${theme}` : theme;
 
   <div class="flex flex-1 flex-col px-[22px] pb-[18px] pt-5">
     <div class="mb-3 self-start"><Badge level={level} /></div>
-    <h3 class="mb-5 font-display text-[19px] font-semibold leading-[1.28] tracking-[-0.02em] text-title [text-wrap:pretty]">{title}</h3>
+    <h3 lang={titleLang} class="mb-5 font-display text-[19px] font-semibold leading-[1.28] tracking-[-0.02em] text-title [text-wrap:pretty]">{title}</h3>
     <div class="mt-auto flex items-center justify-between gap-3 border-t border-border pt-3.5">
       <span class="font-mono text-[11px] text-muted">{footer}</span>
       <span class="text-[13px] font-semibold text-accent" aria-hidden="true">→</span>

@@ -46,6 +46,7 @@ export async function getStaticPaths() {
       wordCount:     ep.wordCount,
       duration:      ep.duration,
       youtubeId:     ep.youtubeId,
+      titleLang:     ep.titleLang,
       transcript:    parseSRT(ep.slug),
       extras:        extras.get(ep.slug) ?? null,
     },
@@ -68,6 +69,7 @@ interface Props {
   wordCount:     number;
   duration:      string;
   youtubeId:     string | null;
+  titleLang:     'fr' | 'en';
   transcript:    { timecode: string; seconds: number; text: string }[];
   extras:        { summary_en?: string; key_vocab?: { fr: string; en: string }[]; seoTitle?: string } | null;
 }
@@ -86,6 +88,7 @@ const {
   wordCount,
   duration,
   youtubeId,
+  titleLang,
   transcript,
   extras,
 } = Astro.props;
@@ -137,6 +140,7 @@ const pageDescription = episodeDescription(seoInput, extras?.summary_en);
         </span>
       </div>
       <h1
+        lang={titleLang}
         class="mb-6 font-display text-[28px] leading-[1.1] tracking-[-0.035em] text-title md:text-[38px]"
         style="font-weight: var(--weight-bold)"
       >
@@ -289,7 +293,7 @@ const pageDescription = episodeDescription(seoInput, extras?.summary_en);
                     >(click to jump to timestamp)</button>
                   )}
                 </div>
-                <p class="text-[17px] leading-[1.8] text-body [text-align:justify]">{para.text}</p>
+                <p lang="fr" class="text-[17px] leading-[1.8] text-body [text-align:justify]">{para.text}</p>
                 </div>
               </div>
             ))}
