@@ -37,6 +37,8 @@ const episodes = defineCollection({
     seoTitle: z.string().trim().min(1, 'seoTitle is empty: remove the key or write the title').optional(),
     // Language of the YouTube title (H1 and cards), when the automatic detection gets it wrong
     titleLang: z.enum(['fr', 'en']).optional(),
+    // The episode's own Apple Podcasts page; without it the Apple button links to the show
+    appleEpisodeUrl: z.string().url().optional(),
   }),
 });
 
