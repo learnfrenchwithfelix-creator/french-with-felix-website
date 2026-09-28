@@ -15,7 +15,7 @@ const spotifyShowUrl = import.meta.env.SPOTIFY_SHOW_ID
   <div>
 
     <SectionHeader eyebrow="Podcast" headingLight="Already learning?" headingBold="Keep going — for free." gap="tight">
-      <a href="/podcast" class="whitespace-nowrap text-[15px] font-semibold text-accent">Browse all episodes →</a>
+      <a href="/podcast/" class="whitespace-nowrap text-[15px] font-semibold text-accent">Browse all episodes →</a>
     </SectionHeader>
     <p data-reveal class="podcast-intro mb-9 max-w-[640px] text-base leading-[1.65] text-body">
       The French with Félix podcast is 90+ episodes of real, natural French — with full transcripts. Free on Spotify, Apple Podcasts, and here.
@@ -34,7 +34,7 @@ const spotifyShowUrl = import.meta.env.SPOTIFY_SHOW_ID
             duration={ep.duration}
             wpm={ep.wpm}
             theme={ep.theme}
-            href={`/podcast/${ep.slug}`}
+            href={`/podcast/${ep.slug}/`}
             youtubeId={ep.youtubeId}
           />
         </div>

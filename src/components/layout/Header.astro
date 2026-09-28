@@ -2,10 +2,10 @@
 import Button from '../ui/Button.astro';
 
 const navLinks = [
-  { href: '/blog', label: 'Blog' },
-  { href: '/podcast', label: 'Podcast' },
-  { href: '/library', label: 'Library' },
-  { href: '/about', label: 'About' },
+  { href: '/blog/', label: 'Blog' },
+  { href: '/podcast/', label: 'Podcast' },
+  { href: '/library/', label: 'Library' },
+  { href: '/about/', label: 'About' },
 ];
 ---
 
@@ -20,7 +20,7 @@ const navLinks = [
             <a href={link.href} class="text-[15px] font-medium text-body transition-colors hover:text-accent">{link.label}</a>
           ))}
         </nav>
-        <Button href="/start" class="px-5 py-[9px] text-[15px]">Start Learning →</Button>
+        <Button href="/start/" class="px-5 py-[9px] text-[15px]">Start Learning →</Button>
       </div>
 
       <!-- Light / dark toggle. The moon shows in light mode (switch to dark), the sun in dark mode. -->
@@ -60,7 +60,7 @@ const navLinks = [
         {navLinks.map((link) => (
           <a href={link.href} class="border-b border-border py-4 font-display text-[19px] font-semibold text-title transition-colors hover:text-accent">{link.label}</a>
         ))}
-        <Button href="/start" class="mt-6 justify-center px-5 py-[13px] text-base">Start Learning →</Button>
+        <Button href="/start/" class="mt-6 justify-center px-5 py-[13px] text-base">Start Learning →</Button>
       </nav>
     </div>
   </div>
