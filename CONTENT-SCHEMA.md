@@ -18,7 +18,7 @@ description: "Tout ce que vous devez savoir sur le subjonctif français : quand 
 publishDate: 2025-09-15
 updatedDate: 2025-10-01         # optionnel — date de mise à jour
 slug: french-subjunctive-guide  # URL finale : /blog/french-subjunctive-guide
-level: ["B1", "B2"]             # optionnel — niveaux ciblés par l'article
+level: ["B1"]                   # UN seul niveau (A1 | A2 | B1 | B2) : l'apprenant à qui l'article sert le plus
 category: grammaire             # grammaire | vocabulaire | culture | methodes | phonetique
 tags: ["subjonctif", "verbes", "conjugaison"]
 lang: en                        # langue de l'article : en | fr

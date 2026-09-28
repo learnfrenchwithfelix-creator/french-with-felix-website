@@ -50,6 +50,13 @@ All official URLs live in `src/config/site.ts`. Import them; never hard-code a d
 - URLs are in English for new content (`/blog/french-subjunctive-guide/`); existing podcast slugs are French
   and must not change.
 
+## Article levels
+
+- Each article has ONE level (`level: ["A2"]`): the learner it helps most. Culture/story articles take the level
+  of the episode they come from; method articles the stage where the advice matters most. No "all levels" tag
+  and no C1 (the site stops at B2). Current split: A1 4, A2 13, B1 18, B2 4.
+- This keeps future level hub pages (/levels/a2/ …) distinct; don't tag an article with several levels.
+
 ## Blog ↔ podcast internal links
 
 - One source of truth: `relatedEpisode: <episode slug>` in the article's frontmatter (the episode the article
