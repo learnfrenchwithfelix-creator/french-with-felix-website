@@ -94,6 +94,8 @@ key_vocab:                      # ~10 mots ou expressions tirés de l'épisode
   `npm run podcast:titles -- --long` liste les titres de plus de 60 caractères, candidats à un `seoTitle`.
 - Meta description : `summary_en` s'il est rempli, sinon un modèle en anglais
   (« Episode NN of the Liminal French podcast: … Level B1 · 22:16 · 153 wpm. Full French transcript. »).
+- `titleLang` (optionnel, `fr` ou `en`) : langue du titre YouTube, quand la détection automatique se
+  trompe (ex. `easy-french-news.md`). Sert à l'attribut `lang` du H1 et des cartes d'épisode.
 - D'autres champs optionnels s'ajouteront ici (`appleEpisodeUrl`, `relatedArticle`).
 
 ### Niveaux et vitesse — définitions
