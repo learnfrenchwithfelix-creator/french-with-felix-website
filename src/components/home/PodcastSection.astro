@@ -22,10 +22,11 @@ const spotifyShowUrl = import.meta.env.SPOTIFY_SHOW_ID
     </p>
 
     <!-- Episode grid -->
-    <!-- Each card sits in a reveal wrapper so the reveal doesn't override the card's own hover-lift transition -->
+    <!-- Each card sits in a reveal wrapper so the reveal doesn't override the card's own hover-lift transition.
+         Phones show only the latest episode; the other two appear from md up. -->
     <div class="grid grid-cols-1 gap-5 md:grid-cols-3 md:gap-7">
-      {latest.map(ep => (
-        <div data-reveal class="grid">
+      {latest.map((ep, i) => (
+        <div data-reveal class:list={['grid', i > 0 && 'hidden md:grid']}>
           <EpisodeCard
             number={ep.episodeNumber}
             level={ep.level}

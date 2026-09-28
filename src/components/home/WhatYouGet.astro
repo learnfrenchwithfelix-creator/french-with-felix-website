@@ -5,7 +5,8 @@ import SectionHeader from '../ui/SectionHeader.astro';
 // No animation library — the crossfade runs on plain CSS transitions.
 // Cards are switched by click or by scroll: wheel scroll steps through the cards locally,
 // and scrolling past the first/last card lets the event fall through to the page-level
-// section magnet (see SectionDots.astro).
+// section magnet (see SectionDots.astro). Below lg, the switcher is hidden and the cards are
+// simply stacked.
 const steps = [
   {
     label: 'Learn',
@@ -45,8 +46,23 @@ const steps = [
 <section class="mx-auto max-w-[1180px] px-6 pb-28 md:px-12">
   <SectionHeader eyebrow="Included" headingLight="What" headingBold="you get" />
 
+  <!-- Phones and tablets: the three cards simply follow one another, no switcher -->
+  <div class="flex flex-col gap-12 lg:hidden">
+    {steps.map(step => (
+      <div data-reveal class="flex flex-col items-start gap-4">
+        <p class="font-mono text-[11px] font-medium uppercase tracking-[0.14em] text-accent">{step.label}</p>
+        <h3 class="font-display text-2xl font-bold tracking-[-0.02em] text-title md:text-[28px]">{step.title}</h3>
+        <p class="text-[15px] italic leading-[1.5] text-muted">{step.subtitle}</p>
+        <ul class="feature-visual-list">
+          {step.bullets.map(bullet => <li>{bullet}</li>)}
+        </ul>
+      </div>
+    ))}
+  </div>
+
+  <!-- Desktop (lg+): the interactive switcher -->
   <div
-    class="feature-steps grid grid-cols-1 items-center gap-8 lg:grid-cols-[minmax(0,2fr)_minmax(0,3fr)] lg:gap-14"
+    class="feature-steps hidden items-center gap-14 lg:grid lg:grid-cols-[minmax(0,2fr)_minmax(0,3fr)]"
     data-feature-steps
   >
 
@@ -127,8 +143,9 @@ const steps = [
     opacity: 1;
     transition-delay: 120ms;
   }
+  /* Scoped to the desktop panels: the stacked mobile cards reuse .feature-visual-list and must stay visible */
   .feature-visual-panel > *,
-  .feature-visual-list li {
+  .feature-visual-panel .feature-visual-list li {
     opacity: 0;
     transform: translateY(14px);
     transition:
@@ -177,7 +194,7 @@ const steps = [
   @media (prefers-reduced-motion: reduce) {
     .feature-visual-panel,
     .feature-visual-panel > *,
-    .feature-visual-list li {
+    .feature-visual-panel .feature-visual-list li {
       transition: none !important;
       transform: none !important;
     }
