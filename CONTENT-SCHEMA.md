@@ -88,7 +88,13 @@ key_vocab:                      # ~10 mots ou expressions tirés de l'épisode
 - **Indexation** : un épisode est indexable (balise robots + sitemap) **seulement si `summary_en` est rempli**. Sinon sa page reste en `noindex, follow` et hors sitemap.
 - Le build échoue si un fichier `<slug>.md` ne correspond à aucun slug du CSV, si `summary_en` est présent mais vide, ou si un mot de `key_vocab` n'a pas de traduction.
 - `npm run podcast:missing` liste les épisodes publiés pas encore enrichis.
-- D'autres champs optionnels s'ajouteront ici (`seoTitle`, `appleEpisodeUrl`, `relatedArticle`).
+- `seoTitle` (optionnel) : remplace tel quel la balise `<title>` de la page. Par défaut, le titre est
+  `<titre YouTube nettoyé> — French Podcast Ep. NN (NIVEAU)` (le `#NN` de l'épisode et les mentions
+  génériques comme « slow french comprehensible input » sont retirés). Le H1 reste le titre YouTube.
+  `npm run podcast:titles -- --long` liste les titres de plus de 60 caractères, candidats à un `seoTitle`.
+- Meta description : `summary_en` s'il est rempli, sinon un modèle en anglais
+  (« Episode NN of the Liminal French podcast: … Level B1 · 22:16 · 153 wpm. Full French transcript. »).
+- D'autres champs optionnels s'ajouteront ici (`appleEpisodeUrl`, `relatedArticle`).
 
 ### Niveaux et vitesse — définitions
 

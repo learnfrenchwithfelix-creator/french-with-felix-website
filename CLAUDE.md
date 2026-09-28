@@ -58,6 +58,11 @@ All official URLs live in `src/config/site.ts`. Import them; never hard-code a d
   The rule lives in `isIndexableEpisode()` (pages) and `src/utils/episode-meta.mjs` (sitemap);
   `npm run check:links` fails if they disagree.
 - `npm run podcast:missing` lists the published episodes not enriched yet.
+- Episode `<title>` = `episodeSeoTitle()` (`src/utils/episode-title.mjs`): the YouTube title without its own
+  `#NN` and generic labels ("slow french comprehensible input", "Intermediate French"…), then
+  ` — French Podcast Ep. NN (LEVEL)`; `seoTitle` in the extras file overrides it verbatim. The H1 stays the
+  YouTube title. Meta description = `summary_en`, else an English template. Titles over 60 characters are
+  accepted (the suffix is what gets cut); `npm run podcast:titles -- --long` lists them.
 - Summaries and vocabulary drafted by Claude are proposals: the owner reviews them before they are merged.
 
 ## Working rules
