@@ -33,6 +33,8 @@ const episodes = defineCollection({
     key_vocab: z
       .array(z.object({ fr: z.string().trim().min(1), en: z.string().trim().min(1) }))
       .optional(),
+    // Full <title> override; by default the title is built by episodeSeoTitle() (src/utils/episode-title.mjs)
+    seoTitle: z.string().trim().min(1, 'seoTitle is empty: remove the key or write the title').optional(),
   }),
 });
 
