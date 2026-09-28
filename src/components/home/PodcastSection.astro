@@ -2,13 +2,10 @@
 import EpisodeCard from '../podcast/EpisodeCard.astro';
 import SectionHeader from '../ui/SectionHeader.astro';
 import { fetchEpisodes } from '../../utils/episodes';
+import { social } from '../../config/site';
 
 const allEpisodes = await fetchEpisodes();
 const latest = allEpisodes.slice(0, 3);
-
-const spotifyShowUrl = import.meta.env.SPOTIFY_SHOW_ID
-  ? `https://open.spotify.com/show/${import.meta.env.SPOTIFY_SHOW_ID}`
-  : 'https://open.spotify.com/show/';
 ---
 
 <section class="mx-auto max-w-[1180px] px-6 pb-28 md:px-12">
@@ -42,10 +39,11 @@ const spotifyShowUrl = import.meta.env.SPOTIFY_SHOW_ID
       ))}
     </div>
 
-    <!-- Spotify CTA -->
+    <!-- Spotify CTA (hidden if the show URL is empty in src/config/site.ts) -->
+    {social.spotify && (
     <div data-reveal class="podcast-cta mt-10 text-center">
       <a
-        href={spotifyShowUrl}
+        href={social.spotify}
         target="_blank"
         rel="noopener noreferrer"
         class="spotify-cta inline-flex items-center gap-2.5 rounded-button border border-border bg-bg px-6 py-3 text-[14px] font-semibold text-title transition-colors"
@@ -56,6 +54,7 @@ const spotifyShowUrl = import.meta.env.SPOTIFY_SHOW_ID
         Listen on Spotify →
       </a>
     </div>
+    )}
 
   </div>
 </section>

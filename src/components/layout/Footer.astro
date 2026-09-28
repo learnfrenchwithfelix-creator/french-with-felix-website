@@ -1,10 +1,13 @@
 ---
+import { social } from '../../config/site';
+
+// URLs from src/config/site.ts; a network with an empty URL is left out
 const socialLinks = [
-  { label: 'YouTube', href: '#' },
-  { label: 'Instagram', href: '#' },
-  { label: 'TikTok', href: '#' },
-  { label: 'Spotify', href: '#' },
-];
+  { label: 'YouTube', href: social.youtube },
+  { label: 'Instagram', href: social.instagram },
+  { label: 'TikTok', href: social.tiktok },
+  { label: 'Spotify', href: social.spotify },
+].filter(link => link.href);
 
 const navLinks = [
   { href: '/about/', label: 'About' },
@@ -38,8 +41,8 @@ const year = new Date().getFullYear();
 
       <nav aria-label="Social">
         <ul class="flex flex-col gap-1 font-display text-[13px] text-body">
-          {socialLinks.map((social) => (
-            <li><a href={social.href} class="transition-colors hover:text-accent">{social.label}</a></li>
+          {socialLinks.map((link) => (
+            <li><a href={link.href} target="_blank" rel="noopener noreferrer" class="transition-colors hover:text-accent">{link.label}</a></li>
           ))}
         </ul>
       </nav>

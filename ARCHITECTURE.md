@@ -130,7 +130,7 @@ liminalfrench.com/
 
 ### `/about` — À propos
 - Histoire de Félix, méthode pédagogique, philosophie
-- Liens vers YouTube, Instagram, TikTok, Spotify, Patreon
+- Pas de liens vers les réseaux sur la page (ils sont dans le footer, depuis `src/config/site.ts`)
 - **SEO** : schema.org `Person`
 
 ### `/start` — Conversion

@@ -96,7 +96,9 @@ key_vocab:                      # ~10 mots ou expressions tirés de l'épisode
   (« Episode NN of the Liminal French podcast: … Level B1 · 22:16 · 153 wpm. Full French transcript. »).
 - `titleLang` (optionnel, `fr` ou `en`) : langue du titre YouTube, quand la détection automatique se
   trompe (ex. `easy-french-news.md`). Sert à l'attribut `lang` du H1 et des cartes d'épisode.
-- D'autres champs optionnels s'ajouteront ici (`appleEpisodeUrl`, `relatedArticle`).
+- `appleEpisodeUrl` (optionnel, URL) : page de l'épisode sur Apple Podcasts. Sans lui, le bouton Apple
+  mène à l'émission. Le bouton Spotify mène à l'épisode dès que l'API Spotify le trouve.
+- D'autres champs optionnels s'ajouteront ici (`relatedArticle`).
 
 ### Niveaux et vitesse — définitions
 

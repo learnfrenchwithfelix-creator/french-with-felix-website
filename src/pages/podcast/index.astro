@@ -1,15 +1,11 @@
 ---
 // The whole podcast listing lives on this one page: filters and pagination run
 // client-side across every episode and sync to ?level=&theme=&rate=&q=&page=.
-// Old /podcast/2, /podcast/3… URLs redirect here (see astro.config.mjs).
+// Old /podcast/2, /podcast/3… URLs redirect here (see getStaticPaths in [slug].astro).
 import PodcastListingPage from '../../components/podcast/PodcastListingPage.astro';
 import { fetchEpisodes } from '../../utils/episodes';
 
 const episodes = await fetchEpisodes();
-
-const spotifyShowUrl = import.meta.env.SPOTIFY_SHOW_ID
-  ? `https://open.spotify.com/show/${import.meta.env.SPOTIFY_SHOW_ID}`
-  : '#';
 ---
 
-<PodcastListingPage {episodes} {spotifyShowUrl} />
+<PodcastListingPage {episodes} />
