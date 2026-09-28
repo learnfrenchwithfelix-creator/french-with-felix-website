@@ -143,8 +143,9 @@ const steps = [
     opacity: 1;
     transition-delay: 120ms;
   }
+  /* Scoped to the desktop panels: the stacked mobile cards reuse .feature-visual-list and must stay visible */
   .feature-visual-panel > *,
-  .feature-visual-list li {
+  .feature-visual-panel .feature-visual-list li {
     opacity: 0;
     transform: translateY(14px);
     transition:
@@ -193,7 +194,7 @@ const steps = [
   @media (prefers-reduced-motion: reduce) {
     .feature-visual-panel,
     .feature-visual-panel > *,
-    .feature-visual-list li {
+    .feature-visual-panel .feature-visual-list li {
       transition: none !important;
       transform: none !important;
     }
