@@ -2,7 +2,7 @@
 title: "My Honest Opinion on Duolingo, After Using It for French, Japanese, and Portuguese"
 description: "A balanced, first-hand review of Duolingo's real strengths (habit-building, gamification) and its real weaknesses (oversimplified exercises, lack of grammar, no real context) for serious language learners."
 articleNumber: 32
-publishDate: 2026-09-29
+publishDate: 2026-08-03
 slug: honest-review-duolingo-language-learning
 level: ["A1", "A2", "B1"]
 category: methodes

@@ -2,7 +2,7 @@
 title: "6 Tips to Improve Your French Through Reading"
 description: "Practical advice for reading French effectively: choosing the right level, understanding vocabulary 'islands,' training your brain to guess, and knowing when to read for pleasure versus for practice."
 articleNumber: 36
-publishDate: 2026-10-13
+publishDate: 2026-08-31
 slug: 6-tips-improve-french-reading
 level: ["A2", "B1", "B2"]
 category: methodes

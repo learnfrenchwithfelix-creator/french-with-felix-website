@@ -2,7 +2,7 @@
 title: "Why Japanese Is So Much Harder Than Portuguese for a French Speaker"
 description: "Sentence structure, the total absence of cognates, and a hidden trap in 'easy' languages — a comparative look at why some languages resist immersion far more than others."
 articleNumber: 37
-publishDate: 2026-10-16
+publishDate: 2026-09-07
 slug: why-japanese-harder-than-portuguese-for-french-speakers
 level: ["B1", "B2"]
 category: methodes

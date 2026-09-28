@@ -2,7 +2,7 @@
 title: "Why You Can't Understand Fast Spoken French (Even With a Good Level)"
 description: "A guide to the everyday contractions that make spoken French sound nothing like the textbook version: il y a becomes 'ya,' ne...pas gets dropped, and je becomes 'sheu' before certain consonants."
 articleNumber: 39
-publishDate: 2026-10-23
+publishDate: 2026-09-21
 slug: understanding-fast-spoken-french-contractions
 level: ["B1", "B2", "C1"]
 category: phonetique

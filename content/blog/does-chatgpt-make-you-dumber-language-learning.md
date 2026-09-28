@@ -2,7 +2,7 @@
 title: "Does Using ChatGPT Make You Dumber? What This Means for Language Learners"
 description: "Whether AI tools make you dumber depends entirely on how you use them — the difference between asking ChatGPT to think for you and asking it to help you think, applied to learning French."
 articleNumber: 33
-publishDate: 2026-10-02
+publishDate: 2026-08-10
 slug: does-chatgpt-make-you-dumber-language-learning
 level: ["B1", "B2"]
 category: methodes

@@ -2,7 +2,7 @@
 title: "The True Value Is Time: Why Your French Progress Can't Be Bought"
 description: "Money is measurable and reassuring, but the real value we give to anything — a language, an object, a relationship — comes from the time we spend on it, not what it costs."
 articleNumber: 35
-publishDate: 2026-10-09
+publishDate: 2026-08-24
 slug: the-true-value-is-time
 level: ["B1", "B2"]
 category: methodes
