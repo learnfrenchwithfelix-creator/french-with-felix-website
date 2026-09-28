@@ -2,7 +2,7 @@
 title: "How to Use ChatGPT to Learn French: A 5-Step Practical Guide"
 description: "A concrete, step-by-step method for using ChatGPT as a language-learning tool: weakness targeting, plan building, daily grammar and vocabulary drills, content adaptation, and live conversation practice."
 articleNumber: 34
-publishDate: 2026-10-06
+publishDate: 2026-08-17
 slug: how-to-use-chatgpt-learn-french
 level: ["A2", "B1", "B2"]
 category: methodes

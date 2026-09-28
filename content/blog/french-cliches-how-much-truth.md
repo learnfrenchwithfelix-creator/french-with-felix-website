@@ -2,7 +2,7 @@
 title: "French Clichés: How Much Truth Is Really in Them?"
 description: "A French teacher who thought clichés about baguettes, wine, and cheese were exaggerated nonsense — until a year abroad in Japan made him reconsider."
 articleNumber: 40
-publishDate: 2026-10-27
+publishDate: 2026-09-28
 slug: french-cliches-how-much-truth
 level: ["A2", "B1"]
 category: culture

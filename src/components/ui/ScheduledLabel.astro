@@ -1,0 +1,18 @@
+---
+// "Scheduled" pill for content whose publishDate is still ahead. Scheduled content is only built
+// in `astro dev` (see src/utils/content.ts), so this label never reaches production.
+interface Props {
+  date: Date | string;
+}
+
+const { date } = Astro.props;
+const when = (date instanceof Date ? date : new Date(date)).toLocaleDateString('en-GB', {
+  day: 'numeric',
+  month: 'short',
+  year: 'numeric',
+});
+---
+
+<span class="inline-flex items-center rounded-full border border-dashed border-accent px-[9px] py-[2px] font-mono text-[11px] font-medium uppercase tracking-[0.08em] text-accent">
+  Scheduled · {when}
+</span>

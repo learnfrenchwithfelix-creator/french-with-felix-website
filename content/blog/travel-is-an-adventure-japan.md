@@ -2,7 +2,7 @@
 title: "The Journey Is the Adventure: What a Year of Unplanned Travel in Japan Taught Me"
 description: "A personal reflection on the difference between planned tourism and letting a trip unfold through chance encounters — and how spontaneous hospitality in rural Japan changed the way one traveler saw his own country."
 articleNumber: 38
-publishDate: 2026-10-20
+publishDate: 2026-09-14
 slug: travel-is-an-adventure-japan
 level: ["B1", "B2"]
 category: culture

@@ -1,5 +1,7 @@
 ---
 import Badge from '../ui/Badge.astro';
+import ScheduledLabel from '../ui/ScheduledLabel.astro';
+import { isScheduled } from '../../utils/content';
 
 type Level = 'A1' | 'A2' | 'B1' | 'B2';
 
@@ -36,6 +38,7 @@ const {
 } = Astro.props;
 
 const categoryLabel = CATEGORY_LABELS[category] ?? category;
+const scheduled = isScheduled({ publishDate });
 
 function formatDate(d: Date | string): string {
   const date = d instanceof Date ? d : new Date(d);
@@ -88,6 +91,7 @@ const validLevels = (level ?? [])
           <span>{metaLine}</span>
         </Fragment>
       )}
+      {scheduled && publishDate && <ScheduledLabel date={publishDate} />}
     </div>
 
     <!-- CTA — 12px under meta -->
@@ -124,9 +128,10 @@ const validLevels = (level ?? [])
     )}
 
     <!-- Level badges (if present) -->
-    {validLevels.length > 0 && (
+    {(validLevels.length > 0 || scheduled) && (
       <div class="mb-4 flex flex-wrap gap-1.5">
         {validLevels.map(l => <Badge level={l} />)}
+        {scheduled && publishDate && <ScheduledLabel date={publishDate} />}
       </div>
     )}
 

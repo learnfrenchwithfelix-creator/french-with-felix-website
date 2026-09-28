@@ -8,6 +8,7 @@ const blog = defineCollection({
     description:    z.string().optional(),
     articleNumber:  z.number(),
     publishDate:    z.coerce.date(),
+    updatedDate:    z.coerce.date().optional(), // last substantial edit → JSON-LD dateModified (falls back to publishDate)
     level:          z.array(z.string()).optional(),
     category:       z.string(),
     tags:           z.array(z.string()).optional(),
