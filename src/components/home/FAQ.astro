@@ -120,6 +120,16 @@ const faq = [
     transform: rotate(180deg);
   }
 
+  /* Short screens (laptops): tighter rows so the whole Q&A fits one screen and keeps the section magnet */
+  @media (min-width: 768px) and (max-height: 900px) {
+    .faq-trigger {
+      padding-block: 1rem;
+    }
+    .faq-answer {
+      padding-bottom: 18px;
+    }
+  }
+
   @media (prefers-reduced-motion: reduce) {
     .faq-panel,
     .faq-answer,

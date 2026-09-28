@@ -17,7 +17,7 @@ const spotifyShowUrl = import.meta.env.SPOTIFY_SHOW_ID
     <SectionHeader eyebrow="Podcast" headingLight="Already learning?" headingBold="Keep going — for free." gap="tight">
       <a href="/podcast" class="whitespace-nowrap text-[15px] font-semibold text-accent">Browse all episodes →</a>
     </SectionHeader>
-    <p data-reveal class="mb-9 max-w-[640px] text-base leading-[1.65] text-body">
+    <p data-reveal class="podcast-intro mb-9 max-w-[640px] text-base leading-[1.65] text-body">
       The French with Félix podcast is 90+ episodes of real, natural French — with full transcripts. Free on Spotify, Apple Podcasts, and here.
     </p>
 
@@ -42,7 +42,7 @@ const spotifyShowUrl = import.meta.env.SPOTIFY_SHOW_ID
     </div>
 
     <!-- Spotify CTA -->
-    <div data-reveal class="mt-10 text-center">
+    <div data-reveal class="podcast-cta mt-10 text-center">
       <a
         href={spotifyShowUrl}
         target="_blank"
@@ -60,6 +60,16 @@ const spotifyShowUrl = import.meta.env.SPOTIFY_SHOW_ID
 </section>
 
 <style>
+  /* Short screens (laptops): tighter spacing so the block fits one screen and keeps the section magnet */
+  @media (min-width: 768px) and (max-height: 900px) {
+    .podcast-intro {
+      margin-bottom: 1.25rem;
+    }
+    .podcast-cta {
+      margin-top: 1.5rem;
+    }
+  }
+
   .spotify-cta:hover {
     border-color: var(--color-accent);
     color: var(--color-accent);

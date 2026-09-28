@@ -163,9 +163,11 @@
     const WHEEL_LOCK_MS = 250; // extra pause after a wheel-triggered jump to absorb trackpad inertia
 
     // The magnet + one-block-per-screen layout (the `snap-mode` class on <html>, styled in index.astro)
-    // only run when the tallest block fits in the window. Otherwise the page scrolls normally.
+    // only run when most blocks fit in the window. A block taller than the screen then scrolls
+    // normally until its bottom is in view (see the wheel handler). Otherwise the page scrolls normally.
     const MIN_WIDTH = 768;     // below this (phones) never snap
-    const BREATHING_ROOM = 32; // the tallest block must fit with at least this much spare space
+    const BREATHING_ROOM = 32; // a block "fits" with at least this much spare space
+    const MIN_FIT_SHARE = 0.8; // share of blocks that must fit (so laptops keep the magnet)
     const root = document.documentElement;
     const snapOn = () => root.classList.contains('snap-mode') && !reduceMotion;
 
@@ -332,12 +334,12 @@
     syncFooter();
     window.addEventListener('resize', syncFooter);
 
-    // Snap mode on/off: wide enough, and even the tallest block fits under the header.
+    // Snap mode on/off: wide enough, and at least MIN_FIT_SHARE of the blocks fit under the header.
     // Block content heights don't depend on the mode (only paddings do), so this can't flip-flop.
     const evaluateMode = () => {
-      const space = window.innerHeight - headerOffset();
-      const tallest = Math.max(...sections.map(s => measure(s).height));
-      const on = !reduceMotion && window.innerWidth >= MIN_WIDTH && tallest <= space - BREATHING_ROOM;
+      const space = window.innerHeight - headerOffset() - BREATHING_ROOM;
+      const fitting = sections.filter(s => measure(s).height <= space).length;
+      const on = !reduceMotion && window.innerWidth >= MIN_WIDTH && fitting >= sections.length * MIN_FIT_SHARE;
       root.classList.toggle('snap-mode', on);
     };
 
