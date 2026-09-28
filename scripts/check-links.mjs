@@ -3,6 +3,8 @@
 //    Files (a dot in the last path segment), anchors and external links are skipped.
 // 2. Indexing: the sitemap lists exactly the pages that aren't noindex (e.g. an episode page is in
 //    the sitemap if and only if it is indexable).
+// 3. Language: on episode pages the H1 carries a lang and every transcript paragraph is lang="fr";
+//    every episode card title carries a lang (the site itself is <html lang="en">).
 import { readFileSync, readdirSync, existsSync, statSync } from 'node:fs';
 import { join, relative } from 'node:path';
 
@@ -64,9 +66,29 @@ for (const path of sitemapPaths) {
   if (!existsSync(join(dist, path, 'index.html'))) problems.set(`sitemap URL without a page|${path}`, new Set(['sitemap']));
 }
 
+// ── Language attributes on French content ──
+let transcriptParas = 0;
+for (const page of pages) {
+  const html = readFileSync(page, 'utf-8');
+  const path = pagePath(page);
+  if (/^\/podcast\/[^/]+\/$/.test(path) && html.includes('transcript-para')) {
+    if (!/<h1\b[^>]*\slang="(fr|en)"/.test(html)) note('episode H1 without lang', path, page);
+    const paras = html.split('class="transcript-para"').slice(1);
+    transcriptParas += paras.length;
+    if (paras.some(p => !/<p\b[^>]*\slang="fr"/.test(p.split('</p>')[0] + '</p>'))) {
+      note('transcript paragraph without lang="fr"', path, page);
+    }
+  }
+  // Episode cards are <a class="episode-card …"> links; check the <h3> inside each one
+  for (const [card] of html.matchAll(/<a\b[^>]*class="episode-card[^"]*"[\s\S]*?<\/a>/g)) {
+    const h3 = card.match(/<h3\b[^>]*>/)?.[0];
+    if (h3 && !/\slang="(fr|en)"/.test(h3)) { note('episode card title without lang', path, page); break; }
+  }
+}
+
 if (problems.size === 0) {
   console.log(`check:links OK: ${pages.length} pages, every internal link ends with "/" and resolves; ` +
-    `sitemap = the ${indexablePages.size} indexable pages.`);
+    `sitemap = the ${indexablePages.size} indexable pages; ${transcriptParas} transcript paragraphs marked lang="fr".`);
 } else {
   for (const [key, where] of problems) {
     const [issue, href] = key.split('|');

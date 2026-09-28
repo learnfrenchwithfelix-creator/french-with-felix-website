@@ -39,6 +39,18 @@ All official URLs live in `src/config/site.ts`. Import them; never hard-code a d
 - URLs are in English for new content (`/blog/french-subjunctive-guide/`); existing podcast slugs are French
   and must not change.
 
+## Language attributes
+
+- The site is English (`<html lang="en">`). French content inside it carries `lang="fr"`:
+  every transcript paragraph, the French column of the key vocabulary, and French episode titles.
+- Episode titles (H1, cards, thumbnail alt text) get `lang` from `episodeTitleLang()`
+  (`src/utils/episode-title.mjs`, a French/English function-word count, French when unsure);
+  `titleLang: en | fr` in the episode's extras file overrides it (e.g. `easy-french-news.md`).
+- Blog articles: the frontmatter `lang` is applied to the article title and body.
+- French expressions inside English article text would need `<span lang="fr">` in the article source:
+  only with the owner's go-ahead (article text is not edited otherwise).
+- `npm run check:links` fails if an episode H1, a transcript paragraph or an episode card title lacks its lang.
+
 ## Dates and publishing
 
 - `publishDate` (blog frontmatter; `publishDate` column of the podcast CSV) is the real go-live date,
