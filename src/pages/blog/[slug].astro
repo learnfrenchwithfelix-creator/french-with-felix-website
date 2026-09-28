@@ -50,9 +50,11 @@ function formatDate(d: Date | string): string {
   title={title}
   pageTitle={`${title} — Liminal French`}
   description={description ?? `An article about learning French on Liminal French.`}
+  path={`/blog/${article.id}/`}
   publishDate={publishDate}
   dateModified={updatedDate}
   image={featuredImage}
+  lang={articleLang}
 >
 
   <div class="mx-auto max-w-[720px] px-6 pt-10 pb-4 lg:px-0">
