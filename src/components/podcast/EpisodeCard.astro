@@ -37,7 +37,7 @@ const footer = wpm > 0 ? `${wpm} wpm · ${theme}` : theme;
         loading="lazy"
       />
     ) : (
-      <div class="absolute inset-0 bg-[repeating-linear-gradient(135deg,#E8E8E7,#E8E8E7_11px,#E1E1DF_11px,#E1E1DF_22px)]"></div>
+      <div class="absolute inset-0 bg-[repeating-linear-gradient(135deg,var(--color-surface),var(--color-surface)_11px,var(--color-border)_11px,var(--color-border)_22px)]"></div>
     )}
     <div class="thumb-fade pointer-events-none absolute inset-x-0 bottom-0 h-[56%]"></div>
     <span class="absolute bottom-3 left-3.5 font-mono text-[11px] font-medium uppercase tracking-[0.12em] text-white/90">Ep {number}</span>
@@ -47,7 +47,7 @@ const footer = wpm > 0 ? `${wpm} wpm · ${theme}` : theme;
   <div class="flex flex-1 flex-col px-[22px] pb-[18px] pt-5">
     <div class="mb-3 self-start"><Badge level={level} /></div>
     <h3 class="mb-5 font-display text-[19px] font-semibold leading-[1.28] tracking-[-0.02em] text-title [text-wrap:pretty]">{title}</h3>
-    <div class="mt-auto flex items-center justify-between gap-3 border-t border-[#E1E1DF] pt-3.5">
+    <div class="mt-auto flex items-center justify-between gap-3 border-t border-border pt-3.5">
       <span class="font-mono text-[11px] text-muted">{footer}</span>
       <span class="text-[13px] font-semibold text-accent" aria-hidden="true">→</span>
     </div>
