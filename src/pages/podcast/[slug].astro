@@ -3,6 +3,7 @@ import PodcastLayout from '../../layouts/PodcastLayout.astro';
 import Badge from '../../components/ui/Badge.astro';
 import CTABanner from '../../components/ui/CTABanner.astro';
 import Reveal from '../../components/ui/Reveal.astro';
+import { platformHost, platformUrl } from '../../config/site';
 import { fetchEpisodes } from '../../utils/episodes';
 import { parseSRT } from '../../utils/parseSRT';
 
@@ -284,9 +285,9 @@ const pageDescription = `Épisode #${episodeNumber} du podcast Liminal French. $
     eyebrow="Ready for more?"
     headingLight="Take your French"
     headingBold="to the next level."
-    body="Access structured courses, live practice sessions, and a community that keeps you going — all at learn.frenchwithfelix.com."
+    body={`Access structured courses, live practice sessions, and a community that keeps you going — all at ${platformHost}.`}
     cta="Explore courses →"
-    href="https://learn.frenchwithfelix.com"
+    href={platformUrl}
   />
   </div>
 

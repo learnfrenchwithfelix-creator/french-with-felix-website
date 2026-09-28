@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ArticleCard from '../../components/blog/ArticleCard.astro';
 import CTABanner from '../../components/ui/CTABanner.astro';
+import { platformUrl } from '../../config/site';
 
 const allArticles = await getCollection('blog', ({ data }) => !data.draft);
 const sorted = [...allArticles].sort((a, b) => b.data.articleNumber - a.data.articleNumber);
@@ -51,7 +52,7 @@ const sorted = [...allArticles].sort((a, b) => b.data.articleNumber - a.data.art
     headingBold="to the next level."
     body="Access structured courses, live practice sessions, and a community that keeps you going."
     cta="Explore courses →"
-    href="https://learn.frenchwithfelix.com"
+    href={platformUrl}
   />
 
 </BaseLayout>

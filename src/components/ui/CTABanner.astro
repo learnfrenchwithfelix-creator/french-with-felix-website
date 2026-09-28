@@ -1,4 +1,6 @@
 ---
+import { platformUrl } from '../../config/site';
+
 interface Props {
   eyebrow?: string;
   headingLight?: string;
@@ -14,7 +16,7 @@ const {
   headingBold  = 'further?',
   body         = "Join hundreds of learners who've taken their French to the next level with structured courses, live practice, and a community that keeps you going.",
   cta          = 'Start Learning →',
-  href         = 'https://learn.frenchwithfelix.com',
+  href         = platformUrl,
 } = Astro.props;
 ---
 
