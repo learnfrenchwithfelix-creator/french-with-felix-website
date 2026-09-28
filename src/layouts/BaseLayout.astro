@@ -4,6 +4,7 @@ import Header from '../components/layout/Header.astro';
 import Footer from '../components/layout/Footer.astro';
 import JsonLd from '../components/seo/JsonLd.astro';
 import { podcastName, podcastRssUrl } from '../config/site';
+import { canonicalUrl } from '../utils/schema';
 
 interface Props {
   title?: string;
@@ -17,6 +18,9 @@ const {
   description = "French is a journey. Let's take it together.",
   schema = [],
 } = Astro.props;
+
+// Every page is canonical to itself: https://liminalfrench.com/<path>/ (trailing slash, no query string)
+const canonical = canonicalUrl(Astro.url.pathname);
 ---
 
 <!doctype html>
@@ -42,6 +46,8 @@ const {
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;600;700&family=Spline+Sans+Mono:wght@400;500&display=swap" />
     <title>{title}</title>
     <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:url" content={canonical} />
     <link rel="alternate" type="application/rss+xml" title={`${podcastName} podcast`} href={podcastRssUrl} />
     <JsonLd nodes={schema} />
     <slot name="head" />
