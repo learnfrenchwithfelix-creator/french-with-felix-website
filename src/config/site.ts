@@ -16,3 +16,18 @@ export const platformHost = new URL(platformUrl).host;
  * once it exists. Change it here only.
  */
 export const startUrl = 'https://learn.liminalfrench.com';
+
+/**
+ * Social profiles and podcast platforms (French with Félix). Used by the footer, the podcast
+ * "listen" links and the author's JSON-LD sameAs. An empty string hides the link everywhere.
+ */
+export const social = {
+  youtube:       'https://www.youtube.com/@frenchwithfelix',
+  instagram:     'https://www.instagram.com/frenchwithfelix/',
+  tiktok:        'https://www.tiktok.com/@frenchwithfelix',
+  spotify:       'https://open.spotify.com/show/0XOsew8SJzIGaN4AbC9i2n', // the podcast show
+  applePodcasts: 'https://podcasts.apple.com/podcast/id1832184743',       // the podcast show
+};
+
+/** Podcast RSS feed (Acast): "RSS" links and <link rel="alternate"> in every page's <head>. */
+export const podcastRssUrl = 'https://feeds.acast.com/public/shows/6596d8903a2c300016c9c8f5';
