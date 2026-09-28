@@ -19,6 +19,17 @@ export const ids = {
 /** Absolute URL for a site path ("/blog/x/" → "https://liminalfrench.com/blog/x/"). */
 export const abs = (path: string) => new URL(path, siteUrl).href;
 
+/**
+ * Canonical URL of a page from its path: absolute on siteUrl, trailing slash added (URL convention),
+ * query string and hash dropped. Files (a dot in the last segment) keep their path as is.
+ */
+export function canonicalUrl(pathname: string): string {
+  let path = pathname.split(/[?#]/)[0] || '/';
+  const last = path.split('/').pop() ?? '';
+  if (!path.endsWith('/') && !last.includes('.')) path += '/';
+  return abs(path);
+}
+
 /** Absolute URL of a file in public/, or undefined when the file doesn't exist. */
 export function publicFileUrl(path?: string | null): string | undefined {
   if (!path) return undefined;
