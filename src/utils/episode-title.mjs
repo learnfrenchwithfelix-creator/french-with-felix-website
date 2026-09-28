@@ -36,6 +36,26 @@ export function cleanEpisodeTitle(title, episodeNumber) {
     .trim();
 }
 
+// Short function words that give a title's language away (ambiguous ones like "a", "in", "on" left out)
+const FR_WORDS = new Set(('le la les l un une des du de d je j tu il elle on nous vous ils elles me m te t se s ce c ça ' +
+  'est sont suis ai as avez avons ont pas ne n que qu qui quoi pour avec dans sur en au aux mon ma mes ton ta tes ' +
+  'son sa ses votre vos notre nos leur leurs et ou mais donc plus moins très trop faut peut doit fait être avoir ' +
+  'aller comment pourquoi quand où y').split(' '));
+const EN_WORDS = new Set(('the an to of and or with for at by how why what when your you my i me is are be do don t ' +
+  'can this that it from learn about too soon make these faster improve').split(' '));
+
+/**
+ * Language of an episode title, for the `lang` attribute of its H1 and cards: "en" when it has more
+ * English than French function words, else "fr" (the podcast is in French). `titleLang` in the
+ * episode's extras file overrides it (e.g. "Easy French News" has no telltale word).
+ */
+export function episodeTitleLang(title, episodeNumber, override) {
+  if (override) return override;
+  const words = cleanEpisodeTitle(title, episodeNumber).toLowerCase().split(/[^a-zà-ÿœæ]+/).filter(Boolean);
+  const count = set => words.filter(w => set.has(w)).length;
+  return count(EN_WORDS) > count(FR_WORDS) ? 'en' : 'fr';
+}
+
 /** <title>: `seoTitle` verbatim when set, else "<clean title> — French Podcast Ep. NN (LEVEL)". */
 export function episodeSeoTitle({ title, episodeNumber, level }, seoTitle) {
   if (seoTitle?.trim()) return seoTitle.trim();

@@ -35,6 +35,8 @@ const episodes = defineCollection({
       .optional(),
     // Full <title> override; by default the title is built by episodeSeoTitle() (src/utils/episode-title.mjs)
     seoTitle: z.string().trim().min(1, 'seoTitle is empty: remove the key or write the title').optional(),
+    // Language of the YouTube title (H1 and cards), when the automatic detection gets it wrong
+    titleLang: z.enum(['fr', 'en']).optional(),
   }),
 });
 
