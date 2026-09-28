@@ -1,6 +1,7 @@
 // Checks the built site (dist/). Run after `npm run build`: `npm run check:links`.
 // 1. URL convention: every internal link to a page ends with "/" and points to a page that exists.
 //    Files (a dot in the last path segment), anchors and external links are skipped.
+//    No placeholder links: href="#" or an empty href fails.
 // 2. Indexing: the sitemap lists exactly the pages that aren't noindex (e.g. an episode page is in
 //    the sitemap if and only if it is indexable).
 // 3. Language: on episode pages the H1 carries a lang and every transcript paragraph is lang="fr";
@@ -29,6 +30,7 @@ const note = (issue, href, page) => {
 for (const page of pages) {
   const html = readFileSync(page, 'utf-8');
   for (const [, href] of html.matchAll(/<a\b[^>]*?\shref="([^"]*)"/g)) {
+    if (href === '#' || href.trim() === '') { note('placeholder link (href="#" or empty)', href || '(empty)', page); continue; }
     if (!href.startsWith('/') || href.startsWith('//')) continue;
     const path = href.split(/[?#]/)[0];
     if (path === '' ) continue;
