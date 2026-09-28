@@ -13,12 +13,15 @@
   --color-muted: #6B7280;
   --color-surface: #E8E8E7;
   --color-border: #D1D1CF;
+  /* Text on the red accent (buttons, active page, badges): stays light in both themes */
+  --color-on-accent: #F1F1F0;
 
   --weight-light: 300;
   --weight-bold: 700;
 }
 
 [data-theme="dark"] {
+  color-scheme: dark; /* native controls (scrollbars, inputs, selects) follow the theme */
   --color-bg: #1C1C1E;
   --color-title: #F1F1F0;
   --color-liseret: #21456E;

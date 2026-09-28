@@ -29,7 +29,7 @@ const speed = ep.wpm > 0 ? `${rate} · ${ep.wpm} wpm` : rate;
         fetchpriority="high"
       />
     ) : (
-      <div class="absolute inset-0 bg-[repeating-linear-gradient(135deg,#E8E8E7,#E8E8E7_11px,#E1E1DF_11px,#E1E1DF_22px)]"></div>
+      <div class="absolute inset-0 bg-[repeating-linear-gradient(135deg,var(--color-surface),var(--color-surface)_11px,var(--color-border)_11px,var(--color-border)_22px)]"></div>
     )}
     <div class="thumb-fade pointer-events-none absolute inset-x-0 bottom-0 h-[46%]"></div>
     <span class="absolute bottom-3.5 left-4 font-mono text-xs font-medium uppercase tracking-[0.12em] text-white/90">Ep {ep.episodeNumber}</span>

@@ -10,6 +10,7 @@ export default {
         liseret: 'var(--color-liseret)',
         accent: 'var(--color-accent)',
         accentDark: 'var(--color-accent-dark)',
+        onAccent: 'var(--color-on-accent)',
         body: 'var(--color-body)',
         muted: 'var(--color-muted)',
         surface: 'var(--color-surface)',
