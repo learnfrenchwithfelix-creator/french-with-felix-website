@@ -1,13 +1,14 @@
-# ARCHITECTURE — frenchwithfelix.com
+# ARCHITECTURE — liminalfrench.com
 
 ## Vue d'ensemble
 
-Site de contenu personnel pour générer du trafic organique (SEO) et convertir vers la plateforme de cours payants hébergée sur `learn.frenchwithfelix.com` (Kajabi ou Podia).
+Site de contenu personnel pour générer du trafic organique (SEO) et convertir vers la plateforme de cours payants hébergée sur Kajabi, à `learn.liminalfrench.com`.
+Les URL officielles (site, plateforme, destination de `/start`) sont centralisées dans `src/config/site.ts`.
 
 **Stack :**
 - Framework : Astro
 - Styles : Tailwind CSS
-- Déploiement : Vercel
+- Déploiement : GitHub Pages, via GitHub Actions (`.github/workflows/deploy.yml`) à chaque merge dans `main`. Domaine liminalfrench.com (DNS chez Namecheap).
 - Contenu : fichiers Markdown locaux (`.md` / `.mdx`)
 - Données bibliothèque : fichiers JSON locaux générés en dehors du site
 
@@ -16,7 +17,7 @@ Site de contenu personnel pour générer du trafic organique (SEO) et convertir 
 ## Structure de dossiers
 
 ```
-frenchwithfelix.com/
+liminalfrench.com/
 │
 ├── public/
 │   ├── fonts/
@@ -88,7 +89,7 @@ frenchwithfelix.com/
 - Hero : accroche + proposition de valeur
 - Mise en avant des 3 derniers articles de blog
 - Mise en avant des 3 derniers épisodes podcast
-- CTA → `/start` ou directement `learn.frenchwithfelix.com`
+- CTA → `/start` ou directement la plateforme (`platformUrl`)
 - **SEO** : schema.org `Person` + `WebSite`
 
 ### `/blog` — Blog
@@ -133,7 +134,7 @@ frenchwithfelix.com/
 - **SEO** : schema.org `Person`
 
 ### `/start` — Conversion
-- Redirection directe ou landing page légère vers `learn.frenchwithfelix.com`
+- Redirection instantanée (page statique, `noindex`, hors sitemap) vers `startUrl` défini dans `src/config/site.ts`
 - Utilisée comme lien de conversion depuis tous les CTAs du site
 
 ---
