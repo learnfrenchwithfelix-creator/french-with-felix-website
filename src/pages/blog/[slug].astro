@@ -6,6 +6,8 @@ import CTABanner from '../../components/ui/CTABanner.astro';
 import { platformHost, platformUrl } from '../../config/site';
 import { isPublished, isScheduled } from '../../utils/content';
 import ScheduledLabel from '../../components/ui/ScheduledLabel.astro';
+import RelatedEpisode from '../../components/blog/RelatedEpisode.astro';
+import { episodeForArticle } from '../../utils/related';
 
 export async function getStaticPaths() {
   const articles = await getCollection('blog', ({ data }) => isPublished(data));
@@ -32,6 +34,8 @@ const h2s = headings.filter(h => h.depth === 2);
 const { title, description, category, readingTime, publishDate, updatedDate, level, featuredImage } = article.data;
 // The page is English (<html lang="en">); an article written in French gets lang="fr" on its title and body
 const articleLang = article.data.lang ?? 'en';
+// The podcast episode this article comes from ("Listen to the episode" block)
+const relatedEpisode = await episodeForArticle(article);
 
 const categoryLabel = CATEGORY_LABELS[category] ?? category;
 const LEVEL_ORDER: Record<Level, number> = { A1: 0, A2: 1, B1: 2, B2: 3 };
@@ -128,6 +132,8 @@ function formatDate(d: Date | string): string {
       <Content />
     </div>
   </div>
+
+  {relatedEpisode && <RelatedEpisode episode={relatedEpisode} />}
 
   <!-- ── CTA ── -->
   <CTABanner
