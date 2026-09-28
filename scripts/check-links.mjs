@@ -11,6 +11,8 @@
 //    levels are allowed (the podcast listing's featured h2 repeats the first card's h3 on purpose).
 // 5. Structured data: every page has exactly one JSON-LD script, valid JSON, whose nodes carry the
 //    fields their type needs and whose @id references all resolve inside the graph.
+// 6. Canonical and robots.txt: every page (redirects aside) has exactly one canonical, pointing to
+//    itself on https://liminalfrench.com with a trailing slash; robots.txt names a sitemap that exists.
 import { readFileSync, readdirSync, existsSync, statSync } from 'node:fs';
 import { join, relative } from 'node:path';
 
@@ -146,6 +148,29 @@ for (const page of pages) {
         if (!existsSync(join(dist, p, 'index.html'))) note('breadcrumb to a missing page', item.item, page);
       }
     }
+  }
+}
+
+// ── Canonical ──
+const SITE = 'https://liminalfrench.com';
+for (const page of pages) {
+  const html = readFileSync(page, 'utf-8');
+  if (/http-equiv="refresh"/.test(html)) continue; // redirect pages (/start/, legacy /podcast/N/)
+  const canonicals = [...html.matchAll(/<link rel="canonical" href="([^"]*)"/g)].map(m => m[1]);
+  const expected = SITE + pagePath(page);
+  if (canonicals.length !== 1) note(`${canonicals.length} canonical tags (expected 1)`, pagePath(page), page);
+  else if (canonicals[0] !== expected) note(`canonical is ${canonicals[0]}, expected`, expected, page);
+}
+
+// ── robots.txt ──
+const robotsFile = join(dist, 'robots.txt');
+if (!existsSync(robotsFile)) {
+  problems.set('robots.txt missing|dist/robots.txt', new Set(['robots']));
+} else {
+  const sitemapLine = readFileSync(robotsFile, 'utf-8').match(/^Sitemap:\s*(\S+)/m)?.[1];
+  if (!sitemapLine) problems.set('robots.txt without a Sitemap line|robots.txt', new Set(['robots']));
+  else if (!existsSync(join(dist, new URL(sitemapLine).pathname))) {
+    problems.set(`robots.txt sitemap does not exist|${sitemapLine}`, new Set(['robots']));
   }
 }
 
