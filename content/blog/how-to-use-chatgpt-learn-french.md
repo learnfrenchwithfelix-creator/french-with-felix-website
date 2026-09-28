@@ -13,6 +13,7 @@ featuredImageAlt: "Person using ChatGPT on a laptop to practice French"
 readingTime: 8
 featured: false
 draft: false
+relatedEpisode: comment-chat-gpt-peut-vous-rendre-fluent
 ---
 
 ## Introduction

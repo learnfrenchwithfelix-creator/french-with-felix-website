@@ -13,6 +13,7 @@ featuredImageAlt: "Sound wave illustration representing fast spoken French"
 readingTime: 7
 featured: false
 draft: false
+relatedEpisode: comprendre-le-francais-fluent
 ---
 
 ## Introduction

@@ -13,6 +13,7 @@ featuredImageAlt: "Person reflecting at a desk, symbolizing a career turning poi
 readingTime: 8
 featured: false
 draft: false
+relatedEpisode: la-crise-de-la-trentaine
 ---
 
 ## Introduction

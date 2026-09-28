@@ -1,0 +1,36 @@
+---
+// "Read the article" block on an episode page: the blog article that comes from this episode
+// (resolved by src/utils/related.ts from the articles' `relatedEpisode`).
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  article: CollectionEntry<'blog'>;
+}
+
+const { article } = Astro.props;
+const { title, description, readingTime } = article.data;
+---
+
+<aside class="mt-12" aria-label="Read the article" data-print-hide>
+  <a
+    href={`/blog/${article.id}/`}
+    class="related-card group flex items-center justify-between gap-6 rounded-card border border-border bg-surface p-6 transition-colors md:p-7"
+  >
+    <div>
+      <p class="mb-2 font-mono text-[11px] font-medium uppercase tracking-[0.14em] text-accent">
+        Read the article{readingTime ? ` · ${readingTime} min` : ''}
+      </p>
+      <p class="mb-2 font-display text-xl font-bold leading-[1.25] tracking-[-0.02em] text-title transition-colors group-hover:text-accent md:text-[22px]">
+        {title}
+      </p>
+      {description && <p class="line-clamp-2 text-[15px] leading-[1.55] text-muted">{description}</p>}
+    </div>
+    <span class="shrink-0 text-2xl text-accent transition-transform group-hover:translate-x-1" aria-hidden="true">→</span>
+  </a>
+</aside>
+
+<style>
+  .related-card:hover {
+    border-color: var(--color-accent);
+  }
+</style>

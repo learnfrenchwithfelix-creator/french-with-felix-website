@@ -13,6 +13,7 @@ featuredImageAlt: "Group of French people having a casual conversation"
 readingTime: 8
 featured: false
 draft: false
+relatedEpisode: pourquoi-vous-ne-comprenez-pas-les-natifs
 ---
 
 ## Introduction

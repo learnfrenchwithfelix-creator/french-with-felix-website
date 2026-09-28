@@ -13,6 +13,7 @@ featuredImageAlt: "Romantic restaurant table setting for Valentine's Day in Fran
 readingTime: 6
 featured: false
 draft: false
+relatedEpisode: la-saint-valentin-en-france
 ---
 
 ## Introduction

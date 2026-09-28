@@ -13,6 +13,7 @@ featuredImageAlt: "Person thinking critically while using AI chat interface"
 readingTime: 7
 featured: false
 draft: false
+relatedEpisode: l-ia-nous-rend-betes
 ---
 
 ## Introduction

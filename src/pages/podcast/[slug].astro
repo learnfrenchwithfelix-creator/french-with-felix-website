@@ -6,6 +6,8 @@ import Reveal from '../../components/ui/Reveal.astro';
 import { platformHost, platformUrl, podcastName } from '../../config/site';
 import EpisodeAbout from '../../components/podcast/EpisodeAbout.astro';
 import ListenLinks from '../../components/podcast/ListenLinks.astro';
+import RelatedArticle from '../../components/podcast/RelatedArticle.astro';
+import { articleForEpisode } from '../../utils/related';
 import { getCollection } from 'astro:content';
 import { fetchEpisodes } from '../../utils/episodes';
 import { parsePodcastCSV } from '../../utils/parsePodcastCSV';
@@ -75,7 +77,7 @@ interface Props {
   titleLang:     'fr' | 'en';
   publishDate:   string | null;
   transcript:    { timecode: string; seconds: number; text: string }[];
-  extras:        { summary_en?: string; key_vocab?: { fr: string; en: string }[]; seoTitle?: string; appleEpisodeUrl?: string } | null;
+  extras:        { summary_en?: string; key_vocab?: { fr: string; en: string }[]; seoTitle?: string; appleEpisodeUrl?: string; relatedArticle?: string } | null;
 }
 
 if (Astro.props.redirectTo) return Astro.redirect(Astro.props.redirectTo);
@@ -99,6 +101,8 @@ const {
 } = Astro.props;
 
 const indexable = isIndexableEpisode(extras);
+// The blog article that comes from this episode ("Read the article" block)
+const relatedArticle = await articleForEpisode(slug);
 
 const speechRateLabel: Record<string, string> = {
   lent: 'Slow',
@@ -288,6 +292,8 @@ const schema = [
         ) : (
           <p class="text-[17px] text-muted">Transcript not yet available for this episode.</p>
         )}
+
+        {relatedArticle && <RelatedArticle article={relatedArticle} />}
       </div>
 
     </div>

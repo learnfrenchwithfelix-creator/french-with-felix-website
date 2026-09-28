@@ -13,6 +13,7 @@ featuredImageAlt: "Confidence and competence curve illustrating the Dunning-Krug
 readingTime: 7
 featured: false
 draft: false
+relatedEpisode: l-effet-dunning-kruger
 ---
 
 ## Introduction

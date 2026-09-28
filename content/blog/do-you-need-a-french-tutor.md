@@ -11,6 +11,7 @@ lang: en
 readingTime: 9
 featured: false
 draft: false
+relatedEpisode: est-ce-utile-de-prendre-des-cours-avec-un-prof
 ---
 
 Here's a question I find genuinely fascinating — and slightly uncomfortable to answer, because I'm a French teacher who learns languages entirely on his own.

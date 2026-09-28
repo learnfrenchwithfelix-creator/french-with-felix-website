@@ -13,6 +13,7 @@ featuredImageAlt: "Traditional Japanese countryside house with tatami and slidin
 readingTime: 7
 featured: false
 draft: false
+relatedEpisode: le-voyage-est-une-aventure
 ---
 
 ## Introduction

@@ -13,6 +13,7 @@ featuredImageAlt: "Hourglass with sand representing time as the true measure of 
 readingTime: 8
 featured: false
 draft: false
+relatedEpisode: la-vraie-valeur-c-est-le-temps
 ---
 
 ## Introduction

@@ -11,6 +11,7 @@ lang: en
 readingTime: 9
 featured: false
 draft: false
+relatedEpisode: pourquoi-les-trains-font-partie-de-la-culture-francaise
 ---
 
 If you spend any time in France, you'll notice something: French people have a complicated relationship with trains.

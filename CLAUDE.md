@@ -50,6 +50,15 @@ All official URLs live in `src/config/site.ts`. Import them; never hard-code a d
 - URLs are in English for new content (`/blog/french-subjunctive-guide/`); existing podcast slugs are French
   and must not change.
 
+## Blog ↔ podcast internal links
+
+- One source of truth: `relatedEpisode: <episode slug>` in the article's frontmatter (the episode the article
+  comes from). The article shows "Listen to the episode"; the episode page shows "Read the article" in return
+  (`src/utils/related.ts`). `relatedArticle` in the episode's extras file only overrides that default.
+- A slug that isn't a published episode/article fails the build.
+- 37 of the 39 articles are linked (validated by the owner). Not linked: intensive-vs-extensive-immersion-french,
+  pardon-my-french-vulgar-expressions-explained.
+
 ## Page titles and duplicated content
 
 - Homepage: `<title>` "Learn French from Zero to Immersion | Liminal French"; H1 "Learn French from zero to

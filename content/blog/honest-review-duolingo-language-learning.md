@@ -13,6 +13,7 @@ featuredImageAlt: "Duolingo app icon on a smartphone screen"
 readingTime: 8
 featured: false
 draft: false
+relatedEpisode: mon-avis-sur-duolingo
 ---
 
 ## Introduction

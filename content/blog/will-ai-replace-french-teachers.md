@@ -13,6 +13,7 @@ featuredImageAlt: "Robot and human silhouette representing AI versus human teach
 readingTime: 8
 featured: false
 draft: false
+relatedEpisode: l-ia-va-nous-remplacer
 ---
 
 ## Introduction

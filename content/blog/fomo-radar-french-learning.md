@@ -11,6 +11,7 @@ lang: en
 readingTime: 10
 featured: false
 draft: false
+relatedEpisode: vous-avez-besoin-d-un-radar-a-fomo
 ---
 
 You've probably seen the thumbnails.

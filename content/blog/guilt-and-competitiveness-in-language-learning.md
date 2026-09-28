@@ -13,6 +13,7 @@ featuredImageAlt: "Person looking conflicted while studying with phone nearby"
 readingTime: 7
 featured: false
 draft: false
+relatedEpisode: vous-devriez-vous-sentir-coupables
 ---
 
 ## Introduction

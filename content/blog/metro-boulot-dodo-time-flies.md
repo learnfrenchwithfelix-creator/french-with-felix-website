@@ -13,6 +13,7 @@ featuredImageAlt: "Paris metro commuters illustrating the daily routine"
 readingTime: 6
 featured: false
 draft: false
+relatedEpisode: le-temps-passe-vite
 ---
 
 ## Introduction

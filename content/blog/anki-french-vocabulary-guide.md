@@ -13,6 +13,7 @@ featuredImageAlt: "Anki flashcard app open on a laptop screen"
 readingTime: 8
 featured: false
 draft: false
+relatedEpisode: apprendre-le-vocabulaire-plus-vite-avec-anki
 ---
 
 ## Introduction

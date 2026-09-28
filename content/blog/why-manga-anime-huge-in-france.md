@@ -11,6 +11,7 @@ lang: en
 readingTime: 11
 featured: false
 draft: false
+relatedEpisode: les-francais-adorent-ca
 ---
 
 France is the second largest manga market in the world.

@@ -13,6 +13,7 @@ featuredImageAlt: "Decorated Christmas tree in a French home"
 readingTime: 7
 featured: false
 draft: false
+relatedEpisode: noel-en-france
 ---
 
 ## Introduction

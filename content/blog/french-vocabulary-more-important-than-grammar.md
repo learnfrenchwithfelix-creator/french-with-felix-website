@@ -11,6 +11,7 @@ lang: en
 readingTime: 8
 featured: false
 draft: false
+relatedEpisode: pas-besoin-de-plus-de-grammaire-mais-de-vocabulaire
 ---
 
 Here's something counterintuitive: the students who obsess over French grammar are often the ones who make the least progress.

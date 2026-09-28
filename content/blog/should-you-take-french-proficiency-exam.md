@@ -13,6 +13,7 @@ featuredImageAlt: "Student preparing for a French language proficiency exam"
 readingTime: 8
 featured: false
 draft: false
+relatedEpisode: faut-il-passer-un-examen-de-francais
 ---
 
 ## Introduction

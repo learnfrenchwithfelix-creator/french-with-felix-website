@@ -13,6 +13,7 @@ featuredImageAlt: "Person watching a French film with subtitles at home"
 readingTime: 7
 featured: false
 draft: false
+relatedEpisode: apprendre-le-francais-en-regardant-des-films
 ---
 
 ## Introduction

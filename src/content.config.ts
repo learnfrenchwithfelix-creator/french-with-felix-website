@@ -9,6 +9,7 @@ const blog = defineCollection({
     articleNumber:  z.number(),
     publishDate:    z.coerce.date(),
     updatedDate:    z.coerce.date().optional(), // last substantial edit → JSON-LD dateModified (falls back to publishDate)
+    relatedEpisode: z.string().optional(),      // slug of the podcast episode the article comes from (see src/utils/related.ts)
     level:          z.array(z.string()).optional(),
     category:       z.string(),
     tags:           z.array(z.string()).optional(),
@@ -39,6 +40,9 @@ const episodes = defineCollection({
     titleLang: z.enum(['fr', 'en']).optional(),
     // The episode's own Apple Podcasts page; without it the Apple button links to the show
     appleEpisodeUrl: z.string().url().optional(),
+    // Blog article to show on the episode page, only to override the default (the article whose
+    // relatedEpisode is this episode) — see src/utils/related.ts
+    relatedArticle: z.string().optional(),
   }),
 });
 

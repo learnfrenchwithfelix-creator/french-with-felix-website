@@ -13,6 +13,7 @@ featuredImageAlt: "Person practicing pronunciation with headphones and a microph
 readingTime: 7
 featured: false
 draft: false
+relatedEpisode: je-comprends-mais-je-ne-peux-pas-parler
 ---
 
 ## Introduction

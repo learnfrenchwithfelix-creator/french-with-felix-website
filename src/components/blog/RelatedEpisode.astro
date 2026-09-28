@@ -1,0 +1,44 @@
+---
+// "Listen to the episode" block at the end of a blog article: the podcast episode the article comes
+// from (its `relatedEpisode`, resolved by src/utils/related.ts).
+import Badge from '../ui/Badge.astro';
+import { cleanEpisodeTitle, episodeTitleLang } from '../../utils/episode-title.mjs';
+import type { PodcastEpisodeRow } from '../../utils/parsePodcastCSV';
+
+interface Props {
+  episode: PodcastEpisodeRow;
+}
+
+const { episode } = Astro.props;
+const title = cleanEpisodeTitle(episode.titleFr, episode.episodeNumber);
+---
+
+<aside class="mx-auto max-w-[720px] px-6 pb-16 lg:px-0" aria-label="Listen to the episode">
+  <a
+    href={`/podcast/${episode.slug}/`}
+    class="related-card group flex items-center justify-between gap-6 rounded-card border border-border bg-surface p-6 transition-colors md:p-7"
+  >
+    <div>
+      <p class="mb-2 font-mono text-[11px] font-medium uppercase tracking-[0.14em] text-accent">Listen to the episode</p>
+      <p lang={episodeTitleLang(episode.titleFr, episode.episodeNumber)} class="mb-3 font-display text-xl font-bold leading-[1.25] tracking-[-0.02em] text-title transition-colors group-hover:text-accent md:text-[22px]">
+        {title}
+      </p>
+      <div class="flex flex-wrap items-center gap-2 font-mono text-[12px] text-muted">
+        <span>Ep {episode.episodeNumber}</span>
+        <span aria-hidden="true">·</span>
+        <Badge level={episode.level} />
+        <span aria-hidden="true">·</span>
+        <span>{episode.duration}</span>
+        <span aria-hidden="true">·</span>
+        <span>Full French transcript</span>
+      </div>
+    </div>
+    <span class="shrink-0 text-2xl text-accent transition-transform group-hover:translate-x-1" aria-hidden="true">→</span>
+  </a>
+</aside>
+
+<style>
+  .related-card:hover {
+    border-color: var(--color-accent);
+  }
+</style>

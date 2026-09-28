@@ -27,6 +27,8 @@ featuredImageAlt: "Tableau de conjugaison du subjonctif en français"
 readingTime: 8                  # en minutes (calculé automatiquement ou manuel)
 featured: false                 # true = mis en avant sur la homepage
 draft: false                    # true = non publié
+updatedDate: 2025-10-01         # optionnel — dernière mise à jour importante (JSON-LD dateModified)
+relatedEpisode: le-running      # optionnel — slug de l'épisode dont l'article est tiré (bloc « Listen to the episode »)
 ---
 ```
 
@@ -98,7 +100,8 @@ key_vocab:                      # ~10 mots ou expressions tirés de l'épisode
   trompe (ex. `easy-french-news.md`). Sert à l'attribut `lang` du H1 et des cartes d'épisode.
 - `appleEpisodeUrl` (optionnel, URL) : page de l'épisode sur Apple Podcasts. Sans lui, le bouton Apple
   mène à l'émission. Le bouton Spotify mène à l'épisode dès que l'API Spotify le trouve.
-- D'autres champs optionnels s'ajouteront ici (`relatedArticle`).
+- `relatedArticle` (optionnel, slug d'article) : article affiché dans le bloc « Read the article ». Par
+  défaut, c'est l'article dont le `relatedEpisode` est cet épisode ; ce champ ne sert qu'à forcer un autre choix.
 
 ### Niveaux et vitesse — définitions
 
