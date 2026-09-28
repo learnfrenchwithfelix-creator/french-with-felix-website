@@ -1,5 +1,6 @@
 import { parsePodcastCSV, type PodcastEpisodeRow } from './parsePodcastCSV';
 import { fetchSpotifyEpisodes } from './spotify';
+import { isPublished } from './content';
 
 export interface Episode extends PodcastEpisodeRow {
   spotifyEpisodeId: string | null;
@@ -10,11 +11,11 @@ export interface Episode extends PodcastEpisodeRow {
 }
 
 /**
- * Merges CSV data with Spotify metadata and returns episodes sorted by
- * episode number descending (newest first).
+ * Merges CSV data with Spotify metadata and returns the published episodes
+ * (see isPublished) sorted by episode number descending (newest first).
  */
 export async function fetchEpisodes(): Promise<Episode[]> {
-  const csvEpisodes = parsePodcastCSV();
+  const csvEpisodes = parsePodcastCSV().filter(ep => isPublished(ep));
   const spotifyMap = await fetchSpotifyEpisodes();
 
   return csvEpisodes

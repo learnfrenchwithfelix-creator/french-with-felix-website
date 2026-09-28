@@ -1,10 +1,13 @@
 import type { APIRoute, GetStaticPaths } from 'astro';
 import { parsePodcastCSV } from '../../../utils/parsePodcastCSV';
 import { parseSRT } from '../../../utils/parseSRT';
+import { isPublished } from '../../../utils/content';
 
-// Static plain-text transcript per episode: /podcast/<slug>/transcript.txt
+// Static plain-text transcript per published episode: /podcast/<slug>/transcript.txt
 export const getStaticPaths = (() =>
-  parsePodcastCSV().map(ep => ({ params: { slug: ep.slug }, props: { ep } }))) satisfies GetStaticPaths;
+  parsePodcastCSV()
+    .filter(ep => isPublished(ep))
+    .map(ep => ({ params: { slug: ep.slug }, props: { ep } }))) satisfies GetStaticPaths;
 
 export const GET: APIRoute = ({ props, site }) => {
   const ep = props.ep as ReturnType<typeof parsePodcastCSV>[number];
