@@ -2,6 +2,7 @@ import type { APIRoute, GetStaticPaths } from 'astro';
 import { parsePodcastCSV } from '../../../utils/parsePodcastCSV';
 import { parseSRT } from '../../../utils/parseSRT';
 import { isPublished } from '../../../utils/content';
+import { podcastName } from '../../../config/site';
 
 // Static plain-text transcript per published episode: /podcast/<slug>/transcript.txt
 export const getStaticPaths = (() =>
@@ -14,7 +15,7 @@ export const GET: APIRoute = ({ props, site }) => {
   const paragraphs = parseSRT(ep.slug);
 
   const header = [
-    `Liminal French Podcast — Episode ${ep.episodeNumber}`,
+    `${podcastName} podcast — Episode ${ep.episodeNumber}`,
     ep.titleFr,
     `Level ${ep.level} · ${ep.duration}${ep.wpm > 0 ? ` · ${ep.wpm} wpm` : ''}`,
     new URL(`/podcast/${ep.slug}/`, site).href, // `site` from astro.config.mjs

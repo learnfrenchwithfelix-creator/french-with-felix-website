@@ -62,10 +62,14 @@ export function episodeSeoTitle({ title, episodeNumber, level }, seoTitle) {
   return `${cleanEpisodeTitle(title, episodeNumber)} — French Podcast Ep. ${episodeNumber} (${level})`;
 }
 
-/** Meta description: the English summary when set, else an English template. */
-export function episodeDescription({ title, episodeNumber, level, duration, wpm }, summary) {
+/**
+ * Meta description: the English summary when set, else an English template.
+ * `podcastName` comes from src/config/site.ts (passed in: this module is also loaded by Node scripts,
+ * which can't import the TypeScript config).
+ */
+export function episodeDescription({ title, episodeNumber, level, duration, wpm }, summary, podcastName) {
   if (summary?.trim()) return summary.replace(/\s+/g, ' ').trim();
   const speed = wpm > 0 ? ` · ${wpm} wpm` : '';
-  return `Episode ${episodeNumber} of the Liminal French podcast: ${cleanEpisodeTitle(title, episodeNumber)}. ` +
+  return `Episode ${episodeNumber} of the ${podcastName} podcast: ${cleanEpisodeTitle(title, episodeNumber)}. ` +
     `Level ${level} · ${duration}${speed}. Full French transcript.`;
 }

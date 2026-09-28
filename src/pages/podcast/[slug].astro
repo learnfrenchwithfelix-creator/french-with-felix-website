@@ -3,7 +3,7 @@ import PodcastLayout from '../../layouts/PodcastLayout.astro';
 import Badge from '../../components/ui/Badge.astro';
 import CTABanner from '../../components/ui/CTABanner.astro';
 import Reveal from '../../components/ui/Reveal.astro';
-import { platformHost, platformUrl } from '../../config/site';
+import { platformHost, platformUrl, podcastName } from '../../config/site';
 import EpisodeAbout from '../../components/podcast/EpisodeAbout.astro';
 import ListenLinks from '../../components/podcast/ListenLinks.astro';
 import { getCollection } from 'astro:content';
@@ -111,7 +111,7 @@ const speedLabel = wpm > 0 ? `${speechRateLabel[speechRate] ?? speechRate} · ${
 // <title> and meta description (the H1 below stays the YouTube title)
 const seoInput = { title: titleFr, episodeNumber, level, duration, wpm };
 const pageTitle = episodeSeoTitle(seoInput, extras?.seoTitle);
-const pageDescription = episodeDescription(seoInput, extras?.summary_en);
+const pageDescription = episodeDescription(seoInput, extras?.summary_en, podcastName);
 
 // schema.org: PodcastEpisode + its YouTube VideoObject (with the full transcript) + breadcrumbs
 const path = `/podcast/${slug}/`;
