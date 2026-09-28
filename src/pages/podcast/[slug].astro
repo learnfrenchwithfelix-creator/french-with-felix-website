@@ -11,7 +11,8 @@ import { fetchEpisodes } from '../../utils/episodes';
 import { parsePodcastCSV } from '../../utils/parsePodcastCSV';
 import { parseSRT } from '../../utils/parseSRT';
 import { isIndexableEpisode } from '../../utils/content';
-import { episodeDescription, episodeSeoTitle } from '../../utils/episode-title.mjs';
+import { breadcrumbs, episodeNodes } from '../../utils/schema';
+import { cleanEpisodeTitle, episodeDescription, episodeSeoTitle } from '../../utils/episode-title.mjs';
 
 export async function getStaticPaths() {
   const episodes = await fetchEpisodes();
@@ -48,6 +49,7 @@ export async function getStaticPaths() {
       duration:      ep.duration,
       youtubeId:     ep.youtubeId,
       titleLang:     ep.titleLang,
+      publishDate:   ep.publishDate,
       transcript:    parseSRT(ep.slug),
       extras:        extras.get(ep.slug) ?? null,
     },
@@ -71,6 +73,7 @@ interface Props {
   duration:      string;
   youtubeId:     string | null;
   titleLang:     'fr' | 'en';
+  publishDate:   string | null;
   transcript:    { timecode: string; seconds: number; text: string }[];
   extras:        { summary_en?: string; key_vocab?: { fr: string; en: string }[]; seoTitle?: string; appleEpisodeUrl?: string } | null;
 }
@@ -90,6 +93,7 @@ const {
   duration,
   youtubeId,
   titleLang,
+  publishDate,
   transcript,
   extras,
 } = Astro.props;
@@ -108,9 +112,26 @@ const speedLabel = wpm > 0 ? `${speechRateLabel[speechRate] ?? speechRate} · ${
 const seoInput = { title: titleFr, episodeNumber, level, duration, wpm };
 const pageTitle = episodeSeoTitle(seoInput, extras?.seoTitle);
 const pageDescription = episodeDescription(seoInput, extras?.summary_en);
+
+// schema.org: PodcastEpisode + its YouTube VideoObject (with the full transcript) + breadcrumbs
+const path = `/podcast/${slug}/`;
+const episodeName = cleanEpisodeTitle(titleFr, episodeNumber);
+const schema = [
+  ...episodeNodes({
+    path,
+    name: episodeName,
+    description: pageDescription,
+    episodeNumber,
+    publishDate,
+    duration,
+    youtubeId,
+    transcript: transcript.map(p => p.text).join('\n\n'),
+  }),
+  breadcrumbs([['Podcast', '/podcast/'], [episodeName, path]]),
+];
 ---
 
-<PodcastLayout title={pageTitle} description={pageDescription} {indexable}>
+<PodcastLayout title={pageTitle} description={pageDescription} {indexable} {schema}>
   <Reveal />
 
   <div class="mx-auto max-w-[1180px] px-6 pb-12 pt-12 lg:px-12">

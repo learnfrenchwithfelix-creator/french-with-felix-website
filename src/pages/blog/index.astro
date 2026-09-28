@@ -5,6 +5,7 @@ import ArticleCard from '../../components/blog/ArticleCard.astro';
 import CTABanner from '../../components/ui/CTABanner.astro';
 import { platformUrl } from '../../config/site';
 import { isPublished } from '../../utils/content';
+import { breadcrumbs } from '../../utils/schema';
 
 const allArticles = await getCollection('blog', ({ data }) => isPublished(data));
 const sorted = [...allArticles].sort((a, b) => b.data.articleNumber - a.data.articleNumber);
@@ -13,6 +14,7 @@ const sorted = [...allArticles].sort((a, b) => b.data.articleNumber - a.data.art
 <BaseLayout
   title="Blog — Liminal French"
   description="Articles about learning French: grammar guides, immersion tips, vocabulary strategies, and French culture."
+  schema={[breadcrumbs([['Blog', '/blog/']])]}
 >
 
   <!-- ── Hero ── -->

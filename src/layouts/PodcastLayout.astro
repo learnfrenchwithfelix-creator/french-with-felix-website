@@ -6,12 +6,14 @@ interface Props {
   description?: string;
   /** Enriched episodes (summary_en filled) are indexable; the others stay noindex, follow. */
   indexable?: boolean;
+  /** Page-specific schema.org nodes (src/utils/schema.ts) */
+  schema?: Record<string, unknown>[];
 }
 
-const { title, description, indexable = false } = Astro.props;
+const { title, description, indexable = false, schema } = Astro.props;
 ---
 
-<BaseLayout title={title} description={description}>
+<BaseLayout title={title} description={description} {schema}>
   {!indexable && <meta slot="head" name="robots" content="noindex, follow" />}
   <slot />
 </BaseLayout>

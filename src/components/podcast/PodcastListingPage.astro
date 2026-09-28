@@ -8,6 +8,7 @@ import SectionHeader from '../ui/SectionHeader.astro';
 import EpisodeCard from './EpisodeCard.astro';
 import FeaturedEpisode from './FeaturedEpisode.astro';
 import ListenLinks from './ListenLinks.astro';
+import { breadcrumbs, podcastSeriesNode } from '../../utils/schema';
 import type { Episode } from '../../utils/episodes';
 
 interface Props {
@@ -29,9 +30,12 @@ const rates = (['lent', 'normal', 'rapide'] as const).filter(r => episodes.some(
 
 const pageTitle = 'Podcast — Liminal French';
 const pageDescription = 'Short conversations in slow, clear French — every episode with a full transcript to read along.';
+
+// schema.org: the podcast series (with its RSS feed) + breadcrumbs
+const schema = [podcastSeriesNode(pageDescription), breadcrumbs([['Podcast', '/podcast/']])];
 ---
 
-<BaseLayout title={pageTitle} description={pageDescription}>
+<BaseLayout title={pageTitle} description={pageDescription} {schema}>
   <Reveal />
 
   <!-- ── Page header ── -->

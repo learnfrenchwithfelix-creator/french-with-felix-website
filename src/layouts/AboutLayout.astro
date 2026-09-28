@@ -1,6 +1,6 @@
 ---
 import BaseLayout from './BaseLayout.astro';
-import { author } from '../data/author.ts';
+import { abs, breadcrumbs, ids } from '../utils/schema';
 
 interface Props {
   title?: string;
@@ -9,22 +9,13 @@ interface Props {
 
 const { title, description } = Astro.props;
 
-// Build JSON-LD — omit "image" when author.image is an empty string
-const jsonLd = {
-  '@context': 'https://schema.org',
-  '@type': 'Person',
-  name: author.name,
-  jobTitle: author.jobTitle,
-  description: author.description,
-  url: author.url,
-  sameAs: author.sameAs,
-  knowsLanguage: author.knowsLanguage,
-  worksFor: author.worksFor,
-  ...(author.image ? { image: author.image } : {}),
-};
+// The Person node itself is site-wide (src/utils/schema.ts); this page is its profile page
+const schema = [
+  { '@type': 'ProfilePage', '@id': `${abs('/about/')}#page`, url: abs('/about/'), mainEntity: { '@id': ids.person } },
+  breadcrumbs([['About', '/about/']]),
+];
 ---
 
-<BaseLayout title={title} description={description}>
-  <script slot="head" type="application/ld+json" set:html={JSON.stringify(jsonLd, null, 2)} />
+<BaseLayout title={title} description={description} {schema}>
   <slot />
 </BaseLayout>

@@ -9,6 +9,8 @@
 // 4. No duplicated content: the same heading text never appears twice at the same level (h1, h2
 //    or h3) on one page, e.g. a section rendered once for mobile and once for desktop. Different
 //    levels are allowed (the podcast listing's featured h2 repeats the first card's h3 on purpose).
+// 5. Structured data: every page has exactly one JSON-LD script, valid JSON, whose nodes carry the
+//    fields their type needs and whose @id references all resolve inside the graph.
 import { readFileSync, readdirSync, existsSync, statSync } from 'node:fs';
 import { join, relative } from 'node:path';
 
@@ -103,9 +105,54 @@ for (const page of pages) {
   }
 }
 
+// ── Structured data (JSON-LD) ──
+const REQUIRED = {
+  Organization: ['name', 'url'],
+  WebSite: ['name', 'url'],
+  Person: ['name', 'url'],
+  ProfilePage: ['mainEntity'],
+  Article: ['headline', 'datePublished', 'dateModified', 'author', 'publisher'],
+  BreadcrumbList: ['itemListElement'],
+  PodcastSeries: ['name', 'url', 'webFeed'],
+  PodcastEpisode: ['name', 'url', 'partOfSeries'],
+  VideoObject: ['name', 'description', 'thumbnailUrl', 'uploadDate'],
+};
+const typeCount = {};
+for (const page of pages) {
+  const html = readFileSync(page, 'utf-8');
+  if (/http-equiv="refresh"/.test(html)) continue; // redirect pages (/start/, legacy /podcast/N/)
+  const scripts = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)];
+  if (scripts.length !== 1) { note(`${scripts.length} JSON-LD scripts (expected 1)`, pagePath(page), page); continue; }
+  let graph;
+  try { graph = JSON.parse(scripts[0][1])['@graph']; } catch (e) { note('invalid JSON-LD', e.message, page); continue; }
+  const nodeIds = new Set(graph.map(n => n['@id']).filter(Boolean));
+  for (const node of graph) {
+    const type = node['@type'];
+    typeCount[type] = (typeCount[type] ?? 0) + 1;
+    for (const field of REQUIRED[type] ?? []) {
+      const v = node[field];
+      if (v == null || v === '' || (Array.isArray(v) && v.length === 0)) note(`${type} without ${field}`, pagePath(page), page);
+    }
+    // Every {"@id": …} reference must point to a node of this graph
+    JSON.stringify(node, (k, v) => {
+      if (v && typeof v === 'object' && !Array.isArray(v) && Object.keys(v).length === 1 && v['@id'] && !nodeIds.has(v['@id'])) {
+        note('JSON-LD reference to a missing @id', v['@id'], page);
+      }
+      return v;
+    });
+    if (type === 'BreadcrumbList') {
+      for (const item of node.itemListElement) {
+        const p = new URL(item.item).pathname;
+        if (!existsSync(join(dist, p, 'index.html'))) note('breadcrumb to a missing page', item.item, page);
+      }
+    }
+  }
+}
+
 if (problems.size === 0) {
   console.log(`check:links OK: ${pages.length} pages, every internal link ends with "/" and resolves; ` +
     `sitemap = the ${indexablePages.size} indexable pages; ${transcriptParas} transcript paragraphs marked lang="fr".`);
+  console.log(`JSON-LD nodes: ${Object.entries(typeCount).map(([t, n]) => `${t} ${n}`).join(', ')}.`);
 } else {
   for (const [key, where] of problems) {
     const [issue, href] = key.split('|');

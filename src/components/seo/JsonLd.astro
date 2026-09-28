@@ -1,0 +1,17 @@
+---
+// The page's structured data: one JSON-LD @graph with the site-wide nodes (Organization, WebSite,
+// Person) followed by the page's own nodes (Article, PodcastEpisode, BreadcrumbList…), built with
+// src/utils/schema.ts. Rendered once per page by BaseLayout.
+import { siteNodes } from '../../utils/schema';
+
+interface Props {
+  nodes?: Record<string, unknown>[];
+}
+
+const { nodes = [] } = Astro.props;
+const graph = { '@context': 'https://schema.org', '@graph': [...siteNodes(), ...nodes] };
+// Escape "<" so text such as a transcript can never close the <script> tag
+const json = JSON.stringify(graph).replace(/</g, '\\u003c');
+---
+
+<script type="application/ld+json" set:html={json} />

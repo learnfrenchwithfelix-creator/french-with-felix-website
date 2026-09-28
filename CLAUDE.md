@@ -59,6 +59,21 @@ All official URLs live in `src/config/site.ts`. Import them; never hard-code a d
   appears twice at the same level on a page. The podcast listing's featured episode (h2) repeating the first
   card (h3) is deliberate.
 
+## Structured data (schema.org)
+
+- One JSON-LD `@graph` per page, rendered by `src/components/seo/JsonLd.astro` from `BaseLayout` (prop `schema`).
+  Never add another `application/ld+json` script.
+- Builders in `src/utils/schema.ts`. Site-wide nodes on every page: `Organization` (Liminal French), `WebSite`,
+  `Person` (Félix, `sameAs` from the config). Page nodes: `Article` (blog; dateModified = updatedDate, else
+  publishDate), `PodcastSeries` ("French with Félix", `webFeed` = RSS), `PodcastEpisode` + `VideoObject`
+  (YouTube embed, ISO duration, full transcript), `ProfilePage` (About), `BreadcrumbList` (all but home).
+- Nodes reference each other by `@id` (`…/#organization`, `…/#website`, `…/about/#felix`, `…/podcast/#series`);
+  every referenced node must be in the same page's graph.
+- Images (`og:image`, `Article.image`, logo) are only emitted when the file exists in `public/`.
+- TODO: `logoPath` in `src/config/site.ts` (square PNG/JPG ≥ 112 px) and `author.image` in `src/data/author.ts`.
+- `npm run check:links` validates every graph (one script per page, valid JSON, required fields, @id references,
+  breadcrumb targets).
+
 ## Language attributes
 
 - The site is English (`<html lang="en">`). French content inside it carries `lang="fr"`:

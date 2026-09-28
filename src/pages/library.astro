@@ -3,11 +3,13 @@
 // The form isn't wired to a mailing-list provider yet (same as the homepage newsletter block).
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Reveal from '../components/ui/Reveal.astro';
+import { breadcrumbs } from '../utils/schema';
 ---
 
 <BaseLayout
   title="Library — Liminal French"
   description="The Liminal French library is on its way. Join the newsletter to know when it opens."
+  schema={[breadcrumbs([['Library', '/library/']])]}
 >
   <Reveal />
 
