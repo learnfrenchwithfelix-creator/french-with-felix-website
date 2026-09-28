@@ -135,4 +135,4 @@ And if you're not sure where to start with immersion — that's exactly what thi
 
 ---
 
-*This article is based on Episode 76 of the French with Félix podcast. [Listen to the full episode →](/podcast/is-it-useful-to-take-a-french-class-with-a-tutor)*
+*This article is based on Episode 76 of the French with Félix podcast. [Listen to the full episode →](/podcast/est-ce-utile-de-prendre-des-cours-avec-un-prof/)*
