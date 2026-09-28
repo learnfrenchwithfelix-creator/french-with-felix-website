@@ -1,0 +1,2080 @@
+1
+00:00:00,200 --> 00:00:01,300
+Bonjour tout le monde
+
+2
+00:00:01,566 --> 00:00:04,000
+et bienvenue dans cette nouvelle vidéo
+
+3
+00:00:04,866 --> 00:00:07,933
+alors pour la vidéo d'aujourd'hui ça va être un sujet
+
+4
+00:00:08,466 --> 00:00:09,533
+assez
+
+5
+00:00:09,700 --> 00:00:13,666
+intéressant je pense puisque on va parler de Duolingo
+
+6
+00:00:13,933 --> 00:00:16,900
+et en fait je vais vous expliquer, je vais vous donner
+
+7
+00:00:17,400 --> 00:00:19,466
+mon avis sur Duolingo
+
+8
+00:00:21,366 --> 00:00:23,166
+dans plusieurs
+
+9
+00:00:23,166 --> 00:00:25,000
+autres vidéos dans plusieurs autres
+
+10
+00:00:25,000 --> 00:00:26,166
+podcasts j'ai dit
+
+11
+00:00:26,166 --> 00:00:28,233
+plusieurs fois que je n'étais pas un grand fan de
+
+12
+00:00:28,333 --> 00:00:32,333
+Duolingo et je voulais dans la vidéo d'aujourd'hui
+
+13
+00:00:33,100 --> 00:00:34,700
+expliquer plus en détail
+
+14
+00:00:34,866 --> 00:00:38,700
+pourquoi je ne suis pas un grand fan de Duolingo
+
+15
+00:00:39,933 --> 00:00:44,200
+je l'ai utilisé, j'ai utilisé l'application duolingo
+
+16
+00:00:44,266 --> 00:00:45,566
+pour le japonais
+
+17
+00:00:45,700 --> 00:00:46,900
+et le portugais
+
+18
+00:00:47,266 --> 00:00:49,366
+et je l'ai utilisé
+
+19
+00:00:49,500 --> 00:00:52,700
+pendant 3 4 mois je pense et j'avais même
+
+20
+00:00:52,900 --> 00:00:56,066
+souscrit à un abonnement familial et j'avais
+
+21
+00:00:56,133 --> 00:00:58,266
+invité mes parents et des amis
+
+22
+00:00:58,533 --> 00:01:02,400
+à me rejoindre pour apprendre des langues donc
+
+23
+00:01:02,966 --> 00:01:06,566
+j'ai une petite expérience avec l'application
+
+24
+00:01:06,566 --> 00:01:08,200
+je ne prétends pas
+
+25
+00:01:08,300 --> 00:01:10,500
+tout connaître de l'application
+
+26
+00:01:10,800 --> 00:01:13,066
+mais je pense pouvoir donner mon avis
+
+27
+00:01:13,333 --> 00:01:16,266
+sur son utilisation étant donné que
+
+28
+00:01:16,666 --> 00:01:18,566
+je l'ai utilisé pour le japonais
+
+29
+00:01:18,566 --> 00:01:20,166
+à un niveau intermédiaire
+
+30
+00:01:20,466 --> 00:01:22,766
+et je l'avais utilisé pour le portugais
+
+31
+00:01:23,000 --> 00:01:24,666
+à un niveau débutant
+
+32
+00:01:26,666 --> 00:01:28,100
+avant de commencer à donner mon
+
+33
+00:01:28,100 --> 00:01:30,333
+avis et si je regarde en bas c'est parce que
+
+34
+00:01:30,400 --> 00:01:31,466
+j'ai quelques notes
+
+35
+00:01:32,300 --> 00:01:34,533
+avant de commencer à donner mon avis
+
+36
+00:01:35,000 --> 00:01:36,466
+j'avais un disclaimer
+
+37
+00:01:36,966 --> 00:01:40,966
+qui est que ce qui est important c'est que vous
+
+38
+00:01:42,133 --> 00:01:46,766
+vous preniez plaisir à utiliser une méthode c'est que
+
+39
+00:01:47,100 --> 00:01:49,633
+ce qui est important c'est de travailler régulièrement
+
+40
+00:01:49,700 --> 00:01:52,966
+donc si vous aimez utiliser Duolingo
+
+41
+00:01:53,566 --> 00:01:55,933
+continuez d'utiliser l'application
+
+42
+00:01:56,400 --> 00:01:59,333
+ce n'est pas parce que vous regardez une vidéo YouTube
+
+43
+00:01:59,533 --> 00:02:00,533
+et que quelqu'un
+
+44
+00:02:00,700 --> 00:02:02,700
+dit que l'application est nulle
+
+45
+00:02:02,800 --> 00:02:04,500
+qu'il faut tout de suite arrêter
+
+46
+00:02:04,900 --> 00:02:06,900
+et d'ailleurs ce n'est pas parce que vous regardez
+
+47
+00:02:06,900 --> 00:02:08,733
+une vidéo où quelqu'un
+
+48
+00:02:09,166 --> 00:02:12,100
+dit que une méthode une méthodologie pardon
+
+49
+00:02:12,333 --> 00:02:14,466
+est exceptionnel et super efficace
+
+50
+00:02:14,500 --> 00:02:16,533
+qu'il faut tout arrêter pour
+
+51
+00:02:16,800 --> 00:02:18,466
+aller faire cette méthodologie
+
+52
+00:02:18,800 --> 00:02:21,533
+faut prendre les choses avec un peu de recul
+
+53
+00:02:21,933 --> 00:02:24,133
+et si vous aimez utiliser
+
+54
+00:02:24,133 --> 00:02:26,700
+Duolingo continuez de l'utiliser
+
+55
+00:02:27,500 --> 00:02:30,466
+mais essayez de vous poser quand-même des questions
+
+56
+00:02:31,066 --> 00:02:34,300
+sur son efficacité savoir si ça vous convient toujours
+
+57
+00:02:34,700 --> 00:02:36,066
+d'utiliser l'application
+
+58
+00:02:36,366 --> 00:02:38,566
+si à un moment vous ressentez le besoin
+
+59
+00:02:38,766 --> 00:02:40,366
+d'essayer quelque chose d'autre
+
+60
+00:02:40,800 --> 00:02:43,100
+demandez-vous pourquoi
+
+61
+00:02:43,300 --> 00:02:46,800
+Duolingo n'est plus suffisant pour votre apprentissage
+
+62
+00:02:48,500 --> 00:02:51,833
+bien on peut commencer donc Duolingo
+
+63
+00:02:52,066 --> 00:02:53,000
+c'est l'application
+
+64
+00:02:53,000 --> 00:02:56,100
+d'apprentissage des langues la plus populaire au monde
+
+65
+00:02:56,800 --> 00:02:57,666
+il me semble
+
+66
+00:02:58,600 --> 00:02:59,866
+qu'il y avait une statistique
+
+67
+00:03:00,100 --> 00:03:05,066
+comme quoi ils ils avaient 90% des parts de marché
+
+68
+00:03:07,266 --> 00:03:08,200
+sur les applications
+
+69
+00:03:08,200 --> 00:03:10,666
+d'apprentissage des langues c'est-à-dire que les
+
+70
+00:03:10,733 --> 00:03:11,600
+parts de marché
+
+71
+00:03:11,666 --> 00:03:12,633
+c'est un peu le gâteau
+
+72
+00:03:12,700 --> 00:03:15,400
+que toutes les entreprises qui créent des applications
+
+73
+00:03:15,600 --> 00:03:18,366
+pour apprendre des langues se partagent et du coup
+
+74
+00:03:18,366 --> 00:03:23,766
+Duolingo a 90% du gâteau donc une sacrée part
+
+75
+00:03:24,400 --> 00:03:26,800
+à côté de ça il y a des applications comme
+
+76
+00:03:27,266 --> 00:03:30,433
+Babel Rosetta Stone et plein d'autres
+
+77
+00:03:30,933 --> 00:03:34,500
+mais je n'ai jamais utilisé d'autres applications
+
+78
+00:03:34,900 --> 00:03:39,266
+hormis Duolingo et hormis les applications
+
+79
+00:03:39,333 --> 00:03:42,633
+de flashcard comme Anki et autres
+
+80
+00:03:44,066 --> 00:03:45,966
+c'est l'application la plus populaire
+
+81
+00:03:45,966 --> 00:03:46,966
+c'est l'application
+
+82
+00:03:47,133 --> 00:03:48,400
+la plus utilisée
+
+83
+00:03:48,500 --> 00:03:49,333
+dans le monde
+
+84
+00:03:49,333 --> 00:03:51,933
+pour apprendre des langues et pourtant
+
+85
+00:03:52,200 --> 00:03:56,133
+je ne suis pas vraiment convaincu par Duolingo
+
+86
+00:03:57,000 --> 00:03:57,766
+je vais commencer
+
+87
+00:03:57,766 --> 00:03:58,566
+avec les points
+
+88
+00:03:58,700 --> 00:04:02,133
+positifs parce qu'il y en a et il y en a plusieurs
+
+89
+00:04:02,866 --> 00:04:04,300
+le premier point
+
+90
+00:04:04,566 --> 00:04:07,333
+très positif de l'application Duolingo
+
+91
+00:04:07,366 --> 00:04:08,400
+je trouve que c'est
+
+92
+00:04:08,600 --> 00:04:11,166
+que l'application encourage
+
+93
+00:04:11,266 --> 00:04:14,600
+les personnes qui apprennent des langues à étudier
+
+94
+00:04:14,600 --> 00:04:15,933
+un peu tous les jours
+
+95
+00:04:16,466 --> 00:04:17,666
+il y a notamment
+
+96
+00:04:17,800 --> 00:04:20,500
+les compteurs de jours les compteurs de séries
+
+97
+00:04:20,900 --> 00:04:23,900
+où quand vous êtes sur Duolingo pardon
+
+98
+00:04:24,666 --> 00:04:26,733
+tous les jours vous avez un compteur de jours
+
+99
+00:04:26,733 --> 00:04:28,866
+qui augmente si vous travaillez
+
+100
+00:04:29,000 --> 00:04:29,966
+tous les jours
+
+101
+00:04:30,366 --> 00:04:33,066
+et du coup ça c'est un peu au centre de l'application
+
+102
+00:04:33,400 --> 00:04:35,233
+où vous avez ce compteur
+
+103
+00:04:35,366 --> 00:04:37,666
+qui change de couleur qui change de dessin
+
+104
+00:04:37,966 --> 00:04:39,433
+chaque jour où vous travaillez
+
+105
+00:04:39,666 --> 00:04:41,933
+et ça encourage vraiment à revenir
+
+106
+00:04:42,066 --> 00:04:43,866
+régulièrement sur l'application
+
+107
+00:04:44,400 --> 00:04:46,300
+en plus de ça sur votre téléphone
+
+108
+00:04:46,733 --> 00:04:49,600
+vous allez avoir beaucoup de rappels de notifications
+
+109
+00:04:50,100 --> 00:04:53,166
+qui sont là pour vous dire étudie chaque jour
+
+110
+00:04:53,466 --> 00:04:56,333
+c'est important pour augmenter ton compteur
+
+111
+00:04:56,866 --> 00:05:01,100
+et ça ça peut paraître bête mais si
+
+112
+00:05:01,766 --> 00:05:03,333
+en fait ça fait le lien avec
+
+113
+00:05:03,333 --> 00:05:05,466
+un podcast que j'ai fait précédemment
+
+114
+00:05:05,600 --> 00:05:07,800
+qui est sur le pouvoir des habitudes
+
+115
+00:05:08,466 --> 00:05:11,566
+la clé du succès c'est de faire un peu tous les jours
+
+116
+00:05:11,766 --> 00:05:14,266
+si vous voulez vraiment progresser dans une langue
+
+117
+00:05:14,266 --> 00:05:15,266
+il faut travailler
+
+118
+00:05:15,266 --> 00:05:16,266
+un peu tous les jours
+
+119
+00:05:16,666 --> 00:05:18,400
+et du coup cette fonctionnalité
+
+120
+00:05:18,666 --> 00:05:21,166
+de Duolingo elle est hyper importante
+
+121
+00:05:21,400 --> 00:05:23,100
+puisque ça apprend ça
+
+122
+00:05:23,366 --> 00:05:25,733
+aux personnes qui
+
+123
+00:05:25,800 --> 00:05:27,766
+qui utilisent l'application
+
+124
+00:05:28,700 --> 00:05:31,500
+et quand on débute dans une langue ce n'est pas forcément
+
+125
+00:05:31,500 --> 00:05:33,133
+quelque chose avec lequel
+
+126
+00:05:33,133 --> 00:05:37,933
+on est très familier on a pas l'habitude on a pas
+
+127
+00:05:38,733 --> 00:05:39,700
+conscience
+
+128
+00:05:39,733 --> 00:05:41,433
+qu'il faut travailler
+
+129
+00:05:41,466 --> 00:05:43,800
+tous les jours comme ça et du coup c'est quelque chose
+
+130
+00:05:43,800 --> 00:05:45,700
+que Duolingo
+
+131
+00:05:45,866 --> 00:05:46,966
+sait très bien faire
+
+132
+00:05:46,966 --> 00:05:49,933
+et d'ailleurs quand j'ai des étudiants qui débutent
+
+133
+00:05:49,933 --> 00:05:51,100
+complètement en français
+
+134
+00:05:51,600 --> 00:05:53,566
+quand je commence à leur expliquer cette
+
+135
+00:05:53,700 --> 00:05:56,300
+notion d'habitude de travailler un peu tous les jours
+
+136
+00:05:56,766 --> 00:05:59,733
+si vraiment ils n'ont, ils ne l'ont jamais fait
+
+137
+00:05:59,733 --> 00:06:00,633
+je leur conseille
+
+138
+00:06:00,733 --> 00:06:02,833
+et c'est d'essayer un peu duolingo
+
+139
+00:06:03,000 --> 00:06:04,166
+pour voir comment ça fonctionne
+
+140
+00:06:04,733 --> 00:06:07,200
+pour voir comment juste avoir un compteur de jours
+
+141
+00:06:07,466 --> 00:06:10,166
+peut nous motiver à travailler un peu
+
+142
+00:06:10,466 --> 00:06:11,366
+tous les jours
+
+143
+00:06:12,066 --> 00:06:14,666
+le 2e point positif c'est que il y a
+
+144
+00:06:14,766 --> 00:06:17,066
+je crois une forme de SRS
+
+145
+00:06:17,266 --> 00:06:19,866
+un spaced repetition système c'est-à-dire que
+
+146
+00:06:20,133 --> 00:06:22,400
+quand il s'agit de mémoriser
+
+147
+00:06:22,733 --> 00:06:24,733
+de nouveaux mots de vocabulaire
+
+148
+00:06:25,200 --> 00:06:28,266
+l'idéal c'est qu'en fait on révise le mot et selon
+
+149
+00:06:28,266 --> 00:06:30,300
+si on se souvient ou pas du mot
+
+150
+00:06:30,400 --> 00:06:32,733
+on le révise dans plus ou moins longtemps
+
+151
+00:06:33,566 --> 00:06:35,733
+une application hyper populaire
+
+152
+00:06:36,266 --> 00:06:39,166
+en srs c'est Anki
+
+153
+00:06:39,533 --> 00:06:40,700
+Anki c'est une application
+
+154
+00:06:40,700 --> 00:06:42,633
+dans laquelle vous pouvez créer des cartes
+
+155
+00:06:42,733 --> 00:06:45,666
+sur tout et n'importe quoi il y a des étudiants
+
+156
+00:06:46,000 --> 00:06:49,133
+en médecine, en droit qui utilisent l'application
+
+157
+00:06:49,933 --> 00:06:51,500
+et il y a aussi toutes les personnes
+
+158
+00:06:51,500 --> 00:06:53,866
+qui apprennent des langues étrangères
+
+159
+00:06:54,200 --> 00:06:56,233
+donc ce système de répétition
+
+160
+00:06:56,400 --> 00:06:58,233
+espacé dans le temps
+
+161
+00:06:58,400 --> 00:07:00,633
+de révision espacée dans le temps
+
+162
+00:07:00,933 --> 00:07:04,100
+il est très important et ça pour ça Duolingo
+
+163
+00:07:04,300 --> 00:07:05,733
+est très efficace
+
+164
+00:07:06,300 --> 00:07:08,966
+je ne sais pas exactement comment il fonctionne
+
+165
+00:07:09,733 --> 00:07:11,233
+mais en tout cas quand vous
+
+166
+00:07:11,333 --> 00:07:12,166
+apprenez un nouveau
+
+167
+00:07:12,166 --> 00:07:13,100
+mot de vocabulaire
+
+168
+00:07:13,166 --> 00:07:16,766
+en général dans les leçons suivantes il vous repropose
+
+169
+00:07:16,900 --> 00:07:18,033
+ce mot de vocabulaire
+
+170
+00:07:18,166 --> 00:07:20,100
+pour voir si vous vous en souvenez
+
+171
+00:07:20,200 --> 00:07:21,533
+et ça c'est idéal
+
+172
+00:07:21,900 --> 00:07:23,800
+pour apprendre de nouveaux mots
+
+173
+00:07:25,366 --> 00:07:28,566
+3e point positif il y a la gamification donc
+
+174
+00:07:29,200 --> 00:07:30,166
+la gamification
+
+175
+00:07:30,533 --> 00:07:32,100
+bon c'est un mot
+
+176
+00:07:32,100 --> 00:07:34,366
+anglais que je prononce bien à la française
+
+177
+00:07:34,866 --> 00:07:35,933
+mais l'idée c'est de
+
+178
+00:07:36,066 --> 00:07:38,666
+de rendre l'apprentissage un peu comme un jeu
+
+179
+00:07:39,566 --> 00:07:43,733
+l'idée c'est que on soit un peu dans une sorte de
+
+180
+00:07:44,000 --> 00:07:46,566
+jeu vidéo et qu'on apprenne en même temps
+
+181
+00:07:46,933 --> 00:07:49,833
+et ça par exemple ça va être avec toutes les
+
+182
+00:07:49,900 --> 00:07:52,033
+tous les points d'expérience que vous allez gagner
+
+183
+00:07:52,166 --> 00:07:54,533
+au fur à mesure
+
+184
+00:07:54,900 --> 00:07:55,766
+dans le parcours
+
+185
+00:07:55,766 --> 00:07:58,266
+Il me semble qu'il y a des sortes de défis
+
+186
+00:07:58,366 --> 00:07:59,933
+pour gagner des coupes
+
+187
+00:08:00,100 --> 00:08:01,800
+des trophées ce genre de chose
+
+188
+00:08:02,766 --> 00:08:05,433
+et du coup ça l'application elle essaie de rendre
+
+189
+00:08:05,900 --> 00:08:06,933
+l'apprentissage
+
+190
+00:08:07,000 --> 00:08:09,500
+divertissant et c'est un point positif parce que ça
+
+191
+00:08:09,533 --> 00:08:11,266
+encourage à continuer
+
+192
+00:08:11,733 --> 00:08:13,400
+à continuer de jouer et d'ailleurs
+
+193
+00:08:13,933 --> 00:08:15,633
+c'est intéressant puisque
+
+194
+00:08:16,300 --> 00:08:17,266
+l'apprentissage
+
+195
+00:08:17,266 --> 00:08:19,566
+d'une langue parfois c'est un peu comme un jeu vidéo
+
+196
+00:08:19,733 --> 00:08:22,000
+il y a des jeux vidéos où
+
+197
+00:08:23,000 --> 00:08:25,800
+notamment dans les RPG les MMORPG
+
+198
+00:08:26,366 --> 00:08:29,266
+ou parfois il faut faire une action répétitive
+
+199
+00:08:29,466 --> 00:08:30,900
+il faut refaire souvent
+
+200
+00:08:31,600 --> 00:08:35,033
+régulièrement la même action pour à la fin avoir
+
+201
+00:08:35,500 --> 00:08:38,966
+un objet ou une récompense et finalement
+
+202
+00:08:38,966 --> 00:08:40,966
+l'apprentissage des langues c'est un peu pareil
+
+203
+00:08:40,966 --> 00:08:43,033
+c'est que tous les jours on refait un peu
+
+204
+00:08:43,200 --> 00:08:45,833
+la même action de manière répétitive
+
+205
+00:08:46,333 --> 00:08:49,600
+tous les jours on revoit nos flashcards etc
+
+206
+00:08:49,666 --> 00:08:51,966
+pour à la fin avoir cette récompense
+
+207
+00:08:51,966 --> 00:08:52,866
+donc ça il y a
+
+208
+00:08:52,966 --> 00:08:53,700
+il y a quand-même
+
+209
+00:08:53,700 --> 00:08:55,900
+un aspect très positif je trouve dans
+
+210
+00:08:55,900 --> 00:08:56,900
+dans l'application
+
+211
+00:08:57,700 --> 00:08:59,000
+ça va de pair
+
+212
+00:08:59,133 --> 00:09:02,933
+avec l'aspect social c'est-à-dire que dans Duolingo
+
+213
+00:09:03,866 --> 00:09:06,133
+là où quand on apprend en autodidacte
+
+214
+00:09:06,333 --> 00:09:07,733
+on est parfois un peu isolé
+
+215
+00:09:07,733 --> 00:09:09,666
+on se sent un peu seul dans notre coin
+
+216
+00:09:10,200 --> 00:09:12,866
+à apprendre une langue sur Duolingo
+
+217
+00:09:12,966 --> 00:09:13,533
+vous allez avoir
+
+218
+00:09:13,533 --> 00:09:15,566
+vous pouvez vous connecter avec vos amis
+
+219
+00:09:15,566 --> 00:09:17,900
+et vous allez avoir des classements des Ligues
+
+220
+00:09:18,300 --> 00:09:20,733
+ou quand vous gagnez de l'expérience vous pouvez
+
+221
+00:09:21,133 --> 00:09:23,733
+monter de Ligue vous progressez au classement
+
+222
+00:09:23,900 --> 00:09:25,300
+avec vos amis avec des
+
+223
+00:09:25,800 --> 00:09:27,966
+personnes inconnues sur internet
+
+224
+00:09:28,333 --> 00:09:31,133
+et ça c'est idem c'est très positif
+
+225
+00:09:31,533 --> 00:09:33,466
+ça motive vraiment à
+
+226
+00:09:33,700 --> 00:09:36,666
+revenir travailler un peu tous les jours à revenir
+
+227
+00:09:36,866 --> 00:09:38,033
+faire ses leçons
+
+228
+00:09:38,266 --> 00:09:40,133
+pour pouvoir montrer à ses amis
+
+229
+00:09:40,300 --> 00:09:42,766
+regarde je continue de progresser etc
+
+230
+00:09:43,100 --> 00:09:46,366
+donc ça c'est un autre point très positif et enfin
+
+231
+00:09:46,933 --> 00:09:48,733
+ce qui est bien aussi je trouve
+
+232
+00:09:48,733 --> 00:09:50,533
+c'est que dans chaque leçon
+
+233
+00:09:50,566 --> 00:09:51,533
+il y a toujours
+
+234
+00:09:51,666 --> 00:09:54,600
+l'écrit et l'audio donc vous avez toujours
+
+235
+00:09:54,966 --> 00:09:55,933
+cet audio
+
+236
+00:09:56,200 --> 00:09:58,933
+que vous entendez et du coup ça vous expose entre
+
+237
+00:09:58,933 --> 00:10:01,166
+guillemets à la langue que vous apprenez
+
+238
+00:10:01,166 --> 00:10:03,366
+c'est important d'écouter c'est important de lire
+
+239
+00:10:03,700 --> 00:10:05,766
+et il faut un peu tout varier en fait
+
+240
+00:10:06,133 --> 00:10:08,233
+et avec ça aussi je me rappelle
+
+241
+00:10:08,700 --> 00:10:09,700
+d'un exercice
+
+242
+00:10:09,966 --> 00:10:13,966
+en portugais où c'était vraiment un exercice
+
+243
+00:10:14,366 --> 00:10:16,066
+d'immersion c'est-à-dire que
+
+244
+00:10:16,333 --> 00:10:18,266
+il y avait un dialogue entre deux personnes
+
+245
+00:10:18,300 --> 00:10:20,433
+il y avait l'écrit et l'audio
+
+246
+00:10:21,066 --> 00:10:23,900
+on écoutait le dialogue enfin j'écoutais le dialogue
+
+247
+00:10:24,300 --> 00:10:27,966
+et après Duolingo me posait des questions
+
+248
+00:10:28,266 --> 00:10:31,200
+sur le dialogue sur le contenu du dialogue
+
+249
+00:10:32,366 --> 00:10:33,733
+typiquement
+
+250
+00:10:34,566 --> 00:10:38,766
+typiquement un tel personnage a perdu telle chose
+
+251
+00:10:39,066 --> 00:10:41,366
+ec et à la fin la question c'est
+
+252
+00:10:41,366 --> 00:10:44,333
+qu'est-ce qu'a perdu monsieur untel
+
+253
+00:10:45,400 --> 00:10:49,166
+je résume très grossièrement mais voilà ça
+
+254
+00:10:49,300 --> 00:10:50,433
+je pense que c'est
+
+255
+00:10:50,466 --> 00:10:51,733
+quelque chose de très positif
+
+256
+00:10:51,733 --> 00:10:54,333
+et que ça se rapproche un peu de cet apprentissage
+
+257
+00:10:55,000 --> 00:10:56,433
+par l'immersion
+
+258
+00:10:56,766 --> 00:10:57,866
+que je fais moi-même
+
+259
+00:10:57,900 --> 00:11:00,833
+où voilà on essaie de s'habituer au maximum
+
+260
+00:11:00,900 --> 00:11:03,000
+à la langue que l'on veut apprendre
+
+261
+00:11:05,000 --> 00:11:06,500
+donc tout ça c'est vraiment les
+
+262
+00:11:06,500 --> 00:11:08,233
+aspects positifs de l'application
+
+263
+00:11:08,333 --> 00:11:11,433
+qui font que je pense que c'est une application vraiment
+
+264
+00:11:11,800 --> 00:11:12,700
+très utile
+
+265
+00:11:13,466 --> 00:11:14,900
+surtout quand on débute
+
+266
+00:11:14,966 --> 00:11:17,033
+en fait dans l'apprentissage d'une langue
+
+267
+00:11:17,400 --> 00:11:20,033
+mais maintenant il y a des points négatifs
+
+268
+00:11:20,466 --> 00:11:21,866
+j'ai dit en début de vidéo
+
+269
+00:11:21,900 --> 00:11:23,500
+que ce n'est pas une application
+
+270
+00:11:23,600 --> 00:11:25,500
+dont je suis très fan
+
+271
+00:11:25,733 --> 00:11:29,000
+et c'est notamment pour tous les points négatifs
+
+272
+00:11:29,200 --> 00:11:31,400
+que je vais vous présenter
+
+273
+00:11:32,700 --> 00:11:36,100
+premièrement en fait je trouve que c'est trop facile
+
+274
+00:11:36,100 --> 00:11:38,833
+et que ce n'est pas vraiment efficace
+
+275
+00:11:39,333 --> 00:11:40,533
+si on réfléchit
+
+276
+00:11:40,533 --> 00:11:43,200
+d'un point de vue business entre guillemets
+
+277
+00:11:43,466 --> 00:11:45,966
+Duolingo eux leur intérêt c'est que les gens
+
+278
+00:11:45,966 --> 00:11:47,266
+reviennent sur l'application
+
+279
+00:11:47,266 --> 00:11:49,233
+et qui passent du temps sur l'application
+
+280
+00:11:49,800 --> 00:11:52,166
+pour à la fin souscrire à un abonnement
+
+281
+00:11:52,266 --> 00:11:53,300
+payer un abonnement
+
+282
+00:11:53,366 --> 00:11:56,433
+pour que l'entreprise Duolingo gagne de l'argent
+
+283
+00:11:57,000 --> 00:11:57,966
+et en fait
+
+284
+00:11:59,000 --> 00:12:01,700
+cette facilité au bout d'un moment je trouve que
+
+285
+00:12:02,200 --> 00:12:03,600
+elle fait que l'application
+
+286
+00:12:03,700 --> 00:12:05,266
+ne devient plus vraiment efficace
+
+287
+00:12:06,200 --> 00:12:08,166
+j'ai l'impression que les gens
+
+288
+00:12:08,200 --> 00:12:10,533
+chez Duolingo se posent la question de
+
+289
+00:12:10,533 --> 00:12:12,266
+comment éviter un maximum
+
+290
+00:12:12,366 --> 00:12:13,366
+la difficulté
+
+291
+00:12:13,600 --> 00:12:16,200
+pour les apprenants comment éviter un maximum
+
+292
+00:12:16,800 --> 00:12:19,700
+que les apprenants ressentent de la frustration
+
+293
+00:12:20,100 --> 00:12:20,800
+afin qu'ils
+
+294
+00:12:20,800 --> 00:12:22,966
+passent un maximum de temps sur l'application
+
+295
+00:12:23,366 --> 00:12:24,933
+j'ai l'impression qu'ils se posent
+
+296
+00:12:24,933 --> 00:12:27,000
+cette question plutôt que de se demander
+
+297
+00:12:27,066 --> 00:12:29,100
+est-ce que les gens progressent vraiment
+
+298
+00:12:29,900 --> 00:12:31,733
+et ça en fait
+
+299
+00:12:31,866 --> 00:12:33,066
+c'est un problème
+
+300
+00:12:33,066 --> 00:12:35,633
+parce que au bout d'un moment quand on fait les choses
+
+301
+00:12:35,700 --> 00:12:38,766
+des choses trop faciles on ne progresse plus vraiment
+
+302
+00:12:39,466 --> 00:12:40,366
+et
+
+303
+00:12:40,666 --> 00:12:42,666
+bien sûr il il ne faut pas commencer
+
+304
+00:12:42,900 --> 00:12:45,400
+par faire des choses trop difficiles pardon
+
+305
+00:12:46,100 --> 00:12:47,766
+si on fait des choses trop difficiles
+
+306
+00:12:47,766 --> 00:12:49,000
+ce n'est pas efficace
+
+307
+00:12:49,600 --> 00:12:51,500
+mais en fait il faut que il faut qu'on
+
+308
+00:12:51,900 --> 00:12:53,400
+il faut pratiquer il faut
+
+309
+00:12:53,966 --> 00:12:56,433
+étudier il faut s'exercer avec des choses
+
+310
+00:12:56,666 --> 00:12:59,366
+un petit peu difficiles pour qu'on puisse apprendre
+
+311
+00:12:59,800 --> 00:13:01,666
+sans que ce soit trop frustrant
+
+312
+00:13:02,000 --> 00:13:04,100
+et si je prends un exemple dans l'application de
+
+313
+00:13:04,166 --> 00:13:07,466
+Duolingo c'est par exemple les puzzles
+
+314
+00:13:08,066 --> 00:13:09,833
+parfois vous allez avoir
+
+315
+00:13:09,900 --> 00:13:11,200
+une phrase dans la langue
+
+316
+00:13:11,200 --> 00:13:12,200
+que vous apprenez
+
+317
+00:13:12,200 --> 00:13:14,166
+et vous allez devoir mettre la traduction
+
+318
+00:13:14,600 --> 00:13:15,500
+dans votre langue
+
+319
+00:13:15,933 --> 00:13:19,200
+cette traduction vous allez la mettre avec des
+
+320
+00:13:20,000 --> 00:13:21,966
+des petits mots qui sont déjà disponibles
+
+321
+00:13:21,966 --> 00:13:24,066
+et vous devez les mettre dans l'ordre
+
+322
+00:13:24,500 --> 00:13:26,966
+vous devez sélectionner les mots que vous voulez
+
+323
+00:13:26,966 --> 00:13:29,066
+utiliser et les mettre dans l'ordre
+
+324
+00:13:29,300 --> 00:13:30,666
+là ça rend facile
+
+325
+00:13:30,733 --> 00:13:33,733
+l'exercice puisqu'on a pas à taper nous même
+
+326
+00:13:33,900 --> 00:13:35,066
+sur notre clavier
+
+327
+00:13:35,100 --> 00:13:37,233
+les mots donc c'est beaucoup plus rapide
+
+328
+00:13:37,733 --> 00:13:38,900
+mais par contre c'est
+
+329
+00:13:39,200 --> 00:13:40,900
+le problème c'est que parfois
+
+330
+00:13:41,400 --> 00:13:45,300
+ces puzzles ils sont en fait trop faciles et parfois
+
+331
+00:13:45,966 --> 00:13:47,666
+on a même pas besoin de regarder
+
+332
+00:13:47,966 --> 00:13:50,233
+la phrase dans la langue que l'on apprend
+
+333
+00:13:50,666 --> 00:13:52,133
+et on sait déjà comment
+
+334
+00:13:52,166 --> 00:13:54,866
+répondre tout simplement parce qu'on regarde les mots
+
+335
+00:13:54,933 --> 00:13:55,900
+proposés
+
+336
+00:13:55,933 --> 00:13:58,133
+et on sait déjà comment les mettre dans l'ordre
+
+337
+00:13:58,200 --> 00:13:59,666
+pour faire une phrase correcte
+
+338
+00:13:59,666 --> 00:14:01,500
+dans notre langue maternelle
+
+339
+00:14:01,700 --> 00:14:03,900
+et par exemple quand je faisais du japonais
+
+340
+00:14:04,200 --> 00:14:05,700
+parfois je commençais
+
+341
+00:14:05,700 --> 00:14:08,633
+juste par regarder les mots disponibles et je
+
+342
+00:14:09,066 --> 00:14:11,300
+parfois je pouvais même je pouvais faire
+
+343
+00:14:11,533 --> 00:14:14,266
+des phrases je pouvais répondre sans même regarder
+
+344
+00:14:14,400 --> 00:14:16,600
+la phrase en japonais
+
+345
+00:14:19,533 --> 00:14:22,333
+et du coup les réponses sont parfois évidentes
+
+346
+00:14:24,166 --> 00:14:27,000
+je me rappelle quelquefois il y avait des
+
+347
+00:14:27,066 --> 00:14:28,700
+je devais choisir entre
+
+348
+00:14:28,700 --> 00:14:31,766
+je vais chez le dentiste ou je vais chez le pomme
+
+349
+00:14:32,133 --> 00:14:34,866
+ce qui est complètement illogique et en fait
+
+350
+00:14:35,133 --> 00:14:35,700
+quand on voit
+
+351
+00:14:35,700 --> 00:14:37,666
+ça en fait on ne se pose même plus de question
+
+352
+00:14:37,666 --> 00:14:40,533
+on a même plus besoin de vraiment comprendre
+
+353
+00:14:40,533 --> 00:14:42,033
+la langue que l'on apprend
+
+354
+00:14:42,500 --> 00:14:45,033
+et en fait ça devient inefficace on a
+
+355
+00:14:45,066 --> 00:14:47,266
+l'impression de progresser parce qu'on gagne
+
+356
+00:14:47,266 --> 00:14:48,233
+de l'expérience
+
+357
+00:14:48,266 --> 00:14:50,333
+mais en fait on apprend pas grand-chose
+
+358
+00:14:51,333 --> 00:14:54,033
+idem bon ça c'est un sujet un peu plus sensible
+
+359
+00:14:54,300 --> 00:14:56,600
+mais il n'y a pas de grammaire
+
+360
+00:14:56,900 --> 00:14:59,166
+dans mes souvenirs il n'y a pas vraiment de grammaire
+
+361
+00:14:59,200 --> 00:15:00,233
+qui est expliqué
+
+362
+00:15:01,566 --> 00:15:04,166
+je pense que la raison c'est que la théorie c'est
+
+363
+00:15:04,266 --> 00:15:06,600
+ennuyant quand on vous met une page
+
+364
+00:15:06,600 --> 00:15:08,500
+de théorie à lire sur la langue une
+
+365
+00:15:08,666 --> 00:15:10,600
+règle de grammaire qui fait 10 lignes
+
+366
+00:15:10,966 --> 00:15:13,600
+en fait vous avez juste envie de fermer l'application
+
+367
+00:15:13,766 --> 00:15:16,500
+et ça Duolingo a envie d'éviter ça
+
+368
+00:15:17,333 --> 00:15:20,033
+la théorie c'est ennuyant mais
+
+369
+00:15:20,866 --> 00:15:21,766
+c'est utile
+
+370
+00:15:21,766 --> 00:15:23,966
+notamment quand on débute c'est important de
+
+371
+00:15:24,133 --> 00:15:25,800
+comprendre les règles de base
+
+372
+00:15:26,333 --> 00:15:28,366
+mais aussi à un niveau intermédiaire
+
+373
+00:15:28,533 --> 00:15:30,400
+parfois à un niveau intermédiaire
+
+374
+00:15:30,500 --> 00:15:32,100
+on va avoir des difficultés
+
+375
+00:15:32,533 --> 00:15:35,533
+et juste essayer de comprendre un peu la théorie
+
+376
+00:15:35,733 --> 00:15:39,966
+ça peut permettre de débloquer certains points alors
+
+377
+00:15:40,133 --> 00:15:41,633
+je n'encourage
+
+378
+00:15:41,733 --> 00:15:42,800
+jamais les étudiants
+
+379
+00:15:42,800 --> 00:15:44,900
+à apprendre des règles très spécifiques
+
+380
+00:15:45,400 --> 00:15:47,700
+mais parfois juste un petit peu de théorie
+
+381
+00:15:47,766 --> 00:15:51,333
+avec un peu de pratique ça peut permettre de débloquer
+
+382
+00:15:51,666 --> 00:15:55,566
+des problèmes de compréhension dans la langue
+
+383
+00:15:56,766 --> 00:15:59,833
+et enfin je trouve que ça manque de contexte
+
+384
+00:16:00,066 --> 00:16:02,500
+dans quand vous utilisez duolingo
+
+385
+00:16:02,666 --> 00:16:04,900
+vous avez que des phrases courtes tous les exercices c'est
+
+386
+00:16:05,000 --> 00:16:06,833
+des phrases courtes hormis
+
+387
+00:16:06,933 --> 00:16:08,866
+l'exemple de l'exercice
+
+388
+00:16:08,966 --> 00:16:09,933
+de l'immersion
+
+389
+00:16:09,933 --> 00:16:11,833
+que j'ai évoqué dans les points positifs
+
+390
+00:16:12,300 --> 00:16:14,466
+et qui est un exercice assez rare quand-même
+
+391
+00:16:15,000 --> 00:16:16,033
+je trouve qu'en fait
+
+392
+00:16:16,133 --> 00:16:18,233
+toutes les phrases proposées sont courtes
+
+393
+00:16:18,400 --> 00:16:19,300
+tout est hors
+
+394
+00:16:19,300 --> 00:16:21,866
+contexte et du coup on n'a pas vraiment de
+
+395
+00:16:22,666 --> 00:16:23,766
+de choses
+
+396
+00:16:23,966 --> 00:16:26,066
+vraiment naturelles on n'a pas un texte
+
+397
+00:16:26,300 --> 00:16:28,166
+complet ou on n'a pas un audio
+
+398
+00:16:28,700 --> 00:16:31,600
+plus long et si je compare
+
+399
+00:16:31,600 --> 00:16:33,866
+en fait avec ce que je fais sur cette chaîne YouTube
+
+400
+00:16:34,766 --> 00:16:35,666
+dans mes vidéos
+
+401
+00:16:35,700 --> 00:16:37,566
+j'essaie d'avoir un discours
+
+402
+00:16:37,666 --> 00:16:40,300
+le plus proche de la vraie vie entre guillemets
+
+403
+00:16:41,066 --> 00:16:43,066
+c'est d'ailleurs pour ça que j'ai quelques notes
+
+404
+00:16:43,300 --> 00:16:46,700
+mais rien n'est scripté je fais tout en improvisation
+
+405
+00:16:47,066 --> 00:16:49,533
+pour que ce soit assez naturel parce que
+
+406
+00:16:49,733 --> 00:16:52,200
+vous avez beau apprendre des petites phrases
+
+407
+00:16:52,200 --> 00:16:53,866
+après dans la vie de tous les jours
+
+408
+00:16:53,900 --> 00:16:55,433
+les gens ils parlent
+
+409
+00:16:55,566 --> 00:16:56,366
+ils se perdent
+
+410
+00:16:56,366 --> 00:16:58,333
+dans leur phrase ils recommencent une phrase
+
+411
+00:16:58,366 --> 00:17:00,433
+ils arrêtent ils en recommencent un autre
+
+412
+00:17:00,900 --> 00:17:04,300
+et du coup si on n'est pas habitué un peu à ce
+
+413
+00:17:04,766 --> 00:17:08,866
+ce mix un peu ce labyrinthe on peut être perdu et
+
+414
+00:17:09,300 --> 00:17:10,300
+vous pouvez comprendre
+
+415
+00:17:10,400 --> 00:17:12,966
+très bien des petites phrases sur duolingo
+
+416
+00:17:13,300 --> 00:17:15,233
+mais dès que vous allez arriver dans un
+
+417
+00:17:15,500 --> 00:17:17,633
+dans un contexte plus réel
+
+418
+00:17:18,066 --> 00:17:20,966
+ça va être difficile parce que tout est un peu
+
+419
+00:17:21,600 --> 00:17:22,900
+mélangé et d'ailleurs
+
+420
+00:17:23,266 --> 00:17:25,266
+là je suis, je continue de parler
+
+421
+00:17:25,266 --> 00:17:27,533
+mais je sais même pas quand a débuté ma
+
+422
+00:17:27,733 --> 00:17:29,700
+quand à débuter ma phrase pardon
+
+423
+00:17:30,000 --> 00:17:32,966
+et quand elle va finir, elle va finir maintenant
+
+424
+00:17:33,700 --> 00:17:36,000
+mais du coup cet exemple c'est pour vous montrer
+
+425
+00:17:36,066 --> 00:17:40,366
+que en fait ça manque de contexte ça manque de
+
+426
+00:17:41,100 --> 00:17:44,100
+d'une immersion naturelle et
+
+427
+00:17:44,400 --> 00:17:46,200
+que ce soit dans un texte plus long
+
+428
+00:17:46,200 --> 00:17:47,266
+où vous allez apprendre
+
+429
+00:17:47,333 --> 00:17:48,300
+du vocabulaire
+
+430
+00:17:48,400 --> 00:17:49,300
+vraiment dans un
+
+431
+00:17:49,466 --> 00:17:50,633
+contexte précis
+
+432
+00:17:51,200 --> 00:17:52,400
+ou dans une discussion
+
+433
+00:17:52,533 --> 00:17:55,366
+plus naturelle dans une immersion plus naturelle
+
+434
+00:17:57,400 --> 00:17:58,800
+donc ça c'est vraiment pour les
+
+435
+00:17:58,800 --> 00:18:00,566
+points négatifs et en fait
+
+436
+00:18:00,666 --> 00:18:03,966
+si je devais résumer mon avis sur Duolingo
+
+437
+00:18:04,866 --> 00:18:07,266
+je pense que c'est une bonne application pour débuter
+
+438
+00:18:07,366 --> 00:18:08,733
+je le propose à des
+
+439
+00:18:08,866 --> 00:18:11,300
+étudiants qui débutent complètement pour essayer
+
+440
+00:18:11,500 --> 00:18:12,900
+de leur faire comprendre
+
+441
+00:18:13,466 --> 00:18:14,900
+le pouvoir des habitudes
+
+442
+00:18:15,100 --> 00:18:17,733
+l'importance de faire un petit peu chaque jour
+
+443
+00:18:18,400 --> 00:18:21,566
+mais en fait je pense que l'application devient
+
+444
+00:18:21,566 --> 00:18:24,766
+vite une fausse bonne idée une fausse bonne idée c'est
+
+445
+00:18:25,066 --> 00:18:26,166
+quelque chose
+
+446
+00:18:26,200 --> 00:18:27,466
+dont on a l'impression
+
+447
+00:18:27,466 --> 00:18:29,566
+que c'est une bonne idée mais qu'au fond
+
+448
+00:18:29,966 --> 00:18:33,333
+ce n'est pas une si bonne idée et qu'on se fait une fausse
+
+449
+00:18:33,466 --> 00:18:35,533
+impression de cette bonne idée
+
+450
+00:18:36,533 --> 00:18:38,700
+c'est une fausse bonne idée parce qu'en fait
+
+451
+00:18:38,733 --> 00:18:40,133
+toute la gamification
+
+452
+00:18:40,466 --> 00:18:41,833
+tout le côté social
+
+453
+00:18:41,866 --> 00:18:43,466
+au bout d'un moment ça nous donne
+
+454
+00:18:43,466 --> 00:18:46,500
+l'impression de progresser on a l'impression de
+
+455
+00:18:46,933 --> 00:18:49,866
+vraiment avancer dans la langue on monte de Ligue
+
+456
+00:18:49,900 --> 00:18:53,133
+on on finit des chapitres entiers sur la langue
+
+457
+00:18:53,666 --> 00:18:55,466
+mais en fait notre progression
+
+458
+00:18:55,466 --> 00:18:57,933
+au fond elle n'est pas vraiment si importante
+
+459
+00:18:59,166 --> 00:19:00,800
+on apprend du vocabulaire
+
+460
+00:19:01,000 --> 00:19:02,133
+mais ça s'arrête là
+
+461
+00:19:02,133 --> 00:19:03,633
+et on est toujours à travailler
+
+462
+00:19:03,666 --> 00:19:05,466
+sur des petites phrases et
+
+463
+00:19:05,800 --> 00:19:09,366
+quand on doit passer sur un contexte plus naturel
+
+464
+00:19:09,766 --> 00:19:10,900
+en fait on est perdu
+
+465
+00:19:11,600 --> 00:19:15,966
+il y a pas mal de personnes qui font des vidéos en mode
+
+466
+00:19:15,966 --> 00:19:16,466
+j'ai fini
+
+467
+00:19:16,466 --> 00:19:19,033
+duolingo dans telle langue est ce que je peux parler
+
+468
+00:19:19,133 --> 00:19:20,633
+et cetera bon
+
+469
+00:19:21,400 --> 00:19:24,166
+il y a toujours un certain biais
+
+470
+00:19:24,466 --> 00:19:26,233
+il y a toujours la question de
+
+471
+00:19:26,533 --> 00:19:29,766
+quand on fait beaucoup d'immersion de compréhension
+
+472
+00:19:30,333 --> 00:19:32,400
+c'est ça reste toujours difficile de passer
+
+473
+00:19:32,400 --> 00:19:33,300
+à l'expression
+
+474
+00:19:33,366 --> 00:19:34,300
+de commencer à parler
+
+475
+00:19:35,100 --> 00:19:37,266
+souvent on comprend beaucoup mieux la langue
+
+476
+00:19:37,400 --> 00:19:38,666
+que on peut parler
+
+477
+00:19:39,566 --> 00:19:42,300
+mais voilà je pense qu'au fond Duolingo
+
+478
+00:19:42,400 --> 00:19:44,433
+c'est une fausse bonne idée et que
+
+479
+00:19:45,300 --> 00:19:47,266
+il faut réussir à se poser la question
+
+480
+00:19:47,300 --> 00:19:48,433
+au bout d'un moment de
+
+481
+00:19:48,900 --> 00:19:50,466
+est-ce que j'ai envie de continuer
+
+482
+00:19:50,466 --> 00:19:51,466
+avec cette application
+
+483
+00:19:51,600 --> 00:19:54,166
+est-ce que la manière dont j'apprends actuellement
+
+484
+00:19:54,533 --> 00:19:55,800
+Est-ce que c'est efficace
+
+485
+00:19:56,533 --> 00:19:59,300
+si je sens que j'ai besoin d'autres choses
+
+486
+00:19:59,333 --> 00:20:00,233
+pour progresser
+
+487
+00:20:00,366 --> 00:20:03,533
+ensuite il faut se poser la question de comment faire
+
+488
+00:20:05,400 --> 00:20:06,900
+ce que je recommanderai
+
+489
+00:20:06,933 --> 00:20:08,233
+personnellement c'est de
+
+490
+00:20:08,366 --> 00:20:09,400
+si vous êtes complètement
+
+491
+00:20:09,400 --> 00:20:11,933
+débutant c'est de commencer avec duolingo
+
+492
+00:20:12,133 --> 00:20:13,066
+créer une habitude
+
+493
+00:20:13,566 --> 00:20:15,666
+et quand vous commencez à avoir cette habitude
+
+494
+00:20:15,800 --> 00:20:17,500
+de travailler un peu tous les jours
+
+495
+00:20:18,066 --> 00:20:20,133
+basculer sur de l'immersion
+
+496
+00:20:20,966 --> 00:20:21,866
+plus classique
+
+497
+00:20:22,133 --> 00:20:24,600
+mais bon je dis ça dans une vidéo d'immersion
+
+498
+00:20:24,600 --> 00:20:26,866
+donc je pense que vous avez déjà l'habitude
+
+499
+00:20:26,933 --> 00:20:28,400
+de faire ça mais voilà
+
+500
+00:20:28,500 --> 00:20:31,500
+c'est un peu pour vous expliquer mon opinion
+
+501
+00:20:31,666 --> 00:20:34,133
+mon avis sur Duolingo
+
+502
+00:20:34,966 --> 00:20:37,500
+j'avais envie d'essayer d'être le plus
+
+503
+00:20:37,500 --> 00:20:39,800
+mesuré possible d'être le plus juste
+
+504
+00:20:40,533 --> 00:20:43,333
+donc voilà ma réponse c'est un peu
+
+505
+00:20:43,333 --> 00:20:45,466
+c'est une fausse bonne idée ce n'est pas très
+
+506
+00:20:45,533 --> 00:20:47,100
+tranché comme opinion
+
+507
+00:20:47,666 --> 00:20:51,266
+mais voilà j'espère que cette vidéo vous aura plu
+
+508
+00:20:51,933 --> 00:20:54,966
+si ça vous intéresse je pourrais continuer de parler
+
+509
+00:20:55,100 --> 00:20:58,633
+de méthodologie dans l'apprentissage des langues
+
+510
+00:20:58,700 --> 00:21:01,300
+après j'ai aussi envie de faire du contenu plus
+
+511
+00:21:01,566 --> 00:21:03,900
+sur la culture française ou plus
+
+512
+00:21:03,900 --> 00:21:06,033
+sur un aspect
+
+513
+00:21:06,100 --> 00:21:07,133
+divertissement
+
+514
+00:21:07,400 --> 00:21:09,900
+mais vous verrez ça par la suite
+
+515
+00:21:10,400 --> 00:21:11,533
+si ça vous a plu
+
+516
+00:21:11,533 --> 00:21:14,100
+n'hésitez pas à laisser un like et un commentaire
+
+517
+00:21:14,400 --> 00:21:15,366
+à vous abonner
+
+518
+00:21:15,366 --> 00:21:18,200
+aussi à la chaîne si ce n'est pas déjà fait
+
+519
+00:21:18,866 --> 00:21:21,766
+merci d'avoir regardé jusqu'au bout et je vous dis
+
+520
+00:21:21,766 --> 00:21:22,800
+à la prochaine
+

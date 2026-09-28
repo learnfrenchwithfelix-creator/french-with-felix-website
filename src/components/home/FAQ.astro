@@ -1,0 +1,157 @@
+---
+import SectionHeader from '../ui/SectionHeader.astro';
+
+const faq = [
+  {
+    q: 'Do I need to speak any French to join?',
+    a: 'Not at all. The A1 level starts from absolute zero — no prior knowledge needed. If you already have some basics, you can start at the level that matches where you are.',
+  },
+  {
+    q: 'How is Liminal French different from apps like Duolingo?',
+    a: 'Apps like Duolingo are great for building a habit, but they keep you in "study mode" indefinitely. Liminal French is built around a clear progression — from structured grammar to real immersion — with live sessions and human guidance at every step.',
+  },
+  {
+    q: "What if I'm already intermediate?",
+    a: "Being intermediate means it's time to change your approach — and that's exactly what Liminal French is built for. At B1 and B2, grammar study starts to hold you back more than it helps. The shift is toward immersion: real French, real speed, real topics. It's the same jump I made learning Japanese, and it's the one I want to help you make in French.",
+  },
+  {
+    q: 'How much time do I need per week?',
+    a: "My philosophy is consistency over intensity. There's no magic number — what matters is finding a rhythm you can actually stick to, without burning out. Even 20 minutes a day beats a two-hour session once a week. Once you've built a solid habit, we can work on going deeper and faster. But always step by step.",
+  },
+  {
+    q: 'Are the live sessions recorded?',
+    a: 'Yes — every live session and book reading is available in full replay inside the platform. You can watch at your own pace.',
+  },
+  {
+    q: 'Can I cancel anytime?',
+    a: 'Yes, monthly plans can be cancelled at any time with no fees. Annual plans give you access for the full year from the moment you join.',
+  },
+  {
+    q: 'What level will I reach?',
+    a: "Honestly — it depends on where you start and how consistently you practice. Liminal French gives you the structure and the content, but the progress depends on you. What we can say: the path from A1 to B2 is clear, and you won't get lost along the way.",
+  },
+];
+---
+
+<section id="faq" class="mx-auto max-w-[1180px] px-6 pb-28 md:px-12">
+  <SectionHeader eyebrow="Q&A" headingLight="Before you" headingBold="start" gap="medium" />
+
+  <div class="max-w-[860px]" data-faq>
+    {faq.map((item, i) => (
+      <div data-reveal class="border-b border-border">
+        <h3>
+          <button
+            type="button"
+            id={`faq-q-${i}`}
+            aria-expanded={i === 0 ? 'true' : 'false'}
+            aria-controls={`faq-a-${i}`}
+            class="faq-trigger flex w-full cursor-pointer items-center justify-between gap-6 py-6 text-left"
+          >
+            <span class="font-display text-[17px] font-semibold tracking-[-0.015em] text-title md:text-[19px]">{item.q}</span>
+            <span
+              class="faq-sign relative h-7 w-7 shrink-0 rounded-full border border-border"
+              aria-hidden="true"
+            ></span>
+          </button>
+        </h3>
+        <!-- Panel stays in the DOM so it can animate: grid rows 0fr → 1fr opens it to its natural height -->
+        <div
+          id={`faq-a-${i}`}
+          role="region"
+          aria-labelledby={`faq-q-${i}`}
+          class="faq-panel"
+          data-open={i === 0 ? 'true' : 'false'}
+          inert={i !== 0}
+        >
+          <div class="faq-panel-inner">
+            <p class="faq-answer max-w-[720px] pb-[26px] text-base leading-[1.75] text-body md:pr-14">{item.a}</p>
+          </div>
+        </div>
+      </div>
+    ))}
+  </div>
+</section>
+
+<style is:global>
+  /* Answer reveal: the panel grows to its content while the text fades and settles down into place.
+     Kept under DESIGN.md's 300ms ceiling; closing is quicker than opening. */
+  .faq-panel {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 200ms cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .faq-panel[data-open='true'] {
+    grid-template-rows: 1fr;
+    transition-duration: 300ms;
+  }
+  .faq-panel-inner {
+    min-height: 0;
+    overflow: hidden;
+  }
+  .faq-answer {
+    opacity: 0;
+    transform: translateY(-6px);
+    transition: opacity 150ms ease, transform 200ms ease;
+  }
+  .faq-panel[data-open='true'] .faq-answer {
+    opacity: 1;
+    transform: none;
+    transition: opacity 250ms ease 60ms, transform 300ms cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  /* "+" that pivots into "−": two accent bars, the vertical one turns flat onto the horizontal one */
+  .faq-sign::before,
+  .faq-sign::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 12px;
+    height: 1.5px;
+    margin: -0.75px 0 0 -6px;
+    border-radius: 1px;
+    background: var(--color-accent);
+    transition: transform 250ms cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .faq-sign::after {
+    transform: rotate(90deg);
+  }
+  .faq-trigger[aria-expanded='true'] .faq-sign::after {
+    transform: rotate(180deg);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .faq-panel,
+    .faq-answer,
+    .faq-sign::before,
+    .faq-sign::after {
+      transition: none !important;
+    }
+  }
+</style>
+
+<script>
+  // Single-open accordion: opening one closes the others; clicking the open one closes it
+  const root = document.querySelector<HTMLElement>('[data-faq]');
+  if (root) {
+    const triggers = Array.from(root.querySelectorAll<HTMLButtonElement>('.faq-trigger'));
+
+    const setOpen = (btn: HTMLButtonElement, open: boolean) => {
+      btn.setAttribute('aria-expanded', String(open));
+      const panel = document.getElementById(btn.getAttribute('aria-controls') ?? '');
+      if (panel) {
+        panel.dataset.open = String(open);
+        // A closed panel is still in the DOM: keep it out of the tab order and away from screen readers
+        panel.inert = !open;
+      }
+    };
+
+    triggers.forEach(btn =>
+      btn.addEventListener('click', () => {
+        const wasOpen = btn.getAttribute('aria-expanded') === 'true';
+        triggers.forEach(other => setOpen(other, false));
+        if (!wasOpen) setOpen(btn, true);
+      }),
+    );
+  }
+</script>

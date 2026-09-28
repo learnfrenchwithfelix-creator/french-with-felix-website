@@ -1,0 +1,1144 @@
+1
+00:00:00,100 --> 00:00:03,533
+Bonjour tout le monde et bienvenue dans ce nouveau podcast.
+
+2
+00:00:03,666 --> 00:00:09,200
+Alors, comme la dernière fois, je vais faire un podcast enregistré directement en live
+
+3
+00:00:09,333 --> 00:00:13,100
+sur Twitch et du coup, on a quelques personnes dans le chat.
+
+4
+00:00:13,266 --> 00:00:16,500
+On a Dipsun, Umenka, Shit Don't Stop.
+
+5
+00:00:16,633 --> 00:00:21,433
+Aujourd'hui, justement, j'avais envie de parler d'un sujet qui est les statistiques
+
+6
+00:00:21,600 --> 00:00:27,433
+sur les réseaux sociaux, pour la simple et bonne raison que ma précédente vidéo sur
+
+7
+00:00:27,533 --> 00:00:34,266
+les cartes Pokémon a flop, c'est à dire que c'est un bide, les vues ne sont vraiment pas
+
+8
+00:00:34,433 --> 00:00:36,900
+bonnes comparés à mes autres vidéos.
+
+9
+00:00:37,000 --> 00:00:42,000
+Et du coup, je trouvais ça intéressant de parler de ce sujet, des statistiques sur les
+
+10
+00:00:42,133 --> 00:00:43,000
+réseaux sociaux.
+
+11
+00:00:43,133 --> 00:00:48,333
+Parce que forcément, quand j'ai vu que la vidéo ne marchait pas, je me suis posé
+
+12
+00:00:48,466 --> 00:00:49,333
+des questions.
+
+13
+00:00:49,466 --> 00:00:54,733
+Je me suis dit, est-ce que c'est le format qui n'est pas bien, alors que je pensais en
+
+14
+00:00:54,866 --> 00:01:00,266
+enregistrant la vidéo, que faire un format podcast où on peut échanger avec des personnes
+
+15
+00:01:00,366 --> 00:01:05,966
+dans le chat, ce serait intéressant pour les personnes qui apprennent le français.
+
+16
+00:01:06,266 --> 00:01:13,266
+Comme les vues ne sont pas bonnes, comme les statistiques ne sont pas bonnes, je me suis
+
+17
+00:01:13,400 --> 00:01:18,100
+demandé, est-ce que c'est un bon format, est-ce que ça vaut le coup de faire ce format.
+
+18
+00:01:18,233 --> 00:01:25,533
+Bon, bien évidemment, si je réessaye un format assez similaire, c'est que je pense que ça
+
+19
+00:01:25,700 --> 00:01:31,400
+peut valoir le coup, ça peut être bien pour les personnes qui apprennent le français.
+
+20
+00:01:31,533 --> 00:01:36,700
+Mais bon, si au bout de trois à quatre vidéos, je vois que ça ne fait vraiment pas
+
+21
+00:01:36,733 --> 00:01:37,433
+beaucoup
+
+22
+00:01:37,566 --> 00:01:40,333
+de vues, je vais me poser des questions.
+
+23
+00:01:40,500 --> 00:01:46,933
+Et du coup, comme l'a dit Umenka juste avant que je commence à enregistrer cette
+
+24
+00:01:47,066 --> 00:01:51,900
+vidéo, il a dit peut-être que c'est le sujet, le sujet de la vidéo.
+
+25
+00:01:52,166 --> 00:01:57,633
+Et du coup, dans cette vidéo, et notamment avec Dipsun, on parlait des cartes Pokémon,
+
+26
+00:01:57,766 --> 00:01:59,333
+de la valeur des cartes Pokémon.
+
+27
+00:01:59,466 --> 00:02:06,600
+Est-ce que c'est cher, est-ce que c'est normal qu'une carte puisse valoir 10 000 euros,
+
+28
+00:02:06,733 --> 00:02:08,166
+100 000 euros, etc.
+
+29
+00:02:08,300 --> 00:02:17,933
+Et en fait, le truc, c'est que sur le sujet de la vidéo, j'ai un peu l'impression
+
+30
+00:02:18,066 --> 00:02:23,366
+que si je regarde seulement les statistiques, je vais faire un peu toujours les mêmes
+
+31
+00:02:23,500 --> 00:02:24,366
+sujets.
+
+32
+00:02:24,466 --> 00:02:31,166
+C'est-à-dire que souvent, pour ces vidéos un peu d'apprentissage des langues, les sujets
+
+33
+00:02:31,300 --> 00:02:35,000
+entre guillemets faciles, je mets beaucoup de guillemets parce que ce n'est pas forcément
+
+34
+00:02:35,133 --> 00:02:40,633
+si facile que ça, mais on peut avoir tendance à vouloir faire des sujets assez faciles
+
+35
+00:02:40,800 --> 00:02:46,833
+comme "Apprenez le français en trois mois très rapidement", "la meilleure technique pour
+
+36
+00:02:46,900 --> 00:02:48,566
+mémoriser tout le vocabulaire".
+
+37
+00:02:48,700 --> 00:02:54,133
+Et des titres comme ça, c'est forcément des titres qui vont plaire, des sujets qui
+
+38
+00:02:54,266 --> 00:02:57,366
+vont plaire aux personnes qui apprennent la langue.
+
+39
+00:02:57,500 --> 00:03:03,533
+Mais personnellement, quand j'apprends le japonais, donc je regarde beaucoup de vidéos
+
+40
+00:03:03,700 --> 00:03:10,266
+YouTube sur des youtubeurs japonais qui font un peu le même style de podcast que je fais
+
+41
+00:03:10,466 --> 00:03:11,333
+là.
+
+42
+00:03:11,466 --> 00:03:15,700
+Enfin, c'est moi qui fais le même style de podcast qu'eux, mais voilà, des discussions
+
+43
+00:03:15,833 --> 00:03:22,500
+face caméra ou justement, ils parlent de sujets variés.
+
+44
+00:03:22,633 --> 00:03:26,433
+Et en fait, je me suis rendu compte que personnellement, au bout d'un moment, ces sujets
+
+45
+00:03:26,633 --> 00:03:26,933
+qui tournent
+
+46
+00:03:27,066 --> 00:03:31,666
+vraiment seulement autour de la langue, au bout d'un moment, ça devient répétitif,
+
+47
+00:03:31,766 --> 00:03:33,000
+ça devient un peu redondant.
+
+48
+00:03:33,133 --> 00:03:38,400
+Et du coup, ce que j'ai envie d'essayer de faire avec cette chaîne YouTube, c'est
+
+49
+00:03:38,533 --> 00:03:42,200
+élargir un peu les sujets pour essayer d'amener des sujets plus variés.
+
+50
+00:03:42,333 --> 00:03:49,800
+Pareil, il y a beaucoup de youtubeurs français qui proposent des vidéos sur la culture
+
+51
+00:03:49,933 --> 00:03:54,066
+française, ce qui est vraiment très bien, mais du coup, j'ai un peu le sentiment que
+
+52
+00:03:54,233 --> 00:04:00,300
+si je fais la même chose, ça ne va pas forcément apporter quelque chose en plus pour les
+
+53
+00:04:00,400 --> 00:04:00,800
+personnes
+
+54
+00:04:01,000 --> 00:04:02,300
+qui apprennent le français.
+
+55
+00:04:02,433 --> 00:04:08,633
+Donc, par exemple, Umenka est-ce que toi, quand tu regardes des vidéos sur YouTube,
+
+56
+00:04:08,733 --> 00:04:15,233
+est-ce que au bout d'un moment, tu cherches des sujets variés ou tu préfères ce genre
+
+57
+00:04:15,366 --> 00:04:17,600
+de vidéos orientées sur le français ?
+
+58
+00:04:20,300 --> 00:04:24,900
+Donc là c'est là où le format de cette vidéo doit prendre son sens
+
+59
+00:04:34,233 --> 00:04:38,300
+Je trouve ça bien, moi, d'aborder l'apprentissage par des billets ou des sujets plus
+
+60
+00:04:38,400 --> 00:04:39,066
+universels
+
+61
+00:04:39,166 --> 00:04:40,966
+que de simplement traiter des méthodes.
+
+62
+00:04:41,033 --> 00:04:44,633
+J'aime les sujets variés, mais les cartes Pokémon, je ne connais pas.
+
+63
+00:04:44,766 --> 00:04:49,033
+Et typiquement, est-ce que quand tu as vu la vidéo shitdontstpo, est-ce que la
+
+64
+00:04:49,166 --> 00:04:52,866
+vidéo cartes Pokémon, tu t'es dit bon, ça ne m'intéresse pas, donc je ne vais pas
+
+65
+00:04:53,033 --> 00:04:53,900
+cliquer ?
+
+66
+00:04:54,033 --> 00:05:00,500
+Parce qu'en fait, du coup, le truc un peu difficile, c'est que les personnes qui
+
+67
+00:05:00,500 --> 00:05:00,800
+apprennent
+
+68
+00:05:01,000 --> 00:05:06,866
+le français, c'est déjà une niche, c'est-à-dire que c'est déjà une catégorie de personnes
+
+69
+00:05:07,033 --> 00:05:10,800
+qui n'est pas très grande, c'est une niche sur YouTube.
+
+70
+00:05:10,933 --> 00:05:14,066
+Je crois que le mot est utilisé en anglais aussi.
+
+71
+00:05:14,233 --> 00:05:19,833
+Et du coup, si on prend cette niche et qu'ensuite on fait une niche cartes Pokémon dans
+
+72
+00:05:19,833 --> 00:05:20,266
+cette
+
+73
+00:05:20,466 --> 00:05:26,666
+niche, c'est niche-ception, je ne sais pas comment dire, ça fait que la cible de la
+
+74
+00:05:26,800 --> 00:05:29,133
+vidéo, entre guillemets, va être très réduite.
+
+75
+00:05:29,266 --> 00:05:36,466
+Bonjour, Gillad, j'aime beaucoup, j'aime beaucoup le fait que tu parles des choses qui
+
+76
+00:05:36,500 --> 00:05:37,066
+arrivent
+
+77
+00:05:37,300 --> 00:05:38,966
+dans ta vie, des choses variées dans ta vie.
+
+78
+00:05:39,100 --> 00:05:42,000
+Ok ouais, donc tu aimes les sujets variés.
+
+79
+00:05:42,133 --> 00:05:46,200
+Merci en tout cas et bienvenue sur le chat, je vois que c'est ton premier message sur
+
+80
+00:05:46,333 --> 00:05:47,200
+le chat.
+
+81
+00:05:47,333 --> 00:05:53,600
+Ouais, donc en fait, je pense que c'est un peu entre les deux, c'est-à-dire que si
+
+82
+00:05:53,733 --> 00:06:00,933
+on fait une niche dans une niche, si c'est niche-ception, à la fin c'est trop spécifique
+
+83
+00:06:01,033 --> 00:06:03,000
+et du coup, ça n'intéresse pas vraiment les gens.
+
+84
+00:06:03,133 --> 00:06:09,200
+Mais du coup, l'idée c'est de réussir quand même à traiter des sujets un peu différents.
+
+85
+00:06:09,433 --> 00:06:15,300
+Les cartes Pokémon, je trouvais que c'était assez, c'est devenu assez populaire vu qu'il
+
+86
+00:06:15,366 --> 00:06:19,966
+y a eu la hype, c'est devenu assez généraliste, entre guillemets.
+
+87
+00:06:20,100 --> 00:06:24,933
+Mais du coup, tout ça pour revenir au sujet des statistiques, qui est que quand on fait
+
+88
+00:06:25,233 --> 00:06:30,066
+des vidéos sur Youtube, on peut avoir un peu cette pression des statistiques où on se
+
+89
+00:06:30,266 --> 00:06:36,800
+dit à mince, il faut que je choisisse un bon sujet de vidéo pour que les statistiques
+
+90
+00:06:36,933 --> 00:06:37,800
+soient bonnes.
+
+91
+00:06:37,900 --> 00:06:43,866
+Et du coup, mais ça, c'est pareil, c'est valable comme pour la musique, enfin n'importe
+
+92
+00:06:44,033 --> 00:06:48,466
+quelle forme d'art, c'est est-ce que vous allez faire quelque chose pour que ça plaise
+
+93
+00:06:48,600 --> 00:06:52,233
+aux gens ou est-ce que vous voulez faire quelque chose qui vous plaît vous ?
+
+94
+00:06:52,333 --> 00:07:01,400
+Je pense qu'il n'y a pas de bonnes réponses, il y a des personnes qui arrivent à faire
+
+95
+00:07:01,633 --> 00:07:06,300
+exactement les deux, qui sont vraiment par exemple des artistes de musique qui font des
+
+96
+00:07:06,433 --> 00:07:11,733
+choses très spécifiques et qui arrivent à avoir beaucoup de succès.
+
+97
+00:07:11,833 --> 00:07:17,433
+Eux, je pense qu'ils ont tout gagné, vraiment c'est les rois du monde et sinon après
+
+98
+00:07:17,666 --> 00:07:21,466
+je pense qu'on est tous un peu entre les deux à essayer de trouver un peu le juste
+
+99
+00:07:21,666 --> 00:07:22,533
+milieu.
+
+100
+00:07:22,666 --> 00:07:26,466
+Non, je l'ai regardé parce que j'aime tes vidéos mais si c'est quelqu'un d'autre
+
+101
+00:07:26,733 --> 00:07:27,966
+peut-être je ne vais pas regarder.
+
+102
+00:07:28,100 --> 00:07:28,966
+Ok, oui.
+
+103
+00:07:29,100 --> 00:07:35,133
+Alors ça pour le coup, ça touche un autre point je trouve, c'est que personnellement
+
+104
+00:07:35,333 --> 00:07:41,200
+quand je regarde des vidéos pour apprendre le japonais, j'ai l'impression que je deviens
+
+105
+00:07:41,366 --> 00:07:46,133
+de plus en plus fidèle entre guillemets à une chaîne Youtube, c'est-à-dire que je
+
+106
+00:07:46,266 --> 00:07:50,933
+regarde un peu toujours les mêmes Youtubers et finalement après peu importe le sujet
+
+107
+00:07:51,066 --> 00:07:56,400
+que va traiter ce Youtubeur, peu importe le sujet de la vidéo, je vais regarder parce
+
+108
+00:07:56,533 --> 00:08:00,600
+que j'aime bien sa façon de parler et du coup je me dis qu'il y a ça aussi, c'est-à-dire
+
+109
+00:08:00,733 --> 00:08:05,533
+que là ma chaîne Youtube elle est assez jeune et je pense que c'est normal d'avoir
+
+110
+00:08:05,800 --> 00:08:11,100
+des vidéos qui performent moins bien et que ce soit un peu variable mais que ce qui
+
+111
+00:08:11,233 --> 00:08:13,000
+compte c'est plus le long terme.
+
+112
+00:08:13,133 --> 00:08:18,600
+Quand on regarde juste les statistiques, parfois on peut être un peu comme on dit la
+
+113
+00:08:18,733 --> 00:08:22,633
+tête dans le guidon donc quand on conduit un vélo, quand on pédale sur un vélo, on
+
+114
+00:08:22,766 --> 00:08:25,566
+a la tête dans le guidon ça veut dire qu'on ne regarde pas devant nous, c'est-à-dire
+
+115
+00:08:25,700 --> 00:08:30,533
+qu'on est vraiment par exemple là, si j'avais eu la tête dans le guidon, j'aurais vu
+
+116
+00:08:30,666 --> 00:08:37,033
+les statistiques de la vidéo et je me saurais dire j'arrête, ça ne sert à rien j'arrête
+
+117
+00:08:37,200 --> 00:08:43,200
+parce que je vais vous montrer mais du coup en fait il y a un peu cette pression, on
+
+118
+00:08:43,300 --> 00:08:50,866
+peut avoir un peu cette pression, la caméra est toute petite, voilà, ça c'est vraiment
+
+119
+00:08:51,000 --> 00:08:56,633
+du live, je vous mets ça et je vais vous partager mon écran, je vais peut-être rapetisser
+
+120
+00:08:56,766 --> 00:09:04,566
+la caméra, voilà, capture de fenêtre, Google Chrome, voilà et je vais mettre la caméra
+
+121
+00:09:04,833 --> 00:09:16,433
+de l'autre côté, voilà désolé, ça prend un peu de temps, mais du coup là en fait vous
+
+122
+00:09:16,533 --> 00:09:23,033
+voyez dès que je publie une vidéo, j'ai ce ... performance de la dernière vidéo, j'ai
+
+123
+00:09:23,200 --> 00:09:29,066
+cette catégorie performance de la dernière vidéo et en fait ici il y a une statistique
+
+124
+00:09:29,200 --> 00:09:34,666
+qui est importante à regarder, c'est le classement par vue, ça en fait est 10 sur 10,
+
+125
+00:09:34,733 --> 00:09:39,433
+c'est à dire que c'est ma moins bonne vidéo, parmi mes 10 dernières vidéos c'est celle
+
+126
+00:09:39,533 --> 00:09:45,800
+qui performe le moins bien et là il dit 479 vues alors que normalement je devrais être
+
+127
+00:09:46,000 --> 00:09:52,233
+entre 1500 vues et 2200 vues, c'est vrai que les sujets du quotidien comme disait
+
+128
+00:09:52,333 --> 00:09:57,166
+Guilade est quelque chose qui parle à tout le monde car ce sont des faits plus généraux
+
+129
+00:09:57,466 --> 00:10:02,100
+et qui peuvent se retranscrire dans le quotidien des gens aussi, oui voilà, c'est sûr
+
+130
+00:10:02,100 --> 00:10:02,866
+qu'après
+
+131
+00:10:03,033 --> 00:10:08,233
+forcément comme disait shit don't stop, si c'est un sujet qui ne te parle pas, que
+
+132
+00:10:08,366 --> 00:10:14,566
+tu ne connais pas, t'as moins envie de cliquer sur la vidéo forcément, mais après je
+
+133
+00:10:14,600 --> 00:10:14,833
+trouve
+
+134
+00:10:14,966 --> 00:10:20,000
+qu'il y a des par exemple, en youtubeur francophone, je trouve qu'il y a des youtubeurs ou
+
+135
+00:10:20,000 --> 00:10:20,133
+à
+
+136
+00:10:20,266 --> 00:10:25,800
+force de regarder leurs vidéos, tu sais que peu importe le sujet, ça va être intéressant
+
+137
+00:10:25,933 --> 00:10:30,366
+et du coup je pense qu'il y a aussi un peu ce truc d'habitude, de s'habituer à regarder
+
+138
+00:10:30,500 --> 00:10:37,266
+des sujets différents sur une chaîne youtube spécifique qui peut être intéressant, mais
+
+139
+00:10:37,466 --> 00:10:44,233
+du coup voilà, quand je vois ça, je me dis, merde cette vidéo marche vraiment pas bien,
+
+140
+00:10:44,433 --> 00:10:48,166
+qu'est-ce qui fait que ça ne fonctionne pas et du coup en dessous vous avez différentes
+
+141
+00:10:48,333 --> 00:10:51,233
+statistiques, vous avez le nombre de vues mais après par exemple vous avez le taux
+
+142
+00:10:51,333 --> 00:10:59,500
+de clic par impression, donc 5,6% ça veut dire que quand la vidéo est montrée à 100
+
+143
+00:10:59,666 --> 00:11:05,900
+personnes, 5,6 personnes cliquent sur la vidéo, ensuite il y a la durée moyenne d'une vue,
+
+144
+00:11:06,133 --> 00:11:14,633
+5 min 56 sec, alors que normalement c'est 6 minutes 20, mais ça je comprends pas trop
+
+145
+00:11:14,766 --> 00:11:19,400
+parce que ça va dépendre aussi de la durée de la vidéo, mais du coup voilà, là j'ai
+
+146
+00:11:19,533 --> 00:11:23,333
+un peu, on voit clairement la zone grise claire, c'est là où devraient être les
+
+147
+00:11:23,700 --> 00:11:24,100
+statistiques
+
+148
+00:11:24,233 --> 00:11:30,600
+de la vidéo et du coup ça, ça met un peu la pression finalement parce que quand on fait
+
+149
+00:11:30,733 --> 00:11:34,800
+des vidéos youtube, bien évidemment on veut avoir de bonnes statistiques, on veut que
+
+150
+00:11:34,933 --> 00:11:41,166
+les vidéos plaisent aux gens et du coup là je me dis bon, ça n'a pas trop de succès
+
+151
+00:11:41,300 --> 00:11:42,166
+quoi.
+
+152
+00:11:42,300 --> 00:11:47,900
+Là on voit que la vidéo ça m'a fait gagner 0,83 centimes, bon moi je m'en fiche parce
+
+153
+00:11:48,200 --> 00:11:52,600
+que pour l'instant je ne gagne pas ma vie avec youtube, mais quand je vois ça je me
+
+154
+00:11:52,700 --> 00:11:57,533
+dis les personnes dont le métier c'est 100% youtube, elles doivent avoir une sacrée
+
+155
+00:11:57,766 --> 00:12:03,600
+pression parce que si vous voyez une vidéo qui ne performe pas bien, ce n'est pas évident
+
+156
+00:12:03,733 --> 00:12:08,000
+de comprendre pourquoi ça ne performe pas, parce que c'est toujours un peu flou, des
+
+157
+00:12:08,133 --> 00:12:13,733
+fois on a l'impression que c'est un peu youtube qui choisit si votre vidéo performe, alors
+
+158
+00:12:13,900 --> 00:12:18,566
+bien évidemment on peut regarder le taux de clic par impression pour savoir si la
+
+159
+00:12:18,600 --> 00:12:19,300
+miniature
+
+160
+00:12:19,433 --> 00:12:25,300
+de la vidéo plaît ou pas, on peut voir la durée de visionnage etc.
+
+161
+00:12:25,433 --> 00:12:29,966
+Donc on a des informations qui disent est-ce que la vidéo plaît, mais derrière parfois
+
+162
+00:12:30,066 --> 00:12:35,366
+j'ai un peu l'impression que mes vidéos ont les mêmes statistiques mais que c'est
+
+163
+00:12:35,500 --> 00:12:40,266
+finalement youtube qui choisit de les pousser ou pas et là ce que j'ai remarqué juste
+
+164
+00:12:40,433 --> 00:12:47,100
+avant le stream, c'est que cette vidéo, il y a beaucoup de français qui la regardent,
+
+165
+00:12:47,233 --> 00:12:53,233
+22% de français, donc ça je me dis que forcément quand un français clique sur la vidéo et
+
+166
+00:12:53,333 --> 00:12:57,133
+il voit que je parle lentement, il va quitter la vidéo et du coup ça va faire baisser
+
+167
+00:12:57,500 --> 00:12:58,533
+un peu les statistiques.
+
+168
+00:12:58,666 --> 00:13:13,533
+Bon, salut Juju, j'enlève le son juste pour tousser deux secondes, mais du coup voilà
+
+169
+00:13:13,666 --> 00:13:19,033
+il y a un peu cette pression des statistiques et après je pense que la question c'est à
+
+170
+00:13:19,133 --> 00:13:23,466
+quel point on regarde les statistiques pour choisir ce qu'on veut faire parce que d'un
+
+171
+00:13:23,633 --> 00:13:30,566
+côté il ne faut pas que les statistiques décident de ce qu'on fait, mais de l'autre
+
+172
+00:13:30,700 --> 00:13:35,766
+si je ne regarde pas les statistiques je ne vais pas savoir si la vidéo vous a plu
+
+173
+00:13:35,900 --> 00:13:36,766
+ou pas.
+
+174
+00:13:36,900 --> 00:13:44,633
+Bon voilà, est-ce que, ah je vais aller bientôt chez le médecin, est-ce que je dois aller
+
+175
+00:13:44,766 --> 00:13:52,833
+chez FA, comme tu veux Justine, mais du coup est-ce que vous avez un peu le même
+
+176
+00:13:53,000 --> 00:13:56,600
+style ? Parce que par exemple pour le stream sur la chaine gaming je vois que les vidéos
+
+177
+00:13:56,700 --> 00:14:00,800
+sur Stardew Valley fonctionnent mieux, je ne sais pas s'il y a des jeux qui n'ont pas
+
+178
+00:14:00,933 --> 00:14:08,033
+bien fonctionné, oui Balatro par exemple, le jeu de cartes Balatro, bon forcément
+
+179
+00:14:08,200 --> 00:14:13,000
+Balatro ce n'est pas un jeu qu'on peut refaire plein de fois pour des personnes
+
+180
+00:14:13,133 --> 00:14:17,466
+qui apprennent le français parce que ce n'est pas très intéressant, un jeu narratif comme
+
+181
+00:14:17,633 --> 00:14:23,466
+Claire Obscure, on a commencé en live sur Twitch, là c'est intéressant parce qu'il
+
+182
+00:14:23,533 --> 00:14:28,700
+y a une histoire, il y a des dialogues donc il y a beaucoup plus de choses à apprendre
+
+183
+00:14:28,833 --> 00:14:30,500
+pour les personnes qui apprennent le français.
+
+184
+00:14:30,633 --> 00:14:37,400
+Mais par exemple Deepson qui fait du stream sur Twitch aussi, est-ce que toi parfois tu
+
+185
+00:14:37,633 --> 00:14:44,933
+sens un peu ce truc de choisir un jeu parce que c'est un peu le jeu hype en ce moment
+
+186
+00:14:45,066 --> 00:14:47,500
+parce que c'est le jeu que les gens aiment regarder.
+
+187
+00:14:47,633 --> 00:14:55,866
+Oui en plus Stardew Valley c'est trop mimi à regarder en fond, c'est agréable à
+
+188
+00:14:56,033 --> 00:15:00,233
+regarder, c'est calme donc je pense que ça correspond bien à l'ambiance de ce
+
+189
+00:15:00,333 --> 00:15:01,200
+genre de vidéos.
+
+190
+00:15:01,333 --> 00:15:06,700
+Balatro est plus technique aussi, oui mais je pense que des jeux qui sont super connus
+
+191
+00:15:06,866 --> 00:15:12,300
+amèneront plus d'interaction, plus d'audience, oui c'est ça et du coup on arrive à cette
+
+192
+00:15:12,433 --> 00:15:17,933
+question, est-ce que je fais des choses pour avoir de meilleures statistiques ou est-ce
+
+193
+00:15:18,066 --> 00:15:21,833
+que je vais essayer de faire quelque chose parce que ça me plaît.
+
+194
+00:15:22,100 --> 00:15:29,366
+Bien évidemment je pense que oui car si je ne jouais qu'aux jeux que je voulais vraiment
+
+195
+00:15:29,566 --> 00:15:34,400
+ce sont globalement des jeux relativement niches et donc moins aptes à avoir un public
+
+196
+00:15:34,700 --> 00:15:35,566
+plus large.
+
+197
+00:15:35,700 --> 00:15:41,300
+Donc les jeux que tu aimes ce sont des jeux niches et du coup si tu joues seulement à
+
+198
+00:15:41,500 --> 00:15:46,233
+ces jeux forcément tu auras moins de personnes qui vont regarder tes lives et tes vidéos.
+
+199
+00:15:46,366 --> 00:15:51,566
+Oui et c'est là toute la question parce que par exemple Juju elle dessine, elle fait
+
+200
+00:15:51,700 --> 00:15:56,866
+de l'art et elle essaye de vivre de son art donc elle veut vendre son art et là c'est
+
+201
+00:15:57,033 --> 00:15:57,900
+pareil.
+
+202
+00:15:58,000 --> 00:16:02,566
+Par exemple on fait des conventions donc des conventions sur la culture japonaise et
+
+203
+00:16:02,700 --> 00:16:07,100
+il y a ce grand dilemme pour les artistes dans ce genre de conventions c'est est-ce
+
+204
+00:16:07,200 --> 00:16:12,033
+qu'on fait des fan art ? Un fan art c'est un dessin qui représente un personnage d'un
+
+205
+00:16:12,333 --> 00:16:18,566
+anime d'un manga et en général ce genre de fan art se vendent plus facilement que d'un
+
+206
+00:16:18,833 --> 00:16:23,600
+art original parce que les personnes qui vont dans une convention elles vont voir le
+
+207
+00:16:23,733 --> 00:16:29,533
+dessin et on dit ah mais c'est Naruto ou Tanjiro de Demon Slayer et elles vont avoir
+
+208
+00:16:29,666 --> 00:16:30,533
+envie d'acheter.
+
+209
+00:16:30,666 --> 00:16:35,466
+Mais du coup en tant qu'artiste on se pose enfin Juju se pose la question est-ce que
+
+210
+00:16:35,533 --> 00:16:40,766
+j'ai vraiment envie de seulement copier des dessins enfin de réinterpréter des dessins
+
+211
+00:16:40,900 --> 00:16:47,033
+est-ce que je n'ai pas envie de faire un art que je crée à 100% même si ça se vend
+
+212
+00:16:47,200 --> 00:16:48,066
+moins bien.
+
+213
+00:16:48,200 --> 00:16:53,033
+Et c'est comme ce que Deepson disait sur les jeux qu'il choisissait pour ses streams
+
+214
+00:16:53,266 --> 00:16:58,100
+je pense qu'à la fin il y a des artistes qui arrivent à faire à 100% ce qu'ils veulent
+
+215
+00:16:58,266 --> 00:17:02,933
+et ça marche super bien mais je pense que la plupart d'entre nous on est plus un peu
+
+216
+00:17:03,066 --> 00:17:03,933
+entre les deux.
+
+217
+00:17:04,066 --> 00:17:09,100
+Essayez de trouver quelque chose qui plaît et qui nous plaît aussi, qui plaît aux gens
+
+218
+00:17:09,200 --> 00:17:10,233
+et qui nous plaît aussi.
+
+219
+00:17:10,400 --> 00:17:16,400
+Oui voilà en fait la question est-ce qu'on fait ça pour plaire aux autres ou pour plaire
+
+220
+00:17:16,533 --> 00:17:21,233
+à soi-même et à voir sa propre patte, son propre style ? C'est un juste milieu.
+
+221
+00:17:21,400 --> 00:17:22,266
+Exact.
+
+222
+00:17:22,400 --> 00:17:28,400
+Et du coup le sujet de la vidéo au début c'était les statistiques parce que ma vidéo
+
+223
+00:17:28,533 --> 00:17:33,933
+sur Youtube a flop, elle a vraiment eu de mauvaises statistiques mais du coup
+
+224
+00:17:33,966 --> 00:17:35,333
+personnellement
+
+225
+00:17:35,466 --> 00:17:41,066
+donc comme pour Deepson, comme pour Juju, la question que je me pose c'est qu'est-ce
+
+226
+00:17:41,200 --> 00:17:44,333
+que j'ai envie de faire ? Est-ce que j'ai envie de faire un contenu qui va avoir de
+
+227
+00:17:44,500 --> 00:17:50,400
+bonnes statistiques ou un contenu que je trouve bon ? Et là je vais rebondir sur une
+
+228
+00:17:50,433 --> 00:17:50,700
+dernière
+
+229
+00:17:50,833 --> 00:17:56,700
+chose c'est qu'avant de finir le podcast c'est que par exemple sur Instagram TikTok
+
+230
+00:17:56,766 --> 00:18:02,233
+j'ai fait des petites vidéos, j'ai fait des reels et des TikTok seulement parce que
+
+231
+00:18:02,400 --> 00:18:09,400
+je pensais qu'ils allaient avoir de bonnes statistiques sur l'apprentissage du français.
+
+232
+00:18:09,500 --> 00:18:14,900
+Salut Juju ! À la prochaine, à tout à l'heure ! Seulement quand je regarde les vidéos
+
+233
+00:18:15,066 --> 00:18:19,500
+les TikToks, les reels sur l'apprentissage du français, il y a beaucoup de TikToks
+
+234
+00:18:19,633 --> 00:18:26,400
+et de reels où c'est juste des listes de vocabulaire et ces TikToks fonctionnent
+
+235
+00:18:26,533 --> 00:18:31,066
+bien de bonnes performances, enfin j'ai vu plusieurs fois des bonnes performances
+
+236
+00:18:31,200 --> 00:18:35,100
+sur ce genre de vidéos. Du coup ce que j'ai fait c'est que j'ai essayé moi-même de
+
+237
+00:18:35,400 --> 00:18:40,733
+faire ce genre de vidéos alors même que mon avis sur ce genre de vidéos c'est que
+
+238
+00:18:40,866 --> 00:18:46,700
+ce n'est pas très efficace pour apprendre une langue. Si vous regardez une vidéo de
+
+239
+00:18:46,833 --> 00:18:52,033
+20 secondes où on vous donne une liste de vocabulaire, vous pouvez être sûr à mon avis que
+
+240
+00:18:52,100 --> 00:18:52,266
+vous
+
+241
+00:18:52,333 --> 00:19:00,433
+aurez tout oublié 5 secondes après. Je ne suis pas convaincu par ces vidéos et pourtant
+
+242
+00:19:00,466 --> 00:19:00,633
+j'ai
+
+243
+00:19:00,866 --> 00:19:05,900
+essayé d'en faire parce que je voulais avoir de meilleures statistiques et c'est là j'ai
+
+244
+00:19:06,033 --> 00:19:10,633
+fait un compromis pour au final en fait je pense que quand on fait ce genre de compromis
+
+245
+00:19:10,633 --> 00:19:12,000
+et que
+
+246
+00:19:12,133 --> 00:19:17,733
+après les vidéos n'ont pas de bonnes performances en fait on abandonne juste. J'ai arrêté
+
+247
+00:19:17,900 --> 00:19:18,066
+de faire
+
+248
+00:19:18,200 --> 00:19:22,666
+ce genre de vidéos parce que je n'y croyais pas, je n'avais pas forcément de bonnes
+
+249
+00:19:22,700 --> 00:19:23,333
+performances
+
+250
+00:19:23,466 --> 00:19:28,933
+et du coup en fait ça ne servait à rien. Et du coup ce que j'ai un peu ... la leçon que j'ai
+
+251
+00:19:29,066 --> 00:19:35,800
+retenu de ça c'est qu'il vaut mieux pour l'instant faire ce à quoi je crois vraiment, ce
+
+252
+00:19:35,966 --> 00:19:36,566
+que j'aime
+
+253
+00:19:36,733 --> 00:19:42,966
+vraiment en adaptant forcément mais pour l'instant comme ma chaîne je n'ai pas beaucoup
+
+254
+00:19:43,000 --> 00:19:43,466
+d'audience,
+
+255
+00:19:43,533 --> 00:19:47,900
+c'est une petite chaîne YouTube, je peux me permettre de faire des choses un peu
+
+256
+00:19:47,900 --> 00:19:48,200
+différentes,
+
+257
+00:19:48,333 --> 00:19:55,533
+d'essayer et après je me reposerai sûrement la question si ma chaîne grossit et si ça
+
+258
+00:19:55,533 --> 00:19:55,800
+devient
+
+259
+00:19:55,933 --> 00:20:01,266
+une source de revenus, si je commence à gagner mon salaire avec ça, là forcément je me
+
+260
+00:20:01,300 --> 00:20:01,733
+poserai
+
+261
+00:20:01,866 --> 00:20:06,600
+plus de questions. Et du coup c'est pour ça qu'aujourd'hui on est de retour en live à
+
+262
+00:20:06,633 --> 00:20:06,700
+faire
+
+263
+00:20:06,900 --> 00:20:11,700
+ce genre de vidéos parce que je pense que ça vaut la peine d'essayer, je pense que c'est
+
+264
+00:20:11,700 --> 00:20:12,066
+un format
+
+265
+00:20:12,233 --> 00:20:16,900
+qui peut être intéressant avec ces interactions pour les personnes qui apprennent le
+
+266
+00:20:16,900 --> 00:20:18,033
+français et
+
+267
+00:20:18,166 --> 00:20:23,433
+du coup je vais continuer d'essayer. Voilà n'hésitez pas à me donner votre avis en
+
+268
+00:20:23,466 --> 00:20:23,966
+commentaire,
+
+269
+00:20:24,100 --> 00:20:28,166
+est-ce que vous ressentez un peu la même chose sur les réseaux sociaux, ça peut être même
+
+270
+00:20:28,266 --> 00:20:28,400
+à une
+
+271
+00:20:28,533 --> 00:20:34,966
+échelle pas forcément artistique, à une échelle plus personnelle, par exemple quand on
+
+272
+00:20:35,000 --> 00:20:35,333
+pose des
+
+273
+00:20:35,466 --> 00:20:40,733
+photos sur instagram on a envie qu'il y ait des likes, si notre photo ne fait pas de like
+
+274
+00:20:40,733 --> 00:20:41,066
+est-ce
+
+275
+00:20:41,200 --> 00:20:47,000
+qu'on aime vraiment cette photo, est-ce que ça impacte notre appréciation de la photo,
+
+276
+00:20:47,133 --> 00:20:53,933
+si ça ne fait pas de bonne statistique on ne va pas aimer cette photo ou l'inverse. Bref
+
+277
+00:20:54,066 --> 00:20:54,933
+c'est
+
+278
+00:20:55,066 --> 00:20:58,833
+un sujet assez vaste donc n'hésitez pas à me dire dans les commentaires ce que vous en
+
+279
+00:20:58,866 --> 00:20:59,233
+pensez,
+
+280
+00:20:59,400 --> 00:21:07,633
+dans tous les cas même si cette vidéo encore une fois ne performe pas bien je continuerai
+
+281
+00:21:07,800 --> 00:21:12,200
+de faire un peu ce genre de vidéos en live, peut-être que j'essaierai de se trouver un
+
+282
+00:21:12,200 --> 00:21:12,833
+sujet plus
+
+283
+00:21:13,000 --> 00:21:20,200
+général, plus commun mais voilà. Merci en tout cas d'avoir regardé cette vidéo jusqu'au
+
+284
+00:21:20,200 --> 00:21:20,400
+bout,
+
+285
+00:21:20,500 --> 00:21:25,333
+on va continuer de stream donc si ça vous intéresse n'hésitez pas à venir sur le stream
+
+286
+00:21:25,533 --> 00:21:30,700
+ou aller sur ma chaîne gaming. Merci et je vous dis à la prochaine.
+

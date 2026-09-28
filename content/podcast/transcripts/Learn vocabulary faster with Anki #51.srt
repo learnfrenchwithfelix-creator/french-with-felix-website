@@ -1,0 +1,912 @@
+1
+00:00:00,133 --> 00:00:05,933
+Hello everyone, in this video I will explain how to set up Anki for your French
+
+2
+00:00:06,066 --> 00:00:09,966
+learning and how to learn vocabulary with it.
+
+3
+00:00:10,133 --> 00:00:16,100
+There are no excuses to not listen some French so the rest of the video will be
+
+4
+00:00:16,100 --> 00:00:23,400
+in French, but of course you have English subtitles in YouTube settings.
+
+5
+00:00:23,400 --> 00:00:25,966
+Somewhere here maybe?
+
+6
+00:00:26,133 --> 00:00:32,166
+Donc bonjour tout le monde, aujourd'hui je vais vous expliquer comment utiliser
+
+7
+00:00:32,200 --> 00:00:37,966
+Anki pour apprendre du vocabulaire et pour progresser en français.
+
+8
+00:00:38,133 --> 00:00:42,933
+Notre niveau dans une langue dépend du nombre de mots qu'on connaît.
+
+9
+00:00:43,133 --> 00:00:49,966
+Il y a des règles de grammaire, mais le plus important c'est le vocabulaire.
+
+10
+00:00:50,133 --> 00:00:54,933
+Imaginez vous voulez dire « I eat a banana » en français.
+
+11
+00:00:55,133 --> 00:01:00,033
+Si vous connaissez le vocabulaire mais que vous ne connaissez pas la grammaire,
+
+12
+00:01:00,033 --> 00:01:00,966
+ça donne ça.
+
+13
+00:01:03,433 --> 00:01:03,966
+on comprend
+
+14
+00:01:04,133 --> 00:01:08,900
+Si vous connaissez la grammaire et la conjugaison mais que vous ne connaissez
+
+15
+00:01:08,900 --> 00:01:11,966
+pas les mots de vocabulaire, ça donne ça.
+
+16
+00:01:14,233 --> 00:01:16,933
+on ne comprend pas ce que vous mangez.
+
+17
+00:01:17,133 --> 00:01:20,933
+Bref, le plus important c'est de connaître des mots de vocabulaire.
+
+18
+00:01:21,133 --> 00:01:27,300
+La grammaire c'est bien sûr important mais notre niveau va beaucoup dépendre des
+
+19
+00:01:27,333 --> 00:01:28,966
+mots qu'on connaît.
+
+20
+00:01:29,133 --> 00:01:33,900
+Et donc maintenant la question c'est comment apprendre le vocabulaire en
+
+21
+00:01:33,933 --> 00:01:34,933
+français.
+
+22
+00:01:35,133 --> 00:01:42,000
+Utiliser Anki c'est très efficace pour apprendre du vocabulaire et je vais vous
+
+23
+00:01:42,233 --> 00:01:43,966
+montrer comment faire.
+
+24
+00:01:44,133 --> 00:01:50,266
+La vidéo est organisée par chapitre donc n'hésitez pas à aller au chapitre qui
+
+25
+00:01:50,266 --> 00:01:51,966
+vous intéresse.
+
+26
+00:02:02,133 --> 00:02:08,433
+Anki c'est un logiciel gratuit qui permet d'apprendre et de réviser des cartes
+
+27
+00:02:08,466 --> 00:02:11,966
+mémoires grâce à la répétition espacée.
+
+28
+00:02:12,133 --> 00:02:14,966
+Grâce à un système SRS.
+
+29
+00:02:15,133 --> 00:02:21,533
+Avec Anki vous allez pouvoir créer vos cartes mémoires et ensuite vous allez
+
+30
+00:02:21,833 --> 00:02:24,966
+pouvoir les réviser régulièrement.
+
+31
+00:02:25,133 --> 00:02:28,933
+Une carte mémoire c'est une carte avec un recto et un verso.
+
+32
+00:02:29,133 --> 00:02:34,400
+Pour apprendre du vocabulaire français vous allez par exemple écrire le mot
+
+33
+00:02:34,633 --> 00:02:38,966
+français au recto et sa traduction au verso.
+
+34
+00:02:39,133 --> 00:02:46,233
+Anki c'est efficace parce que ça utilise un système SRS pour spaced repetition
+
+35
+00:02:46,233 --> 00:02:46,966
+system.
+
+36
+00:02:47,133 --> 00:02:50,933
+Notre mémoire c'est comme un millefeuille.
+
+37
+00:02:51,133 --> 00:02:54,933
+On a une mémoire à court terme et on a une mémoire à long terme.
+
+38
+00:02:55,066 --> 00:03:01,500
+L'objectif quand on apprend du vocabulaire c'est de pousser l'information dans
+
+39
+00:03:01,833 --> 00:03:03,966
+notre mémoire long terme.
+
+40
+00:03:04,133 --> 00:03:11,966
+Et pour ça on utilise un système SRS pour spaced repetition system.
+
+41
+00:03:12,133 --> 00:03:18,400
+Quand on va réviser une carte Anki va nous demander est-ce que tu te souviens de
+
+42
+00:03:18,400 --> 00:03:18,966
+ce mot ?
+
+43
+00:03:19,133 --> 00:03:25,966
+Et là on a deux options soit on répond oui soit on répond non.
+
+44
+00:03:26,133 --> 00:03:30,966
+Si on répond oui on va revoir la carte après trois jours.
+
+45
+00:03:31,133 --> 00:03:36,933
+Si on répond non on va revoir la carte le lendemain le jour d'après.
+
+46
+00:03:37,133 --> 00:03:42,966
+Plus on mémorise plus les révisions vont être espacées dans le temps.
+
+47
+00:03:43,133 --> 00:03:49,966
+Ça permet d'être sûr que l'information descend dans notre mémoire long terme.
+
+48
+00:03:50,133 --> 00:03:56,966
+Anki permet donc de créer des cartes et de les réviser avec un système SRS.
+
+49
+00:03:57,066 --> 00:04:03,466
+C'est optimisé pour la mémorisation et donc c'est très utile pour apprendre du
+
+50
+00:04:03,500 --> 00:04:04,966
+vocabulaire.
+
+51
+00:04:08,133 --> 00:04:09,966
+Bon ça c'était pour la présentation.
+
+52
+00:04:10,133 --> 00:04:13,933
+Maintenant je vais vous montrer comment installer Anki.
+
+53
+00:04:14,133 --> 00:04:17,966
+Le plus simple c'est de l'installer sur votre ordinateur.
+
+54
+00:04:18,133 --> 00:04:21,966
+Vous allez sur le site d'Anki vous avez le lien dans la description.
+
+55
+00:04:22,133 --> 00:04:27,933
+Vous cliquez sur télécharger et vous installez le logiciel.
+
+56
+00:04:28,133 --> 00:04:32,933
+Du coup on se retrouve sur mon écran et je vous montre ça directement.
+
+57
+00:04:33,066 --> 00:04:36,966
+Télécharger Anki donc là vous avez les différentes versions.
+
+58
+00:04:37,133 --> 00:04:38,966
+Moi je suis sur Windows.
+
+59
+00:04:39,133 --> 00:04:43,933
+J'ai téléchargé je lance Anki.
+
+60
+00:04:44,133 --> 00:04:47,933
+J'installe le logiciel.
+
+61
+00:04:48,133 --> 00:04:53,933
+Là dans cette fenêtre il me demande est-ce que je veux la dernière version
+
+62
+00:04:54,100 --> 00:04:55,966
+ou est-ce que je veux choisir ma version.
+
+63
+00:04:56,133 --> 00:05:02,966
+Je vais appuyer sur entrée pour avoir la dernière version.
+
+64
+00:05:03,133 --> 00:05:10,966
+Il installe et j'ai accès à Anki.
+
+65
+00:05:11,133 --> 00:05:15,966
+Donc là je peux sélectionner ma langue pour l'interface d'Anki.
+
+66
+00:05:16,133 --> 00:05:19,933
+La langue utilisée pour les menus.
+
+67
+00:05:20,133 --> 00:05:23,933
+Je vais mettre anglais.
+
+68
+00:05:24,133 --> 00:05:25,966
+Et voilà Anki.
+
+69
+00:05:26,133 --> 00:05:30,533
+Donc là je vais présenter très rapidement les menus mais en gros vous avez les
+
+70
+00:05:30,700 --> 00:05:31,133
+decks.
+
+71
+00:05:31,133 --> 00:05:32,966
+Donc les paquets de cartes.
+
+72
+00:05:33,100 --> 00:05:39,966
+Je peux par exemple créer un paquet où je vais appeler ça French Vocabulary.
+
+73
+00:05:40,133 --> 00:05:44,966
+Maintenant j'ai ce paquet de cartes avec le nombre de nouvelles cartes.
+
+74
+00:05:45,133 --> 00:05:50,933
+Le nombre de cartes apprises et le nombre de cartes à revoir.
+
+75
+00:05:51,133 --> 00:05:52,966
+Je peux ajouter une carte.
+
+76
+00:05:53,133 --> 00:05:55,966
+Donc là quand je clique sur Add, il me donne cette carte.
+
+77
+00:05:56,133 --> 00:06:03,400
+Et par exemple je vais mettre Bonjour et je vais mettre Hello au derrière de la
+
+78
+00:06:03,400 --> 00:06:03,966
+carte.
+
+79
+00:06:04,133 --> 00:06:07,933
+Donc le mot en français et au verso.
+
+80
+00:06:08,133 --> 00:06:10,966
+Le mot sa traduction dans votre langue.
+
+81
+00:06:11,133 --> 00:06:15,933
+Je peux ajouter et là vous voyez déjà que j'ai une carte.
+
+82
+00:06:16,133 --> 00:06:19,966
+Alors bon là il m'a ajouté la carte dans le deck défaut.
+
+83
+00:06:20,100 --> 00:06:21,966
+Et vous pouvez aller dans Browse.
+
+84
+00:06:22,133 --> 00:06:22,966
+Donc recherchez.
+
+85
+00:06:23,100 --> 00:06:26,000
+Et ici vous allez avoir toutes les cartes qui ont été créées.
+
+86
+00:06:26,133 --> 00:06:28,966
+Là il me dit que la carte est dans le deck défaut.
+
+87
+00:06:29,133 --> 00:06:31,966
+Je peux le changer comme ceci.
+
+88
+00:06:32,133 --> 00:06:33,966
+Move Cards.
+
+89
+00:06:34,133 --> 00:06:39,066
+Si je ferme, on voit bien que maintenant j'ai ma carte dans mon deck French
+
+90
+00:06:39,200 --> 00:06:39,933
+Vocabulary.
+
+91
+00:06:40,133 --> 00:06:41,966
+Et enfin on a Stat.
+
+92
+00:06:42,133 --> 00:06:45,933
+Donc là ça va être les statistiques de votre apprentissage.
+
+93
+00:06:46,133 --> 00:06:50,966
+Je vais revenir dessus mais ça peut être important pour rester motivé.
+
+94
+00:06:51,133 --> 00:06:56,966
+Et après il y a le bouton "sync" pour synchroniser notamment si vous utilisez Anki
+
+95
+00:06:57,133 --> 00:06:59,966
+sur votre portable et sur votre ordinateur.
+
+96
+00:07:00,066 --> 00:07:05,066
+C'est pour être sûr que vous avez toujours les mêmes cartes sur vos différents
+
+97
+00:07:05,200 --> 00:07:07,533
+supports.
+
+98
+00:07:08,000 --> 00:07:10,966
+Pour l'application mobile elle est payante sur Apple.
+
+99
+00:07:11,133 --> 00:07:16,933
+Je crois qu'elle coûte environ 25 euros mais elle est gratuite sur Android.
+
+100
+00:07:17,133 --> 00:07:22,966
+Pour les personnes qui ont des iPhone, attention à la version que vous achetez.
+
+101
+00:07:23,133 --> 00:07:28,933
+Car il existe des applications qui s'appellent Anki mais qui ne sont pas les
+
+102
+00:07:28,933 --> 00:07:29,966
+vraies Anki.
+
+103
+00:07:30,133 --> 00:07:36,533
+Et donc vous ne pourrez pas accéder aux cartes que vous avez créées sur votre
+
+104
+00:07:36,600 --> 00:07:38,000
+ordinateur.
+
+105
+00:07:38,133 --> 00:07:45,000
+Vous ne pourrez pas synchroniser vos cartes entre votre ordinateur et votre
+
+106
+00:07:45,233 --> 00:07:45,966
+portable.
+
+107
+00:07:46,133 --> 00:07:50,933
+Donc faites attention à prendre la bonne application.
+
+108
+00:07:56,366 --> 00:07:59,966
+Je vous conseille de créer des cartes avec des phrases.
+
+109
+00:08:00,133 --> 00:08:05,333
+Quand vous débutez c'est plus efficace que de créer des cartes avec juste un
+
+110
+00:08:05,366 --> 00:08:05,966
+mot.
+
+111
+00:08:06,066 --> 00:08:12,100
+Faire des cartes avec des phrases ça permet d'apprendre le vocabulaire dans un
+
+112
+00:08:12,133 --> 00:08:12,966
+contexte.
+
+113
+00:08:13,133 --> 00:08:17,933
+Et en plus vous voyez régulièrement des structures de phrases.
+
+114
+00:08:18,133 --> 00:08:23,933
+Idealement chaque carte doit avoir un seul mot inconnu.
+
+115
+00:08:24,133 --> 00:08:29,233
+Si vous créez des cartes avec des phrases difficiles avec beaucoup de mots que
+
+116
+00:08:29,266 --> 00:08:33,966
+vous ne connaissez pas, ça ne va pas être efficace.
+
+117
+00:08:34,133 --> 00:08:37,966
+Au début comme vous n'avez pas beaucoup de vocabulaire,
+
+118
+00:08:38,133 --> 00:08:44,100
+vous pouvez créer une carte avec deux voir maximum trois mots que vous voulez
+
+119
+00:08:44,100 --> 00:08:50,633
+apprendre, mais il faut vite commencer à créer des cartes avec un seul mot
+
+120
+00:08:50,666 --> 00:08:51,966
+inconnu.
+
+121
+00:08:52,133 --> 00:08:54,966
+Il ne faut pas créer trop de cartes trop vite.
+
+122
+00:08:55,133 --> 00:09:00,933
+On peut avoir envie de demander à ChatGPT 100 phrases pour créer des cartes
+
+123
+00:09:00,966 --> 00:09:01,966
+rapidement.
+
+124
+00:09:02,133 --> 00:09:05,933
+Mais ça risque de ne pas être très utile.
+
+125
+00:09:06,133 --> 00:09:12,466
+En fait, plus vous passez de temps à créer une carte, mieux vous allez
+
+126
+00:09:12,500 --> 00:09:14,000
+mémoriser.
+
+127
+00:09:14,133 --> 00:09:19,400
+Vous pouvez essayer de créer une phrase personnelle et pourquoi pas ajouter une
+
+128
+00:09:19,633 --> 00:09:20,966
+image sur la carte.
+
+129
+00:09:21,133 --> 00:09:24,933
+On mémorise toujours mieux avec des images.
+
+130
+00:09:25,133 --> 00:09:29,933
+Par exemple, le midi au déjeuner je mange une pizza.
+
+131
+00:09:30,133 --> 00:09:35,933
+Vous pouvez ajouter la photo de votre pizza préférée ou la photo d'un restaurant
+
+132
+00:09:36,100 --> 00:09:40,000
+où vous allez souvent manger le midi pour le déjeuner.
+
+133
+00:09:40,133 --> 00:09:44,966
+En créant des cartes personnalisées, vous mémorisez plus facilement.
+
+134
+00:09:45,100 --> 00:09:47,000
+Et du coup, il y a cette dernière question.
+
+135
+00:09:47,133 --> 00:09:51,933
+Utilisez un deck préconstruit ou faire ses propres cartes.
+
+136
+00:09:52,133 --> 00:09:57,933
+Vous pouvez télécharger des deck, des paquets de cartes préconstruits sur le
+
+137
+00:09:58,066 --> 00:09:58,966
+site d'Anki.
+
+138
+00:09:59,066 --> 00:10:01,966
+C'est pratique si vous n'avez pas beaucoup de temps.
+
+139
+00:10:02,133 --> 00:10:07,933
+Et en plus, ces decks ont des cartes avec les mots français les plus fréquents.
+
+140
+00:10:08,133 --> 00:10:10,966
+Les mots qu'on utilise le plus souvent.
+
+141
+00:10:11,033 --> 00:10:14,933
+C'est efficace parce que bien évidemment, il vaut mieux apprendre les mots les
+
+142
+00:10:15,133 --> 00:10:16,933
+plus fréquents en premier.
+
+143
+00:10:17,133 --> 00:10:22,033
+Mais à part ces deux arguments, je pense que c'est toujours mieux de créer ses
+
+144
+00:10:22,066 --> 00:10:22,966
+propres cartes.
+
+145
+00:10:23,133 --> 00:10:26,933
+Quand vous créez vos cartes, ce sont vos cartes.
+
+146
+00:10:27,133 --> 00:10:32,933
+Elles sont personnalisées et elles sont beaucoup plus faciles à mémoriser.
+
+147
+00:10:33,100 --> 00:10:34,966
+C'est un conseil.
+
+148
+00:10:35,133 --> 00:10:39,200
+Vous faites ce que vous voulez et vous pouvez bien sûr essayer les deux
+
+149
+00:10:39,266 --> 00:10:39,966
+solutions.
+
+150
+00:10:40,133 --> 00:10:43,933
+Et pourquoi pas mélanger les types de cartes.
+
+151
+00:10:47,833 --> 00:10:53,166
+Je parle souvent des habitudes, mais c'est un concept clé quand on apprend une
+
+152
+00:10:53,166 --> 00:10:53,966
+langue.
+
+153
+00:10:54,133 --> 00:10:57,933
+Construire une habitude, c'est le plus important.
+
+154
+00:10:58,133 --> 00:11:00,966
+Il faut étudier un peu chaque jour.
+
+155
+00:11:01,133 --> 00:11:05,966
+Avec Anki, vous allez devoir réviser des cartes un peu tous les jours.
+
+156
+00:11:06,133 --> 00:11:10,933
+Et donc il est important de construire une habitude.
+
+157
+00:11:11,133 --> 00:11:15,966
+Je vais résumer très rapidement le livre Atomic Habits de James Clear.
+
+158
+00:11:16,133 --> 00:11:23,966
+Mais en gros, il faut créer l'habitude à partir d'une habitude qui existe déjà.
+
+159
+00:11:24,133 --> 00:11:28,933
+Par exemple, si tous les matins vous buvez un café, vous pouvez vous dire
+
+160
+00:11:29,000 --> 00:11:30,000
+maintenant,
+
+161
+00:11:30,133 --> 00:11:34,933
+tous les matins, quand je bois mon café, je révise mes cartes Anki.
+
+162
+00:11:35,133 --> 00:11:38,933
+Il faut que l'habitude soit facile et évidente.
+
+163
+00:11:39,066 --> 00:11:44,800
+J'ai appris le piano pendant trois ans et au début j'habitais dans un petit
+
+164
+00:11:44,800 --> 00:11:46,966
+appartement parisien.
+
+165
+00:11:47,133 --> 00:11:52,433
+Je devais ranger mon piano dans un placard et le sortir à chaque fois pour
+
+166
+00:11:52,600 --> 00:11:54,000
+m'entraîner.
+
+167
+00:11:54,133 --> 00:11:56,966
+Je ne m'entraînais quasiment jamais.
+
+168
+00:11:57,066 --> 00:12:00,933
+J'ai déménagé dans un appartement plus grand.
+
+169
+00:12:01,133 --> 00:12:07,466
+Mon piano était toujours installé au même endroit et je n'avais qu'à appuyer sur
+
+170
+00:12:07,466 --> 00:12:09,966
+"on" et je pouvais m'entraîner.
+
+171
+00:12:10,133 --> 00:12:13,933
+Parce que c'était plus évident, je me suis plus entraîné.
+
+172
+00:12:14,066 --> 00:12:17,933
+C'est vrai pour n'importe quel type d'habitude.
+
+173
+00:12:18,133 --> 00:12:20,966
+Il faut que ce soit évident et facile.
+
+174
+00:12:21,133 --> 00:12:23,966
+Il faut que l'habitude soit satisfaisante.
+
+175
+00:12:24,133 --> 00:12:27,933
+Les statistiques de Anki sont utiles pour ça.
+
+176
+00:12:28,133 --> 00:12:30,966
+Vous voyez le nombre de cartes qui augmentent
+
+177
+00:12:31,133 --> 00:12:36,933
+Vous avez la heatmap qui montre les jours où vous avez étudié, etc.
+
+178
+00:12:37,133 --> 00:12:40,933
+Ces statistiques peuvent rendre l'habitude satisfaisante.
+
+179
+00:12:41,133 --> 00:12:44,933
+Apprendre cinq nouveaux mots par jour, ça semble facile.
+
+180
+00:12:45,133 --> 00:12:51,966
+Apprendre 35 nouveaux mots une fois par semaine, ça semble difficile.
+
+181
+00:12:52,133 --> 00:12:56,933
+Construire une habitude, c'est le meilleur moyen pour apprendre.
+
+182
+00:12:57,133 --> 00:13:02,633
+Ce n'est pas vraiment le sujet de cette vidéo, donc je ferai sûrement une vidéo
+
+183
+00:13:02,666 --> 00:13:05,966
+sur les habitudes plus détaillées plus tard.
+
+184
+00:13:11,733 --> 00:13:15,933
+Le risque avec Anki, c'est d'avoir trop de cartes à réviser.
+
+185
+00:13:16,133 --> 00:13:21,933
+Le risque, c'est d'être découragé et d'abandonné, d'arrêter son habitude.
+
+186
+00:13:22,133 --> 00:13:27,066
+Donc, il faut faire attention à ne pas être submergé, à ne pas avoir trop de
+
+187
+00:13:27,200 --> 00:13:27,933
+cartes.
+
+188
+00:13:28,133 --> 00:13:32,933
+Pour ça, on utilise le nombre de nouvelles cartes à apprendre par jour.
+
+189
+00:13:33,133 --> 00:13:39,200
+Je recommande de commencer à cinq et au bout d'une ou deux semaines, vous pouvez
+
+190
+00:13:39,200 --> 00:13:39,966
+augmenter.
+
+191
+00:13:40,133 --> 00:13:43,933
+En général, 10 nouvelles cartes par jour, c'est OK.
+
+192
+00:13:44,133 --> 00:13:47,933
+15, ça commence à demander plus de travail.
+
+193
+00:13:48,133 --> 00:13:53,933
+Comme les cartes s'accumulent au fur et à mesure, si vous commencez en étant
+
+194
+00:13:53,933 --> 00:13:57,966
+très motivé et que vous apprenez 20 nouvelles cartes par jour,
+
+195
+00:13:58,133 --> 00:14:03,933
+vous allez vraiment voir l'impact seulement une ou deux semaines après.
+
+196
+00:14:04,133 --> 00:14:09,933
+Donc, il faut vraiment faire attention et augmenter progressivement.
+
+197
+00:14:10,100 --> 00:14:14,933
+Également, si vous ratez une journée de révision, les cartes vont s'accumuler.
+
+198
+00:14:15,133 --> 00:14:20,933
+Dans ce cas, mettez le nombre de nouvelles cartes à zéro et faites d'abord
+
+199
+00:14:21,066 --> 00:14:24,966
+toutes vos révisions avant d'apprendre de nouvelles cartes.
+
+200
+00:14:25,133 --> 00:14:30,066
+Le nombre de nouvelles cartes par jour, c'est la vitesse à laquelle vous allez,
+
+201
+00:14:30,200 --> 00:14:34,933
+mais il faut faire attention à ne pas vouloir aller trop vite.
+
+202
+00:14:37,666 --> 00:14:41,200
+Le plus important, c'est l'immersion. C'est écouter la
+
+203
+00:14:41,200 --> 00:14:41,966
+langue.
+
+204
+00:14:42,133 --> 00:14:47,233
+Dans votre routine, il ne faut pas passer plus de temps à faire des cartes et à
+
+205
+00:14:47,266 --> 00:14:52,966
+les réviser qu'à faire de l'immersion. C'est contre-productif.
+
+206
+00:14:53,133 --> 00:14:57,933
+Bon, au début, créer des cartes, ça va peut-être prendre un peu plus de temps.
+
+207
+00:14:58,133 --> 00:15:03,333
+Mais si, à un moment, vous voyez que vous passez plus de temps à réviser des
+
+208
+00:15:03,333 --> 00:15:09,333
+cartes qu'à faire de l'immersion, réduisez votre nombre de nouvelles cartes par
+
+209
+00:15:09,333 --> 00:15:09,900
+jour.
+
+210
+00:15:10,100 --> 00:15:15,733
+Également, il faut éviter le pilote automatique. Quand on revoit tous les matins
+
+211
+00:15:15,766 --> 00:15:16,966
+nos cartes,
+
+212
+00:15:17,133 --> 00:15:22,433
+bah parfois, on peut passer en pilote automatique, c'est-à-dire juste revoir
+
+213
+00:15:22,633 --> 00:15:24,966
+sans vraiment être concentré.
+
+214
+00:15:25,133 --> 00:15:30,433
+Dans ce cas, l'apprentissage devient assez inefficace et donc, il faut faire
+
+215
+00:15:30,633 --> 00:15:36,966
+attention à être un minimum concentré pour vraiment apprendre le vocabulaire.
+
+216
+00:15:37,133 --> 00:15:42,933
+Et dernier point, il faut donc faire attention à maîtriser son nombre de cartes.
+
+217
+00:15:43,133 --> 00:15:48,833
+Si vous manquez de temps, diminuez votre nombre de cartes. Il vaut mieux moins
+
+218
+00:15:48,833 --> 00:15:55,100
+de cartes et passer plus de temps à réviser en étant concentré, plutôt que de
+
+219
+00:15:55,100 --> 00:15:59,966
+vouloir augmenter au maximum le nombre de cartes par jour.
+
+220
+00:16:00,133 --> 00:16:05,066
+Il faut trouver son rythme de croisière et, si besoin, ajuster de temps en
+
+221
+00:16:05,200 --> 00:16:05,933
+temps.
+
+222
+00:16:06,133 --> 00:16:10,500
+Voilà, j'espère que cette vidéo vous aura plu. Si c'est le cas, n'hésitez pas à
+
+223
+00:16:10,500 --> 00:16:12,966
+laisser un "j'aime" et un "commentaire".
+
+224
+00:16:13,066 --> 00:16:18,966
+J'ai également un Patreon si vous voulez me soutenir. Il y a un Discord privé et
+
+225
+00:16:19,066 --> 00:16:21,966
+je crée aussi du contenu exclusif.
+
+226
+00:16:22,133 --> 00:16:26,800
+Donc, si vous voulez me soutenir, n'hésitez pas à cliquer sur le lien dans la
+
+227
+00:16:26,800 --> 00:16:27,933
+description.
+
+228
+00:16:28,133 --> 00:16:31,933
+Merci d'avoir regardé jusqu'au bout et à la prochaine !
+

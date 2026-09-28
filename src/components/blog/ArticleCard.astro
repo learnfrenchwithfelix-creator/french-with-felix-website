@@ -1,0 +1,149 @@
+---
+import Badge from '../ui/Badge.astro';
+
+type Level = 'A1' | 'A2' | 'B1' | 'B2';
+
+const CATEGORY_LABELS: Record<string, string> = {
+  grammaire:   'Grammar',
+  vocabulaire: 'Vocabulary',
+  culture:     'French Culture',
+  methodes:    'Learning Tips',
+  phonetique:  'Pronunciation',
+};
+
+interface Props {
+  articleNumber?: number;
+  title: string;
+  description?: string;
+  category: string;
+  readingTime?: number;
+  publishDate?: Date | string;
+  level?: string[];
+  href: string;
+  variant?: 'card' | 'list';
+}
+
+const {
+  articleNumber,
+  title,
+  description,
+  category,
+  readingTime,
+  publishDate,
+  level,
+  href,
+  variant = 'card',
+} = Astro.props;
+
+const categoryLabel = CATEGORY_LABELS[category] ?? category;
+
+function formatDate(d: Date | string): string {
+  const date = d instanceof Date ? d : new Date(d);
+  return date.toLocaleDateString('en-GB', { month: 'short', year: 'numeric' });
+}
+
+const metaParts: string[] = [];
+if (readingTime) metaParts.push(`${readingTime} min`);
+if (publishDate) metaParts.push(formatDate(publishDate));
+const metaLine = metaParts.join(' · ');
+
+const LEVEL_ORDER: Record<Level, number> = { A1: 0, A2: 1, B1: 2, B2: 3 };
+const validLevels = (level ?? [])
+  .filter((l): l is Level => ['A1', 'A2', 'B1', 'B2'].includes(l))
+  .sort((a, b) => LEVEL_ORDER[a] - LEVEL_ORDER[b])
+  .slice(-2);
+---
+
+{variant === 'list' ? (
+
+  <a
+    href={href}
+    class="group flex flex-col border-b border-border py-9"
+    data-category={category}
+  >
+    <!-- Title -->
+    <h2 class="text-[26px] font-bold leading-[1.2] tracking-[-0.02em] text-title transition-colors group-hover:text-accent">
+      {title}
+    </h2>
+
+    <!-- Description — spacing-sm (16px) under title -->
+    {description && (
+      <p class="mt-4 max-w-[660px] text-[15px] leading-[1.65] text-body">{description}</p>
+    )}
+
+    <!-- Meta row: category · badge(s) · reading time · date — spacing-md (24px) under description -->
+    <div class="mt-6 flex flex-wrap items-center gap-x-3 gap-y-1 font-mono text-[12px] tracking-[0.08em] text-muted">
+      <span class="uppercase">{categoryLabel}</span>
+      {validLevels.length > 0 && (
+        <Fragment>
+          <span aria-hidden="true">·</span>
+          <div class="flex gap-1.5">
+            {validLevels.map(l => <Badge level={l} />)}
+          </div>
+        </Fragment>
+      )}
+      {metaLine && (
+        <Fragment>
+          <span aria-hidden="true">·</span>
+          <span>{metaLine}</span>
+        </Fragment>
+      )}
+    </div>
+
+    <!-- CTA — 12px under meta -->
+    <span class="mt-3 font-mono text-[13px] text-accent">Continue reading →</span>
+  </a>
+
+) : (
+
+  <a
+    href={href}
+    class="article-card flex flex-col rounded-card border border-border bg-bg p-6 transition-transform"
+    data-category={category}
+  >
+    <!-- Top row: article number + category -->
+    <div class="mb-[18px] flex items-start justify-between gap-2">
+      {articleNumber != null && (
+        <span class="font-mono text-[11px] font-medium text-muted">
+          #{String(articleNumber).padStart(2, '0')}
+        </span>
+      )}
+      <span class="ml-auto font-mono text-[11px] font-medium uppercase tracking-[0.1em] text-muted">
+        {categoryLabel}
+      </span>
+    </div>
+
+    <!-- Title -->
+    <h3 class="mb-3 font-display text-[19px] font-bold leading-[1.25] tracking-[-0.02em] text-title">
+      {title}
+    </h3>
+
+    <!-- Description (optional) -->
+    {description && (
+      <p class="mb-4 line-clamp-2 text-[14px] leading-[1.55] text-muted">{description}</p>
+    )}
+
+    <!-- Level badges (if present) -->
+    {validLevels.length > 0 && (
+      <div class="mb-4 flex flex-wrap gap-1.5">
+        {validLevels.map(l => <Badge level={l} />)}
+      </div>
+    )}
+
+    <!-- Footer: meta + arrow -->
+    <div class="mt-auto flex items-center justify-between border-t border-border pt-3.5">
+      <span class="text-[13px] text-muted">{metaLine}</span>
+      <span class="article-arrow text-[13px] text-muted transition-colors">→</span>
+    </div>
+  </a>
+
+)}
+
+<style>
+  .article-card:hover {
+    transform: translateY(-3px);
+  }
+  .article-card:hover .article-arrow {
+    color: var(--color-accent);
+  }
+</style>

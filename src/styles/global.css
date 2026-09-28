@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@config "../../tailwind.config.mjs";
+
+:root {
+  --header-height: 73px; /* overridden by JS measurement in BaseLayout */
+
+  --color-bg: #F1F1F0;
+  --color-title: #2C3A48;
+  --color-liseret: #21456E;
+  --color-accent: #C8312A;
+  --color-accent-dark: #A42822;
+  --color-body: #1C1C1E;
+  --color-muted: #6B7280;
+  --color-surface: #E8E8E7;
+  --color-border: #D1D1CF;
+
+  --weight-light: 300;
+  --weight-bold: 700;
+}
+
+[data-theme="dark"] {
+  --color-bg: #1C1C1E;
+  --color-title: #F1F1F0;
+  --color-liseret: #21456E;
+  --color-accent: #C8312A;
+  --color-body: #E8E8E7;
+  --color-muted: #9CA3AF;
+  --color-surface: #2A2A2C;
+  --color-border: #3A3A3C;
+}

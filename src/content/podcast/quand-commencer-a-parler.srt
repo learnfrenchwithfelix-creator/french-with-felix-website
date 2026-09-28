@@ -1,0 +1,892 @@
+1
+00:00:00,399 --> 00:00:10,920
+Bonjour tout le monde et bienvenue dans une nouvelle vidéo. Aujourd'hui, on va parler de l'apprentissage du français et
+
+2
+00:00:10,920 --> 00:00:18,920
+je vais essayer de répondre à la question: quand est-ce qu'il faut commencer à parler? Quand est-ce qu'il
+
+3
+00:00:18,920 --> 00:00:26,400
+faut commencer à pratiquer l'expression? C'est un sujet qui fait souvent débat.
+
+4
+00:00:26,400 --> 00:00:31,480
+Il y a souvent des débats sur ce sujet parce que il va y avoir des personnes
+
+5
+00:00:31,480 --> 00:00:39,719
+qui vont dire il faut attendre au maximum avant de parler et d'autres personnes qui vont dire il faut tout de
+
+6
+00:00:39,719 --> 00:00:48,800
+suite commencer à parler dans la langue pour apprendre. Et donc aujourd'hui, je vais vous parler de cette question et je
+
+7
+00:00:48,800 --> 00:00:55,600
+vais essayer de vous donner mes réponse et pour ça je vais structurer la vidéo
+
+8
+00:00:55,600 --> 00:00:58,840
+en plusieurs parties.
+
+9
+00:00:58,840 --> 00:01:09,159
+Partie une, l'apprentissage des langues, c'est comme un iceberg. Donc ça, je vais vous expliquer pourquoi je pense ça.
+
+10
+00:01:09,159 --> 00:01:19,240
+Deuxème partie, mon expérience personnel avec le japonais. Donc avec le japonais, j'ai utilisé une méthode et je vais vous
+
+11
+00:01:19,240 --> 00:01:25,119
+expliquer laquelle. Je vais vous expliquer la méthode que j'ai utilisé.
+
+12
+00:01:25,119 --> 00:01:34,200
+Partie 3, mon expérience avec le portugais. Donc, j'apprends le japonais et le portugais. Et pour ce qui est du
+
+13
+00:01:34,200 --> 00:01:41,720
+portugais, dans le cas du portugais, j'ai utilisé une méthode un peu différente. Je vais vous expliquer ce
+
+14
+00:01:41,720 --> 00:01:46,560
+que j'ai fait et pourquoi est-ce que j'ai fait ça comme ça. Et enfin, la
+
+15
+00:01:46,560 --> 00:01:54,880
+dernière partie, ça sera mes recommandations. Ce sera une conclusion avec mes recommandations pour répondre à
+
+16
+00:01:54,880 --> 00:02:03,520
+cette question. Si ça vous intéresse, le script est disponible gratuitement sur mon Patreon et je vous mets le lien dans
+
+17
+00:02:03,520 --> 00:02:11,319
+la description. Donc pour cette première partie, j'avais envie de parler de l'apprentissage des langues comme un
+
+18
+00:02:11,319 --> 00:02:20,720
+iceberg. Donc un iceberg, c'est ces grands morceaux de glace au milieu de l'océan. Et du coup, la particularité en
+
+19
+00:02:20,720 --> 00:02:26,360
+fait d'un iceberg, c'est qu'il y a une partie sous l'eau et il y a une partie
+
+20
+00:02:26,360 --> 00:02:31,640
+en dehors de l'eau. Et c'est ça qui va nous intéresser. En fait, en français,
+
+21
+00:02:31,640 --> 00:02:38,040
+il y a une expression qui qui dit la face cachée de l'iceberg. La face
+
+22
+00:02:38,040 --> 00:02:40,680
+cachée, donc c'est la face sous l'eau.
+
+23
+00:02:40,680 --> 00:02:46,080
+C'est la face qu'on ne peut pas voir parce qu'elle est cachée sous l'eau.
+
+24
+00:02:46,080 --> 00:02:54,000
+Cette expression en fait souvent on l'utilise pour parler d'une partie invisible d'un problème. Si je parle
+
+25
+00:02:54,000 --> 00:03:00,760
+d'un sujet, si je parle d'un problème, mais que je ne parle pas d'une partie
+
+26
+00:03:00,760 --> 00:03:05,040
+entière, on va dire que c'est un peu la partie cachée du problème et on va
+
+27
+00:03:05,040 --> 00:03:08,319
+appeler ça la face cachée de l'iceberg.
+
+28
+00:03:08,319 --> 00:03:14,200
+Pourquoi est-ce que je dis ça? C'est parce qu'en fait dans l'apprentissage des langues, c'est
+
+29
+00:03:14,200 --> 00:03:20,480
+la même chose. Il y a deux parties. Il y a l'immersion et il y a l'expression.
+
+30
+00:03:20,480 --> 00:03:25,159
+Enfin, il y a la compréhension et il y a l'expression.
+
+31
+00:03:25,159 --> 00:03:34,720
+Quand on pense à l'apprentissage d'une langue, la partie visible c'est en fait de pouvoir parler la langue. Ça c'est en
+
+32
+00:03:34,720 --> 00:03:41,400
+fait si vous dites à tout le monde "J'apprends le japonais" mais que vous ne pouvez pas parler, tout le monde va
+
+33
+00:03:41,400 --> 00:03:46,159
+se dire "Bah en fait il ne s'est il ne connaît pas enfin il n'a pas appris le
+
+34
+00:03:46,159 --> 00:03:53,480
+japonais tout simplement parce que c'est la seule partie qui est vraiment visible. La partie de la compréhension,
+
+35
+00:03:53,480 --> 00:04:01,920
+ce n'est invisible. En fait, les personnes autour de vous ne peuvent pas savoir si vous comprenez bien ou pas une
+
+36
+00:04:01,920 --> 00:04:11,000
+langue. Ils peuvent savoir mais c'est moins visible que l'expression. Et en fait pour que un iceberg flotte, il y a
+
+37
+00:04:11,000 --> 00:04:18,680
+une statistique qui dit que 90 % de l'iceberg est sous l'eau. Et en fait
+
+38
+00:04:18,680 --> 00:04:26,520
+dans l'apprentissage des langues, c'est un peu la même chose. Souvent il y a cette phrase qui dit "Je comprends mais
+
+39
+00:04:26,520 --> 00:04:33,120
+je ne peux pas parler." Et ça c'est normal. C'est tout à fait normal pour la
+
+40
+00:04:33,120 --> 00:04:41,759
+simple et bonne raison qu'on a une plus grande connaissance passive. On connaît plus de mots, on reconnaît plus de mots
+
+41
+00:04:41,759 --> 00:04:49,600
+qu'on ne peut qu'on ne peut utiliser. Même les natifs, c'est comme ça. Même pour les natifs, je suis
+
+42
+00:04:49,600 --> 00:05:00,479
+français et donc quand je parle, j'utilise environ 10000 mots. 10 15 jusqu'à 20000 maximum, je pense, mots.
+
+43
+00:05:00,479 --> 00:05:05,639
+Mais quand je lis un livre en fait, je comprends 30 à 40000 mots. Bon, les
+
+44
+00:05:05,639 --> 00:05:12,320
+statistiques ne sont pas hyper précises, mais vous comprenez l'idée. L'idée, c'est que on comprend beaucoup plus de
+
+45
+00:05:12,320 --> 00:05:21,160
+mots qu'on utilise. Quand je parle, j'utilise un vocabulaire beaucoup moins large, beaucoup plus
+
+46
+00:05:21,160 --> 00:05:29,240
+restreint et j'utilise beaucoup moins de mots. Si demain j'essaie de lire
+
+47
+00:05:29,240 --> 00:05:35,240
+un livre assez compliqué, on va dire du Marcel Prou, bah il va y avoir beaucoup
+
+48
+00:05:35,240 --> 00:05:40,560
+de mots que je n'utilise jamais mais je vais quand même comprendre.
+
+49
+00:05:40,560 --> 00:05:47,960
+Sur l'iceberg, la partie sous l'eau est beaucoup plus grosse que la partie visible. L'apprentissage des langues,
+
+50
+00:05:47,960 --> 00:05:55,720
+c'est la même chose. La partie de compréhension et doit être elle est naturellement beaucoup plus large que
+
+51
+00:05:55,720 --> 00:05:57,960
+notre partie d'expression.
+
+52
+00:05:57,960 --> 00:06:04,319
+Ce qui est logique, si vous ne comprenez pas, vous ne pouvez pas utiliser vous-même ces mots. C'est tout à fait
+
+53
+00:06:04,319 --> 00:06:09,479
+logique. Et du coup, en fait, quand on se pose la question quand est-ce qu'on
+
+54
+00:06:09,479 --> 00:06:18,199
+peut commencer à parler, bah déjà il faut construire la base. Il faut pouvoir utiliser des structures de phrases, des
+
+55
+00:06:18,199 --> 00:06:27,120
+mots de vocabulaire qu'on comprend. Si on essaie d'utiliser quelque chose qu'on ne comprend pas, ça ne peut pas marcher.
+
+56
+00:06:27,120 --> 00:06:31,039
+Et du coup, c'est pour ça que en général, il y a toujours une partie
+
+57
+00:06:31,039 --> 00:06:40,199
+compréhension puis expression, input et après output. Et ça c'est valable pour toutes les langues. Dans toutes les
+
+58
+00:06:40,199 --> 00:06:46,800
+langues, il faut quand même avoir une base. Il faut quand même construire la partie qui n'est qui n'est pas visible,
+
+59
+00:06:46,800 --> 00:06:54,800
+la partie invisible, la partie de l'iceberg qui est sous l'eau avant de construire la partie visible, donc
+
+60
+00:06:54,800 --> 00:07:07,039
+l'expression. Il faut travailler la compréhension et après vous pouvez travailler l'expression. Ça c'est l'ordre naturel, c'est l'ordre logique.
+
+61
+00:07:07,039 --> 00:07:14,360
+Et maintenant du coup la question c'est quand est-ce qu'on commence à construire la partie visible de l'iceberg? Quand
+
+62
+00:07:14,360 --> 00:07:20,080
+est-ce qu'on commence à parler et à s'entraîner pour parler? Et du coup ça
+
+63
+00:07:20,080 --> 00:07:26,759
+pour ça, je vais prendre l'exemple du japonais et du portugais qui sont deux langues très différentes. Et je vais
+
+64
+00:07:26,759 --> 00:07:33,639
+vous montrer pourquoi c'est important, pourquoi c'est intéressant de regarder ces deux langues. Ma première
+
+65
+00:07:33,639 --> 00:07:41,199
+expérience, c'est avec le japonais. À l'école, j'ai appris l'anglais et l'espagnol, mais ma vraie première
+
+66
+00:07:41,199 --> 00:07:49,919
+expérience en autodidacte, donc quand j'étudie par moi-même, quand j'étudie tout seul, c'est avec le japonais. Et en
+
+67
+00:07:49,919 --> 00:07:58,199
+fait, quand j'ai commencé à m à m'intéresser, pardon, à l'apprentissage du japonais, j'ai regardé sur internet
+
+68
+00:07:58,199 --> 00:08:06,319
+comment devenir fluente en japonais en 4 mois. Bon, j'ai trouvé des méthodes miracles mais en fait je me suis
+
+69
+00:08:06,319 --> 00:08:13,960
+intéressé plus sérieusement à l'apprentissage des langue et notamment il y avait la méthode du
+
+70
+00:08:13,960 --> 00:08:21,879
+compréhensible input. C'est très à la mode mais le compréhensible input, je vais plutôt dire l'apprentissage par
+
+71
+00:08:21,879 --> 00:08:30,039
+immersion. Ça consiste à regarder, à lire énormément de contenu dans la langue que vous voulez apprendre.
+
+72
+00:08:30,039 --> 00:08:38,680
+L'objectif, c'est d'avoir un contenu que vous pouvez comprendre pour construire votre compréhension. Il faut comprendre,
+
+73
+00:08:38,680 --> 00:08:45,800
+il faut que ce soit un peu difficile pour apprendre de nouveaux mots et cetera. Et en fait, l'immersion, c'est
+
+74
+00:08:45,800 --> 00:08:54,160
+construire la partie immergée de l'iceberg. Immerger, ça veut dire qui est sous l'eau. Im, ça veut dire dans
+
+75
+00:08:54,160 --> 00:08:59,720
+immersion, c'est quand on est dans quand on est dans la langue.
+
+76
+00:08:59,720 --> 00:09:05,240
+Immerger, c'est la partie qui est dans l'eau, qui est dans la mer.
+
+77
+00:09:05,240 --> 00:09:12,079
+Et ça du coup quand j'ai commencé à m'intéresser à l'apprentissage du japonais très rapidement je voyais
+
+78
+00:09:12,079 --> 00:09:20,800
+toutous les enfin les gourous de l'apprentissage des langues qui disaient il ne faut absolument pas parler dès le
+
+79
+00:09:20,800 --> 00:09:30,519
+début. Il faut attendre au maximum avant de faire de l'expression, avant de faire de l'output. Il faut se concentrer à 100
+
+80
+00:09:30,519 --> 00:09:39,000
+% et uniquement sur la compréhension avant d'essayer de faire de l'expression. Et c'est ce que j'ai fait.
+
+81
+00:09:39,000 --> 00:09:47,320
+Et en fait, c'est assez logique pour le japonais parce que le japonais, je n'avais zéro connaissance et il n'y a
+
+82
+00:09:47,320 --> 00:09:55,640
+aucune similitude avec le français. Une similitude c'est des points de ressemblance. Il n'y a aucun point
+
+83
+00:09:55,640 --> 00:09:59,160
+commun entre le français et le japonais.
+
+84
+00:09:59,160 --> 00:10:07,480
+Et donc forcément quand j'ai commencé à m'intéresser au japonais, ma compréhension était de zéro. Je ne
+
+85
+00:10:07,480 --> 00:10:13,959
+comprenais rien et il n'y avait même pas des mots ou que je pouvais comprendre
+
+86
+00:10:13,959 --> 00:10:15,640
+indirectement.
+
+87
+00:10:15,640 --> 00:10:20,079
+Si vous parlez anglais, il y a sûrement beaucoup de mots français où vous vous
+
+88
+00:10:20,079 --> 00:10:25,959
+dites "Ah oui, d'accord, je pense comprendre ce mot." Il y a des faux amis. Un faux
+
+89
+00:10:25,959 --> 00:10:30,480
+amis, c'est un mot qui ressemble mais qui ne veut pas dire la même chose. Mais
+
+90
+00:10:30,480 --> 00:10:37,000
+il y a beaucoup de mots qui se ressemblent. Pour le japonais, ce n'est pas du tout le cas. C'est très c'est
+
+91
+00:10:37,000 --> 00:10:43,240
+complètement différent et c'est enfin, je veux dire, c'est assez évident.
+
+92
+00:10:43,240 --> 00:10:47,560
+Et du coup, pendant 3 ans, j'ai fait de l'immersion. J'ai pendant 3 ans, je ne
+
+93
+00:10:47,560 --> 00:10:55,120
+faisais que de la compréhension. Je n'essayais pas de parler. Je ne faisais que regarder des vidéos, écouter des
+
+94
+00:10:55,120 --> 00:11:00,519
+podcasts, lire des textes, cetera. Au bout de 3 ans, avec ma femme, on est
+
+95
+00:11:00,519 --> 00:11:05,600
+parti 1 an au Japon et en fait à ce moment-là, ben forcément, j'ai commencé
+
+96
+00:11:05,600 --> 00:11:14,519
+à essayer de parler. Alors, c'est hyper frustrant. J'avais beaucoup de frustration parce que quand on
+
+97
+00:11:14,519 --> 00:11:21,200
+comprend mais qu'on ne peut pas parler, c'est très frustrant. On a l'impression de de comprendre mais en même temps de
+
+98
+00:11:21,200 --> 00:11:30,760
+ne pas pouvoir interagir et c'est pas une situation très agréable. Mais en fait ce que j'ai remarqué c'est que le
+
+99
+00:11:30,760 --> 00:11:39,079
+conseil des personnes qui est de dire attendre le maximum avant de parler. En fait j'ai compris pourquoi il il donnait
+
+100
+00:11:39,079 --> 00:11:47,680
+ça comme conseil. J'ai compris pourquoi il donnait ce conseil. Tout simplement parce que quand on construit la partie
+
+101
+00:11:47,680 --> 00:11:54,959
+immergée de l'iceberg, quand on construit la partie invisible, notre compréhension, en fait, on crée des
+
+102
+00:11:54,959 --> 00:12:03,279
+automatismes, on crée des patterns et des ce qu'on peut appeler aussi des chunks. Je vais expliquer ce que c'est.
+
+103
+00:12:03,279 --> 00:12:11,200
+Et du coup quand on commence à parler, notre progression pour l'expression, notre progression pour parler et elle
+
+104
+00:12:11,200 --> 00:12:16,680
+est elle est plus rapide en fait parce que on a déjà beaucoup de connaissances
+
+105
+00:12:16,680 --> 00:12:24,519
+passive. C'est une connaissance passive la compréhension. Mais quand on essaie de parler et ben on peut activer plus
+
+106
+00:12:24,519 --> 00:12:33,000
+facilement ses connaissances. C'est en fait si je vous dis de construire l'iceberg avec la face
+
+107
+00:12:33,000 --> 00:12:39,839
+visible la plus grosse possible, en fait, il faut commencer par construire la partie qui est sous l'eau pour
+
+108
+00:12:39,839 --> 00:12:49,720
+ensuite pouvoir faire un une grande partie en dehors de l'eau. Je ne sais pas si l'exemple est très parlant, mais
+
+109
+00:12:49,720 --> 00:12:57,440
+j'espère que vous comprenez l'idée. Et c'est ça la compréhension, c'est construire la base solide. Pour ensuite
+
+110
+00:12:57,440 --> 00:13:01,680
+pouvoir construire la partie visible.
+
+111
+00:13:01,680 --> 00:13:06,720
+Et ça ça peut être un peu frustrant parce que quand on dit "J'apprends le
+
+112
+00:13:06,720 --> 00:13:11,079
+japonais", moi ça faisait 3 ans que je disais à tout le monde "J'apprends le
+
+113
+00:13:11,079 --> 00:13:16,720
+japonais tous les jours et cetera et que à un moment je dois parler et que je
+
+114
+00:13:16,720 --> 00:13:24,680
+suis làashi watashiwa" et que j'ai du mal à parler, bah les gens autour de moi, ils se
+
+115
+00:13:24,680 --> 00:13:30,560
+disent "Mais qu'est-ce qu'il a fait pendant 3 ans parce qu'en fait il il ne il ne voit que
+
+116
+00:13:30,560 --> 00:13:34,600
+la partie visible et du coup ils se disent "Mais je comprends pas, vous vous
+
+117
+00:13:34,600 --> 00:13:38,800
+apprenez depuis 3 ans et vous ne pouvez pas parler." Et je me rappelle mon
+
+118
+00:13:38,800 --> 00:13:43,199
+beau-frère m'a dit cette phrase, il m'a dit "Mais je comprends pas, ça fait 3
+
+119
+00:13:43,199 --> 00:13:48,839
+ans que tu apprends et tu ne peux pas parler." Et moi sur le moment, j'étais
+
+120
+00:13:48,839 --> 00:13:55,920
+je me disais bah ouais, je je suis nul, ça j'ai rien fait. Enfin, mon
+
+121
+00:13:55,920 --> 00:14:00,480
+apprentissage pendant 3 ans n'a pas été efficace. Je me disais ça et en fait
+
+122
+00:14:00,480 --> 00:14:07,279
+avec du recul, c'est faux. C'est efficace parce que vous créez des automatismes, des patterns et des
+
+123
+00:14:07,279 --> 00:14:14,040
+chunks. Les chunk ou les patterns, c'est des morceaux de phrases qui deviennent automatiques. Et ça c'est important
+
+124
+00:14:14,040 --> 00:14:22,240
+parce que même si vous apprenez du vocabulaire, si vous n'avez pas ces blocs en fait, vous n'allez pas réussir
+
+125
+00:14:22,240 --> 00:14:31,199
+à parler avec fluidité. Vous allez parler, ça va être compliqué. Si je prends une phrase comme "J'ai pas trop
+
+126
+00:14:31,199 --> 00:14:35,199
+envie d'aller au resto ce soir et j'ai pas trop envie d'aller au resto ce
+
+127
+00:14:35,199 --> 00:14:43,320
+soir." Là en fait vous avez un bloc, c'est j'ai pas trop envie de je n'ai pas
+
+128
+00:14:43,320 --> 00:14:51,440
+trop envie d'eux. Techniquement, vous connaissez sûrement tous les mots de vocabulaire de ce morceau, mais en fait
+
+129
+00:14:51,440 --> 00:14:57,600
+quand c'est dit d'un coup comme ça, ça peut être un peu vous vous pouvez ne pas
+
+130
+00:14:57,600 --> 00:15:03,199
+comprendre en fait parce que j'ai pas trop envie d'aller au resto ce soir.
+
+131
+00:15:03,199 --> 00:15:08,040
+I don't have I don't La traduction ça serait I don't really want to go to the
+
+132
+00:15:08,040 --> 00:15:13,000
+restaurant tonight. Mais I don't really want et je n'ai pas trop envie. Ce n'est
+
+133
+00:15:13,000 --> 00:15:15,519
+pas vraiment une traduction parfaite.
+
+134
+00:15:15,519 --> 00:15:22,079
+Enfin, ce n'est pas une traduction directe. Et en fait, si vous voulez parler correctement, enfin si vous
+
+135
+00:15:22,079 --> 00:15:28,880
+voulez parler naturellement, il faut commencer à s'approprier ce genre de bloc.
+
+136
+00:15:28,880 --> 00:15:36,440
+Et ça ça marche par l'expression parce que quand vous allez entendre plusieurs fois une personne enfin plusieurs
+
+137
+00:15:36,440 --> 00:15:43,880
+personnes dans des podcasts dans des textes différents, les personnes dirent "Ah ouais, j'ai pas trop envie, j'ai pas
+
+138
+00:15:43,880 --> 00:15:50,279
+trop envie d'aller en Espagne cet été, j'ai pas trop envie de partir en vacances et cetera." À force d'avoir de
+
+139
+00:15:50,279 --> 00:15:55,440
+la répétition dans la compréhension, vous allez enregistrer un peu ce chunk.
+
+140
+00:15:55,440 --> 00:16:02,360
+Vous allez enregistrer ce bloc et quand vous allez commencer à parler, quand vous allez activer, si vous arrivez à
+
+141
+00:16:02,360 --> 00:16:08,959
+activer ce bloc, bah ça va venir beaucoup plus naturellement. Et personnellement, c'est ce qui s'est
+
+142
+00:16:08,959 --> 00:16:15,560
+passé avec le japonais. Alors, ce n'est pas magique, hein. Ce n'est pas un claquement de doigt comme on dit. Un
+
+143
+00:16:15,560 --> 00:16:23,680
+claquement de doigt, c'est quelque chose qui voilà qui réussit d'un coup. Ce n'est pas ça. Mais en tout cas, ça aide
+
+144
+00:16:23,680 --> 00:16:32,560
+à avoir l'impression enfin à avoir un construire sa son expression plus naturellement. Et donc c'est pour ça que
+
+145
+00:16:32,560 --> 00:16:39,079
+c'est important de construire la compréhension avant l'expression. Le problème c'est que quand on fait de la
+
+146
+00:16:39,079 --> 00:16:46,319
+compréhension, le risque c'est d'être trop passif en fait, de voir de l'information mais de ne pas
+
+147
+00:16:46,319 --> 00:16:54,560
+l'enregistrer. Si on est trop passif, ce n'est plus vraiment efficace. Et donc pour ça, je vais vous parler de mon
+
+148
+00:16:54,560 --> 00:17:01,839
+apprentissage du portugais dans cette troisème partie. En fait, quand j'ai commencé à apprendre le portugais, je me
+
+149
+00:17:01,839 --> 00:17:09,480
+suis dit, je vais faire exactement la même chose qu'en japonais, c'est-à-dire que je vais faire un maximum d'immersion
+
+150
+00:17:09,480 --> 00:17:14,919
+et dans 6 mois, 1 an, je vais parler. Et en fait, ce que je me suis rendu compte,
+
+151
+00:17:14,919 --> 00:17:23,319
+c'est que très vite, je me suis ennuyé en portugais tout simplement parce que la langue est très similaire au
+
+152
+00:17:23,319 --> 00:17:30,559
+français. Et du coup, j'avais l'impression de comprendre des contenus natifs alors que c'est censé être dur.
+
+153
+00:17:30,559 --> 00:17:36,880
+Et en même temps, je n'avais pas l'impression de progresser parce que je sais pas, j'ai j' c'était un peu
+
+154
+00:17:36,880 --> 00:17:45,160
+frustrant parce que j'avais l'impression que ça n'avançait pas. Je n'avais pas l'impression d'avancer, de progresser.
+
+155
+00:17:45,160 --> 00:17:49,640
+Et ça en fait la raison c'est que le portugais comme c'est très similaire au
+
+156
+00:17:49,640 --> 00:17:55,600
+français, ben en fait j'ai déjà une base sous l'eau. Là mon iceberg, il y a déjà
+
+157
+00:17:55,600 --> 00:18:03,480
+une base sous l'eau. Peut-être que les mots de vocabulaire ne sont pas les mêmes ou ne sont pas exactement les
+
+158
+00:18:03,480 --> 00:18:08,799
+mêmes, mais la structure des phrases est la même. Il y a des expressions qui sont
+
+159
+00:18:08,799 --> 00:18:16,159
+identiques. Par exemple, en français, pour parler au futur, on peut utiliser le futur proche, c'est-à-dire aller plus
+
+160
+00:18:16,159 --> 00:18:27,840
+un verbe. Je vais manger, je vais parler portugais. Et en portugais, en fait, c'est exactement pareil. Yo, fara
+
+161
+00:18:27,840 --> 00:18:35,039
+portugues portuguêes, c'est la même structure que je vais parler portugais. Et donc ça en
+
+162
+00:18:35,039 --> 00:18:43,679
+fait peut-être que je ne connais pas forcément mais c'est déjà une base qui existe. Et donc au début quand je ne
+
+163
+00:18:43,679 --> 00:18:50,600
+parlais pas du tout portugais, j'avais l'impression de ne de ne pas vraiment apprendre. Et en fait quand j'ai
+
+164
+00:18:50,600 --> 00:18:57,960
+commencé à parler, je me suis rendu compte que toute la partie très passive de l'immersion,
+
+165
+00:18:57,960 --> 00:19:04,640
+le fait de parler, d'écrire, ça me permettait de mieux mémoriser, de m'approprier le vocabulaire et de
+
+166
+00:19:04,640 --> 00:19:12,000
+m'approprier les blocs, les structures de phrases et cetera. Et ça c'est hyper important et c'est un argument pour dire
+
+167
+00:19:12,000 --> 00:19:16,880
+que il vaut mieux commencer assez vite à parler, c'est que quand on fait de la
+
+168
+00:19:16,880 --> 00:19:24,080
+compréhension, on est passif, on ne s'approprie pas vraiment les informations. Et si on ne s'approprie
+
+169
+00:19:24,080 --> 00:19:32,559
+pas les informations, le vocabulaire et cetera, ben on mémorise beaucoup moins. C'est beaucoup moins efficace
+
+170
+00:19:32,559 --> 00:19:38,200
+pour la mémorisation. Et du coup, ce que j'ai fait avec le portugais, c'est que
+
+171
+00:19:38,200 --> 00:19:46,400
+j'ai continué la compréhension, mais dès qu'il y avait un mot, une expression que je ne comprenais pas, j'essayais de
+
+172
+00:19:46,400 --> 00:19:55,159
+l'utiliser moi-même. J'essayais de me l'approprier et de créer mes propres phrases en portugais. Et du coup ce que
+
+173
+00:19:55,159 --> 00:20:02,440
+je fais maintenant c'est que je fais cette immersion et que à côté j'essaie d'utiliser les mots pour moi-même.
+
+174
+00:20:02,440 --> 00:20:08,799
+J'essaie de me créer des exemples. Et cette méthode, je l'utilise aussi maintenant pour le japonais.
+
+175
+00:20:08,799 --> 00:20:17,120
+C'est-à-dire que quand il y a un nouveau mot de vocabulaire, j'essaie de l'utiliser. Si je parle si je lis un
+
+176
+00:20:17,120 --> 00:20:24,600
+article sur la politique japonaise par exemple, je vais essayer d'utiliser le vocabulaire pour parler de la politique
+
+177
+00:20:24,600 --> 00:20:33,360
+française. Je vais me dire il faut que j'explique la politique française à un japonais. Et en fait, je pense que le
+
+178
+00:20:33,360 --> 00:20:38,720
+piège, c'est que au bout d'un moment la compréhension, on peut avoir l'impression de tout comprendre. Sauf
+
+179
+00:20:38,720 --> 00:20:43,000
+que ce n'est pas forcément le cas. Il y a des structures de phrases qui sont
+
+180
+00:20:43,000 --> 00:20:51,039
+assez sensibles, qui sont quasiment pareil mais qui ont des des sens un peu différents. Et c'est ça où il faut faire
+
+181
+00:20:51,039 --> 00:20:58,159
+attention, je pense à la compréhension, c'est que ça ne devienne pas trop passif. Et au fond, c'est un peu bizarre
+
+182
+00:20:58,159 --> 00:21:04,000
+parce que je pense que mon niveau de japonais est bien meilleur que mon niveau de portugais parce que en
+
+183
+00:21:04,000 --> 00:21:10,440
+japonais, je peux avoir une discussion assez facilement, une discussion basique alors qu'en portugais, j'ai encore du
+
+184
+00:21:10,440 --> 00:21:16,520
+mal. Et c'est bizarre parce que actuellement en portugais, j'étais au Portugal et je me je lis des romans.
+
+185
+00:21:16,520 --> 00:21:21,919
+Donc là, je lis Taipan, c'est la suite de Shogoun qui est un très bon
+
+186
+00:21:21,919 --> 00:21:27,400
+roman et c'est un énorme livre et le vocabulaire est assez enfin c'est du
+
+187
+00:21:27,400 --> 00:21:34,600
+vocabulaire assez spécifique mais en fait j'arrive à comprendre parce que c'est très similaire mais ça n'empêche
+
+188
+00:21:34,600 --> 00:21:41,760
+que mon niveau de portugais est moins élevé que mon niveau de japonais. Alors qu'en japonais, je serais incapable de
+
+189
+00:21:41,760 --> 00:21:46,679
+lire un livre comme celui-ci. Donc c'est pour ça c'est un peu bizarre. Mais mon
+
+190
+00:21:46,679 --> 00:21:54,240
+conseil du coup, c'est que si vous commencez à avoir l'impression que votre immersion devient un peu trop passive,
+
+191
+00:21:54,240 --> 00:22:01,840
+essayez d'activer les informations, essayez de parler, d'écrire sur des sujets. Ça peut être une conversation
+
+192
+00:22:01,840 --> 00:22:09,279
+basique ou ça peut être un sujet d'actualité. Qu'est-ce que vous pensez de l'écologie en France? Qu'est-ce que
+
+193
+00:22:09,279 --> 00:22:13,039
+vous pensez de la politique?
+
+194
+00:22:13,039 --> 00:22:19,960
+Par exemple, pour les niveaux d'elf B2, B1, B2 même, il y a beaucoup de
+
+195
+00:22:19,960 --> 00:22:25,360
+notions de débat, de défendre ses idées et cetera. Et du coup, ça, il faut vous
+
+196
+00:22:25,360 --> 00:22:31,159
+créer des débats et ça, ça peut être sur n'importe quel sujet. Ça peut être des
+
+197
+00:22:31,159 --> 00:22:38,080
+sujets très spécifiques comme des sujets moins spécifiques. Par exemple, est-ce que un sac Louis Vitton, ça vaut
+
+198
+00:22:38,080 --> 00:22:41,880
+vraiment 5000 €? Je ne pense pas.
+
+199
+00:22:41,880 --> 00:22:46,159
+Quelle est votre opinion? Désolé pour le petit coup de stress ou de pression,
+
+200
+00:22:46,159 --> 00:22:52,039
+mais voilà, c'est ce genre d'exemple qu'il faut pratiquer, je pense, parce que c'est là où vous allez essayer
+
+201
+00:22:52,039 --> 00:22:59,320
+d'activer le plus possible du vocabulaire. Et du coup pour finir, la conclusion et ma recommandation c'est
+
+202
+00:22:59,320 --> 00:23:04,080
+le premier point c'est de faire ce que vous aimez. Ça c'est hyper important
+
+203
+00:23:04,080 --> 00:23:11,840
+parce que souvent sur internet on voit plein de méthodologies mais si vous n'aimez pas utiliser cette méthodologie,
+
+204
+00:23:11,840 --> 00:23:19,760
+ne le faites pas. Essayez autre chose parce que si vous n'aimez pas, vous allez arrêter et vous allez abandonner.
+
+205
+00:23:19,760 --> 00:23:27,559
+Et une méthodologie, elle évolue au cours de l'apprentissage. Tout au long de votre apprentissage, la méthodologie
+
+206
+00:23:27,559 --> 00:23:35,440
+va évoluer. Et donc ça c'est hyper important parce que vous allez changer un peu de d'approche de
+
+207
+00:23:35,440 --> 00:23:41,039
+technique au fur et à mesure. Mon deuxième point, c'est essayer de commencer par l'immersion. Toujours
+
+208
+00:23:41,039 --> 00:23:49,120
+l'immersion, il faut que ce soit constant. Il faut que vous travaillez votre compréhension le plus possible.
+
+209
+00:23:49,120 --> 00:23:53,760
+C'est ça qui va être la base de votre iceberg, la base de votre niveau en
+
+210
+00:23:53,760 --> 00:24:03,640
+français. Donc continuez de pratiquer, restez écoutez, regardez des vidéos, des podcasts et cetera. Abonnez-vous à ma chaîne,
+
+211
+00:24:03,640 --> 00:24:11,159
+regardez toutes les vidéos, vous avez compris l'idée. Mais ça c'est important pour construire votre compréhension.
+
+212
+00:24:11,159 --> 00:24:16,919
+Quand vous construisez votre compréhension, ça va vous aider pour ensuite parler. Et enfin, si vous sentez
+
+213
+00:24:16,919 --> 00:24:22,720
+que ça devient trop passif, activez activez même pendant votre compréhension. C'est-à-dire que si
+
+214
+00:24:22,720 --> 00:24:29,679
+pendant cette vidéo, vous avez vu un mot que vous ne connaissez pas, mettez pause. Essayez de l'utiliser dans un un
+
+215
+00:24:29,679 --> 00:24:36,720
+exemple de votre propre vie. Et enfin, le dernier point, c'est que quand vous commencez à parler, ne vous mettez pas
+
+216
+00:24:36,720 --> 00:24:43,799
+trop de pression. Quand j'ai commencé à parler japonais, j'étais déçu. J'avais beaucoup de frustration parce que je
+
+217
+00:24:43,799 --> 00:24:52,159
+m'attendais à pouvoir parler plus facilement. Mais ça vient avec un peu de travail, ça s'active et donc ne vous
+
+218
+00:24:52,159 --> 00:24:59,240
+mettez pas trop de pression. Pareil pour l'accent, si vous avez un accent pas très beau, ce n'est pas très grave. Le
+
+219
+00:24:59,240 --> 00:25:05,399
+plus important, c'est que les personnes françaises vous comprennent ou les francophones vous comprennent. Et si
+
+220
+00:25:05,399 --> 00:25:09,679
+quelqu'un ne vous comprend pas, il vous le dira. Donc ne vous inquiétez pas et
+
+221
+00:25:09,679 --> 00:25:16,679
+continuez de travailler un petit peu tous les jours. Voilà, j'espère que cette vidéo vous aura plu. Si c'est le
+
+222
+00:25:16,679 --> 00:25:21,760
+cas, n'hésitez pas à me laisser un commentaire et un j'aime et je vous dis
+
+223
+00:25:21,760 --> 00:25:26,320
+à la prochaine pour une nouvelle vidéo.
+

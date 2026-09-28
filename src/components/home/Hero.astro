@@ -1,0 +1,41 @@
+---
+import Button from '../ui/Button.astro';
+---
+
+<section class="mx-auto grid max-w-[1180px] grid-cols-1 items-center gap-8 px-6 pb-20 pt-10 md:grid-cols-[1fr_auto] md:gap-10 md:px-12 md:pt-16 lg:gap-16">
+  <div class="order-2 text-center md:order-1 md:text-left">
+    <p data-reveal class="mb-6 font-mono text-xs font-medium uppercase tracking-[0.1em] text-muted">
+      Learn French, differently
+    </p>
+    <h1 data-reveal class="mb-7 font-display text-3xl leading-[1.08] tracking-[-0.045em] text-title md:text-4xl lg:text-6xl lg:leading-[1.04]">
+      <span style="font-weight: var(--weight-light)">From zero to immersion.</span><br />
+      <span style="font-weight: var(--weight-bold)">One platform, one journey.</span>
+    </h1>
+    <p data-reveal class="mx-auto mb-10 max-w-[560px] text-base leading-[1.6] text-muted md:mx-0 md:text-[19px]">
+      A French learning platform that guides you through the hardest transition — from studying French to actually living it. Four levels, live guidance, and a community that grows with you.
+    </p>
+    <div data-reveal class="flex flex-col items-center gap-2 sm:flex-row sm:justify-center sm:gap-4 md:justify-start">
+      <Button href="/start" class="px-8 py-[15px] text-base">Start for free →</Button>
+      <a href="/#levels" class="browse-link border-b-2 border-border px-2 py-[15px] font-semibold text-title transition-colors">
+        See all levels
+      </a>
+    </div>
+  </div>
+
+  <div data-reveal class="order-1 mx-auto md:order-2">
+    <img
+      src="/images/hero-profile.png"
+      alt="Félix, founder of Liminal French"
+      width="360"
+      height="360"
+      class="h-auto w-[200px] sm:w-[240px] md:w-[280px] lg:w-[360px]"
+      fetchpriority="high"
+    />
+  </div>
+</section>
+
+<style>
+  .browse-link:hover {
+    border-bottom-color: var(--color-title);
+  }
+</style>

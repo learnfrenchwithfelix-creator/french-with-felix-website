@@ -1,0 +1,964 @@
+1
+00:00:00,233 --> 00:00:06,100
+Bonjour tout le monde et bienvenue dans cette nouvelle vidéo. Aujourd'hui
+on va parler d'un
+
+2
+00:00:06,466 --> 00:00:12,700
+problème qui est très commun dans l'apprentissage des langues, c'est la
+difficulté pour parler,
+
+3
+00:00:12,733 --> 00:00:21,366
+la difficulté pour faire des phrases longues, pour parler longtemps avec
+des détails, etc. En
+
+4
+00:00:21,733 --> 00:00:28,133
+général quand on apprend une langue, on comprend plus qu'on ne peut parler,
+on comprend plus
+
+5
+00:00:28,500 --> 00:00:34,666
+facilement quelque chose qu'on ne peut parler. On a tendance à être moins
+bon quand il s'agit
+
+6
+00:00:34,700 --> 00:00:41,433
+de parler et ça c'est quelque chose de très naturel pardon et c'est quelque
+chose de très
+
+7
+00:00:41,733 --> 00:00:48,900
+logique puisque avant de pouvoir parler il faut comprendre. En général ce
+que je conseille et ce
+
+8
+00:00:49,000 --> 00:00:54,933
+que j'ai fait pour mon apprentissage c'est d'essayer de faire au maximum de
+l'immersion, de
+
+9
+00:00:55,000 --> 00:01:01,933
+l'écoute, de la lecture, lire des livres, etc. avant d'essayer de parler.
+Quand vous
+
+10
+00:01:02,500 --> 00:01:09,066
+faites beaucoup d'immersion avant d'essayer de parler vous allez avoir
+quelques automatismes qui vont
+
+11
+00:01:09,400 --> 00:01:17,500
+vous faciliter le moment où vous essayez de parler dans la langue. Mais du
+coup on a toujours un
+
+12
+00:01:17,800 --> 00:01:24,800
+peu cette frustration de comprendre quelque chose mais d'avoir du mal à
+répondre. On comprend
+
+13
+00:01:25,166 --> 00:01:31,733
+quand quelqu'un nous parle en français pour vous par exemple mais vous avez
+du mal à répondre à
+
+14
+00:01:32,100 --> 00:01:37,800
+parler. Là depuis le début de la vidéo vous comprenez sûrement et si je
+vous pose d'un coup
+
+15
+00:01:37,866 --> 00:01:43,566
+une question peut-être que vous allez avoir du mal que vous allez être un
+peu bloqué et du
+
+16
+00:01:43,833 --> 00:01:48,933
+coup aujourd'hui j'avais envie de parler de ça et j'avais envie de vous
+montrer un exercice que
+
+17
+00:01:49,000 --> 00:01:58,800
+je fais pour créer des automatismes. Donc je vais vous présenter cet
+exercice. Restez bien jusqu'à la
+
+18
+00:01:58,866 --> 00:02:04,600
+fin de la vidéo parce que je vais vous proposer de faire cet exercice mais
+dans les commentaires de
+
+19
+00:02:04,666 --> 00:02:11,066
+la vidéo puis comme ça moi ça m'aide pour avoir un meilleur watch time.
+Également si vous voulez
+
+20
+00:02:11,400 --> 00:02:18,700
+soutenir la chaîne j'ai un Patreon, le lien est dans la description et
+j'essaye de publier du
+
+21
+00:02:19,100 --> 00:02:25,733
+contenu exclusif et je vais voir aussi pour mettre les scripts des vidéos
+sur ce Patreon et merci
+
+22
+00:02:25,866 --> 00:02:35,600
+d'ailleurs aux deux personnes qui me soutiennent pour le moment. Je suis
+professeur de français donc
+
+23
+00:02:35,666 --> 00:02:41,800
+je donne des cours en ligne, je donne des cours sur une plateforme et c'est
+des cours individuels.
+
+24
+00:02:41,866 --> 00:02:49,633
+En général sur ce genre de cours ce que recherchent les gens c'est plutôt
+de la conversation. J'ai
+
+25
+00:02:50,100 --> 00:02:56,733
+quelques cours avec des personnes complètement débutantes ou là on fait de
+la grammaire etc mais
+
+26
+00:02:57,200 --> 00:03:02,833
+même dans ces cas là l'objectif c'est quand même de pouvoir parler. Je suis
+un locuteur natif,
+
+27
+00:03:02,900 --> 00:03:09,833
+je suis un français natif. Ce qui est intéressant quand vous payez un cours
+comme le mien par
+
+28
+00:03:10,266 --> 00:03:17,533
+exemple c'est de pouvoir parler et du coup moi mon objectif quand j'arrive
+dans un cours c'est
+
+29
+00:03:17,566 --> 00:03:26,366
+d'essayer de faire parler au maximum mes étudiants, de leur poser des
+questions pour qu'ils parlent
+
+30
+00:03:26,466 --> 00:03:32,866
+au maximum et qu'ils s'entraînent à parler et ça ce n'est pas quelque chose
+d'évident parce que
+
+31
+00:03:33,200 --> 00:03:39,833
+premièrement il faut trouver des sujets intéressants pour les personnes et
+deuxièmement après il faut
+
+32
+00:03:40,200 --> 00:03:49,200
+que j'arrive à poser des questions pour les faire pratiquer. Et du coup
+souvent j'ai des
+
+33
+00:03:49,566 --> 00:03:54,166
+questions un peu de base comme qu'est ce que tu as fait le week-end
+dernier, qu'est ce que tu
+
+34
+00:03:54,500 --> 00:04:02,200
+vas faire ce week-end etc pour pratiquer un peu le passé, un peu le futur
+etc etc. Mais souvent
+
+35
+00:04:02,266 --> 00:04:07,166
+en fait ce que je me suis rendu compte c'est que quand par exemple je dis à
+quelqu'un qu'est ce
+
+36
+00:04:07,433 --> 00:04:14,133
+que tu as fait le week-end dernier là personne va me répondre par exemple
+j'ai mangé au restaurant
+
+37
+00:04:14,700 --> 00:04:23,400
+point et là en fait c'est là où l'élève peut ressentir de la frustration et
+moi aussi je ressente
+
+38
+00:04:23,466 --> 00:04:28,166
+de la frustration parce que quand l'élève me répond ça je me dis il faut
+que j'essaye d'avoir
+
+39
+00:04:28,233 --> 00:04:34,400
+d'autres questions pour pour qui parle plus pour qu'il est plus envie de
+parler et l'étudiant lui de
+
+40
+00:04:34,666 --> 00:04:41,233
+son côté il se dit oui je suis allé au restaurant mais j'ai un peu du mal à
+dire plus
+
+41
+00:04:41,300 --> 00:04:48,900
+de choses à donner plus de contexte comme c'est une réponse un peu large un
+peu fermée c'est une
+
+42
+00:04:49,300 --> 00:04:55,933
+question un peu large et une réponse un peu fermée c'est difficile d'amener
+plus de détails de plus
+
+43
+00:04:56,466 --> 00:05:04,366
+développer sa réponse et donc soit je commence à faire des questions très
+spécifiques pour avoir
+
+44
+00:05:04,600 --> 00:05:11,000
+des réponses très spécifiques les unes après les autres soit ce que je fais
+aussi parfois c'est
+
+45
+00:05:11,333 --> 00:05:18,433
+que j'attends un peu et l'étudiant parfois va continuer de parler mais du
+coup je en fait
+
+46
+00:05:18,766 --> 00:05:23,933
+quand je fais quand je suis dans ce genre de situation je me suis demandé
+enfin quand j'étais
+
+47
+00:05:24,300 --> 00:05:30,366
+dans ce genre de situation je me suis demandé enfin je me demandais comment
+est ce que je peux faire
+
+48
+00:05:30,733 --> 00:05:38,433
+pour que l'étudiant ait plus envie de répondre automatiquement que ce soit
+plus des automatismes
+
+49
+00:05:38,733 --> 00:05:46,033
+qui me donnent plus de détails qui fassent des réponses plus longues sur
+son expérience sur
+
+50
+00:05:46,400 --> 00:05:53,466
+voilà sur sa à partir de sa première réponse et ça c'est même pas c'est
+même pas pas besoin
+
+51
+00:05:53,633 --> 00:05:59,333
+d'avoir vécu quelque chose d'extraordinaire il faudrait que ce soit quelque
+chose d'utilisable
+
+52
+00:05:59,700 --> 00:06:06,000
+même pour quelque chose de très simple et du coup ce que j'ai fait c'est
+que je me suis dit comme
+
+53
+00:06:06,066 --> 00:06:13,000
+en fait à partir du moment où l'étudiant me dit une phrase j'ai tendance à
+poser plein de questions
+
+54
+00:06:13,133 --> 00:06:20,200
+un peu comme un commissaire un peu comme un policier c'est à dire que les
+étudiants ils me
+
+55
+00:06:20,566 --> 00:06:25,866
+disent je suis allé manger au restaurant et moi j'active j'active un peu
+comme ça le mode
+
+56
+00:06:26,300 --> 00:06:34,166
+policier je suis avec qui comment ou ça pourquoi quand etc et du coup
+j'appelle un peu ça la
+
+57
+00:06:34,533 --> 00:06:39,633
+méthode police ou d'un coup ça devient un peu un interrogatoire où je pose
+plein de questions
+
+58
+00:06:40,000 --> 00:06:45,833
+comme ça à la suite des autres et du coup au début j'avais tendance à faire
+ça de
+
+59
+00:06:46,200 --> 00:06:53,666
+manière un peu improvisée c'est à dire que je posais une question la
+personne me répondait et
+
+60
+00:06:54,066 --> 00:07:00,533
+voilà juste par curiosité j'essayais d'avoir plus d'informations le
+problème c'est que bon
+
+61
+00:07:00,600 --> 00:07:07,166
+l'avantage le point positif c'est que c'est très personnalisé parce que ça
+se base sur l'expérience
+
+62
+00:07:07,233 --> 00:07:13,100
+des étudiants et du coup c'est des questions vraiment spécifiques aux
+étudiants j'avais déjà
+
+63
+00:07:13,466 --> 00:07:19,900
+essayé de faire des sujets un peu globaux des sujets de politique par
+exemple etc et je sens
+
+64
+00:07:19,933 --> 00:07:26,866
+qu'en fait quand quand c'est des sujets personnels les étudiants ont plus
+tendance à vouloir plus
+
+65
+00:07:27,333 --> 00:07:32,166
+parler parce que c'est c'est leurs expériences alors que quand c'est un
+sujet un peu global
+
+66
+00:07:32,233 --> 00:07:38,966
+ben à moins qu'ils soient vraiment très intéressés ils vont avoir moins
+envie de parler mais du
+
+67
+00:07:39,333 --> 00:07:45,933
+coup je dois chercher des questions sur une expérience spécifique et après
+du coup c'est
+
+68
+00:07:46,000 --> 00:07:53,766
+pas très structuré c'est à dire que je pose un peu des questions comme ça
+vient donc même si
+
+69
+00:07:53,866 --> 00:08:00,400
+ça fait pratiquer l'étudiant je pense qu'au final ça manquait un peu de
+structure et du
+
+70
+00:08:00,700 --> 00:08:05,866
+coup ce que j'ai fait c'est que j'ai mis en place c'est un bien grand mot
+mettre en place mais je me
+
+71
+00:08:06,166 --> 00:08:13,500
+suis dit je vais garder un peu toujours la même structure de question la
+méthode policier et ce
+
+72
+00:08:13,800 --> 00:08:21,666
+que j'ai fait c'est que j'ai noté les questions les
+mots interrogatifs donc
+
+73
+00:08:22,000 --> 00:08:30,266
+quand ou avec qui pourquoi comment combien de temps etc. je les ai mis à je
+les ai mis à la
+
+74
+00:08:30,666 --> 00:08:37,733
+suite les un des autres pardon je vais y arriver j'ai mis ces mots
+interrogatifs à la
+
+75
+00:08:38,100 --> 00:08:44,200
+suite les uns des autres et dès que l'étudiant me dit quelque chose je
+lui dis voilà les
+
+76
+00:08:44,566 --> 00:08:51,633
+questions alors premièrement quand est-ce que etc etc deuxièmement ou
+est-ce que etc etc
+
+77
+00:08:52,100 --> 00:08:59,300
+troisièmement avec qui ou qui est-ce que qui est-ce qui avec qui est-ce que
+etc pourquoi est-ce
+
+78
+00:08:59,600 --> 00:09:06,300
+que comment est-ce que combien de temps est-ce que et ça en fait ça peut
+paraître un peu
+
+79
+00:09:06,466 --> 00:09:14,666
+un peu stressant dit comme ça mais en fait je pense que quand à force de
+pratiquer de cette
+
+80
+00:09:15,066 --> 00:09:24,433
+manière les étudiants commencent à développer un peu plusieurs compétences
+je vais vous donner
+
+81
+00:09:24,466 --> 00:09:31,133
+un exemple par exemple je commence avec le quoi je pose à l'étudiant la
+question qu'est-ce que tu
+
+82
+00:09:31,200 --> 00:09:38,766
+as fait le week-end dernier l'étudiant normalement il me répond j'ai mangé
+au restaurant une réponse
+
+83
+00:09:39,133 --> 00:09:43,600
+simple qu'il arrive à faire même s'il comprend plus facilement il arrive à
+faire cette réponse
+
+84
+00:09:43,966 --> 00:09:50,233
+mais il a du mal à dire plus de choses sur cette réponse et du coup à
+partir de là moi je lui
+
+85
+00:09:50,500 --> 00:09:56,466
+dis quand est-ce que tu es allé manger au restaurant ah je suis allé manger
+au restaurant
+
+86
+00:09:57,000 --> 00:10:07,633
+samedi soir samedi soir mais vers quelle heure samedi soir vers 19h vers
+19h ou 19h pile non non
+
+87
+00:10:08,000 --> 00:10:15,866
+vers 19h ok donc tu es allé manger au restaurant samedi soir vers 19h où
+est-ce que tu es allé
+
+88
+00:10:15,933 --> 00:10:23,100
+au restaurant où est-ce que tu es allé au restaurant je suis allé dans un
+restaurant à paris
+
+89
+00:10:23,433 --> 00:10:30,133
+est-ce que c'était un restaurant dans paris ou est-ce que c'était un
+restaurant plutôt à
+
+90
+00:10:30,233 --> 00:10:38,000
+l'extérieur de paris dans quel arrondissement je suis allé dans un
+restaurant en plein centre
+
+91
+00:10:38,200 --> 00:10:44,333
+de paris dans le troisième arrondissement ok donc déjà on passe de j'ai
+mangé au restaurant
+
+92
+00:10:44,366 --> 00:10:52,166
+à une phrase qui devient comme j'ai mangé au restaurant samedi soir vers
+19h en plein centre
+
+93
+00:10:52,266 --> 00:10:57,500
+de paris dans le troisième arrondissement et vous voyez rien que passer de
+la première
+
+94
+00:10:57,866 --> 00:11:02,933
+phrase à la deuxième phrase tout de suite c'est beaucoup plus détaillé il y
+a beaucoup plus
+
+95
+00:11:03,000 --> 00:11:08,066
+d'informations et on n'est pas on n'est plus bloqué dans cette phrase
+simple alors bien
+
+96
+00:11:08,400 --> 00:11:13,666
+évidemment ça demande de la pratique mais si on continue avec qui avec avec
+qui est-ce que
+
+97
+00:11:13,733 --> 00:11:20,400
+tu es allé au restaurant ah je suis allé au restaurant tout seul ok
+pourquoi est-ce que
+
+98
+00:11:20,466 --> 00:11:26,000
+tu es allé au restaurant je suis allé au restaurant parce que j'avais faim
+ou je suis
+
+99
+00:11:26,266 --> 00:11:33,000
+allé au restaurant parce que j'avais envie d'essayer ce nouveau restaurant
+japonais dans paris
+
+100
+00:11:33,266 --> 00:11:40,933
+ok comment comment est-ce que tu es allé au restaurant donc ça comment
+est-ce que tu es
+
+101
+00:11:41,200 --> 00:11:47,866
+allé au restaurant par exemple j'ai pris le métro j'ai pris la ligne 6
+jusqu'à la station
+
+102
+00:11:48,333 --> 00:11:52,600
+Charles de Gaulle étoile je dis Charles de Gaulle étoile ce n'est pas du
+tout dans le
+
+103
+00:11:52,966 --> 00:11:58,033
+troisième arrondissement c'est juste pour l'exemple j'ai pris le métro
+jusqu'à Charles de Gaulle
+
+104
+00:11:58,100 --> 00:12:05,066
+étoile et après j'ai marché trois minutes pour aller jusqu'au restaurant ok
+combien de temps
+
+105
+00:12:05,400 --> 00:12:12,133
+est-ce que tu es resté au restaurant je suis arrivé vers 19h et je suis
+reparti vers 20h
+
+106
+00:12:12,266 --> 00:12:19,233
+je suis resté une heure à peu près au restaurant et du coup j'ai donné
+toutes ces
+
+107
+00:12:19,533 --> 00:12:24,666
+réponses sans les avoir notées donc là je vais essayer de faire un peu un
+résumé mais on
+
+108
+00:12:25,000 --> 00:12:30,600
+passe d'une phrase qui est de j'ai mangé au restaurant à  qu'est ce que
+tu as fait
+
+109
+00:12:30,666 --> 00:12:38,066
+le week-end dernier à samedi soir vers 19h je suis allé dans un restaurant
+en plein centre de paris
+
+110
+00:12:38,166 --> 00:12:47,233
+je suis allé dans ce restaurant parce que j'avais envie d'essayer ce
+nouveau restaurant japonais
+
+111
+00:12:47,266 --> 00:12:55,000
+je suis allé au restaurant tout seul pourquoi parce que je n'avais pas
+d'amis disponibles
+
+112
+00:12:55,366 --> 00:13:02,400
+pour aller au restaurant j'ai pris la ligne 6 jusqu'à Charles de Gaulle
+étoile et après j'ai
+
+113
+00:13:02,766 --> 00:13:10,966
+marché environ trois minutes je suis resté environ une heure au restaurant
+et vous voyez tout
+
+114
+00:13:11,300 --> 00:13:16,133
+suite ça devient beaucoup plus détaillé alors bien sûr c'est très c'est
+très c'est un peu
+
+115
+00:13:16,500 --> 00:13:23,366
+artificiel quand on essaye de faire de tout mettre un peu bout à bout de
+tout regrouper ça on a un
+
+116
+00:13:23,433 --> 00:13:28,766
+peu l'impression que c'est artificiel c'est comme un questionnaire de
+police les réponses elles sont
+
+117
+00:13:28,833 --> 00:13:36,133
+un peu déconnectées ce n'est pas très fluide et c'est un peu artificiel
+mais en fait à partir
+
+118
+00:13:36,200 --> 00:13:40,500
+du moment où on applique toutes ces questions en fait on pratique un peu de
+différentes choses
+
+119
+00:13:40,866 --> 00:13:49,000
+quand où c'est le lieu et le temps donc plus vous pratiquez ça plus vous
+allez pouvoir dire
+
+120
+00:13:49,066 --> 00:13:59,333
+ah samedi dernier samedi après-midi vers 8 heure vers 20 heures dimanche
+dans la matinée j'ai fait
+
+121
+00:13:59,633 --> 00:14:07,966
+ça etc et ça forcément c'est des choses que vous allez à chaque fois
+pratiquer avec qui ça
+
+122
+00:14:08,033 --> 00:14:14,633
+ça donne toujours des indications sur vos amis etc pourquoi ça permet
+d'exprimer la raison et
+
+123
+00:14:14,700 --> 00:14:20,433
+d'ailleurs ça à chaque fois c'est une question que je pose souvent c'est
+que les gens me disent
+
+124
+00:14:20,500 --> 00:14:28,466
+les étudiants me disent quelque chose et je dis pourquoi pourquoi je suis
+un peu c'est un peu
+
+125
+00:14:28,866 --> 00:14:33,666
+bizarre comme question mais en fait quand vous dites par exemple je suis
+allé au supermarché
+
+126
+00:14:33,700 --> 00:14:40,933
+j'ai tendance à répondre directement pourquoi parce que quand on parle
+naturellement moi si je
+
+127
+00:14:41,266 --> 00:14:47,100
+parle naturellement avec un ami je vais dire je suis allé au marché au
+supermarché parce que j'avais
+
+128
+00:14:47,500 --> 00:14:55,266
+besoin d'acheter ça et après je suis allé je sais pas où et du coup ce
+pourquoi en fait à chaque
+
+129
+00:14:55,600 --> 00:15:00,566
+phrase que vous dites vous pouvez presque toujours donner une raison et du
+coup ça c'est pareil c'est
+
+130
+00:15:00,633 --> 00:15:07,566
+en appliquant un peu ce c'est cette liste de questions vous allez
+constamment pratiquer ce
+
+131
+00:15:07,966 --> 00:15:14,866
+pourquoi expliquez pourquoi vous faites quelque chose comment là ça va
+permettre de mieux décrire
+
+132
+00:15:14,933 --> 00:15:20,666
+un peu votre expérience ou ce que vous avez fait après combien de temps ça
+ça rejoint plutôt
+
+133
+00:15:20,733 --> 00:15:28,066
+le quand exprime la durée etc et en fait du coup voilà ce genre de set,
+cette liste de questions
+
+134
+00:15:28,466 --> 00:15:38,166
+ça permet de de tout pratiquer un peu à la fois bien évidemment voilà c'est
+un peu
+
+135
+00:15:38,533 --> 00:15:43,933
+artificiel donc à la fin c'est difficile de faire quelque chose de purement
+naturel mais je pense
+
+136
+00:15:44,200 --> 00:15:51,100
+que ça débloque un peu ces trucs de dire pour quelle raison quand ou avec
+qui etc et que quand
+
+137
+00:15:51,200 --> 00:16:00,133
+on pratique un peu artificiellement ce genre de choses après on va pouvoir
+commencer à l'utiliser
+
+138
+00:16:00,233 --> 00:16:07,000
+d'une manière de plus en plus fluide et c'est ça qui est intéressant et du
+coup ce que ce que je vous
+
+139
+00:16:07,333 --> 00:16:12,600
+conseille de faire c'est à chaque fois que vous commencez à dire quelque
+chose en français et que
+
+140
+00:16:12,966 --> 00:16:20,800
+vous sentez bloquer listez-vous toutes les questions quand ou avec qui
+pourquoi comment combien de temps
+
+141
+00:16:21,100 --> 00:16:28,066
+etc et ça ça va vous forcer à donner plus de détails ça va vous forcer à
+donner plus de
+
+142
+00:16:28,366 --> 00:16:34,566
+détails et ça va vous débloquer parce que vous avez un peu une liste à
+suivre vous suivez la
+
+143
+00:16:34,833 --> 00:16:39,500
+liste ça vous débloque et à la fin quand vous regardez un peu tout quand
+vous regardez un peu
+
+144
+00:16:39,833 --> 00:16:46,766
+tout ce que vous avez écrit vous avez un peu les idées générales listées
+devant vous après vous
+
+145
+00:16:47,133 --> 00:16:52,700
+pouvez essayer vous pouvez essayer de faire une longue phrase ou
+un petit paragraphe
+
+146
+00:16:53,066 --> 00:16:59,100
+complet en utilisant toutes les informations que vous avez dont ça c'est la
+prochaine étape
+
+147
+00:16:59,466 --> 00:17:06,733
+mais du coup c'est ça c'est en fait j'ai commencé à le faire et je me rends
+compte que les étudiants
+
+148
+00:17:06,766 --> 00:17:12,966
+aiment bien et qu'ils me demandent de le faire et du coup à chaque fois ils
+me disent quelque
+
+149
+00:17:13,266 --> 00:17:18,033
+chose ils me donnent une réponse je leur liste toutes les questions et j'ai
+vraiment dit réponds
+
+150
+00:17:18,333 --> 00:17:24,933
+moi à toutes ces questions et ensuite on fait l'exercice inverse c'est à
+dire que parfois
+
+151
+00:17:25,000 --> 00:17:32,766
+je fais l'exercice inverse c'est à dire que je demande aux étudiants de me
+poser des questions
+
+152
+00:17:32,900 --> 00:17:38,233
+et là c'est pareil parfois ils comprennent toutes mes questions mais quand
+il faut me poser
+
+153
+00:17:38,500 --> 00:17:44,766
+les questions ils ressentent ce blocage ils ressentent cette frustration de se
+dire ah je sais pas comment
+
+154
+00:17:45,100 --> 00:17:53,166
+etc je sais pas comment demander ça etc c'est juste c'est juste mécanique
+il faut pratiquer pour
+
+155
+00:17:53,533 --> 00:18:01,000
+pouvoir le dire et du coup je leur dis le week-end dernier j'ai fait ça
+pose moi toutes les questions
+
+156
+00:18:01,233 --> 00:18:07,766
+et du coup il commence quand il se demande comment je demande quand et là
+il se rappelle
+
+157
+00:18:08,133 --> 00:18:16,766
+est-ce que quand est-ce que tu as fait ça par exemple ok ou et là il se dit
+où ah c'est
+
+158
+00:18:17,166 --> 00:18:22,433
+comme quand où est-ce que tu as fait ça avec qui avec qui est-ce que tu as
+fait ça et en
+
+159
+00:18:22,800 --> 00:18:29,000
+fait là il commence à voir que c'est juste le mot interrogatif qui change
+tout le reste c'est
+
+160
+00:18:29,366 --> 00:18:33,000
+toujours est-ce que tu as fait ça est-ce que tu as fait ça bien évidemment
+il y a des questions
+
+161
+00:18:33,066 --> 00:18:38,366
+où ça va changer un peu par exemple comment au lieu de dire comment est-ce
+que tu as fait ça on va
+
+162
+00:18:38,733 --> 00:18:45,366
+plutôt dire comment est-ce que tu es allé je ne sais où je ne sais pas où
+etc mais ça c'est
+
+163
+00:18:45,766 --> 00:18:50,933
+pareil ça va créer des automatismes et après quand ils auront besoin de
+poser les questions
+
+164
+00:18:51,300 --> 00:18:58,200
+directement ce sera plus automatique il n'y aura plus ce blocage
+cette frustration et ils
+
+165
+00:18:58,533 --> 00:19:04,366
+pourront commencer bien évidemment ce ne sera pas parfait ça demande de la
+pratique mais
+
+166
+00:19:04,666 --> 00:19:12,466
+ça permet de débloquer après quand vous commencez à pratiquer vous vous
+commencez à utiliser les
+
+167
+00:19:12,800 --> 00:19:18,033
+questions à répondre avec plus de détails et au fur et à mesure vous allez
+avoir des choses de
+
+168
+00:19:18,366 --> 00:19:24,100
+plus en plus fluide au début c'est très questionnaire de police mais au fur
+et à mesure ça va
+
+169
+00:19:24,466 --> 00:19:33,666
+devenir de plus en plus fluide du coup voilà essayez de de pratiquer ça
+essayez de décrire
+
+170
+00:19:34,000 --> 00:19:38,833
+juste une idée vraiment toute bête par exemple je suis allé au restaurant
+juste quelque chose
+
+171
+00:19:38,866 --> 00:19:45,333
+de ce n'est pas quelque chose qui a besoin d'être extraordinaire vous
+prenez ça et vous
+
+172
+00:19:45,700 --> 00:19:52,066
+répondez à toutes les questions et du coup pour l'exercice inverse c'est
+l'exercice que je vous
+
+173
+00:19:52,466 --> 00:19:58,733
+propose dans les commentaires de cette vidéo youtube je vais vous donner
+quelque chose que
+
+174
+00:19:58,766 --> 00:20:07,700
+j'ai fait et quelque chose que je vais faire et vous allez devoir me poser
+toutes les questions
+
+175
+00:20:08,066 --> 00:20:13,766
+dans les commentaires et après je sais pas si je ferai une vidéo où je
+réponds aux questions
+
+176
+00:20:13,833 --> 00:20:20,366
+ou si je corrige les questions que je vois mais ça peut être intéressant on
+verra du coup je vais
+
+177
+00:20:20,666 --> 00:20:26,133
+vous donner une chose un événement que j'ai fait dans le passé et
+quelque chose dans le
+
+178
+00:20:26,500 --> 00:20:32,200
+futur comme ça vous allez pouvoir pratiquer les deux temps qu'est ce que tu
+as fait l'année dernière
+
+179
+00:20:32,266 --> 00:20:38,266
+qu'est ce que tu vas faire l'année prochaine vous pouvez utiliser le passé
+le futur proche
+
+180
+00:20:38,600 --> 00:20:47,233
+pardon ou ou le futur simple pour ce qui est du passé je vais juste dire je
+suis allé au japon
+
+181
+00:20:47,300 --> 00:20:54,900
+je suis allé au japon je ne donne pas plus d'information demandez-moi
+posez-moi toutes
+
+182
+00:20:55,200 --> 00:21:01,333
+les questions si vous vous dites où ou est ce que tu es allé et vous allez
+dire mais il a déjà
+
+183
+00:21:01,700 --> 00:21:08,333
+répondu il est allé au japon demandez-moi où au japon où dans le japon avec
+une question
+
+184
+00:21:08,900 --> 00:21:19,700
+complète je vous aide un peu et dans le futur je vais dire je vais faire
+une convention je vais
+
+185
+00:21:20,066 --> 00:21:29,033
+faire une convention sur la culture japonaise à Bruxelles fin février je
+vais faire une convention
+
+186
+00:21:29,266 --> 00:21:35,433
+sur la culture japonaise à Bruxelles ok fin février je vais faire une
+convention sur la
+
+187
+00:21:35,800 --> 00:21:44,600
+culture japonaise à Bruxelles écrivez toutes les questions dans les
+commentaires je ne
+
+188
+00:21:44,966 --> 00:21:50,233
+répondrais pas à chacun de vous je pense je pense que je vais plutôt faire
+une réponse
+
+189
+00:21:50,566 --> 00:21:56,100
+globale à tout monde après une ou deux semaines on verra mais voilà si vous
+voulez essayer de
+
+190
+00:21:56,400 --> 00:22:01,566
+pratiquer cet exercice faites le dans les commentaires n'hésitez pas aussi
+à me donner
+
+191
+00:22:01,633 --> 00:22:06,766
+vos retours je suis professeur mais j'apprends tous les jours donc
+n'hésitez pas à me donner des
+
+192
+00:22:06,833 --> 00:22:13,233
+idées si vous pensez pouvoir améliorer un peu cette méthode et merci
+d'avoir regardé jusqu'au
+
+193
+00:22:13,566 --> 00:22:18,400
+bout j'espère que ça vous aura aidé et bah je vous dis à la prochaine
+

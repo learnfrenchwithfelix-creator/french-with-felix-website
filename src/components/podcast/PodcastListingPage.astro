@@ -1,0 +1,347 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import CTABanner from '../ui/CTABanner.astro';
+import Pagination from '../ui/Pagination.astro';
+import Reveal from '../ui/Reveal.astro';
+import SectionHeader from '../ui/SectionHeader.astro';
+import EpisodeCard from './EpisodeCard.astro';
+import FeaturedEpisode from './FeaturedEpisode.astro';
+import type { Episode } from '../../utils/episodes';
+
+interface Props {
+  /** Every episode, newest first — filtering and pagination happen client-side across the whole set */
+  episodes: Episode[];
+  spotifyShowUrl: string;
+}
+
+const { episodes, spotifyShowUrl } = Astro.props;
+
+const PAGE_SIZE = 12;
+const featured = episodes[0];
+
+// Dropdown options come from the data, so a filter never returns nothing
+const titleCase = (s: string) => s.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+const levels = (['A1', 'A2', 'B1', 'B2'] as const).filter(l => episodes.some(e => e.level === l));
+const themes = [...new Set(episodes.map(e => e.theme).filter(Boolean))].sort();
+const rateLabels: Record<string, string> = { lent: 'Lent', normal: 'Normal', rapide: 'Rapide' };
+const rates = (['lent', 'normal', 'rapide'] as const).filter(r => episodes.some(e => e.speechRate === r));
+
+const pageTitle = 'Podcast — Liminal French';
+const pageDescription = 'Short conversations in slow, clear French — every episode with a full transcript to read along.';
+---
+
+<BaseLayout title={pageTitle} description={pageDescription}>
+  <Reveal />
+
+  <!-- ── Page header ── -->
+  <div class="mx-auto max-w-[1180px] px-6 pb-10 pt-14 md:px-12 md:pb-12">
+    <SectionHeader
+      tag="h1"
+      eyebrow="Podcast"
+      headingLight="Real French,"
+      headingBold="with the transcript in front of you."
+      gap="tight"
+      class="!mb-5"
+    />
+    <p data-reveal class="max-w-[640px] text-[17px] leading-[1.65] text-muted">
+      {episodes.length} episodes, every one free and fully transcribed. Filter by level, theme or speaking rate to find something at the edge of what you can follow.
+    </p>
+  </div>
+
+  <!-- ── Featured latest episode ── -->
+  {featured && (
+    <div data-reveal class="mx-auto max-w-[1180px] px-6 pb-14 md:px-12">
+      <FeaturedEpisode episode={featured} />
+    </div>
+  )}
+
+  <!-- ── Filter toolbar ── -->
+  <div id="episodes-toolbar" class="mx-auto max-w-[1180px] scroll-mt-28 px-6 pb-4 md:px-12">
+    <div data-reveal class="flex flex-wrap items-center gap-3">
+
+      <select id="level-select" class="filter-select" aria-label="Filter by level">
+        <option value="all">All levels</option>
+        {levels.map(l => <option value={l.toLowerCase()}>{l}</option>)}
+      </select>
+
+      <select id="theme-select" class="filter-select" aria-label="Filter by theme">
+        <option value="all">All themes</option>
+        {themes.map(t => <option value={t}>{titleCase(t)}</option>)}
+      </select>
+
+      <select id="rate-select" class="filter-select" aria-label="Filter by speed">
+        <option value="all">All speeds</option>
+        {rates.map(r => <option value={r}>{rateLabels[r]}</option>)}
+      </select>
+
+      <button id="reset-filters" type="button" class="reset-btn hidden" aria-label="Reset all filters">
+        Reset
+      </button>
+
+      <input
+        type="search"
+        id="episode-search"
+        placeholder="Search episodes…"
+        autocomplete="off"
+        spellcheck="false"
+        aria-label="Search episodes"
+        class="w-full min-w-[200px] rounded-button border border-border bg-surface px-3 py-[9px] text-[14px] text-body placeholder:text-muted focus:border-accent focus:outline-none sm:ml-auto sm:w-auto"
+      />
+
+    </div>
+  </div>
+
+  <!-- ── Result count + grid ── -->
+  <div class="mx-auto max-w-[1180px] px-6 pb-10 md:px-12">
+    <p id="results-count" class="mb-[18px] font-mono text-xs text-muted" aria-live="polite">
+      Showing 1–{Math.min(PAGE_SIZE, episodes.length)} of {episodes.length} episodes
+    </p>
+
+    <div id="episodes-grid" class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+      {episodes.map((ep, i) => (
+        <EpisodeCard
+          number={ep.episodeNumber}
+          level={ep.level}
+          title={ep.titleFr}
+          duration={ep.duration}
+          wpm={ep.wpm}
+          theme={ep.theme}
+          href={`/podcast/${ep.slug}`}
+          youtubeId={ep.youtubeId}
+          data-episode
+          data-reveal
+          data-level={ep.level.toLowerCase()}
+          data-theme={ep.theme}
+          data-rate={ep.speechRate}
+          data-search={`${ep.titleFr} ${ep.titleEn ?? ''} ${ep.theme}`.toLowerCase()}
+          hidden={i >= PAGE_SIZE}
+        />
+      ))}
+    </div>
+
+    <p id="no-results" class="hidden py-16 text-center font-mono text-sm text-muted">
+      No episodes match these filters.
+    </p>
+  </div>
+
+  <!-- ── Pagination (bottom only) ── -->
+  <div class="mx-auto max-w-[1180px] px-6 pb-16 md:px-12">
+    <Pagination />
+  </div>
+
+  <!-- ── Listen everywhere ── -->
+  <div class="mx-auto max-w-[1180px] px-6 pb-16 md:px-12">
+    <div data-reveal class="rounded-section bg-surface px-8 py-16 text-center md:px-16">
+      <p class="mb-4 font-mono text-[11px] font-medium uppercase tracking-[0.14em] text-accent">Listen everywhere</p>
+      <h2 class="mb-8 font-display leading-[1.1] tracking-[-0.03em] text-title" style="font-size: clamp(1.75rem, 3vw, 2.5rem)">
+        <span style="font-weight: var(--weight-light)">Take us</span>
+        <span style="font-weight: var(--weight-bold)"> with you.</span>
+      </h2>
+      <div class="flex flex-wrap justify-center gap-4">
+        <a
+          href={spotifyShowUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="platform-link inline-flex items-center gap-2.5 rounded-button border border-border bg-bg px-6 py-3 text-[14px] font-semibold text-title"
+        >
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="color:#1DB954">
+            <path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/>
+          </svg>
+          Spotify
+        </a>
+        <a
+          href="#"
+          class="platform-link inline-flex items-center gap-2.5 rounded-button border border-border bg-bg px-6 py-3 text-[14px] font-semibold text-title"
+        >
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="color:#B150E2">
+            <path d="M12 1a11 11 0 100 22A11 11 0 0012 1zm0 2a9 9 0 110 18A9 9 0 0112 3zm0 2a7 7 0 100 14A7 7 0 0012 5zm0 2a5 5 0 110 10A5 5 0 0112 7zm0 3a2 2 0 100 4 2 2 0 000-4zm0 5.5c1.1 0 2.1.3 2.95.82L16.5 20H7.5l1.55-3.68A5.5 5.5 0 0112 15.5z"/>
+          </svg>
+          Apple Podcasts
+        </a>
+        <a
+          href="#"
+          class="platform-link inline-flex items-center gap-2.5 rounded-button border border-border bg-bg px-6 py-3 text-[14px] font-semibold text-title"
+        >
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="color:#F26522">
+            <path d="M6.18 15.64a2.18 2.18 0 010 4.36 2.18 2.18 0 010-4.36M4 4.44A15.56 15.56 0 0119.56 20h-2.83A12.73 12.73 0 004 7.27V4.44m0 5.66a9.9 9.9 0 019.9 9.9h-2.83A7.07 7.07 0 004 12.93V10.1z"/>
+          </svg>
+          RSS Feed
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── CTA ── -->
+  <CTABanner
+    eyebrow="Ready to go further?"
+    headingLight="Take your French"
+    headingBold="to the next level."
+    body="Access structured courses, live practice sessions, and a community that keeps you going — all at learn.frenchwithfelix.com."
+    cta="Explore courses →"
+    href="https://learn.frenchwithfelix.com"
+  />
+
+</BaseLayout>
+
+<script define:vars={{ PAGE_SIZE }}>
+  const levelSelect = document.getElementById('level-select');
+  const themeSelect = document.getElementById('theme-select');
+  const rateSelect  = document.getElementById('rate-select');
+  const searchInput = document.getElementById('episode-search');
+  const resetBtn    = document.getElementById('reset-filters');
+  const countEl     = document.getElementById('results-count');
+  const noResults   = document.getElementById('no-results');
+  const toolbar     = document.getElementById('episodes-toolbar');
+  const pager       = document.querySelector('[data-pagination]');
+  const cards       = Array.from(document.querySelectorAll('[data-episode]'));
+
+  const state = { level: 'all', theme: 'all', rate: 'all', q: '', page: 1 };
+
+  // ── URL ⇄ state ──
+  function readURL() {
+    const p = new URLSearchParams(location.search);
+    const pick = (key, select) => {
+      const v = p.get(key) ?? 'all';
+      // Ignore values the dropdown doesn't offer
+      return Array.from(select.options).some(o => o.value === v) ? v : 'all';
+    };
+    state.level = pick('level', levelSelect);
+    state.theme = pick('theme', themeSelect);
+    state.rate  = pick('rate', rateSelect);
+    state.q     = (p.get('q') ?? '').trim();
+    state.page  = Math.max(1, parseInt(p.get('page') ?? '1', 10) || 1);
+  }
+
+  function writeURL(replace) {
+    const p = new URLSearchParams();
+    if (state.level !== 'all') p.set('level', state.level);
+    if (state.theme !== 'all') p.set('theme', state.theme);
+    if (state.rate  !== 'all') p.set('rate', state.rate);
+    if (state.q) p.set('q', state.q);
+    if (state.page > 1) p.set('page', String(state.page));
+    const qs = p.toString();
+    const url = location.pathname + (qs ? `?${qs}` : '');
+    if (url === location.pathname + location.search) return;
+    history[replace ? 'replaceState' : 'pushState'](null, '', url);
+  }
+
+  // ── Render ──
+  function render() {
+    const q = state.q.toLowerCase();
+    const matches = cards.filter(card =>
+      (state.level === 'all' || card.dataset.level === state.level) &&
+      (state.theme === 'all' || card.dataset.theme === state.theme) &&
+      (state.rate  === 'all' || card.dataset.rate  === state.rate) &&
+      (!q || (card.dataset.search ?? '').includes(q))
+    );
+
+    const total = matches.length;
+    const lastPage = Math.max(1, Math.ceil(total / PAGE_SIZE));
+    state.page = Math.min(state.page, lastPage);
+
+    const start = (state.page - 1) * PAGE_SIZE;
+    const visible = new Set(matches.slice(start, start + PAGE_SIZE));
+    cards.forEach(card => { card.hidden = !visible.has(card); });
+
+    const active = state.level !== 'all' || state.theme !== 'all' || state.rate !== 'all' || q !== '';
+    if (countEl) {
+      countEl.hidden = total === 0;
+      countEl.textContent = total === 0 ? '' :
+        `Showing ${start + 1}–${start + visible.size} of ${total} ${active ? 'matching ' : ''}episodes`;
+    }
+    noResults?.classList.toggle('hidden', total > 0);
+    resetBtn?.classList.toggle('hidden', !active);
+
+    levelSelect.value = state.level;
+    themeSelect.value = state.theme;
+    rateSelect.value  = state.rate;
+    if (searchInput.value.trim() !== state.q) searchInput.value = state.q;
+
+    pager?.dispatchEvent(new CustomEvent('pagination:update', { detail: { current: state.page, last: lastPage } }));
+  }
+
+  // ── Events ──
+  const onFilter = () => {
+    state.level = levelSelect.value;
+    state.theme = themeSelect.value;
+    state.rate  = rateSelect.value;
+    state.page  = 1;
+    render();
+    writeURL(false);
+  };
+  [levelSelect, themeSelect, rateSelect].forEach(sel => sel.addEventListener('change', onFilter));
+
+  searchInput.addEventListener('input', () => {
+    state.q = searchInput.value.trim();
+    state.page = 1;
+    render();
+    writeURL(true); // typing shouldn't flood the back button
+  });
+
+  resetBtn?.addEventListener('click', () => {
+    Object.assign(state, { level: 'all', theme: 'all', rate: 'all', q: '', page: 1 });
+    render();
+    writeURL(false);
+  });
+
+  pager?.addEventListener('pagination:go', e => {
+    state.page = e.detail.page;
+    render();
+    writeURL(false);
+    toolbar?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+
+  window.addEventListener('popstate', () => { readURL(); render(); });
+
+  // Deferred module scripts (the pagination nav) run before DOMContentLoaded, so it's listening by then
+  const init = () => { readURL(); render(); };
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
+  else init();
+</script>
+
+<style>
+  .platform-link {
+    transition: border-color 0.15s ease, color 0.15s ease;
+  }
+  .platform-link:hover {
+    border-color: var(--color-accent);
+    color: var(--color-accent);
+  }
+
+  /* Filter selects */
+  .filter-select {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 10px;
+    font-family: var(--font-display);
+    font-size: 14px;
+    padding: 9px 12px;
+    color: var(--color-body);
+    cursor: pointer;
+    transition: border-color 0.15s ease;
+  }
+  .filter-select:hover,
+  .filter-select:focus {
+    outline: none;
+    border-color: var(--color-accent);
+  }
+
+  /* Reset button */
+  .reset-btn {
+    padding: 9px 14px;
+    border-radius: 10px;
+    font-family: var(--font-display);
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid var(--color-border);
+    background: transparent;
+    color: var(--color-muted);
+    cursor: pointer;
+    white-space: nowrap;
+    transition: border-color 0.15s ease, color 0.15s ease;
+  }
+  .reset-btn:hover {
+    border-color: var(--color-accent);
+    color: var(--color-accent);
+  }
+</style>

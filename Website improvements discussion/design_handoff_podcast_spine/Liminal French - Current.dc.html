@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;600;700&family=Spline+Sans+Mono:wght@400;500&display=swap" />
+<style>
+  body { margin: 0; background: #DEDEDC; }
+  a { color: #C8312A; text-decoration: none; }
+  a:hover { color: #A42822; }
+</style>
+</helmet>
+
+<div style="font-family:'Hanken Grotesk',sans-serif;color:#1C1C1E;display:flex;flex-direction:column;gap:56px;padding:32px 0 80px;min-width:1320px">
+
+<!-- ══════════════ SCREEN 1 — HOME ══════════════ -->
+<div data-screen-label="Home">
+<p style="font-family:'Spline Sans Mono',monospace;font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:#6B7280;margin:0 0 10px;padding:0 24px">01 · Homepage — / </p>
+<div style="background:#F1F1F0;border:1px solid #C9C9C7;overflow:hidden">
+<div style="height:3px;background:#21456E"></div>
+
+<div style="border-bottom:1px solid #D1D1CF;background:rgba(241,241,240,0.88);backdrop-filter:saturate(1.2) blur(8px)">
+  <div style="margin:0 auto;max-width:1180px;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:20px 48px">
+    <a href="#" style="font-size:22px;font-weight:700;letter-spacing:0.04em;color:#2C3A48">LIMINAL FRENCH</a>
+    <div style="display:flex;align-items:center;gap:34px">
+      <nav style="display:flex;align-items:center;gap:34px">
+        <a href="#" style="font-size:15px;font-weight:500;color:#1C1C1E">Blog</a>
+        <a href="#" style="font-size:15px;font-weight:500;color:#1C1C1E">Podcast</a>
+        <a href="#" style="font-size:15px;font-weight:500;color:#1C1C1E">Library</a>
+        <a href="#" style="font-size:15px;font-weight:500;color:#1C1C1E">About</a>
+      </nav>
+      <a href="#" style="display:inline-flex;align-items:center;gap:4px;border-radius:10px;background:#C8312A;color:#F1F1F0;font-weight:600;font-size:15px;padding:9px 20px">Start Learning →</a>
+    </div>
+  </div>
+</div>
+
+<!-- Hero -->
+<section style="margin:0 auto;max-width:1180px;display:grid;grid-template-columns:1fr auto;align-items:center;gap:64px;padding:64px 48px 80px">
+  <div>
+    <p style="margin:0 0 24px;font-family:'Spline Sans Mono',monospace;font-size:12px;font-weight:500;text-transform:uppercase;letter-spacing:0.1em;color:#6B7280">Learn French, differently</p>
+    <h1 style="margin:0 0 28px;font-size:62px;line-height:1.04;letter-spacing:-0.045em;color:#2C3A48">
+      <span style="font-weight:300">From zero to immersion.</span><br />
+      <span style="font-weight:700">One platform, one journey.</span>
+    </h1>
+    <p style="margin:0 0 40px;max-width:560px;font-size:19px;line-height:1.6;color:#6B7280">A French learning platform that guides you through the hardest transition — from studying French to actually living it. Four levels, live guidance, and a community that grows with you.</p>
+    <div style="display:flex;align-items:center;gap:16px">
+      <a href="#" style="display:inline-flex;align-items:center;gap:4px;border-radius:10px;background:#C8312A;color:#F1F1F0;font-weight:600;font-size:16px;padding:15px 32px">Start for free →</a>
+      <a href="#" style="border-bottom:2px solid transparent;padding:15px 8px;font-weight:600;color:#2C3A48">See all levels</a>
+    </div>
+  </div>
+  <div>
+    <img src="images/hero-profile.png" alt="Félix, founder of Liminal French" width="360" height="360" style="width:360px;height:auto;display:block" />
+  </div>
+</section>
+
+<!-- How it works -->
+<section style="margin:0 auto;max-width:1180px;border-top:1px solid #D1D1CF;padding:80px 48px">
+  <p style="margin:0 0 12px;font-family:'Spline Sans Mono',monospace;font-size:11px;font-weight:500;text-transform:uppercase;letter-spacing:0.1em;color:#6B7280">How it works</p>
+  <h2 style="margin:0 0 48px;font-size:30px;letter-spacing:-0.02em;color:#2C3A48"><span style="font-weight:300">How Liminal French</span><span style="font-weight:700"> works</span></h2>
+  <ol style="list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px">
+    <sc-for list="{{ steps }}" as="step" hint-placeholder-count="3">
+      <li>
+        <div style="height:128px;width:128px;margin-bottom:20px;overflow:hidden">
+          <div role="img" aria-label="{{ step.iconAlt }}" style="height:100%;width:100%;background-image:{{ step.iconStyle }};background-size:contain;background-position:left center;background-repeat:no-repeat;mix-blend-mode:multiply;transform:{{ step.transform }}"></div>
+        </div>
+        <span style="display:block;margin-bottom:16px;font-family:'Spline Sans Mono',monospace;font-size:14px;font-weight:500;letter-spacing:0.1em;color:#C8312A">{{ step.number }}</span>
+        <h3 style="margin:0 0 12px;font-size:20px;font-weight:700;letter-spacing:-0.02em;color:#2C3A48">{{ step.title }}</h3>
+        <p style="margin:0;font-size:16px;line-height:1.65;color:#1C1C1E">{{ step.description }}</p>
+      </li>
+    </sc-for>
+  </ol>
+</section>
+
+<!-- Levels -->
+<section style="padding:0 24px 80px">
+  <div style="margin:0 auto;max-width:1180px;border-radius:32px;background:#E8E8E7;padding:64px 56px">
+    <p style="margin:0 0 12px;font-family:'Spline Sans Mono',monospace;font-size:11px;font-weight:500;text-transform:uppercase;letter-spacing:0.1em;color:#6B7280">Levels</p>
+    <h2 style="margin:0 0 40px;font-size:30px;letter-spacing:-0.02em;color:#2C3A48"><span style="font-weight:300">Four levels,</span><span style="font-weight:700"> one path</span></h2>
+    <div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px">
+      <sc-for list="{{ levels }}" as="lv" hint-placeholder-count="4">
+        <article style="display:flex;flex-direction:column;border-radius:14px;border:1px solid #D1D1CF;background:#F1F1F0;padding:28px">
+          <div style="display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-bottom:16px">
+            <span style="display:inline-block;border-radius:999px;padding:3px 9px;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.08em;background:{{ lv.bg }};color:{{ lv.fg }}">{{ lv.level }}</span>
+            <h3 style="margin:0;font-size:20px;font-weight:700;letter-spacing:-0.02em;color:#2C3A48">{{ lv.title }}</h3>
+          </div>
+          <p style="margin:0 0 12px;font-size:15px;font-style:italic;line-height:1.5;color:#6B7280">{{ lv.tagline }}</p>
+          <p style="margin:0;font-size:16px;line-height:1.65;color:#1C1C1E">{{ lv.description }}</p>
+        </article>
+      </sc-for>
+    </div>
+  </div>
+</section>
+
+<!-- What you get -->
+<section style="margin:0 auto;max-width:1180px;padding:0 48px 80px">
+  <p style="margin:0 0 12px;font-family:'Spline Sans Mono',monospace;font-size:11px;font-weight:500;text-transform:uppercase;letter-spacing:0.1em;color:#6B7280">Included</p>
+  <h2 style="margin:0 0 40px;font-size:30px;letter-spacing:-0.02em;color:#2C3A48"><span style="font-weight:300">What</span><span style="font-weight:700"> you get</span></h2>
+  <ul style="list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:48px;row-gap:16px">
+    <sc-for list="{{ perks }}" as="perk" hint-placeholder-count="7">
+      <li style="display:flex;gap:14px;font-size:16px;line-height:1.6;color:#1C1C1E">
+        <svg style="margin-top:5px;flex-shrink:0;color:#C8312A" width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8.5l3.5 3.5L13 4.5"></path></svg>
+        <span>{{ perk }}</span>
+      </li>
+    </sc-for>
+  </ul>
+</section>
+
+<!-- Pricing -->
+<section style="margin:0 auto;max-width:1180px;border-top:1px solid #D1D1CF;padding:80px 48px">
+  <p style="margin:0 0 12px;font-family:'Spline Sans Mono',monospace;font-size:11px;font-weight:500;text-transform:uppercase;letter-spacing:0.1em;color:#6B7280">Pricing</p>
+  <h2 style="margin:0 0 40px;font-size:30px;letter-spacing:-0.02em;color:#2C3A48"><span style="font-weight:300">Simple</span><span style="font-weight:700"> pricing</span></h2>
+  <div style="margin:0 auto;max-width:820px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;align-items:stretch">
+    <div style="display:flex;flex-direction:column;border-radius:14px;border:1px solid #D1D1CF;background:#F1F1F0;padding:32px">
+      <p style="margin:0 0 16px;font-family:'Spline Sans Mono',monospace;font-size:12px;font-weight:500;text-transform:uppercase;letter-spacing:0.1em;color:#6B7280">Monthly</p>
+      <p style="margin:0 0 8px;letter-spacing:-0.03em;color:#2C3A48"><span style="font-size:36px;font-weight:700">$39</span><span style="font-size:16px;color:#6B7280;font-weight:300"> / month</span></p>
+      <p style="margin:0 0 32px;font-size:16px;line-height:1.6;color:#1C1C1E">Billed monthly. Cancel anytime.</p>
+      <a href="#" style="margin-top:auto;display:inline-flex;align-items:center;justify-content:center;border-radius:10px;border:1px solid #D1D1CF;padding:13px 24px;font-size:16px;font-weight:600;color:#2C3A48">Start free</a>
+    </div>
+    <div style="position:relative;display:flex;flex-direction:column;border-radius:14px;border:1px solid rgba(200,49,42,0.4);background:#E8E8E7;padding:32px">
+      <span style="align-self:flex-start;margin-bottom:16px;border-radius:999px;background:#C8312A;padding:3px 9px;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.08em;color:#F1F1F0">Best value</span>
+      <p style="margin:0 0 16px;font-family:'Spline Sans Mono',monospace;font-size:12px;font-weight:500;text-transform:uppercase;letter-spacing:0.1em;color:#6B7280">Annual</p>
+      <p style="margin:0 0 8px;letter-spacing:-0.03em;color:#2C3A48"><span style="font-size:36px;font-weight:700">$290</span><span style="font-size:16px;color:#6B7280;font-weight:300"> / year</span><span style="margin-left:4px;white-space:nowrap;font-size:16px;font-weight:600;color:#C8312A">$24/month</span></p>
+      <p style="margin:0 0 32px;font-size:16px;line-height:1.6;color:#1C1C1E">Save 38% vs monthly. Full year access.</p>
+      <a href="#" style="margin-top:auto;display:inline-flex;align-items:center;justify-content:center;gap:4px;border-radius:10px;background:#C8312A;color:#F1F1F0;font-weight:600;font-size:16px;padding:13px 24px">Join annual</a>
+    </div>
+  </div>
+  <p style="margin:32px auto 0;max-width:820px;text-align:center;font-size:14px;color:#6B7280">Start with free content at every level. No credit card required to explore.</p>
+</section>
+
+<!-- Philosophy -->
+<section style="margin:0 auto;max-width:1180px;border-top:1px solid #D1D1CF;padding:80px 48px">
+  <p style="margin:0 0 12px;font-family:'Spline Sans Mono',monospace;font-size:11px;font-weight:500;text-transform:uppercase;letter-spacing:0.1em;color:#6B7280">Philosophy</p>
+  <h2 style="margin:0 0 40px;font-size:30px;letter-spacing:-0.02em;color:#2C3A48"><span style="font-weight:300">Why</span><span style="font-weight:700"> “Liminal”?</span></h2>
+  <div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:48px">
+    <div style="border-left:3px solid #C8312A;padding-left:28px">
+      <p style="margin:0 0 16px;font-size:24px;font-weight:300;line-height:1.5;letter-spacing:-0.01em;color:#2C3A48"><em>Liminal</em> means threshold — the space of crossing from one side to another.</p>
+      <p style="margin:0;font-size:17px;line-height:1.7;color:#1C1C1E">Learning a language isn't really about vocabulary or grammar. It's a door. On the other side of that door is a culture, a way of thinking, relationships and experiences you simply cannot access any other way.</p>
+    </div>
+    <div style="border-radius:14px;border:1px solid #D1D1CF;background:#E8E8E7;padding:32px">
+      <p style="margin:0 0 12px;font-family:'Spline Sans Mono',monospace;font-size:11px;font-weight:500;text-transform:uppercase;letter-spacing:0.1em;color:#6B7280">The journey</p>
+      <h3 style="margin:0 0 16px;font-size:24px;letter-spacing:-0.02em;color:#2C3A48"><span style="font-weight:700">I did it.</span><span style="font-weight:300"> We'll do it together.</span></h3>
+      <p style="margin:0;font-size:17px;line-height:1.7;color:#1C1C1E">I made the jump myself — from classroom methods to learning Japanese through immersion, up to JLPT N2 (roughly CEFR B2). I never considered myself a “gifted” learner: what got me there was consistency, not talent. I'm not observing your journey from the outside — I'm on the same road, a few steps ahead.</p>
+    </div>
+  </div>
+  <a href="#" style="display:inline-block;margin-top:32px;font-size:15px;font-weight:600;color:#C8312A">Read my story →</a>
+</section>
+
+<!-- Podcast -->
+<section style="padding:0 24px 80px">
+  <div style="margin:0 auto;max-width:1180px;border-radius:32px;background:#E8E8E7;padding:64px 56px">
+    <p style="margin:0 0 12px;font-family:'Spline Sans Mono',monospace;font-size:11px;font-weight:500;text-transform:uppercase;letter-spacing:0.1em;color:#6B7280">Podcast</p>
+    <div style="display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:16px">
+      <h2 style="margin:0;font-size:30px;letter-spacing:-0.02em;color:#2C3A48"><span style="font-weight:300">Already learning?</span><span style="font-weight:700"> Keep going — for free.</span></h2>
+      <a href="#" style="white-space:nowrap;font-size:15px;font-weight:600;color:#C8312A">Browse all episodes →</a>
+    </div>
+    <p style="margin:0 0 36px;max-width:640px;font-size:16px;line-height:1.65;color:#1C1C1E">The French with Félix podcast is 90+ episodes of real, natural French — with full transcripts. Free on Spotify, Apple Podcasts, and here.</p>
+    <div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px">
+      <sc-for list="{{ latest }}" as="ep" hint-placeholder-count="3">
+        <a href="#" style="display:block;overflow:hidden;border-radius:14px;border:1px solid #D1D1CF;background:#F1F1F0">
+          <div style="position:relative;aspect-ratio:16/9;width:100%;overflow:hidden;background:#E8E8E7">
+            <div role="img" aria-label="{{ ep.title }}" style="position:absolute;inset:0;background-image:{{ ep.thumbStyle }};background-size:cover;background-position:center"></div>
+          </div>
+          <div style="padding:22px">
+            <div style="display:flex;align-items:center;gap:10px;margin-bottom:14px">
+              <span style="font-size:12px;font-weight:300;color:#6B7280">Ep {{ ep.number }}</span>
+              <span style="display:inline-block;border-radius:999px;padding:3px 9px;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.08em;background:{{ ep.bg }};color:{{ ep.fg }}">{{ ep.level }}</span>
+            </div>
+            <h3 style="margin:0 0 16px;font-size:18px;font-weight:600;line-height:1.25;letter-spacing:-0.02em;color:#2C3A48">{{ ep.title }}</h3>
+            <div style="display:flex;align-items:center;justify-content:space-between;border-top:1px solid #D1D1CF;padding-top:14px">
+              <span style="font-size:13px;color:#6B7280">{{ ep.homeMeta }}</span>
+              <span style="font-size:14px;font-weight:600;color:#2C3A48">▶ Listen</span>
+            </div>
+          </div>
+        </a>
+      </sc-for>
+    </div>
+    <div style="margin-top:40px;text-align:center">
+      <a href="#" style="display:inline-flex;align-items:center;gap:10px;border-radius:10px;border:1px solid #D1D1CF;background:#F1F1F0;padding:12px 24px;font-size:14px;font-weight:600;color:#2C3A48">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="color:#1DB954;flex-shrink:0"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"></path></svg>
+        Listen on Spotify →
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Footer CTA -->
+<section style="margin:0 auto;max-width:840px;padding:16px 48px 112px;text-align:center">
+  <h2 style="margin:0 0 20px;font-size:36px;letter-spacing:-0.03em;color:#2C3A48"><span style="font-weight:300">Ready to</span><span style="font-weight:700"> cross the threshold?</span></h2>
+  <p style="margin:0 auto 32px;max-width:480px;font-size:17px;line-height:1.65;color:#6B7280">Start with free content. No credit card. No pressure. Just French.</p>
+  <a href="#" style="display:inline-flex;align-items:center;gap:4px;border-radius:10px;background:#C8312A;color:#F1F1F0;font-weight:600;font-size:16px;padding:15px 32px">Start for free →</a>
+</section>
+
+<footer style="border-top:1px solid #D1D1CF;background:#E8E8E7">
+  <div style="margin:0 auto;max-width:1180px;display:flex;flex-direction:column;gap:16px;padding:24px 48px">
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:40px">
+      <div>
+        <p style="margin:0;font-size:18px;font-weight:700;letter-spacing:0.04em;color:#2C3A48">LIMINAL FRENCH</p>
+        <p style="margin:4px 0 0;font-size:14px;color:#6B7280;white-space:nowrap">French is a journey. Let's take it together.</p>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;align-items:center;column-gap:40px;row-gap:16px;justify-content:flex-end">
+        <nav style="display:flex;flex-wrap:wrap;column-gap:24px;row-gap:8px;font-size:14px;color:#1C1C1E">
+          <a href="#" style="color:#1C1C1E">About</a><a href="#" style="color:#1C1C1E">Blog</a><a href="#" style="color:#1C1C1E">Podcast</a><a href="#" style="color:#1C1C1E">Library</a>
+        </nav>
+        <nav style="display:flex;flex-wrap:wrap;column-gap:24px;row-gap:8px;font-family:'Spline Sans Mono',monospace;font-size:12px;font-weight:500;text-transform:uppercase;letter-spacing:0.1em;color:#6B7280">
+          <a href="#" style="color:#6B7280">YouTube</a><a href="#" style="color:#6B7280">Instagram</a><a href="#" style="color:#6B7280">TikTok</a><a href="#" style="color:#6B7280">Spotify</a>
+        </nav>
+      </div>
+    </div>
+    <p style="margin:0;font-family:'Spline Sans Mono',monospace;font-size:12px;font-weight:500;color:#6B7280">© 2026 Liminal French — French with Félix. All rights reserved.</p>
+  </div>
+</footer>
+</div>
+</div>
+
+<!-- ══════════════ SCREEN 2 — BLOG LISTING ══════════════ -->
+<div data-screen-label="Blog listing">
+<p style="font-family:'Spline Sans Mono',monospace;font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:#6B7280;margin:0 0 10px;padding:0 24px">02 · Blog listing — /blog</p>
+<div style="background:#F1F1F0;border:1px solid #C9C9C7;overflow:hidden">
+<div style="height:3px;background:#21456E"></div>
+<div style="border-bottom:1px solid #D1D1CF;background:rgba(241,241,240,0.88)">
+  <div style="margin:0 auto;max-width:1180px;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:20px 48px">
+    <a href="#" style="font-size:22px;font-weight:700;letter-spacing:0.04em;color:#2C3A48">LIMINAL FRENCH</a>
+    <div style="display:flex;align-items:center;gap:34px">
+      <nav style="display:flex;align-items:center;gap:34px">
+        <a href="#" style="font-size:15px;font-weight:500;color:#1C1C1E">Blog</a>
+        <a href="#" style="font-size:15px;font-weight:500;color:#1C1C1E">Podcast</a>
+        <a href="#" style="font-size:15px;font-weight:500;color:#1C1C1E">Library</a>
+        <a href="#" style="font-size:15px;font-weight:500;color:#1C1C1E">About</a>
+      </nav>
+      <a href="#" style="display:inline-flex;align-items:center;gap:4px;border-radius:10px;background:#C8312A;color:#F1F1F0;font-weight:600;font-size:15px;padding:9px 20px">Start Learning →</a>
+    </div>
+  </div>
+</div>
+
+<div style="margin:0 auto;max-width:760px;padding:64px 48px 24px;text-align:center">
+  <p style="margin:0 0 14px;font-family:'Spline Sans Mono',monospace;font-size:12px;text-transform:uppercase;letter-spacing:0.1em;color:#C8312A">Journal</p>
+  <h1 style="margin:0 0 20px;font-size:44px;letter-spacing:-0.045em;color:#2C3A48"><span style="font-weight:300">Words first,</span><span style="font-weight:700"> images later.</span></h1>
+  <p style="margin:0;font-size:17px;line-height:1.6;color:#6B7280">No covers, no thumbnails — just the writing. A running log of essays on grammar, culture, and the small wins along the way, in the order they were written.</p>
+</div>
+
+<div style="margin:0 auto;max-width:760px;padding:0 48px 96px">
+  <sc-for list="{{ articles }}" as="a" hint-placeholder-count="6">
+    <a href="#" style="display:flex;flex-direction:column;border-bottom:1px solid #D1D1CF;padding:36px 0">
+      <h2 style="margin:0;font-size:26px;font-weight:700;line-height:1.2;letter-spacing:-0.02em;color:#2C3A48">{{ a.title }}</h2>
+      <p style="margin:16px 0 0;max-width:660px;font-size:15px;line-height:1.65;color:#1C1C1E">{{ a.description }}</p>
+      <div style="margin-top:24px;display:flex;flex-wrap:wrap;align-items:center;column-gap:12px;row-gap:4px;font-family:'Spline Sans Mono',monospace;font-size:12px;letter-spacing:0.08em;color:#6B7280">
+        <span style="text-transform:uppercase">{{ a.categoryLabel }}</span>
+        <span aria-hidden="true">·</span>
+        <span style="display:inline-block;border-radius:999px;padding:3px 9px;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.08em;background:{{ a.bg1 }};color:{{ a.fg1 }}">{{ a.lvl1 }}</span>
+        <span style="display:inline-block;border-radius:999px;padding:3px 9px;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.08em;background:{{ a.bg2 }};color:{{ a.fg2 }}">{{ a.lvl2 }}</span>
+        <span aria-hidden="true">·</span>
+        <span>{{ a.meta }}</span>
+      </div>
+      <span style="margin-top:12px;font-family:'Spline Sans Mono',monospace;font-size:13px;color:#C8312A">Continue reading →</span>
+    </a>
+  </sc-for>
+</div>
+
+<section style="padding:16px 24px 80px">
+  <div style="margin:0 auto;max-width:1180px;border-radius:32px;background:#E8E8E7;padding:64px;text-align:center">
+    <p style="margin:0 0 20px;font-family:'Spline Sans Mono',monospace;font-size:12px;font-weight:500;text-transform:uppercase;letter-spacing:0.1em;color:#6B7280">Ready to go further?</p>
+    <h2 style="margin:0 0 20px;font-size:34px;letter-spacing:-0.025em;color:#2C3A48"><span style="font-weight:300">Take your French</span> <span style="font-weight:700">to the next level.</span></h2>
+    <p style="margin:0 auto 36px;max-width:520px;font-size:17px;line-height:1.6;color:#6B7280">Access structured courses, live practice sessions, and a community that keeps you going.</p>
+    <a href="#" style="display:inline-flex;align-items:center;gap:4px;border-radius:10px;background:#C8312A;color:#F1F1F0;font-weight:600;font-size:16px;padding:15px 32px">Explore courses →</a>
+  </div>
+</section>
+
+<footer style="border-top:1px solid #D1D1CF;background:#E8E8E7">
+  <div style="margin:0 auto;max-width:1180px;display:flex;flex-direction:column;gap:16px;padding:24px 48px">
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:40px">
+      <div>
+        <p style="margin:0;font-size:18px;font-weight:700;letter-spacing:0.04em;color:#2C3A48">LIMINAL FRENCH</p>
+        <p style="margin:4px 0 0;font-size:14px;color:#6B7280;white-space:nowrap">French is a journey. Let's take it together.</p>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;align-items:center;column-gap:40px;row-gap:16px;justify-content:flex-end">
+        <nav style="display:flex;flex-wrap:wrap;column-gap:24px;row-gap:8px;font-size:14px;color:#1C1C1E">
+          <a href="#" style="color:#1C1C1E">About</a><a href="#" style="color:#1C1C1E">Blog</a><a href="#" style="color:#1C1C1E">Podcast</a><a href="#" style="color:#1C1C1E">Library</a>
+        </nav>
+        <nav style="display:flex;flex-wrap:wrap;column-gap:24px;row-gap:8px;font-family:'Spline Sans Mono',monospace;font-size:12px;font-weight:500;text-transform:uppercase;letter-spacing:0.1em;color:#6B7280">
+          <a href="#" style="color:#6B7280">YouTube</a><a href="#" style="color:#6B7280">Instagram</a><a href="#" style="color:#6B7280">TikTok</a><a href="#" style="color:#6B7280">Spotify</a>
+        </nav>
+      </div>
+    </div>
+    <p style="margin:0;font-family:'Spline Sans Mono',monospace;font-size:12px;font-weight:500;color:#6B7280">© 2026 Liminal French — French with Félix. All rights reserved.</p>
+  </div>
+</footer>
+</div>
+</div>
+
+<!-- ══════════════ SCREEN 3 — BLOG ARTICLE ══════════════ -->
+<div data-screen-label="Blog article">
+<p style="font-family:'Spline Sans Mono',monospace;font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:#6B7280;margin:0 0 10px;padding:0 24px">03 · Article — /blog/6-tips-improve-french-reading</p>
+<div style="background:#F1F1F0;border:1px solid #C9C9C7;overflow:hidden">
+<div style="height:3px;background:#21456E"></div>
+<div style="border-bottom:1px solid #D1D1CF;background:rgba(241,241,240,0.88)">
+  <div style="margin:0 auto;max-width:1180px;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:20px 48px">
+    <a href="#" style="font-size:22px;font-weight:700;letter-spacing:0.04em;color:#2C3A48">LIMINAL FRENCH</a>
+    <div style="display:flex;align-items:center;gap:34px">
+      <nav style="display:flex;align-items:center;gap:34px">
+        <a href="#" style="font-size:15px;font-weight:500;color:#1C1C1E">Blog</a>
+        <a href="#" style="font-size:15px;font-weight:500;color:#1C1C1E">Podcast</a>
+        <a href="#" style="font-size:15px;font-weight:500;color:#1C1C1E">Library</a>
+        <a href="#" style="font-size:15px;font-weight:500;color:#1C1C1E">About</a>
+      </nav>
+      <a href="#" style="display:inline-flex;align-items:center;gap:4px;border-radius:10px;background:#C8312A;color:#F1F1F0;font-weight:600;font-size:15px;padding:9px 20px">Start Learning →</a>
+    </div>
+  </div>
+</div>
+
+<div style="margin:0 auto;max-width:720px;padding:40px 24px 16px">
+  <a href="#" style="display:inline-flex;align-items:center;gap:6px;margin-bottom:32px;font-family:'Spline Sans Mono',monospace;font-size:12px;font-weight:500;color:#6B7280">← Back to Blog</a>
+  <header style="margin:16px 0 40px">
+    <p style="margin:0 0 12px;font-family:'Spline Sans Mono',monospace;font-size:11px;font-weight:500;text-transform:uppercase;letter-spacing:0.1em;color:#6B7280">Learning Tips · 8 min read</p>
+    <h1 style="margin:0 0 24px;font-size:44px;font-weight:700;line-height:1.15;letter-spacing:-0.035em;color:#2C3A48">6 Tips to Improve Your French Through Reading</h1>
+    <div style="display:flex;flex-wrap:wrap;align-items:center;gap:12px">
+      <span style="display:inline-block;border-radius:999px;padding:3px 9px;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.08em;background:#FEF3C7;color:#92400E">B1</span>
+      <span style="display:inline-block;border-radius:999px;padding:3px 9px;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.08em;background:#FCE7F3;color:#9D174D">B2</span>
+      <span style="font-family:'Spline Sans Mono',monospace;font-size:12px;color:#6B7280">October 2026</span>
+    </div>
+    <p style="margin:12px 0 0;font-family:'Spline Sans Mono',monospace;font-size:12px;color:#6B7280">Written by <a href="#" style="color:#C8312A">Félix</a></p>
+  </header>
+
+  <nav aria-label="Table of contents" style="margin-bottom:40px;border-radius:14px;border:1px solid #D1D1CF;background:#E8E8E7;padding:20px 24px">
+    <p style="margin:0 0 12px;font-family:'Spline Sans Mono',monospace;font-size:11px;font-weight:500;text-transform:uppercase;letter-spacing:0.1em;color:#6B7280">Contents</p>
+    <ol style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px">
+      <sc-for list="{{ toc }}" as="t" hint-placeholder-count="8">
+        <li><a href="#" style="display:flex;align-items:baseline;gap:12px;font-size:14px;color:#1C1C1E"><span style="font-family:'Spline Sans Mono',monospace;font-size:11px;color:#6B7280">{{ t.n }}</span>{{ t.text }}</a></li>
+      </sc-for>
+    </ol>
+  </nav>
+</div>
+
+<div style="margin:0 auto;max-width:720px;padding:0 24px 64px;font-size:16px;line-height:1.75;color:#1C1C1E">
+  <h2 style="margin:0 0 16px;font-size:24px;font-weight:700;letter-spacing:-0.02em;color:#2C3A48">Introduction</h2>
+  <p style="margin:0 0 20px;text-align:justify">A language is really four skills: listening, speaking, reading, and writing. Reading tends to get less attention in immersion advice than listening or speaking, but skipping it cuts you off from a huge portion of both the language and its culture — you can technically speak a language fluently and still be unable to read it, which is a real and common gap, especially for languages with a difficult writing system. Reading is also one of the most efficient ways to expand your vocabulary, since written language draws on a noticeably larger pool of words than everyday speech — spoken French tends to use around 10,000 words in common use, while written French can range up to 30,000 or 40,000. Here are six things worth knowing before you start.</p>
+  <h2 style="margin:40px 0 16px;font-size:24px;font-weight:700;letter-spacing:-0.02em;color:#2C3A48">Tip 1: Choose the Right Level</h2>
+  <p style="margin:0 0 20px;text-align:justify">The idea of "learn French by reading novels" sounds appealing, but it's only half true — reading a native-level book demands an advanced level, arguably even more than watching native videos does, because you can't fall back on tone of voice or visuals to help you guess.</p>
+  <p style="margin:0 0 20px;text-align:justify">Here's a trap worth knowing about specifically: some books have a reputation for being "easy" that doesn't hold up. <em>Le Petit Prince</em> is the classic example — short, universally recommended to beginners, and genuinely much harder than its reputation suggests. It's written in a literary style full of <em>passé simple</em>, a past tense used almost exclusively in writing and virtually never in speech, with highly irregular verb forms (<em>être</em> becomes <em>je fus</em>, unrecognizable next to the verb's other forms). Books like this are better suited to advanced learners, not beginners looking for an easy first read.</p>
+  <p style="margin:0 0 20px;text-align:justify">A better starting category, in my experience, is personal-development or business books — the kind with a single core idea repeated through multiple examples. They're usually written almost entirely in <em>passé composé</em> rather than <em>passé simple</em>, tend to be shorter, and their repetitive structure is genuinely helpful for a learner, since the same vocabulary and structures keep resurfacing.</p>
+  <h2 style="margin:40px 0 16px;font-size:24px;font-weight:700;letter-spacing:-0.02em;color:#2C3A48">Tip 2: Be Aware of Specific Vocabulary "Islands"</h2>
+  <p style="margin:0 0 20px;text-align:justify">Books cluster around specific vocabulary depending on their subject — think of each topic as its own "island" of words. A book about work will bring you words like "manager," "responsibility," "merger." A biography of a footballer will bring you terms specific to sport: defender, goalkeeper, referee. If you open a book and suddenly feel like you know far less vocabulary than you thought, it's often not a sign you've regressed — it's just that you've landed on a new island you haven't explored yet.</p>
+  <p style="margin:0;text-align:justify">This cuts both ways usefully: choosing books deliberately by subject is a good way to expand into vocabulary areas you might otherwise never encounter. If you're interested in sports, cinema, cooking, or any specific hobby, seek out books on that exact subject — you'll pick up a cluster of related, useful vocabulary all at once.</p>
+</div>
+
+<section style="padding:16px 24px 80px">
+  <div style="margin:0 auto;max-width:1180px;border-radius:32px;background:#E8E8E7;padding:64px;text-align:center">
+    <p style="margin:0 0 20px;font-family:'Spline Sans Mono',monospace;font-size:12px;font-weight:500;text-transform:uppercase;letter-spacing:0.1em;color:#6B7280">Ready to go further?</p>
+    <h2 style="margin:0 0 20px;font-size:34px;letter-spacing:-0.025em;color:#2C3A48"><span style="font-weight:300">Take your French</span> <span style="font-weight:700">to the next level.</span></h2>
+    <p style="margin:0 auto 36px;max-width:520px;font-size:17px;line-height:1.6;color:#6B7280">Access structured courses, live practice sessions, and a community that keeps you going — all at learn.frenchwithfelix.com.</p>
+    <a href="#" style="display:inline-flex;align-items:center;gap:4px;border-radius:10px;background:#C8312A;color:#F1F1F0;font-weight:600;font-size:16px;padding:15px 32px">Explore courses →</a>
+  </div>
+</section>
+
+<footer style="border-top:1px solid #D1D1CF;background:#E8E8E7">
+  <div style="margin:0 auto;max-width:1180px;display:flex;flex-direction:column;gap:16px;padding:24px 48px">
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:40px">
+      <div>
+        <p style="margin:0;font-size:18px;font-weight:700;letter-spacing:0.04em;color:#2C3A48">LIMINAL FRENCH</p>
+        <p style="margin:4px 0 0;font-size:14px;color:#6B7280;white-space:nowrap">French is a journey. Let's take it together.</p>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;align-items:center;column-gap:40px;row-gap:16px;justify-content:flex-end">
+        <nav style="display:flex;flex-wrap:wrap;column-gap:24px;row-gap:8px;font-size:14px;color:#1C1C1E">
+          <a href="#" style="color:#1C1C1E">About</a><a href="#" style="color:#1C1C1E">Blog</a><a href="#" style="color:#1C1C1E">Podcast</a><a href="#" style="color:#1C1C1E">Library</a>
+        </nav>
+        <nav style="display:flex;flex-wrap:wrap;column-gap:24px;row-gap:8px;font-family:'Spline Sans Mono',monospace;font-size:12px;font-weight:500;text-transform:uppercase;letter-spacing:0.1em;color:#6B7280">
+          <a href="#" style="color:#6B7280">YouTube</a><a href="#" style="color:#6B7280">Instagram</a><a href="#" style="color:#6B7280">TikTok</a><a href="#" style="color:#6B7280">Spotify</a>
+        </nav>
+      </div>
+    </div>
+    <p style="margin:0;font-family:'Spline Sans Mono',monospace;font-size:12px;font-weight:500;color:#6B7280">© 2026 Liminal French — French with Félix. All rights reserved.</p>
+  </div>
+</footer>
+</div>
+</div>
+
+<!-- ══════════════ SCREEN 4 — PODCAST LISTING ══════════════ -->
+<div data-screen-label="Podcast listing">
+<p style="font-family:'Spline Sans Mono',monospace;font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:#6B7280;margin:0 0 10px;padding:0 24px">04 · Podcast listing — /podcast</p>
+<div style="background:#F1F1F0;border:1px solid #C9C9C7;overflow:hidden">
+<div style="height:3px;background:#21456E"></div>
+<div style="border-bottom:1px solid #D1D1CF;background:rgba(241,241,240,0.88)">
+  <div style="margin:0 auto;max-width:1180px;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:20px 48px">
+    <a href="#" style="font-size:22px;font-weight:700;letter-spacing:0.04em;color:#2C3A48">LIMINAL FRENCH</a>
+    <div style="display:flex;align-items:center;gap:34px">
+      <nav style="display:flex;align-items:center;gap:34px">
+        <a href="#" style="font-size:15px;font-weight:500;color:#1C1C1E">Blog</a>
+        <a href="#" style="font-size:15px;font-weight:500;color:#1C1C1E">Podcast</a>
+        <a href="#" style="font-size:15px;font-weight:500;color:#1C1C1E">Library</a>
+        <a href="#" style="font-size:15px;font-weight:500;color:#1C1C1E">About</a>
+      </nav>
+      <a href="#" style="display:inline-flex;align-items:center;gap:4px;border-radius:10px;background:#C8312A;color:#F1F1F0;font-weight:600;font-size:15px;padding:9px 20px">Start Learning →</a>
+    </div>
+  </div>
+</div>
+
+<div style="margin:0 auto;max-width:1180px;padding:56px 48px 32px">
+  <div style="display:flex;flex-wrap:wrap;align-items:center;gap:12px">
+    <select aria-label="Filter by level" style="background:#E8E8E7;border:1px solid #D1D1CF;border-radius:10px;font-family:'Hanken Grotesk',sans-serif;font-size:14px;padding:8px 12px;color:#1C1C1E"><option>All levels</option></select>
+    <select aria-label="Filter by theme" style="background:#E8E8E7;border:1px solid #D1D1CF;border-radius:10px;font-family:'Hanken Grotesk',sans-serif;font-size:14px;padding:8px 12px;color:#1C1C1E"><option>All themes</option></select>
+    <select aria-label="Filter by speed" style="background:#E8E8E7;border:1px solid #D1D1CF;border-radius:10px;font-family:'Hanken Grotesk',sans-serif;font-size:14px;padding:8px 12px;color:#1C1C1E"><option>All speeds</option></select>
+    <input type="search" placeholder="Search episodes…" style="margin-left:auto;min-width:180px;border-radius:10px;border:1px solid #D1D1CF;background:#F1F1F0;padding:9px 16px;font-family:'Hanken Grotesk',sans-serif;font-size:14px;color:#1C1C1E" />
+  </div>
+</div>
+
+<div style="margin:0 auto;max-width:1180px;padding:0 48px 32px">
+  <nav aria-label="Pagination" style="display:flex;align-items:center;justify-content:center;gap:6px">
+    <span style="display:inline-flex;align-items:center;justify-content:center;min-width:36px;padding:8px 12px;border-radius:999px;font-size:14px;font-weight:500;line-height:1;border:1px solid #D1D1CF;color:#6B7280;opacity:0.3">←</span>
+    <a href="#" style="display:inline-flex;align-items:center;justify-content:center;min-width:36px;padding:8px 12px;border-radius:999px;font-size:14px;font-weight:600;line-height:1;border:1px solid #C8312A;background:#C8312A;color:#fff">1</a>
+    <a href="#" style="display:inline-flex;align-items:center;justify-content:center;min-width:36px;padding:8px 12px;border-radius:999px;font-size:14px;font-weight:500;line-height:1;border:1px solid #D1D1CF;color:#6B7280">2</a>
+    <a href="#" style="display:inline-flex;align-items:center;justify-content:center;min-width:36px;padding:8px 12px;border-radius:999px;font-size:14px;font-weight:500;line-height:1;border:1px solid #D1D1CF;color:#6B7280">3</a>
+    <a href="#" style="display:inline-flex;align-items:center;justify-content:center;min-width:36px;padding:8px 12px;border-radius:999px;font-size:14px;font-weight:500;line-height:1;border:1px solid #D1D1CF;color:#6B7280">4</a>
+    <a href="#" style="display:inline-flex;align-items:center;justify-content:center;min-width:36px;padding:8px 12px;border-radius:999px;font-size:14px;font-weight:500;line-height:1;border:1px solid #D1D1CF;color:#6B7280">5</a>
+    <span style="padding:8px 4px;font-size:14px;color:#6B7280">…</span>
+    <a href="#" style="display:inline-flex;align-items:center;justify-content:center;min-width:36px;padding:8px 12px;border-radius:999px;font-size:14px;font-weight:500;line-height:1;border:1px solid #D1D1CF;color:#6B7280">7</a>
+    <a href="#" style="display:inline-flex;align-items:center;justify-content:center;min-width:36px;padding:8px 12px;border-radius:999px;font-size:14px;font-weight:500;line-height:1;border:1px solid #D1D1CF;color:#6B7280">→</a>
+  </nav>
+</div>
+
+<div style="margin:0 auto;max-width:1180px;padding:0 48px 32px">
+  <div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px">
+    <sc-for list="{{ episodes }}" as="ep" hint-placeholder-count="6">
+      <a href="#" style="display:block;overflow:hidden;border-radius:14px;border:1px solid #D1D1CF;background:#F1F1F0">
+        <div style="position:relative;aspect-ratio:16/9;width:100%;overflow:hidden;background:#E8E8E7">
+          <div role="img" aria-label="{{ ep.title }}" style="position:absolute;inset:0;background-image:{{ ep.thumbStyle }};background-size:cover;background-position:center"></div>
+        </div>
+        <div style="padding:22px">
+          <h3 style="margin:0 0 12px;font-size:18px;font-weight:600;line-height:1.3;letter-spacing:-0.02em;color:#2C3A48">{{ ep.title }}</h3>
+          <div style="display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-bottom:16px">
+            <span style="font-size:12px;font-weight:300;color:#6B7280">Ep {{ ep.number }}</span>
+            <span style="display:inline-block;border-radius:999px;padding:3px 9px;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.08em;background:{{ ep.bg }};color:{{ ep.fg }}">{{ ep.level }}</span>
+          </div>
+          <div style="display:flex;align-items:center;justify-content:space-between;border-top:1px solid #D1D1CF;padding-top:14px">
+            <div style="display:flex;flex-wrap:wrap;column-gap:16px;font-size:13px;color:#6B7280"><span>{{ ep.duration }}</span><span>{{ ep.wpmLabel }}</span></div>
+            <span style="font-size:13px;font-weight:600;color:#6B7280">→</span>
+          </div>
+        </div>
+      </a>
+    </sc-for>
+  </div>
+</div>
+
+<div style="margin:0 auto;max-width:1180px;padding:0 48px 64px">
+  <nav aria-label="Pagination" style="display:flex;align-items:center;justify-content:center;gap:6px">
+    <span style="display:inline-flex;align-items:center;justify-content:center;min-width:36px;padding:8px 12px;border-radius:999px;font-size:14px;font-weight:500;line-height:1;border:1px solid #D1D1CF;color:#6B7280;opacity:0.3">←</span>
+    <a href="#" style="display:inline-flex;align-items:center;justify-content:center;min-width:36px;padding:8px 12px;border-radius:999px;font-size:14px;font-weight:600;line-height:1;border:1px solid #C8312A;background:#C8312A;color:#fff">1</a>
+    <a href="#" style="display:inline-flex;align-items:center;justify-content:center;min-width:36px;padding:8px 12px;border-radius:999px;font-size:14px;font-weight:500;line-height:1;border:1px solid #D1D1CF;color:#6B7280">2</a>
+    <a href="#" style="display:inline-flex;align-items:center;justify-content:center;min-width:36px;padding:8px 12px;border-radius:999px;font-size:14px;font-weight:500;line-height:1;border:1px solid #D1D1CF;color:#6B7280">3</a>
+    <a href="#" style="display:inline-flex;align-items:center;justify-content:center;min-width:36px;padding:8px 12px;border-radius:999px;font-size:14px;font-weight:500;line-height:1;border:1px solid #D1D1CF;color:#6B7280">4</a>
+    <a href="#" style="display:inline-flex;align-items:center;justify-content:center;min-width:36px;padding:8px 12px;border-radius:999px;font-size:14px;font-weight:500;line-height:1;border:1px solid #D1D1CF;color:#6B7280">5</a>
+    <span style="padding:8px 4px;font-size:14px;color:#6B7280">…</span>
+    <a href="#" style="display:inline-flex;align-items:center;justify-content:center;min-width:36px;padding:8px 12px;border-radius:999px;font-size:14px;font-weight:500;line-height:1;border:1px solid #D1D1CF;color:#6B7280">7</a>
+    <a href="#" style="display:inline-flex;align-items:center;justify-content:center;min-width:36px;padding:8px 12px;border-radius:999px;font-size:14px;font-weight:500;line-height:1;border:1px solid #D1D1CF;color:#6B7280">→</a>
+  </nav>
+</div>
+
+<div style="margin:0 auto;max-width:1180px;padding:0 48px 64px">
+  <div style="border-radius:32px;background:#E8E8E7;padding:64px;text-align:center">
+    <p style="margin:0 0 16px;font-family:'Spline Sans Mono',monospace;font-size:11px;font-weight:500;text-transform:uppercase;letter-spacing:0.1em;color:#6B7280">Listen everywhere</p>
+    <h2 style="margin:0 0 32px;font-size:40px;line-height:1.1;letter-spacing:-0.03em;color:#2C3A48"><span style="font-weight:300">Take us</span><span style="font-weight:700"> with you.</span></h2>
+    <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:16px">
+      <a href="#" style="display:inline-flex;align-items:center;gap:10px;border-radius:10px;border:1px solid #D1D1CF;background:#F1F1F0;padding:12px 24px;font-size:14px;font-weight:600;color:#2C3A48">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="color:#1DB954"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"></path></svg>
+        Spotify
+      </a>
+      <a href="#" style="display:inline-flex;align-items:center;gap:10px;border-radius:10px;border:1px solid #D1D1CF;background:#F1F1F0;padding:12px 24px;font-size:14px;font-weight:600;color:#2C3A48">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="color:#B150E2"><path d="M12 1a11 11 0 100 22A11 11 0 0012 1zm0 2a9 9 0 110 18A9 9 0 0112 3zm0 2a7 7 0 100 14A7 7 0 0012 5zm0 2a5 5 0 110 10A5 5 0 0112 7zm0 3a2 2 0 100 4 2 2 0 000-4zm0 5.5c1.1 0 2.1.3 2.95.82L16.5 20H7.5l1.55-3.68A5.5 5.5 0 0112 15.5z"></path></svg>
+        Apple Podcasts
+      </a>
+      <a href="#" style="display:inline-flex;align-items:center;gap:10px;border-radius:10px;border:1px solid #D1D1CF;background:#F1F1F0;padding:12px 24px;font-size:14px;font-weight:600;color:#2C3A48">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="color:#F26522"><path d="M6.18 15.64a2.18 2.18 0 010 4.36 2.18 2.18 0 010-4.36M4 4.44A15.56 15.56 0 0119.56 20h-2.83A12.73 12.73 0 004 7.27V4.44m0 5.66a9.9 9.9 0 019.9 9.9h-2.83A7.07 7.07 0 004 12.93V10.1z"></path></svg>
+        RSS Feed
+      </a>
+    </div>
+  </div>
+</div>
+
+<section style="padding:16px 24px 80px">
+  <div style="margin:0 auto;max-width:1180px;border-radius:32px;background:#E8E8E7;padding:64px;text-align:center">
+    <p style="margin:0 0 20px;font-family:'Spline Sans Mono',monospace;font-size:12px;font-weight:500;text-transform:uppercase;letter-spacing:0.1em;color:#6B7280">Ready to go further?</p>
+    <h2 style="margin:0 0 20px;font-size:34px;letter-spacing:-0.025em;color:#2C3A48"><span style="font-weight:300">Take your French</span> <span style="font-weight:700">to the next level.</span></h2>
+    <p style="margin:0 auto 36px;max-width:520px;font-size:17px;line-height:1.6;color:#6B7280">Access structured courses, live practice sessions, and a community that keeps you going — all at learn.frenchwithfelix.com.</p>
+    <a href="#" style="display:inline-flex;align-items:center;gap:4px;border-radius:10px;background:#C8312A;color:#F1F1F0;font-weight:600;font-size:16px;padding:15px 32px">Explore courses →</a>
+  </div>
+</section>
+
+<footer style="border-top:1px solid #D1D1CF;background:#E8E8E7">
+  <div style="margin:0 auto;max-width:1180px;display:flex;flex-direction:column;gap:16px;padding:24px 48px">
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:40px">
+      <div>
+        <p style="margin:0;font-size:18px;font-weight:700;letter-spacing:0.04em;color:#2C3A48">LIMINAL FRENCH</p>
+        <p style="margin:4px 0 0;font-size:14px;color:#6B7280;white-space:nowrap">French is a journey. Let's take it together.</p>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;align-items:center;column-gap:40px;row-gap:16px;justify-content:flex-end">
+        <nav style="display:flex;flex-wrap:wrap;column-gap:24px;row-gap:8px;font-size:14px;color:#1C1C1E">
+          <a href="#" style="color:#1C1C1E">About</a><a href="#" style="color:#1C1C1E">Blog</a><a href="#" style="color:#1C1C1E">Podcast</a><a href="#" style="color:#1C1C1E">Library</a>
+        </nav>
+        <nav style="display:flex;flex-wrap:wrap;column-gap:24px;row-gap:8px;font-family:'Spline Sans Mono',monospace;font-size:12px;font-weight:500;text-transform:uppercase;letter-spacing:0.1em;color:#6B7280">
+          <a href="#" style="color:#6B7280">YouTube</a><a href="#" style="color:#6B7280">Instagram</a><a href="#" style="color:#6B7280">TikTok</a><a href="#" style="color:#6B7280">Spotify</a>
+        </nav>
+      </div>
+    </div>
+    <p style="margin:0;font-family:'Spline Sans Mono',monospace;font-size:12px;font-weight:500;color:#6B7280">© 2026 Liminal French — French with Félix. All rights reserved.</p>
+  </div>
+</footer>
+</div>
+</div>
+
+<!-- ══════════════ SCREEN 5 — PODCAST EPISODE ══════════════ -->
+<div data-screen-label="Podcast episode">
+<p style="font-family:'Spline Sans Mono',monospace;font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:#6B7280;margin:0 0 10px;padding:0 24px">05 · Episode — /podcast/japanese-portuguese-learning</p>
+<div style="background:#F1F1F0;border:1px solid #C9C9C7;overflow:hidden">
+<div style="height:3px;background:#21456E"></div>
+<div style="border-bottom:1px solid #D1D1CF;background:rgba(241,241,240,0.88)">
+  <div style="margin:0 auto;max-width:1180px;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:20px 48px">
+    <a href="#" style="font-size:22px;font-weight:700;letter-spacing:0.04em;color:#2C3A48">LIMINAL FRENCH</a>
+    <div style="display:flex;align-items:center;gap:34px">
+      <nav style="display:flex;align-items:center;gap:34px">
+        <a href="#" style="font-size:15px;font-weight:500;color:#1C1C1E">Blog</a>
+        <a href="#" style="font-size:15px;font-weight:500;color:#1C1C1E">Podcast</a>
+        <a href="#" style="font-size:15px;font-weight:500;color:#1C1C1E">Library</a>
+        <a href="#" style="font-size:15px;font-weight:500;color:#1C1C1E">About</a>
+      </nav>
+      <a href="#" style="display:inline-flex;align-items:center;gap:4px;border-radius:10px;background:#C8312A;color:#F1F1F0;font-weight:600;font-size:15px;padding:9px 20px">Start Learning →</a>
+    </div>
+  </div>
+</div>
+
+<div style="margin:0 auto;max-width:1180px;padding:48px 48px 48px">
+  <a href="#" style="display:inline-flex;align-items:center;gap:4px;margin-bottom:32px;font-family:'Spline Sans Mono',monospace;font-size:12px;font-weight:500;text-transform:uppercase;letter-spacing:0.1em;color:#6B7280">← All episodes</a>
+  <div style="margin-bottom:40px">
+    <div style="display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-bottom:16px">
+      <span style="font-size:24px;font-weight:300;letter-spacing:-0.02em;color:#C8312A">Ep 83</span>
+      <span style="display:inline-block;border-radius:999px;padding:3px 9px;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.08em;background:#FEF3C7;color:#92400E">B1</span>
+      <span style="border-radius:999px;background:#E8E8E7;padding:3px 10px;font-family:'Spline Sans Mono',monospace;font-size:11px;font-weight:500;text-transform:uppercase;letter-spacing:0.08em;color:#6B7280">language-learning</span>
+    </div>
+    <h1 style="margin:0 0 24px;font-size:38px;font-weight:700;line-height:1.1;letter-spacing:-0.035em;color:#2C3A48">J'apprends le japonais et le portugais</h1>
+    <div style="display:flex;flex-wrap:wrap;column-gap:32px;row-gap:12px;border-top:1px solid #D1D1CF;padding-top:20px">
+      <div>
+        <p style="margin:0 0 4px;font-family:'Spline Sans Mono',monospace;font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:0.1em;color:#6B7280">Duration</p>
+        <p style="margin:0;font-size:15px;font-weight:600;color:#2C3A48">29:05:00</p>
+      </div>
+      <div>
+        <p style="margin:0 0 4px;font-family:'Spline Sans Mono',monospace;font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:0.1em;color:#6B7280">Speed</p>
+        <p style="margin:0;font-size:15px;font-weight:600;color:#2C3A48">Natural · 159 wpm</p>
+      </div>
+      <div>
+        <p style="margin:0 0 4px;font-family:'Spline Sans Mono',monospace;font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:0.1em;color:#6B7280">Transcript</p>
+        <p style="margin:0;font-size:15px;font-weight:600;color:#2C3A48">4,637 words</p>
+      </div>
+    </div>
+  </div>
+
+  <div style="display:grid;grid-template-columns:3fr 2fr;column-gap:48px;row-gap:32px">
+    <div style="order:2">
+      <div style="overflow:hidden;border-radius:14px;position:relative;padding-bottom:56.25%;height:0;background:#000">
+        <img src="https://img.youtube.com/vi/2GHJJmqJVxA/maxresdefault.jpg" alt="J'apprends le japonais et le portugais" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover" />
+        <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center">
+          <div style="width:68px;height:48px;border-radius:12px;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;color:#fff;font-size:18px">▶</div>
+        </div>
+      </div>
+    </div>
+    <div style="order:1">
+      <h2 style="margin:0 0 32px;font-size:30px;letter-spacing:-0.02em;color:#2C3A48"><span style="font-weight:300">Full</span><span style="font-weight:700"> transcript</span></h2>
+      <div style="display:flex;flex-direction:column;gap:32px">
+        <sc-for list="{{ transcript }}" as="p" hint-placeholder-count="3">
+          <div>
+            <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px">
+              <button style="min-height:44px;display:inline-flex;align-items:center;background:none;border:0;padding:0;cursor:pointer;font-family:'Spline Sans Mono',monospace;font-size:12px;font-weight:500;color:#6B7280">{{ p.timecode }}</button>
+              <button style="min-height:44px;display:inline-flex;align-items:center;background:none;border:0;padding:0;cursor:pointer;font-family:'Spline Sans Mono',monospace;font-size:12px;font-weight:500;color:#6B7280;opacity:{{ p.hintOpacity }}">{{ p.hint }}</button>
+            </div>
+            <p style="margin:0;font-size:17px;line-height:1.8;color:#1C1C1E;text-align:justify">{{ p.text }}</p>
+          </div>
+        </sc-for>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section style="padding:16px 24px 80px">
+  <div style="margin:0 auto;max-width:1180px;border-radius:32px;background:#E8E8E7;padding:64px;text-align:center">
+    <p style="margin:0 0 20px;font-family:'Spline Sans Mono',monospace;font-size:12px;font-weight:500;text-transform:uppercase;letter-spacing:0.1em;color:#6B7280">Ready for more?</p>
+    <h2 style="margin:0 0 20px;font-size:34px;letter-spacing:-0.025em;color:#2C3A48"><span style="font-weight:300">Take your French</span> <span style="font-weight:700">to the next level.</span></h2>
+    <p style="margin:0 auto 36px;max-width:520px;font-size:17px;line-height:1.6;color:#6B7280">Access structured courses, live practice sessions, and a community that keeps you going — all at learn.frenchwithfelix.com.</p>
+    <a href="#" style="display:inline-flex;align-items:center;gap:4px;border-radius:10px;background:#C8312A;color:#F1F1F0;font-weight:600;font-size:16px;padding:15px 32px">Explore courses →</a>
+  </div>
+</section>
+
+<footer style="border-top:1px solid #D1D1CF;background:#E8E8E7">
+  <div style="margin:0 auto;max-width:1180px;display:flex;flex-direction:column;gap:16px;padding:24px 48px">
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:40px">
+      <div>
+        <p style="margin:0;font-size:18px;font-weight:700;letter-spacing:0.04em;color:#2C3A48">LIMINAL FRENCH</p>
+        <p style="margin:4px 0 0;font-size:14px;color:#6B7280;white-space:nowrap">French is a journey. Let's take it together.</p>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;align-items:center;column-gap:40px;row-gap:16px;justify-content:flex-end">
+        <nav style="display:flex;flex-wrap:wrap;column-gap:24px;row-gap:8px;font-size:14px;color:#1C1C1E">
+          <a href="#" style="color:#1C1C1E">About</a><a href="#" style="color:#1C1C1E">Blog</a><a href="#" style="color:#1C1C1E">Podcast</a><a href="#" style="color:#1C1C1E">Library</a>
+        </nav>
+        <nav style="display:flex;flex-wrap:wrap;column-gap:24px;row-gap:8px;font-family:'Spline Sans Mono',monospace;font-size:12px;font-weight:500;text-transform:uppercase;letter-spacing:0.1em;color:#6B7280">
+          <a href="#" style="color:#6B7280">YouTube</a><a href="#" style="color:#6B7280">Instagram</a><a href="#" style="color:#6B7280">TikTok</a><a href="#" style="color:#6B7280">Spotify</a>
+        </nav>
+      </div>
+    </div>
+    <p style="margin:0;font-family:'Spline Sans Mono',monospace;font-size:12px;font-weight:500;color:#6B7280">© 2026 Liminal French — French with Félix. All rights reserved.</p>
+  </div>
+</footer>
+</div>
+</div>
+
+<!-- ══════════════ SCREEN 6 — ABOUT ══════════════ -->
+<div data-screen-label="About">
+<p style="font-family:'Spline Sans Mono',monospace;font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:#6B7280;margin:0 0 10px;padding:0 24px">06 · About — /about</p>
+<div style="background:#F1F1F0;border:1px solid #C9C9C7;overflow:hidden">
+<div style="height:3px;background:#21456E"></div>
+<div style="border-bottom:1px solid #D1D1CF;background:rgba(241,241,240,0.88)">
+  <div style="margin:0 auto;max-width:1180px;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:20px 48px">
+    <a href="#" style="font-size:22px;font-weight:700;letter-spacing:0.04em;color:#2C3A48">LIMINAL FRENCH</a>
+    <div style="display:flex;align-items:center;gap:34px">
+      <nav style="display:flex;align-items:center;gap:34px">
+        <a href="#" style="font-size:15px;font-weight:500;color:#1C1C1E">Blog</a>
+        <a href="#" style="font-size:15px;font-weight:500;color:#1C1C1E">Podcast</a>
+        <a href="#" style="font-size:15px;font-weight:500;color:#1C1C1E">Library</a>
+        <a href="#" style="font-size:15px;font-weight:500;color:#1C1C1E">About</a>
+      </nav>
+      <a href="#" style="display:inline-flex;align-items:center;gap:4px;border-radius:10px;background:#C8312A;color:#F1F1F0;font-weight:600;font-size:15px;padding:9px 20px">Start Learning →</a>
+    </div>
+  </div>
+</div>
+
+<div style="margin:0 auto;max-width:760px;display:grid;grid-template-columns:1fr auto;align-items:center;gap:32px;padding:64px 48px 24px">
+  <div>
+    <p style="margin:0 0 14px;font-family:'Spline Sans Mono',monospace;font-size:12px;text-transform:uppercase;letter-spacing:0.1em;color:#6B7280">About</p>
+    <h1 style="margin:0;font-size:34px;line-height:1.15;letter-spacing:-0.045em;color:#2C3A48"><span style="font-weight:300">I'm Félix. I built Liminal French because</span><span style="font-weight:700"> I made a jump I never thought I could make — and I want to help you do the same.</span></h1>
+  </div>
+  <img src="images/hero-profile.png" alt="Félix, founder of Liminal French" width="220" height="220" style="width:220px;height:auto;display:block" />
+</div>
+
+<div style="margin:0 auto;max-width:760px;padding:0 48px 96px">
+  <section style="padding-bottom:48px;border-bottom:1px solid #D1D1CF">
+    <p style="margin:0 0 12px;font-family:'Spline Sans Mono',monospace;font-size:11px;font-weight:500;text-transform:uppercase;letter-spacing:0.1em;color:#6B7280">The story</p>
+    <h2 style="margin:0 0 24px;font-size:24px;font-weight:700;letter-spacing:-0.02em;color:#2C3A48">The gap nobody talks about</h2>
+    <p style="margin:0 0 20px;font-size:16px;line-height:1.75;color:#1C1C1E">If you learned a language in school, you know the drill: conjugation tables, fill-in-the-blank exercises, vocabulary lists. It's how I learned English and Spanish growing up. It works — to a point. And then it stops working, and nobody tells you why.</p>
+    <p style="margin:0 0 20px;font-size:16px;line-height:1.75;color:#1C1C1E">Online, you'll find the opposite camp: comprehensible input, immersion, "just consume content you understand and the language will click." It's not wrong. But almost nobody explains how to actually get there if all you've ever known is the classroom method. It's one thing to hear "just immerse yourself" — it's another to know what that looks like on day one, week one, month one.</p>
+    <p style="margin:0 0 20px;font-size:16px;line-height:1.75;color:#1C1C1E">I found that path by accident, learning Japanese. Zero immersion experience going in — just the classic school method for English and Spanish. Japanese was the first language I learned almost entirely through immersion and comprehensible input, and it changed how I understood learning itself. Not just faster — different. More durable. More mine. Today I'm around JLPT N2 level (roughly CEFR B2) — reached without ever sitting in a Japanese classroom.</p>
+    <p style="margin:0;font-size:16px;line-height:1.75;color:#1C1C1E">Liminal French exists to take you across that same gap, deliberately, instead of by accident.</p>
+  </section>
+
+  <section style="padding:48px 0;border-bottom:1px solid #D1D1CF">
+    <p style="margin:0 0 12px;font-family:'Spline Sans Mono',monospace;font-size:11px;font-weight:500;text-transform:uppercase;letter-spacing:0.1em;color:#6B7280">The method</p>
+    <h2 style="margin:0 0 24px;font-size:24px;font-weight:700;letter-spacing:-0.02em;color:#2C3A48">How the jump actually works</h2>
+    <p style="margin:0 0 20px;font-size:16px;line-height:1.75;color:#1C1C1E">Here's the part most immersion advocates skip: you can't remove the training wheels before you've learned to balance.</p>
+    <p style="margin:0 0 20px;font-size:16px;line-height:1.75;color:#1C1C1E">If you're a complete beginner, you genuinely need some grammar, some structure, some classic groundwork first — enough to hold the basics steady. That's not a failure of the method, it's the foundation the method needs to work.</p>
+    <p style="margin:0 0 20px;font-size:16px;line-height:1.75;color:#1C1C1E">But the training wheels that help you at the start are the same thing holding you back later. At a certain point, they stop teaching you balance and start preventing it. That's the moment to take them off — and that's the moment most learners never get, because nobody shows them when or how.</p>
+    <p style="margin:0 0 20px;font-size:16px;line-height:1.75;color:#1C1C1E">That's what Liminal French actually does:</p>
+    <ul style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:14px">
+      <li style="display:flex;gap:14px;font-size:16px;line-height:1.65;color:#1C1C1E"><span style="font-family:'Spline Sans Mono',monospace;color:#C8312A;flex-shrink:0">→</span><span><strong style="color:#2C3A48">A1 : Structured basics</strong> — grammar lessons from zero, first sentences in real context</span></li>
+      <li style="display:flex;gap:14px;font-size:16px;line-height:1.65;color:#1C1C1E"><span style="font-family:'Spline Sans Mono',monospace;color:#C8312A;flex-shrink:0">→</span><span><strong style="color:#2C3A48">A2 : The bridge</strong> — grammar + first immersion texts, the transition begins</span></li>
+      <li style="display:flex;gap:14px;font-size:16px;line-height:1.65;color:#1C1C1E"><span style="font-family:'Spline Sans Mono',monospace;color:#C8312A;flex-shrink:0">→</span><span><strong style="color:#2C3A48">B1 : Full immersion</strong> — 100% comprehensible content, natural speed, everyday French</span></li>
+      <li style="display:flex;gap:14px;font-size:16px;line-height:1.65;color:#1C1C1E"><span style="font-family:'Spline Sans Mono',monospace;color:#C8312A;flex-shrink:0">→</span><span><strong style="color:#2C3A48">B2 : Expand your world</strong> — topic deep-dives, live book readings, vocabulary islands</span></li>
+    </ul>
+    <p style="margin:24px 0 20px;font-size:16px;line-height:1.75;color:#1C1C1E">At every level: pre-made Anki decks, weekly live sessions with full replay, interactive exercises, and community access.</p>
+    <p style="margin:0;padding:16px 20px;border-left:3px solid #C8312A;background:#E8E8E7;border-radius:0 14px 14px 0;font-size:16px;line-height:1.75;font-weight:600;color:#2C3A48">$39/month — or $290/year ($24/month).<br />Your first lessons at each level are free.</p>
+  </section>
+
+  <section style="padding:48px 0;border-bottom:1px solid #D1D1CF">
+    <p style="margin:0 0 12px;font-family:'Spline Sans Mono',monospace;font-size:11px;font-weight:500;text-transform:uppercase;letter-spacing:0.1em;color:#6B7280">Philosophy</p>
+    <h2 style="margin:0 0 24px;font-size:24px;font-weight:700;letter-spacing:-0.02em;color:#2C3A48">Why "Liminal"</h2>
+    <p style="margin:0 0 20px;font-size:16px;line-height:1.75;color:#1C1C1E"><em>Liminal</em> means threshold — the space of crossing from one side to another.</p>
+    <p style="margin:0 0 20px;font-size:16px;line-height:1.75;color:#1C1C1E">Learning a language isn't really about vocabulary or grammar. It's a door. On the other side of that door is a culture, a way of thinking, relationships and experiences you simply cannot access any other way. Learning Japanese didn't just let me order food or make small talk — it opened a door onto a way of life I could never have understood from outside it. It's genuinely changed the course of my life.</p>
+    <p style="margin:0 0 20px;font-size:16px;line-height:1.75;color:#1C1C1E">There's also something the practical side doesn't capture: the satisfaction of something that takes real time. Language learning isn't a weekend project. It's a long game — and that's exactly why crossing the threshold and looking back at how far you've come feels like something worth being proud of.</p>
+    <p style="margin:0;font-size:16px;line-height:1.75;color:#1C1C1E">Liminal French holds both sides of that: the practical mechanics of how to actually get fluent, and the reason it's worth doing in the first place.</p>
+  </section>
+
+  <section style="padding-top:48px;text-align:center">
+    <h2 style="margin:0 0 24px;font-size:30px;font-weight:700;letter-spacing:-0.02em;color:#2C3A48">Ready to cross the threshold?</h2>
+    <a href="#" style="display:inline-flex;align-items:center;gap:4px;border-radius:10px;background:#C8312A;color:#F1F1F0;font-weight:600;font-size:16px;padding:15px 32px">Start for free →</a>
+  </section>
+</div>
+
+<footer style="border-top:1px solid #D1D1CF;background:#E8E8E7">
+  <div style="margin:0 auto;max-width:1180px;display:flex;flex-direction:column;gap:16px;padding:24px 48px">
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:40px">
+      <div>
+        <p style="margin:0;font-size:18px;font-weight:700;letter-spacing:0.04em;color:#2C3A48">LIMINAL FRENCH</p>
+        <p style="margin:4px 0 0;font-size:14px;color:#6B7280;white-space:nowrap">French is a journey. Let's take it together.</p>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;align-items:center;column-gap:40px;row-gap:16px;justify-content:flex-end">
+        <nav style="display:flex;flex-wrap:wrap;column-gap:24px;row-gap:8px;font-size:14px;color:#1C1C1E">
+          <a href="#" style="color:#1C1C1E">About</a><a href="#" style="color:#1C1C1E">Blog</a><a href="#" style="color:#1C1C1E">Podcast</a><a href="#" style="color:#1C1C1E">Library</a>
+        </nav>
+        <nav style="display:flex;flex-wrap:wrap;column-gap:24px;row-gap:8px;font-family:'Spline Sans Mono',monospace;font-size:12px;font-weight:500;text-transform:uppercase;letter-spacing:0.1em;color:#6B7280">
+          <a href="#" style="color:#6B7280">YouTube</a><a href="#" style="color:#6B7280">Instagram</a><a href="#" style="color:#6B7280">TikTok</a><a href="#" style="color:#6B7280">Spotify</a>
+        </nav>
+      </div>
+    </div>
+    <p style="margin:0;font-family:'Spline Sans Mono',monospace;font-size:12px;font-weight:500;color:#6B7280">© 2026 Liminal French — French with Félix. All rights reserved.</p>
+  </div>
+</footer>
+</div>
+</div>
+
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+const BADGE = {
+  A1: { bg: '#DBEAFE', fg: '#1E40AF' },
+  A2: { bg: '#D1FAE5', fg: '#065F46' },
+  B1: { bg: '#FEF3C7', fg: '#92400E' },
+  B2: { bg: '#FCE7F3', fg: '#9D174D' },
+};
+
+const EPISODES = [
+  { number: 83, level: 'B1', title: "J'apprends le japonais et le portugais", duration: '29:05:00', wpm: 159, yt: '2GHJJmqJVxA' },
+  { number: 82, level: 'B1', title: "6 choses que j'aurais aimé savoir", duration: '27:11:00', wpm: 151, yt: 'rqDyijTwGMY' },
+  { number: 81, level: 'B1', title: '6 conseils pour progresser en lisant', duration: '23:52', wpm: 146, yt: 'iCkg1-e2Pko' },
+  { number: 80, level: 'B1', title: 'Les Français adorent ça', duration: '32:06:00', wpm: 146, yt: 'Lc16vadmZ6w' },
+  { number: 79, level: 'B1', title: "La vraie valeur c'est le temps", duration: '29:21:00', wpm: 153, yt: '5ZxeDQcKTmw' },
+  { number: 78, level: 'B1', title: "Vous avez besoin d'un radar à FOMO", duration: '31:29:00', wpm: 161, yt: 'zN92ugiFb8Y' },
+];
+
+const ARTICLES = [
+  { title: 'French Clichés: How Much Truth Is Really in Them?', description: 'A French teacher who thought clichés about baguettes, wine, and cheese were exaggerated nonsense — until a year abroad in Japan made him reconsider.', categoryLabel: 'French Culture', levels: ['A2', 'B1'], meta: '6 min · Oct 2026' },
+  { title: 'The Journey Is the Adventure: What a Year of Unplanned Travel in Japan Taught Me', description: 'A personal reflection on the difference between planned tourism and letting a trip unfold through chance encounters — and how spontaneous hospitality in rural Japan changed the way one traveler saw his own country.', categoryLabel: 'French Culture', levels: ['B1', 'B2'], meta: '7 min · Oct 2026' },
+  { title: '6 Tips to Improve Your French Through Reading', description: "Practical advice for reading French effectively: choosing the right level, understanding vocabulary 'islands,' training your brain to guess, and knowing when to read for pleasure versus for practice.", categoryLabel: 'Learning Tips', levels: ['B1', 'B2'], meta: '8 min · Oct 2026' },
+  { title: "The True Value Is Time: Why Your French Progress Can't Be Bought", description: 'Money is measurable and reassuring, but the real value we give to anything — a language, an object, a relationship — comes from the time we spend on it, not what it costs.', categoryLabel: 'Learning Tips', levels: ['B1', 'B2'], meta: '8 min · Oct 2026' },
+  { title: 'How to Use ChatGPT to Learn French: A 5-Step Practical Guide', description: 'A concrete, step-by-step method for using ChatGPT as a language-learning tool: weakness targeting, plan building, daily grammar and vocabulary drills, content adaptation, and live conversation practice.', categoryLabel: 'Learning Tips', levels: ['B1', 'B2'], meta: '8 min · Oct 2026' },
+  { title: 'Does Using ChatGPT Make You Dumber? What This Means for Language Learners', description: 'Whether AI tools make you dumber depends entirely on how you use them — the difference between asking ChatGPT to think for you and asking it to help you think, applied to learning French.', categoryLabel: 'Learning Tips', levels: ['B1', 'B2'], meta: '7 min · Oct 2026' },
+];
+
+class Component extends DCLogic {
+  renderVals() {
+    const eps = EPISODES.map(e => ({
+      ...e,
+      thumbStyle: `url(https://img.youtube.com/vi/${e.yt}/maxresdefault.jpg)`,
+      bg: BADGE[e.level].bg,
+      fg: BADGE[e.level].fg,
+      wpmLabel: `${e.wpm} wpm`,
+      homeMeta: `${e.duration} · transcript`,
+    }));
+
+    const articles = ARTICLES.map(a => ({
+      ...a,
+      bg1: BADGE[a.levels[0]].bg, fg1: BADGE[a.levels[0]].fg, lvl1: a.levels[0],
+      bg2: BADGE[a.levels[1]].bg, fg2: BADGE[a.levels[1]].fg, lvl2: a.levels[1],
+    }));
+
+    return {
+      steps: [
+        { number: '01', iconStyle: 'url(images/step-foundation.png)', iconAlt: 'Construction crane building a city', transform: 'none', title: 'Start with structure', description: 'Grammar lessons that give you the real toolkit — without overwhelming you. Enough to build solid foundations before anything else.' },
+        { number: '02', iconStyle: 'url(images/step-threshold.jpg)', iconAlt: 'Person walking through an open door', transform: 'none', title: 'Cross the threshold', description: "The hardest moment in language learning isn't starting. It's switching from studying French to actually understanding it. We guide you through that transition — step by step, not all at once." },
+        { number: '03', iconStyle: 'url(images/step-expand.webp)', iconAlt: 'Meditating figure beneath a spreading tree', transform: 'scale(1.6)', title: 'Immerse and expand', description: "Natural French content, live sessions, book readings, interactive exercises. Real French at real speed — and you'll be ready for it." },
+      ],
+      levels: [
+        { level: 'A1', ...BADGE.A1, title: 'Build your foundation', tagline: 'Start from zero, build something real.', description: 'Full grammar video lessons from scratch, giving you the toolkit to navigate the language. First sentences in context — grammar points brought to life immediately.' },
+        { level: 'A2', ...BADGE.A2, title: 'Bridge the gap', tagline: 'Keep building — and start crossing over.', description: 'Grammar lessons to consolidate your foundation, paired with first immersion texts and comprehension exercises. The shift begins here.' },
+        { level: 'B1', ...BADGE.B1, title: 'Build your immersion habit', tagline: 'Stop studying French. Start understanding it.', description: '100% immersion content — everyday French at natural speed, with grammar focus woven into comprehensible material. This is where things start to click.' },
+        { level: 'B2', ...BADGE.B2, title: 'Go beyond the basics', tagline: 'Expand your world.', description: 'Deep dives into specific topics — culture, politics, sports, history. Vocabulary islands (new thematic territory). Live book readings (Le Petit Prince and others). Advanced natural content.' },
+      ],
+      perks: [
+        'Video lessons at every level — grammar to full immersion',
+        'Pre-made Anki decks for every lesson — ready to use, no setup',
+        'Weekly live sessions with Félix — and full replay access',
+        'Live book readings — Le Petit Prince and more (B2)',
+        'Interactive games and reading practice',
+        'Community access',
+        'Your first lessons at each level, free',
+      ],
+      latest: eps.slice(0, 3),
+      episodes: eps,
+      articles,
+      toc: ['Introduction', 'Tip 1: Choose the Right Level', 'Tip 2: Be Aware of Specific Vocabulary "Islands"', 'Tip 3: Be a Detective', 'Tip 4: Pause and Reread', 'Tip 5: Know Your Reading Style', 'Tip 6: Give Yourself a Specific Focus', 'Conclusion'].map((text, i) => ({ n: String(i + 1).padStart(2, '0'), text })),
+      transcript: [
+        { timecode: '0:00', hint: '(click to jump to timestamp)', hintOpacity: 0.5, text: "Bonjour tout le monde. Bienvenue dans un nouveau podcast. On se retrouve à l'extérieur. Je refilme avec la petite caméra. Ça faisait un moment que je n'avais pas fait de podcast comme ça avec la petite caméra et ça faisait longtemps que je n'avais pas parlé de mon apprentissage du japonais mais aussi et surtout du portugais puisque en octobre l'année dernière, j'avais dit sur cette chaîne que je commençais à apprendre le portugais et j'avais commencé à faire des vidéos hebdomadaires, donc une vidéo toutes les semaines. Hebdomadaire." },
+        { timecode: '0:41', hint: '', hintOpacity: 0, text: "Si je fais une vidéo quotidienne, des vidéos quotidiennes, c'est tous les jours et hebdomadaire, c'est toutes les semaines et après c'est mensuel ou annuel. Et donc je faisais une vidéo par semaine pour expliquer mon avancée du portugais et au bout d'un moment, j'ai arrêté. Donc j'ai arrêté ces mauvais signes pour mon apprentissage. Mais aujourd'hui, je voulais vous donner un peu plus de détails sur mon apprentissage de ces deux langues. Je pense que c'est intéressant puisque bah ça parle de l'apprentissage des langues. Bien évidemment, ce n'est pas je ne vais pas parler spécifiquement du français, mais plus de mon approche de l'apprentissage et de ma propre expérience finalement qui qui est sûrement très similaire à la vôtre et qui moi m'aide aussi en tant que professeur de français à comprendre bah les difficultés des étudiants et les besoins qu'ils ont dans leur apprentissage." },
+        { timecode: '1:44', hint: '', hintOpacity: 0, text: "Donc pour commencer la je me suis pris des notes pour commencer comment est-ce que j'ai commencé à apprendre les deux langues? Donc le point de départ de tout ça, c'est le japonais. C'est que bon à l'école en France, on apprend deux langues étrangères et en général on fait anglais espagnol. Anglais en première langue, espagnol en deuxème langue. Et personnellement, j'ai jamais été fantastique en langues étrangères." },
+      ],
+    };
+  }
+}
+
+</script>
+</body>
+</html>

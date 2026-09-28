@@ -1,0 +1,46 @@
+---
+const socialLinks = [
+  { label: 'YouTube', href: '#' },
+  { label: 'Instagram', href: '#' },
+  { label: 'TikTok', href: '#' },
+  { label: 'Spotify', href: '#' },
+];
+
+const navLinks = [
+  { href: '/about', label: 'About' },
+  { href: '/blog', label: 'Blog' },
+  { href: '/podcast', label: 'Podcast' },
+  { href: '/library', label: 'Library' },
+];
+
+const year = new Date().getFullYear();
+---
+
+<footer class="border-t border-border bg-surface">
+  <div class="mx-auto flex max-w-[1180px] flex-col gap-5 px-6 py-8 md:px-12 lg:gap-4 lg:py-6">
+    <div class="flex flex-col gap-5 lg:flex-row lg:items-center lg:justify-between lg:gap-10">
+      <div class="lg:shrink-0">
+        <p class="font-display text-lg font-bold tracking-[0.04em] text-title">LIMINAL FRENCH</p>
+        <p class="mt-1 text-sm text-muted lg:whitespace-nowrap">French is a journey. Let's take it together.</p>
+      </div>
+
+      <div class="flex flex-col gap-4 sm:flex-row sm:flex-wrap sm:items-center sm:gap-x-10 lg:justify-end">
+        <nav class="flex flex-wrap gap-x-6 gap-y-2 font-display text-sm text-body" aria-label="Secondary">
+          {navLinks.map((link) => (
+            <a href={link.href} class="transition-colors hover:text-accent">{link.label}</a>
+          ))}
+        </nav>
+
+        <nav class="flex flex-wrap gap-x-6 gap-y-2 font-mono text-xs font-medium uppercase tracking-[0.1em] text-muted" aria-label="Social">
+          {socialLinks.map((social) => (
+            <a href={social.href} class="transition-colors hover:text-accent">{social.label}</a>
+          ))}
+        </nav>
+      </div>
+    </div>
+
+    <p class="font-mono text-xs font-medium text-muted">
+      © {year} Liminal French — French with Félix. All rights reserved.
+    </p>
+  </div>
+</footer>

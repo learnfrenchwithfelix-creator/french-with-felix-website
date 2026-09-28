@@ -1,0 +1,57 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ArticleCard from '../../components/blog/ArticleCard.astro';
+import CTABanner from '../../components/ui/CTABanner.astro';
+
+const allArticles = await getCollection('blog', ({ data }) => !data.draft);
+const sorted = [...allArticles].sort((a, b) => b.data.articleNumber - a.data.articleNumber);
+---
+
+<BaseLayout
+  title="Blog — Liminal French"
+  description="Articles about learning French: grammar guides, immersion tips, vocabulary strategies, and French culture."
+>
+
+  <!-- ── Hero ── -->
+  <div class="mx-auto max-w-[760px] px-6 pb-6 pt-16 text-center lg:px-12">
+    <p class="mb-3.5 font-mono text-[12px] uppercase tracking-[0.1em] text-accent">Journal</p>
+    <h1
+      class="mb-5 font-display tracking-[-0.045em] text-title"
+      style="font-size: clamp(2rem, 5vw, 2.75rem)"
+    >
+      <span style="font-weight: var(--weight-light)">Words first,</span>
+      <span style="font-weight: var(--weight-bold)"> images later.</span>
+    </h1>
+    <p class="text-[17px] leading-[1.6] text-muted">
+      No covers, no thumbnails — just the writing. A running log of essays on grammar, culture,
+      and the small wins along the way, in the order they were written.
+    </p>
+  </div>
+
+  <!-- ── Article list ── -->
+  <div class="mx-auto max-w-[760px] px-6 pb-24 lg:px-12">
+    {sorted.map(article => (
+      <ArticleCard
+        variant="list"
+        title={article.data.title}
+        description={article.data.description}
+        category={article.data.category}
+        readingTime={article.data.readingTime}
+        publishDate={article.data.publishDate}
+        level={article.data.level}
+        href={`/blog/${article.id}`}
+      />
+    ))}
+  </div>
+
+  <CTABanner
+    eyebrow="Ready to go further?"
+    headingLight="Take your French"
+    headingBold="to the next level."
+    body="Access structured courses, live practice sessions, and a community that keeps you going."
+    cta="Explore courses →"
+    href="https://learn.frenchwithfelix.com"
+  />
+
+</BaseLayout>

@@ -1,0 +1,40 @@
+---
+interface Props {
+  eyebrow?: string;
+  headingLight?: string;
+  headingBold?: string;
+  body?: string;
+  cta?: string;
+  href?: string;
+}
+
+const {
+  eyebrow      = 'Go further',
+  headingLight = 'Ready to go',
+  headingBold  = 'further?',
+  body         = "Join hundreds of learners who've taken their French to the next level with structured courses, live practice, and a community that keeps you going.",
+  cta          = 'Start Learning →',
+  href         = 'https://learn.frenchwithfelix.com',
+} = Astro.props;
+---
+
+<section class="px-6 pb-20 pt-4">
+  <div class="mx-auto max-w-[1180px] rounded-section bg-surface px-8 py-16 text-center md:px-16">
+    <p class="mb-5 font-mono text-xs font-medium uppercase tracking-[0.1em] text-muted">{eyebrow}</p>
+    <h2 class="mb-5 font-display text-[34px] tracking-[-0.025em] text-title">
+      <span style="font-weight: var(--weight-light)">{headingLight}</span>
+      {' '}
+      <span style="font-weight: var(--weight-bold)">{headingBold}</span>
+    </h2>
+    <p class="mx-auto mb-9 max-w-[520px] text-[17px] leading-[1.6] text-muted">{body}</p>
+    <a href={href} class="cta-btn inline-flex items-center gap-1 rounded-button bg-accent px-8 py-[15px] font-display text-base font-semibold text-bg transition-colors">
+      {cta}
+    </a>
+  </div>
+</section>
+
+<style>
+  .cta-btn:hover {
+    background-color: var(--color-accent-dark);
+  }
+</style>

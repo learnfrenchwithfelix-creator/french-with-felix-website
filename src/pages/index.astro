@@ -1,0 +1,71 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/home/Hero.astro';
+import HowItWorks from '../components/home/HowItWorks.astro';
+import Levels from '../components/home/Levels.astro';
+import WhatYouGet from '../components/home/WhatYouGet.astro';
+import MembershipRecap from '../components/home/MembershipRecap.astro';
+import Pricing from '../components/home/Pricing.astro';
+import Philosophy from '../components/home/Philosophy.astro';
+import PodcastSection from '../components/home/PodcastSection.astro';
+import FAQ from '../components/home/FAQ.astro';
+import NewsletterSection from '../components/home/NewsletterSection.astro';
+import FooterCTA from '../components/home/FooterCTA.astro';
+import SectionDots from '../components/home/SectionDots.astro';
+import Reveal from '../components/ui/Reveal.astro';
+---
+
+<BaseLayout
+  title="Liminal French — From zero to immersion. One platform, one journey."
+  description="A French learning platform that guides you from studying French to actually living it. Four levels, live guidance, and a community that grows with you."
+>
+  <Reveal />
+  <SectionDots />
+
+  <div data-snap data-label="Home" class="page-block"><Hero /></div>
+  <div data-snap data-label="How it works" class="page-block"><HowItWorks /></div>
+  <div data-snap data-label="What you get" class="page-block"><WhatYouGet /></div>
+  <div data-snap data-label="Recap" class="page-block"><MembershipRecap /></div>
+  <div data-snap data-label="Levels" class="page-block"><Levels /></div>
+  <div data-snap data-label="Philosophy" class="page-block"><Philosophy /></div>
+  <div data-snap data-label="Pricing" class="page-block"><Pricing /></div>
+  <div data-snap data-label="Podcast" class="page-block"><PodcastSection /></div>
+  <div data-snap data-label="Q&A" class="page-block"><FAQ /></div>
+  <div data-snap data-label="Newsletter" class="page-block"><NewsletterSection /></div>
+  <div data-snap data-label="Get started" class="page-last"><FooterCTA /></div>
+</BaseLayout>
+
+<style is:global>
+  /* Default: a normal flowing page. Each section already ends with ~7rem of padding; this adds
+     extra breathing room between blocks (snap mode replaces all of it, see below). */
+  .page-block {
+    padding-bottom: 3rem;
+  }
+  @media (min-width: 768px) {
+    .page-block {
+      padding-bottom: 5rem;
+    }
+  }
+  .page-last {
+    padding-top: 1rem;
+  }
+
+  /* `snap-mode` is set on <html> by SectionDots.astro when the window is wide enough AND the tallest
+     block fits under the header. Then every block fills the space under the header and is centred
+     in it: one block per screen, with the scroll magnet. */
+  html.snap-mode .page-block,
+  html.snap-mode .page-last {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: calc(100svh - var(--header-height, 73px));
+    padding-block: 2.5rem;
+  }
+  /* The last block is a full screen like the others; the footer sits below it and is reached with one more scroll step */
+  html.snap-mode .page-block > *,
+  html.snap-mode .page-last > * {
+    width: 100%;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+</style>

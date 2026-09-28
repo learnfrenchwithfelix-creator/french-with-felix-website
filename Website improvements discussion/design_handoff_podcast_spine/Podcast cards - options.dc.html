@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="design_doc_mode" content="canvas" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;600;700&family=Spline+Sans+Mono:wght@400;500&display=swap" />
+<style>
+  body { margin: 0; background: #DEDEDC; }
+  a { color: #C8312A; text-decoration: none; }
+  a:hover { color: #A42822; }
+</style>
+</helmet>
+
+<section style="font-family:'Hanken Grotesk',sans-serif;color:#1C1C1E;display:flex;flex-direction:column;gap:64px;padding:40px 32px 96px">
+
+  <div>
+    <p style="margin:0 0 6px;font-family:'Spline Sans Mono',monospace;font-size:11px;font-weight:500;text-transform:uppercase;letter-spacing:0.14em;color:#C8312A">Turn 1 — episode card treatments</p>
+    <p style="margin:0;font-size:15px;color:#6B7280">Same six episodes, three card systems. Hover any card.</p>
+  </div>
+
+  <!-- ─────────── 1a — Reworked grid ─────────── -->
+  <div id="1a">
+    <div style="display:flex;align-items:baseline;gap:14px;border-top:1px solid #C9C9C7;padding-top:18px;margin-bottom:6px">
+      <span style="font-family:'Spline Sans Mono',monospace;font-size:11px;font-weight:500;letter-spacing:0.1em;background:#2C3A48;color:#F1F1F0;padding:4px 8px;border-radius:5px">1A</span>
+      <h2 style="margin:0;font-size:24px;font-weight:600;letter-spacing:-0.02em;color:#2C3A48">Reworked grid — title first</h2>
+    </div>
+    <p style="margin:0 0 28px;max-width:660px;font-size:15px;line-height:1.6;color:#6B7280">Episode number moves onto the thumbnail, theme drops into the footer. One badge above the title, so the title reads first. Debit shown in mono next to the duration.</p>
+
+    <div style="background:#F1F1F0;border:1px solid #C9C9C7;padding:40px;border-radius:2px">
+      <div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px">
+        <sc-for list="{{ eps }}" as="ep" hint-placeholder-count="6">
+          <a href="#" style="display:flex;flex-direction:column;overflow:hidden;border-radius:14px;border:1px solid #D1D1CF;background:#F7F7F6;transition:border-color 160ms ease,box-shadow 200ms ease,transform 200ms ease" style-hover="border-color:#21456E;box-shadow:0 14px 28px -18px rgba(28,28,30,0.45);transform:translateY(-3px)">
+            <div style="position:relative;aspect-ratio:16/9;width:100%;overflow:hidden;background:#E8E8E7">
+              <div role="img" aria-label="{{ ep.title }}" style="position:absolute;inset:0;background-image:{{ ep.thumb }};background-size:cover;background-position:center"></div>
+              <div style="position:absolute;inset:auto 0 0 0;height:56%;background:linear-gradient(to top,rgba(18,22,28,0.82),rgba(18,22,28,0))"></div>
+              <span style="position:absolute;left:14px;bottom:12px;font-family:'Spline Sans Mono',monospace;font-size:11px;font-weight:500;letter-spacing:0.12em;color:rgba(255,255,255,0.92)">EP {{ ep.number }}</span>
+              <span style="position:absolute;right:14px;bottom:12px;font-family:'Spline Sans Mono',monospace;font-size:11px;font-weight:500;color:rgba(255,255,255,0.92)">{{ ep.duration }}</span>
+            </div>
+            <div style="padding:20px 22px 18px;display:flex;flex-direction:column;flex:1">
+              <span style="align-self:flex-start;margin-bottom:12px;border-radius:999px;padding:3px 9px;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.08em;background:{{ ep.bg }};color:{{ ep.fg }}">{{ ep.level }}</span>
+              <h3 style="margin:0 0 18px;font-size:19px;font-weight:600;line-height:1.28;letter-spacing:-0.02em;color:#2C3A48;text-wrap:pretty">{{ ep.title }}</h3>
+              <div style="margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:12px;border-top:1px solid #E1E1DF;padding-top:13px">
+                <span style="font-family:'Spline Sans Mono',monospace;font-size:11px;letter-spacing:0.04em;color:#6B7280">{{ ep.wpmLabel }} · {{ ep.theme }}</span>
+                <span style="font-size:14px;font-weight:600;color:#C8312A">→</span>
+              </div>
+            </div>
+          </a>
+        </sc-for>
+      </div>
+    </div>
+  </div>
+
+  <!-- ─────────── 1b — Dense list ─────────── -->
+  <div id="1b">
+    <div style="display:flex;align-items:baseline;gap:14px;border-top:1px solid #C9C9C7;padding-top:18px;margin-bottom:6px">
+      <span style="font-family:'Spline Sans Mono',monospace;font-size:11px;font-weight:500;letter-spacing:0.1em;background:#2C3A48;color:#F1F1F0;padding:4px 8px;border-radius:5px">1B</span>
+      <h2 style="margin:0;font-size:24px;font-weight:600;letter-spacing:-0.02em;color:#2C3A48">Dense list — catalogue feel</h2>
+    </div>
+    <p style="margin:0 0 28px;max-width:660px;font-size:15px;line-height:1.6;color:#6B7280">Square thumbnail at left, two columns. Reads like a podcast back-catalogue: more episodes per screen, longer titles fit without truncation, metadata sits on one mono line.</p>
+
+    <div style="background:#F1F1F0;border:1px solid #C9C9C7;padding:40px;border-radius:2px">
+      <div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px 28px">
+        <sc-for list="{{ eps }}" as="ep" hint-placeholder-count="6">
+          <a href="#" style="display:grid;grid-template-columns:104px minmax(0,1fr);gap:20px;align-items:center;border-radius:12px;border:1px solid transparent;background:transparent;padding:14px;transition:background 160ms ease,border-color 160ms ease" style-hover="background:#F7F7F6;border-color:#D1D1CF">
+            <div style="position:relative;aspect-ratio:1;border-radius:9px;overflow:hidden;background:#E8E8E7">
+              <div role="img" aria-label="{{ ep.title }}" style="position:absolute;inset:0;background-image:{{ ep.thumb }};background-size:cover;background-position:center"></div>
+              <span style="position:absolute;inset:auto 0 0 0;padding:14px 8px 6px;text-align:center;background:linear-gradient(to top,rgba(18,22,28,0.85),rgba(18,22,28,0));font-family:'Spline Sans Mono',monospace;font-size:10px;font-weight:500;letter-spacing:0.1em;color:rgba(255,255,255,0.95)">{{ ep.duration }}</span>
+            </div>
+            <div style="min-width:0">
+              <div style="display:flex;align-items:center;gap:9px;margin-bottom:7px">
+                <span style="font-family:'Spline Sans Mono',monospace;font-size:11px;font-weight:500;letter-spacing:0.1em;color:#9CA3AF">{{ ep.numLabel }}</span>
+                <span style="border-radius:999px;padding:2px 8px;font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:0.08em;background:{{ ep.bg }};color:{{ ep.fg }}">{{ ep.level }}</span>
+              </div>
+              <h3 style="margin:0 0 9px;font-size:17px;font-weight:600;line-height:1.3;letter-spacing:-0.015em;color:#2C3A48;text-wrap:pretty">{{ ep.title }}</h3>
+              <p style="margin:0;font-family:'Spline Sans Mono',monospace;font-size:11px;letter-spacing:0.04em;color:#6B7280">{{ ep.wpmLabel }} · {{ ep.rateLabel }} · {{ ep.theme }}</p>
+            </div>
+          </a>
+        </sc-for>
+      </div>
+    </div>
+  </div>
+
+  <!-- ─────────── 1c — Editorial four-up ─────────── -->
+  <div id="1c">
+    <div style="display:flex;align-items:baseline;gap:14px;border-top:1px solid #C9C9C7;padding-top:18px;margin-bottom:6px">
+      <span style="font-family:'Spline Sans Mono',monospace;font-size:11px;font-weight:500;letter-spacing:0.1em;background:#2C3A48;color:#F1F1F0;padding:4px 8px;border-radius:5px">1C</span>
+      <h2 style="margin:0;font-size:24px;font-weight:600;letter-spacing:-0.02em;color:#2C3A48">Editorial four-up — level as a spine</h2>
+    </div>
+    <p style="margin:0 0 28px;max-width:660px;font-size:15px;line-height:1.6;color:#6B7280">Narrower cards, no card border. The level becomes a coloured rule above the title, echoing the homepage spine, and the thumbnail is a plain 4/3 block. Quietest of the three, and the most on-brand.</p>
+
+    <div style="background:#F1F1F0;border:1px solid #C9C9C7;padding:40px;border-radius:2px">
+      <div style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:32px 26px">
+        <sc-for list="{{ eps }}" as="ep" hint-placeholder-count="6">
+          <a href="#" style="display:flex;flex-direction:column;gap:14px;padding:4px;border-radius:10px;transition:background 160ms ease" style-hover="background:#F7F7F6">
+            <div style="position:relative;aspect-ratio:4/3;border-radius:10px;overflow:hidden;background:#E8E8E7">
+              <div role="img" aria-label="{{ ep.title }}" style="position:absolute;inset:0;background-image:{{ ep.thumb }};background-size:cover;background-position:center"></div>
+              <span style="position:absolute;right:10px;top:10px;border-radius:6px;background:rgba(18,22,28,0.72);padding:3px 7px;font-family:'Spline Sans Mono',monospace;font-size:10px;font-weight:500;letter-spacing:0.06em;color:#fff">{{ ep.duration }}</span>
+            </div>
+            <div>
+              <div style="display:flex;align-items:center;gap:9px;margin-bottom:9px">
+                <span style="display:block;width:26px;height:3px;border-radius:2px;background:{{ ep.rule }}"></span>
+                <span style="font-family:'Spline Sans Mono',monospace;font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:0.12em;color:#6B7280">{{ ep.level }} · {{ ep.numLabel }}</span>
+              </div>
+              <h3 style="margin:0 0 8px;font-size:17px;font-weight:600;line-height:1.3;letter-spacing:-0.015em;color:#2C3A48;text-wrap:pretty">{{ ep.title }}</h3>
+              <p style="margin:0;font-family:'Spline Sans Mono',monospace;font-size:11px;letter-spacing:0.04em;color:#9CA3AF">{{ ep.wpmLabel }} · {{ ep.theme }}</p>
+            </div>
+          </a>
+        </sc-for>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+const BADGE = {
+  A1: { bg: '#DBEAFE', fg: '#1E40AF', rule: '#2563EB' },
+  A2: { bg: '#D1FAE5', fg: '#065F46', rule: '#059669' },
+  B1: { bg: '#FEF3C7', fg: '#92400E', rule: '#D97706' },
+  B2: { bg: '#FCE7F3', fg: '#9D174D', rule: '#DB2777' },
+};
+const RATE_LABEL = { lent: 'Slow', normal: 'Natural', rapide: 'Fast' };
+
+const RAW = [
+  [83, "J'apprends le japonais et le portugais", 'B1', 'language-learning', 'normal', 159, '29:05'],
+  [77, 'Discussion avancée avec mon beau-frère', 'B2', 'life-reflections', 'rapide', 184, '27:42'],
+  [80, 'Les Français adorent ça', 'B1', 'culture', 'normal', 146, '32:06'],
+  [74, "On l'a fait !", 'A2', 'life-reflections', 'normal', 145, '19:33'],
+  [75, 'Interview — ma belle-sœur est influenceuse Instagram', 'B1', 'culture', 'rapide', 164, '38:47'],
+  [81, '6 conseils pour progresser en lisant', 'B1', 'language-learning', 'normal', 146, '23:52'],
+];
+const YT = {
+  83: '2GHJJmqJVxA', 77: 'wg68gCDcp9w', 80: 'Lc16vadmZ6w',
+  74: 'YFfaKxXODaU', 75: 'gtFUaB1H-Ac', 81: 'iCkg1-e2Pko',
+};
+
+class Component extends DCLogic {
+  renderVals() {
+    return {
+      eps: RAW.map(([number, title, level, theme, rate, wpm, duration]) => ({
+        number, title, level, theme, duration,
+        numLabel: `EP ${number}`,
+        wpmLabel: `${wpm} wpm`,
+        rateLabel: RATE_LABEL[rate] ?? rate,
+        bg: BADGE[level].bg,
+        fg: BADGE[level].fg,
+        rule: BADGE[level].rule,
+        thumb: `url(https://img.youtube.com/vi/${YT[number]}/maxresdefault.jpg)`,
+      })),
+    };
+  }
+}
+
+</script>
+</body>
+</html>

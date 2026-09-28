@@ -1,0 +1,1028 @@
+1
+00:00:00,066 --> 00:00:04,466
+Bonjour tout le monde et bienvenue dans ce nouveau podcast.
+
+2
+00:00:04,633 --> 00:00:12,400
+Avant de commencer le podcast d'aujourd'hui, je voulais juste vous préciser que j'ai créé
+
+3
+00:00:12,500 --> 00:00:18,233
+une seconde chaîne YouTube où je vais poster mes vidéos gaming.
+
+4
+00:00:18,333 --> 00:00:25,566
+En fait, depuis quelques semaines, je fais des lives sur Twitch et je publie les
+
+5
+00:00:25,600 --> 00:00:26,800
+rediffusions
+
+6
+00:00:27,133 --> 00:00:33,833
+sur YouTube, donc des rediffusions de gameplay de vidéos de gaming où je parle français
+
+7
+00:00:33,933 --> 00:00:34,800
+lentement.
+
+8
+00:00:34,933 --> 00:00:42,600
+Seulement, ces vidéos sont assez différentes des podcasts habituels, des vidéos que je
+
+9
+00:00:42,700 --> 00:00:49,333
+fais d'habitude et donc elles font de moins bonnes performances et en même temps, c'est
+
+10
+00:00:49,433 --> 00:00:51,333
+différent de mon contenu habituel.
+
+11
+00:00:51,533 --> 00:00:58,400
+J'ai donc pris la décision de faire une chaîne vraiment dédiée au gaming où il y aura
+
+12
+00:00:58,433 --> 00:00:58,766
+toutes
+
+13
+00:00:58,866 --> 00:01:05,933
+les rediffusions de Twitch, donc ça va être des vidéos sur Minecraft, sur Minimotorways
+
+14
+00:01:06,033 --> 00:01:07,500
+et plein d'autres jeux.
+
+15
+00:01:07,566 --> 00:01:13,433
+Donc si ça vous intéresse, je vous mettrai le lien de la chaîne en description et dans
+
+16
+00:01:13,533 --> 00:01:20,100
+les commentaires pour que vous puissiez vous abonner à cette chaîne dédiée au gaming.
+
+17
+00:01:20,233 --> 00:01:26,166
+Ça ne change rien au rythme de création de vidéos que je vais avoir.
+
+18
+00:01:26,266 --> 00:01:32,833
+Je vais garder le même rythme, c'est-à-dire deux podcasts de ce genre par semaine et je
+
+19
+00:01:32,933 --> 00:01:38,800
+pense que je publierai une vidéo gaming par semaine sur l'autre chaîne.
+
+20
+00:01:38,900 --> 00:01:43,600
+Si je fais plus de lives, je publierai plus de vidéos, mais pour l'instant, je pense
+
+21
+00:01:43,700 --> 00:01:46,400
+commencer avec une vidéo par semaine.
+
+22
+00:01:46,500 --> 00:01:51,866
+Je ferai aussi des playlists où vous aurez toutes les vidéos Minecraft dans une playlist
+
+23
+00:01:52,000 --> 00:01:55,833
+et ainsi de suite pour chaque jeu.
+
+24
+00:01:55,900 --> 00:02:00,966
+Voilà, on peut commencer la vidéo d'aujourd'hui.
+
+25
+00:02:01,066 --> 00:02:08,500
+Aujourd'hui, on est le 2 décembre, j'enregistre le 2 décembre et du coup, hier, le 1er
+
+26
+00:02:08,500 --> 00:02:09,166
+décembre,
+
+27
+00:02:09,266 --> 00:02:13,666
+j'ai ouvert la première case de mon calendrier de l'avent.
+
+28
+00:02:13,900 --> 00:02:19,200
+Donc, je ne sais pas si ça existe partout dans le monde, enfin du moins dans tous les
+
+29
+00:02:19,300 --> 00:02:26,800
+pays qui célèbrent Noël, mais en fait, le calendrier de l'avent, c'est un calendrier
+
+30
+00:02:26,900 --> 00:02:32,800
+où pour chaque jour, vous allez avoir des cases que vous pouvez ouvrir, comme celle-là,
+
+31
+00:02:32,900 --> 00:02:39,000
+c'était pour le 1er décembre, vous ouvrez cette case et en fait, dedans, vous avez
+
+32
+00:02:39,233 --> 00:02:49,733
+un chocolat et en fait, c'est un calendrier qui va jusqu'au 24 décembre, donc pour la
+
+33
+00:02:49,833 --> 00:02:54,966
+veille de Noël, c'est un calendrier qui va jusqu'au jour de Noël et en fait, le principe
+
+34
+00:02:55,033 --> 00:02:59,466
+c'est donc que chaque jour avant Noël, vous ouvrez une case et vous avez un chocolat.
+
+35
+00:02:59,700 --> 00:03:03,000
+Pourquoi je parle de mon calendrier de l'avent ?
+
+36
+00:03:03,200 --> 00:03:05,166
+Bon, déjà, normalement, c'est plutôt pour
+
+37
+00:03:05,266 --> 00:03:09,433
+les enfants mais j'ai du mal à passer à autre chose.
+
+38
+00:03:09,466 --> 00:03:11,366
+Je parle de ça parce que en
+
+39
+00:03:11,500 --> 00:03:17,366
+fait, je me suis fait la réflexion hier en ouvrant la première case que le temps passe
+
+40
+00:03:17,466 --> 00:03:18,666
+vraiment trop vite.
+
+41
+00:03:18,766 --> 00:03:23,766
+J'ai remarqué que le temps passe super vite et notamment depuis
+
+42
+00:03:23,866 --> 00:03:25,733
+que je suis "adulte".
+
+43
+00:03:26,033 --> 00:03:31,033
+Quand on est petit, en France, Noël, c'est vraiment un énorme
+
+44
+00:03:31,133 --> 00:03:37,066
+événement et on attend vraiment avec beaucoup d'impatience le jour de Noël parce que ça
+
+45
+00:03:37,166 --> 00:03:40,766
+veut dire qu'on va beaucoup manger et que surtout, on va avoir des cadeaux.
+
+46
+00:03:40,800 --> 00:03:42,000
+Du coup,
+
+47
+00:03:42,066 --> 00:03:49,400
+en général, après Halloween, donc après le 31 octobre, à partir de novembre, c'est
+
+48
+00:03:49,500 --> 00:03:50,366
+le début de Noël.
+
+49
+00:03:50,600 --> 00:03:57,700
+Il y avait une statistique assez marrante où on voit le nombre de recherches
+
+50
+00:03:57,800 --> 00:04:06,066
+sur Google pour la musique de Mariah Carey qui explose vers octobre-novembre et voilà,
+
+51
+00:04:06,133 --> 00:04:08,033
+c'est vraiment le début de Noël.
+
+52
+00:04:08,266 --> 00:04:11,400
+On commence vraiment à être impatient pour Noël.
+
+53
+00:04:11,433 --> 00:04:13,066
+Dans
+
+54
+00:04:13,166 --> 00:04:17,966
+les villes, il y a plein de décorations, les rues sont illuminées, il y a des
+
+55
+00:04:18,166 --> 00:04:19,100
+illuminations
+
+56
+00:04:19,166 --> 00:04:28,433
+de Noël, il y a plein de guirlandes de Noël et idem pour tous les magasins, la pub à la
+
+57
+00:04:28,533 --> 00:04:35,133
+télévision, ça commence à être des pubs de Noël, idem pour les films à la télé,
+
+58
+00:04:35,233 --> 00:04:42,166
+on commence à avoir les films de Noël, par exemple Harry Potter, ce genre de films et
+
+59
+00:04:42,266 --> 00:04:46,433
+du coup, tout le monde commence à être impatient de cette fête.
+
+60
+00:04:46,466 --> 00:04:48,766
+Quand on est enfant, vraiment,
+
+61
+00:04:48,866 --> 00:04:54,533
+on compte le nombre de jours avant Noël, on compte le nombre de dodo, donc un dodo, c'est
+
+62
+00:04:54,633 --> 00:04:56,533
+une nuit où vous dormez.
+
+63
+00:04:56,800 --> 00:05:01,800
+On compte ça et c'est vraiment quelque chose, enfin, on attend
+
+64
+00:05:01,866 --> 00:05:03,533
+vraiment ça avec impatience.
+
+65
+00:05:03,533 --> 00:05:07,466
+Début décembre, en général, on achète un sapin et on décore
+
+66
+00:05:07,600 --> 00:05:13,033
+le sapin qu'on met dans notre maison, mais alors que là, par exemple, j'ai ouvert la
+
+67
+00:05:13,100 --> 00:05:20,133
+première case de mon calendrier et on n'a pas encore acheté de sapin, on n'a rien décoré,
+
+68
+00:05:20,233 --> 00:05:21,900
+on n'est pas du tout prêt.
+
+69
+00:05:21,900 --> 00:05:26,466
+Et en fait, j'ai l'impression que maintenant que je suis adulte,
+
+70
+00:05:26,566 --> 00:05:31,933
+c'est beaucoup moins un événement, je suis beaucoup moins pressé d'être à Noël, même
+
+71
+00:05:32,033 --> 00:05:38,933
+si ça va être dans tous les cas un très bon moment, passer en famille et manger ensemble
+
+72
+00:05:39,033 --> 00:05:40,766
+et à s'offrir des cadeaux.
+
+73
+00:05:40,800 --> 00:05:44,733
+Je n'ai pas vraiment d'idées spécifiques pour mes cadeaux, alors
+
+74
+00:05:44,833 --> 00:05:50,266
+que quand on est petit, on a du mal à choisir ce qu'on veut vraiment et je suis aussi en
+
+75
+00:05:50,366 --> 00:05:55,566
+retard pour faire mes cadeaux pour mes proches, pour mes parents, mon frère, ma femme, ma
+
+76
+00:05:55,666 --> 00:05:57,900
+belle famille, etc.
+
+77
+00:05:57,933 --> 00:06:03,766
+Et donc en fait, je prends l'exemple de Noël, mais au-delà de Noël,
+
+78
+00:06:03,833 --> 00:06:06,533
+j'ai l'impression que le temps passe plus vite pour tout.
+
+79
+00:06:06,766 --> 00:06:11,733
+Avant, en fait, j'ai l'impression
+
+80
+00:06:11,833 --> 00:06:16,933
+qu'on a des étapes, c'est-à-dire qu'à l'école, par exemple en France, on commence en
+
+81
+00:06:16,933 --> 00:06:17,466
+général
+
+82
+00:06:17,600 --> 00:06:22,800
+à aller à l'école à trois ans, à l'école maternelle, à six ans on rentre à l'école
+
+83
+00:06:22,866 --> 00:06:25,200
+primaire de six ans à onze ans.
+
+84
+00:06:25,200 --> 00:06:28,933
+Ensuite, à onze ans, on va au collège de onze ans
+
+85
+00:06:29,100 --> 00:06:36,366
+à quinze ans, puis on va de quinze ans à dix-huit ans au lycée et ensuite, si on continue
+
+86
+00:06:36,466 --> 00:06:38,733
+nos études, on va à l'université.
+
+87
+00:06:38,766 --> 00:06:41,800
+Et du coup, en fait, quand on est jeune, on a plein
+
+88
+00:06:41,900 --> 00:06:46,933
+d'étapes comme ça à valider et du coup, notre vie est très rythmée.
+
+89
+00:06:46,933 --> 00:06:49,133
+Donc, même
+
+90
+00:06:49,266 --> 00:06:51,766
+si le temps passe vite, on est très, c'est très cadré.
+
+91
+00:06:51,800 --> 00:06:53,166
+En fait, ce que j'ai envie de
+
+92
+00:06:53,266 --> 00:06:57,666
+dire, c'est qu'une fois qu'on a fini tout ça, une fois qu'on devient adulte et qu'on
+
+93
+00:06:57,833 --> 00:07:00,966
+commence à travailler, en fait, il n'y a plus du tout d'étapes.
+
+94
+00:07:01,000 --> 00:07:03,266
+C'est vraiment une autoroute
+
+95
+00:07:03,333 --> 00:07:04,433
+vers...
+
+96
+00:07:04,466 --> 00:07:10,266
+je ne veux pas être trop cynique, mais une autoroute vers la fin, quoi.
+
+97
+00:07:10,300 --> 00:07:12,700
+Et du
+
+98
+00:07:12,800 --> 00:07:17,333
+coup, voilà, quand on est jeune, tous les ans, il y a des examens, tous les ans, il
+
+99
+00:07:17,433 --> 00:07:21,300
+faut aller à l'école, valider l'année pour passer dans l'année suivante.
+
+100
+00:07:21,366 --> 00:07:23,500
+Quand on a
+
+101
+00:07:23,733 --> 00:07:27,600
+16 ans, dix-huit ans, il faut passer le bac.
+
+102
+00:07:27,633 --> 00:07:31,533
+Donc le bac, c'est le diplôme le plus commun
+
+103
+00:07:31,600 --> 00:07:32,033
+en France.
+
+104
+00:07:32,100 --> 00:07:34,466
+C'est le diplôme qu'on passe quand on a dix-huit ans.
+
+105
+00:07:34,500 --> 00:07:35,400
+Alors tout le monde
+
+106
+00:07:35,500 --> 00:07:40,600
+ne passe pas le bac, mais ça reste quand même, je pense, l'examen le plus passé
+
+107
+00:07:40,666 --> 00:07:41,533
+dans le pays.
+
+108
+00:07:41,766 --> 00:07:46,633
+Et aussi, on passe notre permis de conduire, on peut commencer à boire de
+
+109
+00:07:46,666 --> 00:07:47,466
+l'alcool, etc.
+
+110
+00:07:47,500 --> 00:07:48,900
+Donc c'est vraiment...
+
+111
+00:07:48,900 --> 00:07:51,066
+il y a vraiment des étapes importantes comme
+
+112
+00:07:51,233 --> 00:07:52,133
+ça dans notre vie.
+
+113
+00:07:52,333 --> 00:07:56,700
+Une fois qu'on est adulte, une fois qu'on commence à travailler, il
+
+114
+00:07:56,766 --> 00:07:58,666
+n'y a plus vraiment ce genre d'étapes.
+
+115
+00:07:58,666 --> 00:08:02,133
+Alors, on pourrait penser à des étapes un peu classiques
+
+116
+00:08:02,233 --> 00:08:09,166
+du style le mariage, avoir des enfants, acheter une maison ou un appartement, ce genre de
+
+117
+00:08:09,266 --> 00:08:10,000
+choses.
+
+118
+00:08:10,000 --> 00:08:15,333
+Mais en dehors de ça, ce n'est pas du tout le cas et c'est moins, on va dire,
+
+119
+00:08:15,433 --> 00:08:18,066
+moins obligatoire que les étapes à l'école.
+
+120
+00:08:18,066 --> 00:08:22,666
+Et du coup, personnellement, j'ai l'impression
+
+121
+00:08:22,800 --> 00:08:26,866
+d'avoir encore 25 ans alors que j'ai déjà 31 ans.
+
+122
+00:08:26,866 --> 00:08:29,766
+À 25 ans, j'ai fini mes études,
+
+123
+00:08:29,833 --> 00:08:33,500
+j'ai commencé à travailler et ensuite tout est allé vraiment très vite.
+
+124
+00:08:33,633 --> 00:08:35,333
+J'ai commencé
+
+125
+00:08:35,433 --> 00:08:39,633
+à avoir une routine et voilà, je n'ai plus vraiment eu d'étapes.
+
+126
+00:08:39,800 --> 00:08:41,266
+En France, on parle
+
+127
+00:08:41,366 --> 00:08:43,266
+souvent de métro, boulot, dodo.
+
+128
+00:08:43,533 --> 00:08:46,633
+Cette expression, ça veut dire que toutes nos journées, en
+
+129
+00:08:46,700 --> 00:08:51,766
+fait, c'est métro, on prend le métro, on va au boulot, le boulot c'est le travail et
+
+130
+00:08:51,866 --> 00:08:53,066
+ensuite c'est dodo.
+
+131
+00:08:53,166 --> 00:08:56,033
+Donc, on prend le métro, on travaille et on dort.
+
+132
+00:08:56,200 --> 00:08:57,466
+Et ça tous les jours,
+
+133
+00:08:57,533 --> 00:08:58,033
+en gros.
+
+134
+00:08:58,066 --> 00:09:07,333
+Et en fait, cette expression, c'est juste pour expliquer cette routine, cette
+
+135
+00:09:07,433 --> 00:09:13,300
+vie un peu habituelle qu'on a et qui fait que le temps commence à passer très vite.
+
+136
+00:09:13,366 --> 00:09:16,666
+Toutes les journées se ressemblent et tout passe très vite.
+
+137
+00:09:16,933 --> 00:09:22,433
+Et du coup, personnellement,
+
+138
+00:09:22,500 --> 00:09:26,566
+quand j'ai commencé à travailler, c'était à 24 ans, je crois.
+
+139
+00:09:26,566 --> 00:09:28,400
+Et depuis, j'ai l'impression
+
+140
+00:09:28,500 --> 00:09:33,733
+que tout est allé super vite, que j'ai eu 31 ans en un clin d'œil.
+
+141
+00:09:33,733 --> 00:09:36,466
+Et donc ça, ça
+
+142
+00:09:36,600 --> 00:09:42,933
+s'explique par ce manque d'étapes et du coup, ça fait que, ben, on a un peu l'impression
+
+143
+00:09:43,100 --> 00:09:47,933
+de passer à côté de tout ce temps, de toutes ces années.
+
+144
+00:09:48,100 --> 00:09:51,500
+Et par exemple, ça fait déjà
+
+145
+00:09:51,600 --> 00:09:54,766
+5 ans que j'ai commencé à apprendre le japonais.
+
+146
+00:09:54,766 --> 00:09:58,166
+On est allé avec ma femme faire un premier
+
+147
+00:09:58,266 --> 00:10:01,300
+voyage au Japon en 2020.
+
+148
+00:10:01,333 --> 00:10:06,733
+Et quand on est rentré, pour le covid, on a commencé à apprendre
+
+149
+00:10:06,933 --> 00:10:07,800
+le japonais.
+
+150
+00:10:07,866 --> 00:10:12,733
+J'ai commencé ensuite à me mettre sérieusement à l'apprentissage du japonais
+
+151
+00:10:12,866 --> 00:10:18,400
+en 2021, en me construisant une habitude, en étudiant un peu chaque jour.
+
+152
+00:10:18,433 --> 00:10:19,133
+Et ben ça
+
+153
+00:10:19,233 --> 00:10:22,533
+fait, ça va faire quasiment 5 ans en janvier.
+
+154
+00:10:22,633 --> 00:10:25,566
+Janvier, février, ça fera 5 ans.
+
+155
+00:10:25,633 --> 00:10:28,433
+D'un côté,
+
+156
+00:10:28,533 --> 00:10:32,400
+je me dis, ça fait déjà 5 ans et je ne suis pas bilingue.
+
+157
+00:10:32,433 --> 00:10:34,366
+Donc je me dis, ça va vite et
+
+158
+00:10:34,466 --> 00:10:36,733
+je n'ai pas suffisamment avancé.
+
+159
+00:10:36,733 --> 00:10:40,466
+Et de l'autre, je me dis que il n'y a pas si longtemps, il
+
+160
+00:10:40,566 --> 00:10:43,500
+y a 5 ans, j'ai l'impression que c'était il y a pas longtemps.
+
+161
+00:10:43,500 --> 00:10:44,733
+J'étais complètement
+
+162
+00:10:44,900 --> 00:10:52,766
+incapable de lire le japonais, j'étais incapable de parler, de dire une ou deux phrases et
+
+163
+00:10:52,766 --> 00:10:53,366
+maintenant
+
+164
+00:10:53,600 --> 00:10:54,966
+j'ai beaucoup progressé.
+
+165
+00:10:55,000 --> 00:11:01,466
+Donc j'ai l'impression qu'il y a un peu...
+
+166
+00:11:01,466 --> 00:11:04,000
+ça devient un peu philosophique
+
+167
+00:11:04,200 --> 00:11:09,566
+mais j'ai l'impression qu'avec le fait que le temps passe vite comme ça, il peut y avoir
+
+168
+00:11:09,666 --> 00:11:15,966
+d'un côté un peu cette peur de rater des choses et de l'autre, on peut sans s'en rendre
+
+169
+00:11:16,000 --> 00:11:16,600
+compte
+
+170
+00:11:16,700 --> 00:11:19,966
+réussir à faire des choses qu'on ne pensait pas possible.
+
+171
+00:11:20,000 --> 00:11:21,500
+Personnellement, j'étais à
+
+172
+00:11:21,600 --> 00:11:24,900
+l'école, j'étais nul en langue étrangère.
+
+173
+00:11:25,133 --> 00:11:28,466
+Je parle anglais parce que j'ai passé 11
+
+174
+00:11:28,533 --> 00:11:34,433
+ans de ma vie à l'école à apprendre l'anglais et ensuite j'ai commencé à travailler en
+
+175
+00:11:34,500 --> 00:11:35,333
+anglais.
+
+176
+00:11:35,366 --> 00:11:40,500
+Mais par exemple, j'ai passé 7 ans, je crois, à apprendre l'espagnol qui
+
+177
+00:11:40,600 --> 00:11:43,866
+est une langue proche du français et j'ai toujours été vraiment nul.
+
+178
+00:11:43,866 --> 00:11:47,200
+Donc après mes
+
+179
+00:11:47,300 --> 00:11:52,400
+études, je me disais "je suis nul en langues étrangères" et voilà, je me disais que
+
+180
+00:11:52,433 --> 00:11:52,533
+c'était
+
+181
+00:11:52,633 --> 00:11:53,500
+pas fait pour moi.
+
+182
+00:11:53,666 --> 00:11:57,933
+J'ai commencé à apprendre le japonais qui est une langue réputée pour
+
+183
+00:11:58,033 --> 00:12:03,366
+être difficile et 5 ans après, j'ai quand même beaucoup progressé.
+
+184
+00:12:03,466 --> 00:12:04,600
+Du coup, ce que
+
+185
+00:12:04,700 --> 00:12:09,300
+je veux dire, c'est que le temps passe vite, mais si on arrive à créer une habitude, je
+
+186
+00:12:09,366 --> 00:12:15,433
+suis peut-être un peu lourd avec ça, mais quand on crée une habitude, en fait, comme
+
+187
+00:12:15,533 --> 00:12:21,200
+le temps passe vite, sans s'en rendre compte, on commence à avoir de gros résultats.
+
+188
+00:12:21,233 --> 00:12:21,900
+Et
+
+189
+00:12:22,066 --> 00:12:27,500
+en fait, ces 5 années, je ne me suis pas rendu compte que c'est allé aussi vite,
+
+190
+00:12:27,600 --> 00:12:32,400
+je ne me suis pas rendu compte que j'ai travaillé un peu tous les jours, pour au final me
+
+191
+00:12:32,566 --> 00:12:32,833
+rendre
+
+192
+00:12:32,933 --> 00:12:36,900
+compte que mon niveau de japonais est bien meilleur qu'avant.
+
+193
+00:12:36,900 --> 00:12:39,433
+Alors bien évidemment,
+
+194
+00:12:39,533 --> 00:12:45,833
+on pourrait se dire en 5 ans, j'espère être à minima bilingue, être fluente, mais voilà,
+
+195
+00:12:45,933 --> 00:12:48,600
+c'est un peu plus difficile que ça.
+
+196
+00:12:48,866 --> 00:12:52,466
+Mais du coup, il peut y avoir un aspect positif
+
+197
+00:12:52,533 --> 00:12:52,933
+à ça.
+
+198
+00:12:52,966 --> 00:12:58,033
+Le temps passe vite, mais si vous arrivez à faire un petit peu chaque jour, finalement,
+
+199
+00:12:58,133 --> 00:13:00,766
+ça génère des résultats très positifs.
+
+200
+00:13:00,766 --> 00:13:04,833
+Et du coup, je pense que ce qui peut faire
+
+201
+00:13:05,000 --> 00:13:10,266
+peur, c'est d'avoir des regrets, de se dire "Ah, j'aurais dû faire ça, j'aurais dû
+
+202
+00:13:10,333 --> 00:13:13,500
+commencer à apprendre le japonais", par exemple.
+
+203
+00:13:13,533 --> 00:13:15,833
+Si je n'avais pas commencé sérieusement
+
+204
+00:13:15,933 --> 00:13:21,966
+à apprendre le japonais, peut-être que 5 ans après, je me serais dit, ça fait déjà
+
+205
+00:13:22,033 --> 00:13:28,133
+5 ans que je suis allé au Japon, si j'avais commencé à apprendre un petit peu chaque
+
+206
+00:13:28,333 --> 00:13:31,000
+jour, je serais sûrement bien meilleur aujourd'hui.
+
+207
+00:13:31,266 --> 00:13:33,500
+Du coup, ça c'est typiquement le genre de
+
+208
+00:13:33,600 --> 00:13:35,100
+regrets qu'on peut avoir.
+
+209
+00:13:35,100 --> 00:13:38,933
+Quand le temps passe vite, c'est facile d'avoir des regrets,
+
+210
+00:13:39,000 --> 00:13:42,300
+puisqu'on ne se rend même pas compte que les années passent.
+
+211
+00:13:42,366 --> 00:13:44,966
+Et du coup, la solution
+
+212
+00:13:45,100 --> 00:13:47,766
+à ça, j'ai l'impression que c'est de faire des choses.
+
+213
+00:13:47,866 --> 00:13:49,266
+C'est-à-dire que vous voulez
+
+214
+00:13:49,533 --> 00:13:51,866
+essayer quelque chose, faites-le.
+
+215
+00:13:51,866 --> 00:13:54,800
+Vous voulez essayer de faire de la poterie, je ne sais
+
+216
+00:13:54,933 --> 00:13:55,833
+pas, faites-le.
+
+217
+00:13:56,033 --> 00:14:00,133
+Parce que comme le temps passe vite, si on ne fait pas, après on a plein
+
+218
+00:14:00,233 --> 00:14:01,100
+de regrets.
+
+219
+00:14:01,333 --> 00:14:08,500
+Donc, j'ai l'impression que ça fait un peu vidéo de développement personnel,
+
+220
+00:14:08,633 --> 00:14:12,700
+de gourou, de développement personnel un peu moyen.
+
+221
+00:14:12,700 --> 00:14:15,333
+Mais, en fait, c'est plutôt quelque
+
+222
+00:14:15,433 --> 00:14:17,300
+chose que je m'applique à moi.
+
+223
+00:14:17,300 --> 00:14:20,833
+Quand j'ai commencé à apprendre le japonais, j'ai commencé
+
+224
+00:14:20,966 --> 00:14:25,766
+sans vraiment réfléchir, je me suis dit, je vais apprendre, allez, je le fais et je
+
+225
+00:14:25,866 --> 00:14:26,633
+verrai bien.
+
+226
+00:14:26,666 --> 00:14:31,166
+Et en fait, le fait de ne pas réfléchir comme ça, ça fait que j'ai commencé
+
+227
+00:14:31,266 --> 00:14:36,466
+à apprendre et que maintenant je n'ai aucun regret et que je suis même content, voire
+
+228
+00:14:36,533 --> 00:14:43,233
+fier de mon niveau de japonais, même si ce n'est pas parfait, mais j'ai progressé
+
+229
+00:14:43,366 --> 00:14:45,066
+et j'en suis très content.
+
+230
+00:14:45,066 --> 00:14:49,433
+Et du coup, c'était un peu le sujet de cette vidéo, c'était
+
+231
+00:14:49,700 --> 00:14:53,866
+le temps passe très vite, donc n'attendez pas avant de faire des choses.
+
+232
+00:14:54,033 --> 00:14:57,766
+J'imagine
+
+233
+00:14:57,866 --> 00:15:01,466
+que si vous regardez cette vidéo, c'est que vous avez déjà commencé à apprendre
+
+234
+00:15:01,600 --> 00:15:06,633
+le français, mais je pense que c'est valable pour tout le reste.
+
+235
+00:15:06,633 --> 00:15:08,566
+Donc voilà, il y a un
+
+236
+00:15:08,666 --> 00:15:11,533
+petit côté un peu philosophique et c'est très brouillon.
+
+237
+00:15:11,566 --> 00:15:12,833
+Je n'ai pas de spécialement
+
+238
+00:15:13,066 --> 00:15:19,033
+de script, mais je me suis fait cette réflexion hier en ouvrant la première case de mon
+
+239
+00:15:19,033 --> 00:15:19,966
+calendrier
+
+240
+00:15:20,066 --> 00:15:20,833
+de l'avant.
+
+241
+00:15:20,833 --> 00:15:23,100
+Je me suis dit, le temps passe vite.
+
+242
+00:15:23,133 --> 00:15:24,700
+Je me suis dit, ça fait cinq ans que
+
+243
+00:15:24,766 --> 00:15:27,433
+j'apprends le japonais.
+
+244
+00:15:27,466 --> 00:15:32,233
+Je me suis dit, dans vingt jours c'est Noël.
+
+245
+00:15:32,266 --> 00:15:33,400
+Bref, je me suis
+
+246
+00:15:33,633 --> 00:15:38,666
+rendu compte que le temps passe vite, mais pour l'instant je n'ai pas de regret, donc
+
+247
+00:15:38,733 --> 00:15:39,600
+je suis content.
+
+248
+00:15:39,866 --> 00:15:42,400
+Merci d'avoir regardé jusqu'au bout.
+
+249
+00:15:42,500 --> 00:15:44,666
+Je suis désolé si c'était un peu plus
+
+250
+00:15:44,766 --> 00:15:46,433
+brouillon que d'habitude.
+
+251
+00:15:46,466 --> 00:15:50,000
+Si vous avez aimé, n'hésitez pas à liker la vidéo, à laisser
+
+252
+00:15:50,100 --> 00:15:53,066
+un commentaire et à vous abonner à la chaîne.
+
+253
+00:15:53,066 --> 00:15:55,800
+Egalement du coup, je mettrai le lien de la
+
+254
+00:15:55,900 --> 00:16:01,100
+chaîne gaming dans la description et en commentaire, donc si ça vous intéresse, n'hésitez
+
+255
+00:16:01,100 --> 00:16:01,666
+pas
+
+256
+00:16:01,833 --> 00:16:04,900
+à aller vous abonner à l'autre chaîne.
+
+257
+00:16:04,900 --> 00:16:07,033
+Et je vous dis à la prochaine.
+

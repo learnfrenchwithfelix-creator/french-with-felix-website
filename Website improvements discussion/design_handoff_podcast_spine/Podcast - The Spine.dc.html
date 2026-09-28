@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;600;700&family=Spline+Sans+Mono:wght@400;500&display=swap" />
+<style>
+  body { margin: 0; background: #DEDEDC; }
+  a { color: #C8312A; text-decoration: none; }
+  a:hover { color: #A42822; }
+  input, select, button { font-family: 'Hanken Grotesk', sans-serif; }
+</style>
+</helmet>
+
+<div style="font-family:'Hanken Grotesk',sans-serif;color:#1C1C1E;display:flex;flex-direction:column;gap:56px;padding:32px 0 80px;min-width:1320px">
+
+<!-- ══════════ LISTING ══════════ -->
+<div data-screen-label="Podcast listing">
+<p style="font-family:'Spline Sans Mono',monospace;font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:#6B7280;margin:0 0 10px;padding:0 24px">Podcast listing — /podcast · filters are live, try them</p>
+<div style="background:#F1F1F0;border:1px solid #C9C9C7;overflow:hidden">
+<div style="height:3px;background:#21456E"></div>
+
+<div style="border-bottom:1px solid #D1D1CF;background:rgba(241,241,240,0.6);backdrop-filter:saturate(1.2) blur(12px)">
+  <div style="margin:0 auto;max-width:1180px;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:20px 48px">
+    <a href="#" style="font-size:22px;font-weight:700;letter-spacing:0.04em;color:#2C3A48">LIMINAL FRENCH</a>
+    <div style="display:flex;align-items:center;gap:34px">
+      <nav style="display:flex;gap:34px;font-size:15px;font-weight:500"><a href="#" style="color:#1C1C1E">Blog</a><a href="#" style="color:#1C1C1E">Podcast</a><a href="#" style="color:#1C1C1E">Library</a><a href="#" style="color:#1C1C1E">About</a></nav>
+      <a href="#" style="border-radius:10px;background:#C8312A;color:#F1F1F0;font-weight:600;font-size:15px;padding:9px 20px">Start Learning →</a>
+    </div>
+  </div>
+</div>
+
+<!-- Page header -->
+<section style="margin:0 auto;max-width:1180px;padding:56px 48px 0">
+  <div style="border-top:1px solid #D1D1CF;padding-top:22px;margin-bottom:40px">
+    <p style="margin:0 0 14px;font-family:'Spline Sans Mono',monospace;font-size:11px;font-weight:500;text-transform:uppercase;letter-spacing:0.14em;color:#C8312A">Podcast</p>
+    <h1 style="margin:0 0 20px;font-size:44px;line-height:1.08;letter-spacing:-0.035em;color:#2C3A48"><span style="font-weight:300">Real French,</span><span style="font-weight:700"> with the transcript in front of you.</span></h1>
+    <p style="margin:0;max-width:640px;font-size:17px;line-height:1.65;color:#6B7280">{{ totalCount }} episodes, every one free and fully transcribed. Filter by level, theme or speaking rate to find something at the edge of what you can follow.</p>
+  </div>
+</section>
+
+<!-- Featured latest episode -->
+<section style="margin:0 auto;max-width:1180px;padding:0 48px 56px">
+  <a href="#" style="display:grid;grid-template-columns:580px minmax(0,1fr);gap:44px;align-items:center">
+    <div style="position:relative;aspect-ratio:16/9;width:100%;overflow:hidden;border-radius:12px;background:#E8E8E7;transition:box-shadow 220ms ease" style-hover="box-shadow:0 20px 40px -22px rgba(28,28,30,0.5)">
+      <div role="img" aria-label="{{ featured.title }}" style="position:absolute;inset:0;background-image:{{ featured.thumbStyle }};background-size:cover;background-position:center"></div>
+      <div style="position:absolute;inset:auto 0 0 0;height:46%;background:linear-gradient(to top,rgba(18,22,28,0.8),rgba(18,22,28,0))"></div>
+      <span style="position:absolute;left:16px;bottom:14px;font-family:'Spline Sans Mono',monospace;font-size:12px;font-weight:500;letter-spacing:0.12em;color:rgba(255,255,255,0.92)">{{ featured.numLabel }}</span>
+      <span style="position:absolute;right:16px;bottom:14px;font-family:'Spline Sans Mono',monospace;font-size:12px;font-weight:500;color:rgba(255,255,255,0.92)">{{ featured.duration }}</span>
+    </div>
+    <div>
+      <div style="display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-bottom:18px">
+        <span style="font-family:'Spline Sans Mono',monospace;font-size:11px;font-weight:500;text-transform:uppercase;letter-spacing:0.12em;color:#C8312A">Latest episode</span>
+        <span style="display:inline-block;border-radius:999px;padding:3px 9px;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.08em;background:{{ featured.bg }};color:{{ featured.fg }}">{{ featured.level }}</span>
+      </div>
+      <h2 style="margin:0 0 18px;font-size:34px;font-weight:700;line-height:1.12;letter-spacing:-0.035em;color:#2C3A48;text-wrap:pretty">{{ featured.title }}</h2>
+      <div style="display:flex;flex-wrap:wrap;align-items:center;gap:18px;border-top:1px solid #D1D1CF;padding-top:16px;font-family:'Spline Sans Mono',monospace;font-size:12px;letter-spacing:0.04em;color:#6B7280">
+        <span>{{ featured.rateLabel }} · {{ featured.wpm }} wpm</span>
+        <span>{{ featured.theme }}</span>
+        <span style="color:#C8312A;font-weight:500;margin-left:auto">▶ LISTEN + READ</span>
+      </div>
+    </div>
+  </a>
+</section>
+
+<!-- Filters -->
+<section style="margin:0 auto;max-width:1180px;padding:0 48px 24px">
+  <div style="border-top:1px solid #D1D1CF;padding-top:22px">
+    <p style="margin:0 0 18px;font-family:'Spline Sans Mono',monospace;font-size:11px;font-weight:500;text-transform:uppercase;letter-spacing:0.14em;color:#C8312A">All episodes</p>
+    <div style="display:flex;flex-wrap:wrap;align-items:center;gap:12px">
+      <select aria-label="Filter by level" value="{{ level }}" onChange="{{ onLevel }}" style="background:#E8E8E7;border:1px solid #D1D1CF;border-radius:10px;font-size:14px;padding:9px 12px;color:#1C1C1E;cursor:pointer">
+        <sc-for list="{{ levelOptions }}" as="o" hint-placeholder-count="5"><option value="{{ o.value }}">{{ o.label }}</option></sc-for>
+      </select>
+      <select aria-label="Filter by theme" value="{{ theme }}" onChange="{{ onTheme }}" style="background:#E8E8E7;border:1px solid #D1D1CF;border-radius:10px;font-size:14px;padding:9px 12px;color:#1C1C1E;cursor:pointer">
+        <sc-for list="{{ themeOptions }}" as="o" hint-placeholder-count="7"><option value="{{ o.value }}">{{ o.label }}</option></sc-for>
+      </select>
+      <select aria-label="Filter by speed" value="{{ rate }}" onChange="{{ onRate }}" style="background:#E8E8E7;border:1px solid #D1D1CF;border-radius:10px;font-size:14px;padding:9px 12px;color:#1C1C1E;cursor:pointer">
+        <sc-for list="{{ rateOptions }}" as="o" hint-placeholder-count="4"><option value="{{ o.value }}">{{ o.label }}</option></sc-for>
+      </select>
+      <sc-if value="{{ anyActive }}" hint-placeholder-val="{{ false }}">
+        <button onClick="{{ onReset }}" style="padding:9px 14px;border-radius:10px;font-size:14px;font-weight:500;border:1px solid #D1D1CF;background:transparent;color:#6B7280;cursor:pointer">Reset</button>
+      </sc-if>
+      <input type="search" placeholder="Search episodes…" value="{{ search }}" onChange="{{ onSearch }}" style="margin-left:auto;min-width:200px;border-radius:10px;border:1px solid #D1D1CF;background:#F1F1F0;padding:10px 16px;font-size:14px;color:#1C1C1E" />
+    </div>
+    <p style="margin:18px 0 0;font-family:'Spline Sans Mono',monospace;font-size:12px;letter-spacing:0.06em;color:#6B7280">{{ resultLabel }}</p>
+  </div>
+</section>
+
+<!-- Grid -->
+<section style="margin:0 auto;max-width:1180px;padding:16px 48px 0">
+  <div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px">
+    <sc-for list="{{ pageEpisodes }}" as="ep" hint-placeholder-count="12">
+      <a href="#" style="display:flex;flex-direction:column;overflow:hidden;border-radius:14px;border:1px solid #D1D1CF;background:#F7F7F6;transition:border-color 160ms ease,box-shadow 200ms ease,transform 200ms ease" style-hover="border-color:#21456E;box-shadow:0 14px 28px -18px rgba(28,28,30,0.45);transform:translateY(-3px)">
+        <div style="position:relative;aspect-ratio:16/9;width:100%;overflow:hidden;background:#E8E8E7">
+          <div role="img" aria-label="{{ ep.title }}" style="position:absolute;inset:0;background-image:{{ ep.thumbStyle }};background-size:cover;background-position:center"></div>
+          <div style="position:absolute;inset:auto 0 0 0;height:56%;background:linear-gradient(to top,rgba(18,22,28,0.82),rgba(18,22,28,0))"></div>
+          <span style="position:absolute;left:14px;bottom:12px;font-family:'Spline Sans Mono',monospace;font-size:11px;font-weight:500;letter-spacing:0.12em;color:rgba(255,255,255,0.92)">{{ ep.numLabel }}</span>
+          <span style="position:absolute;right:14px;bottom:12px;font-family:'Spline Sans Mono',monospace;font-size:11px;font-weight:500;color:rgba(255,255,255,0.92)">{{ ep.duration }}</span>
+        </div>
+        <div style="padding:20px 22px 18px;display:flex;flex-direction:column;flex:1">
+          <span style="align-self:flex-start;margin-bottom:12px;border-radius:999px;padding:3px 9px;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.08em;background:{{ ep.bg }};color:{{ ep.fg }}">{{ ep.level }}</span>
+          <h3 style="margin:0 0 18px;font-size:19px;font-weight:600;line-height:1.28;letter-spacing:-0.02em;color:#2C3A48;text-wrap:pretty">{{ ep.title }}</h3>
+          <div style="margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:12px;border-top:1px solid #E1E1DF;padding-top:13px">
+            <span style="font-family:'Spline Sans Mono',monospace;font-size:11px;letter-spacing:0.04em;color:#6B7280">{{ ep.footMeta }}</span>
+            <span style="font-size:14px;font-weight:600;color:#C8312A">→</span>
+          </div>
+        </div>
+      </a>
+    </sc-for>
+  </div>
+  <sc-if value="{{ noResults }}" hint-placeholder-val="{{ false }}">
+    <p style="margin:0;padding:64px 0;text-align:center;font-family:'Spline Sans Mono',monospace;font-size:14px;color:#6B7280">No episodes match these filters.</p>
+  </sc-if>
+</section>
+
+<!-- Pagination (bottom only) -->
+<section style="margin:0 auto;max-width:1180px;padding:48px 48px 72px">
+  <nav aria-label="Pagination" style="display:flex;align-items:center;justify-content:center;gap:6px">
+    <button onClick="{{ onPrev }}" disabled="{{ atFirst }}" style="display:inline-flex;align-items:center;justify-content:center;min-width:38px;padding:9px 12px;border-radius:999px;font-size:14px;font-weight:500;line-height:1;border:1px solid #D1D1CF;background:transparent;color:#6B7280;cursor:pointer;opacity:{{ prevOpacity }}">←</button>
+    <sc-for list="{{ pageButtons }}" as="b" hint-placeholder-count="5">
+      <button onClick="{{ b.go }}" style="display:inline-flex;align-items:center;justify-content:center;min-width:38px;padding:9px 12px;border-radius:999px;font-size:14px;font-weight:{{ b.weight }};line-height:1;border:1px solid {{ b.border }};background:{{ b.bg }};color:{{ b.fg }};cursor:{{ b.cursor }}">{{ b.label }}</button>
+    </sc-for>
+    <button onClick="{{ onNext }}" disabled="{{ atLast }}" style="display:inline-flex;align-items:center;justify-content:center;min-width:38px;padding:9px 12px;border-radius:999px;font-size:14px;font-weight:500;line-height:1;border:1px solid #D1D1CF;background:transparent;color:#6B7280;cursor:pointer;opacity:{{ nextOpacity }}">→</button>
+  </nav>
+</section>
+
+<!-- Listen everywhere -->
+<section style="padding:0 24px 72px">
+  <div style="margin:0 auto;max-width:1180px;border-radius:32px;background:#E8E8E7;padding:64px;text-align:center">
+    <p style="margin:0 0 16px;font-family:'Spline Sans Mono',monospace;font-size:11px;font-weight:500;text-transform:uppercase;letter-spacing:0.14em;color:#C8312A">Listen everywhere</p>
+    <h2 style="margin:0 0 32px;font-size:40px;line-height:1.1;letter-spacing:-0.03em;color:#2C3A48"><span style="font-weight:300">Take us</span><span style="font-weight:700"> with you.</span></h2>
+    <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:16px">
+      <a href="#" style="display:inline-flex;align-items:center;gap:10px;border-radius:10px;border:1px solid #D1D1CF;background:#F1F1F0;padding:12px 24px;font-size:14px;font-weight:600;color:#2C3A48">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="color:#1DB954"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"></path></svg>
+        Spotify
+      </a>
+      <a href="#" style="display:inline-flex;align-items:center;gap:10px;border-radius:10px;border:1px solid #D1D1CF;background:#F1F1F0;padding:12px 24px;font-size:14px;font-weight:600;color:#2C3A48">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="color:#B150E2"><path d="M12 1a11 11 0 100 22A11 11 0 0012 1zm0 2a9 9 0 110 18A9 9 0 0112 3zm0 2a7 7 0 100 14A7 7 0 0012 5zm0 2a5 5 0 110 10A5 5 0 0112 7zm0 3a2 2 0 100 4 2 2 0 000-4zm0 5.5c1.1 0 2.1.3 2.95.82L16.5 20H7.5l1.55-3.68A5.5 5.5 0 0112 15.5z"></path></svg>
+        Apple Podcasts
+      </a>
+      <a href="#" style="display:inline-flex;align-items:center;gap:10px;border-radius:10px;border:1px solid #D1D1CF;background:#F1F1F0;padding:12px 24px;font-size:14px;font-weight:600;color:#2C3A48">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="color:#F26522"><path d="M6.18 15.64a2.18 2.18 0 010 4.36 2.18 2.18 0 010-4.36M4 4.44A15.56 15.56 0 0119.56 20h-2.83A12.73 12.73 0 004 7.27V4.44m0 5.66a9.9 9.9 0 019.9 9.9h-2.83A7.07 7.07 0 004 12.93V10.1z"></path></svg>
+        RSS Feed
+      </a>
+    </div>
+  </div>
+</section>
+
+<section style="padding:0 24px 80px">
+  <div style="margin:0 auto;max-width:1180px;border-radius:32px;background:#E8E8E7;padding:64px;text-align:center">
+    <p style="margin:0 0 20px;font-family:'Spline Sans Mono',monospace;font-size:11px;font-weight:500;text-transform:uppercase;letter-spacing:0.14em;color:#C8312A">Ready to go further?</p>
+    <h2 style="margin:0 0 20px;font-size:34px;letter-spacing:-0.025em;color:#2C3A48"><span style="font-weight:300">Take your French</span> <span style="font-weight:700">to the next level.</span></h2>
+    <p style="margin:0 auto 36px;max-width:520px;font-size:17px;line-height:1.6;color:#6B7280">Access structured courses, live practice sessions, and a community that keeps you going — all at learn.frenchwithfelix.com.</p>
+    <a href="#" style="display:inline-flex;border-radius:10px;background:#C8312A;color:#F1F1F0;font-weight:600;font-size:16px;padding:15px 32px">Explore courses →</a>
+  </div>
+</section>
+
+<footer style="border-top:1px solid #D1D1CF;background:#E8E8E7">
+  <div style="margin:0 auto;max-width:1180px;display:flex;flex-direction:column;gap:16px;padding:24px 48px">
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:40px">
+      <div>
+        <p style="margin:0;font-size:18px;font-weight:700;letter-spacing:0.04em;color:#2C3A48">LIMINAL FRENCH</p>
+        <p style="margin:4px 0 0;font-size:14px;color:#6B7280;white-space:nowrap">French is a journey. Let's take it together.</p>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;align-items:center;column-gap:40px;row-gap:16px;justify-content:flex-end">
+        <nav style="display:flex;column-gap:24px;font-size:14px"><a href="#" style="color:#1C1C1E">About</a><a href="#" style="color:#1C1C1E">Blog</a><a href="#" style="color:#1C1C1E">Podcast</a><a href="#" style="color:#1C1C1E">Library</a></nav>
+        <nav style="display:flex;column-gap:24px;font-family:'Spline Sans Mono',monospace;font-size:12px;font-weight:500;text-transform:uppercase;letter-spacing:0.1em"><a href="#" style="color:#6B7280">YouTube</a><a href="#" style="color:#6B7280">Instagram</a><a href="#" style="color:#6B7280">TikTok</a><a href="#" style="color:#6B7280">Spotify</a></nav>
+      </div>
+    </div>
+    <p style="margin:0;font-family:'Spline Sans Mono',monospace;font-size:12px;font-weight:500;color:#6B7280">© 2026 Liminal French — French with Félix. All rights reserved.</p>
+  </div>
+</footer>
+</div>
+</div>
+
+<!-- ══════════ EPISODE ══════════ -->
+<div data-screen-label="Podcast episode">
+<p style="font-family:'Spline Sans Mono',monospace;font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:#6B7280;margin:0 0 10px;padding:0 24px">Episode — /podcast/japanese-portuguese-learning</p>
+<div style="background:#F1F1F0;border:1px solid #C9C9C7;overflow:hidden">
+<div style="height:3px;background:#21456E"></div>
+
+<div style="border-bottom:1px solid #D1D1CF;background:rgba(241,241,240,0.6);backdrop-filter:saturate(1.2) blur(12px)">
+  <div style="margin:0 auto;max-width:1180px;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:20px 48px">
+    <a href="#" style="font-size:22px;font-weight:700;letter-spacing:0.04em;color:#2C3A48">LIMINAL FRENCH</a>
+    <div style="display:flex;align-items:center;gap:34px">
+      <nav style="display:flex;gap:34px;font-size:15px;font-weight:500"><a href="#" style="color:#1C1C1E">Blog</a><a href="#" style="color:#1C1C1E">Podcast</a><a href="#" style="color:#1C1C1E">Library</a><a href="#" style="color:#1C1C1E">About</a></nav>
+      <a href="#" style="border-radius:10px;background:#C8312A;color:#F1F1F0;font-weight:600;font-size:15px;padding:9px 20px">Start Learning →</a>
+    </div>
+  </div>
+</div>
+
+<div style="margin:0 auto;max-width:1180px;padding:48px 48px 0">
+  <a href="#" style="display:inline-flex;align-items:center;gap:4px;margin-bottom:32px;font-family:'Spline Sans Mono',monospace;font-size:12px;font-weight:500;text-transform:uppercase;letter-spacing:0.1em;color:#6B7280">← All episodes</a>
+  <div style="margin-bottom:40px">
+    <div style="display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-bottom:16px">
+      <span style="font-size:24px;font-weight:300;letter-spacing:-0.02em;color:#C8312A">Ep 83</span>
+      <span style="display:inline-block;border-radius:999px;padding:3px 9px;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.08em;background:#FEF3C7;color:#92400E">B1</span>
+      <span style="border-radius:999px;background:#E8E8E7;padding:3px 10px;font-family:'Spline Sans Mono',monospace;font-size:11px;font-weight:500;text-transform:uppercase;letter-spacing:0.08em;color:#6B7280">language-learning</span>
+    </div>
+    <h1 style="margin:0 0 24px;font-size:38px;font-weight:700;line-height:1.1;letter-spacing:-0.035em;color:#2C3A48">J'apprends le japonais et le portugais</h1>
+    <div style="display:flex;flex-wrap:wrap;column-gap:32px;row-gap:12px;border-top:1px solid #D1D1CF;padding-top:20px">
+      <div>
+        <p style="margin:0 0 4px;font-family:'Spline Sans Mono',monospace;font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:0.1em;color:#6B7280">Duration</p>
+        <p style="margin:0;font-size:15px;font-weight:600;color:#2C3A48">29:05</p>
+      </div>
+      <div>
+        <p style="margin:0 0 4px;font-family:'Spline Sans Mono',monospace;font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:0.1em;color:#6B7280">Speed</p>
+        <p style="margin:0;font-size:15px;font-weight:600;color:#2C3A48">Natural · 159 wpm</p>
+      </div>
+      <div>
+        <p style="margin:0 0 4px;font-family:'Spline Sans Mono',monospace;font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:0.1em;color:#6B7280">Transcript</p>
+        <p style="margin:0;font-size:15px;font-weight:600;color:#2C3A48">4,637 words</p>
+      </div>
+    </div>
+  </div>
+
+  <div style="display:grid;grid-template-columns:3fr 2fr;column-gap:48px;align-items:start">
+    <div style="order:2">
+      <div style="overflow:hidden;border-radius:14px;position:relative;padding-bottom:56.25%;height:0;background:#000">
+        <div role="img" aria-label="J'apprends le japonais et le portugais" style="position:absolute;inset:0;background-image:url(https://img.youtube.com/vi/2GHJJmqJVxA/maxresdefault.jpg);background-size:cover;background-position:center"></div>
+        <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center">
+          <div style="width:68px;height:48px;border-radius:12px;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;color:#fff;font-size:18px">▶</div>
+        </div>
+      </div>
+      <div style="margin-top:20px;border-radius:14px;border:1px solid #D1D1CF;background:#E8E8E7;padding:20px">
+        <p style="margin:0 0 14px;font-family:'Spline Sans Mono',monospace;font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:0.1em;color:#6B7280">Also on</p>
+        <div style="display:flex;flex-wrap:wrap;gap:10px">
+          <a href="#" style="display:inline-flex;align-items:center;gap:8px;border-radius:10px;border:1px solid #D1D1CF;background:#F1F1F0;padding:9px 14px;font-size:13px;font-weight:600;color:#2C3A48">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="color:#1DB954"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"></path></svg>
+            Spotify
+          </a>
+          <a href="#" style="display:inline-flex;align-items:center;gap:8px;border-radius:10px;border:1px solid #D1D1CF;background:#F1F1F0;padding:9px 14px;font-size:13px;font-weight:600;color:#2C3A48">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="color:#B150E2"><path d="M12 1a11 11 0 100 22A11 11 0 0012 1zm0 2a9 9 0 110 18A9 9 0 0112 3zm0 2a7 7 0 100 14A7 7 0 0012 5zm0 2a5 5 0 110 10A5 5 0 0112 7zm0 3a2 2 0 100 4 2 2 0 000-4zm0 5.5c1.1 0 2.1.3 2.95.82L16.5 20H7.5l1.55-3.68A5.5 5.5 0 0112 15.5z"></path></svg>
+            Apple
+          </a>
+          <a href="#" style="display:inline-flex;align-items:center;gap:8px;border-radius:10px;border:1px solid #D1D1CF;background:#F1F1F0;padding:9px 14px;font-size:13px;font-weight:600;color:#2C3A48">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="color:#F26522"><path d="M6.18 15.64a2.18 2.18 0 010 4.36 2.18 2.18 0 010-4.36M4 4.44A15.56 15.56 0 0119.56 20h-2.83A12.73 12.73 0 004 7.27V4.44m0 5.66a9.9 9.9 0 019.9 9.9h-2.83A7.07 7.07 0 004 12.93V10.1z"></path></svg>
+            RSS
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div style="order:1">
+      <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:24px;border-top:1px solid #D1D1CF;padding-top:22px;margin-bottom:32px">
+        <div>
+          <p style="margin:0 0 14px;font-family:'Spline Sans Mono',monospace;font-size:11px;font-weight:500;text-transform:uppercase;letter-spacing:0.14em;color:#C8312A">Transcript</p>
+          <h2 style="margin:0;font-size:36px;line-height:1.08;letter-spacing:-0.03em;color:#2C3A48"><span style="font-weight:300">Full</span><span style="font-weight:700"> transcript</span></h2>
+        </div>
+        <div style="display:flex;gap:10px;flex-shrink:0">
+          <button style="display:inline-flex;align-items:center;gap:8px;border-radius:10px;border:1px solid #D1D1CF;background:#F1F1F0;padding:10px 16px;font-size:13px;font-weight:600;color:#2C3A48;cursor:pointer">
+            <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 2v8M4.5 7L8 10.5 11.5 7M2.5 13h11"></path></svg>
+            Download
+          </button>
+          <button style="display:inline-flex;align-items:center;gap:8px;border-radius:10px;border:1px solid #D1D1CF;background:#F1F1F0;padding:10px 16px;font-size:13px;font-weight:600;color:#2C3A48;cursor:pointer">
+            <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 6V2.5h7V6M4.5 12H3a1 1 0 01-1-1V7a1 1 0 011-1h10a1 1 0 011 1v4a1 1 0 01-1 1h-1.5M4.5 10h7v3.5h-7z"></path></svg>
+            Print
+          </button>
+        </div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:32px">
+        <sc-for list="{{ transcript }}" as="p" hint-placeholder-count="3">
+          <div>
+            <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px">
+              <button style="min-height:44px;display:inline-flex;align-items:center;background:none;border:0;padding:0;cursor:pointer;font-family:'Spline Sans Mono',monospace;font-size:12px;font-weight:500;color:#6B7280">{{ p.timecode }}</button>
+              <button style="min-height:44px;display:inline-flex;align-items:center;background:none;border:0;padding:0;cursor:pointer;font-family:'Spline Sans Mono',monospace;font-size:12px;font-weight:500;color:#6B7280;opacity:{{ p.hintOpacity }}">{{ p.hint }}</button>
+            </div>
+            <p style="margin:0;font-size:17px;line-height:1.8;color:#1C1C1E;text-align:justify">{{ p.text }}</p>
+          </div>
+        </sc-for>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section style="padding:64px 24px 80px">
+  <div style="margin:0 auto;max-width:1180px;border-radius:32px;background:#E8E8E7;padding:64px;text-align:center">
+    <p style="margin:0 0 20px;font-family:'Spline Sans Mono',monospace;font-size:11px;font-weight:500;text-transform:uppercase;letter-spacing:0.14em;color:#C8312A">Ready for more?</p>
+    <h2 style="margin:0 0 20px;font-size:34px;letter-spacing:-0.025em;color:#2C3A48"><span style="font-weight:300">Take your French</span> <span style="font-weight:700">to the next level.</span></h2>
+    <p style="margin:0 auto 36px;max-width:520px;font-size:17px;line-height:1.6;color:#6B7280">Access structured courses, live practice sessions, and a community that keeps you going — all at learn.frenchwithfelix.com.</p>
+    <a href="#" style="display:inline-flex;border-radius:10px;background:#C8312A;color:#F1F1F0;font-weight:600;font-size:16px;padding:15px 32px">Explore courses →</a>
+  </div>
+</section>
+</div>
+</div>
+
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+const BADGE = {
+  A1: { bg: '#DBEAFE', fg: '#1E40AF' },
+  A2: { bg: '#D1FAE5', fg: '#065F46' },
+  B1: { bg: '#FEF3C7', fg: '#92400E' },
+  B2: { bg: '#FCE7F3', fg: '#9D174D' },
+};
+
+const RATE_LABEL = { lent: 'Slow', normal: 'Natural', rapide: 'Fast' };
+
+// [number, title, level, theme, rate, wpm, duration, youtubeId]
+const RAW = [
+  [83, "J'apprends le japonais et le portugais", 'B1', 'language-learning', 'normal', 159, '29:05:00', '2GHJJmqJVxA'],
+  [82, "6 choses que j'aurais aimé savoir", 'B1', 'language-learning', 'normal', 151, '27:11:00', 'rqDyijTwGMY'],
+  [81, '6 conseils pour progresser en lisant', 'B1', 'language-learning', 'normal', 146, '23:52', 'iCkg1-e2Pko'],
+  [80, 'Les Français adorent ça', 'B1', 'culture', 'normal', 146, '32:06:00', 'Lc16vadmZ6w'],
+  [79, "La vraie valeur c'est le temps", 'B1', 'life-reflections', 'normal', 153, '29:21:00', '5ZxeDQcKTmw'],
+  [78, "Vous avez besoin d'un radar à FOMO", 'B1', 'life-reflections', 'rapide', 161, '31:29:00', 'zN92ugiFb8Y'],
+  [77, 'Discussion avancée avec mon beau-frère', 'B2', 'life-reflections', 'rapide', 184, '27:42:00', 'wg68gCDcp9w'],
+  [76, 'Est-ce utile de prendre des cours avec un prof ?', 'B1', 'language-learning', 'rapide', 160, '28:05:00', 'zm5JtThO8sM'],
+  [75, 'Interview — ma belle-sœur est influenceuse Instagram', 'B1', 'culture', 'rapide', 164, '38:47:00', 'gtFUaB1H-Ac'],
+  [74, "On l'a fait !", 'A2', 'life-reflections', 'normal', 145, '19:33', 'YFfaKxXODaU'],
+  [73, "Comment j'ai rencontré ma femme — Q&A", 'B1', 'life-reflections', 'normal', 145, '34:31:00', 'nH_Ff0MDXq0'],
+  [72, 'Pas besoin de plus de grammaire — mais de vocabulaire', 'B1', 'language-learning', 'normal', 155, '27:13:00', '19EjZovFPZ8'],
+  [71, 'Comment moins se frustrer en apprenant le français', 'B1', 'language-learning', 'normal', 0, '07:57', 'QB53WqiM5uo'],
+  [70, 'On a regardé Emily in Paris', 'B1', 'culture', 'normal', 155, '25:43:00', 'zH1tGdl6PpY'],
+  [69, 'Pourquoi les trains font partie de la culture française', 'B1', 'culture', 'normal', 147, '26:41:00', 'RGooXJtrxGA'],
+  [68, "J'ai travaillé dans une ferme", 'A2', 'life-reflections', 'normal', 151, '23:51', '1Hvl9vanNlQ'],
+  [67, 'Je suis allé au cinéma', 'A2', 'culture', 'normal', 151, '28:20:00', 'pN-i6ANVb_Q'],
+  [66, "J'ai habité 4 mois à Londres", 'B1', 'life-reflections', 'normal', 153, '28:27:00', '7DyECzLiO7s'],
+  [65, 'Comment construire des automatismes en français', 'B1', 'language-learning', 'normal', 148, '27:54:00', 'MQBD6SRTmLc'],
+  [64, 'Pourquoi vous ne comprenez pas les natifs', 'B1', 'language-learning', 'normal', 147, '23:03', 'mk8XIdlee44'],
+  [63, 'Vlog — Venez avec nous à Bruxelles !', 'B1', 'travel', 'normal', 135, '35:47:00', 'r6h7f1IP0GA'],
+  [62, 'Je suis fatigué — mes projets', 'B1', 'life-reflections', 'normal', 145, '24:47:00', 'hKIyN_ddNnM'],
+  [61, 'Faut-il passer un examen de français ?', 'B1', 'language-learning', 'normal', 144, '22:04', '9wkLITT0ZY8'],
+  [60, 'Le travail de ma femme', 'B1', 'life-reflections', 'normal', 145, '21:50', 'xXAcCQjoTrg'],
+  [59, 'La crise de la trentaine', 'B1', 'life-reflections', 'rapide', 161, '22:52', 'OESjnWAoDzk'],
+  [58, 'Un conseil pour améliorer votre expression orale', 'B1', 'language-learning', 'normal', 149, '22:18', '9DLlwz_rrjY'],
+  [57, 'La Saint-Valentin en France', 'A2', 'culture', 'normal', 151, '18:09', 'gS0-ifYYO_c'],
+  [56, "Vous n'avez pas besoin de tout comprendre", 'B1', 'language-learning', 'normal', 149, '21:24', '7B_uMJvnpvc'],
+  [55, "L'effet Dunning-Kruger", 'B1', 'language-learning', 'rapide', 158, '22:46', 'scmf7pT4whA'],
+  [54, 'Actualités — les réseaux sociaux bannis en France ?', 'B1', 'culture', 'normal', 143, '19:03', '6PnzUP1vv8E'],
+  [53, 'Les Daft Punk', 'A2', 'culture', 'lent', 113, '11:45', '2OU7KVa_s5s'],
+  [52, 'Il faut prendre du plaisir', 'B1', 'language-learning', 'normal', 150, '20:46', 'aG7y2deV_Ik'],
+  [51, 'Apprendre le vocabulaire plus vite avec Anki', 'B1', 'language-learning', 'lent', 127, '16:31', 'zsf7UFKYtE0'],
+  [50, 'Tout nu au Japon !', 'B1', 'travel', 'normal', 155, '24:03:00', 'OyoxJt_M5BQ'],
+  [49, "J'ai mémorisé 2000 caractères japonais", 'B1', 'language-learning', 'normal', 136, '23:15', 'efIGqkSNItI'],
+  [48, 'Est-ce que je dois arrêter mes vidéos ?', 'B1', 'life-reflections', 'rapide', 164, '21:30', 'wjLZbKiFn74'],
+  [47, 'Ne tombez pas dans le piège des flashcards', 'B1', 'language-learning', 'normal', 147, '22:04', 'DCdmqZ71JwA'],
+  [46, 'Les cartes Pokémon', 'B1', 'culture', 'normal', 150, '21:49', 'Ns8-PwhmC58'],
+  [45, 'Mes projets pour 2026', 'B1', 'life-reflections', 'normal', 146, '26:19:00', 'cYmEs3VkNmU'],
+  [44, 'Noël en France', 'A2', 'culture', 'normal', 152, '13:33', 'aowHWw5_v_s'],
+  [43, "J'ai échoué à apprendre le portugais", 'B1', 'language-learning', 'normal', 152, '13:52', '3XFuT_N4f50'],
+  [42, 'Apprendre le français en regardant des films', 'B1', 'language-learning', 'normal', 148, '14:05', 'KQmXys645ak'],
+  [41, 'Habiter dans le pays ne va pas vous aider', 'B1', 'language-learning', 'rapide', 156, '18:21', 'P8PnPCM_qzc'],
+  [40, 'Vous devriez vous sentir coupables !', 'B1', 'language-learning', 'rapide', 160, '22:21', 'JIfS-NrdqKA'],
+  [39, 'Les Français sont impolis ?', 'B1', 'culture', 'normal', 152, '16:43', '2GHJJmqJVxA'],
+  [38, 'Le temps passe vite', 'B1', 'life-reflections', 'normal', 150, '16:07', '8f4xFvDKhcA'],
+  [37, 'Ne soyez pas trop motivé', 'B1', 'language-learning', 'normal', 151, '20:17', 'GRJNteAvhds'],
+  [36, 'Ne soyez pas trop dur avec vous-même', 'B1', 'language-learning', 'normal', 140, '18:50', 'eBbfErZJr84'],
+  [35, 'Je comprends mais je ne peux pas parler', 'B1', 'language-learning', 'normal', 139, '21:29', 'Lc6ZomSkFBU'],
+  [34, "Je gagne de l'argent sur YouTube", 'B1', 'life-reflections', 'normal', 152, '14:07', 'IXw9d6BnGWg'],
+  [33, "L'IA va nous remplacer ?", 'B1', 'culture', 'normal', 139, '17:44', 'PvZrsjcB6Pk'],
+  [32, 'Une semaine chargée', 'B1', 'life-reflections', 'normal', 155, '15:22', 'DRAcaqRM0Zg'],
+  [31, 'Booster sa mémoire', 'B1', 'language-learning', 'normal', 150, '17:15', 'DXxKyHo7Qbc'],
+  [30, 'On a déménagé !', 'B1', 'life-reflections', 'normal', 150, '10:49', 'MMcTiEZPnKk'],
+  [29, 'Les conventions', 'B1', 'culture', 'normal', 155, '18:17', 'rC6WzegsHFg'],
+  [28, 'Est-ce que je progresse ?', 'B1', 'language-learning', 'rapide', 158, '15:38', '1-r7XincQf0'],
+  [27, 'Mon avis sur Duolingo', 'B1', 'language-learning', 'normal', 149, '21:22', 'V1mt9-Hx0Dc'],
+  [26, 'Une méthode efficace', 'B1', 'language-learning', 'normal', 149, '16:15', 'YvJHcBZaWPc'],
+  [25, 'Le métier de ma femme', 'B1', 'life-reflections', 'normal', 149, '14:49', '8ll_h_hbLIU'],
+  [24, "J'apprends le portugais en 3 mois (2)", 'B1', 'language-learning', 'normal', 141, '15:49', '9_JptBZtSWU'],
+  [23, 'Le pouvoir des habitudes', 'B1', 'language-learning', 'normal', 138, '15:03', '3Hz6C4k0MIQ'],
+  [22, "J'apprends le portugais en 3 mois", 'B1', 'language-learning', 'normal', 137, '15:10', '_0USECTqa-I'],
+  [21, 'La frustration', 'B1', 'language-learning', 'normal', 136, '12:09', 'hQe6_ugdNZQ'],
+  [20, "J'apprends une nouvelle langue en 3 mois", 'B1', 'language-learning', 'lent', 129, '11:07', 'gMhfOgE_3m4'],
+  [19, "L'IA nous rend bêtes", 'B1', 'culture', 'lent', 127, '11:55', 'BNPJ_GkYQlo'],
+  [18, 'Easy French News', 'A2', 'culture', 'lent', 113, '05:05', 'nV8kmaUbGgo'],
+  [17, 'Comment ChatGPT peut vous rendre fluent en français', 'B1', 'language-learning', 'normal', 138, '12:03', 'oCEb2lGINxU'],
+  [16, "D'un emploi bien payé à prof de français", 'B1', 'life-reflections', 'lent', 128, '08:24', '6j3u_N_LCNo'],
+  [15, 'Black Mirror rencontre la réalité', 'B1', 'culture', 'lent', 119, '07:25', 'Ohw3MOWvdU0'],
+  [14, 'Pourquoi vous avez aimé Le Voyage de Chihiro', 'B1', 'culture', 'normal', 133, '13:47', 'rpy1qU1pAKA'],
+  [13, 'Sydney Sweeney a de bons gènes', 'B1', 'culture', 'normal', 134, '08:32', 'ohDEdTWwP0c'],
+  [12, 'Est-ce vraiment grave ?', 'B1', 'language-learning', 'normal', 147, '07:42', '5VlYfV9dFAk'],
+  [11, 'Le voyage est une aventure', 'A2', 'travel', 'lent', 128, '07:30', 'SjOih_Jpxpg'],
+  [10, 'Comprendre le français fluent', 'B1', 'language-learning', 'normal', 146, '09:14', ''],
+  [9, 'Le contenu idéal', 'B1', 'language-learning', 'lent', 116, '09:19', ''],
+  [8, 'Les clichés', 'B1', 'culture', 'normal', 137, '09:14', '2GHJJmqJVxA'],
+  [7, 'Un nouveau travail', 'A2', 'life-reflections', 'lent', 112, '07:03', '5ZxeDQcKTmw'],
+  [6, 'Le plateau intermédiaire', 'B1', 'language-learning', 'lent', 115, '07:39', 'RGooXJtrxGA'],
+  [5, 'De combien avez-vous besoin ?', 'A2', 'language-learning', 'lent', 122, '08:34', 'OESjnWAoDzk'],
+  [4, "Est-ce toujours utile d'apprendre une langue ?", 'B1', 'language-learning', 'lent', 124, '12:01', 'gUdxrRYMp0E'],
+  [3, 'Vous pouvez dépenser autant que vous voulez', 'A2', 'language-learning', 'lent', 119, '08:01', '2GHJJmqJVxA'],
+  [2, 'Le running', 'A2', 'life-reflections', 'lent', 108, '08:15', 'ir0axt6Nmgc'],
+  [1, "Pourquoi j'ai déménagé ?", 'A2', 'life-reflections', 'lent', 109, '07:43', 'EAcww6gzx-U'],
+];
+
+// CSV stores sub-hour durations as mm:ss:00 — strip the phantom third part.
+function cleanDuration(d) {
+  const parts = d.split(':');
+  return parts.length === 3 && parts[2] === '00' ? `${parts[0]}:${parts[1]}` : d;
+}
+
+const EPISODES = RAW.map(([number, title, level, theme, rate, wpm, duration, yt]) => ({
+  number, title, level, theme, rate, wpm,
+  duration: cleanDuration(duration),
+  bg: BADGE[level].bg,
+  fg: BADGE[level].fg,
+  rateLabel: RATE_LABEL[rate] ?? rate,
+  thumbStyle: yt
+    ? `url(https://img.youtube.com/vi/${yt}/maxresdefault.jpg)`
+    : 'repeating-linear-gradient(135deg,#E8E8E7,#E8E8E7 11px,#E1E1DF 11px,#E1E1DF 22px)',
+  meta: wpm > 0 ? `${cleanDuration(duration)} · ${wpm} WPM` : cleanDuration(duration),
+  footMeta: wpm > 0 ? `${wpm} wpm · ${theme}` : theme,
+  numLabel: `EP ${number}`,
+  search: title.toLowerCase(),
+}));
+
+const PER_PAGE = 12;
+
+const THEMES = ['language-learning', 'life-reflections', 'culture', 'travel'];
+
+class Component extends DCLogic {
+  state = { level: 'all', theme: 'all', rate: 'all', search: '', page: 1 };
+
+  set(patch) {
+    this.setState(s => ({ ...s, ...patch, page: patch.page ?? 1 }));
+  }
+
+  renderVals() {
+    const { level, theme, rate, search, page } = this.state;
+    const q = search.trim().toLowerCase();
+
+    const filtered = EPISODES.filter(e =>
+      (level === 'all' || e.level === level) &&
+      (theme === 'all' || e.theme === theme) &&
+      (rate === 'all' || e.rate === rate) &&
+      (!q || e.search.includes(q))
+    );
+
+    const lastPage = Math.max(1, Math.ceil(filtered.length / PER_PAGE));
+    const current = Math.min(page, lastPage);
+    const start = (current - 1) * PER_PAGE;
+    const pageEpisodes = filtered.slice(start, start + PER_PAGE);
+
+    // Window the page numbers: always first and last, up to 3 around current.
+    const nums = [];
+    for (let i = 1; i <= lastPage; i++) {
+      if (i === 1 || i === lastPage || Math.abs(i - current) <= 1) nums.push(i);
+      else if (nums[nums.length - 1] !== '…') nums.push('…');
+    }
+
+    const anyActive = level !== 'all' || theme !== 'all' || rate !== 'all' || q !== '';
+    const shown = filtered.length === 0 ? 0 : start + 1;
+    const shownTo = Math.min(start + PER_PAGE, filtered.length);
+
+    return {
+      totalCount: EPISODES.length,
+      featured: EPISODES[0],
+      level, theme, rate, search,
+      anyActive,
+      noResults: filtered.length === 0,
+      resultLabel: filtered.length === 0
+        ? 'No episodes match these filters'
+        : `Showing ${shown}–${shownTo} of ${filtered.length}${anyActive ? ' matching' : ''} episodes`,
+      levelOptions: [
+        { value: 'all', label: 'All levels' },
+        { value: 'A1', label: 'A1' }, { value: 'A2', label: 'A2' },
+        { value: 'B1', label: 'B1' }, { value: 'B2', label: 'B2' },
+      ],
+      themeOptions: [{ value: 'all', label: 'All themes' }].concat(
+        THEMES.map(t => ({ value: t, label: t.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase()) }))
+      ),
+      rateOptions: [
+        { value: 'all', label: 'All speeds' },
+        { value: 'lent', label: 'Slow' },
+        { value: 'normal', label: 'Natural' },
+        { value: 'rapide', label: 'Fast' },
+      ],
+      onLevel: e => this.set({ level: e.target.value }),
+      onTheme: e => this.set({ theme: e.target.value }),
+      onRate: e => this.set({ rate: e.target.value }),
+      onSearch: e => this.set({ search: e.target.value }),
+      onReset: () => this.set({ level: 'all', theme: 'all', rate: 'all', search: '' }),
+      pageEpisodes,
+      pageButtons: nums.map((n, i) => n === '…'
+        ? { label: '…', go: () => {}, weight: '400', border: 'transparent', bg: 'transparent', fg: '#6B7280', cursor: 'default' }
+        : {
+            label: String(n),
+            go: () => this.setState({ page: n }),
+            weight: n === current ? '600' : '500',
+            border: n === current ? '#C8312A' : '#D1D1CF',
+            bg: n === current ? '#C8312A' : 'transparent',
+            fg: n === current ? '#F1F1F0' : '#6B7280',
+            cursor: 'pointer',
+          }),
+      atFirst: current === 1,
+      atLast: current === lastPage,
+      prevOpacity: current === 1 ? 0.3 : 1,
+      nextOpacity: current === lastPage ? 0.3 : 1,
+      onPrev: () => this.setState(s => ({ page: Math.max(1, current - 1) })),
+      onNext: () => this.setState(s => ({ page: Math.min(lastPage, current + 1) })),
+      transcript: [
+        { timecode: '0:00', hint: '(click to jump to timestamp)', hintOpacity: 0.5, text: "Bonjour tout le monde. Bienvenue dans un nouveau podcast. On se retrouve à l'extérieur. Je refilme avec la petite caméra. Ça faisait un moment que je n'avais pas fait de podcast comme ça avec la petite caméra et ça faisait longtemps que je n'avais pas parlé de mon apprentissage du japonais mais aussi et surtout du portugais puisque en octobre l'année dernière, j'avais dit sur cette chaîne que je commençais à apprendre le portugais et j'avais commencé à faire des vidéos hebdomadaires, donc une vidéo toutes les semaines. Hebdomadaire." },
+        { timecode: '0:41', hint: '', hintOpacity: 0, text: "Si je fais une vidéo quotidienne, des vidéos quotidiennes, c'est tous les jours et hebdomadaire, c'est toutes les semaines et après c'est mensuel ou annuel. Et donc je faisais une vidéo par semaine pour expliquer mon avancée du portugais et au bout d'un moment, j'ai arrêté. Donc j'ai arrêté ces mauvais signes pour mon apprentissage. Mais aujourd'hui, je voulais vous donner un peu plus de détails sur mon apprentissage de ces deux langues." },
+        { timecode: '1:44', hint: '', hintOpacity: 0, text: "Donc pour commencer la je me suis pris des notes pour commencer comment est-ce que j'ai commencé à apprendre les deux langues? Donc le point de départ de tout ça, c'est le japonais. C'est que bon à l'école en France, on apprend deux langues étrangères et en général on fait anglais espagnol. Anglais en première langue, espagnol en deuxème langue. Et personnellement, j'ai jamais été fantastique en langues étrangères." },
+      ],
+    };
+  }
+}
+
+</script>
+</body>
+</html>

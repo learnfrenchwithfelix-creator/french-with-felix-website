@@ -1,0 +1,380 @@
+---
+// Right-hand dot navigation + soft scroll magnet.
+// Any element with [data-snap][data-label] on the page becomes a dot and a snap point.
+---
+
+<nav id="section-dots" class="section-dots" aria-label="Page sections"></nav>
+
+<style is:global>
+  /* The magnet itself is JS-driven (see script) so its strength and speed are tunable */
+  html:has(#section-dots) {
+    scroll-padding-top: var(--header-height, 73px);
+  }
+
+  /* Phones: slim dots hugging the right edge, inside the 24px page gutter, no labels */
+  .section-dots {
+    position: fixed;
+    top: 50%;
+    right: 2px;
+    transform: translateY(-50%);
+    z-index: 40;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0;
+  }
+  @media (min-width: 768px) {
+    .section-dots {
+      /* Just outside the 1180px content column; falls back to the viewport edge on narrower screens */
+      right: max(10px, calc(50vw - 590px - 36px));
+      gap: 4px;
+    }
+  }
+
+  .section-dots button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 24px;
+    padding: 0;
+    background: none;
+    border: 0;
+    cursor: pointer;
+  }
+  @media (min-width: 768px) {
+    .section-dots button {
+      justify-content: flex-end;
+      width: 24px;
+      height: 20px;
+    }
+  }
+  .section-dots .dot {
+    display: block;
+    width: 5px;
+    height: 5px;
+    border-radius: 999px;
+    background: var(--color-muted);
+    opacity: 0.45;
+    transition: height 0.2s ease, background-color 0.2s ease, opacity 0.2s ease;
+  }
+  @media (min-width: 768px) {
+    .section-dots .dot {
+      width: 7px;
+      height: 7px;
+    }
+  }
+  .section-dots button:hover .dot {
+    opacity: 0.8;
+  }
+  .section-dots button[aria-current='true'] .dot {
+    height: 14px;
+    background: var(--color-accent);
+    opacity: 1;
+  }
+  @media (min-width: 768px) {
+    .section-dots button[aria-current='true'] .dot {
+      height: 18px;
+    }
+  }
+  .section-dots .tip {
+    display: none;
+    position: absolute;
+    right: 24px;
+    padding: 3px 8px;
+    border-radius: 6px;
+    background: var(--color-title);
+    color: var(--color-bg);
+    font-family: var(--font-mono, 'Spline Sans Mono', monospace);
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.15s ease;
+  }
+  @media (min-width: 768px) {
+    .section-dots .tip {
+      display: block;
+    }
+  }
+  .section-dots button:hover .tip,
+  .section-dots button:focus-visible .tip {
+    opacity: 1;
+  }
+
+  /* Wide screens: labels sit permanently to the right of the dots */
+  @media (min-width: 1560px) {
+    .section-dots {
+      right: auto;
+      left: calc(50vw + 590px + 16px);
+      align-items: flex-start;
+    }
+    .section-dots button {
+      width: auto;
+      flex-direction: row-reverse;
+      justify-content: flex-end;
+      gap: 12px;
+    }
+    .section-dots .tip {
+      position: static;
+      padding: 0;
+      background: none;
+      color: var(--color-muted);
+      font-size: 11px;
+      opacity: 0.7;
+      transition: color 0.2s ease, font-size 0.2s ease, opacity 0.2s ease;
+    }
+    .section-dots button:hover .tip {
+      opacity: 1;
+    }
+    .section-dots button[aria-current='true'] .tip {
+      color: var(--color-accent);
+      font-size: 13px;
+      font-weight: 600;
+      opacity: 1;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html:has(#section-dots) {
+      scroll-snap-type: none;
+    }
+    .section-dots .dot,
+    .section-dots .tip {
+      transition: none;
+    }
+  }
+</style>
+
+<script>
+  const nav = document.getElementById('section-dots');
+  const sections = Array.from(document.querySelectorAll<HTMLElement>('[data-snap]'));
+
+  if (nav && sections.length) {
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    // ── Magnet tuning ──
+    const PULL_RANGE = 0.5;    // fallback magnet (touch, keyboard, scrollbar): pulls to the nearest section within half a screen
+    const IDLE_MS = 160;       // wait this long after the last scroll tick before pulling
+    const PULL_MS = 650;       // duration of the pull (longer = slower, gentler)
+    const WHEEL_LOCK_MS = 250; // extra pause after a wheel-triggered jump to absorb trackpad inertia
+
+    // The magnet + one-block-per-screen layout (the `snap-mode` class on <html>, styled in index.astro)
+    // only run when the tallest block fits in the window. Otherwise the page scrolls normally.
+    const MIN_WIDTH = 768;     // below this (phones) never snap
+    const BREATHING_ROOM = 32; // the tallest block must fit with at least this much spare space
+    const root = document.documentElement;
+    const snapOn = () => root.classList.contains('snap-mode') && !reduceMotion;
+
+    const headerOffset = () => parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--header-height')) || 73;
+    const maxScroll = () => document.documentElement.scrollHeight - window.innerHeight;
+
+    // The visible content of a block excludes the bottom padding that spaces it from the next one
+    const measure = (el: HTMLElement) => {
+      const inner = (el.firstElementChild as HTMLElement | null) ?? el;
+      const r = inner.getBoundingClientRect();
+      const pb = parseFloat(getComputedStyle(inner).paddingBottom) || 0;
+      const height = r.height - pb;
+      return { top: r.top + window.scrollY, height, bottom: r.top + height };
+    };
+
+    // Scroll position for a block. In snap mode: centred under the header when it fits, top-aligned when it
+    // doesn't (so it's never cut off). Otherwise: simply top-aligned.
+    const topOf = (el: HTMLElement) => {
+      const { top, height } = measure(el);
+      const space = window.innerHeight - headerOffset();
+      const centre = snapOn() && height < space;
+      // Top-aligned blocks keep a little air under the header instead of touching it
+      const topGap = window.innerWidth >= MIN_WIDTH ? 48 : 24;
+      const y = centre ? top - headerOffset() - (space - height) / 2 : top - headerOffset() - topGap;
+      return Math.max(0, Math.min(y, maxScroll()));
+    };
+
+    let rafId = 0;
+    let animating = false;
+    const ease = (t: number) => (t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2);
+
+    const cancelAnim = () => {
+      cancelAnimationFrame(rafId);
+      animating = false;
+    };
+
+    const animateTo = (target: number, duration: number) => {
+      cancelAnim();
+      const start = window.scrollY;
+      const dist = target - start;
+      if (Math.abs(dist) < 2) return;
+      // No animation for reduced motion or when the tab isn't painting (rAF is paused there)
+      if (reduceMotion || document.hidden) {
+        window.scrollTo(0, target);
+        return;
+      }
+      animating = true;
+      const t0 = performance.now();
+      const step = (now: number) => {
+        const p = Math.min((now - t0) / duration, 1);
+        window.scrollTo(0, start + dist * ease(p));
+        if (p < 1) rafId = requestAnimationFrame(step);
+        else animating = false;
+      };
+      rafId = requestAnimationFrame(step);
+    };
+
+    // Touch / keyboard / scrollbar input takes over immediately (wheel is handled below)
+    ['touchstart', 'keydown', 'mousedown'].forEach(evt =>
+      window.addEventListener(evt, cancelAnim, { passive: true }),
+    );
+
+    // One wheel notch = one section
+    let lockUntil = 0;
+    let holdMagnet = false; // set while reading inside a block taller than the screen
+    window.addEventListener(
+      'wheel',
+      (e: WheelEvent) => {
+        if (!snapOn() || e.ctrlKey || Math.abs(e.deltaY) < Math.abs(e.deltaX) || e.deltaY === 0) return;
+        e.preventDefault();
+        const now = performance.now();
+        if (animating || now < lockUntil) return;
+
+        const dir = Math.sign(e.deltaY);
+        const y = window.scrollY;
+        const tops = sections.map(topOf);
+        let cur = 0;
+        tops.forEach((t, i) => {
+          if (t <= y + 5) cur = i;
+        });
+        const viewport = window.innerHeight - headerOffset();
+        const { height, bottom } = measure(sections[cur]);
+        const tall = height > viewport + 5;
+
+        let target: number | undefined;
+        if (dir > 0) {
+          // A block taller than the screen scrolls normally until its content bottom is in view
+          if (tall && bottom > window.innerHeight + 5) {
+            holdMagnet = true;
+            window.scrollBy(0, e.deltaY);
+            return;
+          }
+          target = tops[cur + 1];
+          // After the last block, one more step brings the whole footer into view
+          if (target === undefined && y < maxScroll() - 2) target = maxScroll();
+        } else if (y > tops[cur] + 5) {
+          if (tall) {
+            holdMagnet = true;
+            window.scrollBy(0, e.deltaY);
+            return;
+          }
+          target = tops[cur];
+        } else {
+          target = tops[cur - 1];
+        }
+
+        if (target !== undefined) {
+          lockUntil = now + PULL_MS + WHEEL_LOCK_MS;
+          animateTo(target, PULL_MS);
+        }
+      },
+      { passive: false },
+    );
+
+    let idleTimer: number | undefined;
+    const magnet = () => {
+      if (animating || !snapOn()) return;
+      if (holdMagnet) {
+        holdMagnet = false;
+        return;
+      }
+      // Never tug the page while someone is reading inside a block taller than the screen
+      const space = window.innerHeight - headerOffset();
+      const midY = window.innerHeight / 2;
+      const insideTall = sections.some(s => {
+        const { top, height } = measure(s);
+        const viewTop = top - window.scrollY;
+        return height > space + 5 && viewTop < midY && viewTop + height > midY;
+      });
+      if (insideTall) return;
+      const range = window.innerHeight * PULL_RANGE;
+      const y = window.scrollY;
+      // The bottom of the page (footer fully visible) counts as a resting place too
+      const near = [...sections.map(topOf), maxScroll()]
+        .filter(t => Math.abs(t - y) <= range)
+        .sort((a, b) => Math.abs(a - y) - Math.abs(b - y));
+      const best = near[0];
+      if (best !== undefined && Math.abs(best - y) > 2) {
+        // Scale duration with distance so short pulls stay subtle
+        animateTo(best, Math.max(300, PULL_MS * (Math.abs(best - y) / range)));
+      }
+    };
+
+    const buttons = sections.map((section, i) => {
+      const label = section.dataset.label ?? `Section ${i + 1}`;
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.setAttribute('aria-label', label);
+      btn.innerHTML = `<span class="tip"></span><span class="dot"></span>`;
+      (btn.querySelector('.tip') as HTMLElement).textContent = label;
+      btn.addEventListener('click', () => animateTo(topOf(section), 900));
+      nav.appendChild(btn);
+      return btn;
+    });
+
+    const setActive = (index: number) =>
+      buttons.forEach((b, i) => (i === index ? b.setAttribute('aria-current', 'true') : b.removeAttribute('aria-current')));
+
+    // Keep the last block + footer exactly one screen tall so the final snap point is reachable
+    const footer = document.querySelector('footer');
+    const syncFooter = () => {
+      if (footer) document.documentElement.style.setProperty('--footer-height', `${footer.offsetHeight}px`);
+    };
+    syncFooter();
+    window.addEventListener('resize', syncFooter);
+
+    // Snap mode on/off: wide enough, and even the tallest block fits under the header.
+    // Block content heights don't depend on the mode (only paddings do), so this can't flip-flop.
+    const evaluateMode = () => {
+      const space = window.innerHeight - headerOffset();
+      const tallest = Math.max(...sections.map(s => measure(s).height));
+      const on = !reduceMotion && window.innerWidth >= MIN_WIDTH && tallest <= space - BREATHING_ROOM;
+      root.classList.toggle('snap-mode', on);
+    };
+
+    // Active = the last block whose scroll target is at most a quarter screen ahead of us
+    const update = () => {
+      const y = window.scrollY + window.innerHeight * 0.25;
+      let active = 0;
+      sections.forEach((s, i) => {
+        if (topOf(s) <= y) active = i;
+      });
+      setActive(active);
+    };
+
+    let ticking = false;
+    window.addEventListener(
+      'scroll',
+      () => {
+        window.clearTimeout(idleTimer);
+        idleTimer = window.setTimeout(magnet, IDLE_MS);
+        if (ticking) return;
+        ticking = true;
+        requestAnimationFrame(() => {
+          update();
+          ticking = false;
+        });
+      },
+      { passive: true },
+    );
+    const refresh = () => {
+      syncFooter();
+      evaluateMode();
+      update();
+    };
+    window.addEventListener('resize', refresh);
+    // Fonts and images can change block heights after first paint
+    window.addEventListener('load', refresh);
+    document.fonts?.ready.then(refresh);
+    refresh();
+  }
+</script>
