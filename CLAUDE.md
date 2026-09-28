@@ -50,6 +50,15 @@ All official URLs live in `src/config/site.ts`. Import them; never hard-code a d
 - URLs are in English for new content (`/blog/french-subjunctive-guide/`); existing podcast slugs are French
   and must not change.
 
+## Page titles and duplicated content
+
+- Homepage: `<title>` "Learn French from Zero to Immersion | Liminal French"; H1 "Learn French from zero to
+  immersion. One platform, one journey." Keep "learn French" in both if they are reworded.
+- Never render the same content twice for different screen sizes (mobile + desktop copies): write it once and
+  change the layout with CSS (see `WhatYouGet.astro`). `npm run check:links` fails when the same heading text
+  appears twice at the same level on a page. The podcast listing's featured episode (h2) repeating the first
+  card (h3) is deliberate.
+
 ## Language attributes
 
 - The site is English (`<html lang="en">`). French content inside it carries `lang="fr"`:
