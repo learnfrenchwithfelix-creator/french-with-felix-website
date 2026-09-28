@@ -80,7 +80,7 @@ This is invisible metadata, not visible page text. Insert it in the `<head>` of 
   "name": "Félix",
   "jobTitle": "French teacher & founder of Liminal French",
   "description": "Native French teacher and founder of Liminal French, a platform helping English speakers bridge the gap between classroom French and comprehensible-input immersion.",
-  "url": "https://learn.frenchwithfelix.com/about",
+  "url": "https://liminalfrench.com/about/",
   "sameAs": [
     "https://www.youtube.com/@frenchwithfelix",
     "https://www.instagram.com/frenchwithfelix/",
@@ -90,7 +90,7 @@ This is invisible metadata, not visible page text. Insert it in the `<head>` of 
   "worksFor": {
     "@type": "Organization",
     "name": "Liminal French",
-    "url": "https://learn.frenchwithfelix.com"
+    "url": "https://liminalfrench.com"
   }
 }
 </script>

@@ -1,4 +1,4 @@
-# CONTENT-SCHEMA — frenchwithfelix.com
+# CONTENT-SCHEMA — liminalfrench.com
 
 Définit la structure de chaque type de contenu du site.
 Les fichiers Markdown vivent dans `src/content/`, les JSON dans `src/data/`.
@@ -106,7 +106,7 @@ Résumé en 2-3 phrases. Idéal pour les apprenants de niveau A2 qui veulent enr
 ## Pour aller plus loin
 
 - Lien vers article de blog lié (optionnel)
-- CTA → learn.frenchwithfelix.com
+- CTA → la plateforme (`platformUrl` dans `src/config/site.ts`, aujourd'hui learn.liminalfrench.com)
 ```
 
 ### Niveaux et vitesse — définitions

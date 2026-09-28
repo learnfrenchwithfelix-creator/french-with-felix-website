@@ -1,4 +1,4 @@
-# DESIGN — frenchwithfelix.com
+# DESIGN — liminalfrench.com
 
 Direction artistique basée sur le brand Limen, validée dans Claude Design (landing page test).
 Ce fichier sert de référence pour Claude Code lors du vibe coding.

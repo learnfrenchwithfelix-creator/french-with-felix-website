@@ -3,6 +3,7 @@ import { getCollection, render } from 'astro:content';
 import BlogLayout from '../../layouts/BlogLayout.astro';
 import Badge from '../../components/ui/Badge.astro';
 import CTABanner from '../../components/ui/CTABanner.astro';
+import { platformHost, platformUrl } from '../../config/site';
 
 export async function getStaticPaths() {
   const articles = await getCollection('blog', ({ data }) => !data.draft);
@@ -124,9 +125,9 @@ function formatDate(d: Date | string): string {
     eyebrow="Ready to go further?"
     headingLight="Take your French"
     headingBold="to the next level."
-    body="Access structured courses, live practice sessions, and a community that keeps you going — all at learn.frenchwithfelix.com."
+    body={`Access structured courses, live practice sessions, and a community that keeps you going — all at ${platformHost}.`}
     cta="Explore courses →"
-    href="https://learn.frenchwithfelix.com"
+    href={platformUrl}
   />
 
 </BlogLayout>

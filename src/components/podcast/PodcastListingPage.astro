@@ -3,6 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import CTABanner from '../ui/CTABanner.astro';
 import Pagination from '../ui/Pagination.astro';
 import Reveal from '../ui/Reveal.astro';
+import { platformHost, platformUrl } from '../../config/site';
 import SectionHeader from '../ui/SectionHeader.astro';
 import EpisodeCard from './EpisodeCard.astro';
 import FeaturedEpisode from './FeaturedEpisode.astro';
@@ -176,9 +177,9 @@ const pageDescription = 'Short conversations in slow, clear French — every epi
     eyebrow="Ready to go further?"
     headingLight="Take your French"
     headingBold="to the next level."
-    body="Access structured courses, live practice sessions, and a community that keeps you going — all at learn.frenchwithfelix.com."
+    body={`Access structured courses, live practice sessions, and a community that keeps you going — all at ${platformHost}.`}
     cta="Explore courses →"
-    href="https://learn.frenchwithfelix.com"
+    href={platformUrl}
   />
 
 </BaseLayout>
