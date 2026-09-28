@@ -1,0 +1,78 @@
+---
+// Placeholder until the Library is built: a "work in progress" note + newsletter sign-up.
+// The form isn't wired to a mailing-list provider yet (same as the homepage newsletter block).
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Reveal from '../components/ui/Reveal.astro';
+---
+
+<BaseLayout
+  title="Library — Liminal French"
+  description="The Liminal French library is on its way. Join the newsletter to know when it opens."
+>
+  <Reveal />
+
+  <section class="mx-auto flex min-h-[calc(100svh-var(--header-height,73px)-160px)] max-w-[640px] flex-col items-center justify-center px-6 py-20 text-center md:px-12">
+    <p data-reveal class="mb-4 inline-flex items-center gap-2 rounded-full bg-surface px-3 py-1 font-mono text-[11px] font-medium uppercase tracking-[0.14em] text-accent">
+      <span class="wip-dot" aria-hidden="true"></span>
+      Work in progress
+    </p>
+
+    <h1 data-reveal class="mb-4 font-display text-[clamp(2rem,4vw,2.75rem)] leading-[1.08] tracking-[-0.035em] text-title">
+      <span style="font-weight: var(--weight-light)">The Library is</span>
+      <span style="font-weight: var(--weight-bold)"> on its way.</span>
+    </h1>
+
+    <p data-reveal class="mb-10 text-base leading-[1.65] text-body md:text-[17px]">
+      Stay updated: join the newsletter and you'll be the first to know when it opens.
+    </p>
+
+    <form data-reveal class="flex w-full max-w-[460px] flex-col gap-2.5 sm:flex-row">
+      <label for="library-email" class="sr-only">Email address</label>
+      <input
+        id="library-email"
+        type="email"
+        required
+        placeholder="you@email.com"
+        class="email-input min-w-0 flex-1 rounded-button border border-border bg-bg px-4 py-[14px] text-[15px] text-body outline-none"
+      />
+      <button
+        type="submit"
+        class="btn-accent whitespace-nowrap rounded-button bg-accent px-[22px] py-[14px] font-display text-[15px] font-semibold text-onAccent"
+      >
+        Stay updated
+      </button>
+    </form>
+  </section>
+</BaseLayout>
+
+<style>
+  .email-input:focus {
+    border-color: var(--color-title);
+  }
+
+  .btn-accent {
+    transition: background-color 0.15s ease;
+  }
+  .btn-accent:hover {
+    background-color: var(--color-accent-dark);
+  }
+
+  /* Small pulsing dot in the "Work in progress" pill */
+  .wip-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 999px;
+    background: var(--color-accent);
+    animation: wip-pulse 1.6s ease-in-out infinite;
+  }
+  @keyframes wip-pulse {
+    50% {
+      opacity: 0.3;
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .wip-dot {
+      animation: none;
+    }
+  }
+</style>
