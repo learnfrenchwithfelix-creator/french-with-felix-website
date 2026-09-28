@@ -1,0 +1,32 @@
+---
+interface Props {
+  eyebrow: string;
+  headingLight: string;
+  headingBold: string;
+  /** Heading element — `h1` on page headers, `h2` for sections */
+  tag?: 'h1' | 'h2';
+  /** Space below the header block — 48/64px by default (`tight` = 36/48px, `medium` = 40/56px) */
+  gap?: 'default' | 'medium' | 'tight';
+  class?: string;
+}
+
+const { eyebrow, headingLight, headingBold, tag: Tag = 'h2', gap = 'default', class: className = '' } = Astro.props;
+
+const gapClass = { default: 'mb-12 md:mb-16', medium: 'mb-10 md:mb-14', tight: 'mb-9 md:mb-12' }[gap];
+---
+
+<div class:list={['relative', gapClass, className]} data-reveal>
+  <!-- Phones: small label above the title. From `md`: larger red text running up the left gutter, beside the whole block -->
+  <p
+    class="mb-[14px] font-mono text-[11px] font-medium uppercase tracking-[0.14em] text-accent md:absolute md:-left-8 md:top-1 md:mb-0 md:whitespace-nowrap md:text-[16px] md:[line-height:1] md:font-semibold md:tracking-[0.18em] md:[writing-mode:vertical-rl] md:rotate-180"
+  >
+    {eyebrow}
+  </p>
+  <div class="flex flex-col gap-3 sm:flex-row sm:items-baseline sm:justify-between sm:gap-4">
+    <Tag class="font-display text-[clamp(2rem,4vw,2.75rem)] leading-[1.08] tracking-[-0.035em] text-title">
+      <span style="font-weight: var(--weight-light)">{headingLight}</span>
+      <span style="font-weight: var(--weight-bold)"> {headingBold}</span>
+    </Tag>
+    <slot />
+  </div>
+</div>

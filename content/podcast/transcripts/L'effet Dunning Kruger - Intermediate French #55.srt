@@ -1,0 +1,1051 @@
+1
+00:00:00,233 --> 00:00:07,033
+Bonjour tout le monde et bienvenue pour une nouvelle vidéo.
+Aujourd'hui j'avais envie de vous parler
+
+2
+00:00:07,083 --> 00:00:15,583
+de l'effet Dunning-Kruger.
+Donc Dunning-Kruger c'est le nom des deux scientifiques ou chercheurs,
+
+3
+00:00:15,633 --> 00:00:22,700
+je ne sais plus exactement ce qu'ils sont et ils ont inventé un concept,
+ils ont théorisé un concept
+
+4
+00:00:23,000 --> 00:00:30,583
+qui s'appelle l'effet Dunning-Kruger.
+Je voulais parler de ce sujet parce que je pense que c'est
+
+5
+00:00:30,966 --> 00:00:37,750
+quelque chose d'intéressant pour l'apprentissage des langues.
+C'est quelque chose qui peut s'appliquer
+
+6
+00:00:38,066 --> 00:00:44,066
+à l'apprentissage des langues.
+Alors cet effet c'est une théorie qui est valable un peu pour tout,
+
+7
+00:00:44,450 --> 00:00:51,566
+mais personnellement avec mon apprentissage du japonais c'est quelque chose
+dont j'ai fait
+
+8
+00:00:51,566 --> 00:01:00,066
+l'expérience notamment au début de mon apprentissage.
+Tout simplement parce que cet effet Dunning-Kruger
+
+9
+00:01:00,300 --> 00:01:09,783
+il dit qu'en fait quand on commence à s'intéresser à quelque chose moins on
+sait plus on pense
+
+10
+00:01:10,166 --> 00:01:15,850
+savoir, c'est à dire que moins on connaît de choses sur un sujet, plus on
+va vite avoir
+
+11
+00:01:15,950 --> 00:01:24,416
+l'impression de connaître beaucoup de choses sur ce sujet.
+Le graphe bon je vous mettrai une
+
+12
+00:01:24,816 --> 00:01:28,150
+illustration mais le graphe ça fait quelque chose comme ça et en gros ce
+qu'on voit c'est que
+
+13
+00:01:28,516 --> 00:01:34,216
+quand on commence à s'intéresser à un sujet on monte très vite en
+confiance, on gagne très
+
+14
+00:01:34,616 --> 00:01:43,983
+rapidement de la confiance.
+De haut en bas c'est l'axe de la confiance et horizontalement c'est
+
+15
+00:01:44,250 --> 00:01:50,666
+les compétences.
+Donc plus on va vers la droite, plus on a de compétences dans le sujet,
+
+16
+00:01:50,666 --> 00:01:51,466
+plus on
+
+17
+00:01:51,850 --> 00:01:57,983
+monte, plus on a confiance en nos compétences.
+Je vais y arriver.
+
+18
+00:01:58,000 --> 00:02:00,000
+Du coup ce que dit cet effet
+
+19
+00:02:00,033 --> 00:02:05,416
+c'est que au début quand on commence à s'intéresser on gagne très
+rapidement de la confiance, on
+
+20
+00:02:05,466 --> 00:02:12,083
+gagne beaucoup plus de confiance finalement que de compétences et que
+ensuite on redescend très
+
+21
+00:02:12,500 --> 00:02:19,266
+rapidement pour petit à petit gagner en confiance et en compétences.
+Pourquoi je dis que c'est
+
+22
+00:02:19,766 --> 00:02:24,583
+intéressant pour l'apprentissage d'une langue c'est que quand j'ai commencé
+à m'intéresser à
+
+23
+00:02:24,633 --> 00:02:31,750
+l'apprentissage du japonais j'ai commencé à chercher sur internet des
+manières d'apprendre le
+
+24
+00:02:32,066 --> 00:02:38,100
+japonais, des manières efficaces d'apprendre le japonais et très rapidement
+on tombe un peu sur
+
+25
+00:02:38,166 --> 00:02:44,133
+les mêmes choses c'est-à-dire il faut construire une habitude, il faut
+utiliser un système de flash
+
+26
+00:02:44,533 --> 00:02:52,233
+card etc etc et aussi il faut apprendre les mots selon leur fréquence
+d'utilisation c'est-à-dire
+
+27
+00:02:52,266 --> 00:02:58,416
+qu'au début on va essayer par exemple d'apprendre les mille premiers mots
+les plus fréquents,
+
+28
+00:02:58,500 --> 00:03:04,400
+les plus fréquemment utilisés c'est-à-dire les mots les plus utilisés.
+Pourquoi on fait ça tout
+
+29
+00:03:04,766 --> 00:03:13,216
+simplement parce que ces mots doivent être une priorité puisque on les
+utilise plus souvent et
+
+30
+00:03:13,616 --> 00:03:19,633
+souvent on dit on dit des choses comme si vous connaissez mille mots de
+vocabulaire vous allez
+
+31
+00:03:20,016 --> 00:03:29,516
+comprendre 80% de la langue parce qu'on estime que 80% des mots utilisés
+sont toujours les mêmes
+
+32
+00:03:29,783 --> 00:03:36,266
+les mêmes mille mots les plus fréquents et en fait je me rappelle un jour
+avoir vu ce genre
+
+33
+00:03:36,350 --> 00:03:44,500
+d'information et m'être dit en fait c'est facile il me suffit d'apprendre
+ces mille mots et j'aurai
+
+34
+00:03:44,900 --> 00:03:50,866
+déjà une bonne compréhension de la langue donc ça devrait être rapide je
+devrais pouvoir apprendre
+
+35
+00:03:51,250 --> 00:03:59,150
+rapidement et pouvoir avoir un niveau moyen très rapidement en japonais et
+du coup là j'étais
+
+36
+00:03:59,183 --> 00:04:06,050
+ce qu'on va ce que la courbe appelle la montagne de l'ignorance
+c'est-à-dire qu'au début on
+
+37
+00:04:06,116 --> 00:04:10,900
+gagne beaucoup de confiance en soi on monte cette montagne de l'ignorance
+et une fois qu'on
+
+38
+00:04:11,133 --> 00:04:16,833
+est tout en haut on pense savoir beaucoup de choses mais finalement on est
+surtout ignorant on n'a pas
+
+39
+00:04:17,216 --> 00:04:23,950
+beaucoup de compétences et à ce moment là je me disais bah c'est bon
+j'utilise Anki j'apprend
+
+40
+00:04:24,333 --> 00:04:30,700
+10 nouvelles cartes par jour pour apprendre mille mots du coup ça va me
+prendre 100 jours qui équivaut
+
+41
+00:04:30,750 --> 00:04:36,983
+à trois mois à trois mois et demi à peu près et du coup dans trois mois et
+demi je serai déjà
+
+42
+00:04:37,366 --> 00:04:43,616
+assez bon en japonais et ensuite il me suffira de continuer à faire ça pour
+atteindre 3000
+
+43
+00:04:44,016 --> 00:04:51,233
+4000 mots et et très rapidement maîtriser le japonais et ça c'est vraiment
+la montagne de
+
+44
+00:04:51,266 --> 00:04:58,900
+l'ignorance juste après c'est redescendu dans ce qu'on appelle la vallée de
+l'humilité je crois
+
+45
+00:04:58,950 --> 00:05:04,216
+qu'en anglais c'est valley of despair donc la vallée du désespoir ou
+de je préfère de
+
+46
+00:05:04,266 --> 00:05:10,816
+l'humilité parce que c'est un moment où on se rend compte qu'en fait malgré
+tout ça malgré
+
+47
+00:05:10,866 --> 00:05:17,216
+qu'on connaît malgré le fait qu'on connaît mille mots ça ne nous aide pas à
+tout comprendre
+
+48
+00:05:17,266 --> 00:05:24,383
+ou ne comprend rien et d'ailleurs souvent enfin par exemple je me disais je
+vais regarder plusieurs
+
+49
+00:05:25,416 --> 00:05:33,433
+fois la même vidéo de japonais facile ou de slow japanese par exemple et
+après je maîtriserais
+
+50
+00:05:33,650 --> 00:05:40,350
+entièrement tout le vocabulaire qui est utilisé dans cette vidéo et sauf
+qu'en fait c'est ce n'est
+
+51
+00:05:40,383 --> 00:05:44,933
+pas le cas c'est à dire que j'ai regardé plusieurs fois et au bout de je
+sais pas deux trois
+
+52
+00:05:45,333 --> 00:05:51,666
+semaines un mois où je m'étais dit après après m'être dit que finalement ça
+allait surement être
+
+53
+00:05:52,050 --> 00:06:00,566
+facile j'ai commencé à réaliser que non que ça allait être très difficile
+pas forcément difficile
+
+54
+00:06:00,933 --> 00:06:06,383
+mais plus long que prévu et ça c'est la vallée de l'humilité c'est quand on
+se rend compte que
+
+55
+00:06:06,766 --> 00:06:12,316
+finalement le sujet sur lequel on pensait savoir beaucoup de choses
+finalement ça prend beaucoup
+
+56
+00:06:12,633 --> 00:06:17,816
+plus de temps que prévu de vraiment maîtriser et d'avoir des compétences
+dans ce sujet
+
+57
+00:06:17,866 --> 00:06:24,533
+et ensuite la courbe remonte petit à petit et là je pense que c'est quand
+on a pris conscience un
+
+58
+00:06:24,883 --> 00:06:33,183
+peu du sujet de tout ce que ça représente de la complexité ou même de la
+profondeur du sujet
+
+59
+00:06:33,233 --> 00:06:38,266
+on se rend compte que bah ça demande un effort régulier et que ça va
+prendre beaucoup de temps
+
+60
+00:06:38,316 --> 00:06:44,983
+et du coup ça c'est la montée de l'apprentissage c'est une montée plus
+régulière où on monte
+
+61
+00:06:45,033 --> 00:06:50,500
+en confiance et en compétences de manière égale quand on gagne des
+compétences on prend en confiance
+
+62
+00:06:50,566 --> 00:06:58,100
+et ce n'est pas un excès de confiance comme au début et ça ça donc moi je
+l'ai vécu pour mon
+
+63
+00:06:58,500 --> 00:07:04,200
+apprentissage du japonais je pense que vous l'avez sûrement vécu pour
+l'apprentissage du français
+
+64
+00:07:04,316 --> 00:07:10,366
+et ça s'applique à d'autres choses.
+Typiquement je pense que tous les contenus qu'on voit sur
+
+65
+00:07:10,850 --> 00:07:15,866
+internet qui nous disent qu'apprendre une langue c'est facile ça peut être
+fait rapidement tout ça
+
+66
+00:07:16,166 --> 00:07:21,433
+joue un peu sur cette montagne de l'ignorance c'est à dire qu'au début on
+va prendre très
+
+67
+00:07:21,816 --> 00:07:27,666
+rapidement confiance on va trouver des contenus qui confirment un peu ce
+qu'on pense que ça va
+
+68
+00:07:28,050 --> 00:07:35,583
+être rapide que si on applique la méthode soi-disant miracle qu'on va
+pouvoir y arriver très facilement
+
+69
+00:07:35,633 --> 00:07:40,383
+on se retrouve tout en haut de la montagne de l'ignorance et après il y a
+une grosse chute de
+
+70
+00:07:40,766 --> 00:07:46,266
+confiance où on se rend compte ben si vous connaissez mille mots c'est très
+bien mais vous
+
+71
+00:07:46,316 --> 00:07:51,350
+n'allez rien comprendre à une conversation native parce qu'il y a plein
+d'autres facteurs bien
+
+72
+00:07:51,733 --> 00:07:56,950
+évidemment il y a le vocabulaire mais après il y a la vitesse il y a la
+prononciation il y a la
+
+73
+00:07:57,333 --> 00:08:02,266
+manière d'utiliser le vocabulaire parce que par exemple quand on dit mille
+mots ça représente
+
+74
+00:08:02,650 --> 00:08:09,650
+80% de la langue est ce qu'on compte toutes les conjugaisons pour un seul
+verbe non donc le verbe
+
+75
+00:08:10,050 --> 00:08:16,300
+manger on va le compter comme un mot qui compte dans les mille mots pour
+connaître 80% de la langue
+
+76
+00:08:16,350 --> 00:08:23,183
+en fait maîtriser le verbe manger ça demande énormément de travail puisque
+derrière il y a
+
+77
+00:08:23,566 --> 00:08:30,066
+plein de conjugaisons différentes c'est pareil pour le japonais le japonais
+un seul verbe il a
+
+78
+00:08:30,433 --> 00:08:36,150
+plein de formes différentes et savoir maîtriser ces différentes formes ça
+va forcément prendre
+
+79
+00:08:36,350 --> 00:08:42,066
+du temps et du coup se dire c'est bon je connais le verbe manger c'est bon
+je connais mille mots
+
+80
+00:08:42,116 --> 00:08:50,300
+je connais 80% des mots ce n'est pas aussi simple et ça je trouve que ça
+c'est un peu un comme on
+
+81
+00:08:50,366 --> 00:08:55,500
+dit un coup de gueule mais bon tout est relatif mais c'est un truc qui
+m'énerve quand je vais sur
+
+82
+00:08:55,750 --> 00:09:02,666
+les réseaux sociaux du coup où je vois plein de vidéos qui disent ouais
+voici la méthode utilisée
+
+83
+00:09:02,933 --> 00:09:08,800
+par les polyglottes que personne ne connait et vous allez apprendre le
+français en un mois en deux
+
+84
+00:09:09,166 --> 00:09:14,850
+mois peu importe en moins de six mois je trouve que c'est déjà compliqué et
+ça en fait je trouve
+
+85
+00:09:15,150 --> 00:09:21,566
+que ça et ça joue un peu sur une sorte de fomo donc fear of missing out de
+fomo et que ça joue
+
+86
+00:09:21,633 --> 00:09:25,450
+un peu sur cette montagne de l'ignorance c'est-à-dire qu'au début on pense
+qu'on va très
+
+87
+00:09:26,333 --> 00:09:34,183
+rapidement apprendre une langue et tout ce tout ce marketing un peu
+bullshit désolé je suis un peu
+
+88
+00:09:34,566 --> 00:09:40,266
+énervé mais tout ce marketing un peu bullshit il encourage les les gens à
+monter cette montagne
+
+89
+00:09:40,316 --> 00:09:46,150
+de l'ignorance à prendre beaucoup de confiance sans forcément gagner en
+compétences et du
+
+90
+00:09:46,450 --> 00:09:52,033
+coup plus cette montagne va haut plus la redescente va être brutale plus
+la descente va être
+
+91
+00:09:52,416 --> 00:09:59,750
+difficile et le problème en soi que encourager les gens et leur dire vous
+pouvez y arriver en deux
+
+92
+00:10:00,133 --> 00:10:07,666
+mois c'est bon c'est un peu mentir en soi mais soit le problème c'est que
+quand cette confiance
+
+93
+00:10:08,050 --> 00:10:14,816
+redescente d'un coup là dans la vallée de l'humilité dans la vallée du
+désespoir c'est là où
+
+94
+00:10:14,916 --> 00:10:19,516
+les gens abandonnent en fait c'est là où les gens arrêtent d'apprendre une
+langue alors que la
+
+95
+00:10:19,866 --> 00:10:24,816
+partie la plus intéressante c'est ce qui vient après c'est l'apprentissage
+progressif et
+
+96
+00:10:25,216 --> 00:10:30,916
+surtout constant avec les compétences qui montent en même temps que la
+confiance et du
+
+97
+00:10:31,133 --> 00:10:36,216
+coup j'ai un peu l'impression que toutes ces vidéos tous ces contenus qui
+disent vous pouvez
+
+98
+00:10:36,550 --> 00:10:41,333
+être bilingue en français en trois mois et j'exagère un peu mais vous
+pouvez maîtriser le
+
+99
+00:10:41,733 --> 00:10:47,750
+français en cinq mois ben finalement derrière ça va générer de la
+frustration et ça va
+
+100
+00:10:48,000 --> 00:10:52,616
+décourager les gens au moment où ils vont tomber dans cette
+vallée de l'humilité
+
+101
+00:10:52,666 --> 00:10:59,583
+et ça c'est dommage parce que je pense que justement il faut encourager les
+gens au moment
+
+102
+00:10:59,633 --> 00:11:05,266
+où il perd un peu cette confiance ou au moment où il se rend compte que
+finalement ça va prendre
+
+103
+00:11:05,550 --> 00:11:10,466
+plus de temps que prévu et que dans tous les cas ce n'est pas un sprint
+c'est plus un long
+
+104
+00:11:10,850 --> 00:11:17,216
+voyage dans lequel il faut s'embarquer dans lequel il faut s'investir pas
+forcément en passant
+
+105
+00:11:17,700 --> 00:11:25,066
+trop de temps mais de manière régulière et constante et typiquement
+récemment j'ai fait un
+
+106
+00:11:25,316 --> 00:11:31,583
+réel sur instagram où je parle d'une vidéo qui dit que qui présente ... c'est
+quelqu'un qui marche
+
+107
+00:11:31,883 --> 00:11:37,433
+dans la rue et qui parle à une personne japonaise dans les rues de paris et
+qui parle assez bien
+
+108
+00:11:37,466 --> 00:11:42,383
+japonais qui parle un japonais d'un peu de tous les jours et quand la
+personne japonaise lui demande
+
+109
+00:11:42,766 --> 00:11:48,466
+pourquoi comment est-ce que vous avez appris le japonais depuis
+combien de temps est-ce
+
+110
+00:11:48,750 --> 00:11:55,250
+que vous apprenez le japonais et là la personne répond ça fait un mois que 
+j'apprends parce que
+
+111
+00:11:55,383 --> 00:12:02,083
+j'utilise cette application et au début vraiment au début en regardant
+cette vidéo ma réaction
+
+112
+00:12:02,233 --> 00:12:07,150
+c'était au début je vois la personne qui parle et tout et je me fait "trop bien,
+trop cool il parle
+
+113
+00:12:07,200 --> 00:12:13,750
+japonais c'est trop bien de pouvoir aller voilà parler avec les gens comme
+ça" et le moment où
+
+114
+00:12:13,783 --> 00:12:21,216
+elle dit comment vous avez appris le japonais là je me suis dit oh non non
+c'est du marketing et là il
+
+115
+00:12:21,616 --> 00:12:29,350
+répond un mois et j'ai fait ouais je vais être un peu vulgaire mais je
+crois que j'ai dit "roh ta gueule"
+
+116
+00:12:29,616 --> 00:12:36,416
+arrêtez avec ça arrêtez avec ce marketing bullshit parce que ça crée plus
+de mal que de bien
+
+117
+00:12:36,816 --> 00:12:42,266
+finalement bon forcément ça amène des gens à utiliser l'application qui je
+ne sais pas si
+
+118
+00:12:42,533 --> 00:12:47,783
+elle est vraiment bien mais c'était une application de flashcard que
+personnellement moi j'utilise
+
+119
+00:12:48,166 --> 00:12:54,216
+enfin j'utilise une autre application mais c'est le même système mais je
+trouve que ce genre
+
+120
+00:12:54,283 --> 00:13:02,250
+de choses ça ça va juste décourager les gens et du coup je pense que au
+début il faut encourager
+
+121
+00:13:02,500 --> 00:13:08,666
+les gens à apprendre la langue il faut leur donner un peu l'envie les
+méthodologies dans
+
+122
+00:13:08,966 --> 00:13:13,750
+tous les cas il va y avoir un peu de cette montagne de l'ignorance il va y
+avoir un peu une
+
+123
+00:13:13,783 --> 00:13:19,216
+redescente et c'est là où il faut encourager les gens à faire un petit peu
+chaque jour pour qu'ils
+
+124
+00:13:19,616 --> 00:13:25,750
+continuent un peu ce voyage dans l'apprentissage d'une langue et donc c'est
+pour ça que je trouve
+
+125
+00:13:26,016 --> 00:13:32,866
+que cette courbe est vraiment très importante et si je prends l'exemple du
+japonais au début
+
+126
+00:13:33,250 --> 00:13:40,783
+voilà je me disais en un an ça va être bon et quand je regarde sur internet
+les personnes
+
+127
+00:13:41,016 --> 00:13:47,516
+qui apprennent le plus rapidement le japonais il y en a deux et c'est en un
+an et demi deux ans ils
+
+128
+00:13:48,016 --> 00:13:56,833
+ont eu un niveau n1 c'est le test de japonais niveau n1 en un an et demi ou
+deux ans ce qui est
+
+129
+00:13:57,216 --> 00:14:01,783
+énorme enfin ce qui est hyper rapide mais ils disent bah je travaillais
+cinq heures par jour
+
+130
+00:14:01,850 --> 00:14:08,783
+et un an et demi deux ans en plus le test de JLPT c'est un test de
+compréhension donc ce n'est
+
+131
+00:14:09,033 --> 00:14:15,500
+pas forcément un test d'expression mais tout ça pour dire que même en y
+allant à fond avec les
+
+132
+00:14:15,783 --> 00:14:22,666
+bonnes méthodologies etc ça va prendre des années et c'est pas grave au
+contraire c'est justement
+
+133
+00:14:23,383 --> 00:14:31,783
+je pense que ça donne de la valeur à cet apprentissage je vais faire un peu
+le boomer mais aujourd'hui
+
+134
+00:14:31,833 --> 00:14:36,933
+on a tout un peu trop facilement on a tout à disposition assez facilement
+et je trouve que
+
+135
+00:14:37,333 --> 00:14:42,700
+justement se remettre dans quelque chose qui prend du temps qui demande un peu de s'investir
+
+136
+00:14:42,983 --> 00:14:50,950
+ça donne de la valeur à ça et c'est quelque chose d'important je pense
+qu'apprendre une langue ça
+
+137
+00:14:51,000 --> 00:14:55,916
+ne s'achète pas on ne peut pas l'acheter avec de l'argent on ne peut pas
+vraiment tricher et du
+
+138
+00:14:55,966 --> 00:15:00,850
+coup quand on apprend une langue on est vraiment content parce que ça
+demande des efforts et ça
+
+139
+00:15:01,250 --> 00:15:07,416
+demande de s'impliquer et de travailler et de ça on peut tirer une vraie
+satisfaction et je pense
+
+140
+00:15:07,500 --> 00:15:14,100
+que c'est plutôt ça qu'il faut encourager plutôt que le discours de FOMO ou
+on dit si vous connaissez
+
+141
+00:15:14,150 --> 00:15:19,383
+ma méthode vous allez apprendre très rapidement bien évidemment il faut
+poser la question de la
+
+142
+00:15:19,766 --> 00:15:27,733
+méthode mais il ne faut pas être trop trop trop trop pushy avec ce truc de
+apprendre très rapidement
+
+143
+00:15:28,133 --> 00:15:34,783
+bien évidemment derrière il y a tout ce qui est visibilité, audience
+c'est-à-dire que si vous
+
+144
+00:15:35,166 --> 00:15:40,133
+faites un contenu où vous dites aux gens bah ça va prendre des années bah
+vous risquez de ne pas
+
+145
+00:15:40,400 --> 00:15:45,250
+avoir beaucoup de spectateurs à l'inverse si vous dites j'ai une méthode
+miracle et vous pouvez
+
+146
+00:15:45,650 --> 00:15:51,583
+apprendre en trois mois ça va attirer plus de monde et ça ça s'applique
+d'une autre ... cet
+
+147
+00:15:51,866 --> 00:15:56,933
+effet de Dunning-Kruger il s'applique d'une autre manière je pense à
+l'apprentissage des langues c'est
+
+148
+00:15:57,216 --> 00:16:03,583
+sur la connaissance qu'on a d'une culture en ce moment le japon c'est un
+pays très à la mode
+
+149
+00:16:03,633 --> 00:16:11,900
+en france le problème c'est que quand on s'intéresse à une culture on a cet
+effet de Dunning-Kruger c'est
+
+150
+00:16:11,950 --> 00:16:17,350
+à dire qu'au début on a la montagne de l'ignorance c'est à dire que très
+rapidement on va penser
+
+151
+00:16:17,700 --> 00:16:24,266
+connaître beaucoup de choses sur la culture d'un pays et on va finir par
+faire des généralités c'est
+
+152
+00:16:24,616 --> 00:16:28,983
+normal d'avoir cet effet moi même quand je suis allé pour les premières
+fois au japon au début
+
+153
+00:16:29,033 --> 00:16:33,666
+je commençais à me dire ah oui je comprends la culture japonaise je
+comprends pourquoi ils sont
+
+154
+00:16:34,050 --> 00:16:41,900
+comme ça etc etc sauf qu'en fait on éfleure juste on touche seulement à la
+surface de la culture
+
+155
+00:16:41,950 --> 00:16:50,416
+et ça si on continue pas un peu de s'intéresser à une culture ça peut être
+très superficiel ça
+
+156
+00:16:50,466 --> 00:16:55,983
+me l'a fait pour l'apprentissage ... pour la culture japonaise pardon le
+premier voyage où j'y suis
+
+157
+00:16:56,216 --> 00:17:01,733
+allé je me suis dit ah oui d'accord je comprends mieux les japonais etc et
+en fait plus j'ai
+
+158
+00:17:02,133 --> 00:17:07,783
+commencé ... plus j'ai continué à apprendre la langue plus je me suis rendu
+compte que la
+
+159
+00:17:08,166 --> 00:17:14,733
+culture était infinie et que c'était impossible de maîtriser une culture
+entière rapidement
+
+160
+00:17:15,000 --> 00:17:21,066
+ça et honnêtement je pense que ça demande une vie entière pour 
+s'approprier une culture
+
+161
+00:17:21,400 --> 00:17:27,333
+nous par exemple moi je suis né en france j'ai grandi dans une famille
+française etc
+
+162
+00:17:27,583 --> 00:17:32,583
+donc j'ai une culture française mais ça fait 30 ans que je passe tous mes
+jours dans cette culture
+
+163
+00:17:32,633 --> 00:17:38,466
+à parler la langue à m'intéresser voilà à faire toutes mes études dans
+cette culture et forcément
+
+164
+00:17:38,516 --> 00:17:43,666
+si je veux par exemple maîtriser de la même manière la culture japonaise il
+faudrait que
+
+165
+00:17:43,716 --> 00:17:50,383
+j'aille vivre 30 ans au japon tous les jours en parlant seulement japonais
+etc donc forcément
+
+166
+00:17:50,650 --> 00:17:57,466
+ça prend énormément de temps et du coup je pense que avec cette vision là
+on s'intéresse plus aux
+
+167
+00:17:57,733 --> 00:18:02,433
+gens qui ont vraiment de l'expérience dans un domaine qui ont vraiment par
+exemple vécu
+
+168
+00:18:02,683 --> 00:18:09,600
+des années et des années au japon parce que même si je suis allé vivre un
+an au japon en 2024 je
+
+169
+00:18:10,266 --> 00:18:16,316
+n'estime pas connaître très bien la culture japonaise je pense avoir un peu
+des expériences
+
+170
+00:18:16,850 --> 00:18:24,616
+particulières mais je pense que je suis à des années lumières de vraiment
+tout connaître quoi
+
+171
+00:18:24,666 --> 00:18:31,333
+du coup ça je pense que l'apprentissage d'une langue pour ça ça permet aussi de cet accompagnement
+
+172
+00:18:31,650 --> 00:18:38,066
+sur la courbe Dunning-Kruger pour s'intéresser à une
+culture quand on s'intéresse
+
+173
+00:18:38,116 --> 00:18:45,233
+à la langue on va s'intéresser à la musique aux livres etc et ça forcément ça va
+impliquer de
+
+174
+00:18:45,316 --> 00:18:51,833
+de retomber dans la vallée de l'humilité et de repartir un peu dans la
+courbe de l'apprentissage
+
+175
+00:18:52,216 --> 00:19:00,583
+donc cette montée un peu régulière pour développer des compétences où
+acquérir des
+
+176
+00:19:00,950 --> 00:19:06,433
+connaissances connaître mieux une culture et donc ça c'est intéressant apprendre une langue c'est
+
+177
+00:19:06,466 --> 00:19:12,416
+un peu une colonne vertébrale dans une culture et ça permet un peu de se
+détacher de tous ces
+
+178
+00:19:12,483 --> 00:19:19,583
+de cette montagne de l'ignorance c'est assez péjoratif comme terme mais je
+pense que c'est on
+
+179
+00:19:20,116 --> 00:19:25,066
+passe automatiquement par cette montagne donc ce que je dis ce n'est pas
+évitez à tout prix cette
+
+180
+00:19:25,283 --> 00:19:30,416
+montagne de l'ignorance je pense que dans tous les cas on est obligé d'y
+passer l'idée c'est plus
+
+181
+00:19:30,466 --> 00:19:37,166
+de derrière continuer à remonter un peu cette courbe et typiquement pour le
+japon ben vous
+
+182
+00:19:37,533 --> 00:19:42,983
+avez plein de personnes qui vont 2 semaines au japon qui font
+plein de tiktok ou de
+
+183
+00:19:43,250 --> 00:19:50,150
+réels qui disent voilà top 5 des choses de la culture japonaise et
+quand on voit ça ben d'un
+
+184
+00:19:50,866 --> 00:19:54,983
+côté moi j'étais à leur place un moment je m'intéressais à cette culture et
+j'avais l'impression
+
+185
+00:19:55,033 --> 00:20:00,266
+de découvrir plein de nouvelles choses et de maîtriser de nouvelles choses
+et de l'autre on a un
+
+186
+00:20:00,500 --> 00:20:06,066
+peu envie de dire plutôt que d'essayer de faire des tiktoks là dessus
+passez plus de temps à vous
+
+187
+00:20:06,450 --> 00:20:11,150
+intéresser à la culture prenez le temps de découvrir avant de vouloir
+montrer aux autres
+
+188
+00:20:11,400 --> 00:20:18,016
+que vous avez que vous avez que vous connaissez une culture par exemple
+donc bon je voulais pas je
+
+189
+00:20:18,266 --> 00:20:23,166
+veux pas que le ton de cette vidéo soit trop négatif l'objectif c'est pas
+de dire vous êtes
+
+190
+00:20:23,566 --> 00:20:29,666
+ignorant vous ne savez rien etc c'est plus de dire que au delà de cette
+montagne de l'ignorance
+
+191
+00:20:29,716 --> 00:20:35,983
+ce qui vaut vraiment la peine d'être fait c'est toute la partie après de la
+vallée la vallée du
+
+192
+00:20:36,250 --> 00:20:41,750
+désespoir en français je sais plus la vallée de l'humidité jusqu'à la
+montée de l'apprentissage
+
+193
+00:20:41,783 --> 00:20:47,833
+et la dernière phase c'est le plateau de consolidation c'est quand on a un
+rythme un peu
+
+194
+00:20:48,000 --> 00:20:55,416
+de croisière et du coup c'est ne pas penser qu'on sait tout tout de suite
+et plutôt prendre le temps
+
+195
+00:20:55,466 --> 00:21:01,250
+de découvrir les choses donc j'ai peut-être dit des choses un peu négatives
+dans cette vidéo mais
+
+196
+00:21:01,316 --> 00:21:07,216
+l'idée c'est plus d'avoir ce sentiment positif de il faut plus apprécier un
+peu le voyage apprendre
+
+197
+00:21:07,316 --> 00:21:14,983
+apprécier la découverte l'apprentissage plutôt que de se focaliser
+sur l'image que ça peut
+
+198
+00:21:15,216 --> 00:21:21,066
+renvoyer sur cette idée que on peut connaître beaucoup de choses rapidement et surtout ne pas
+
+199
+00:21:21,450 --> 00:21:27,916
+tomber dans le piège du marketing bullshit des applications et des influenceurs mais
+
+200
+00:21:27,950 --> 00:21:33,216
+j'en fais partie je veux dire je crée du contenu et je fais un peu la même
+chose quand je dis
+
+201
+00:21:33,466 --> 00:21:39,733
+là par exemple si un jour je dis pour apprendre une langue il faut
+construire une habitude utiliser
+
+202
+00:21:39,783 --> 00:21:43,600
+des flashcards ça c'est ma vision des choses mais ça ne veut pas dire que
+ça va forcément
+
+203
+00:21:44,483 --> 00:21:49,750
+marcher pour vous donc c'est plus aussi aussi à vous de prendre un peu du
+recul par rapport au
+
+204
+00:21:50,133 --> 00:21:56,666
+contenu que vous regardez pour pour voilà pour ne pas monter trop haut sur cette
+montagne de l'ignorance
+
+205
+00:21:56,716 --> 00:22:03,833
+et surtout pour ne pas abandonner quand vous êtes dans la vallée de
+l'humilité donc voilà j'espère
+
+206
+00:22:04,633 --> 00:22:11,016
+que ça vous aura plus ce petit cette petite vidéo sur l'effet Dunning Kruger sur
+
+207
+00:22:11,066 --> 00:22:15,966
+la courbe Dunning-Kruger je trouvais ça intéressant et de toute façon ça
+s'applique à plein d'autres
+
+208
+00:22:16,350 --> 00:22:25,350
+domaines quelque chose qui est assez universel on va dire donc voilà si si
+ça vous a plu vous
+
+209
+00:22:25,716 --> 00:22:31,750
+avez toujours le lien de mon patreon pour me soutenir je vais continuer ce
+format de vidéo
+
+210
+00:22:31,783 --> 00:22:38,816
+je pense que c'est le format qui vous plaît le plus sur cette chaîne et du
+coup j'ai d'autres
+
+211
+00:22:38,866 --> 00:22:45,416
+sujets à traiter comme ça un peu en facecam et merci d'avoir regardé
+jusqu'au bout je vous
+
+212
+00:22:45,700 --> 00:22:46,950
+vous dis à la prochaine.
+

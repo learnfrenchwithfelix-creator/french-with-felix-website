@@ -1,0 +1,258 @@
+---
+import { getCollection, render } from 'astro:content';
+import BlogLayout from '../../layouts/BlogLayout.astro';
+import Badge from '../../components/ui/Badge.astro';
+import CTABanner from '../../components/ui/CTABanner.astro';
+
+export async function getStaticPaths() {
+  const articles = await getCollection('blog', ({ data }) => !data.draft);
+  return articles.map(article => ({
+    params: { slug: article.id },
+    props: { article },
+  }));
+}
+
+type Level = 'A1' | 'A2' | 'B1' | 'B2';
+
+const CATEGORY_LABELS: Record<string, string> = {
+  grammaire:   'Grammar',
+  vocabulaire: 'Vocabulary',
+  culture:     'French Culture',
+  methodes:    'Learning Tips',
+  phonetique:  'Pronunciation',
+};
+
+const { article } = Astro.props;
+const { Content, headings } = await render(article);
+const h2s = headings.filter(h => h.depth === 2);
+
+const { title, description, category, readingTime, publishDate, level, featuredImage } = article.data;
+
+const categoryLabel = CATEGORY_LABELS[category] ?? category;
+const LEVEL_ORDER: Record<Level, number> = { A1: 0, A2: 1, B1: 2, B2: 3 };
+const validLevels = (level ?? [])
+  .filter((l): l is Level => ['A1', 'A2', 'B1', 'B2'].includes(l))
+  .sort((a, b) => LEVEL_ORDER[a] - LEVEL_ORDER[b])
+  .slice(-2);
+
+function formatDate(d: Date | string): string {
+  const date = d instanceof Date ? d : new Date(d);
+  return date.toLocaleDateString('en-GB', { month: 'long', year: 'numeric' });
+}
+---
+
+<BlogLayout
+  title={title}
+  pageTitle={`${title} — Liminal French`}
+  description={description ?? `An article about learning French on Liminal French.`}
+  publishDate={publishDate}
+  image={featuredImage}
+>
+
+  <div class="mx-auto max-w-[720px] px-6 pt-10 pb-4 lg:px-0">
+
+    <!-- ← Back to Blog -->
+    <a
+      href="/blog"
+      class="mb-8 inline-flex items-center gap-1.5 font-mono text-[12px] font-medium text-muted transition-colors hover:text-accent"
+    >
+      ← Back to Blog
+    </a>
+
+    <!-- ── Article header ── -->
+    <header class="mb-10 mt-4">
+      <p class="mb-3 font-mono text-[11px] font-medium uppercase tracking-[0.1em] text-muted">
+        {categoryLabel}
+        {readingTime && ` · ${readingTime} min read`}
+      </p>
+
+      <h1
+        class="mb-6 font-display font-bold leading-[1.15] tracking-[-0.035em] text-title"
+        style="font-size: clamp(1.75rem, 4vw, 2.75rem)"
+      >
+        {title}
+      </h1>
+
+      <div class="flex flex-wrap items-center gap-3">
+        {validLevels.map(l => <Badge level={l} />)}
+        {publishDate && (
+          <span class="font-mono text-[12px] text-muted">{formatDate(publishDate)}</span>
+        )}
+      </div>
+
+      <p class="mt-3 font-mono text-[12px] text-muted">
+        Written by <a href="/about" class="text-accent underline-offset-2 hover:underline">Félix</a>
+      </p>
+    </header>
+
+    <!-- ── Table of contents ── -->
+    {h2s.length > 1 && (
+      <nav
+        aria-label="Table of contents"
+        class="mb-10 rounded-card border border-border bg-surface px-6 py-5"
+      >
+        <p class="mb-3 font-mono text-[11px] font-medium uppercase tracking-[0.1em] text-muted">
+          Contents
+        </p>
+        <ol class="space-y-1.5">
+          {h2s.map((h, i) => (
+            <li>
+              <a
+                href={`#${h.slug}`}
+                class="flex items-baseline gap-3 text-[14px] text-body transition-colors hover:text-accent"
+              >
+                <span class="font-mono text-[11px] text-muted">{String(i + 1).padStart(2, '0')}</span>
+                {h.text}
+              </a>
+            </li>
+          ))}
+        </ol>
+      </nav>
+    )}
+
+  </div>
+
+  <!-- ── Article body ── -->
+  <div class="mx-auto max-w-[720px] px-6 pb-16 lg:px-0">
+    <div class="prose-article">
+      <Content />
+    </div>
+  </div>
+
+  <!-- ── CTA ── -->
+  <CTABanner
+    eyebrow="Ready to go further?"
+    headingLight="Take your French"
+    headingBold="to the next level."
+    body="Access structured courses, live practice sessions, and a community that keeps you going — all at learn.frenchwithfelix.com."
+    cta="Explore courses →"
+    href="https://learn.frenchwithfelix.com"
+  />
+
+</BlogLayout>
+
+<style>
+  .prose-article {
+    font-size: 16px;
+    line-height: 1.75;
+    color: var(--color-body);
+  }
+
+  .prose-article :global(h2) {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: var(--color-title);
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    scroll-margin-top: 6rem;
+  }
+
+  .prose-article :global(h3) {
+    font-family: var(--font-display);
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--color-title);
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+    scroll-margin-top: 6rem;
+  }
+
+  .prose-article :global(p) {
+    margin-bottom: 1.25rem;
+    text-align: justify;
+  }
+
+  .prose-article :global(ul),
+  .prose-article :global(ol) {
+    padding-left: 1.5rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .prose-article :global(ul) { list-style-type: disc; }
+  .prose-article :global(ol) { list-style-type: decimal; }
+
+  .prose-article :global(li) {
+    margin-bottom: 0.4rem;
+  }
+
+  .prose-article :global(a) {
+    color: var(--color-accent);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  .prose-article :global(strong) {
+    font-weight: 700;
+    color: var(--color-title);
+  }
+
+  .prose-article :global(em) {
+    font-style: italic;
+  }
+
+  .prose-article :global(blockquote) {
+    border-left: 3px solid var(--color-accent);
+    padding: 0.25rem 0 0.25rem 1.25rem;
+    margin: 1.5rem 0;
+    color: var(--color-muted);
+    font-style: italic;
+  }
+
+  .prose-article :global(code) {
+    font-family: var(--font-mono);
+    font-size: 0.875em;
+    background: var(--color-surface);
+    padding: 0.15em 0.4em;
+    border-radius: 4px;
+  }
+
+  .prose-article :global(pre) {
+    background: var(--color-surface);
+    padding: 1.25rem;
+    border-radius: var(--radius-card);
+    overflow-x: auto;
+    margin-bottom: 1.25rem;
+  }
+
+  .prose-article :global(pre code) {
+    background: none;
+    padding: 0;
+    font-size: 0.875rem;
+  }
+
+  .prose-article :global(table) {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1.5rem;
+    font-size: 0.9375rem;
+  }
+
+  .prose-article :global(th),
+  .prose-article :global(td) {
+    border: 1px solid var(--color-border);
+    padding: 0.625rem 0.875rem;
+    text-align: left;
+  }
+
+  .prose-article :global(th) {
+    background: var(--color-surface);
+    font-weight: 600;
+    color: var(--color-title);
+    font-size: 0.8125rem;
+    letter-spacing: 0.03em;
+  }
+
+  .prose-article :global(hr) {
+    border: none;
+    border-top: 1px solid var(--color-border);
+    margin: 2.5rem 0;
+  }
+
+  .prose-article :global(img) {
+    max-width: 100%;
+    border-radius: var(--radius-card);
+    margin: 1.5rem 0;
+  }
+</style>

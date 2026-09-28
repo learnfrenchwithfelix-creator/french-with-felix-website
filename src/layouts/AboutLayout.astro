@@ -1,0 +1,30 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import { author } from '../data/author.ts';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const { title, description } = Astro.props;
+
+// Build JSON-LD — omit "image" when author.image is an empty string
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: author.name,
+  jobTitle: author.jobTitle,
+  description: author.description,
+  url: author.url,
+  sameAs: author.sameAs,
+  knowsLanguage: author.knowsLanguage,
+  worksFor: author.worksFor,
+  ...(author.image ? { image: author.image } : {}),
+};
+---
+
+<BaseLayout title={title} description={description}>
+  <script slot="head" type="application/ld+json" set:html={JSON.stringify(jsonLd, null, 2)} />
+  <slot />
+</BaseLayout>

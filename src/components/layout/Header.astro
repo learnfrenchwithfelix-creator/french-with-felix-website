@@ -1,0 +1,32 @@
+---
+import Button from '../ui/Button.astro';
+
+const navLinks = [
+  { href: '/blog', label: 'Blog' },
+  { href: '/podcast', label: 'Podcast' },
+  { href: '/library', label: 'Library' },
+  { href: '/about', label: 'About' },
+];
+---
+
+<header class="sticky top-0 z-50 border-b border-border">
+  <div class="mx-auto flex max-w-[1180px] items-center justify-between px-6 py-5 lg:px-12">
+    <a href="/" class="font-display text-[22px] font-bold tracking-[0.04em] text-title">LIMINAL FRENCH</a>
+
+    <div class="hidden items-center gap-[34px] md:flex">
+      <nav class="flex items-center gap-[34px]" aria-label="Primary">
+        {navLinks.map((link) => (
+          <a href={link.href} class="text-[15px] font-medium text-body transition-colors hover:text-accent">{link.label}</a>
+        ))}
+      </nav>
+      <Button href="/start" class="px-5 py-[9px] text-[15px]">Start Learning →</Button>
+    </div>
+  </div>
+</header>
+
+<style>
+  header {
+    background-color: color-mix(in srgb, var(--color-bg) 60%, transparent);
+    backdrop-filter: saturate(1.2) blur(12px);
+  }
+</style>

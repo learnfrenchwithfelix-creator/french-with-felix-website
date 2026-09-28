@@ -1,0 +1,182 @@
+---
+import AboutLayout from '../layouts/AboutLayout.astro';
+import Button from '../components/ui/Button.astro';
+---
+
+<AboutLayout
+  title="About Félix | Liminal French"
+  description="Liminal French was built to bridge the gap between classroom French and real immersion — by someone who made that exact leap learning Japanese."
+>
+
+  <!-- ── Hero ── -->
+  <div class="mx-auto grid max-w-[760px] grid-cols-1 items-center gap-8 px-6 pb-6 pt-10 md:grid-cols-[1fr_auto] md:gap-8 md:px-12 md:pt-16">
+    <div class="order-2 text-center md:order-1 md:text-left">
+      <p class="mb-3.5 font-mono text-[12px] uppercase tracking-[0.1em] text-muted">About</p>
+      <h1
+        class="font-display leading-[1.15] tracking-[-0.045em] text-title"
+        style="font-size: clamp(1.625rem, 3.2vw, 2.125rem)"
+      >
+        <span style="font-weight: var(--weight-light)">I'm Félix. I built Liminal French because</span>
+        <span style="font-weight: var(--weight-bold)"> I made a jump I never thought I could make — and I want to help you do the same.</span>
+      </h1>
+    </div>
+    <div class="order-1 mx-auto md:order-2">
+      <img
+        src="/images/hero-profile.png"
+        alt="Félix, founder of Liminal French"
+        width="360"
+        height="360"
+        class="h-auto w-[180px] sm:w-[220px] md:w-[200px] lg:w-[220px]"
+        fetchpriority="high"
+      />
+    </div>
+  </div>
+
+  <!-- ── Page sections ── -->
+  <div class="about-prose mx-auto max-w-[760px] px-6 pb-24 lg:px-12">
+
+    <!-- The gap -->
+    <section>
+      <p class="section-eyebrow">The story</p>
+      <h2>The gap nobody talks about</h2>
+      <p>If you learned a language in school, you know the drill: conjugation tables, fill-in-the-blank exercises, vocabulary lists. It's how I learned English and Spanish growing up. It works — to a point. And then it stops working, and nobody tells you why.</p>
+      <p>Online, you'll find the opposite camp: comprehensible input, immersion, "just consume content you understand and the language will click." It's not wrong. But almost nobody explains how to actually get there if all you've ever known is the classroom method. It's one thing to hear "just immerse yourself" — it's another to know what that looks like on day one, week one, month one.</p>
+      <p>I found that path by accident, learning Japanese. Zero immersion experience going in — just the classic school method for English and Spanish. Japanese was the first language I learned almost entirely through immersion and comprehensible input, and it changed how I understood learning itself. Not just faster — different. More durable. More mine. Today I'm around JLPT N2 level (roughly CEFR B2) — reached without ever sitting in a Japanese classroom.</p>
+      <p>Liminal French exists to take you across that same gap, deliberately, instead of by accident.</p>
+    </section>
+
+    <!-- The method -->
+    <section>
+      <p class="section-eyebrow">The method</p>
+      <h2>How the jump actually works</h2>
+      <p>Here's the part most immersion advocates skip: you can't remove the training wheels before you've learned to balance.</p>
+      <p>If you're a complete beginner, you genuinely need some grammar, some structure, some classic groundwork first — enough to hold the basics steady. That's not a failure of the method, it's the foundation the method needs to work.</p>
+      <p>But the training wheels that help you at the start are the same thing holding you back later. At a certain point, they stop teaching you balance and start preventing it. That's the moment to take them off — and that's the moment most learners never get, because nobody shows them when or how.</p>
+      <p>That's what Liminal French actually does:</p>
+      <ul class="level-list">
+        <li><span><strong>A1 : Structured basics</strong> — grammar lessons from zero, first sentences in real context</span></li>
+        <li><span><strong>A2 : The bridge</strong> — grammar + first immersion texts, the transition begins</span></li>
+        <li><span><strong>B1 : Full immersion</strong> — 100% comprehensible content, natural speed, everyday French</span></li>
+        <li><span><strong>B2 : Expand your world</strong> — topic deep-dives, live book readings, vocabulary islands</span></li>
+      </ul>
+      <p class="mt-6">At every level: pre-made Anki decks, weekly live sessions with full replay, interactive exercises, and community access.</p>
+      <p class="price-note">
+        $39/month — or $290/year ($24/month).<br />
+        Your first lessons at each level are free.
+      </p>
+    </section>
+
+    <!-- Why Liminal -->
+    <section>
+      <p class="section-eyebrow">Philosophy</p>
+      <h2>Why "Liminal"</h2>
+      <p><em>Liminal</em> means threshold — the space of crossing from one side to another.</p>
+      <p>Learning a language isn't really about vocabulary or grammar. It's a door. On the other side of that door is a culture, a way of thinking, relationships and experiences you simply cannot access any other way. Learning Japanese didn't just let me order food or make small talk — it opened a door onto a way of life I could never have understood from outside it. It's genuinely changed the course of my life.</p>
+      <p>There's also something the practical side doesn't capture: the satisfaction of something that takes real time. Language learning isn't a weekend project. It's a long game — and that's exactly why crossing the threshold and looking back at how far you've come feels like something worth being proud of.</p>
+      <p>Liminal French holds both sides of that: the practical mechanics of how to actually get fluent, and the reason it's worth doing in the first place.</p>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-block">
+      <h2>Ready to cross the threshold?</h2>
+      <Button href="/start" class="px-8 py-[15px] text-base">Start for free →</Button>
+    </section>
+
+  </div>
+
+</AboutLayout>
+
+<style>
+  .about-prose section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid var(--color-border);
+  }
+  .about-prose section:first-child {
+    padding-top: 0;
+  }
+  .about-prose section:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .section-eyebrow {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-muted);
+    margin-bottom: 0.75rem;
+  }
+
+  .about-prose h2 {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: var(--color-title);
+    margin-bottom: 1.5rem;
+  }
+
+  .about-prose p {
+    font-size: 16px;
+    line-height: 1.75;
+    color: var(--color-body);
+    margin-bottom: 1.25rem;
+  }
+
+  .about-prose em {
+    font-style: italic;
+  }
+
+  .about-prose strong {
+    font-weight: 700;
+    color: var(--color-title);
+  }
+
+  /* Price line under the level list */
+  .price-note {
+    padding: 1rem 1.25rem;
+    border-left: 3px solid var(--color-accent);
+    background: var(--color-surface);
+    border-radius: 0 var(--radius-card) var(--radius-card) 0;
+    font-weight: 600;
+    color: var(--color-title);
+  }
+
+  /* Closing CTA */
+  .cta-block {
+    text-align: center;
+  }
+  .about-prose .cta-block h2 {
+    font-size: 1.875rem;
+    margin-bottom: 1.5rem;
+  }
+
+  /* Level list */
+  .about-prose ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.875rem;
+  }
+
+  .about-prose ul li {
+    display: flex;
+    gap: 0.875rem;
+    font-size: 16px;
+    line-height: 1.65;
+    color: var(--color-body);
+  }
+
+  .about-prose ul li::before {
+    content: '→';
+    font-family: var(--font-mono);
+    color: var(--color-accent);
+    flex-shrink: 0;
+    padding-top: 0.1em;
+  }
+</style>

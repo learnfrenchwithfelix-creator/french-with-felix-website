@@ -1,0 +1,31 @@
+---
+// Generates /podcast/2, /podcast/3, … via Astro paginate().
+// /podcast (page 1) is handled separately by index.astro to avoid route conflicts.
+import PodcastListingPage from '../../components/podcast/PodcastListingPage.astro';
+import { fetchEpisodes } from '../../utils/episodes';
+import type { GetStaticPathsOptions, Page } from 'astro';
+import type { Episode } from '../../utils/episodes';
+
+export async function getStaticPaths({ paginate }: GetStaticPathsOptions) {
+  const episodes = await fetchEpisodes();
+  const paths    = paginate(episodes, { pageSize: 12 });
+  // Page 1 has params.page === undefined (URL: /podcast) — index.astro handles it.
+  return paths.filter(({ params }) => params.page !== undefined);
+}
+
+interface Props { page: Page<Episode> }
+const { page } = Astro.props;
+
+const spotifyShowUrl = import.meta.env.SPOTIFY_SHOW_ID
+  ? `https://open.spotify.com/show/${import.meta.env.SPOTIFY_SHOW_ID}`
+  : '#';
+---
+
+<PodcastListingPage
+  episodes={page.data}
+  currentPage={page.currentPage}
+  lastPage={page.lastPage}
+  prevUrl={page.url.prev}
+  nextUrl={page.url.next}
+  {spotifyShowUrl}
+/>

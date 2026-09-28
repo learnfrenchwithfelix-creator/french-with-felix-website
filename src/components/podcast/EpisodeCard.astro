@@ -1,0 +1,141 @@
+---
+import Badge from '../ui/Badge.astro';
+
+interface Props {
+  number: number | string;
+  level: 'A1' | 'A2' | 'B1' | 'B2';
+  title: string;
+  duration: string;
+  wpm: number;
+  theme: string;
+  href: string;
+  youtubeId?: string | null;
+  /** Extra attributes (data-*, hidden…) are forwarded to the root link */
+  [attr: string]: unknown;
+}
+
+const { number, level, title, duration, wpm, theme, href, youtubeId, ...rest } = Astro.props;
+const thumbUrl = youtubeId ? `https://img.youtube.com/vi/${youtubeId}/maxresdefault.jpg` : null;
+const footer = wpm > 0 ? `${wpm} wpm · ${theme}` : theme;
+---
+
+<a
+  href={href}
+  class="episode-card relative flex h-full flex-col rounded-card border border-border bg-bg"
+  data-glow
+  {...rest}
+>
+  <!-- Thumbnail with number + duration overlay (clips its own top corners so the glow ring can sit on the card border) -->
+  <div class="relative aspect-video w-full overflow-hidden rounded-t-[13px]">
+    {thumbUrl ? (
+      <img
+        src={thumbUrl}
+        alt={title}
+        width="1280"
+        height="720"
+        class="absolute inset-0 h-full w-full object-cover"
+        loading="lazy"
+      />
+    ) : (
+      <div class="absolute inset-0 bg-[repeating-linear-gradient(135deg,#E8E8E7,#E8E8E7_11px,#E1E1DF_11px,#E1E1DF_22px)]"></div>
+    )}
+    <div class="thumb-fade pointer-events-none absolute inset-x-0 bottom-0 h-[56%]"></div>
+    <span class="absolute bottom-3 left-3.5 font-mono text-[11px] font-medium uppercase tracking-[0.12em] text-white/90">Ep {number}</span>
+    <span class="absolute bottom-3 right-3.5 font-mono text-[11px] font-medium tracking-[0.12em] text-white/90">{duration}</span>
+  </div>
+
+  <div class="flex flex-1 flex-col px-[22px] pb-[18px] pt-5">
+    <div class="mb-3 self-start"><Badge level={level} /></div>
+    <h3 class="mb-5 font-display text-[19px] font-semibold leading-[1.28] tracking-[-0.02em] text-title [text-wrap:pretty]">{title}</h3>
+    <div class="mt-auto flex items-center justify-between gap-3 border-t border-[#E1E1DF] pt-3.5">
+      <span class="font-mono text-[11px] text-muted">{footer}</span>
+      <span class="text-[13px] font-semibold text-accent" aria-hidden="true">→</span>
+    </div>
+  </div>
+</a>
+
+<script>
+  // Spotlight: the navy glow follows the pointer. Each card gets the pointer position relative to itself
+  // (--mx / --my); cards far from the pointer simply render nothing, so neighbours light up too.
+  const canHover = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  if (canHover && !reduceMotion) {
+    let x = 0;
+    let y = 0;
+    let frame = 0;
+
+    const paint = () => {
+      frame = 0;
+      document.querySelectorAll<HTMLElement>('[data-glow]:not([hidden])').forEach(card => {
+        const r = card.getBoundingClientRect();
+        card.style.setProperty('--mx', `${x - r.left}px`);
+        card.style.setProperty('--my', `${y - r.top}px`);
+      });
+    };
+    const schedule = () => {
+      if (!frame) frame = requestAnimationFrame(paint);
+    };
+
+    window.addEventListener(
+      'pointermove',
+      e => {
+        if (e.pointerType === 'touch') return;
+        x = e.clientX;
+        y = e.clientY;
+        schedule();
+      },
+      { passive: true },
+    );
+    // Cards move under a still pointer while scrolling
+    window.addEventListener('scroll', schedule, { passive: true });
+  }
+</script>
+
+<style>
+  .thumb-fade {
+    background: linear-gradient(to top, rgba(18, 22, 28, 0.82), transparent);
+  }
+
+  .episode-card {
+    --mx: -999px;
+    --my: -999px;
+    transition: border-color 160ms ease, box-shadow 200ms ease, transform 200ms ease;
+  }
+  .episode-card:hover {
+    /* Soft navy edge; the spotlight ring below brightens it under the pointer */
+    border-color: color-mix(in srgb, var(--color-liseret) 35%, var(--color-border));
+    box-shadow: 0 14px 28px -18px rgba(28, 28, 30, 0.45);
+    transform: translateY(-3px);
+  }
+
+  /* Glow ring: a navy radial gradient masked down to the 1px card border */
+  .episode-card::before {
+    content: '';
+    position: absolute;
+    inset: -1px;
+    z-index: 2;
+    padding: 1px;
+    border-radius: inherit;
+    pointer-events: none;
+    background: radial-gradient(150px circle at var(--mx) var(--my), var(--color-liseret), transparent 100%);
+    -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor;
+    mask: linear-gradient(#000 0 0) content-box exclude, linear-gradient(#000 0 0);
+  }
+
+  /* Faint navy wash inside the card, centred on the pointer */
+  .episode-card::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    border-radius: inherit;
+    pointer-events: none;
+    background: radial-gradient(
+      220px circle at var(--mx) var(--my),
+      color-mix(in srgb, var(--color-liseret) 8%, transparent),
+      transparent 100%
+    );
+  }
+</style>

@@ -1,0 +1,988 @@
+1
+00:00:00,166 --> 00:00:04,466
+Bonjour tout le monde et bienvenue dans cette nouvelle vidéo.
+
+2
+00:00:04,466 --> 00:00:11,100
+Quand vous regardez sur Internet les meilleures façons d'apprendre une langue
+étrangère,
+
+3
+00:00:11,233 --> 00:00:17,500
+vous trouvez rapidement les méthodes qui vous disent de faire de l'immersion et
+d'utiliser
+
+4
+00:00:17,700 --> 00:00:25,766
+un système, un outil de flashcard pour mémoriser le plus rapidement possible les
+mots de vocabulaire.
+
+5
+00:00:25,833 --> 00:00:33,700
+C'est aussi une méthode que je recommande et pourtant je pense qu'il y a des
+pièges à éviter et
+
+6
+00:00:33,833 --> 00:00:44,000
+aujourd'hui on va parler de ces pièges. L'apprentissage d'une langue ça peut se
+résumer avec deux axes.
+
+7
+00:00:44,200 --> 00:00:51,800
+D'un côté on a la différenciation entre l'apprentissage théorique et
+l'apprentissage naturel.
+
+8
+00:00:51,800 --> 00:00:57,066
+L'apprentissage théorique c'est l'apprentissage qu'on peut avoir à l'école par
+exemple.
+
+9
+00:00:57,166 --> 00:01:03,066
+On a vraiment une approche théorique de la langue c'est-à-dire qu'on va
+apprendre des règles de
+
+10
+00:01:03,200 --> 00:01:11,300
+grammaire et on va essayer de comprendre théoriquement comment la langue
+fonctionne pour apprendre les
+
+11
+00:01:11,433 --> 00:01:18,466
+règles pour pouvoir ensuite les appliquer. De l'autre côté on a l'apprentissage
+naturel.
+
+12
+00:01:18,500 --> 00:01:25,400
+L'apprentissage naturel c'est qu'un bébé par exemple est né et qu'il va acquérir
+une langue,
+
+13
+00:01:25,466 --> 00:01:32,200
+qu'il va apprendre une langue sans même s'en rendre vraiment compte. Il va
+parler la langue en
+
+14
+00:01:32,300 --> 00:01:38,466
+imitant les personnes qui sont autour de lui. A force d'entendre les gens parler
+la langue,
+
+15
+00:01:38,600 --> 00:01:44,866
+il va essayer de les imiter pour communiquer et il va apprendre naturellement
+une langue.
+
+16
+00:01:45,066 --> 00:01:55,200
+Même si on a tendance à opposer ces deux aspects, bien évidemment en général il
+s'agit plus d'un
+
+17
+00:01:55,600 --> 00:02:01,566
+juste milieu à trouver entre cette approche théorique et cette approche naturel.
+Mais du
+
+18
+00:02:01,800 --> 00:02:08,233
+coup en général on est habitué à avoir appris une langue étrangère avec une
+approche théorique,
+
+19
+00:02:08,366 --> 00:02:14,333
+notamment à l'école. Personnellement j'ai appris l'anglais et l'espagnol et
+c'était vraiment
+
+20
+00:02:14,566 --> 00:02:19,833
+de l'apprentissage théorique c'est à dire qu'on avait des livres avec des leçons
+de grammaire.
+
+21
+00:02:19,933 --> 00:02:25,500
+Le professeur nous expliquait les leçons de grammaire et ensuite on faisait des
+exercices
+
+22
+00:02:25,600 --> 00:02:31,900
+et si il y avait la moindre faute on était pénalisés, on perdait des points et
+on avait une mauvaise
+
+23
+00:02:32,066 --> 00:02:38,033
+note. Et de l'autre côté quand vous regardez les meilleurs méthodes pour
+apprendre une langue
+
+24
+00:02:38,300 --> 00:02:43,633
+étrangère sur internet, sur youtube par exemple, on vous dit faites de
+l'immersion,
+
+25
+00:02:43,766 --> 00:02:50,500
+écoutez un maximum la langue que vous apprenez, lisez aussi des livres par
+exemple et essayez
+
+26
+00:02:50,633 --> 00:02:57,300
+de mémoriser un maximum de vocabulaire grâce à cette immersion. Vous allez au
+fur et à mesure
+
+27
+00:02:57,433 --> 00:03:04,400
+apprendre la langue par habitude, à force d'écouter, à force d'entendre et de
+répéter les mêmes
+
+28
+00:03:04,633 --> 00:03:13,433
+mots, vous allez commencer à mémoriser et à apprendre une langue. Ça c'est pour
+la première
+
+29
+00:03:13,566 --> 00:03:23,166
+partie méthodologique et ensuite j'ai noté ce point Atomic Habits, c'est un
+célèbre livre de
+
+30
+00:03:23,266 --> 00:03:28,866
+développement personnel mais la deuxième idée c'est de créer une routine, faire
+un peu tous les
+
+31
+00:03:29,000 --> 00:03:34,866
+jours puisque c'est ce qui permet de vraiment progresser dans l'apprentissage
+d'une langue. Si
+
+32
+00:03:35,233 --> 00:03:41,100
+vous combinez ces deux choses, apprentissage par l'immersion et vous créez une
+routine pour
+
+33
+00:03:41,400 --> 00:03:48,400
+passer un maximum de temps à apprendre la langue que vous voulez apprendre, en
+général c'est
+
+34
+00:03:48,733 --> 00:03:56,533
+efficace et ça vous permet vraiment de progresser. Ça c'est vraiment les deux
+axes principaux de
+
+35
+00:03:56,700 --> 00:04:02,466
+l'apprentissage en autodidacte d'une langue étrangère. Personnellement c'est ce
+que j'ai fait
+
+36
+00:04:02,600 --> 00:04:09,600
+pour le japonais, c'est-à-dire que je regarde des vidéos YouTube, j'utilise un
+système de
+
+37
+00:04:09,833 --> 00:04:16,566
+flashcards pour noter les mots de vocabulaire que je ne comprends pas et je
+révise ces
+
+38
+00:04:16,800 --> 00:04:22,733
+cartes pour essayer de mémoriser un maximum de vocabulaire. Parce que je fais
+beaucoup d'immersion,
+
+39
+00:04:22,866 --> 00:04:28,000
+les structures de phrases me semblent de plus en plus naturelles et c'est ce qui
+me permet
+
+40
+00:04:28,033 --> 00:04:34,933
+d'acquérir la langue d'une manière un peu naturelle. Quand j'ai besoin, je
+regarde la théorie,
+
+41
+00:04:34,933 --> 00:04:41,300
+j'essaye de comprendre les règles, mais dans un premier temps je fais surtout de
+l'immersion et du
+
+42
+00:04:41,433 --> 00:04:47,266
+coup quand on voit ce genre de méthode, on se dit en fait je vais apprendre la
+langue comme un bébé
+
+43
+00:04:47,400 --> 00:04:53,233
+qui vient de naître. Je vais apprendre la langue naturellement et parfois on
+entend même des
+
+44
+00:04:53,366 --> 00:05:01,566
+personnes dire apprendre sans s'en rendre compte, apprendre sans effort,
+facilement une langue et avoir
+
+45
+00:05:01,666 --> 00:05:10,433
+un niveau natif ou du moins un niveau vraiment naturel. Mais est-ce que c'est
+aussi facile ? Est-ce
+
+46
+00:05:10,566 --> 00:05:17,200
+qu'il n'y a pas des pièges à éviter dans cette méthode d'apprentissage qui est
+immersion,
+
+47
+00:05:17,300 --> 00:05:24,033
+système de flashcards et faire un petit peu tous les jours ? Et aujourd'hui je
+voulais parler de ce
+
+48
+00:05:24,233 --> 00:05:32,766
+sujet pour vous dire un peu les pièges que j'ai identifiés et pour faire
+attention à ne pas tomber
+
+49
+00:05:32,866 --> 00:05:39,133
+dans ces pièges des flashcards. Pour être plus précis, je vais parler de trois
+pièges et je pense
+
+50
+00:05:39,366 --> 00:05:45,733
+que le plus important à éviter c'est le troisième donc restez bien jusqu'à la
+fin de la vidéo.
+
+51
+00:05:45,800 --> 00:05:51,766
+Je fais ça pour le watch time, ne m'en voulez pas s'il vous plaît. Lorsque vous
+apprenez une langue
+
+52
+00:05:51,966 --> 00:05:58,233
+par vous même en autodidacte, vous pouvez parfois vous sentir déconnecté de la
+langue et de la
+
+53
+00:05:58,400 --> 00:06:07,200
+culture du pays. Une solution consiste à parler directement avec un natif et
+c'est l'occasion pour
+
+54
+00:06:07,300 --> 00:06:13,500
+moi de vous parler du sponsor de cette vidéo, italki. Pour ceux d'entre vous qui
+ne connaissent pas
+
+55
+00:06:13,633 --> 00:06:20,600
+italki, il s'agit d'une plateforme d'apprentissage des langues personnalisée
+qui vous permet de trouver
+
+56
+00:06:21,000 --> 00:06:29,566
+des professeurs de français natifs et de réserver des cours particuliers. Vous
+pouvez trouver des
+
+57
+00:06:29,866 --> 00:06:37,900
+personnes des différents pays francophones, France, Belgique ou même Canada si
+vous souhaitez apprendre
+
+58
+00:06:38,033 --> 00:06:46,066
+le français canadien, Tabarnac. Vous pouvez filtrer les résultats selon le prix
+et surtout vous
+
+59
+00:06:46,200 --> 00:06:53,733
+pouvez choisir le type de cours en fonction de vos objectifs. C'est entièrement
+personnalisé. Vous
+
+60
+00:06:53,833 --> 00:07:00,100
+pouvez choisir un cours pour parler français avec un natif, un cours de
+conversation pour
+
+61
+00:07:00,233 --> 00:07:07,666
+améliorer vos compétences en compréhension et en expression orale ou par exemple
+un cours plus
+
+62
+00:07:07,800 --> 00:07:15,600
+théorique pour vous préparer à un examen. L'un des principaux avantages d'italki
+est que vous payez
+
+63
+00:07:15,800 --> 00:07:22,400
+seulement pour chaque cours que vous faites. Il n'y a pas d'abonnement, les
+cours s'adaptent donc
+
+64
+00:07:22,500 --> 00:07:28,766
+entièrement à votre budget et à votre emploi du temps. Dans tous les cas, il
+s'agit d'un cours
+
+65
+00:07:28,900 --> 00:07:37,866
+personnalisé avec des objectifs personnalisés et des feedbacks en temps réel. Au
+delà de l'apprentissage
+
+66
+00:07:37,900 --> 00:07:45,633
+d'une langue, parler avec un locuteur natif, vous ouvre les portes de la culture
+du pays. C'est
+
+67
+00:07:45,766 --> 00:07:53,166
+comme mettre un pied dans le pays et je pense que c'est idéal lorsque vous
+sentez loin d'un pays que
+
+68
+00:07:53,300 --> 00:07:58,866
+vous aimez. Salut Nicolas ! Salut Félix ! Merci de prendre de ton temps pour
+répondre à mes questions
+
+69
+00:07:58,966 --> 00:08:06,633
+et je voulais savoir selon toi, c'est quoi les principaux avantages d'un cours
+conversationnel
+
+70
+00:08:06,766 --> 00:08:12,666
+sur italki ? Est-ce que ça va être plus de la fluidité ou d'autres choses par
+exemple ? Je
+
+71
+00:08:12,966 --> 00:08:23,166
+dirais que les points principaux d'amélioration, c'est la fluidité comme tu
+viens de dire et je
+
+72
+00:08:23,600 --> 00:08:29,900
+dirais trouver le mot juste. C'est deux choses là. C'est à dire que là où une
+personne va prendre
+
+73
+00:08:30,033 --> 00:08:35,766
+quelques instants pour réfléchir et trouver un mot qui correspondra vaguement à
+ce qu'il veut dire,
+
+74
+00:08:35,866 --> 00:08:42,100
+au bout d'un certain temps, on est capable de trouver le mot juste, le mot qu'on
+veut vraiment
+
+75
+00:08:42,233 --> 00:08:49,100
+utiliser et la fluidité. Je pense que c'est les deux points principaux que dans
+lesquels on progresse
+
+76
+00:08:49,300 --> 00:08:55,466
+avec la pratique de la conversation, dans lesquels on ne progresse pas en
+faisant seulement de la
+
+77
+00:08:55,600 --> 00:09:01,100
+grammaire ou de la conjugaison. Merci en tout cas d'avoir répondu à mes
+questions et à la prochaine.
+
+78
+00:09:01,233 --> 00:09:08,233
+Super, merci beaucoup et je te souhaite bon courage 
+pour la suite en tout cas
+
+79
+00:09:08,233 --> 00:09:14,066
+Donc si vous voulez en savoir plus sur la France, les Français et la langue
+française,
+
+80
+00:09:14,200 --> 00:09:21,100
+vous pouvez trouver un professeur et lui demander si ce que vous voyez dans
+Emily in Paris est
+
+81
+00:09:21,600 --> 00:09:28,933
+vrai ou non. Nous sommes en 2026 et si votre résolution pour la nouvelle année
+est d'apprendre
+
+82
+00:09:29,066 --> 00:09:35,800
+une nouvelle langue, cliquez sur le lien dans la description pour commencer dès
+maintenant votre
+
+83
+00:09:36,166 --> 00:09:43,966
+apprentissage. En utilisant mon code promo exclusif FELIX, vous pouvez acheter
+10 dollars
+
+84
+00:09:44,100 --> 00:09:52,566
+et recevoir 5 dollars gratuit pour votre première leçon. Ce code n'est
+disponible que pour les
+
+85
+00:09:52,700 --> 00:10:02,666
+50 premières personnes. Merci à italki de soutenir mon travail. Le premier piège
+c'est la démotivation,
+
+86
+00:10:02,700 --> 00:10:09,800
+c'est d'être démotivé. On l'a dit comme on peut le voir dans le livre Atomic
+Habits ce qui est
+
+87
+00:10:10,000 --> 00:10:15,166
+vraiment puissant, c'est de créer une routine. Quand vous commencez à faire
+quelque chose un
+
+88
+00:10:15,266 --> 00:10:21,766
+petit peu tous les jours, c'est là où vous allez vraiment voir des effets
+bénéfiques. C'est
+
+89
+00:10:21,900 --> 00:10:28,500
+vraiment plus efficace de travailler 15 minutes par jour plutôt que de
+travailler une ou deux heures
+
+90
+00:10:28,633 --> 00:10:35,066
+par semaine, le samedi ou le week-end. Premièrement, vous allez créer une
+habitude et ça sera de plus
+
+91
+00:10:35,200 --> 00:10:41,833
+en plus naturel de faire cette pratique, de réviser la langue que vous apprenez.
+Et ensuite,
+
+92
+00:10:41,966 --> 00:10:48,833
+vous avez un meilleur niveau de concentration pendant les 15 minutes. Vous créez
+une habitude et
+
+93
+00:10:49,000 --> 00:10:54,933
+du coup, ça va un peu avoir un effet boule de neige, c'est-à-dire qu'à force de
+faire une
+
+94
+00:10:55,333 --> 00:11:02,966
+activité, vous allez progressivement progresser. Et du coup, ça, c'est vraiment
+la base de la base.
+
+95
+00:11:03,066 --> 00:11:10,666
+Le plus gros danger quand on crée une habitude, c'est de tout simplement
+arrêter. Si vous créez
+
+96
+00:11:10,800 --> 00:11:16,700
+une habitude et que vous arrêtez, il va falloir reprendre pour essayer de
+reconstruire cette
+
+97
+00:11:16,833 --> 00:11:25,333
+habitude. Et c'est là un piège à éviter quand on utilise ce système de routine
+et de flashcard,
+
+98
+00:11:25,366 --> 00:11:33,033
+c'est de ne pas être démotivé, c'est de faire attention à la démotivation. Quand
+on crée une
+
+99
+00:11:33,166 --> 00:11:40,600
+routine, on peut à force avoir l'impression de juste faire quelque chose qui n'a
+pas vraiment
+
+100
+00:11:40,700 --> 00:11:46,666
+de sens, de faire des révisions tous les jours, mais sans vraiment savoir
+pourquoi. En fait,
+
+101
+00:11:46,800 --> 00:11:57,733
+comme ça devient automatique, on n'a plus vraiment l'impression d'avoir des
+objectifs ou une liste
+
+102
+00:11:57,800 --> 00:12:03,800
+de choses claires à apprendre et du coup, on peut arriver à être démotivé. En
+plus,
+
+103
+00:12:04,000 --> 00:12:10,100
+quand on fait un peu tous les jours, on peut avoir l'impression de faire un gros
+effort,
+
+104
+00:12:10,233 --> 00:12:17,433
+mais de ne pas forcément voir les résultats. Souvent, on peut avoir recours à
+des statistiques,
+
+105
+00:12:17,433 --> 00:12:24,000
+c'est-à-dire que par exemple, si je prends l'exemple du running, aujourd'hui
+tout le monde fait du
+
+106
+00:12:24,133 --> 00:12:28,833
+running, tout le monde fait de la course à pied et utilise Strava pour
+montrer à ses amis
+
+107
+00:12:28,966 --> 00:12:35,400
+les statistiques de leur course. Strava c'est un réseau social pour les
+sportifs. Et ça,
+
+108
+00:12:35,500 --> 00:12:42,433
+je trouve que ça montre bien comment, juste avec des statistiques, on peut
+réussir à rester
+
+109
+00:12:42,800 --> 00:12:49,000
+motivé, à rester concentré dans notre objectif. Pour l'apprentissage d'une
+langue, c'est un peu
+
+110
+00:12:49,133 --> 00:12:54,633
+pareil avec des applications qui vont compter le nombre de mots que vous
+apprenez, compter le
+
+111
+00:12:54,766 --> 00:13:00,633
+nombre de mots que vous connaissez déjà, le nombre d'heures que vous faites
+d'immersion, etc. Mais
+
+112
+00:13:01,033 --> 00:13:08,033
+même avec ça, parfois, on peut arriver à être démotivé. Quand j'apprends le
+japonais, quand
+
+113
+00:13:08,200 --> 00:13:13,833
+j'apprenais, j'apprend toujours le japonais, à un moment, on arrive vite à un
+plateau intermédiaire,
+
+114
+00:13:13,833 --> 00:13:18,766
+c'est-à-dire à un niveau où on commence à comprendre les vidéos qu'on regarde, à
+pouvoir
+
+115
+00:13:18,933 --> 00:13:25,800
+lire, etc. Mais on a ce sentiment qu'on ne progresse pas vraiment. On a
+l'impression de stagner et,
+
+116
+00:13:25,866 --> 00:13:31,233
+du coup, c'est vraiment à ce moment-là qu'on peut ressentir de la démotivation
+parce que finalement,
+
+117
+00:13:31,366 --> 00:13:38,300
+on fait un petit peu tous les jours, mais on perd un peu ce sentiment de
+progression. Alors,
+
+118
+00:13:38,433 --> 00:13:43,400
+certes, il va y avoir des statistiques, mais parfois, on a un peu l'impression
+que c'est
+
+119
+00:13:43,533 --> 00:13:49,133
+juste des chiffres et que notre compréhension, elle ne progresse pas vraiment.
+Surtout, par exemple,
+
+120
+00:13:49,233 --> 00:13:54,866
+quand on regarde des contenus faits pour l'apprentissage des langues, comme
+cette vidéo, par exemple,
+
+121
+00:13:55,000 --> 00:14:01,500
+et qu'ensuite, vous essayez de regarder un contenu natif, vous allez avoir une
+grosse marche de
+
+122
+00:14:01,600 --> 00:14:07,500
+difficultés, vous allez rien comprendre à la vidéo native, et à ce moment-là,
+vous allez
+
+123
+00:14:07,633 --> 00:14:15,733
+peut-être être démotivé. Donc, je pense que le premier piège dans cette
+méthodologie d'apprendre
+
+124
+00:14:15,866 --> 00:14:22,500
+une langue, c'est de vraiment faire attention à cette démotivation. Quand vous
+commencez à être
+
+125
+00:14:22,633 --> 00:14:29,500
+démotivé, il faut commencer à réfléchir, à trouver des solutions pour se
+remotiver,
+
+126
+00:14:29,733 --> 00:14:37,333
+pour avoir envie de continuer de progresser dans l'apprentissage d'une langue.
+C'est un peu
+
+127
+00:14:37,433 --> 00:14:42,566
+comme quand on court un marathon. Si on ne fait pas une course, si on court tout
+seul, souvent,
+
+128
+00:14:42,666 --> 00:14:47,333
+on a juste envie d'arrêter, on a envie d'arrêter de courir, alors que quand on
+court avec des amis,
+
+129
+00:14:47,433 --> 00:14:53,000
+par exemple, quand on court une course, on est motivé à continuer. Donc, faites
+attention à votre
+
+130
+00:14:53,133 --> 00:15:01,933
+démotivation et essayez de trouver des solutions pour stimuler votre envie
+d'apprentissage. Le
+
+131
+00:15:02,033 --> 00:15:07,900
+deuxième piège à éviter, c'est ce que j'appelle le pilote automatique. Quand
+vous prenez un avion
+
+132
+00:15:08,033 --> 00:15:13,900
+long courrier, c'est-à-dire, par exemple, faire Paris, Tokyo, c'est un vol qui
+dure longtemps et du
+
+133
+00:15:14,033 --> 00:15:21,033
+coup, en l'air, les pilotes activent le pilote automatique, le pilotage
+automatique, c'est-à-dire
+
+134
+00:15:21,200 --> 00:15:27,133
+qu'il ne touche plus rien et l'avion continue d'avancer. Et ça, j'ai un peu
+l'impression que ça
+
+135
+00:15:27,333 --> 00:15:33,200
+peut arriver dans l'apprentissage d'une langue, c'est-à-dire qu'on utilise son
+application de
+
+136
+00:15:33,600 --> 00:15:39,433
+flashcard et en fait, par routine, tous les matins au petit déjeuner, on fait
+nos flashcards et
+
+137
+00:15:39,533 --> 00:15:44,733
+on est un peu comme sur Tinder, on fait droit de gauche, oui, je connais, non,
+je ne connais pas,
+
+138
+00:15:44,833 --> 00:15:51,100
+sans vraiment être concentré. On le fait vraiment en pilote automatique. Et à la
+fin,
+
+139
+00:15:51,233 --> 00:15:58,033
+c'est un peu comme quand on scroll sur Instagram ou TikTok, à la fin, on ne sait
+même plus vraiment
+
+140
+00:15:58,100 --> 00:16:03,800
+ce qu'on vient de réviser. Alors, bien sûr, on a fait nos cartes, bien sûr, on a
+révisé nos
+
+141
+00:16:03,933 --> 00:16:10,633
+mots de vocabulaire, mais sans être vraiment concentré. Et à la fin, cet
+exercice de mémorisation
+
+142
+00:16:10,766 --> 00:16:17,766
+perd de son efficacité. On a une mauvaise mémorisation, quand on n'est pas
+concentré.
+
+143
+00:16:18,033 --> 00:16:23,433
+Ça, c'est vraiment un piège que j'ai ressenti. Alors, il y a deux aspects. La
+première, c'est que
+
+144
+00:16:23,566 --> 00:16:31,100
+forcément, parfois, on a moins envie de faire ces révisions et c'est ok de le
+faire un peu
+
+145
+00:16:31,200 --> 00:16:37,766
+rapidement, sans être vraiment à 100%. Ça, c'est tout à fait ok, en sachant que
+le principal,
+
+146
+00:16:37,766 --> 00:16:42,566
+c'est de garder cette habitude. Mais ensuite, il faut quand même arriver à un
+moment où on se
+
+147
+00:16:42,700 --> 00:16:49,200
+pose cette question qui est de, est-ce que là, j'ai un apprentissage efficace ?
+Si oui, tant
+
+148
+00:16:49,333 --> 00:16:56,200
+mieux. Sinon, comment est-ce que je fais pour essayer de restimuler ma
+mémorisation pour éviter de
+
+149
+00:16:56,400 --> 00:17:02,100
+faire des révisions inutiles ? Ça, c'est pareil quand vous voyez le même mot
+revenir plusieurs
+
+150
+00:17:02,233 --> 00:17:10,533
+fois dans le mois. Parfois, on peut avoir un mot qui est très difficile à
+mémoriser. Et quand
+
+151
+00:17:10,700 --> 00:17:16,500
+vous voyez une carte pour la enième fois, là, ça vaut le coup de se poser et de se
+dire attend. Je vais
+
+152
+00:17:16,600 --> 00:17:21,433
+essayer de mieux la mémoriser, de prendre un peu le temps pour essayer de mieux
+la mémoriser
+
+153
+00:17:21,566 --> 00:17:29,000
+une bonne fois pour toutes. Du coup, ça, le pilote automatique, il faut faire
+attention à ce piège.
+
+154
+00:17:29,066 --> 00:17:34,966
+Le dernier piège à éviter, je pense que c'est la répartition entre le temps
+d'immersion et le
+
+155
+00:17:35,100 --> 00:17:43,166
+temps de revue des cartes. Quand on fait ce système, du coup, dans notre
+routine, elle s'organise autour
+
+156
+00:17:43,266 --> 00:17:51,266
+de deux choses. L'immersion, regarder du contenu, des vidéos YouTube, des
+podcasts, etc. et la revue
+
+157
+00:17:51,366 --> 00:17:56,700
+des cartes. On regarde des vidéos, on crée des cartes à partir des mots de
+vocabulaire qu'on ne
+
+158
+00:17:56,833 --> 00:18:02,266
+comprend pas. Et ensuite, on revoit nos cartes pour essayer de mémoriser les
+nouveaux mots de
+
+159
+00:18:02,400 --> 00:18:09,000
+vocabulaire. Et là, c'est un piège dans lequel je suis tombé. C'est de finir par
+faire pratiquement
+
+160
+00:18:09,100 --> 00:18:15,766
+que de la revue de cartes. Le plus important, c'est le temps qu'on passe en
+immersion. Et ça,
+
+161
+00:18:15,800 --> 00:18:21,866
+c'est vraiment le plus important. Il est toujours primordial de passer plus de
+temps à regarder du
+
+162
+00:18:22,166 --> 00:18:28,800
+contenu, à écouter la langue plutôt que de faire des revues de cartes. Tout
+simplement parce que
+
+163
+00:18:28,933 --> 00:18:34,366
+quand on revoit des cartes, on revoit des bouts de phrases, on revoit des mots
+en particulier,
+
+164
+00:18:34,500 --> 00:18:41,000
+mais on n'a pas un peu la chanson globale dans la tête, la langue dans sa
+totalité. Et du coup,
+
+165
+00:18:41,133 --> 00:18:48,933
+ça peut parfois avoir un impact négatif sur notre apprentissage. Il est vraiment
+primordial de
+
+166
+00:18:49,033 --> 00:18:55,500
+faire attention à ce que cette répartition du temps entre l'immersion et la
+revue des cartes ne soit
+
+167
+00:18:55,633 --> 00:19:02,300
+pas trop déséquilibrée. Quand on crée trop de cartes, quand on revoit trop de
+cartes, ça peut
+
+168
+00:19:02,433 --> 00:19:08,833
+avoir tendance à s'empiler. On peut avoir beaucoup de cartes à réviser. Et on
+finit par, si on veut
+
+169
+00:19:08,966 --> 00:19:15,700
+passer une heure par jour pour travailler notre langue, on peut finir par revoir
+des cartes pendant
+
+170
+00:19:15,900 --> 00:19:23,933
+40 minutes et faire de l'immersion seulement pendant 20 minutes. C'est vraiment
+important de passer
+
+171
+00:19:24,066 --> 00:19:28,833
+plus de temps à faire de l'immersion plutôt qu'à revoir des cartes. Pour ça, il
+y a plusieurs
+
+172
+00:19:28,966 --> 00:19:34,666
+choses à faire. Vous pouvez mettre en pause vos cartes, vos nouvelles cartes à
+apprendre pendant
+
+173
+00:19:34,800 --> 00:19:41,366
+quelques jours pour vous laisser le temps de faire diminuer votre paquet de
+cartes. Et il faut aussi
+
+174
+00:19:41,500 --> 00:19:46,633
+faire attention à quand on fait de l'immersion, à ne pas vouloir créer trop de
+cartes. Parfois,
+
+175
+00:19:46,766 --> 00:19:51,733
+dès qu'il y a un mot qu'on ne comprend pas, on veut faire une carte. Parfois, il
+y a une phrase
+
+176
+00:19:51,800 --> 00:19:58,066
+où on ne va pas comprendre trois mots, on va faire trois cartes. Et ça, en fait,
+ça va créer une pile
+
+177
+00:19:58,166 --> 00:20:03,800
+de cartes trop importante alors que ce n'est pas vraiment nécessaire. Quand vous
+regardez une vidéo
+
+178
+00:20:03,933 --> 00:20:10,033
+YouTube, il faut vous poser la question, est-ce que ce mot est vraiment
+important ? Est-ce qu'il est
+
+179
+00:20:10,166 --> 00:20:15,033
+important dans cette vidéo au point que je fasse une carte ? Souvent, quand vous
+regardez une vidéo
+
+180
+00:20:15,100 --> 00:20:21,033
+et qu'il y a un mot important que vous ne comprenez pas, vous allez créer une
+carte et vous allez
+
+181
+00:20:21,166 --> 00:20:25,966
+avoir plus de facilité à la mémoriser parce que vous allez vous souvenir de
+cette vidéo et vous
+
+182
+00:20:26,066 --> 00:20:31,533
+allez vous dire « ah oui », c'est le mot qui me manquait pour comprendre la
+vidéo. C'était le mot
+
+183
+00:20:31,666 --> 00:20:37,566
+important et vous allez pouvoir le mémoriser plus facilement. Quand c'est des
+mots dans des phrases
+
+184
+00:20:37,700 --> 00:20:42,300
+qui ne sont pas vraiment importantes, vous allez créer des cartes, mais vous
+n'allez même pas vous
+
+185
+00:20:42,433 --> 00:20:48,400
+souvenir de quelle vidéo ça vient, etc. Et du coup, dans ces moments-là, quand
+vous créez des cartes
+
+186
+00:20:48,566 --> 00:20:56,600
+avec des mots qui ne sont pas vraiment important, vous allez avoir du mal à les
+mémoriser. Et ça,
+
+187
+00:20:56,733 --> 00:21:02,366
+parfois, vous allez avoir une vidéo où un mot ne va pas être important, mais
+dans une autre vidéo,
+
+188
+00:21:02,400 --> 00:21:07,266
+il va l'être. Ça va dépendre du contexte, bien évidemment. Et du coup, il faut
+vraiment faire
+
+189
+00:21:07,400 --> 00:21:13,933
+attention à cet équilibre entre le temps que vous passez en immersion et la
+revue des cartes. Et
+
+190
+00:21:14,033 --> 00:21:18,400
+donc voilà, c'était les trois pièges que je pense qui sont les plus courants
+quand on fait
+
+191
+00:21:18,500 --> 00:21:25,033
+ce genre de routine et qu'on utilise des flashcards. Et je pense qu'il faut
+faire attention. C'est
+
+192
+00:21:25,166 --> 00:21:31,400
+une méthode efficace et pratique. Quand on crée une routine, on n'a même plus
+l'impression vraiment
+
+193
+00:21:31,466 --> 00:21:37,266
+de réviser. Donc, c'est vraiment très efficace pour progresser. Il faut juste
+faire attention à ne
+
+194
+00:21:37,400 --> 00:21:43,133
+pas finir en pilote automatique, à ne pas être démotivé et surtout à toujours
+passer du temps
+
+195
+00:21:43,200 --> 00:21:49,000
+à écouter la langue et à prendre plaisir à l'écouter. C'est ça le plus important
+et je pense
+
+196
+00:21:49,166 --> 00:21:55,700
+que c'est ça qui va vous permettre de progresser et vraiment d'atteindre le
+niveau que vous souhaitez.
+
+197
+00:21:55,700 --> 00:22:00,766
+J'espère que cette vidéo vous aura plu. Si c'est le cas, n'hésitez pas à mettre
+un
+
+198
+00:22:00,766 --> 00:22:04,433
+j'aime et un commentaire. Et je vous dis à la prochaine.
+

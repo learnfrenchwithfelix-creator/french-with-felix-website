@@ -1,0 +1,57 @@
+---
+import Button from '../ui/Button.astro';
+import SectionHeader from '../ui/SectionHeader.astro';
+---
+
+<section id="pricing" class="mx-auto max-w-[1180px] px-6 pb-28 md:px-12">
+  <SectionHeader eyebrow="Pricing" headingLight="Simple" headingBold="pricing" />
+
+  <div class="mx-auto grid max-w-[820px] grid-cols-1 gap-6 md:grid-cols-2 md:items-stretch">
+
+    <!-- Monthly -->
+    <div data-reveal class="flex flex-col rounded-card border border-border bg-bg p-7 md:p-8">
+      <p class="mb-4 font-mono text-xs font-medium uppercase tracking-[0.1em] text-muted">Monthly</p>
+      <p class="mb-2 font-display tracking-[-0.03em] text-title">
+        <span class="text-4xl font-bold">$39</span>
+        <span class="text-base text-muted" style="font-weight: var(--weight-light)"> / month</span>
+      </p>
+      <p class="mb-8 text-base leading-[1.6] text-body">Billed monthly. Cancel anytime.</p>
+      <a
+        href="/start"
+        class="secondary-btn mt-auto inline-flex items-center justify-center rounded-button border border-border px-6 py-[13px] font-display text-base font-semibold text-title transition-colors"
+      >
+        Start free
+      </a>
+    </div>
+
+    <!-- Annual — featured -->
+    <div data-reveal class="relative flex flex-col rounded-card border border-accent/40 bg-surface p-7 md:p-8">
+      <span class="mb-4 inline-block self-start rounded-full bg-accent px-[9px] py-[3px] text-[11px] font-semibold uppercase tracking-[0.08em] text-bg">
+        Best value
+      </span>
+      <p class="mb-4 font-mono text-xs font-medium uppercase tracking-[0.1em] text-muted">Annual</p>
+      <p class="mb-2 font-display tracking-[-0.03em] text-title">
+        <span class="text-4xl font-bold">$290</span>
+        <span class="text-base text-muted" style="font-weight: var(--weight-light)"> / year</span>
+        <span class="ml-1 whitespace-nowrap text-base font-semibold text-accent">$24/month</span>
+      </p>
+      <p class="mb-8 text-base leading-[1.6] text-body">Save 38% vs monthly. Full year access.</p>
+      <Button href="/start" class="mt-auto justify-center px-6 py-[13px] text-base">Join annual</Button>
+    </div>
+  </div>
+
+  <!-- Free-trial nudge for visitors who aren't ready to pick a plan -->
+  <div data-reveal class="mx-auto mt-10 flex max-w-[820px] flex-col items-center gap-5 text-center">
+    <p class="text-base leading-[1.6] text-body md:text-[17px]">
+      <span class="font-semibold text-title">Not sure yet?</span>{' '}
+      Start with a 7-day free trial and cancel anytime.
+    </p>
+    <Button href="/start" class="shrink-0 justify-center whitespace-nowrap px-6 py-[13px] text-base">Start your free trial →</Button>
+  </div>
+</section>
+
+<style>
+  .secondary-btn:hover {
+    border-color: var(--color-title);
+  }
+</style>

@@ -1,0 +1,38 @@
+---
+import SectionHeader from '../ui/SectionHeader.astro';
+
+const steps = [
+  {
+    number: '01',
+    title: 'Start with structure',
+    description:
+      'Grammar lessons that give you the real toolkit — without overwhelming you. Enough to build solid foundations before anything else.',
+  },
+  {
+    number: '02',
+    title: 'Cross the threshold',
+    description:
+      "The hardest moment in language learning isn't starting. It's switching from studying French to actually understanding it. We guide you through that transition — step by step, not all at once.",
+  },
+  {
+    number: '03',
+    title: 'Immerse and expand',
+    description:
+      "Natural French content, live sessions, book readings, interactive exercises. Real French at real speed — and you'll be ready for it.",
+  },
+];
+---
+
+<section class="mx-auto max-w-[1180px] px-6 pb-28 md:px-12">
+  <SectionHeader eyebrow="How it works" headingLight="How Liminal French" headingBold="works" />
+
+  <ol class="grid grid-cols-1 gap-10 md:grid-cols-3">
+    {steps.map(step => (
+      <li data-reveal class="text-center md:text-left">
+        <span class="mb-4 block font-mono text-sm font-medium tracking-[0.1em] text-accent">{step.number}</span>
+        <h3 class="mb-3 font-display text-[21px] font-bold tracking-[-0.02em] text-title">{step.title}</h3>
+        <p class="text-base leading-[1.65] text-body">{step.description}</p>
+      </li>
+    ))}
+  </ol>
+</section>

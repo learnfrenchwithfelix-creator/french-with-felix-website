@@ -1,0 +1,1565 @@
+1
+00:00:00,166 --> 00:00:04,533
+Bonjour tout le monde et bienvenue dans une nouvelle vidéo, un nouveau podcast.
+
+2
+00:00:04,700 --> 00:00:10,200
+C'est un peu particulier parce que je suis en train de refilmer l'introduction.
+
+3
+00:00:10,300 --> 00:00:17,066
+J'ai déjà filmé la vidéo, mais les cinq premières minutes ont un problème, je ne
+
+4
+00:00:17,300 --> 00:00:18,100
+comprends pas.
+
+5
+00:00:18,300 --> 00:00:23,166
+Donc sur l'ordinateur, j'ai tout le reste de la vidéo, mais du coup je refais
+l'introduction
+
+6
+00:00:23,366 --> 00:00:24,933
+rapidement de cinq minutes.
+
+7
+00:00:25,133 --> 00:00:28,633
+Donc à un moment, il va y avoir une coupure, il va y avoir un cut.
+
+8
+00:00:28,800 --> 00:00:30,966
+Donc désolé si ce n'est pas très fluide.
+
+9
+00:00:31,300 --> 00:00:38,300
+Enfin, donc avant de commencer, je voulais vous dire que le script de la vidéo
+est disponible
+
+10
+00:00:38,533 --> 00:00:39,933
+gratuitement sur Patreon.
+
+11
+00:00:40,066 --> 00:00:44,466
+Il faut juste s'inscrire, donc une fois que vous êtes inscrits, vous pouvez
+accéder
+
+12
+00:00:44,700 --> 00:00:46,100
+gratuitement au script.
+
+13
+00:00:46,233 --> 00:00:51,366
+Et également, si vous cherchez des cours individuels de français, je donne des
+cours
+
+14
+00:00:51,566 --> 00:00:57,966
+individuels et vous avez le lien en description, vous avez les étapes pour
+prendre un cours
+
+15
+00:00:58,166 --> 00:01:05,166
+et notamment il y a un petit appel de quinze minutes juste pour se présenter et
+pour que
+
+16
+00:01:05,333 --> 00:01:07,200
+je puisse comprendre vos objectifs.
+
+17
+00:01:07,400 --> 00:01:11,366
+Voilà, ça c'était pour la partie information.
+
+18
+00:01:11,566 --> 00:01:18,566
+Maintenant, le sujet de la vidéo aujourd'hui, c'est comment apprendre plus de
+vocabulaire.
+
+19
+00:01:18,800 --> 00:01:26,500
+La raison pour le sujet de cette vidéo, la raison pour laquelle je voulais faire
+cette
+
+20
+00:01:26,700 --> 00:01:34,733
+vidéo, c'est que je pense que quand on débute dans l'apprentissage d'une langue,
+on se
+
+21
+00:01:34,900 --> 00:01:36,900
+trompe un peu sur la priorité.
+
+22
+00:01:37,066 --> 00:01:42,166
+On fait un peu l'erreur de penser que la priorité, c'est la grammaire, alors que
+
+23
+00:01:42,233 --> 00:01:43,833
+c'est plutôt le vocabulaire.
+
+24
+00:01:44,033 --> 00:01:50,666
+La raison, elle est toute simple, c'est que si on fait une phrase en faisant des
+erreurs
+
+25
+00:01:50,933 --> 00:01:56,500
+de grammaire, on peut quand même comprendre, en faisant des erreurs de grammaire
+avec le
+
+26
+00:01:56,700 --> 00:02:04,200
+bon vocabulaire, on peut quand même comprendre si vous faites une phrase avec la
+bonne grammaire
+
+27
+00:02:04,433 --> 00:02:09,266
+mais en faisant des erreurs de vocabulaire, là le sens peut changer
+complètement, on
+
+28
+00:02:09,433 --> 00:02:11,300
+ne comprend plus le sens de la phrase.
+
+29
+00:02:11,500 --> 00:02:18,100
+Si je donne un exemple, une phrase avec la mauvaise grammaire mais le bon
+vocabulaire,
+
+30
+00:02:18,300 --> 00:02:27,666
+ça va être « Demain manger je banane ». Là vous avez les mots, l'ordre de la
+
+31
+00:02:27,900 --> 00:02:35,066
+phrase est incorrect, il est faux, mais le vocabulaire utilisé est le bon, idem
+je n'ai
+
+32
+00:02:35,233 --> 00:02:40,433
+pas conjugué le verbe et pourtant en fait vous comprenez le sens de la phrase,
+vous
+
+33
+00:02:40,633 --> 00:02:45,800
+comprenez que demain je vais manger une banane, tout simplement parce que
+j'utilise le
+
+34
+00:02:46,000 --> 00:02:46,800
+bon vocabulaire.
+
+35
+00:02:46,900 --> 00:02:52,733
+A l'inverse, si vous changez un de ces mots, si vous utilisez la bonne grammaire
+mais
+
+36
+00:02:52,966 --> 00:02:57,766
+que vous changez un de ces mots par un autre mot de vocabulaire, le sens va
+changer.
+
+37
+00:02:57,966 --> 00:03:04,833
+Si je dis « Demain je vais manger une pomme », en fait vous allez comprendre une
+mauvaise
+
+38
+00:03:05,066 --> 00:03:09,166
+information, « Demain je ne vais pas manger une pomme », « Demain je vais manger
+une
+
+39
+00:03:09,366 --> 00:03:10,166
+banane ».
+
+40
+00:03:10,266 --> 00:03:15,666
+L'exemple est très simple et c'est juste pour vous montrer un peu le concept,
+pour
+
+41
+00:03:15,833 --> 00:03:19,766
+dire que le vocabulaire c'est plus important que la grammaire.
+
+42
+00:03:19,966 --> 00:03:25,900
+En fait la grammaire c'est des outils, c'est des outils pour exprimer quelque
+chose, pour
+
+43
+00:03:26,166 --> 00:03:26,966
+dire quelque chose.
+
+44
+00:03:27,166 --> 00:03:34,366
+Bien évidemment il est important de connaître les bases, il est important de
+savoir parler
+
+45
+00:03:34,566 --> 00:03:42,300
+au présent, au futur, au passé, il est important, intéressant de pouvoir
+exprimer l'obligation
+
+46
+00:03:42,500 --> 00:03:43,300
+par exemple.
+
+47
+00:03:43,466 --> 00:03:48,266
+Et ça c'est un peu les outils de base que vous allez vouloir avoir au début.
+
+48
+00:03:48,433 --> 00:03:52,800
+Mais une fois que vous avez ces outils de base, ça ne sert à rien d'apprendre
+des
+
+49
+00:03:53,000 --> 00:03:56,400
+choses trop spécifiques avant d'avoir beaucoup de vocabulaire.
+
+50
+00:03:56,566 --> 00:04:02,700
+Il vaut mieux se concentrer sur l'apprentissage du vocabulaire plutôt que
+d'essayer d'avoir
+
+51
+00:04:02,933 --> 00:04:06,833
+la règle hyper spécifique de grammaire.
+
+52
+00:04:07,000 --> 00:04:12,700
+Et ça si je prends un exemple, et là je vais bientôt basculer sur l'autre partie
+
+53
+00:04:12,866 --> 00:04:17,266
+de la vidéo, si je prends un exemple c'est un peu comme quand vous commencez une
+nouvelle
+
+54
+00:04:17,500 --> 00:04:18,300
+activité.
+
+55
+00:04:18,500 --> 00:04:25,800
+Si demain vous faites un nouveau sport, souvent il peut y avoir des personnes
+qui se disent
+
+56
+00:04:25,866 --> 00:04:29,966
+il faut que j'achète le meilleur matériel possible, il faut que j'ai le meilleur
+équipement
+
+57
+00:04:30,200 --> 00:04:32,566
+possible pour commencer à faire ce sport.
+
+58
+00:04:32,666 --> 00:04:35,900
+Et ça c'est un peu l'équivalent, c'est un peu la même chose quand vous commencez
+
+59
+00:04:36,133 --> 00:04:40,133
+une langue et que vous vous dites il faut que je connaisse toutes les règles de
+grammaire,
+
+60
+00:04:40,366 --> 00:04:41,266
+même les plus spécifiques.
+
+61
+00:04:41,466 --> 00:04:44,400
+En fait les règles de grammaire ce sont les outils.
+
+62
+00:04:44,600 --> 00:04:49,766
+Si je prends un exemple, disons je veux commencer la cuisine.
+
+63
+00:04:49,900 --> 00:04:53,766
+Si vous vous dites je veux commencer la cuisine, qu'est-ce qu'il vous faut ?
+Vous
+
+64
+00:04:53,966 --> 00:04:56,866
+allez vous dire il me faut le plus d'équipement possible.
+
+65
+00:04:57,100 --> 00:05:03,233
+Et en fait là c'est un peu la même erreur, c'est-à-dire que si vous pensez qu'il
+faut
+
+66
+00:05:03,433 --> 00:05:07,566
+acheter beaucoup de choses pour commencer à cuisiner, en fait ce n'est pas vrai.
+
+67
+00:05:07,733 --> 00:05:13,233
+Ce qu'il vous faut c'est les instruments de base, les outils de base, une poêle,
+
+68
+00:05:13,433 --> 00:05:17,700
+une casserole, un four et ensuite ce qui va compter surtout c'est les
+ingrédients
+
+69
+00:05:17,933 --> 00:05:21,100
+que vous allez travailler, les ingrédients que vous allez cuisiner.
+
+70
+00:05:21,333 --> 00:05:27,500
+Si vous avez tous les équipements possibles et imaginables, mais que vous
+cuisinez seulement
+
+71
+00:05:27,833 --> 00:05:30,966
+des pommes de terre, vous ne serez pas un bon cuisiner.
+
+72
+00:05:31,133 --> 00:05:35,433
+Si quand vous apprenez le français vous connaissez toutes les règles très
+spécifiques
+
+73
+00:05:35,566 --> 00:05:39,666
+de la grammaire, mais que vous n'avez aucun vocabulaire, ou que vous avez très
+peu de
+
+74
+00:05:39,866 --> 00:05:42,466
+vocabulaire, vous n'allez pas être bon en français.
+
+75
+00:05:42,600 --> 00:05:48,100
+A l'inverse, si vous avez les équipements basiques pour faire de la cuisine,
+mais que
+
+76
+00:05:48,300 --> 00:05:52,266
+vous connaissez beaucoup d'ingrédients, que vous connaissez beaucoup de goûts,
+de
+
+77
+00:05:52,433 --> 00:05:58,266
+recettes, etc., vous allez être bon en cuisine, si pour parler une langue vous
+connaissez
+
+78
+00:05:58,500 --> 00:06:02,766
+des règles de base de grammaire, mais que vous avez beaucoup de vocabulaire,
+vous
+
+79
+00:06:03,000 --> 00:06:07,800
+allez avoir un bon niveau dans la langue et c'est en fait, c'est la même
+différence.
+
+80
+00:06:08,000 --> 00:06:12,766
+Quand on commence la cuisine, on peut avoir tendance à se dire « il me faut les
+meilleures
+
+81
+00:06:13,100 --> 00:06:16,700
+équipements possibles ». Quand on commence à apprendre une langue, on peut avoir
+l'impression
+
+82
+00:06:16,833 --> 00:06:22,333
+de se dire « il faut que je connaisse le plus de règles de grammaire possibles
+». Non,
+
+83
+00:06:22,466 --> 00:06:27,466
+ce qu'il faut, c'est connaître le plus d'ingrédients possibles, le plus de goûts
+possibles, le
+
+84
+00:06:27,633 --> 00:06:32,366
+plus de recettes, et pour les langues, il faut apprendre le plus de vocabulaire.
+
+85
+00:06:32,566 --> 00:06:38,933
+Si vous avez beaucoup de vocabulaire, mais que vous n'avez pas forcément des
+règles
+
+86
+00:06:39,100 --> 00:06:44,333
+de grammaire spécifique, dans tous les cas, vous trouvez un moyen de contourner
+un peu
+
+87
+00:06:44,466 --> 00:06:47,433
+ce qu'il vous manque d'un point de vue de la grammaire.
+
+88
+00:06:47,666 --> 00:06:49,033
+Donc, ça, c'est très important.
+
+89
+00:06:49,233 --> 00:06:54,500
+Je crois que la coupure s'est faite à peu près à ce moment de la vidéo, donc je
+vous
+
+90
+00:06:54,800 --> 00:06:58,766
+laisse avec la deuxième partie encore désolée pour ce petit problème.
+
+91
+00:06:58,966 --> 00:07:05,566
+Alors, la caméra s'est arrêtée, mais si on compare avec l'apprentissage des
+langues,
+
+92
+00:07:05,666 --> 00:07:11,933
+c'est un peu comme si les équipements, c'est la grammaire, et que les
+ingrédients, c'est
+
+93
+00:07:12,066 --> 00:07:12,933
+le vocabulaire.
+
+94
+00:07:13,100 --> 00:07:18,966
+Si vous avez les équipements de base, mais que vous connaissez plein
+d'ingrédients, vous
+
+95
+00:07:19,166 --> 00:07:20,600
+allez être très bon en cuisine.
+
+96
+00:07:20,800 --> 00:07:27,233
+Alors, bien sûr, si vous pouvez avoir les meilleurs équipements ensuite pour
+cuisiner
+
+97
+00:07:27,400 --> 00:07:32,966
+du mieux possible, ça sera toujours meilleur, mais ce qui est important au
+début, c'est
+
+98
+00:07:33,166 --> 00:07:38,366
+surtout de découvrir des ingrédients et d'apprendre à cuisiner différents
+ingrédients.
+
+99
+00:07:38,500 --> 00:07:41,333
+En fait, c'est un peu pareil quand on apprend une langue.
+
+100
+00:07:41,500 --> 00:07:47,200
+Ce qui est important, c'est d'avoir de pouvoir utiliser les règles de base de
+grammaire,
+
+101
+00:07:47,400 --> 00:07:48,933
+mais après, c'est surtout le vocabulaire.
+
+102
+00:07:49,066 --> 00:07:53,766
+Si vous avez beaucoup de vocabulaire, vous allez pouvoir parler de beaucoup de
+choses,
+
+103
+00:07:53,966 --> 00:07:59,700
+et si vraiment vous manquez d'une règle de grammaire ou d'un moyen de dire
+quelque
+
+104
+00:07:59,933 --> 00:08:06,566
+chose, vous allez trouver des façons de le dire, des moyens de le dire avec
+votre vocabulaire
+
+105
+00:08:06,800 --> 00:08:08,066
+et les gens comprendreont.
+
+106
+00:08:08,166 --> 00:08:13,200
+A l'inverse, en cuisine, si vous achetez tout le matériel, mais que vous n'avez
+que
+
+107
+00:08:13,400 --> 00:08:17,766
+des pommes de terre à cuisiner, ça ne sera pas forcément super bon.
+
+108
+00:08:18,200 --> 00:08:23,766
+Dans les langues, si vous connaissez toutes les règles de grammaire de la langue
+française,
+
+109
+00:08:24,000 --> 00:08:30,633
+mais que vous savez que très peu de mots de vocabulaire, vous n'allez pas avoir
+un
+
+110
+00:08:30,866 --> 00:08:32,000
+français très développé.
+
+111
+00:08:32,200 --> 00:08:37,633
+Ça, je pense qu'il faut bien faire le distinctif entre la grammaire et le
+vocabulaire, et la
+
+112
+00:08:37,833 --> 00:08:41,566
+chose la plus importante, c'est bien évidemment le vocabulaire.
+
+113
+00:08:41,766 --> 00:08:48,766
+Maintenant, une fois qu'on a dit ça, le sujet de la vidéo, c'est comment
+apprendre
+
+114
+00:08:48,900 --> 00:08:49,766
+du vocabulaire.
+
+115
+00:08:49,966 --> 00:08:56,300
+Vous regardez cette vidéo, donc sûrement que vous pratiquez déjà ça, mais la
+base
+
+116
+00:08:56,500 --> 00:08:59,633
+déjà, c'est l'immersion, c'est écouter, lire.
+
+117
+00:08:59,833 --> 00:09:06,366
+Le vocabulaire, ça s'apprend dans du contexte, et ça s'apprend avec de
+l'immersion
+
+118
+00:09:06,566 --> 00:09:08,600
+des comprehensibles inputs.
+
+119
+00:09:08,800 --> 00:09:15,766
+Quand vous faites ça, vous écoutez, votre cerveau reçoit des informations, et il
+reçoit
+
+120
+00:09:15,900 --> 00:09:16,766
+du vocabulaire.
+
+121
+00:09:16,966 --> 00:09:24,566
+Et ensuite, selon la répétition et la fréquence à laquelle votre cerveau voit
+ces mots,
+
+122
+00:09:24,766 --> 00:09:29,033
+il va pouvoir apprendre de nouveaux mots.
+
+123
+00:09:29,233 --> 00:09:35,033
+Au début, le vocabulaire est très basique, et il est très répétitif.
+
+124
+00:09:35,200 --> 00:09:40,866
+On utilise souvent les mêmes mots dans une phrase, et d'ailleurs, il y a la
+statistique
+
+125
+00:09:41,100 --> 00:09:48,733
+de dire qu'avec 1000 mots, on comprend 80% du français, c'est quelque chose
+comme ça,
+
+126
+00:09:48,833 --> 00:09:52,866
+et ce n'est pas vraiment vrai, mais disons qu'il y a 1000 mots qui sont très
+fréquents
+
+127
+00:09:53,100 --> 00:09:53,933
+en français.
+
+128
+00:09:54,100 --> 00:10:00,166
+Et donc ça, au début, à force de voir ces mots apparaître dans ce que vous
+écoutez,
+
+129
+00:10:00,400 --> 00:10:06,733
+dans ce que vous lisez dans votre immersion, cette répétition et la fréquence à
+laquelle
+
+130
+00:10:06,933 --> 00:10:12,066
+les mots apparaissent, ça va vous permettre d'apprendre de nouveaux mots et
+d'apprendre
+
+131
+00:10:12,266 --> 00:10:15,166
+les mots les plus fréquents, donc les mots les plus utiles.
+
+132
+00:10:15,366 --> 00:10:19,000
+Ensuite, il y a aussi des techniques de mémorisation.
+
+133
+00:10:19,200 --> 00:10:24,300
+Quand on apprend une langue, moi, je me rappelle à l'école, quand on devait
+apprendre du
+
+134
+00:10:24,500 --> 00:10:29,466
+vocabulaire en anglais, il y avait vraiment les livres de listes de vocabulaire.
+
+135
+00:10:29,566 --> 00:10:34,333
+Et en français, ça va être pareil, vous allez avoir les listes de fruits ou de
+légumes,
+
+136
+00:10:34,533 --> 00:10:35,333
+par exemple.
+
+137
+00:10:35,466 --> 00:10:41,000
+Et ça, c'est un peu… enfin, selon moi, c'est une mauvaise idée parce que
+premièrement,
+
+138
+00:10:41,200 --> 00:10:45,300
+apprendre juste une liste, on ne met pas les choses en contexte, on ne met pas
+les mots
+
+139
+00:10:45,500 --> 00:10:49,833
+dans des phrases et du coup, ça rend… ce n'est pas très intéressant à apprendre
+
+140
+00:10:50,200 --> 00:10:55,300
+comme ça et ça rend l'apprentissage, ça rend la mémorisation plus difficile.
+
+141
+00:10:55,533 --> 00:11:02,100
+Ces listes, ce n'est pas pratique et en plus, il y a un peu une… il peut y avoir
+
+142
+00:11:02,266 --> 00:11:03,100
+des interférences.
+
+143
+00:11:03,166 --> 00:11:08,566
+C'est quelque chose dont parle l'auteur du livre Fluent Forever, mais en fait,
+quand
+
+144
+00:11:08,833 --> 00:11:12,800
+vous apprenez tous les fruits ensemble, en fait, vous allez créer une boîte dans
+
+145
+00:11:13,100 --> 00:11:17,466
+votre cerveau avec tous les noms de fruits, mais sauf qu'en fait, quand vous
+rangez
+
+146
+00:11:17,700 --> 00:11:21,666
+tout au même endroit, après quand vous allez essayer de vous souvenir d'un
+fruit, vous
+
+147
+00:11:21,866 --> 00:11:29,266
+allez dire un fruit qui commence par la lettre P, poire, pêche, pomme et en
+fait, vous allez
+
+148
+00:11:29,466 --> 00:11:33,633
+un peu mélanger les mots d'une même catégorie ensemble.
+
+149
+00:11:33,833 --> 00:11:40,466
+Donc ça, c'est un peu… ça complique un peu la tâche parce qu'en apprenant des
+
+150
+00:11:40,733 --> 00:11:45,733
+listes thématiques comme ça, les listes de mots d'un seul thème, vous… ça peut
+créer
+
+151
+00:11:45,900 --> 00:11:50,900
+de la confusion ensuite quand vous allez essayer d'utiliser ces mots.
+
+152
+00:11:51,100 --> 00:11:55,466
+Donc pour ça, le mieux, c'est de faire de l'immersion et d'ensuite d'essayer
+d'apprendre
+
+153
+00:11:55,800 --> 00:12:00,900
+les mots de vocabulaire dans une phrase et dans un contexte spécifique.
+
+154
+00:12:01,133 --> 00:12:05,966
+Bien évidemment, si vous voulez apprendre les ingrédients, vous pouvez par
+exemple
+
+155
+00:12:06,200 --> 00:12:10,833
+essayer de voir une recette de cuisine ou quelque chose comme ça.
+
+156
+00:12:11,033 --> 00:12:17,866
+Ensuite, il y a une chose qui peut paraître bizarre au début mais qui je trouve
+très
+
+157
+00:12:18,100 --> 00:12:22,433
+intéressante, c'est les moyens mémotechniques, c'est de créer des petites… des
+petites
+
+158
+00:12:22,700 --> 00:12:25,833
+histoires pour mémoriser un mot.
+
+159
+00:12:26,033 --> 00:12:31,933
+Ça, au début, quand on explique ça, enfin, quand j'explique ça à des étudiants,
+il
+
+160
+00:12:32,066 --> 00:12:37,433
+y a toujours un petit moment de flottement où ils se disent qu'est-ce qu'ils
+racontent,
+
+161
+00:12:37,733 --> 00:12:44,600
+mais je pense que c'est vraiment une pratique que vous pouvez développer pour
+améliorer
+
+162
+00:12:44,800 --> 00:12:49,833
+votre mémorisation, surtout quand c'est un mot qui est difficile à mémoriser
+pour
+
+163
+00:12:50,033 --> 00:12:50,833
+vous.
+
+164
+00:12:51,033 --> 00:12:54,966
+Quand il y a un mot que vous voyez très régulièrement et que vous n'arrivez pas
+
+165
+00:12:55,166 --> 00:13:01,233
+à mémoriser, ça vaut le coup de prendre deux minutes avec ce mot, de le prendre
+et
+
+166
+00:13:01,333 --> 00:13:04,366
+d'essayer de créer une petite histoire avec ce mot.
+
+167
+00:13:04,500 --> 00:13:10,800
+J'avais déjà donné l'exemple, par exemple, du poulet, donc chicken, en français,
+le
+
+168
+00:13:11,000 --> 00:13:18,833
+poulet, par exemple, le poulet roti, et j'avais un étudiant qui n'arrivait pas à
+mémoriser
+
+169
+00:13:19,033 --> 00:13:19,833
+poulet.
+
+170
+00:13:20,033 --> 00:13:27,033
+Et le style de petites histoires à créer, c'est que, par exemple, le poulet, en
+anglais
+
+171
+00:13:27,266 --> 00:13:32,900
+ça sonne un peu comme "to pull", donc tirer, et « heyy » quelqu'un qui crie « heyy
+»
+
+172
+00:13:33,133 --> 00:13:39,333
+et du coup, on avait fait cette histoire de dire que imagine que tu tires un
+poulet,
+
+173
+00:13:39,533 --> 00:13:45,166
+you're pulling a chicken, et il commence à crier « hé » comme ça, à partir du
+moment
+
+174
+00:13:45,366 --> 00:13:51,500
+où tu tires un poulet, il se met à crier « hé ». Donc, when you pull it, it
+starts
+
+175
+00:13:51,766 --> 00:13:59,166
+yelling « hé », donc " pull-hey", ça peut paraître très bizarre dit comme ça, mais en
+fait,
+
+176
+00:13:59,366 --> 00:14:05,066
+plus l'histoire est bizarre, plus l'histoire est un peu folle, mieux vous allez
+retenir.
+
+177
+00:14:05,166 --> 00:14:09,433
+Et ça, en fait, dans l'apprentissage du français, je pense que ce n'est pas
+quelque
+
+178
+00:14:09,633 --> 00:14:14,933
+chose de très commun, mais quand j'ai appris les caractères japonais, il y a
+environ
+
+179
+00:14:15,166 --> 00:14:24,366
+2000 caractères à apprendre avec deux lectures chacun, donc en tout, en gros il
+y a 4000 informations
+
+180
+00:14:24,533 --> 00:14:25,366
+à retenir.
+
+181
+00:14:25,500 --> 00:14:29,900
+Et en fait, la technique, c'est vraiment ça, c'est créer des petites histoires
+
+182
+00:14:30,366 --> 00:14:31,233
+à chaque fois.
+
+183
+00:14:31,333 --> 00:14:35,633
+Et j'ai tout appris comme ça, et au début, on se dit « bon, c'est un peu
+bizarre,
+
+184
+00:14:35,800 --> 00:14:40,233
+je vais essayer ». Au début, ça prend du temps à essayer de trouver une
+histoire,
+
+185
+00:14:40,466 --> 00:14:44,766
+et en fait, plus vous pratiquez, plus vous allez trouver des histoires
+facilement, plus
+
+186
+00:14:44,933 --> 00:14:45,866
+ça va être automatique.
+
+187
+00:14:46,133 --> 00:14:50,400
+Donc ça, c'est vraiment quelque chose que je vous encourage à faire, c'est
+essayer
+
+188
+00:14:50,633 --> 00:14:57,633
+ces petites histoires mémo-techniques pour mémoriser plus facilement, plus vous
+pratiquez,
+
+189
+00:14:57,833 --> 00:15:00,400
+plus ce sera rapide, plus ce sera efficace.
+
+190
+00:15:00,600 --> 00:15:06,466
+Donc ça, c'est vraiment pour la mémorisation, faire de l'immersion, utiliser
+pourquoi pas
+
+191
+00:15:06,700 --> 00:15:12,000
+des flashcards, par exemple, si vous aimez, et créer des petites histoires quand
+vraiment
+
+192
+00:15:12,233 --> 00:15:15,400
+il y a un mot que vous n'arrivez pas à mémoriser.
+
+193
+00:15:15,766 --> 00:15:21,700
+Et en fait, au bout d'un moment, vous allez sûrement arriver ce qu'on peut
+appeler le
+
+194
+00:15:21,900 --> 00:15:28,566
+plateau intermédiaire, où vous allez avoir l'impression d'avoir un vocabulaire
+plutôt
+
+195
+00:15:28,833 --> 00:15:35,133
+général, c'est-à-dire que vous pouvez parler d'un peu tout, mais vous n'avez
+plus le
+
+196
+00:15:35,333 --> 00:15:42,000
+sentiment de progresser, où vous avez l'impression que dès que le sujet va sur
+un sujet spécifique,
+
+197
+00:15:42,200 --> 00:15:45,300
+un thème spécifique, vous êtes perdu.
+
+198
+00:15:45,500 --> 00:15:49,066
+Ça, dans l'immersion, il y a deux choses.
+
+199
+00:15:49,166 --> 00:15:52,366
+Il y a la vitesse à laquelle la personne parle et il y a le vocabulaire.
+
+200
+00:15:52,700 --> 00:15:57,766
+Je vous mettrai peut-être un exemple d'une vidéo d'un youtubeur japonais, mais
+en
+
+201
+00:15:57,966 --> 00:16:02,966
+fait, c'est un youtubeur qui parle assez lentement, c'est très clair, la
+prononciation
+
+202
+00:16:03,166 --> 00:16:08,433
+est très claire, facile à comprendre, mais en fait, il parle de sujet politique
+ou économique.
+
+203
+00:16:08,700 --> 00:16:14,833
+Et comme on part sur un sujet politique ou économique, c'est un vocabulaire
+spécifique
+
+204
+00:16:15,100 --> 00:16:18,966
+et du coup, moi je suis très rapidement perdu tout simplement parce que je n'ai
+pas du
+
+205
+00:16:19,200 --> 00:16:20,000
+tout ce vocabulaire.
+
+206
+00:16:20,200 --> 00:16:27,600
+La raison, elle est simple en fait, c'est que c'est aussi dans le livre "Fluent
+Forever"
+
+207
+00:16:27,766 --> 00:16:32,666
+il explique, je ne suis plus sûr de l'exemple, mais je vais l'expliquer à ma
+façon, mais
+
+208
+00:16:32,800 --> 00:16:37,866
+il explique qu'en fait le vocabulaire, c'est un peu comme des îles, une île, la
+première
+
+209
+00:16:38,000 --> 00:16:42,233
+île sur laquelle vous arrivez, c'est le vocabulaire de base, c'est les verbes
+les
+
+210
+00:16:42,400 --> 00:16:47,133
+plus fréquents, les mots les plus fréquents et en fait, quand vous arrivez sur
+cette île,
+
+211
+00:16:47,266 --> 00:16:51,666
+au début, il faut explorer cette île pour apprendre le vocabulaire de base.
+
+212
+00:16:51,933 --> 00:16:57,433
+Mais au bout d'un moment, quand vous avez fait le tour de l'île, vous commencez
+un
+
+213
+00:16:57,600 --> 00:17:03,200
+peu à vous ennuyer, vous n'avez pas l'impression de découvrir de nouvelles
+choses et en
+
+214
+00:17:03,400 --> 00:17:06,033
+même temps, vous avez l'impression de stagner.
+
+215
+00:17:06,233 --> 00:17:11,500
+Là, ce qu'il faut faire dans ces cas-là, c'est aller sur une autre île et ça
+peut
+
+216
+00:17:11,800 --> 00:17:17,866
+être un peu impressionnant parce que quand on essaye de s'intéresser à un autre
+sujet,
+
+217
+00:17:18,066 --> 00:17:23,033
+souvent ça va être un vocabulaire nouveau et du coup, on va avoir beaucoup plus
+de
+
+218
+00:17:23,233 --> 00:17:24,366
+mal à comprendre.
+
+219
+00:17:24,566 --> 00:17:30,700
+Par exemple, si à un moment vous vous dites, je vais regarder des vidéos sur la
+politique
+
+220
+00:17:30,900 --> 00:17:35,566
+française parce que ça m'intéresse, je suis intéressé par la politique et je
+veux en
+
+221
+00:17:35,766 --> 00:17:36,566
+apprendre plus.
+
+222
+00:17:36,766 --> 00:17:41,933
+Vous mettez une vidéo et là, la personne commence à parler, député à l'Assemblée
+
+223
+00:17:42,133 --> 00:17:46,233
+nationale, suffrage universel, etc.
+
+224
+00:17:46,400 --> 00:17:52,366
+Et là, en fait, c'est des termes très spécifiques à la politique et du coup, ça
+devient tout
+
+225
+00:17:52,500 --> 00:17:57,033
+de suite beaucoup plus difficile, même si la personne parle lentement en fait,
+tout
+
+226
+00:17:57,233 --> 00:18:01,400
+simplement parce que vous n'avez pas ces mots de vocabulaire et ça, ça peut être
+
+227
+00:18:01,600 --> 00:18:03,433
+frustrant et ça peut faire un peu peur.
+
+228
+00:18:03,500 --> 00:18:07,233
+C'est comme si vous êtes sur votre île, vous voyez une autre île mais au milieu,
+il
+
+229
+00:18:07,300 --> 00:18:13,766
+y a beaucoup d'eau, il faut prendre un bateau, ça peut être impressionnant, mais
+pourtant
+
+230
+00:18:13,866 --> 00:18:15,566
+c'est ce qu'il faut faire.
+
+231
+00:18:15,733 --> 00:18:20,600
+Le but, en fait, c'est de réussir à aller explorer d'autres îles.
+
+232
+00:18:20,766 --> 00:18:22,800
+Les îles, c'est des thèmes de vocabulaire.
+
+233
+00:18:22,900 --> 00:18:28,633
+J'ai pris l'exemple de la politique, de l'économie, mais ça peut être par
+exemple
+
+234
+00:18:28,733 --> 00:18:31,833
+l'île du sport, on va appeler ça l'île du sport.
+
+235
+00:18:31,933 --> 00:18:37,933
+L'objectif dans ces cas-là, c'est de prendre le bateau, c'est une métaphore,
+mais prendre
+
+236
+00:18:38,233 --> 00:18:41,433
+le bateau, aller sur l'autre île et commencer à explorer.
+
+237
+00:18:41,833 --> 00:18:48,366
+Ce qui est important, c'est d'arriver à se fixer à un objectif d'une île.
+
+238
+00:18:48,566 --> 00:18:53,766
+Par exemple, aujourd'hui, enfin, cette semaine, ce mois-ci, ça dépend à
+laquelle, ça dépend
+
+239
+00:18:53,900 --> 00:18:58,200
+la vitesse à laquelle vous travaillez, mais cette semaine, j'ai envie
+d'apprendre un
+
+240
+00:18:58,433 --> 00:19:01,133
+peu le vocabulaire sur le sport par exemple.
+
+241
+00:19:01,233 --> 00:19:04,966
+Et là, en fait, ce que vous allez faire, c'est que vous allez commencer à
+essayer
+
+242
+00:19:05,100 --> 00:19:10,400
+de regarder des vidéos de sport, de choses comme ça, mais ça peut être aussi
+dans l'expression.
+
+243
+00:19:10,566 --> 00:19:18,000
+Ce que j'essaye de faire un peu avec les étudiants pendant les cours, c'est que
+j'essaye
+
+244
+00:19:18,166 --> 00:19:23,300
+de varier les sujets et que quand on va sur un sujet, j'essaye de leur faire
+pratiquer
+
+245
+00:19:23,466 --> 00:19:24,333
+le plus possible.
+
+246
+00:19:24,533 --> 00:19:32,400
+Pour le sport, par exemple, j'ai un étudiant irlandais qui a un bon niveau de
+français.
+
+247
+00:19:32,566 --> 00:19:38,666
+Il parle correctement et il parle facilement de la vie de tous les jours, mais
+là, l'objectif
+
+248
+00:19:38,733 --> 00:19:40,766
+c'est plus d'aller sur des sujets spécifiques.
+
+249
+00:19:41,000 --> 00:19:48,000
+Enirland, il y a les sports gaéliques, donc des sports qui sont très spécifiques
+
+250
+00:19:48,266 --> 00:19:49,100
+à l'Irlande.
+
+251
+00:19:49,266 --> 00:19:50,633
+Ça ne se joue que en Irlande quasiment.
+
+252
+00:19:50,833 --> 00:19:57,166
+Par exemple, il y a le hurling, je prononce sûrement très mal, et du coup avec
+cet étudiant,
+
+253
+00:19:57,333 --> 00:20:02,633
+ce que j'ai fait, c'est que je lui ai dit, explique-moi ce que c'est le hurling,
+explique-moi
+
+254
+00:20:02,766 --> 00:20:04,066
+ce que c'est ce sport.
+
+255
+00:20:04,200 --> 00:20:09,766
+Et à partir de là, vous devez commencer à réfléchir à un vocabulaire qui est
+très
+
+256
+00:20:09,966 --> 00:20:11,300
+spécifique au sport.
+
+257
+00:20:11,466 --> 00:20:17,533
+Si je prends l'exemple du football, par exemple, parce que je ne sais pas
+expliquer
+
+258
+00:20:17,700 --> 00:20:23,000
+le hurling, mais par exemple au football, il y a 11 joueurs, j'espère ne pas me
+tromper,
+
+259
+00:20:23,200 --> 00:20:30,366
+il y a 11 joueurs, donc là on apprend le mot joueur, il y a un gardien, donc un
+goalkeeper,
+
+260
+00:20:30,566 --> 00:20:37,866
+on apprend le gardien, il y a des défenseurs, il y a des attaquants, il y a un
+arbitre,
+
+261
+00:20:38,033 --> 00:20:46,933
+chaque équipe a 11 joueurs et le match, le game, le match dure 90 minutes.
+
+262
+00:20:47,133 --> 00:20:54,566
+Pendant le match, les joueurs ne peuvent utiliser que leurs pieds pour taper
+dans le
+
+263
+00:20:54,766 --> 00:21:01,966
+ballon et ils doivent marquer des buts dans les cages adverses, ils doivent
+pousser le
+
+264
+00:21:02,166 --> 00:21:05,033
+ballon jusque dans les cages adverses, ils doivent marquer des buts.
+
+265
+00:21:05,233 --> 00:21:11,366
+Vous voyez rien qu'en faisant ça, tout de suite, j'utilise un vocabulaire
+vraiment
+
+266
+00:21:11,700 --> 00:21:18,333
+spécifique au sport et en fait, si vous ne vous focalisez pas, si vous ne vous
+concentrez
+
+267
+00:21:18,533 --> 00:21:22,800
+pas un peu sur le thème, ce n'est pas un vocabulaire que vous allez utiliser
+dans
+
+268
+00:21:23,000 --> 00:21:27,033
+la vie de tous les jours et ça c'est pareil pour tout, ça peut être pour le
+surf, ça
+
+269
+00:21:27,200 --> 00:21:32,466
+peut être pour votre travail par exemple, expliquer votre travail en français.
+
+270
+00:21:32,733 --> 00:21:42,333
+Et en fait, à partir du moment où vous allez développer, vous allez explorer
+l'île
+
+271
+00:21:42,400 --> 00:21:48,633
+d'un thème, en fait, vous allez un peu collectionner ces petites îles et ça va
+vraiment enrichir
+
+272
+00:21:48,833 --> 00:21:49,633
+votre vocabulaire.
+
+273
+00:21:49,833 --> 00:21:55,900
+Mais ça, en fait, c'est quelque chose qu'il faut faire, c'est-à-dire que si vous
+restez
+
+274
+00:21:56,133 --> 00:22:02,633
+dans un cadre très général, la vie de tous les jours, etc., vous allez avoir du
+mal
+
+275
+00:22:02,733 --> 00:22:04,933
+à aller sur des choses plus spécifiques.
+
+276
+00:22:05,066 --> 00:22:14,500
+C'est pareil par exemple, juste avant, j'ai fait une vidéo avec mon frère, un
+podcast
+
+277
+00:22:14,700 --> 00:22:19,100
+et on parlait de Twitch, du streaming et c'est un vocabulaire très spécifique.
+
+278
+00:22:19,333 --> 00:22:22,100
+Peut-être que ça ne vous intéresse pas et c'est normal.
+
+279
+00:22:22,266 --> 00:22:30,633
+Il ne faut pas essayer d'apprendre quelque chose qui ne vous intéresse pas.
+
+280
+00:22:31,066 --> 00:22:40,300
+Ce qui compte, c'est que c'est un sujet qui vous intéresse et dont vous aimez
+parler
+
+281
+00:22:40,533 --> 00:22:41,333
+en fait.
+
+282
+00:22:41,500 --> 00:22:47,066
+Si quelqu'un n'aime pas du tout le sport et je force cette personne à parler de
+foot,
+
+283
+00:22:47,266 --> 00:22:51,366
+elle ne va rien retenir parce que ça n'est pas très intéressant pour elle.
+
+284
+00:22:51,566 --> 00:22:56,833
+Mais ça, c'est vraiment un effort à faire parce que souvent, quand on vous dit,
+quand
+
+285
+00:22:57,066 --> 00:23:03,233
+on parle d'un sujet, souvent quand on manque de vocabulaire, on a tendance un
+peu à fermer
+
+286
+00:23:03,600 --> 00:23:04,400
+les phrases.
+
+287
+00:23:04,600 --> 00:23:11,233
+On va être « Ah, tu joues au foot, c'est comment le football ? » Ah, le
+football, c'est
+
+288
+00:23:11,566 --> 00:23:12,366
+avec un ballon.
+
+289
+00:23:12,500 --> 00:23:16,366
+Et c'est tout parce que, en fait, si vous manquez de vocabulaire, vous n'allez
+
+290
+00:23:16,633 --> 00:23:18,866
+pas pouvoir exprimer tout ce qu'il y a derrière.
+
+291
+00:23:19,066 --> 00:23:24,800
+Donc, prenez le temps de pourquoi pas écrire à l'écrit c'est plus facile,
+prendre
+
+292
+00:23:24,966 --> 00:23:28,166
+le temps d'écrire pour essayer de découvrir plus de vocabulaire.
+
+293
+00:23:28,366 --> 00:23:33,633
+Vous trouvez un sujet qui vous intéresse et vous parlez de ce sujet en essayant
+de
+
+294
+00:23:33,900 --> 00:23:36,033
+découvrir un vocabulaire spécifique.
+
+295
+00:23:36,400 --> 00:23:42,100
+Si vous sentez que vous stagnez, alors ça vaut peut-être le coup d'aller voir
+une autre
+
+296
+00:23:42,266 --> 00:23:43,066
+île.
+
+297
+00:23:43,266 --> 00:23:48,800
+Vous allez regarder des vidéos sur la politique, des actualités, pourquoi pas
+parler de sport,
+
+298
+00:23:49,000 --> 00:23:54,400
+pourquoi pas parler de voyage, pourquoi pas parler de l'apprentissage des
+langues,
+
+299
+00:23:54,600 --> 00:23:55,400
+etc.
+
+300
+00:23:55,566 --> 00:24:00,466
+Et ça, c'est vraiment des choses, je pense que c'est vraiment, au bout d'un
+moment,
+
+301
+00:24:00,566 --> 00:24:06,500
+c'est vraiment ce qui nous fait apprendre beaucoup plus de vocabulaire.
+
+302
+00:24:06,633 --> 00:24:11,933
+Et quelqu'un, finalement quelqu'un qui est très bon dans une langue, c'est
+quelqu'un
+
+303
+00:24:12,133 --> 00:24:14,100
+qui peut parler d'un peu tout et de rien.
+
+304
+00:24:14,266 --> 00:24:20,200
+En France, par exemple, la politique, il y a beaucoup de discussions politiques.
+
+305
+00:24:20,433 --> 00:24:26,833
+Les gens aiment beaucoup parler politique et disons que, par exemple, je sais
+que si
+
+306
+00:24:27,000 --> 00:24:31,400
+je parle anglais et que je dois parler politique, je vais pouvoir y arriver.
+
+307
+00:24:31,733 --> 00:24:38,266
+Si je dois faire ça en japonais, en fait, je me rends compte que je suis assez
+limité
+
+308
+00:24:38,400 --> 00:24:42,666
+et ça, c'est la grosse différence, je pense, au bout d'un moment parce que les
+règles
+
+309
+00:24:42,833 --> 00:24:47,833
+de grammaire, si vous les connaissez, si vous les comprenez, vous êtes capable
+de parler
+
+310
+00:24:48,000 --> 00:24:52,766
+au passé, au présent, au futur, vous êtes capable de parler d'une obligation,
+etc.
+
+311
+00:24:52,966 --> 00:24:55,700
+Mais après, finalement, ce qui change, c'est le vocabulaire.
+
+312
+00:24:55,900 --> 00:24:57,400
+Donc, ça, c'est vraiment super important.
+
+313
+00:24:57,566 --> 00:25:02,700
+Pour ça, il faut faire de l'immersion, il faut utiliser, enfin, vous pouvez
+utiliser
+
+314
+00:25:02,900 --> 00:25:08,700
+des techniques de mémorisation, des flashcards, et ensuite, surtout vraiment, ce
+qu'il faut
+
+315
+00:25:08,900 --> 00:25:13,266
+faire, c'est essayer d'aller voir d'autres îles, essayer d'aller voir d'autres
+thèmes
+
+316
+00:25:13,433 --> 00:25:17,700
+de vocabulaire et ne pas trop rester dans les mêmes choses tout le temps.
+
+317
+00:25:17,933 --> 00:25:22,300
+Ça peut être impressionnant, au début, on peut ne rien comprendre, mais ça vaut
+le
+
+318
+00:25:22,500 --> 00:25:23,300
+coup de creuser.
+
+319
+00:25:23,500 --> 00:25:30,366
+Et si c'est vraiment trop compliqué, il ne faut pas viser trop loin, trop tôt.
+
+320
+00:25:30,566 --> 00:25:38,300
+Si demain, je me dis que je veux regarder la thèse sur l'énergie nucléaire, la
+fission
+
+321
+00:25:38,500 --> 00:25:45,866
+nucléaire, je ne sais quoi en japonais, je ne vais rien comprendre, et là, c'est
+sûr
+
+322
+00:25:45,966 --> 00:25:47,900
+et certain, c'est beaucoup trop spécifique.
+
+323
+00:25:48,066 --> 00:25:55,800
+Et voilà, il ne faut pas hésiter à essayer, et il ne faut pas hésiter aussi à
+vous raconter
+
+324
+00:25:56,000 --> 00:26:02,133
+des choses sur ce qui vous intéresse, un sport, un groupe de musique, voilà, un
+groupe
+
+325
+00:26:02,300 --> 00:26:04,800
+de musique, j'adore tel groupe de musique.
+
+326
+00:26:04,933 --> 00:26:08,766
+Ah, c'est qui le batteur, c'est qui le guitariste, c'est qui le chanteur.
+
+327
+00:26:08,966 --> 00:26:15,466
+Là, tout de suite, vous allez avoir un plus de vocabulaire, c'est quoi le style
+de musique,
+
+328
+00:26:15,633 --> 00:26:16,433
+etc.
+
+329
+00:26:16,533 --> 00:26:18,500
+Qu'est-ce que tu ressens quand tu écoutes la musique ?
+
+330
+00:26:18,733 --> 00:26:19,533
+Voilà.
+
+331
+00:26:19,733 --> 00:26:24,466
+Ça, c'est des questions pour vraiment aller sur des choses plus spécifiques qui
+vont
+
+332
+00:26:24,633 --> 00:26:27,166
+vous permettre d'élargir votre vocabulaire.
+
+333
+00:26:27,366 --> 00:26:33,733
+Donc voilà, c'était tout pour aujourd'hui, j'espère que la vidéo vous aura plu.
+
+334
+00:26:33,900 --> 00:26:40,833
+Si vous voulez des sujets spécifiques, je réfléchis pour faire des vidéos sur
+des sujets plus
+
+335
+00:26:41,033 --> 00:26:41,833
+variés.
+
+336
+00:26:42,033 --> 00:26:47,933
+Du coup, je vais réfléchir, mais n'hésitez pas à me proposer vos sujets.
+
+337
+00:26:48,200 --> 00:26:52,300
+On a passé les 10 000 abonnés sur YouTube.
+
+338
+00:26:52,433 --> 00:26:53,366
+Un énorme merci.
+
+339
+00:26:53,666 --> 00:26:57,933
+Je vais préparer la FAQ, la foire aux questions, donc la Q&A.
+
+340
+00:26:58,033 --> 00:27:01,533
+J'ai reçu plusieurs questions sur Instagram, sur YouTube.
+
+341
+00:27:01,666 --> 00:27:05,900
+Si jamais vous voulez poser une question, vous pouvez la mettre dans les
+commentaires.
+
+342
+00:27:06,066 --> 00:27:08,966
+Et après, je filmerai la vidéo.
+
+343
+00:27:09,233 --> 00:27:13,033
+Merci d'avoir regardé jusqu'au bout et je vous dis à la prochaine.
+

@@ -1,0 +1,1305 @@
+1
+00:00:00,266 --> 00:00:04,733
+Bonjour tout le monde et bienvenue dans cette nouvelle vidéo.
+
+2
+00:00:05,016 --> 00:00:13,216
+Aujourd'hui, j'avais envie de parler du sujet « Pourquoi est-ce que vous ne
+comprenez pas
+
+3
+00:00:13,500 --> 00:00:15,116
+quand les Français parlent ?».
+
+4
+00:00:15,116 --> 00:00:18,950
+Plus généralement, pourquoi on ne comprend pas quand les natifs
+
+5
+00:00:19,000 --> 00:00:25,916
+d'une langue parlent ?
+J'avais envie de parler de ce sujet parce
+
+6
+00:00:26,150 --> 00:00:31,700
+que c'est quelque chose, c'est un problème que je rencontre dans mon
+apprentissage
+
+7
+00:00:31,766 --> 00:00:32,716
+du Japonais.
+
+8
+00:00:32,883 --> 00:00:39,300
+Je voulais donc partager mon expérience, mais aussi mon point de vue et les
+solutions
+
+9
+00:00:39,566 --> 00:00:40,666
+possibles je pense.
+
+10
+00:00:41,016 --> 00:00:46,816
+Avant de commencer, vous avez le script de la vidéo disponible gratuitement
+sur mon
+
+11
+00:00:47,100 --> 00:00:47,816
+Patreon.
+
+12
+00:00:48,100 --> 00:00:54,500
+Vous pouvez également me soutenir pour 4 euros par mois et je remercie les
+6 personnes
+
+13
+00:00:54,566 --> 00:00:55,516
+qui me soutiennent.
+
+14
+00:00:55,783 --> 00:01:03,950
+Et je crois que c'est tout !
+Oui, bon, on va dire que c'est tout.
+
+15
+00:01:04,116 --> 00:01:09,666
+Du coup, pourquoi est-ce qu'on ne comprend pas quand les natifs parlent ?
+
+16
+00:01:09,716 --> 00:01:15,783
+J'ai fait une vidéo sur la courbe « Dunning Kruger ».
+Donc, « Dunning Kruger », c'est
+
+17
+00:01:15,983 --> 00:01:22,700
+la courbe qui dit que quand on commence quelque chose, on a l'impression
+d'apprendre
+
+18
+00:01:22,966 --> 00:01:23,700
+très rapidement.
+
+19
+00:01:23,966 --> 00:01:31,733
+Souvent, on appelle ça « la montagne de la stupilité », « stupidity
+
+20
+00:01:31,783 --> 00:01:36,016
+pick ».
+Je ne me rappelle plus, mais en gros, c'est qu'au début, on a l'impression
+
+21
+00:01:36,266 --> 00:01:43,850
+d'apprendre très rapidement et on a l'impression de pouvoir ... que ça va être
+facile en fait,
+
+22
+00:01:43,916 --> 00:01:47,533
+qu'apprendre le français par exemple, ça va être facile.
+
+23
+00:01:47,950 --> 00:01:55,033
+Quand j'ai appris le japonais, je me rappelle que je voyais des vidéos qui
+disaient si
+
+24
+00:01:55,283 --> 00:02:01,800
+vous connaissez 1000 mots de vocabulaire, vous connaissez déjà 80% des mots
+les plus
+
+25
+00:02:02,150 --> 00:02:02,866
+utilisés.
+
+26
+00:02:03,150 --> 00:02:09,666
+Quand on voit ça, on se dit « Si je connais 80% des mots qui sont utilisés,
+juste en
+
+27
+00:02:09,916 --> 00:02:15,816
+apprenant 1000 mots, je vais pouvoir comprendre facilement et je vais
+pouvoir parler."
+
+28
+00:02:15,883 --> 00:02:23,183
+J'étais en haut de cette montagne et du coup après, sur la courbe de
+Dunning Kruger,
+
+29
+00:02:23,366 --> 00:02:30,550
+il y a la vallée du désespoir, donc, The Despair Valley, où on se rend
+compte qu'on réalise
+
+30
+00:02:30,916 --> 00:02:33,233
+qu'en fait, ça va être beaucoup plus difficile.
+
+31
+00:02:33,466 --> 00:02:41,266
+Et ça, je pense que c'est le cas avec quand il faut comprendre des natifs
+ou quand il
+
+32
+00:02:41,533 --> 00:02:43,500
+faut parler avec des natifs.
+
+33
+00:02:43,550 --> 00:02:50,000
+C'est la même chose, par exemple, peut-être quand vous regardez ce genre de
+vlog dans
+
+34
+00:02:50,066 --> 00:02:51,016
+un français lent.
+
+35
+00:02:51,300 --> 00:02:57,950
+Là, je parle un peu plus lentement que d'habitude et j'essaye d'utiliser un
+français
+
+36
+00:02:58,216 --> 00:02:58,933
+assez simple.
+
+37
+00:02:59,000 --> 00:03:04,550
+Et peut-être qu'après, quand vous essayez de regarder du contenu natif,
+vous avez cette
+
+38
+00:03:04,816 --> 00:03:11,216
+impression que le gap entre les deux est impossible à franchir, que vous
+avez beaucoup
+
+39
+00:03:11,500 --> 00:03:15,266
+du mal à passer au contenu natif.
+
+40
+00:03:15,550 --> 00:03:19,550
+Ça, plus le plateau intermédiaire.
+
+41
+00:03:19,783 --> 00:03:23,700
+Donc, le plateau intermédiaire, c'est quand on connaît les règles de
+grammaire basique,
+
+42
+00:03:23,750 --> 00:03:29,266
+qu'on a un niveau moyen, mais qu'on a l'impression de stagner tout
+simplement parce qu'on a
+
+43
+00:03:29,516 --> 00:03:37,666
+un niveau scolaire, on va dire, moyen, mais qu'on a du mal à passer à
+l'étape supérieure
+
+44
+00:03:37,716 --> 00:03:41,333
+d'un contenu natif, par exemple.
+
+45
+00:03:41,666 --> 00:03:48,716
+Comment faire pour passer d'un contenu, d'un podcast en slow French à un
+contenu natif
+
+46
+00:03:48,950 --> 00:03:50,066
+parce que c'est ça l'objectif.
+
+47
+00:03:50,183 --> 00:03:58,500
+Récemment, j'ai commencé à regarder du contenu natif en japonais et j'aime
+beaucoup.
+
+48
+00:03:58,666 --> 00:04:04,650
+Je prends énormément de plaisir à faire de l'immersion, je m'amuse beaucoup
+et je
+
+49
+00:04:04,966 --> 00:04:07,366
+sens que mon apprentissage réaccélère.
+
+50
+00:04:07,666 --> 00:04:15,116
+Mais avant ça, plusieurs fois dans mon apprentissage, j'apprenais le
+japonais, je regardais des
+
+51
+00:04:15,383 --> 00:04:17,183
+podcasts de slow Japanese.
+
+52
+00:04:17,466 --> 00:04:24,550
+Plusieurs fois, j'ai essayé de regarder du contenu natif et je ne
+comprenais rien.
+
+53
+00:04:24,866 --> 00:04:30,066
+Et du coup, c'était un peu désespérant parce que je me disais je travaille,
+je travaille,
+
+54
+00:04:30,350 --> 00:04:35,866
+mais à la fin, je ne comprends rien quand c'est les japonais qui parlent.
+
+55
+00:04:35,916 --> 00:04:41,783
+Ce qui est un peu bête parce que quand vous apprenez une langue, vous
+voulez parler naturellement
+
+56
+00:04:42,050 --> 00:04:43,783
+avec des personnes du pays.
+
+57
+00:04:43,833 --> 00:04:48,050
+Et peut-être que ça vous fait la même chose, c'est-à-dire que vous regardez
+ce
+
+58
+00:04:48,350 --> 00:04:53,866
+genre de podcast, vous vous dites ça va, j'arrive à comprendre, je suis à
+l'aise,
+
+59
+00:04:54,133 --> 00:04:54,850
+etc.
+
+60
+00:04:55,033 --> 00:05:01,016
+Et que dès que vous passez sur du contenu natif, là, vous êtes complètement
+perdu.
+
+61
+00:05:01,300 --> 00:05:07,383
+La raison à ça, c'est qu'il y a plusieurs nuances d'une langue.
+
+62
+00:05:07,433 --> 00:05:12,300
+Je pense que sur la miniature, je vais écrire « 50 shades of French ».
+
+63
+00:05:12,366 --> 00:05:18,266
+Et ça, c'est pareil pour n'importe quelle langue, c'est-à-dire qu'on peut
+maîtriser
+
+64
+00:05:18,450 --> 00:05:21,916
+les bases, on peut connaître les règles, les règles basiques.
+
+65
+00:05:22,250 --> 00:05:29,350
+On peut avoir un bon français mais un français neutre, on va dire.
+
+66
+00:05:29,700 --> 00:05:32,866
+Après, en fait, il y a plein de nuances à avoir.
+
+67
+00:05:33,033 --> 00:05:39,466
+Et c'est là où il y a une grosse différence entre connaître du français
+simple et connaître
+
+68
+00:05:39,733 --> 00:05:41,066
+toutes les nuances du français.
+
+69
+00:05:41,116 --> 00:05:47,633
+Connaître le français simple, enfin le français basique, c'est pouvoir
+utiliser le passé
+
+70
+00:05:47,900 --> 00:05:53,700
+composé, pouvoir utiliser l'imparfait, pouvoir parler au futur, futur
+proche, ce genre de
+
+71
+00:05:53,983 --> 00:05:56,750
+choses, du conditionnel, etc.
+
+72
+00:05:56,966 --> 00:06:02,933
+Et ça, c'est en fait les règles basiques de français, c'est-à-dire que si
+je vous
+
+73
+00:06:03,266 --> 00:06:09,350
+demande qu'est-ce que vous avez fait le week-end dernier, vous allez devoir
+utiliser du passé
+
+74
+00:06:09,616 --> 00:06:10,333
+composé.
+
+75
+00:06:10,516 --> 00:06:16,716
+Si je vous demande comment était votre enfance, vous allez utiliser de
+l'imparfait, vous
+
+76
+00:06:16,966 --> 00:06:19,133
+allez plus ou moins mélanger les deux temps.
+
+77
+00:06:19,183 --> 00:06:23,050
+Si je vous dis qu'est-ce que vous allez faire le week-end prochain, vous
+allez me dire
+
+78
+00:06:23,233 --> 00:06:28,816
+« Ah, je vais faire ça, je vais faire ci », vous allez utiliser du futur
+proche.
+
+79
+00:06:29,016 --> 00:06:36,183
+Et du coup, quand vous commencez à maîtriser ça, en fait, vous pouvez avoir
+l'impression
+
+80
+00:06:36,716 --> 00:06:38,750
+de connaître le français.
+
+81
+00:06:39,016 --> 00:06:43,866
+Vous commencez à être à l'aise pour comprendre du français basique et
+pouvoir parler de
+
+82
+00:06:44,183 --> 00:06:46,200
+manière basique en français.
+
+83
+00:06:46,383 --> 00:06:52,350
+Et quand on est à cette étape-là, je pense que c'est là où on arrive un peu
+au plateau
+
+84
+00:06:52,750 --> 00:06:59,383
+intermédiaire et aussi à la vallée qu'on commence à remonter la vallée du
+désespoir
+
+85
+00:06:59,583 --> 00:07:01,350
+sur la courbe de Dunning-Kröger.
+
+86
+00:07:01,616 --> 00:07:10,916
+Je pense qu'à ce moment-là, il y a deux choses, il y a déjà le vocabulaire,
+le
+
+87
+00:07:11,183 --> 00:07:16,066
+nombre de mots que vous connaissez.
+
+88
+00:07:16,350 --> 00:07:18,950
+1000 mots ce n'est pas suffisant pour connaître une langue.
+
+89
+00:07:19,183 --> 00:07:27,466
+Je pense que cette idée de connaître 1000 mots pour connaître 80% des mots
+utilisés
+
+90
+00:07:27,916 --> 00:07:31,333
+par les natifs, c'est un peu une fausse bonne idée.
+
+91
+00:07:31,433 --> 00:07:36,983
+C'est une bonne idée parce que bien évidemment, on veut apprendre les mots
+les plus fréquents
+
+92
+00:07:37,150 --> 00:07:37,983
+en premier.
+
+93
+00:07:38,033 --> 00:07:40,983
+On ne voulait pas apprendre des mots qui ne sont jamais utilisés.
+
+94
+00:07:41,300 --> 00:07:47,166
+Donc, se concentrer sur ces 1000 mots, c'est une bonne idée pour acquérir,
+pour apprendre
+
+95
+00:07:47,316 --> 00:07:49,116
+le bon vocabulaire en premier.
+
+96
+00:07:49,366 --> 00:07:54,583
+Mais après, si vous vous dites que je vais apprendre 1000 mots, je vais
+être capable
+
+97
+00:07:54,633 --> 00:07:57,633
+de parler et de comprendre, là, c'est une erreur.
+
+98
+00:07:57,983 --> 00:08:04,033
+Tout simplement parce qu'après, il y a énormément de vocabulaire et même si
+on
+
+99
+00:08:04,066 --> 00:08:10,166
+n'utilise pas beaucoup de vocabulaire, on connaît beaucoup plus de
+vocabulaire qu'on
+
+100
+00:08:10,583 --> 00:08:11,300
+utilise.
+
+101
+00:08:11,350 --> 00:08:14,783
+Il y a une connaissance passive, une connaissance active.
+
+102
+00:08:14,966 --> 00:08:22,033
+Un natif de manière active, il va utiliser environ 10 000 mots de
+vocabulaire, mais de
+
+103
+00:08:22,300 --> 00:08:28,466
+manière passive, il va connaître, il va pouvoir comprendre 20, 30 000 mots,
+40 000 mots,
+
+104
+00:08:28,700 --> 00:08:29,466
+ça dépend.
+
+105
+00:08:29,516 --> 00:08:35,266
+Et du coup, ça, c'est important parce que dans beaucoup de cas, on
+comprend, c'est-à-dire
+
+106
+00:08:35,316 --> 00:08:40,316
+qu'en tant que français, je peux comprendre quand je lis un texte, mais ça
+se trouve,
+
+107
+00:08:40,350 --> 00:08:42,466
+je n'utilise pas beaucoup de ces mots.
+
+108
+00:08:42,650 --> 00:08:49,066
+Et ensuite, il y a cette partie vocabulaire et ensuite, il y a la partie
+plus structure
+
+109
+00:08:49,266 --> 00:08:51,466
+des phrases et, je dirais, intuition.
+
+110
+00:08:51,750 --> 00:08:58,833
+Parce qu'en fait, il y a une grosse différence entre l'apprentissage
+théorique et la pratique.
+
+111
+00:08:59,066 --> 00:09:02,783
+Ça, je m'en suis rendu compte dans mon apprentissage du japonais.
+
+112
+00:09:03,066 --> 00:09:08,150
+Quand vous apprenez le japonais, quand vous apprenez à construire une
+phrase ou vous
+
+113
+00:09:08,416 --> 00:09:13,266
+construisez une phrase complète, par exemple, pour dire qu'est-ce que c'est
+?
+
+114
+00:09:13,416 --> 00:09:14,100
+Qu'est-ce
+
+115
+00:09:14,366 --> 00:09:17,700
+que c'est ?
+On va dire « Ah, Kore ha nan desu ka ».
+
+116
+00:09:17,716 --> 00:09:19,866
+Qu'est-ce que c'est ?
+Et du coup, ça,
+
+117
+00:09:19,916 --> 00:09:27,233
+c'est vraiment « Kore ha nan desu ka ».
+C'est vraiment la phrase typique, vraiment la théorie
+
+118
+00:09:27,500 --> 00:09:28,233
+pure et dure.
+
+119
+00:09:28,266 --> 00:09:33,333
+C'est-à-dire que, quand vous ouvrez un livre, ils vont vous dire « Oui,
+voilà, Kore ceci
+
+120
+00:09:33,383 --> 00:09:36,183
+nandesuka ».
+Qu'est-ce que c'est ?
+
+121
+00:09:36,200 --> 00:09:40,133
+Enfin, oui, qu'est-ce que c'est ?
+
+122
+00:09:40,466 --> 00:09:46,333
+Quand j'ai commencé à regarder du contenu natif, je me rappelle, je prends
+cet exemple
+
+123
+00:09:46,700 --> 00:09:50,350
+parce que ça m'avait marqué, mais je me rappelle avoir regardé une vidéo.
+
+124
+00:09:50,516 --> 00:09:56,716
+Et là, il y a un japonais qui dit « Nani kore, nani kore ».
+Et en fait, j'ai compris
+
+125
+00:09:56,900 --> 00:10:00,100
+que il disait « Kore ha nan desu ka ».
+Qu'est-ce que c'est ?
+
+126
+00:10:00,116 --> 00:10:01,833
+Et en fait, il le disait un peu
+
+127
+00:10:01,866 --> 00:10:05,483
+d'une manière, comme on dit en français « Ah, c'est quoi ?
+C'est quoi ?"
+
+128
+00:10:05,700 --> 00:10:06,666
+Et à
+
+129
+00:10:06,716 --> 00:10:12,616
+ce moment-là, je me suis dit « Non seulement, il a supprimé la moitié des
+mots, mais en
+
+130
+00:10:12,850 --> 00:10:18,533
+plus, il les met dans le mauvais ordre ».
+Et c'est là le gros gap, c'est que je pense
+
+131
+00:10:18,733 --> 00:10:23,866
+qu'entre la théorie et la pratique, il y a une grosse différence.
+
+132
+00:10:24,133 --> 00:10:32,050
+Bien évidemment, il est important d'apprendre à faire une question d'une
+manière correcte.
+
+133
+00:10:32,116 --> 00:10:36,800
+Il faut apprendre à dire « Qu'est-ce que c'est ?
+» avant de dire « C'est quoi ?
+
+134
+00:10:37,133 --> 00:10:41,583
+parce qu'il faut connaître la base avant d'apprendre les différentes
+nuances.
+
+135
+00:10:41,850 --> 00:10:47,300
+Mais si vous pensez qu'en connaissant la base théorique, ça va être
+suffisant, ce
+
+136
+00:10:47,350 --> 00:10:48,300
+n'est pas le cas.
+
+137
+00:10:48,516 --> 00:10:55,666
+Et ça, en fait, je pense que c'est une sorte d'intuition où il faut après
+apprendre
+
+138
+00:10:56,216 --> 00:11:00,316
+les différentes nuances du français parce que quand on parle dans la vie de
+tous les
+
+139
+00:11:00,783 --> 00:11:07,583
+jours, je ne vais pas utiliser « Ah, qu'est-ce que c'est ?
+» Je ne vais pas dire à ma femme
+
+140
+00:11:07,633 --> 00:11:10,866
+« Ah, qu'est-ce que c'est ?
+» Je vais lui dire « Ah, c'est quoi ?
+
+141
+00:11:10,866 --> 00:11:11,783
+C'est quoi ?»
+
+142
+00:11:11,966 --> 00:11:18,183
+Et en fait, si vous ne faites pas d'immersion, si vous ne faites pas ce
+genre de choses,
+
+143
+00:11:18,450 --> 00:11:23,666
+vous n'allez pas apprendre ce genre de nuance, une nuance dans la vie de
+tous les jours.
+
+144
+00:11:23,950 --> 00:11:34,033
+Mais par contre, par exemple, si je parle avec la grand-mère de ma femme,
+je vais peut-être
+
+145
+00:11:34,416 --> 00:11:39,583
+utiliser « Qu'est-ce que c'est ?
+» Je vais utiliser une forme un peu plus polie, tout
+
+146
+00:11:39,866 --> 00:11:45,033
+simplement parce que je m'adapte un peu au contexte et du coup, il y a
+plusieurs nuances.
+
+147
+00:11:45,200 --> 00:11:53,033
+Un autre exemple dans mon apprentissage du japonais, c'est que récemment,
+j'essayais
+
+148
+00:11:53,300 --> 00:11:59,583
+avec ma femme, on a regardé le film « Demonslayer » et j'essayais un peu
+de comprendre
+
+149
+00:11:59,633 --> 00:12:00,583
+en japonais.
+
+150
+00:12:00,633 --> 00:12:05,700
+En fait, je me suis rendu compte que ce qui était super dur, c'est que dans
+la même
+
+151
+00:12:05,983 --> 00:12:11,233
+scène, il y avait un personnage qui parlait d'une manière super polie et un
+autre qui
+
+152
+00:12:11,416 --> 00:12:13,266
+parlait d'une manière super slang.
+
+153
+00:12:13,433 --> 00:12:18,950
+Et en fait, des fois, il pouvait dire la même chose, mais d'une façon
+totalement
+
+154
+00:12:19,216 --> 00:12:19,933
+différente.
+
+155
+00:12:20,116 --> 00:12:26,416
+Et en fait, même si je peux comprendre la forme neutre, si je ne connais
+pas les nuances
+
+156
+00:12:26,700 --> 00:12:32,350
+très polies ou les nuances slang, en fait, je ne vais rien comprendre à la
+scène, alors
+
+157
+00:12:32,516 --> 00:12:35,133
+que théoriquement, je suis censé pouvoir comprendre.
+
+158
+00:12:35,416 --> 00:12:46,400
+Si je vous donne un exemple en français, je vais dire par exemple une
+phrase que vous
+
+159
+00:12:46,750 --> 00:12:52,316
+allez pouvoir trouver dans un textbook ou que vous allez pouvoir trouver
+dans une discussion
+
+160
+00:12:52,583 --> 00:12:53,300
+assez polie.
+
+161
+00:12:53,350 --> 00:12:56,866
+C'est « Ah, mais qu'est-ce qu'il fait ?
+Il va être en retard.
+
+162
+00:12:57,100 --> 00:13:00,383
+Ah, what is he doing ?
+He's going to be late.
+
+163
+00:13:00,650 --> 00:13:03,416
+Mais qu'est-ce qu'il fait ?
+Il va être en retard.
+
+164
+00:13:03,816 --> 00:13:08,383
+Et en fait, si vous regardez un contenu natif, il y a beaucoup de chance
+pour que
+
+165
+00:13:08,666 --> 00:13:15,766
+cette phrase devienne « Ah, mais putain, qu'est-ce qu'il fout ?
+Il va être à la bourre.
+
+166
+00:13:16,350 --> 00:13:19,950
+Ah, mais putain, mais qu'est-ce qu'il fout ?
+Il va être à la bourre là.
+
+167
+00:13:20,216 --> 00:13:27,216
+Et techniquement, le sens, vous devriez comprendre, mais juste le fait
+que ce soit
+
+168
+00:13:27,500 --> 00:13:34,016
+dit de manière très déjà rapide, et en plus que j'utilise un peu une
+nuance
+
+169
+00:13:34,350 --> 00:13:40,466
+très slang, enfin, ce n'est pas slang, mais c'est très casual, dans le
+sens où
+
+170
+00:13:40,633 --> 00:13:44,100
+ça, c'est quelque chose que je pourrais dire par exemple devant mes
+parents.
+
+171
+00:13:44,333 --> 00:13:48,383
+Ce n'est pas quelque chose de très vulgaire.
+
+172
+00:13:48,783 --> 00:13:55,016
+Et en fait, si vous n'avez pas cette nuance, tout de suite, le contenu
+natif, il va devenir
+
+173
+00:13:55,283 --> 00:13:56,650
+très difficile à comprendre.
+
+174
+00:13:56,716 --> 00:14:01,850
+Et je pense que c'est là la difficulté, c'est là l'étape suivante, c'est de
+
+175
+00:14:02,133 --> 00:14:08,333
+découvrir les différentes nuances d'une langue, parce que la réalité, c'est
+qu'on
+
+176
+00:14:08,616 --> 00:14:14,783
+parle très rarement dans un style neutre, on utilise rarement ce genre de
+style neutre.
+
+177
+00:14:14,966 --> 00:14:20,650
+Je me rends compte quand je fais des live sur Twitch, des live jeux vidéo
+où je parle
+
+178
+00:14:20,950 --> 00:14:21,666
+français lentement.
+
+179
+00:14:21,716 --> 00:14:26,900
+L'exemple, je pense, le plus facile, c'est avec les questions.
+
+180
+00:14:27,183 --> 00:14:34,266
+Quand on apprend le français, il y a trois types de questions, il y a
+"Rising intonation",
+
+181
+00:14:34,533 --> 00:14:42,750
+donc par exemple, "Tu manges quoi ?
+Tu manges quoi ?" On prend une phrase normale et on
+
+182
+00:14:43,600 --> 00:14:44,550
+mince comment dire.
+
+183
+00:14:44,600 --> 00:14:48,150
+La prononciation monte à la fin, et ça, c'est une question.
+
+184
+00:14:48,416 --> 00:14:56,466
+Ensuite, il y a "Est-ce que" "Qu'est-ce que tu manges ?" Et à la fin, il y a la
+troisième version,
+
+185
+00:14:56,516 --> 00:14:59,183
+c'est l'inversion du sujet et du verbe.
+
+186
+00:14:59,233 --> 00:15:08,666
+"Que manges-tu ?" Bon, "Que manges-tu ?" je pense que je ne le dis jamais
+dans la vie de tous
+
+187
+00:15:08,933 --> 00:15:09,666
+les jours.
+
+188
+00:15:09,933 --> 00:15:14,983
+Bien évidemment, c'est important de le connaître pour pouvoir le
+reconnaître, pour pouvoir
+
+189
+00:15:15,033 --> 00:15:19,283
+le lire, l'écouter, mais après, c'est quelque chose qu'on utilise très peu.
+
+190
+00:15:19,766 --> 00:15:28,450
+En fait, je me rends compte que quand je joue à des jeux vidéo, j'alterne
+un peu
+
+191
+00:15:28,716 --> 00:15:29,616
+entre les deux premiers.
+
+192
+00:15:29,883 --> 00:15:34,850
+Par exemple, je vais dire "Tu fais quoi ?
+Tu fais quoi ?
+
+193
+00:15:34,900 --> 00:15:36,983
+Tu fais quoi ?" Et par contre,
+
+194
+00:15:37,383 --> 00:15:44,550
+après, je vais dire "Je suis en train de réfléchir en même temps, mais par
+exemple,
+
+195
+00:15:44,600 --> 00:15:48,816
+je vais utiliser "Tu fais quoi ?" pour "What are you doing ?" et après, je
+vais dire "Mais
+
+196
+00:15:48,950 --> 00:15:54,616
+qu'est-ce qu'il fait ?" Et je ne sais pas pourquoi, mais en fait, je jongle
+un peu
+
+197
+00:15:54,883 --> 00:15:56,233
+entre les deux styles de questions.
+
+198
+00:15:56,266 --> 00:16:01,066
+Je passe un peu d'une question à l'autre et ça, c'est quelque chose, c'est
+plus
+
+199
+00:16:01,116 --> 00:16:05,900
+de l'ordre de l'intuition, c'est plus de l'ordre de l'apprentissage
+naturel, c'est
+
+200
+00:16:05,950 --> 00:16:11,350
+à force d'écouter du français natif, à force d'écouter, c'est pareil en
+japonais
+
+201
+00:16:11,583 --> 00:16:12,350
+par exemple.
+
+202
+00:16:12,566 --> 00:16:20,466
+On développe ce genre d'intuition, on développe un peu une intuition
+naturelle où on va
+
+203
+00:16:20,516 --> 00:16:24,516
+se dire "Bah, ça sonne mieux comme ça" en fait, je l'ai tellement entendu
+de cette
+
+204
+00:16:24,783 --> 00:16:31,300
+manière que maintenant, je le dis comme ça et c'est ça, je pense l'étape
+suivante.
+
+205
+00:16:31,616 --> 00:16:37,750
+Donc, quand vous êtes bloqué à ce genre d'étapes, il faut commencer, je
+pense, à
+
+206
+00:16:38,016 --> 00:16:40,466
+essayer de s'orienter vers du contenu natif.
+
+207
+00:16:40,733 --> 00:16:46,250
+Donc, quand vous regardez tout le temps des podcasts comme celui-ci,
+parfois, ça peut
+
+208
+00:16:46,533 --> 00:16:51,450
+être un peu ennuyant et vous pouvez avoir l'impression de bien comprendre
+mais de ne
+
+209
+00:16:51,650 --> 00:16:52,466
+pas progresser.
+
+210
+00:16:52,666 --> 00:16:56,966
+Le plus difficile, c'est de passer au contenu natif.
+
+211
+00:16:57,200 --> 00:17:01,783
+C'est difficile parce qu'en fait, ce n'est plus un contenu qui est fait
+pour vous, ce
+
+212
+00:17:01,833 --> 00:17:06,500
+n'est plus un contenu qui est adapté à votre niveau et du coup, là, ce
+qu'il faut
+
+213
+00:17:06,716 --> 00:17:13,583
+de faire, c'est trouver une personne qui ne parle pas trop vite et si
+possible qui
+
+214
+00:17:13,866 --> 00:17:16,466
+parle d'un sujet assez répétitif.
+
+215
+00:17:16,783 --> 00:17:22,500
+Personnellement, pour le japonais, j'ai regardé des téléréalités, donc là,
+c'est vraiment
+
+216
+00:17:22,550 --> 00:17:27,350
+de la discussion de tous les jours et sinon, je regarde des let's play de
+jeux vidéo.
+
+217
+00:17:27,616 --> 00:17:35,416
+Là, je regarde un let's play sur Zelda Breath of the Wild et je regarde un
+autre
+
+218
+00:17:35,700 --> 00:17:42,066
+jeu vidéo que je vais peut-être faire en stream qui s'appelle La vie à la
+campagne
+
+219
+00:17:42,266 --> 00:17:43,066
+au Japon.
+
+220
+00:17:43,333 --> 00:17:50,266
+Mais en fait, comme les personnes dans le jeu, elles font plusieurs actions
+assez répétitives,
+
+221
+00:17:50,450 --> 00:17:54,416
+ça permet aussi de créer de la répétition et d'apprendre plus facilement.
+
+222
+00:17:54,583 --> 00:18:00,016
+Et en fait, là, le truc, c'est que comme c'est des streams de jeux vidéo,
+ça va
+
+223
+00:18:00,300 --> 00:18:05,616
+être un style assez casual, mais du coup, je me rends compte que je
+commence à m'habituer
+
+224
+00:18:05,783 --> 00:18:06,983
+un peu à ce style.
+
+225
+00:18:07,333 --> 00:18:11,333
+Après, la question que je me pose, c'est comment est-ce que je vais faire
+pour apprendre
+
+226
+00:18:11,750 --> 00:18:18,916
+du japonais poli et ça, c'est pareil en français, c'est comment trouver un
+contenu
+
+227
+00:18:19,366 --> 00:18:24,416
+qui est très poli pour s'habituer à ce genre de nuances de la langue.
+
+228
+00:18:24,700 --> 00:18:31,783
+Ça, je pense que ça va être par exemple avec des séries, si vous prenez par
+exemple
+
+229
+00:18:32,400 --> 00:18:37,033
+une série très à la mode en ce moment les Chroniques de Bridgerton, je
+pense que si
+
+230
+00:18:37,283 --> 00:18:42,533
+vous regardez les Chroniques de Bridgerton en français, ça va être un
+langage assez
+
+231
+00:18:42,816 --> 00:18:43,533
+soutenu.
+
+232
+00:18:43,750 --> 00:18:47,750
+Ils vont parler très poliment parce que c'est la cour, il y a la reine,
+etc.
+
+233
+00:18:47,916 --> 00:18:54,216
+Et je pense qu'après, c'est pareil par exemple pour des contenus orientés
+un peu pour le
+
+234
+00:18:54,500 --> 00:18:58,916
+travail, c'est essayer d'orienter un peu les contenus qu'on regarde.
+
+235
+00:18:59,116 --> 00:19:04,933
+Du coup, si vous avez le sentiment que vous ne progressez plus, ça vaut le
+coup de vous
+
+236
+00:19:05,266 --> 00:19:11,766
+demander est-ce que je ne peux pas essayer de regarder un style de contenu
+qui va plus
+
+237
+00:19:12,016 --> 00:19:13,783
+sur une autre nuance de la langue.
+
+238
+00:19:13,833 --> 00:19:19,433
+On a une nuance neutre et après, il faut essayer d'aller autour, voir un
+peu comment
+
+239
+00:19:19,716 --> 00:19:26,466
+sont construites les phrases, quel est le
+vocabulaire utilisé,
+
+240
+00:19:26,750 --> 00:19:27,466
+etc.
+
+241
+00:19:27,650 --> 00:19:33,383
+Et ça, c'est une étape qui n'est pas facile, qui n'est pas évidente.
+
+242
+00:19:33,550 --> 00:19:39,300
+Si c'est trop difficile, peut-être que ça veut dire que vous devez encore
+pratiquer
+
+243
+00:19:39,350 --> 00:19:44,750
+un niveau de langue neutre, mais après quand vous commencez à arriver à
+basculer sur
+
+244
+00:19:44,783 --> 00:19:49,033
+d'autres nuances, je pense que ça devient très intéressant.
+
+245
+00:19:49,333 --> 00:19:55,250
+Et du coup, c'est pour ça que je pense que ce genre de podcast, c'est assez
+complémentaire
+
+246
+00:19:55,566 --> 00:19:59,583
+avec les live que je fais sur des jeux vidéo.
+
+247
+00:20:00,066 --> 00:20:06,250
+Ce podcast, en plus, je n'ai pas de script, donc ça garde quand même un
+style un peu
+
+248
+00:20:06,516 --> 00:20:13,433
+naturel, mais je fais attention à utiliser des formes correctes, on va dire
+d'un point
+
+249
+00:20:13,616 --> 00:20:19,983
+de vue théorique, mais après, forcément, quand je joue à un jeu vidéo, ça
+va être
+
+250
+00:20:20,250 --> 00:20:20,983
+plus naturel.
+
+251
+00:20:21,266 --> 00:20:28,883
+Vous allez avoir d'autres podcasts sur YouTube avec des scripts qui vont
+être très théoriques,
+
+252
+00:20:28,933 --> 00:20:33,983
+on va dire, qui vont utiliser un français basique, très théorique, correct,
+et après,
+
+253
+00:20:34,150 --> 00:20:39,833
+il faut réussir à commencer à aller vers de plus en plus d'autres nuances
+de la langue.
+
+254
+00:20:40,150 --> 00:20:45,033
+Voilà, j'espère que c'était clair.
+
+255
+00:20:45,066 --> 00:20:51,800
+C'est quelque chose dont j'ai fait l'expérience, enfin, que je suis en
+train de faire l'expérience
+
+256
+00:20:52,116 --> 00:20:57,716
+pour mon apprentissage du japonais, et je pense que c'est une des
+difficultés qu'on
+
+257
+00:20:57,966 --> 00:20:58,700
+peut avoir.
+
+258
+00:20:58,750 --> 00:21:02,766
+Au début, on a un peu cette image de se dire « ah mais en fait, si
+j'apprends toutes
+
+259
+00:21:03,033 --> 00:21:09,300
+les règles de grammaire, je vais pouvoir comprendre, je vais pouvoir
+parler, mais en
+
+260
+00:21:09,500 --> 00:21:14,283
+fait, ce n'est pas vraiment le cas ».
+Il y a vraiment cette dimension de l'apprentissage
+
+261
+00:21:14,566 --> 00:21:20,266
+naturel avec l'intuition qui prend du temps, et ça demande juste de faire
+beaucoup d'immersion.
+
+262
+00:21:20,500 --> 00:21:24,550
+Bien évidemment, vous pouvez l'apprendre d'une manière plus théorique, mais
+je pense
+
+263
+00:21:25,050 --> 00:21:31,900
+que c'est plus efficace et c'est plus amusant surtout de le faire via une
+immersion.
+
+264
+00:21:32,183 --> 00:21:40,483
+Quand vous commencez à pouvoir regarder, écouter du contenu natif et que ça
+vous plaît,
+
+265
+00:21:40,866 --> 00:21:48,500
+je pense que c'est là où vous progressez vraiment parce que je me rends
+compte qu'un
+
+266
+00:21:48,783 --> 00:21:54,333
+moment avec le japonais, pour les podcasts, ça devenait un peu ennuyant
+parce que c'était
+
+267
+00:21:54,616 --> 00:21:57,950
+assez répétitif pour les podcasts, et je fais la même chose.
+
+268
+00:21:58,150 --> 00:22:05,000
+Et je sens que là, en prenant plaisir à regarder des Let's Play sur des
+jeux vidéo,
+
+269
+00:22:05,033 --> 00:22:09,266
+je sens que j'ai vraiment envie de regarder du contenu, de continuer à
+regarder.
+
+270
+00:22:09,700 --> 00:22:12,333
+Et donc ça, c'est la clé.
+
+271
+00:22:12,616 --> 00:22:17,416
+Enfin voilà, j'espère que cette vidéo vous aura plu.
+
+272
+00:22:17,466 --> 00:22:20,866
+Si c'est le cas, n'hésitez pas à laisser un like et un commentaire.
+
+273
+00:22:21,150 --> 00:22:30,833
+Là, on est jeudi, jeudi 12 mars, demain on va aller installer le stand à la
+convention
+
+274
+00:22:31,033 --> 00:22:31,833
+à Paris.
+
+275
+00:22:31,866 --> 00:22:36,883
+Ce week-end, je pense faire un petit vlog, mais je pense seulement le
+poster sur Patreon
+
+276
+00:22:37,183 --> 00:22:41,200
+parce que ça va être assez répétitif aussi avec le vlog de lundi.
+
+277
+00:22:41,550 --> 00:22:46,316
+Et d'ailleurs, le vlog de la convention n'a pas très bien marché, donc,
+mais merci
+
+278
+00:22:46,366 --> 00:22:48,416
+en tout cas pour tous les commentaires.
+
+279
+00:22:48,466 --> 00:22:53,083
+C'est bizarre parce qu'il ne me fait pas beaucoup de vues, mais j'ai
+beaucoup de
+
+280
+00:22:53,150 --> 00:22:54,100
+retours de personnes.
+
+281
+00:22:54,166 --> 00:22:58,600
+Je ne sais pas, mais en tout cas, merci d'avoir commenté la vidéo.
+
+282
+00:22:58,983 --> 00:23:03,633
+Merci pour le soutien et je vous dis à la semaine prochaine pour une autre
+vidéo.
+

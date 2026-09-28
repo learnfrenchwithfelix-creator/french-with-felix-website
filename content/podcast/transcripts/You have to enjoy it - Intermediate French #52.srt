@@ -1,0 +1,991 @@
+1
+00:00:00,300 --> 00:00:06,833
+Bonjour tout le monde et bienvenue dans une nouvelle vidéo, une nouvelle
+vidéo avec
+
+2
+00:00:07,066 --> 00:00:13,466
+la petite caméra comme avant, là récemment j'ai beaucoup fait de vidéos
+dans mon bureau
+
+3
+00:00:13,800 --> 00:00:20,633
+avec un plan fixe et je me suis dit pourquoi pas refaire une vidéo dans un
+cadre différent
+
+4
+00:00:20,933 --> 00:00:22,633
+avec la petite caméra.
+
+5
+00:00:22,966 --> 00:00:30,666
+Alors aujourd'hui, je voulais parler d'un sujet qui, en anglais, ça se
+traduirait comme
+
+6
+00:00:30,933 --> 00:00:39,533
+« you have to enjoy it ». En français, ça donnerait peut-être « il faut
+prendre du
+
+7
+00:00:39,866 --> 00:00:44,833
+plaisir », « il faut faire ce qu'on veut », « il faut faire ce qu'on aime». Et bien
+
+8
+00:00:45,166 --> 00:00:53,800
+sûr ça en lien avec l'apprentissage des langues. J'avais envie de parler de
+ce sujet
+
+9
+00:00:54,100 --> 00:01:00,800
+parce que souvent quand on va sur internet, il y a plein de vidéos, de
+contenus qui nous
+
+10
+00:01:01,166 --> 00:01:06,133
+disent si vous voulez apprendre une langue, il faut faire comme ça, il faut
+faire ça,
+
+11
+00:01:06,400 --> 00:01:12,100
+ça et ça. Et moi le premier, c'est-à-dire que dans mes vidéos, souvent je
+dis il faut
+
+12
+00:01:12,433 --> 00:01:18,266
+faire de l'immersion, il faut faire de l'écoute, il faut lire, il faut
+faire des flashcards,
+
+13
+00:01:18,300 --> 00:01:24,233
+il faut faire beaucoup d'immersion avant de faire de l'expression, donc
+beaucoup d'input
+
+14
+00:01:24,533 --> 00:01:32,533
+avant de faire de l'output. Et voilà, moi aussi je fais ça parce que je dis
+ça, je
+
+15
+00:01:32,866 --> 00:01:38,866
+propose ça sur ma propre expérience, mon apprentissage du japonais et je me
+dis je
+
+16
+00:01:39,200 --> 00:01:45,600
+veux essayer de donner aux personnes qui apprennent le français les
+meilleures façons pour
+
+17
+00:01:45,933 --> 00:01:50,333
+apprendre le français à partir de ma propre expérience. Et je pense que
+tout le monde
+
+18
+00:01:50,633 --> 00:01:56,200
+fait ça parce que tout le monde est plus ou moins convaincu qu'il y a des
+méthodes
+
+19
+00:01:56,466 --> 00:02:02,000
+plus ou moins efficaces et c'est vrai. Mais dans cette vidéo, je voulais
+parler
+
+20
+00:02:02,066 --> 00:02:08,833
+de… il faut prendre du plaisir, il faut aimer ce qu'on fait, tout
+simplement parce
+
+21
+00:02:08,900 --> 00:02:13,033
+que le plus important c'est d'avoir une habitude, c'est de faire un petit
+peu tous
+
+22
+00:02:13,066 --> 00:02:18,833
+les jours, un petit peu régulièrement et surtout ne pas abandonner. Et je
+vais parler
+
+23
+00:02:18,900 --> 00:02:23,933
+de ça parce que tout simplement, quand on fait quelque chose qu'on n'aime
+pas vraiment,
+
+24
+00:02:24,233 --> 00:02:28,733
+quand on fait quelque chose seulement parce qu'on nous a dit qu'il fallait
+faire comme
+
+25
+00:02:29,000 --> 00:02:36,433
+ça, souvent on arrête, on abandonne et c'est tout le sujet de cette vidéo.
+Avant de commencer,
+
+26
+00:02:36,466 --> 00:02:40,100
+je voulais vous dire que j'ai ouvert un Patreon et il y a un lien dans la
+description,
+
+27
+00:02:40,400 --> 00:02:47,766
+donc si vous voulez me soutenir, vous avez le lien et un énorme merci à
+Gilad, j'espère
+
+28
+00:02:48,000 --> 00:02:52,700
+que je prononce bien, mais Gilad qui est mon premier soutien, donc un
+énorme merci
+
+29
+00:02:52,933 --> 00:02:57,433
+à toi. L'idée de cette vidéo, ça m'est venue
+
+30
+00:02:57,733 --> 00:03:03,366
+avec mon apprentissage du Portugais. En octobre dernier, j'avais dit que je
+voulais
+
+31
+00:03:03,666 --> 00:03:10,566
+apprendre le Portugais en trois mois, donc jusqu'à fin décembre, donc pour
+pouvoir
+
+32
+00:03:10,800 --> 00:03:16,233
+fin décembre parler avec ma famille qui est portugaise. Bon, vous n'avez
+pas vu de
+
+33
+00:03:16,566 --> 00:03:21,566
+vidéo sur cette chaine où je parle avec ma famille en Portugais, donc vous avez
+sûrement
+
+34
+00:03:21,900 --> 00:03:28,500
+compris que je n'ai pas réussi, j'ai échoué, j'ai raté mon objectif, je
+n'ai pas réussi
+
+35
+00:03:28,666 --> 00:03:35,500
+à atteindre mon objectif. Et je pense qu'en grande partie, ça vient du fait
+que j'ai
+
+36
+00:03:35,833 --> 00:03:42,733
+essayé de faire des choses que finalement je n'ai pas vraiment aimé faire.
+Je m'explique.
+
+37
+00:03:43,066 --> 00:03:49,133
+Comme j'avais une contrainte, comme je me suis dit il faut que j'apprenne
+en trois
+
+38
+00:03:49,433 --> 00:03:54,933
+mois, c'est vraiment une contrainte de temps, je me suis dit mon
+apprentissage doit être
+
+39
+00:03:55,000 --> 00:04:01,700
+le plus efficace possible. Ma seule expérience avant ça d'apprentissage
+d'une langue
+
+40
+00:04:01,733 --> 00:04:07,200
+en autodidacte, donc apprendre une langue tout seul, c'était le japonais.
+Et pour
+
+41
+00:04:07,266 --> 00:04:14,133
+le japonais, souvent les méthodologies c'est faire un maximum d'immersion
+avant de faire
+
+42
+00:04:14,166 --> 00:04:20,900
+l'expression, essayer de consommer un maximum de contenu avant de pouvoir
+commencer à parler.
+
+43
+00:04:21,000 --> 00:04:24,733
+Et c'est ce que j'ai essayé de faire pour le portugais, j'ai commencé à
+regarder
+
+44
+00:04:25,566 --> 00:04:33,766
+des vidéos, j'ai commencé à créer un maximum de cartes mémoires pour
+booster ma compréhension
+
+45
+00:04:34,333 --> 00:04:39,433
+avant de passer à l'expression, avant de commencer à parler ou à écrire,
+etc.
+
+46
+00:04:39,633 --> 00:04:47,433
+Et du coup, ce que j'ai commencé à faire par exemple, c'est faire des
+cartes de mémoire
+
+47
+00:04:47,700 --> 00:04:54,266
+pour la conjugaison. J'ai demandé à Chat GPT, fais-moi des phrases pour
+tous les verbes
+
+48
+00:04:54,600 --> 00:05:00,066
+importants en portugais, fais-moi une phrase pour chaque temps et pour
+chaque pronom. Donc
+
+49
+00:05:00,300 --> 00:05:03,833
+vous savez en français par exemple on va avoir manger et on va dire je
+mange tu manges
+
+50
+00:05:04,133 --> 00:05:09,000
+il mange nous mangeons vous mangez ils mangent. Mais là en fait j'ai dit à
+Chat GPT
+
+51
+00:05:09,333 --> 00:05:16,766
+fais-moi une phrase pour chacune de ces conjugaisons je mange une pomme le
+matin je mange tu
+
+52
+00:05:17,100 --> 00:05:24,266
+manges un kiwi le soir il mange des pâtes etc. Et du coup Chat GPT m'a
+fait ça,
+
+53
+00:05:24,333 --> 00:05:30,133
+il m'a créé ces phrases et j'ai donc pu créer des cartes de mémoire avec
+ça. Et
+
+54
+00:05:30,166 --> 00:05:34,400
+là déjà il y a eu un problème c'est que j'étais un peu dans une optique,
+j'avais
+
+55
+00:05:34,466 --> 00:05:39,133
+un peu une vision d'eux, il faut que ce soit le plus efficace possible donc
+je vais créer
+
+56
+00:05:39,166 --> 00:05:44,800
+un maximum de cartes pour apprendre le plus rapidement la conjugaison. Et
+la première
+
+57
+00:05:45,033 --> 00:05:48,566
+erreur c'est que je pense que quand on fait ça, quand on crée beaucoup de
+cartes d'un
+
+58
+00:05:49,033 --> 00:05:54,966
+coup, quand on crée beaucoup de cartes avec Chat GPT, des cartes
+impersonnelles finalement
+
+59
+00:05:55,233 --> 00:06:00,966
+les phrases on ne les mémorise pas vraiment. Tout simplement parce que ce
+n'est pas nos
+
+60
+00:06:01,300 --> 00:06:07,266
+phrases, c'est vraiment quelque chose qui a été créé par Chat GPT. Et du
+coup
+
+61
+00:06:07,300 --> 00:06:13,633
+au début j'ai commencé à revoir des phrases sur la conjugaison et en fait
+je ne me mémorisais
+
+62
+00:06:13,866 --> 00:06:18,966
+pas vraiment. Non seulement c'était ennuyant parce que ce n'était pas des
+phrases que
+
+63
+00:06:19,033 --> 00:06:25,933
+j'avais particulièrement envie de dire, ces phrases n'avaient rien de
+spécial pour
+
+64
+00:06:26,233 --> 00:06:32,133
+moi. Et deuxièmement c'était moins efficace pour la mémorisation tout
+simplement parce
+
+65
+00:06:32,433 --> 00:06:39,833
+que ce n'était pas des phrases personnelles. Et du coup au bout d'un moment
+j'ai juste
+
+66
+00:06:39,866 --> 00:06:44,700
+arrêté. Au début j'ai commencé à réviser ces cartes et peut-être au bout de
+une ou
+
+67
+00:06:45,000 --> 00:06:50,700
+deux semaines j'ai commencé à me dire c'est ennuyant. C'est vraiment je ne
+prends pas
+
+68
+00:06:50,733 --> 00:06:57,933
+de plaisir à essayer de mémoriser ça parce que c'est ennuyant. J'avais
+envie d'éviter
+
+69
+00:06:58,033 --> 00:07:03,800
+le passage par écrire toutes les conjugaisons un peu chaque jour. Je vais
+peut-être essayer
+
+70
+00:07:03,866 --> 00:07:08,933
+de faire ça mais en tout cas ce que j'ai fait pour que ce soit pour que je
+prenne
+
+71
+00:07:09,233 --> 00:07:14,333
+plus de plaisir, pour que je fasse quelque chose que j'aime plus, c'est que
+j'ai commencé
+
+72
+00:07:14,366 --> 00:07:20,033
+à utiliser, bon j'utilise Gemini mais bon c'est une intelligence
+artificielle comme
+
+73
+00:07:20,100 --> 00:07:25,633
+Chat GPT. Et du coup ce que j'ai commencé à faire c'est plutôt faire
+l'inverse c'est-à-dire
+
+74
+00:07:25,866 --> 00:07:33,266
+« Bonjour Gemini, j'ai envie de pouvoir parler portugais avec ma famille,
+j'ai envie
+
+75
+00:07:33,333 --> 00:07:41,000
+de parler portugais avec toi, si je fais des erreurs, corrige mes phrases». 
+Bien évidemment
+
+76
+00:07:41,233 --> 00:07:47,466
+il m'a dit ok, il n'a pas pu me dire non je n'ai pas envie. Il m'a dit ok
+et là
+
+77
+00:07:47,600 --> 00:07:52,166
+j'ai commencé à me dire « Demain si je parle avec ma famille, qu'est-ce que
+je
+
+78
+00:07:52,400 --> 00:07:58,333
+dis ? ». Et je me suis dit « Je vais commencer par essayer de raconter mes
+journées. Je
+
+79
+00:07:58,633 --> 00:08:04,600
+vais dire aujourd'hui je vais manger chez mes parents, on va manger ça, on
+va peut-être
+
+80
+00:08:04,666 --> 00:08:10,300
+boire un peu de vin, etc. ». Et quand j'ai commencé à faire ça je me suis
+dit « Comment
+
+81
+00:08:10,566 --> 00:08:20,466
+je le dis en portugais ? » Aujourd'hui je vais manger quelque chose. Et
+rien qu'en
+
+82
+00:08:20,800 --> 00:08:26,066
+commençant comme ça j'ai commencé à me dire Comment on conjugue par
+exemple « Allez
+
+83
+00:08:26,133 --> 00:08:31,633
+je vais manger. Ça c'est le futur proche « Je vais manger quelque chose
+». Le portugais
+
+84
+00:08:31,700 --> 00:08:36,733
+c'est très similaire au français c'est une langue latine donc forcément ça
+va avoir
+
+85
+00:08:37,000 --> 00:08:43,000
+une forme très similaire. Et en portugais on dit « Eu vou comer"
+
+86
+00:08:43,066 --> 00:08:49,466
+quelque chose comme ça. Ma prononciation est encore très mauvaise.
+Et du coup avec
+
+87
+00:08:49,933 --> 00:08:56,800
+cette démarche de commencer finalement avec un peu de l'expression écrite
+j'ai commencé
+
+88
+00:08:56,866 --> 00:09:01,300
+à me poser des questions « Comment est-ce qu'on conjugue ce verbe ? Comment
+est-ce que
+
+89
+00:09:01,333 --> 00:09:07,700
+je peux dire cette phrase ? ». Et en faisant un peu le chemin inverse
+finalement j'ai
+
+90
+00:09:08,066 --> 00:09:13,300
+commencé à créer des phrases avec des conjugaisons basiques parce qu'au
+début on est forcément
+
+91
+00:09:13,600 --> 00:09:21,100
+obligé d'utiliser des conjugaisons basiques. Et du coup Gemini a commencé à
+me dire
+
+92
+00:09:21,400 --> 00:09:30,033
+« Ah pour aller en portugais c'est le verbe ir et ça se conjugue comme ça.
+» Donc tu
+
+93
+00:09:30,366 --> 00:09:38,233
+peux dire « Eu vou, Ele va etc., etc. » Ma prononciation est encore
+très mauvaise
+
+94
+00:09:38,500 --> 00:09:43,033
+tout simplement parce que je n'ai pas commencé à parler portugais. Mais je
+vais revenir
+
+95
+00:09:43,300 --> 00:09:50,866
+là-dessus. Et du coup rien qu'en faisant cette démarche qui est peut-être,
+qui à
+
+96
+00:09:51,166 --> 00:09:55,466
+première vue paraît moins efficace, c'est moins rationnel on va dire,
+c'est moins
+
+97
+00:09:55,733 --> 00:09:59,366
+j'apprends une liste, j'apprends les 700 mots les plus courants,
+j'apprends
+
+98
+00:09:59,433 --> 00:10:04,733
+les 700 mots les plus fréquents. Comme ça je vais optimiser mon temps
+d'apprentissage.
+
+99
+00:10:04,766 --> 00:10:11,233
+Et bien finalement non seulement le matin j'ai envie de le faire parce que
+ça m'intéresse,
+
+100
+00:10:11,300 --> 00:10:18,066
+je me projette, ça me donne envie de pouvoir parler avec ma famille. Et ça
+me fait finalement
+
+101
+00:10:18,400 --> 00:10:23,000
+travailler la conjugaison et je mémorise mieux tout simplement parce que
+j'applique
+
+102
+00:10:23,333 --> 00:10:31,033
+directement ces conjugaisons. Je les applique dans un cadre dans lequel je
+me projette,
+
+103
+00:10:31,366 --> 00:10:37,866
+dans une situation où je me projette. Il y a une pratique peut-être que
+vous le faites
+
+104
+00:10:37,933 --> 00:10:40,966
+en français, mais il y a une pratique qui est assez intéressante je trouve,
+c'est
+
+105
+00:10:41,266 --> 00:10:46,833
+quand vous, dans votre tête, vous vous imaginez être interviewé par
+quelqu'un en français
+
+106
+00:10:47,133 --> 00:10:52,966
+par exemple. Imaginez que vous êtes devant moi, on fait un podcast en
+français.
+
+107
+00:10:53,033 --> 00:10:58,566
+En parlant lentement et je vous pose plein de questions sur votre vie. Et
+là directement
+
+108
+00:10:58,866 --> 00:11:05,466
+vous allez commencer à réfléchir en français, à vouloir dire je suis
+américain, je suis
+
+109
+00:11:05,766 --> 00:11:12,866
+né à Chicago, pourquoi est-ce que tu apprends le français ? J'apprends le
+français parce
+
+110
+00:11:13,200 --> 00:11:19,400
+que etc. Et en fait quand on se met dans ces situations, on se projette
+beaucoup plus
+
+111
+00:11:19,800 --> 00:11:27,000
+pour parler la langue et ça c'est assez intéressant je trouve. Je le fais
+parfois
+
+112
+00:11:27,100 --> 00:11:33,000
+en anglais et j'ai commencé à le faire en japonais. Et là je vais faire une
+parenthèse
+
+113
+00:11:33,233 --> 00:11:38,800
+en fait. Je pense que l'erreur que j'ai fait avec le portugais c'est de
+vouloir faire
+
+114
+00:11:39,133 --> 00:11:44,333
+comme pour mon apprentissage du japonais. Et en fait je me suis rendu
+compte que comme
+
+115
+00:11:44,400 --> 00:11:49,800
+les langues sont complètement différentes, ça demande une approche
+différente. C'est-à-dire
+
+116
+00:11:49,866 --> 00:11:55,566
+que je ne vais pas aimer faire la même chose en portugais qu'en japonais.
+Le japonais
+
+117
+00:11:55,633 --> 00:11:59,900
+au début c'est très difficile à comprendre parce que la structure des
+phrases est très
+
+118
+00:12:00,200 --> 00:12:05,633
+différente, les mots sont très différents et en fait je pense que j'ai aimé
+faire beaucoup
+
+119
+00:12:05,700 --> 00:12:12,100
+d'immersion tout simplement parce que j'avais l'impression de déchiffrer un
+code. J'avais
+
+120
+00:12:12,266 --> 00:12:18,466
+l'impression de vraiment essayer de comprendre quelque chose de très
+difficile. Alors qu'en
+
+121
+00:12:18,766 --> 00:12:24,700
+portugais c'est devenu très vite ennuyant parce que comme c'est très
+similaire aux
+
+122
+00:12:25,000 --> 00:12:31,100
+français je me disais en fait à part quelques mots que je ne comprends pas,
+en général
+
+123
+00:12:31,200 --> 00:12:37,600
+j'arrive quand même à comprendre. Et du coup l'immersion était un peu
+ennuyante
+
+124
+00:12:37,800 --> 00:12:42,566
+pas parce que c'était trop facile mais parce que je n'avais pas
+l'impression
+
+125
+00:12:42,633 --> 00:12:49,566
+de progresser vers mon but, vers mon objectif. Et ça je pense qu'il faut se
+poser la question
+
+126
+00:12:49,633 --> 00:12:55,833
+de les langues sont très différentes et donc forcément on ne peut pas faire
+appliquer
+
+127
+00:12:55,866 --> 00:13:01,133
+la même méthode pour toutes les langues. Et du coup vraiment se poser la
+question de
+
+128
+00:13:01,200 --> 00:13:04,833
+qu'est-ce que j'aime faire, qu'est-ce que j'aimerais faire et qu'est-ce que
+quand
+
+129
+00:13:04,866 --> 00:13:11,066
+j'étudie cette langue, qu'est-ce que j'aime faire ? Et du coup pour le
+portugais j'ai
+
+130
+00:13:11,366 --> 00:13:16,800
+maintenant j'écris avec Gémini, j'essaye de lui raconter un peu mes
+journées en écrivant
+
+131
+00:13:17,133 --> 00:13:22,600
+seulement et je vais revenir là-dessus. Et en même temps je lis un livre,
+j'ai lu
+
+132
+00:13:22,933 --> 00:13:29,166
+donc le premier Harry Potter avec ma liseuse Kindle et là je lis "Mémoire
+d'une Gaïsha"
+
+133
+00:13:29,233 --> 00:13:33,633
+qui est un livre que j'avais beaucoup aimé en français et là rien que de le
+lire en
+
+134
+00:13:33,933 --> 00:13:40,766
+portugais le soir. Vraiment j'ai pas l'impression de travailler. Ce n'est
+pas un apprentissage
+
+135
+00:13:41,100 --> 00:13:46,066
+vraiment efficace parce que je ne cherche pas à comprendre à ce verbe et à
+quel temps,
+
+136
+00:13:46,366 --> 00:13:52,866
+quelle conjugaison on sait etc. Mais en tout cas je passe du temps à faire
+de l'immersion
+
+137
+00:13:52,933 --> 00:13:59,033
+et ça c'est important. Je reviens juste sur la raison pour laquelle pour
+l'instant
+
+138
+00:13:59,100 --> 00:14:05,166
+je ne fais que écrire avec Gémini, je ne parle pas encore portugais, tout
+simplement parce
+
+139
+00:14:05,500 --> 00:14:14,133
+que j'ai envie d'avoir une bonne prononciation. Ça va être difficile de
+parler couramment,
+
+140
+00:14:14,200 --> 00:14:19,866
+d'avoir un accent fluent mais j'ai vraiment envie de travailler cet aspect
+de la langue,
+
+141
+00:14:19,900 --> 00:14:24,366
+la prononciation. Ce n'est pas quelque chose que j'ai vraiment fait en
+japonais parce
+
+142
+00:14:24,666 --> 00:14:31,600
+que la prononciation est plus facile on va dire et il y a d'autres
+difficultés. Mais
+
+143
+00:14:31,966 --> 00:14:37,233
+pour le portugais, j'ai vraiment envie de faire ça et du coup je pense
+qu'il faut quand
+
+144
+00:14:37,566 --> 00:14:42,733
+même que j'écoute un maximum de portugais avant de commencer à parler. J'ai
+commencé
+
+145
+00:14:43,033 --> 00:14:48,366
+aussi à essayer de faire un peu du shadowing, donc à prendre des phrases
+spécifiques et
+
+146
+00:14:48,433 --> 00:14:53,733
+à essayer de les prononcer le mieux possible en m'enregistrant, notamment
+avec la chaîne
+
+147
+00:14:54,066 --> 00:15:01,266
+Portuguese with Leo. Et ça, je pense que pour le portugais, je vois vraiment
+une amélioration
+
+148
+00:15:01,333 --> 00:15:05,766
+et donc j'ai vraiment envie de travailler ça avant de commencer à faire de
+l'expression.
+
+149
+00:15:06,100 --> 00:15:11,766
+Donc ma recommandation, c'est d'essayer quand même de faire beaucoup
+d'écoute
+
+150
+00:15:12,100 --> 00:15:18,633
+avant de parler mais encore une fois, c'est une recommandation et si vous
+voulez commencer
+
+151
+00:15:18,733 --> 00:15:23,466
+à parler, commencer à parler, si ça vous fait plaisir, commencer à parler,
+ça sera
+
+152
+00:15:23,800 --> 00:15:28,166
+toujours de la pratique. Oui, vous allez peut-être prendre des mauvaises
+habitudes
+
+153
+00:15:28,500 --> 00:15:34,933
+mais au pire, vous corrigerez ça plus tard et avoir un accent dans la
+langue qu'on parle,
+
+154
+00:15:35,166 --> 00:15:43,200
+ça a son charme, ce n'est pas quelque chose de mauvais, je pense. Et du
+coup voilà,
+
+155
+00:15:43,266 --> 00:15:48,400
+je pense que quand j'ai commencé à apprendre le portugais, je suis parti un
+peu avec une
+
+156
+00:15:48,466 --> 00:15:54,600
+fausse idée, avec un peu cette envie de faire quelque chose de très
+logique, de très rationnel
+
+157
+00:15:54,933 --> 00:16:01,633
+pour optimiser mon apprentissage et au final, j'ai juste abandonné, enfin
+je n'ai pas
+
+158
+00:16:01,966 --> 00:16:06,166
+vraiment abandonné mais disons que quand j'ai commencé à travailler un peu
+tous les jours,
+
+159
+00:16:06,500 --> 00:16:12,166
+après j'ai commencé à faire une ou deux fois par semaine seulement et
+forcément je n'ai pas
+
+160
+00:16:12,500 --> 00:16:18,733
+progressé. Et du coup, là en changeant un peu ma méthode, je me suis rendu
+compte que le matin,
+
+161
+00:16:18,766 --> 00:16:24,766
+j'ai plus envie d'aller sur Gemini et d'essayer de parler un peu portugais.
+Bien évidemment,
+
+162
+00:16:24,833 --> 00:16:30,000
+j'essaye de pratiquer la conjugaison, c'est-à-dire que quand je fais des
+phrases, j'essaye de dire
+
+163
+00:16:30,266 --> 00:16:39,466
+je, tu, il, nous, vous, etc. J'essaye un peu de varier parce que si vous ne
+faites que parler en
+
+164
+00:16:39,800 --> 00:16:46,600
+utilisant "je", vous n'allez pas connaître les autres conjugaisons. Donc il
+faut garder un peu en
+
+165
+00:16:46,933 --> 00:16:52,400
+tête la théorie, mais après c'est vraiment essayer de faire ce qu'il nous
+plaît. Et
+
+166
+00:16:52,733 --> 00:16:57,900
+toute façon, quand vous allez vous exprimer, quand vous allez essayer de
+parler ou de faire
+
+167
+00:16:58,200 --> 00:17:03,433
+quelque chose que vous aimez, quand vous allez imaginer faire un podcast
+avec moi en français,
+
+168
+00:17:03,766 --> 00:17:11,966
+très rapidement, vous allez vous dire comment on dit ça en français,
+comment on dit "I can
+
+169
+00:17:12,766 --> 00:17:22,966
+something". En français, c'est le verbe pouvoir. Je peux manger épicé par
+exemple. Et quand vous
+
+170
+00:17:23,300 --> 00:17:28,900
+allez trouver des moyens de dire ce que vous voulez dire, vous allez
+beaucoup mieux
+
+171
+00:17:28,933 --> 00:17:35,333
+mémoriser. Et c'est ce que j'essaye par exemple de faire avec mes étudiants
+en classe, c'est-à-dire
+
+172
+00:17:35,500 --> 00:17:41,366
+que j'essaye de leur parler de sujets personnels. Je leur pose des
+questions sur leur vie, sur ce
+
+173
+00:17:41,433 --> 00:17:48,166
+qu'ils aiment faire, etc. Je suis un peu en mode détective enquête de
+police, mais je pense que
+
+174
+00:17:48,233 --> 00:17:57,233
+c'est, finalement, c'est le plus agréable et pour mémoriser, c'est assez
+efficace. Si vous faites
+
+175
+00:17:57,266 --> 00:18:02,400
+une phrase où vous parlez de vos parents, où vous parlez d'une situation
+que vous avez vécu,
+
+176
+00:18:02,733 --> 00:18:12,766
+vous allez mieux vous en rappeler. Donc voilà, un peu la morale de cette
+vidéo, c'est un peu,
+
+177
+00:18:12,833 --> 00:18:19,433
+c'est pas vraiment le bon mot, mais la morale, c'est plus de ne pas oublier
+de prendre du plaisir,
+
+178
+00:18:19,466 --> 00:18:25,600
+de ne pas oublier de faire ce que vous aimez, que ce soit pour l'immersion,
+que ce soit pour
+
+179
+00:18:25,666 --> 00:18:31,400
+l'expression, faire ce qu'on veut pour prendre du plaisir et continuer de
+progresser dans la langue.
+
+180
+00:18:31,466 --> 00:18:37,333
+Je pense que c'est le plus important et que parfois, quand on passe un peu
+dans cet état d'esprit de
+
+181
+00:18:37,566 --> 00:18:46,533
+« je veux être fluent dans un an », finalement, on oublie un peu l'objectif
+principal et on oublie
+
+182
+00:18:46,566 --> 00:18:52,966
+de prendre du plaisir et souvent on finit juste par abandonner. Et sur
+Internet, il y a beaucoup de
+
+183
+00:18:53,366 --> 00:19:00,800
+contenus comme ça. J'ai fait un reel récemment où justement, je montre une
+vidéo où c'est une
+
+184
+00:19:01,133 --> 00:19:06,000
+personne qui montre une appli d'apprentissage de langue et qui dit qu'elle
+a appris le japonais
+
+185
+00:19:06,066 --> 00:19:12,933
+en un mois. En gros, ça, je trouve que c'est des contenus, en fait, c'est
+de la publicité pour une
+
+186
+00:19:13,266 --> 00:19:20,900
+application et ça, ça génère juste de la frustration. On se met un peu dans
+un mode « c'est
+
+187
+00:19:20,933 --> 00:19:25,933
+la course, il faut que j'arrive le premier, il faut que je réussisse le
+premier », alors que
+
+188
+00:19:26,266 --> 00:19:32,833
+finalement apprendre une langue, ce n'est pas une course, c'est plus un
+marathon, c'est un voyage et
+
+189
+00:19:33,033 --> 00:19:40,233
+il faut profiter un peu du voyage sinon on arrête tout simplement. Donc
+voilà, j'espère que vous
+
+190
+00:19:40,266 --> 00:19:48,266
+aurez aimé un peu ce retour aux vidéos un peu sans script, un peu
+brouillon et avec la petite
+
+191
+00:19:48,566 --> 00:19:55,700
+caméra dans un décor différent. J'ai d'autres formes vidéo que j'ai envie
+d'essayer, que je vais
+
+192
+00:19:56,000 --> 00:20:01,300
+poster la semaine prochaine. Il y a une vidéo sur l'histoire des Daft Punk,
+donc j'espère que ça
+
+193
+00:20:01,400 --> 00:20:07,333
+va vous plaire. Et après, j'ai envie d'essayer de faire des vidéos sur
+l'actualité, donc prendre
+
+194
+00:20:07,400 --> 00:20:14,100
+un sujet d'actualité, expliquer factuellement l'actualité et dans un
+deuxième temps, faire une
+
+195
+00:20:14,400 --> 00:20:19,966
+vidéo un peu comme ça où je donne mon opinion sur l'actualité pour qu'on
+puisse échanger. Je pense
+
+196
+00:20:20,066 --> 00:20:25,200
+que ça peut être des formats intéressants. Sur les dernières vidéos, les
+statistiques étaient
+
+197
+00:20:25,533 --> 00:20:30,866
+moins bonnes, donc je ne sais pas si c'est le cadre, le sujet. Dans tous les
+cas, je vais continuer de
+
+198
+00:20:31,133 --> 00:20:38,233
+varier un peu le style des vidéos, donc n'hésitez pas à me dire ce que vous
+aimez, ce que vous avez
+
+199
+00:20:38,500 --> 00:20:46,700
+aimé, etc. Merci d'avoir regardé jusqu'au bout et du coup je vous dis à
+lundi pour une prochaine vidéo.
+

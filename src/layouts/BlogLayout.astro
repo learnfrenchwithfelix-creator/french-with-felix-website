@@ -1,0 +1,67 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import { author } from '../data/author.ts';
+
+interface Props {
+  title: string;       // raw article title — used for JSON-LD headline
+  pageTitle?: string;  // full <title> tag value (falls back to title)
+  description?: string;
+  publishDate?: Date | string;
+  dateModified?: Date | string;
+  image?: string;
+}
+
+const { title, pageTitle, description, publishDate, dateModified, image } = Astro.props;
+
+// From `site` in astro.config.mjs, without the trailing slash
+const siteUrl = new URL(Astro.site!).origin;
+const ogImage = image ? `${siteUrl}${image}` : undefined;
+
+function toISO(d: Date | string | undefined): string | undefined {
+  if (!d) return undefined;
+  const date = d instanceof Date ? d : new Date(d);
+  return date.toISOString();
+}
+
+const datePublished = toISO(publishDate);
+// fall back to datePublished when no explicit dateModified
+const dateModifiedISO = toISO(dateModified) ?? datePublished;
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BlogPosting',
+  headline: title,
+  ...(description ? { description } : {}),
+  ...(datePublished  ? { datePublished }            : {}),
+  ...(dateModifiedISO ? { dateModified: dateModifiedISO } : {}),
+  author: {
+    '@type': 'Person',
+    name: author.name,
+    url: author.url,
+  },
+  publisher: {
+    '@type': 'Organization',
+    name: 'Liminal French',
+    url: 'https://learn.frenchwithfelix.com',
+  },
+};
+---
+
+<BaseLayout title={pageTitle ?? title} description={description}>
+  <Fragment slot="head">
+    <script is:inline type="application/ld+json" set:html={JSON.stringify(jsonLd, null, 2)} />
+    <!-- Open Graph -->
+    <meta property="og:title" content={pageTitle ?? title} />
+    {description && <meta property="og:description" content={description} />}
+    <meta property="og:type" content="article" />
+    <meta property="og:site_name" content="Liminal French" />
+    {ogImage && <meta property="og:image" content={ogImage} />}
+    {datePublished && <meta property="article:published_time" content={datePublished} />}
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content={ogImage ? 'summary_large_image' : 'summary'} />
+    <meta name="twitter:title" content={title} />
+    {description && <meta name="twitter:description" content={description} />}
+    {ogImage && <meta name="twitter:image" content={ogImage} />}
+  </Fragment>
+  <slot />
+</BaseLayout>

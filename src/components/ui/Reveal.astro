@@ -1,0 +1,72 @@
+---
+// Scroll reveal. Drop <Reveal /> once on a page: every [data-reveal] element starts slightly lower and
+// transparent, then slides up into place when it scrolls into view. Elements that come into view
+// together are staggered in document order.
+// It's a CSS animation (not a transition) that leaves no styles behind once it's done, so it doesn't
+// fight an element's own hover transform or inline opacity. It also replays when a hidden element is
+// shown again (e.g. episode cards after filtering or changing page).
+---
+
+<!-- Runs before the content is painted, so nothing flashes in and back out. Without JS or with
+     reduced motion the class is never set and everything simply shows. -->
+<script is:inline>
+  if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    document.documentElement.classList.add('reveal-ready');
+  }
+</script>
+
+<style is:global>
+  html.reveal-ready [data-reveal]:not(.is-revealed) {
+    opacity: 0;
+  }
+  html.reveal-ready [data-reveal].is-revealed {
+    animation: reveal-in 700ms cubic-bezier(0.22, 1, 0.36, 1) var(--reveal-delay, 0ms) backwards;
+  }
+  @keyframes reveal-in {
+    from {
+      opacity: 0;
+      transform: translateY(18px);
+    }
+  }
+  @media print {
+    html.reveal-ready [data-reveal] {
+      opacity: 1 !important;
+      animation: none !important;
+    }
+  }
+</style>
+
+<script>
+  if (document.documentElement.classList.contains('reveal-ready')) {
+    const STAGGER_MS = 70;
+    const MAX_DELAY_MS = 560;
+    const els = Array.from(document.querySelectorAll<HTMLElement>('[data-reveal]'));
+
+    const reveal = (batch: HTMLElement[]) => {
+      batch.forEach((el, i) => {
+        el.style.setProperty('--reveal-delay', `${Math.min(i * STAGGER_MS, MAX_DELAY_MS)}ms`);
+        el.classList.add('is-revealed');
+        // A replay (hidden → shown again) should come in right away, not wait for its old stagger slot
+        el.addEventListener('animationend', () => el.style.removeProperty('--reveal-delay'), { once: true });
+      });
+    };
+
+    if ('IntersectionObserver' in window) {
+      const io = new IntersectionObserver(
+        entries => {
+          const batch = entries
+            .filter(e => e.isIntersecting)
+            .map(e => e.target as HTMLElement)
+            .sort((a, b) => (a.compareDocumentPosition(b) & Node.DOCUMENT_POSITION_FOLLOWING ? -1 : 1));
+          batch.forEach(el => io.unobserve(el));
+          reveal(batch);
+        },
+        // Fires once an element's top is ~10% of the screen above the bottom edge
+        { rootMargin: '0px 0px -10% 0px' },
+      );
+      els.forEach(el => io.observe(el));
+    } else {
+      reveal(els);
+    }
+  }
+</script>

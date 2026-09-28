@@ -1,0 +1,21 @@
+---
+interface Props {
+  episodeId: string;
+  compact?: boolean;
+}
+const { episodeId, compact = false } = Astro.props;
+// compact=true → 152px (title + controls), false → 232px (artwork + controls)
+const height = compact ? 152 : 232;
+---
+
+<iframe
+  title="Écouter sur Spotify"
+  src={`https://open.spotify.com/embed/episode/${episodeId}?utm_source=generator&theme=0`}
+  width="100%"
+  height={height}
+  frameborder="0"
+  allowfullscreen
+  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+  loading="lazy"
+  class="block w-full rounded-card"
+></iframe>

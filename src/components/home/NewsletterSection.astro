@@ -1,0 +1,53 @@
+---
+// Not wired to a provider yet — the repo has no mailing-list integration.
+---
+
+<section class="mx-auto max-w-[1180px] px-6 pb-28 md:px-12">
+  <div class="grid grid-cols-1 items-center gap-8 lg:grid-cols-[1fr_420px] lg:gap-14">
+    <div data-reveal class="relative">
+      <!-- Same label treatment as SectionHeader: small above the title on phones, vertical in the left gutter from `md` -->
+      <p
+        class="mb-3 font-mono text-[11px] font-medium uppercase tracking-[0.14em] text-accent md:absolute md:-left-8 md:top-1 md:mb-0 md:whitespace-nowrap md:text-[16px] md:[line-height:1] md:font-semibold md:tracking-[0.18em] md:[writing-mode:vertical-rl] md:rotate-180"
+      >
+        Newsletter
+      </p>
+      <h2 class="mb-3 font-display text-[clamp(1.5rem,3vw,1.875rem)] leading-[1.15] tracking-[-0.025em] text-title">
+        <span style="font-weight: var(--weight-light)">One email a week,</span>
+        <span style="font-weight: var(--weight-bold)"> in French you can read</span>
+      </h2>
+      <p class="text-base leading-[1.65] text-body">
+        A short piece of real French with the hard parts explained, plus the week's new episode. Free, no course pitch.
+      </p>
+    </div>
+
+    <form data-reveal class="flex flex-col gap-2.5 sm:flex-row">
+      <label for="newsletter-email" class="sr-only">Email address</label>
+      <input
+        id="newsletter-email"
+        type="email"
+        required
+        placeholder="you@email.com"
+        class="email-input min-w-0 flex-1 rounded-button border border-border bg-bg px-4 py-[14px] text-[15px] text-body outline-none"
+      />
+      <button
+        type="submit"
+        class="btn-accent whitespace-nowrap rounded-button bg-accent px-[22px] py-[14px] font-display text-[15px] font-semibold text-bg"
+      >
+        Subscribe
+      </button>
+    </form>
+  </div>
+</section>
+
+<style>
+  .email-input:focus {
+    border-color: var(--color-title);
+  }
+
+  .btn-accent {
+    transition: background-color 0.15s ease;
+  }
+  .btn-accent:hover {
+    background-color: var(--color-accent-dark);
+  }
+</style>

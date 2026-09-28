@@ -1,0 +1,29 @@
+---
+type Level = 'A1' | 'A2' | 'B1' | 'B2';
+
+interface Props {
+  level: Level;
+  /** `sm` = small pill (default); `lg` = square-ish mono tag used as a table cell */
+  size?: 'sm' | 'lg';
+}
+
+const { level, size = 'sm' } = Astro.props;
+
+const badgeColors: Record<Level, { bg: string; fg: string }> = {
+  A1: { bg: '#DBEAFE', fg: '#1E40AF' },
+  A2: { bg: '#D1FAE5', fg: '#065F46' },
+  B1: { bg: '#FEF3C7', fg: '#92400E' },
+  B2: { bg: '#FCE7F3', fg: '#9D174D' },
+};
+
+const { bg, fg } = badgeColors[level];
+
+const sizeClass =
+  size === 'lg'
+    ? 'inline-flex h-11 min-w-[58px] items-center justify-center rounded-[10px] px-3 font-mono text-[18px] font-medium'
+    : 'inline-block rounded-full px-[9px] py-[3px] text-[11px] font-semibold uppercase tracking-[0.08em]';
+---
+
+<span class={sizeClass} style={`background:${bg};color:${fg}`}>
+  {level}
+</span>

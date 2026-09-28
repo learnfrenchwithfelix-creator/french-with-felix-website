@@ -1,0 +1,65 @@
+---
+import Badge from '../ui/Badge.astro';
+import type { Episode } from '../../utils/episodes';
+
+interface Props {
+  episode: Episode;
+}
+
+const { episode: ep } = Astro.props;
+const thumbUrl = ep.youtubeId ? `https://img.youtube.com/vi/${ep.youtubeId}/maxresdefault.jpg` : null;
+
+const rateLabel: Record<string, string> = { lent: 'Slow', normal: 'Natural', rapide: 'Fast' };
+const rate = rateLabel[ep.speechRate] ?? ep.speechRate;
+const speed = ep.wpm > 0 ? `${rate} · ${ep.wpm} wpm` : rate;
+---
+
+<a
+  href={`/podcast/${ep.slug}`}
+  class="featured grid grid-cols-1 items-center gap-6 lg:grid-cols-[580px_minmax(0,1fr)] lg:gap-11"
+>
+  <div class="featured-thumb relative aspect-video w-full overflow-hidden rounded-[12px]">
+    {thumbUrl ? (
+      <img
+        src={thumbUrl}
+        alt={ep.titleFr}
+        width="1280"
+        height="720"
+        class="absolute inset-0 h-full w-full object-cover"
+        fetchpriority="high"
+      />
+    ) : (
+      <div class="absolute inset-0 bg-[repeating-linear-gradient(135deg,#E8E8E7,#E8E8E7_11px,#E1E1DF_11px,#E1E1DF_22px)]"></div>
+    )}
+    <div class="thumb-fade pointer-events-none absolute inset-x-0 bottom-0 h-[46%]"></div>
+    <span class="absolute bottom-3.5 left-4 font-mono text-xs font-medium uppercase tracking-[0.12em] text-white/90">Ep {ep.episodeNumber}</span>
+    <span class="absolute bottom-3.5 right-4 font-mono text-xs font-medium tracking-[0.12em] text-white/90">{ep.duration}</span>
+  </div>
+
+  <div>
+    <div class="mb-4 flex items-center gap-3">
+      <span class="font-mono text-[11px] font-medium uppercase tracking-[0.14em] text-accent">Latest episode</span>
+      <Badge level={ep.level} />
+    </div>
+    <h2 class="mb-5 font-display text-[26px] font-bold leading-[1.12] tracking-[-0.035em] text-title [text-wrap:pretty] lg:text-[34px]">
+      {ep.titleFr}
+    </h2>
+    <div class="flex flex-wrap items-center gap-x-4 gap-y-2 border-t border-border pt-4 font-mono text-xs text-muted">
+      <span>{speed}</span>
+      <span>{ep.theme}</span>
+      <span class="font-medium text-accent lg:ml-auto">▶ LISTEN + READ</span>
+    </div>
+  </div>
+</a>
+
+<style>
+  .thumb-fade {
+    background: linear-gradient(to top, rgba(18, 22, 28, 0.8), transparent);
+  }
+  .featured-thumb {
+    transition: box-shadow 220ms ease;
+  }
+  .featured:hover .featured-thumb {
+    box-shadow: 0 20px 40px -22px rgba(28, 28, 30, 0.5);
+  }
+</style>

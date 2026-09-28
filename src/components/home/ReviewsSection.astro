@@ -1,0 +1,51 @@
+---
+const reviews = [
+  {
+    quote: 'I finally stopped translating in my head. The weekly email is the only habit that stuck.',
+    name: 'Marina K.',
+    detail: 'B1 · Berlin',
+    initial: 'M',
+  },
+  {
+    quote: 'Félix explains grammar the way a friend would — no jargon, just clarity.',
+    name: 'David O.',
+    detail: 'A2 · Toronto',
+    initial: 'D',
+  },
+  {
+    quote: 'Six months in, I ordered dinner in Lyon without switching to English once.',
+    name: 'Priya N.',
+    detail: 'A2 → B1 · London',
+    initial: 'P',
+  },
+];
+---
+
+<section class="mx-auto max-w-[1180px] px-6 pb-[72px] pt-[88px] lg:px-12">
+  <div class="mb-12 text-center">
+    <p class="mb-[14px] font-mono text-xs font-medium uppercase tracking-[0.1em] text-muted">
+      From the community
+    </p>
+    <h2 class="font-display text-[34px] tracking-[-0.025em] text-title">
+      <span style="font-weight: var(--weight-light)">What</span>
+      <span style="font-weight: var(--weight-bold)">learners say</span>
+    </h2>
+  </div>
+  <div class="grid grid-cols-1 gap-7 md:grid-cols-3">
+    {reviews.map((review) => (
+      <div class="flex flex-col rounded-card border border-border bg-bg p-7">
+        <div class="mb-[18px] font-display text-[40px] font-black leading-[0.6] text-accent">“</div>
+        <p class="mb-6 flex-1 text-lg leading-[1.5] text-title">{review.quote}</p>
+        <div class="flex items-center gap-3 border-t border-border pt-[18px]">
+          <div class="flex h-[38px] w-[38px] items-center justify-center rounded-full bg-title font-display text-[15px] font-bold text-bg">
+            {review.initial}
+          </div>
+          <div>
+            <div class="text-[15px] font-semibold text-body">{review.name}</div>
+            <div class="text-[13px] text-muted">{review.detail}</div>
+          </div>
+        </div>
+      </div>
+    ))}
+  </div>
+</section>

@@ -1,0 +1,1700 @@
+1
+00:00:00,300 --> 00:00:01,300
+Bonjour tout le monde
+
+2
+00:00:01,466 --> 00:00:04,433
+et bienvenue dans un nouveau podcast
+
+3
+00:00:05,966 --> 00:00:07,833
+aujourd'hui j'avais envie de parler
+
+4
+00:00:08,333 --> 00:00:10,666
+de l'intelligence artificielle
+
+5
+00:00:11,133 --> 00:00:12,933
+j'ai déjà pardon
+
+6
+00:00:13,000 --> 00:00:15,700
+parlé plusieurs fois de l'intelligence artificielle
+
+7
+00:00:16,333 --> 00:00:18,400
+j'ai notamment fait une vidéo sur
+
+8
+00:00:18,900 --> 00:00:22,700
+comment utiliser chat GPT pour
+
+9
+00:00:22,933 --> 00:00:24,900
+aider à apprendre une langue
+
+10
+00:00:25,533 --> 00:00:26,733
+mais voilà
+
+11
+00:00:26,733 --> 00:00:30,233
+aujourd'hui j'avais envie de parler de l'intelligence
+
+12
+00:00:30,566 --> 00:00:31,500
+artificielle
+
+13
+00:00:32,133 --> 00:00:33,533
+d'une autre manière
+
+14
+00:00:34,700 --> 00:00:36,533
+en fait cette année
+
+15
+00:00:36,533 --> 00:00:39,700
+quand j'ai pris la décision de changer de travail
+
+16
+00:00:39,866 --> 00:00:42,433
+pour devenir professeur de français
+
+17
+00:00:43,166 --> 00:00:45,133
+je me suis posé beaucoup de questions
+
+18
+00:00:45,766 --> 00:00:48,633
+par rapport à l'intelligence artificielle
+
+19
+00:00:50,366 --> 00:00:53,866
+c'est un sujet qui est très d'actualité en ce moment
+
+20
+00:00:54,500 --> 00:00:58,333
+parce que d'un côté on a des difficultés économiques
+
+21
+00:00:58,900 --> 00:01:00,233
+un peu dans tous les pays
+
+22
+00:01:00,766 --> 00:01:03,600
+typiquement des questions sur l'inflation
+
+23
+00:01:04,466 --> 00:01:06,333
+et de l'autre on voit les
+
+24
+00:01:06,666 --> 00:01:09,033
+entreprises d'intelligence artificielle
+
+25
+00:01:09,300 --> 00:01:10,500
+les sociétés d'IA
+
+26
+00:01:11,900 --> 00:01:13,133
+battrent des records
+
+27
+00:01:13,600 --> 00:01:16,600
+et avoir des valorisations boursières
+
+28
+00:01:16,900 --> 00:01:18,266
+toujours plus élevées
+
+29
+00:01:18,866 --> 00:01:20,633
+les jours après les autres
+
+30
+00:01:21,266 --> 00:01:23,100
+donc d'un côté
+
+31
+00:01:23,266 --> 00:01:27,233
+les citoyens ont du mal économiquement avec l'inflation
+
+32
+00:01:27,800 --> 00:01:30,400
+et de l'autre la bourse bat des records
+
+33
+00:01:31,300 --> 00:01:36,066
+donc on ne va pas aujourd'hui parler de macro-économie
+
+34
+00:01:36,800 --> 00:01:39,700
+mais c'est je pense à un sujet qui
+
+35
+00:01:39,866 --> 00:01:42,466
+à la fois révolutionne notre vie
+
+36
+00:01:42,966 --> 00:01:45,800
+mais qui en même temps amène beaucoup d'inquiétude
+
+37
+00:01:45,966 --> 00:01:47,866
+et ce pour un peu tout le monde
+
+38
+00:01:48,500 --> 00:01:51,466
+en gros la question qu'on se pose tous en ce moment
+
+39
+00:01:51,500 --> 00:01:55,466
+c'est est-ce que l'IA va remplacer mon métier
+
+40
+00:01:56,533 --> 00:01:58,466
+est-ce que l'IA va remplacer
+
+41
+00:01:59,200 --> 00:02:00,866
+mon travail, est-ce que l'IA
+
+42
+00:02:01,333 --> 00:02:02,733
+va nous remplacer
+
+43
+00:02:03,866 --> 00:02:06,500
+et je trouvais ça intéressant parce que bon
+
+44
+00:02:06,500 --> 00:02:08,933
+j'en ai discuté plusieurs fois en cours
+
+45
+00:02:09,066 --> 00:02:10,200
+avec des élèves
+
+46
+00:02:10,800 --> 00:02:11,866
+mais c'est aussi
+
+47
+00:02:12,566 --> 00:02:14,500
+des questions que je me suis posé
+
+48
+00:02:14,533 --> 00:02:16,533
+au moment de prendre la décision
+
+49
+00:02:17,133 --> 00:02:19,500
+de devenir professeur de français
+
+50
+00:02:19,933 --> 00:02:22,333
+et créateur de contenu
+
+51
+00:02:24,066 --> 00:02:26,033
+la 1ère question que je me posais
+
+52
+00:02:26,066 --> 00:02:28,133
+mais celle-ci je vais y répondre rapidement
+
+53
+00:02:28,300 --> 00:02:29,100
+c'est de savoir
+
+54
+00:02:29,100 --> 00:02:31,366
+est-ce que les gens vont toujours avoir envie
+
+55
+00:02:31,366 --> 00:02:32,733
+d'apprendre des langues
+
+56
+00:02:33,100 --> 00:02:36,033
+en sachant qu'on a de plus en plus de traduction
+
+57
+00:02:36,200 --> 00:02:38,633
+automatique que ce soit sur internet
+
+58
+00:02:38,933 --> 00:02:41,100
+ou même dans la vraie vie maintenant
+
+59
+00:02:41,733 --> 00:02:42,400
+maintenant
+
+60
+00:02:42,400 --> 00:02:43,866
+vous pouvez utiliser Google
+
+61
+00:02:43,933 --> 00:02:46,266
+traduction pour dire quelque chose dans une langue
+
+62
+00:02:46,333 --> 00:02:48,133
+le traduire et le faire écouter
+
+63
+00:02:48,566 --> 00:02:50,600
+et on peut s'imaginer que dans le futur
+
+64
+00:02:50,600 --> 00:02:52,500
+avec l'intelligence artificielle
+
+65
+00:02:52,900 --> 00:02:54,800
+on aura des outils de traduction
+
+66
+00:02:55,200 --> 00:02:56,000
+en live
+
+67
+00:02:56,000 --> 00:02:59,500
+en direct avec les personnes avec lesquelles on parle
+
+68
+00:03:01,400 --> 00:03:03,700
+cette question je vais y répondre rapidement
+
+69
+00:03:03,700 --> 00:03:06,533
+puisque je l'ai déjà traité dans d'autres podcasts
+
+70
+00:03:06,533 --> 00:03:07,100
+mais en gros
+
+71
+00:03:07,100 --> 00:03:09,266
+je pense que même si le nombre de personnes
+
+72
+00:03:09,333 --> 00:03:11,866
+qui vont apprendre des langues étrangères
+
+73
+00:03:12,300 --> 00:03:13,500
+risque de diminuer
+
+74
+00:03:13,766 --> 00:03:15,300
+je pense qu'il y aura toujours
+
+75
+00:03:15,366 --> 00:03:17,666
+un intérêt à cet apprentissage
+
+76
+00:03:18,166 --> 00:03:21,200
+notamment parce que ça ouvre des portes sur la culture
+
+77
+00:03:21,366 --> 00:03:22,266
+d'un pays
+
+78
+00:03:23,366 --> 00:03:25,366
+c'est aussi un bon exercice
+
+79
+00:03:25,800 --> 00:03:27,200
+pour notre mémoire
+
+80
+00:03:27,200 --> 00:03:29,400
+pour notre intelligence entre guillemets
+
+81
+00:03:29,700 --> 00:03:31,700
+donc je pense qu'il y aura toujours des personnes
+
+82
+00:03:32,366 --> 00:03:34,066
+pour apprendre des langues
+
+83
+00:03:35,000 --> 00:03:37,566
+mais maintenant je me suis posé deux autres questions
+
+84
+00:03:37,733 --> 00:03:39,233
+enfin plusieurs autres questions
+
+85
+00:03:39,600 --> 00:03:40,500
+sur
+
+86
+00:03:41,066 --> 00:03:42,466
+ce changement de métier
+
+87
+00:03:42,566 --> 00:03:45,266
+sur mon envie de changer de métier pour devenir
+
+88
+00:03:45,466 --> 00:03:46,966
+professeur de français
+
+89
+00:03:49,866 --> 00:03:52,233
+en fait quand j'ai décidé de devenir professeur
+
+90
+00:03:52,466 --> 00:03:54,766
+j'apprenais déjà moi-même des langues
+
+91
+00:03:54,766 --> 00:03:56,600
+j'apprenais en autodidacte
+
+92
+00:03:56,800 --> 00:03:59,166
+j'apprenais tout seul le japonais notamment
+
+93
+00:03:59,800 --> 00:04:02,733
+et du coup même à titre personnel
+
+94
+00:04:02,866 --> 00:04:04,866
+je ne ressentais pas vraiment le besoin
+
+95
+00:04:04,933 --> 00:04:06,033
+de prendre des cours
+
+96
+00:04:06,133 --> 00:04:07,200
+avec un professeur
+
+97
+00:04:07,733 --> 00:04:10,433
+j'avais beaucoup d'outils ...
+
+98
+00:04:10,933 --> 00:04:13,366
+j'avais beaucoup d'outils disponibles
+
+99
+00:04:13,366 --> 00:04:14,433
+pardon
+
+100
+00:04:14,566 --> 00:04:16,733
+et
+
+101
+00:04:17,100 --> 00:04:18,233
+je les utilisais
+
+102
+00:04:19,066 --> 00:04:21,933
+de manière je pense efficace et du coup
+
+103
+00:04:22,400 --> 00:04:25,400
+ça diminuait mon besoin d'avoir un professeur
+
+104
+00:04:25,766 --> 00:04:29,066
+de japonais typiquement chat GPT
+
+105
+00:04:29,666 --> 00:04:31,900
+dès que j'avais une question sur de la grammaire
+
+106
+00:04:32,200 --> 00:04:34,366
+j'ai envoyé un message à Chat GPT
+
+107
+00:04:34,500 --> 00:04:37,566
+je lui demandais de me donner des exemples
+
+108
+00:04:37,700 --> 00:04:40,933
+et ça convenait parfaitement à mon besoin
+
+109
+00:04:42,166 --> 00:04:45,933
+donc sur l'aspect professeur de langue
+
+110
+00:04:45,933 --> 00:04:48,766
+déjà je me disais mais est-ce que les gens
+
+111
+00:04:48,966 --> 00:04:49,466
+auront
+
+112
+00:04:49,466 --> 00:04:51,766
+vraiment besoin d'avoir des professeurs de langue
+
+113
+00:04:52,200 --> 00:04:54,200
+et après sur la création de contenu
+
+114
+00:04:54,566 --> 00:04:56,166
+quand j'ai décidé de devenir
+
+115
+00:04:56,200 --> 00:04:58,666
+professeur de français et créateur de contenu
+
+116
+00:04:59,666 --> 00:05:02,066
+j'ai commencé à regarder
+
+117
+00:05:02,066 --> 00:05:03,600
+ce qui se faisait pardon
+
+118
+00:05:03,933 --> 00:05:05,800
+sur TikTok Instagram
+
+119
+00:05:06,166 --> 00:05:08,466
+et YouTube et là j'ai vu
+
+120
+00:05:08,600 --> 00:05:10,466
+j'ai très rapidement vu des vidéos
+
+121
+00:05:10,800 --> 00:05:12,033
+générées par IA
+
+122
+00:05:12,533 --> 00:05:14,633
+qui étaient des vidéos dans un français simple
+
+123
+00:05:14,966 --> 00:05:16,266
+dans un français lent
+
+124
+00:05:16,533 --> 00:05:18,233
+sur des sujets assez communs
+
+125
+00:05:18,800 --> 00:05:20,233
+un peu comme ce que je fais là
+
+126
+00:05:20,300 --> 00:05:22,266
+sauf que c'était des voix robotiques
+
+127
+00:05:22,800 --> 00:05:25,033
+et c'était entièrement générées par ia
+
+128
+00:05:26,100 --> 00:05:28,233
+et en fait en voyant ça je me suis dit mais
+
+129
+00:05:28,933 --> 00:05:32,866
+juste en faisant un prompt avec chat GPT
+
+130
+00:05:33,333 --> 00:05:35,366
+je peux facilement créer ce genre de vidéo
+
+131
+00:05:35,600 --> 00:05:36,466
+très rapidement
+
+132
+00:05:37,000 --> 00:05:39,600
+et du coup est-ce que ça sert toujours à quelque chose
+
+133
+00:05:40,333 --> 00:05:41,933
+d'avoir un créateur de contenu
+
+134
+00:05:41,933 --> 00:05:43,466
+qui fait ce genre de podcast
+
+135
+00:05:43,700 --> 00:05:46,300
+et ce qui demande plus de travail
+
+136
+00:05:46,366 --> 00:05:47,733
+plus de travail pour filmer
+
+137
+00:05:48,166 --> 00:05:50,466
+plus de travail pour éditer la vidéo
+
+138
+00:05:50,500 --> 00:05:51,733
+pour monter la vidéo
+
+139
+00:05:52,133 --> 00:05:53,666
+pour ensuite la poster
+
+140
+00:05:54,400 --> 00:05:57,100
+et du coup sur ces 2 constats
+
+141
+00:05:57,200 --> 00:06:00,066
+quand j'ai commencé à me m'intéresser à ce sujet
+
+142
+00:06:00,600 --> 00:06:01,833
+j'ai eu plein de questions
+
+143
+00:06:03,300 --> 00:06:05,100
+est-ce qu'on va toujours avoir besoin de
+
+144
+00:06:05,100 --> 00:06:06,300
+professeur de langue
+
+145
+00:06:07,066 --> 00:06:09,000
+à quoi ça sert de payer des cours
+
+146
+00:06:09,266 --> 00:06:12,500
+individuels si on peut accéder à tout gratuitement
+
+147
+00:06:12,966 --> 00:06:15,500
+et facilement avec chat GPT
+
+148
+00:06:16,366 --> 00:06:19,200
+quelle va être la place des créateurs de contenu
+
+149
+00:06:19,200 --> 00:06:21,833
+sur YouTube ou sur les autres plateformes
+
+150
+00:06:22,766 --> 00:06:25,200
+pourquoi s'embêter à produire du contenu
+
+151
+00:06:25,366 --> 00:06:27,100
+si on peut créer plus facilement
+
+152
+00:06:27,466 --> 00:06:28,833
+je lis mes notes
+
+153
+00:06:29,966 --> 00:06:32,766
+est-ce que ce genre de contenu est plus ou moins
+
+154
+00:06:32,933 --> 00:06:35,533
+efficace pour l'apprentissage des langues
+
+155
+00:06:36,866 --> 00:06:38,000
+même pour les étudiants
+
+156
+00:06:38,466 --> 00:06:40,700
+on parle souvent de contenu idéal
+
+157
+00:06:40,933 --> 00:06:42,200
+quand on apprend une langue
+
+158
+00:06:42,300 --> 00:06:44,500
+il faut s'immerger dans la langue
+
+159
+00:06:44,566 --> 00:06:45,400
+il faut écouter
+
+160
+00:06:45,400 --> 00:06:47,800
+il faut regarder du contenu dans la langue
+
+161
+00:06:48,166 --> 00:06:49,366
+et le contenu idéal
+
+162
+00:06:49,400 --> 00:06:50,633
+c'est un contenu qui correspond
+
+163
+00:06:50,800 --> 00:06:52,200
+parfaitement à votre niveau
+
+164
+00:06:52,366 --> 00:06:54,600
+c'est-à-dire qui n'est ni trop facile
+
+165
+00:06:54,866 --> 00:06:56,066
+ni trop difficile
+
+166
+00:06:56,466 --> 00:06:59,100
+et qui correspond à vos centres d'intérêt
+
+167
+00:06:59,100 --> 00:07:02,400
+et pour ça l'intelligence artificielle est très forte
+
+168
+00:07:02,533 --> 00:07:04,866
+elle répond parfaitement à ce besoin
+
+169
+00:07:05,266 --> 00:07:05,733
+du coup
+
+170
+00:07:05,733 --> 00:07:08,933
+est-ce que avoir un créateur de contenu comme ce que je
+
+171
+00:07:08,933 --> 00:07:10,133
+je fais maintenant
+
+172
+00:07:10,200 --> 00:07:11,933
+est-ce que c'est toujours utile
+
+173
+00:07:12,766 --> 00:07:14,933
+et du coup pour résumer
+
+174
+00:07:15,000 --> 00:07:16,733
+les 2 questions c'était
+
+175
+00:07:16,900 --> 00:07:20,033
+est-ce qu'un professeur de français est toujours utile
+
+176
+00:07:20,166 --> 00:07:23,233
+est-ce qu'un créateur de contenu est toujours utile
+
+177
+00:07:23,700 --> 00:07:25,666
+et du coup la question de cette vidéo
+
+178
+00:07:25,700 --> 00:07:28,666
+est-ce que l'intelligence artificielle
+
+179
+00:07:29,066 --> 00:07:30,533
+va me remplacer
+
+180
+00:07:30,733 --> 00:07:33,033
+plus généralement nous remplacer
+
+181
+00:07:35,000 --> 00:07:36,866
+pour ce qui est du professeur
+
+182
+00:07:37,566 --> 00:07:39,133
+du métier de professeur
+
+183
+00:07:39,133 --> 00:07:40,866
+je pense qu'il y a plusieurs points
+
+184
+00:07:41,666 --> 00:07:44,533
+premièrement
+
+185
+00:07:44,800 --> 00:07:47,200
+quand on prend un cours pardon avec un professeur
+
+186
+00:07:48,333 --> 00:07:50,866
+on accède à de la connaissance
+
+187
+00:07:50,933 --> 00:07:53,533
+le professeur nous donne de la connaissance
+
+188
+00:07:55,166 --> 00:07:58,066
+ça c'est quelque chose qui a déjà été
+
+189
+00:07:58,066 --> 00:08:00,400
+révolutionné par l'arrivée d'internet
+
+190
+00:08:01,066 --> 00:08:03,900
+avec l'arrivée d'internet maintenant on peut apprendre
+
+191
+00:08:04,400 --> 00:08:06,333
+quasiment tout et n'importe quoi
+
+192
+00:08:06,666 --> 00:08:08,666
+gratuitement et librement
+
+193
+00:08:09,133 --> 00:08:12,700
+il y a des cours de l'université d'Harvard par exemple
+
+194
+00:08:12,733 --> 00:08:15,300
+entièrement disponible sur internet
+
+195
+00:08:16,100 --> 00:08:18,633
+vous pouvez apprendre n'importe quelle langue
+
+196
+00:08:18,900 --> 00:08:22,233
+gratuitement sur internet et j'insiste là-dessus
+
+197
+00:08:23,133 --> 00:08:24,433
+et du coup l'IA
+
+198
+00:08:24,866 --> 00:08:26,033
+elle n'a pas vraiment
+
+199
+00:08:27,500 --> 00:08:29,500
+inventer cet accès à la connaissance
+
+200
+00:08:29,600 --> 00:08:31,433
+ce que l'IA a révolutionné
+
+201
+00:08:31,566 --> 00:08:34,100
+c'est en fait la manière dont on recherche
+
+202
+00:08:34,266 --> 00:08:35,300
+cette connaissance
+
+203
+00:08:36,000 --> 00:08:39,033
+avant quand on recherchait quelque chose sur internet
+
+204
+00:08:39,800 --> 00:08:42,633
+selon le sujet si c'est plus ou moins spécifique
+
+205
+00:08:43,066 --> 00:08:44,000
+ça pouvait être
+
+206
+00:08:44,166 --> 00:08:47,000
+très difficile de trouver les bonnes informations
+
+207
+00:08:47,166 --> 00:08:48,166
+au bon endroit
+
+208
+00:08:48,900 --> 00:08:51,200
+du coup ça demande de la recherche
+
+209
+00:08:51,466 --> 00:08:54,900
+et ça demande de structurer les résultats qu'on trouve
+
+210
+00:08:55,166 --> 00:08:57,833
+de structurer les informations qu'on trouve
+
+211
+00:08:58,300 --> 00:09:01,966
+et pour ça Chat GPT et n'importe quelle
+
+212
+00:09:02,100 --> 00:09:03,400
+intelligence artificielle
+
+213
+00:09:03,966 --> 00:09:04,866
+est très bon
+
+214
+00:09:05,133 --> 00:09:07,900
+c'est-à-dire que vous allez demander à Chat GPT
+
+215
+00:09:08,200 --> 00:09:10,800
+et il va vous faire le travail de recherche et de
+
+216
+00:09:10,800 --> 00:09:11,700
+synthèse
+
+217
+00:09:12,266 --> 00:09:13,166
+très rapidement
+
+218
+00:09:13,366 --> 00:09:16,000
+et de manière très propre finalement
+
+219
+00:09:16,600 --> 00:09:17,633
+donc
+
+220
+00:09:18,300 --> 00:09:19,666
+l'intelligence artificielle
+
+221
+00:09:19,700 --> 00:09:21,333
+n'a pas vraiment révolutionné
+
+222
+00:09:21,400 --> 00:09:23,066
+notre accès à la connaissance
+
+223
+00:09:23,200 --> 00:09:24,933
+je pense que c'est plutôt internet
+
+224
+00:09:25,266 --> 00:09:27,800
+qui a révolutionné notre accès à la connaissance
+
+225
+00:09:28,733 --> 00:09:30,833
+mais il facilite grandement
+
+226
+00:09:30,900 --> 00:09:32,466
+enfin l'intelligence artificielle
+
+227
+00:09:32,700 --> 00:09:34,500
+elle facilite grandement
+
+228
+00:09:35,400 --> 00:09:37,666
+cette consommation
+
+229
+00:09:38,066 --> 00:09:39,666
+de connaissance sur internet
+
+230
+00:09:40,400 --> 00:09:43,300
+on a plus besoin de chercher dans plein de sites
+
+231
+00:09:43,300 --> 00:09:44,866
+différents, le contenu
+
+232
+00:09:45,000 --> 00:09:47,633
+les connaissances qu'il nous faut
+
+233
+00:09:47,933 --> 00:09:49,933
+on peut demander à Chat GPT
+
+234
+00:09:50,266 --> 00:09:52,300
+et il nous répond rapidement
+
+235
+00:09:53,133 --> 00:09:54,033
+donc
+
+236
+00:09:54,666 --> 00:09:58,500
+j'ai envie de dire que sur l'aspect connaissance
+
+237
+00:09:59,533 --> 00:10:00,800
+Chat GPT va
+
+238
+00:10:00,800 --> 00:10:03,266
+rivaliser en fait avec un professeur de langue
+
+239
+00:10:03,266 --> 00:10:05,766
+puisqu'il va pouvoir donner de l'information
+
+240
+00:10:06,500 --> 00:10:07,766
+structurée
+
+241
+00:10:08,400 --> 00:10:10,966
+aux étudiants aux apprenants de langue
+
+242
+00:10:11,600 --> 00:10:14,233
+et ensuite après il y a tout ce qui est pédagogie
+
+243
+00:10:14,333 --> 00:10:17,266
+la pédagogie c'est la science
+
+244
+00:10:17,933 --> 00:10:19,200
+d'enseigner quelque chose
+
+245
+00:10:19,766 --> 00:10:23,966
+c'est pour faciliter l'apprentissage des élèves
+
+246
+00:10:24,533 --> 00:10:27,233
+en gros quand vous prenez des cours de langue
+
+247
+00:10:27,366 --> 00:10:28,800
+ce que vous souhaitez
+
+248
+00:10:28,966 --> 00:10:31,466
+c'est de progresser le plus efficacement possible
+
+249
+00:10:32,100 --> 00:10:35,166
+et ça le professeur il a un gros rôle à jouer puisque
+
+250
+00:10:35,466 --> 00:10:36,800
+selon son expérience
+
+251
+00:10:37,566 --> 00:10:40,900
+il va pouvoir s'adapter à l'élève
+
+252
+00:10:41,000 --> 00:10:42,566
+il va pouvoir s'adapter à vous
+
+253
+00:10:43,066 --> 00:10:44,566
+typiquement si
+
+254
+00:10:44,900 --> 00:10:46,566
+je fais un rapide exemple
+
+255
+00:10:47,566 --> 00:10:50,166
+j'ai parfois des élèves qui sont très euh
+
+256
+00:10:50,166 --> 00:10:52,266
+qui veulent vraiment faire de la discussion
+
+257
+00:10:52,366 --> 00:10:54,533
+qui sont dans un apprentissage très naturel
+
+258
+00:10:55,200 --> 00:10:55,733
+on parle
+
+259
+00:10:55,733 --> 00:10:58,300
+et ils apprennent comme ça un peu sur le tas
+
+260
+00:10:58,533 --> 00:10:59,333
+entre guillemets
+
+261
+00:10:59,733 --> 00:11:00,466
+et de l'autre côté
+
+262
+00:11:00,466 --> 00:11:01,600
+il y a des élèves qui sont
+
+263
+00:11:01,766 --> 00:11:03,666
+qui ont une approche beaucoup plus théorique
+
+264
+00:11:04,533 --> 00:11:05,700
+c'est-à-dire que
+
+265
+00:11:06,866 --> 00:11:09,966
+ils vont avoir besoin de voir les règles de grammaire
+
+266
+00:11:10,600 --> 00:11:13,100
+pour apprendre précisément la langue
+
+267
+00:11:13,900 --> 00:11:15,966
+et ça c'est aussi un travail du professeur
+
+268
+00:11:16,100 --> 00:11:17,800
+c'est de s'adapter aux besoins
+
+269
+00:11:19,266 --> 00:11:20,400
+c'est d'avoir conscience
+
+270
+00:11:20,566 --> 00:11:22,633
+qu'il y a plusieurs profils d'élèves
+
+271
+00:11:22,733 --> 00:11:26,300
+et s'adapter le mieux possible aux besoins de l'élève
+
+272
+00:11:28,066 --> 00:11:29,000
+ça pour l'instant
+
+273
+00:11:29,000 --> 00:11:31,166
+j'ai l'impression que l'intelligence artificielle
+
+274
+00:11:31,333 --> 00:11:34,666
+est un peu limitée dans le sens où Chat GPT
+
+275
+00:11:34,733 --> 00:11:35,633
+j'ai l'impression que
+
+276
+00:11:35,700 --> 00:11:38,566
+les réponses de Chat GPT restent assez générales
+
+277
+00:11:40,133 --> 00:11:43,200
+il s'adapte en partie à votre niveau
+
+278
+00:11:43,266 --> 00:11:44,833
+à ce que vous voulez apprendre
+
+279
+00:11:45,366 --> 00:11:46,300
+mais
+
+280
+00:11:46,966 --> 00:11:48,200
+c'est les messages
+
+281
+00:11:48,200 --> 00:11:50,300
+qu'il envoie sont toujours un peu plat
+
+282
+00:11:50,466 --> 00:11:52,200
+c'est jamais vraiment
+
+283
+00:11:52,600 --> 00:11:53,533
+il ne cherche
+
+284
+00:11:53,766 --> 00:11:56,000
+on a pas l'impression qu'il nous comprend vraiment
+
+285
+00:11:57,466 --> 00:11:58,600
+quand vous avez un professeur
+
+286
+00:11:58,800 --> 00:11:59,300
+l'idée
+
+287
+00:11:59,300 --> 00:12:02,066
+c'est vraiment de voilà que la personne en face
+
+288
+00:12:02,300 --> 00:12:04,200
+ressente si vous êtes démotivé
+
+289
+00:12:04,400 --> 00:12:05,700
+si vous manquez de motivation
+
+290
+00:12:05,800 --> 00:12:07,866
+ou si vous sentez bloqué à un endroit
+
+291
+00:12:08,666 --> 00:12:10,300
+et ça c'est quelque chose que
+
+292
+00:12:10,600 --> 00:12:12,300
+pour l'instant Chat GPT
+
+293
+00:12:12,600 --> 00:12:13,933
+ne rivalise pas vraiment
+
+294
+00:12:14,200 --> 00:12:15,866
+avec les professeurs de langue
+
+295
+00:12:16,866 --> 00:12:18,500
+donc d'un côté
+
+296
+00:12:18,900 --> 00:12:20,766
+un cours de langue individuel
+
+297
+00:12:21,200 --> 00:12:23,566
+c'est cher ça coûte de l'argent
+
+298
+00:12:24,800 --> 00:12:25,566
+mais de l'autre
+
+299
+00:12:25,566 --> 00:12:28,133
+je pense que ça a toujours de la valeur ajoutée
+
+300
+00:12:28,800 --> 00:12:32,300
+par rapport à un apprentissage comme Chat GPT
+
+301
+00:12:33,600 --> 00:12:36,933
+comme un apprentissage avec l'intelligence artificielle
+
+302
+00:12:37,466 --> 00:12:39,366
+pour ma part comme j'apprends le japonais
+
+303
+00:12:39,600 --> 00:12:42,700
+le portugais et un petit peu le coréen
+
+304
+00:12:43,966 --> 00:12:46,133
+en fait je suis dans la position de l'étudiant
+
+305
+00:12:46,333 --> 00:12:48,966
+et je sais ce que c'est que d'apprendre une langue
+
+306
+00:12:49,300 --> 00:12:51,300
+et du coup je ressens les difficultés
+
+307
+00:12:52,066 --> 00:12:55,000
+même si je n'ai pas appris le français de la même façon
+
+308
+00:12:55,200 --> 00:12:57,500
+j'ai eu un apprentissage naturel du français
+
+309
+00:12:57,600 --> 00:12:59,100
+c'est ma langue maternelle
+
+310
+00:13:00,466 --> 00:13:02,500
+même si je n'ai pas eu cet apprentissage
+
+311
+00:13:02,600 --> 00:13:03,566
+naturel du français (I mean the opposite lol)
+
+312
+00:13:03,966 --> 00:13:04,733
+je comprends
+
+313
+00:13:04,733 --> 00:13:07,233
+les difficultés que peuvent avoir des étudiants
+
+314
+00:13:07,500 --> 00:13:09,033
+en apprenant le français
+
+315
+00:13:09,333 --> 00:13:10,800
+par exemple sur la prononciation
+
+316
+00:13:11,466 --> 00:13:15,200
+les étudiants vont avoir du mal à prononcer les R
+
+317
+00:13:15,200 --> 00:13:17,300
+par exemple les étudiants japonais notamment
+
+318
+00:13:17,733 --> 00:13:19,466
+et pour ma part quand j'ai
+
+319
+00:13:20,200 --> 00:13:22,800
+appris quand j'ai commencé à apprendre un petit peu le
+
+320
+00:13:22,800 --> 00:13:26,066
+mandarin j'avais beaucoup de mal à
+
+321
+00:13:26,333 --> 00:13:28,033
+prononcer les mots
+
+322
+00:13:28,300 --> 00:13:29,233
+donc ça
+
+323
+00:13:29,700 --> 00:13:32,466
+cette expérience me permet de me mettre à la place
+
+324
+00:13:32,566 --> 00:13:33,500
+des étudiants
+
+325
+00:13:33,900 --> 00:13:36,533
+et c'est quelque chose que je pense
+
+326
+00:13:36,600 --> 00:13:37,733
+Chat GPT
+
+327
+00:13:37,733 --> 00:13:40,033
+ou n'importe quelle intelligence artificielle
+
+328
+00:13:40,133 --> 00:13:42,200
+va encore avoir du mal à faire
+
+329
+00:13:43,533 --> 00:13:47,000
+et ensuite sur la partie création de contenu
+
+330
+00:13:48,466 --> 00:13:50,933
+là je suis peut-être un peu plus pessimiste
+
+331
+00:13:52,800 --> 00:13:53,666
+ce que je vais dire
+
+332
+00:13:53,666 --> 00:13:56,333
+ça s'applique aussi à la création musicale
+
+333
+00:13:56,766 --> 00:13:58,166
+mais en fait ce que j'ai l'impression
+
+334
+00:13:58,266 --> 00:14:00,400
+c'est que quand on fait des choses assez basiques
+
+335
+00:14:00,533 --> 00:14:03,700
+assez mainstream comme ce que je fais là ce podcast
+
+336
+00:14:03,733 --> 00:14:05,433
+ce n'est pas vraiment très difficile
+
+337
+00:14:05,966 --> 00:14:09,500
+à réaliser ce n'est pas très original on va dire
+
+338
+00:14:09,966 --> 00:14:11,733
+je pense que c'est quelque chose que
+
+339
+00:14:11,866 --> 00:14:14,200
+Chat GPT peut faire enfin
+
+340
+00:14:14,566 --> 00:14:15,933
+les modèles
+
+341
+00:14:15,933 --> 00:14:18,533
+d'intelligence artificielle peuvent remplacer
+
+342
+00:14:18,600 --> 00:14:19,700
+assez facilement
+
+343
+00:14:20,133 --> 00:14:22,400
+et du coup les questions que je me pose c'est
+
+344
+00:14:22,733 --> 00:14:25,033
+qu'est-ce que va devenir toute cette partie de
+
+345
+00:14:25,500 --> 00:14:26,833
+création de contenu
+
+346
+00:14:28,333 --> 00:14:31,400
+si je suis encore plus pessimiste en fait je me demande
+
+347
+00:14:32,300 --> 00:14:33,766
+qu'est-ce que va devenir la musique
+
+348
+00:14:33,966 --> 00:14:35,100
+qu'on écoute en général
+
+349
+00:14:35,700 --> 00:14:37,500
+et aussi par exemple les films
+
+350
+00:14:37,700 --> 00:14:38,466
+est-ce que un jour
+
+351
+00:14:38,466 --> 00:14:41,100
+il y aura un film entièrement généré par IA
+
+352
+00:14:42,133 --> 00:14:45,033
+et le pire ça serait que ce soit un bon film
+
+353
+00:14:45,966 --> 00:14:49,500
+donc sur cette partie pour l'instant
+
+354
+00:14:50,066 --> 00:14:53,266
+j'avoue j'ai un peu du mal à voir ce que ça va donner
+
+355
+00:14:53,700 --> 00:14:55,700
+je vois déjà les TikTok
+
+356
+00:14:56,133 --> 00:14:57,766
+faits automatiquement par
+
+357
+00:14:57,900 --> 00:14:59,866
+IA qui parle lentement en français
+
+358
+00:15:00,900 --> 00:15:02,600
+je pense que ça peut être un outil
+
+359
+00:15:02,700 --> 00:15:05,233
+un bon outil pour votre apprentissage
+
+360
+00:15:05,566 --> 00:15:07,500
+mais il y a toujours cette voix robotique
+
+361
+00:15:07,933 --> 00:15:10,766
+et le fait que ce soit pas vraiment humain derrière
+
+362
+00:15:10,866 --> 00:15:12,166
+ça enlève un peu de
+
+363
+00:15:12,333 --> 00:15:13,666
+je sais pas de l'intérêt
+
+364
+00:15:13,666 --> 00:15:15,866
+de l'essence d'apprendre une langue
+
+365
+00:15:16,800 --> 00:15:17,933
+donc pour ma part
+
+366
+00:15:18,666 --> 00:15:21,300
+j'ai un peu envie de dire que j'essaierai
+
+367
+00:15:21,400 --> 00:15:22,166
+forcément toujours
+
+368
+00:15:22,166 --> 00:15:23,333
+d'écouter de la musique
+
+369
+00:15:23,400 --> 00:15:25,166
+qui a été créée par un être humain
+
+370
+00:15:25,666 --> 00:15:26,466
+de toujours
+
+371
+00:15:26,466 --> 00:15:28,766
+regarder un film qui a été créé par un être humain
+
+372
+00:15:28,766 --> 00:15:32,166
+parce que c'est ça qui donne le grain
+
+373
+00:15:32,266 --> 00:15:34,300
+artistique c'est ça qui donne
+
+374
+00:15:34,733 --> 00:15:36,000
+des émotions etc
+
+375
+00:15:36,066 --> 00:15:36,700
+alors que si
+
+376
+00:15:36,700 --> 00:15:38,733
+quand c'est généré purement par intelligence
+
+377
+00:15:38,900 --> 00:15:39,700
+artificielle
+
+378
+00:15:40,600 --> 00:15:41,800
+on peut facilement se dire
+
+379
+00:15:41,900 --> 00:15:43,000
+c'est un algorithme qui
+
+380
+00:15:43,000 --> 00:15:44,766
+a essayé de nous faire ressentir ça
+
+381
+00:15:44,966 --> 00:15:45,766
+ça etc
+
+382
+00:15:46,500 --> 00:15:49,566
+pour ce qui est du contenu purement pédagogique
+
+383
+00:15:49,766 --> 00:15:51,033
+comme les vidéos de
+
+384
+00:15:51,400 --> 00:15:54,533
+français où on parle lentement comme ce podcast
+
+385
+00:15:55,266 --> 00:15:57,900
+là j'ai un peu plus de mal à savoir
+
+386
+00:15:58,700 --> 00:16:01,366
+idem pour tout ce qui est divertissement
+
+387
+00:16:01,366 --> 00:16:02,400
+Entertainment
+
+388
+00:16:02,866 --> 00:16:05,133
+j'ai du mal à savoir à quel point
+
+389
+00:16:05,566 --> 00:16:08,300
+on va continuer à faire nous-même du contenu
+
+390
+00:16:08,700 --> 00:16:12,166
+et à quel point ce sera toujours valorisé
+
+391
+00:16:12,366 --> 00:16:13,766
+entre guillemets pardon
+
+392
+00:16:13,866 --> 00:16:15,100
+ce genre de contenu
+
+393
+00:16:15,400 --> 00:16:17,166
+fait par des humains
+
+394
+00:16:17,533 --> 00:16:21,566
+donc en soi voilà je pense que dans tous les cas
+
+395
+00:16:21,600 --> 00:16:24,933
+l'intelligence artificielle va avoir un énorme impact
+
+396
+00:16:25,400 --> 00:16:28,933
+sur mon métier sur le métier de professeur de français
+
+397
+00:16:28,933 --> 00:16:31,366
+sur le métier de créateur de contenu
+
+398
+00:16:32,133 --> 00:16:34,566
+j'ai encore du mal à savoir ce que ça va donner
+
+399
+00:16:35,600 --> 00:16:39,133
+je suis à la fois optimiste et à la fois pessimiste
+
+400
+00:16:39,266 --> 00:16:41,400
+c'est un peu une réponse nulle mais
+
+401
+00:16:42,000 --> 00:16:44,533
+je n'ai pas encore d'avis vraiment précis
+
+402
+00:16:45,400 --> 00:16:46,333
+j'aime ce que je fais
+
+403
+00:16:46,366 --> 00:16:48,500
+et je suis convaincu que ce que je fais
+
+404
+00:16:48,500 --> 00:16:49,533
+ça peut être utile
+
+405
+00:16:49,700 --> 00:16:51,600
+pour des personnes qui apprennent le français
+
+406
+00:16:51,900 --> 00:16:53,833
+et donc c'est ça qui me fait continuer
+
+407
+00:16:54,600 --> 00:16:57,133
+si c'était purement par opportunisme
+
+408
+00:16:57,133 --> 00:17:00,166
+je pense que j'arrêterai peut-être de faire ça
+
+409
+00:17:00,900 --> 00:17:03,800
+mais voilà c'était un peu ma réflexion sur
+
+410
+00:17:04,166 --> 00:17:05,933
+l'apprentissage des langues
+
+411
+00:17:05,933 --> 00:17:08,366
+le métier de professeur et de créateur de contenu
+
+412
+00:17:08,933 --> 00:17:11,133
+et aussi les bouleversements
+
+413
+00:17:11,333 --> 00:17:12,933
+les changements qui vont arriver
+
+414
+00:17:13,700 --> 00:17:16,200
+avec l'intelligence artificielle
+
+415
+00:17:18,300 --> 00:17:20,800
+j'espère que ce podcast vous aura plu
+
+416
+00:17:20,933 --> 00:17:21,766
+si c'est le cas
+
+417
+00:17:21,766 --> 00:17:24,300
+n'hésitez pas à soutenir en mettant un like
+
+418
+00:17:24,300 --> 00:17:25,233
+et un commentaire
+
+419
+00:17:26,366 --> 00:17:29,066
+et également si vous voulez parler de votre propre
+
+420
+00:17:29,166 --> 00:17:30,400
+expérience dans les commentaires
+
+421
+00:17:31,100 --> 00:17:32,100
+n'hésitez pas à parler
+
+422
+00:17:32,166 --> 00:17:35,433
+voilà de votre travail et savoir ce que vous en pensez
+
+423
+00:17:35,600 --> 00:17:38,266
+vis-à-vis de l'intelligence artificielle
+
+424
+00:17:39,400 --> 00:17:42,466
+voilà j'espère que ce podcast vous aura plu
+
+425
+00:17:42,666 --> 00:17:44,366
+et je vous dis à la prochaine
+
