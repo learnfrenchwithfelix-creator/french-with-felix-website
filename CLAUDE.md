@@ -25,6 +25,16 @@ All official URLs live in `src/config/site.ts`. Import them; never hard-code a d
 - Every "Start for free" / "Start Learning" button links to `/start` (a noindex redirect page, kept out of
   the sitemap), never straight to Kajabi.
 
+## Dates and publishing
+
+- `publishDate` (blog frontmatter; `publishDate` column of the podcast CSV) is the real go-live date,
+  `YYYY-MM-DD`. Never set a past date on content that isn't live yet, nor a future date on content that is.
+- `isPublished()` in `src/utils/content.ts` decides what gets built: not a draft, and publishDate passed.
+  Every page, listing, sitemap entry and feed (RSS included, when added) must go through it.
+- Scheduled content (future publishDate) is left out of production builds and shown in `astro dev` with a
+  "Scheduled" label. The deploy workflow also runs daily at 06:00 UTC, so it goes live on its date.
+- Blog `updatedDate` (optional) = last substantial edit → JSON-LD `dateModified` (falls back to publishDate).
+
 ## Working rules
 
 - One branch per piece of work, small explicit commits. Run `npm run build` after each and fix errors.
