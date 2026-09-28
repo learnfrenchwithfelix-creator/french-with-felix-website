@@ -4,7 +4,7 @@ description: "Frustration with French learning is normal — but it doesn't have
 publishDate: 2025-07-03
 articleNumber: 4
 slug: how-to-beat-french-learning-frustration
-level: ["A2", "B1"]
+level: ["A2"]
 category: methodes
 tags: ["french learning", "motivation", "language frustration", "immersion", "learning tips"]
 lang: en

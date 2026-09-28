@@ -4,7 +4,7 @@ description: "Sentence structure, the total absence of cognates, and a hidden tr
 articleNumber: 37
 publishDate: 2026-09-07
 slug: why-japanese-harder-than-portuguese-for-french-speakers
-level: ["B1", "B2"]
+level: ["B1"]
 category: methodes
 tags: ["japonais", "portugais", "immersion", "linguistique"]
 lang: en

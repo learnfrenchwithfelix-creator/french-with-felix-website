@@ -4,7 +4,7 @@ description: "The difference between intensive immersion (learning new vocabular
 articleNumber: 20
 publishDate: 2026-08-18
 slug: intensive-vs-extensive-immersion-french
-level: ["A2", "B1", "B2"]
+level: ["B1"]
 category: methodes
 tags: ["immersion", "compréhension orale", "automatismes", "méthode"]
 lang: en

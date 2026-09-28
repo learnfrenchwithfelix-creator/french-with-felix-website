@@ -4,7 +4,7 @@ description: "How James Clear's four laws of behavior change — make it obvious
 articleNumber: 31
 publishDate: 2026-09-25
 slug: atomic-habits-language-learning
-level: ["A2", "B1", "B2"]
+level: ["A1"]
 category: methodes
 tags: ["habitudes", "motivation", "atomic habits", "méthode"]
 lang: en

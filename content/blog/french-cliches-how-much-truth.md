@@ -4,7 +4,7 @@ description: "A French teacher who thought clichés about baguettes, wine, and c
 articleNumber: 40
 publishDate: 2026-09-28
 slug: french-cliches-how-much-truth
-level: ["A2", "B1"]
+level: ["A2"]
 category: culture
 tags: ["culture française", "clichés", "japon", "vie quotidienne"]
 lang: en

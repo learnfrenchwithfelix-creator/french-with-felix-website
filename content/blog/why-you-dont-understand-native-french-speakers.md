@@ -4,7 +4,7 @@ description: "Understanding textbook French but going blank in front of native s
 articleNumber: 14
 publishDate: 2026-07-27
 slug: why-you-dont-understand-native-french-speakers
-level: ["B1", "B2", "C1"]
+level: ["B2"]
 category: methodes
 tags: ["compréhension orale", "registre de langue", "français familier", "immersion"]
 lang: en

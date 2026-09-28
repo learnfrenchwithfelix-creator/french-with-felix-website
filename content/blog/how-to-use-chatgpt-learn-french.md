@@ -4,7 +4,7 @@ description: "A concrete, step-by-step method for using ChatGPT as a language-le
 articleNumber: 34
 publishDate: 2026-08-17
 slug: how-to-use-chatgpt-learn-french
-level: ["A2", "B1", "B2"]
+level: ["A2"]
 category: methodes
 tags: ["chatgpt", "intelligence artificielle", "méthode", "vocabulaire"]
 lang: en

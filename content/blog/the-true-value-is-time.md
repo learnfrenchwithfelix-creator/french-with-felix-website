@@ -4,7 +4,7 @@ description: "Money is measurable and reassuring, but the real value we give to 
 articleNumber: 35
 publishDate: 2026-08-24
 slug: the-true-value-is-time
-level: ["B1", "B2"]
+level: ["B1"]
 category: methodes
 tags: ["motivation", "philosophie", "temps", "performance"]
 lang: en

@@ -4,7 +4,7 @@ description: "From the advent calendar to letters addressed to Père Noël in La
 articleNumber: 26
 publishDate: 2026-09-08
 slug: christmas-in-france-traditions
-level: ["A2", "B1"]
+level: ["A2"]
 category: culture
 tags: ["culture française", "traditions", "Noël", "vie quotidienne"]
 lang: en

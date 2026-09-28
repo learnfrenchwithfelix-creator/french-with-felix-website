@@ -4,7 +4,7 @@ description: "A complete, practical guide to setting up Anki for French vocabula
 articleNumber: 9
 publishDate: 2026-07-10
 slug: anki-french-vocabulary-guide
-level: ["A1", "A2", "B1"]
+level: ["A1"]
 category: methodes
 tags: ["anki", "vocabulaire", "flashcards", "répétition espacée"]
 lang: en

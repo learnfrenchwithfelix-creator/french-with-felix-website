@@ -4,7 +4,7 @@ description: "Why comprehension and speaking are two completely different skills
 articleNumber: 19
 publishDate: 2026-08-14
 slug: understand-but-cant-speak-shadowing-method
-level: ["A2", "B1", "B2"]
+level: ["B1"]
 category: methodes
 tags: ["shadowing", "expression orale", "prononciation", "immersion"]
 lang: en

@@ -4,7 +4,7 @@ description: "Practical advice for reading French effectively: choosing the righ
 articleNumber: 36
 publishDate: 2026-08-31
 slug: 6-tips-improve-french-reading
-level: ["A2", "B1", "B2"]
+level: ["B1"]
 category: methodes
 tags: ["lecture", "vocabulaire", "immersion", "méthode"]
 lang: en

@@ -4,7 +4,7 @@ description: "Forget grammar lists. Here's how your brain really builds French f
 publishDate: 2025-07-03
 articleNumber: 2
 slug: how-your-brain-learns-french-patterns
-level: ["B1", "B2"]
+level: ["B1"]
 category: methodes
 tags: ["immersion", "language learning", "french patterns", "comprehensible input", "fluency"]
 lang: en

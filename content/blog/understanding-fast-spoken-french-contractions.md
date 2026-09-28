@@ -4,7 +4,7 @@ description: "A guide to the everyday contractions that make spoken French sound
 articleNumber: 39
 publishDate: 2026-09-21
 slug: understanding-fast-spoken-french-contractions
-level: ["B1", "B2", "C1"]
+level: ["B2"]
 category: phonetique
 tags: ["prononciation", "compréhension orale", "français familier", "phonétique"]
 lang: en

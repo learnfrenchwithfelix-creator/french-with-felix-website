@@ -4,7 +4,7 @@ description: "Flashcards combined with daily immersion is one of the most effect
 articleNumber: 27
 publishDate: 2026-09-11
 slug: flashcard-traps-to-avoid
-level: ["A2", "B1", "B2"]
+level: ["A2"]
 category: methodes
 tags: ["flashcards", "anki", "immersion", "méthode"]
 lang: en

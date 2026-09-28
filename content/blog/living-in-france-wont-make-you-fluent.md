@@ -4,7 +4,7 @@ description: "Why living in a country isn't enough on its own to learn its langu
 articleNumber: 24
 publishDate: 2026-09-01
 slug: living-in-france-wont-make-you-fluent
-level: ["A2", "B1", "B2"]
+level: ["B1"]
 category: methodes
 tags: ["immersion", "voyage", "méthode", "expatriation"]
 lang: en

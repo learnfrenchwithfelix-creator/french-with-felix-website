@@ -4,7 +4,7 @@ description: "A personal story about setting an aggressive language-learning dea
 articleNumber: 15
 publishDate: 2026-07-31
 slug: enjoy-the-process-language-learning
-level: ["A2", "B1", "B2"]
+level: ["A2"]
 category: methodes
 tags: ["motivation", "portugais", "méthode", "habitudes"]
 lang: en

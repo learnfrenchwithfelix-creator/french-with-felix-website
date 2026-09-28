@@ -4,7 +4,7 @@ description: "The French learning internet is full of FOMO. 'Use this hack or yo
 publishDate: 2025-07-03
 articleNumber: 6
 slug: fomo-radar-french-learning
-level: ["B1", "B2"]
+level: ["A2"]
 category: methodes
 tags: ["language learning", "motivation", "content creators", "french method", "FOMO"]
 lang: en

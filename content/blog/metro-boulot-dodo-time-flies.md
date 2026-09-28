@@ -4,7 +4,7 @@ description: "The French expression 'métro, boulot, dodo' captures why adult li
 articleNumber: 29
 publishDate: 2026-09-18
 slug: metro-boulot-dodo-time-flies
-level: ["B1", "B2"]
+level: ["B1"]
 category: culture
 tags: ["culture française", "expressions", "vie quotidienne", "motivation"]
 lang: en

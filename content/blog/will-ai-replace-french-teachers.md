@@ -4,7 +4,7 @@ description: "A French teacher's honest reflection on whether ChatGPT and AI-gen
 articleNumber: 30
 publishDate: 2026-09-22
 slug: will-ai-replace-french-teachers
-level: ["B1", "B2"]
+level: ["B1"]
 category: methodes
 tags: ["intelligence artificielle", "chatgpt", "professeur", "avenir"]
 lang: en

@@ -4,7 +4,7 @@ description: "Is taking French classes with a tutor actually worth it? A French 
 articleNumber: 1
 publishDate: 2025-07-03
 slug: do-you-need-a-french-tutor
-level: ["B1", "B2"]
+level: ["B1"]
 category: methodes
 tags: ["french tutor", "learn french", "french classes", "self-study", "language learning"]
 lang: en

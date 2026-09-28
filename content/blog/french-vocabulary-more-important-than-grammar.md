@@ -4,7 +4,7 @@ description: "Grammar gets all the attention in French classes. But vocabulary i
 publishDate: 2025-07-03
 articleNumber: 5
 slug: french-vocabulary-more-important-than-grammar
-level: ["A2", "B1"]
+level: ["A2"]
 category: methodes
 tags: ["french vocabulary", "french grammar", "language learning", "immersion", "fluency"]
 lang: en
