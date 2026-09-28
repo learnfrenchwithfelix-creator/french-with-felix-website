@@ -10,6 +10,7 @@ import { fetchEpisodes } from '../../utils/episodes';
 import { parsePodcastCSV } from '../../utils/parsePodcastCSV';
 import { parseSRT } from '../../utils/parseSRT';
 import { isIndexableEpisode } from '../../utils/content';
+import { episodeDescription, episodeSeoTitle } from '../../utils/episode-title.mjs';
 
 export async function getStaticPaths() {
   const episodes = await fetchEpisodes();
@@ -68,7 +69,7 @@ interface Props {
   duration:      string;
   youtubeId:     string | null;
   transcript:    { timecode: string; seconds: number; text: string }[];
-  extras:        { summary_en?: string; key_vocab?: { fr: string; en: string }[] } | null;
+  extras:        { summary_en?: string; key_vocab?: { fr: string; en: string }[]; seoTitle?: string } | null;
 }
 
 if (Astro.props.redirectTo) return Astro.redirect(Astro.props.redirectTo);
@@ -104,8 +105,10 @@ const spotifyHref =
   spotifyUrl ??
   (import.meta.env.SPOTIFY_SHOW_ID ? `https://open.spotify.com/show/${import.meta.env.SPOTIFY_SHOW_ID}` : '#');
 
-const pageTitle = `${titleFr} — Liminal French Podcast #${episodeNumber}`;
-const pageDescription = `Épisode #${episodeNumber} du podcast Liminal French. ${titleFr}. Niveau ${level} · ${duration}${wpm > 0 ? ` · ${wpm} mots/min` : ''}. Transcription complète disponible.`;
+// <title> and meta description (the H1 below stays the YouTube title)
+const seoInput = { title: titleFr, episodeNumber, level, duration, wpm };
+const pageTitle = episodeSeoTitle(seoInput, extras?.seoTitle);
+const pageDescription = episodeDescription(seoInput, extras?.summary_en);
 ---
 
 <PodcastLayout title={pageTitle} description={pageDescription} {indexable}>
