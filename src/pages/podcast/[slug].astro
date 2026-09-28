@@ -4,11 +4,24 @@ import Badge from '../../components/ui/Badge.astro';
 import CTABanner from '../../components/ui/CTABanner.astro';
 import Reveal from '../../components/ui/Reveal.astro';
 import { platformHost, platformUrl } from '../../config/site';
+import EpisodeAbout from '../../components/podcast/EpisodeAbout.astro';
+import { getCollection } from 'astro:content';
 import { fetchEpisodes } from '../../utils/episodes';
+import { parsePodcastCSV } from '../../utils/parsePodcastCSV';
 import { parseSRT } from '../../utils/parseSRT';
+import { isIndexableEpisode } from '../../utils/content';
 
 export async function getStaticPaths() {
   const episodes = await fetchEpisodes();
+
+  // Per-episode extras (src/content/podcast/<slug>.md). A file whose name matches no CSV slug is
+  // almost always a typo, so it fails the build rather than being silently ignored.
+  const extras = new Map((await getCollection('episodes')).map(e => [e.id, e.data]));
+  const csvSlugs = new Set(parsePodcastCSV().map(ep => ep.slug));
+  const orphans = [...extras.keys()].filter(id => !csvSlugs.has(id));
+  if (orphans.length) {
+    throw new Error(`src/content/podcast/: no episode with slug ${orphans.map(o => `"${o}"`).join(', ')} in the podcast CSV`);
+  }
 
   // The listing is one client-paginated page now: keep the old /podcast/2 … /podcast/N URLs
   // alive by redirecting them to /podcast?page=N.
@@ -33,6 +46,7 @@ export async function getStaticPaths() {
       duration:      ep.duration,
       youtubeId:     ep.youtubeId,
       transcript:    parseSRT(ep.slug),
+      extras:        extras.get(ep.slug) ?? null,
     },
   }));
 
@@ -54,6 +68,7 @@ interface Props {
   duration:      string;
   youtubeId:     string | null;
   transcript:    { timecode: string; seconds: number; text: string }[];
+  extras:        { summary_en?: string; key_vocab?: { fr: string; en: string }[] } | null;
 }
 
 if (Astro.props.redirectTo) return Astro.redirect(Astro.props.redirectTo);
@@ -71,7 +86,10 @@ const {
   duration,
   youtubeId,
   transcript,
+  extras,
 } = Astro.props;
+
+const indexable = isIndexableEpisode(extras);
 
 const speechRateLabel: Record<string, string> = {
   lent: 'Slow',
@@ -90,7 +108,7 @@ const pageTitle = `${titleFr} — Liminal French Podcast #${episodeNumber}`;
 const pageDescription = `Épisode #${episodeNumber} du podcast Liminal French. ${titleFr}. Niveau ${level} · ${duration}${wpm > 0 ? ` · ${wpm} mots/min` : ''}. Transcription complète disponible.`;
 ---
 
-<PodcastLayout title={pageTitle} description={pageDescription}>
+<PodcastLayout title={pageTitle} description={pageDescription} {indexable}>
   <Reveal />
 
   <div class="mx-auto max-w-[1180px] px-6 pb-12 pt-12 lg:px-12">
@@ -138,6 +156,8 @@ const pageDescription = `Épisode #${episodeNumber} du podcast Liminal French. $
         </div>
       </div>
     </div>
+
+    <EpisodeAbout summary={extras?.summary_en} vocab={extras?.key_vocab} />
 
     <!-- Two-column body -->
     <!--

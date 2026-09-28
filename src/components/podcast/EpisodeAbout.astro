@@ -1,0 +1,45 @@
+---
+// "About this episode" block at the top of an episode page: the English summary and the key
+// French → English vocabulary from src/content/podcast/<slug>.md. Renders nothing when the
+// episode has neither.
+interface Props {
+  summary?: string;
+  vocab?: { fr: string; en: string }[];
+}
+
+const { summary, vocab = [] } = Astro.props;
+---
+
+{(summary || vocab.length > 0) && (
+  <section
+    data-reveal
+    class="mb-12 grid grid-cols-1 gap-8 rounded-card border border-border bg-surface p-6 md:p-8 lg:grid-cols-[minmax(0,3fr)_minmax(0,2fr)] lg:gap-12"
+    aria-label="About this episode"
+  >
+    {summary && (
+      <div>
+        <p class="mb-3 font-mono text-[11px] font-medium uppercase tracking-[0.14em] text-accent">About this episode</p>
+        <p class="text-[17px] leading-[1.7] text-body">{summary}</p>
+      </div>
+    )}
+
+    {vocab.length > 0 && (
+      <div>
+        <p class="mb-3 font-mono text-[11px] font-medium uppercase tracking-[0.14em] text-accent">Key vocabulary</p>
+        <table class="w-full text-[15px]">
+          <thead class="sr-only">
+            <tr><th scope="col">French</th><th scope="col">English</th></tr>
+          </thead>
+          <tbody>
+            {vocab.map(({ fr, en }) => (
+              <tr class="border-b border-border last:border-b-0">
+                <td lang="fr" class="py-2 pr-4 align-top font-semibold text-title">{fr}</td>
+                <td class="py-2 align-top text-muted">{en}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    )}
+  </section>
+)}
