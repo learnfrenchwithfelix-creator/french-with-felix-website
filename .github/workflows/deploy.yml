@@ -1,7 +1,6 @@
 # Builds the Astro site and publishes it to GitHub Pages on every push to main.
 # One-time setup in the repo: Settings → Pages → Source = "GitHub Actions",
-# and the Spotify credentials as secrets of the github-pages environment
-# (Settings → Environments → github-pages → Environment secrets).
+# and the Spotify credentials as repository secrets (Settings → Secrets and variables → Actions).
 name: Deploy to GitHub Pages
 
 on:
@@ -23,8 +22,6 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    # The Spotify secrets are stored as environment secrets on github-pages
-    environment: github-pages
     steps:
       - name: Checkout
         uses: actions/checkout@v4
