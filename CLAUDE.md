@@ -20,6 +20,17 @@ All official URLs live in `src/config/site.ts`. Import them; never hard-code a d
 | `siteUrl` | https://liminalfrench.com | `site` in astro.config.mjs, canonical/JSON-LD URLs |
 | `platformUrl` | https://learn.liminalfrench.com | Kajabi course platform: "Explore courses" buttons, course banners |
 | `startUrl` | https://learn.liminalfrench.com (TODO: Kajabi sign-in + sign-up page) | Destination of `/start` |
+| `social.youtube` | https://www.youtube.com/@frenchwithfelix | Footer, author `sameAs` |
+| `social.instagram` | https://www.instagram.com/frenchwithfelix/ | Footer, author `sameAs` |
+| `social.tiktok` | https://www.tiktok.com/@frenchwithfelix | Footer, author `sameAs` |
+| `social.spotify` | https://open.spotify.com/show/0XOsew8SJzIGaN4AbC9i2n | Footer, listen links, author `sameAs` |
+| `social.applePodcasts` | https://podcasts.apple.com/podcast/id1832184743 | Listen links, author `sameAs` |
+| `podcastRssUrl` | https://feeds.acast.com/public/shows/6596d8903a2c300016c9c8f5 | RSS links, `<link rel="alternate">` on every page |
+
+- An empty URL hides the link everywhere; never render `href="#"` (`npm run check:links` fails on it).
+- Podcast listen links (Spotify / Apple / RSS) come from `src/components/podcast/ListenLinks.astro`. On an episode page
+  Spotify points to the episode when the Spotify API gives its URL, Apple to `appleEpisodeUrl` when set, else the show.
+- `SPOTIFY_SHOW_ID` is only used for the Spotify API, not for links. Patreon is no longer used.
 
 - `frenchwithfelix.com` and `learn.frenchwithfelix.com` are obsolete: never use them.
 - Every "Start for free" / "Start Learning" button links to `/start` (a noindex redirect page, kept out of
