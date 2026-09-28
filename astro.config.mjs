@@ -27,10 +27,9 @@ export default defineConfig({
 
   // Pure-JS Markdown processor: the default one (satteri) loads a native .node file
   // that Windows Smart App Control refuses to run on this machine.
+  // Markdown links to site pages get their trailing slash at build time (sources untouched).
   markdown: {
-    processor: unified(),
-    // Markdown links to site pages get their trailing slash at build time (sources untouched)
-    rehypePlugins: [rehypeTrailingSlash],
+    processor: unified({ rehypePlugins: [rehypeTrailingSlash] }),
   },
 
   vite: {
