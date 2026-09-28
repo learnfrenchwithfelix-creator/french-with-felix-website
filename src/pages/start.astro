@@ -1,0 +1,23 @@
+---
+// /start — the target of every "Start for free" / "Start Learning" button.
+// GitHub Pages can't redirect server-side, so this page redirects instantly in the browser
+// (meta refresh + script) to startUrl. noindex, and excluded from the sitemap in astro.config.mjs.
+import { startUrl } from '../config/site';
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, follow" />
+    <meta http-equiv="refresh" content={`0; url=${startUrl}`} />
+    <title>Redirecting to Liminal French…</title>
+    <script is:inline define:vars={{ startUrl }}>
+      window.location.replace(startUrl);
+    </script>
+  </head>
+  <body>
+    <p>Redirecting… <a href={startUrl}>Continue to Liminal French</a></p>
+  </body>
+</html>
