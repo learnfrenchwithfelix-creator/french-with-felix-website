@@ -15,7 +15,7 @@ export async function getStaticPaths() {
   const lastListingPage = Math.ceil(episodes.length / 12);
   const legacyPages = Array.from({ length: Math.max(0, lastListingPage - 1) }, (_, i) => ({
     params: { slug: String(i + 2) },
-    props: { redirectTo: `/podcast?page=${i + 2}` },
+    props: { redirectTo: `/podcast/?page=${i + 2}` },
   }));
 
   const episodePaths = episodes.map(ep => ({
@@ -97,7 +97,7 @@ const pageDescription = `Épisode #${episodeNumber} du podcast Liminal French. $
 
     <!-- Breadcrumb -->
     <a
-      href="/podcast"
+      href="/podcast/"
       data-print-hide
       class="mb-8 inline-flex items-center gap-1 font-mono text-[12px] font-medium uppercase tracking-[0.1em] text-muted transition-colors hover:text-accent"
     >

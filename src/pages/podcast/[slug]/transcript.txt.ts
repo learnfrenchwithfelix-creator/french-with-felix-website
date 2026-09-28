@@ -17,7 +17,7 @@ export const GET: APIRoute = ({ props, site }) => {
     `Liminal French Podcast — Episode ${ep.episodeNumber}`,
     ep.titleFr,
     `Level ${ep.level} · ${ep.duration}${ep.wpm > 0 ? ` · ${ep.wpm} wpm` : ''}`,
-    new URL(`/podcast/${ep.slug}`, site).href, // `site` from astro.config.mjs
+    new URL(`/podcast/${ep.slug}/`, site).href, // `site` from astro.config.mjs
   ].join('\n');
 
   const body = paragraphs.length

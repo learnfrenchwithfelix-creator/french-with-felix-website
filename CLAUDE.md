@@ -25,6 +25,20 @@ All official URLs live in `src/config/site.ts`. Import them; never hard-code a d
 - Every "Start for free" / "Start Learning" button links to `/start` (a noindex redirect page, kept out of
   the sitemap), never straight to Kajabi.
 
+## URL convention
+
+- Every page URL ends with "/": `/blog/`, `/podcast/<slug>/`, `/about/`, `/start/`. GitHub Pages serves
+  pages as folders and 301-redirects the slash-less form, so internal links always include the slash.
+- Exceptions: the home page `/`, files (`/favicon.svg`, `/podcast/<slug>/transcript.txt`, `/robots.txt`,
+  `/sitemap-index.xml`) and anchors.
+- Markdown links in articles get their slash added at build time (`src/utils/rehype-trailing-slash.mjs`),
+  so article sources don't need editing.
+- `trailingSlash` stays `'ignore'` in astro.config.mjs (`'always'` breaks the transcript.txt endpoint).
+  After every build, run `npm run check:links`: it fails on any internal link without the slash or
+  pointing to a missing page.
+- URLs are in English for new content (`/blog/french-subjunctive-guide/`); existing podcast slugs are French
+  and must not change.
+
 ## Dates and publishing
 
 - `publishDate` (blog frontmatter; `publishDate` column of the podcast CSV) is the real go-live date,
@@ -37,7 +51,8 @@ All official URLs live in `src/config/site.ts`. Import them; never hard-code a d
 
 ## Working rules
 
-- One branch per piece of work, small explicit commits. Run `npm run build` after each and fix errors.
+- One branch per piece of work, small explicit commits. Run `npm run build` then `npm run check:links`
+  after each and fix errors.
 - Never push, merge or deploy without the owner's go-ahead.
 - Never edit the text of transcripts (`src/content/podcast/*.srt`) or blog articles (`content/blog/*.md`)
   unless asked; report errors instead.
