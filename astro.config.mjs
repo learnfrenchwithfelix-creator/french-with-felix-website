@@ -7,6 +7,10 @@ import mdx from '@astrojs/mdx';
 import { unified } from '@astrojs/markdown-remark';
 import { siteUrl } from './src/config/site.ts';
 import rehypeTrailingSlash from './src/utils/rehype-trailing-slash.mjs';
+import { indexableEpisodeSlugs } from './src/utils/episode-meta.mjs';
+
+// Episodes with a summary_en in src/content/podcast/<slug>.md (the only indexable ones)
+const indexableEpisodes = indexableEpisodeSlugs();
 
 // https://astro.build/config
 export default defineConfig({
@@ -23,10 +27,9 @@ export default defineConfig({
 
   // Pure-JS Markdown processor: the default one (satteri) loads a native .node file
   // that Windows Smart App Control refuses to run on this machine.
+  // Markdown links to site pages get their trailing slash at build time (sources untouched).
   markdown: {
-    processor: unified(),
-    // Markdown links to site pages get their trailing slash at build time (sources untouched)
-    rehypePlugins: [rehypeTrailingSlash],
+    processor: unified({ rehypePlugins: [rehypeTrailingSlash] }),
   },
 
   vite: {
@@ -35,8 +38,15 @@ export default defineConfig({
 
   integrations: [
     sitemap({
-      // /start is only a redirect to the course platform
-      filter: (page) => !page.includes('/podcast/') && !page.endsWith('/start/'),
+      filter: (page) => {
+        const path = new URL(page).pathname;
+        // /start/ is only a redirect to the course platform
+        if (path === '/start/') return false;
+        // Episode pages: only the indexable ones. /podcast/2/ … are legacy redirects (not in the set).
+        const episode = path.match(/^\/podcast\/([^/]+)\/$/);
+        if (episode) return indexableEpisodes.has(episode[1]);
+        return true; // the /podcast/ listing included
+      },
     }),
     mdx(),
   ]

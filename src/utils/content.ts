@@ -23,3 +23,12 @@ export function isPublished(item: Publishable, now = new Date()): boolean {
   if (item.draft) return false;
   return import.meta.env.DEV || !isScheduled(item, now);
 }
+
+/**
+ * A podcast episode is indexable (robots index + sitemap) only when its extras file
+ * (src/content/podcast/<slug>.md) has a summary_en. Otherwise its page is noindex, follow.
+ * The sitemap applies the same rule through src/utils/episode-meta.mjs.
+ */
+export function isIndexableEpisode(extras?: { summary_en?: string } | null): boolean {
+  return Boolean(extras?.summary_en?.trim());
+}

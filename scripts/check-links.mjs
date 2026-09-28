@@ -1,6 +1,8 @@
-// Checks the built site (dist/) against the URL convention: every internal link to a page ends
-// with "/" and points to a page that exists. Run after `npm run build`: `npm run check:links`.
-// Files (a dot in the last path segment), anchors and external links are skipped.
+// Checks the built site (dist/). Run after `npm run build`: `npm run check:links`.
+// 1. URL convention: every internal link to a page ends with "/" and points to a page that exists.
+//    Files (a dot in the last path segment), anchors and external links are skipped.
+// 2. Indexing: the sitemap lists exactly the pages that aren't noindex (e.g. an episode page is in
+//    the sitemap if and only if it is indexable).
 import { readFileSync, readdirSync, existsSync, statSync } from 'node:fs';
 import { join, relative } from 'node:path';
 
@@ -39,8 +41,32 @@ for (const page of pages) {
   }
 }
 
+// ── Indexing: sitemap ⇔ pages without noindex ──
+const sitemapPaths = new Set();
+for (const file of readdirSync(dist).filter(f => /^sitemap-\d+\.xml$/.test(f))) {
+  for (const [, loc] of readFileSync(join(dist, file), 'utf-8').matchAll(/<loc>([^<]+)<\/loc>/g)) {
+    sitemapPaths.add(new URL(loc).pathname);
+  }
+}
+const pagePath = page => '/' + relative(dist, page).replace(/\\/g, '/').replace(/index\.html$/, '');
+const indexablePages = new Set();
+for (const page of pages) {
+  if (page.endsWith('404.html')) continue;
+  const noindex = /<meta\s+name="robots"\s+content="[^"]*noindex/i.test(readFileSync(page, 'utf-8'));
+  const path = pagePath(page);
+  if (noindex && sitemapPaths.has(path)) note('noindex page in sitemap', path, page);
+  if (!noindex) {
+    indexablePages.add(path);
+    if (!sitemapPaths.has(path)) note('indexable page missing from sitemap', path, page);
+  }
+}
+for (const path of sitemapPaths) {
+  if (!existsSync(join(dist, path, 'index.html'))) problems.set(`sitemap URL without a page|${path}`, new Set(['sitemap']));
+}
+
 if (problems.size === 0) {
-  console.log(`check:links OK: ${pages.length} pages, every internal link ends with "/" and resolves.`);
+  console.log(`check:links OK: ${pages.length} pages, every internal link ends with "/" and resolves; ` +
+    `sitemap = the ${indexablePages.size} indexable pages.`);
 } else {
   for (const [key, where] of problems) {
     const [issue, href] = key.split('|');

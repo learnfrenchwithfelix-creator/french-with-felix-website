@@ -10,6 +10,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "check:links": "node scripts/check-links.mjs",
+    "podcast:missing": "node scripts/podcast-missing.mjs",
     "astro": "astro"
   },
   "dependencies": {

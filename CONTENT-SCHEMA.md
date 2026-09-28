@@ -58,56 +58,37 @@ draft: false                    # true = non publié
 
 ## 2. Épisode de podcast
 
-**Emplacement :** `src/content/podcast/[slug].md`
+Un épisode est défini par **trois fichiers**, tous identifiés par son `slug` :
 
-### Frontmatter
+| Source | Emplacement | Contenu |
+|---|---|---|
+| CSV (source principale) | `src/data/liminal_podcast.csv`, exporté du Google Sheet | numéro, slug, titre (YouTube), niveau, thème, vitesse, wpm, nb de mots, durée, `youtube_id`, `publishDate` |
+| Transcription | `src/content/podcast/<slug>.srt` | sous-titres horodatés, découpés en paragraphes au build |
+| Extras (optionnel) | `src/content/podcast/<slug>.md` | uniquement les champs ajoutés ci-dessous |
+
+Le lien Spotify de l'épisode est récupéré au build via l'API Spotify (numéro `#NN` dans le titre Spotify).
+
+### Fichier d'extras `<slug>.md`
+
+Frontmatter uniquement, pas de corps. Tous les champs sont optionnels.
 
 ```yaml
 ---
-title: "La météo en France : vocabulaire et expressions idiomatiques"
-description: "Dans cet épisode, on parle de la météo française, des expressions courantes et de la façon dont les Français parlent du temps."
-publishDate: 2025-09-10
-slug: meteo-france-vocabulaire
-episodeNumber: 47
-season: 2                       # optionnel
-level: A2                       # A1 | A2 | B1 | B2
-duration: "18:32"               # durée au format mm:ss
-spotifyUrl: "https://open.spotify.com/episode/XXXXXXX"
-spotifyEpisodeId: "XXXXXXX"     # ID Spotify pour l'embed
-theme: quotidien                # quotidien | culture | grammaire | voyage | humour | actualite
-wordCount: 2400                 # nombre de mots de la transcription
-speechRate: lent                # lent | normal | rapide
-tags: ["météo", "vocabulaire", "expressions"]
-featuredImage: /images/podcast/ep47.jpg
-draft: false
+summary_en: >
+  Two or three sentences in English about the episode: what Félix talks about and
+  who it is for. Shown as "About this episode" at the top of the page.
+key_vocab:                      # ~10 mots ou expressions tirés de l'épisode
+  - fr: "passer un cap"
+    en: "to reach a milestone"
+  - fr: "lire en diagonale"
+    en: "to skim"
 ---
 ```
 
-### Corps — structure type
-
-```markdown
-## À propos de cet épisode
-
-Résumé en 2-3 phrases. Idéal pour les apprenants de niveau A2 qui veulent enrichir leur vocabulaire du quotidien.
-
-## Vocabulaire clé
-
-| Mot / Expression | Traduction |
-|---|---|
-| Il fait un temps de chien | The weather is terrible |
-| Pleuvoir des cordes | To rain cats and dogs |
-
-## Transcription complète
-
-[Transcription issue du fichier SRT, nettoyée et formatée]
-
-...
-
-## Pour aller plus loin
-
-- Lien vers article de blog lié (optionnel)
-- CTA → la plateforme (`platformUrl` dans `src/config/site.ts`, aujourd'hui learn.liminalfrench.com)
-```
+- **Indexation** : un épisode est indexable (balise robots + sitemap) **seulement si `summary_en` est rempli**. Sinon sa page reste en `noindex, follow` et hors sitemap.
+- Le build échoue si un fichier `<slug>.md` ne correspond à aucun slug du CSV, si `summary_en` est présent mais vide, ou si un mot de `key_vocab` n'a pas de traduction.
+- `npm run podcast:missing` liste les épisodes publiés pas encore enrichis.
+- D'autres champs optionnels s'ajouteront ici (`seoTitle`, `appleEpisodeUrl`, `relatedArticle`).
 
 ### Niveaux et vitesse — définitions
 

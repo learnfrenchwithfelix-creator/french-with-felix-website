@@ -49,6 +49,17 @@ All official URLs live in `src/config/site.ts`. Import them; never hard-code a d
   "Scheduled" label. The deploy workflow also runs daily at 06:00 UTC, so it goes live on its date.
 - Blog `updatedDate` (optional) = last substantial edit → JSON-LD `dateModified` (falls back to publishDate).
 
+## Podcast episodes and indexing
+
+- The CSV `src/data/liminal_podcast.csv` (exported from the Google Sheet) is the main source; the transcript
+  is `src/content/podcast/<slug>.srt`; optional extras go in `src/content/podcast/<slug>.md` (frontmatter
+  only: `summary_en`, `key_vocab`; see CONTENT-SCHEMA.md).
+- An episode page is indexable (no robots noindex, listed in the sitemap) **only if `summary_en` is filled**.
+  The rule lives in `isIndexableEpisode()` (pages) and `src/utils/episode-meta.mjs` (sitemap);
+  `npm run check:links` fails if they disagree.
+- `npm run podcast:missing` lists the published episodes not enriched yet.
+- Summaries and vocabulary drafted by Claude are proposals: the owner reviews them before they are merged.
+
 ## Working rules
 
 - One branch per piece of work, small explicit commits. Run `npm run build` then `npm run check:links`
