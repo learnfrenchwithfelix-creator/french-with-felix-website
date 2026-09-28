@@ -13,6 +13,7 @@ featuredImageAlt: "Comparison of Japanese and Portuguese text side by side"
 readingTime: 8
 featured: false
 draft: false
+relatedEpisode: japanese-portuguese-learning
 ---
 
 ## Introduction

@@ -13,6 +13,7 @@ featuredImageAlt: "Person happily writing in a journal while learning a new lang
 readingTime: 7
 featured: false
 draft: false
+relatedEpisode: j-ai-echoue-a-apprendre-le-portugais
 ---
 
 ## Introduction

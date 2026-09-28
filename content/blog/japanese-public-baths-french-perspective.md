@@ -13,6 +13,7 @@ featuredImageAlt: "Traditional Japanese sento bathhouse entrance"
 readingTime: 7
 featured: false
 draft: false
+relatedEpisode: tout-nu-au-japon
 ---
 
 ## Introduction

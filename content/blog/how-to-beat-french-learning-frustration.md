@@ -11,6 +11,7 @@ lang: en
 readingTime: 9
 featured: true
 draft: false
+relatedEpisode: comment-moins-se-frustrer-en-apprenant-le-francais
 ---
 
 Let me tell you something that might be uncomfortable to hear.

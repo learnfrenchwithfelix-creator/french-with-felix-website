@@ -13,6 +13,7 @@ featuredImageAlt: "Person exploring a French town, notebook in hand"
 readingTime: 8
 featured: false
 draft: false
+relatedEpisode: habiter-dans-le-pays-ne-va-pas-vous-aider
 ---
 
 ## Introduction

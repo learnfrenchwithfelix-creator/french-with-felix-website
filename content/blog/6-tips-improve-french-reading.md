@@ -13,6 +13,7 @@ featuredImageAlt: "Person reading a French book with a cup of tea"
 readingTime: 8
 featured: false
 draft: false
+relatedEpisode: 6-tips-french-reading
 ---
 
 ## Introduction

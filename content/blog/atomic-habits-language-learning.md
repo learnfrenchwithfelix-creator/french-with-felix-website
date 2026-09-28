@@ -13,6 +13,7 @@ featuredImageAlt: "Calendar with daily checkmarks representing a learning habit"
 readingTime: 8
 featured: false
 draft: false
+relatedEpisode: le-pouvoir-des-habitudes
 ---
 
 ## Introduction

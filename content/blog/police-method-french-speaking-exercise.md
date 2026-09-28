@@ -13,6 +13,7 @@ featuredImageAlt: "Two people having a French conversation practice session"
 readingTime: 7
 featured: false
 draft: false
+relatedEpisode: faire-des-phrases-plus-longues
 ---
 
 ## Introduction

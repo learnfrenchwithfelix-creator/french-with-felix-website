@@ -13,6 +13,7 @@ featuredImageAlt: "Brain illustration with connected memory nodes"
 readingTime: 8
 featured: false
 draft: false
+relatedEpisode: booster-sa-memoire
 ---
 
 ## Introduction

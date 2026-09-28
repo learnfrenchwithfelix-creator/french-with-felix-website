@@ -13,6 +13,7 @@ featuredImageAlt: "Stack of flashcards with a warning sign illustration"
 readingTime: 8
 featured: false
 draft: false
+relatedEpisode: ne-tombez-pas-dans-le-piege-des-flashcards
 ---
 
 ## Introduction

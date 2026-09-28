@@ -13,6 +13,7 @@ featuredImageAlt: "Baguette, wine bottle, and cheese representing French cultura
 readingTime: 6
 featured: false
 draft: false
+relatedEpisode: les-cliches
 ---
 
 ## Introduction

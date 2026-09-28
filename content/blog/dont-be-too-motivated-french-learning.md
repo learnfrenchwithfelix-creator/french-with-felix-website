@@ -13,6 +13,7 @@ featuredImageAlt: "Stack of unread language learning books on a shelf"
 readingTime: 7
 featured: false
 draft: false
+relatedEpisode: ne-soyez-pas-trop-motive
 ---
 
 ## Introduction

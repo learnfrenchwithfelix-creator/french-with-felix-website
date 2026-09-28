@@ -11,6 +11,7 @@ lang: en
 readingTime: 10
 featured: false
 draft: false
+relatedEpisode: comment-construire-des-automatismes-en-francais
 ---
 
 Most people approach French learning like a checklist: learn the grammar rules, memorize the vocabulary lists, and assume fluency follows. But that's not how your brain actually works.

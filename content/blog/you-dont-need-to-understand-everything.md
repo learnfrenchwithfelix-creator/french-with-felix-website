@@ -13,6 +13,7 @@ featuredImageAlt: "Person listening to a French podcast with headphones"
 readingTime: 7
 featured: false
 draft: false
+relatedEpisode: vous-n-avez-pas-besoin-de-tout-comprendre
 ---
 
 ## Introduction
