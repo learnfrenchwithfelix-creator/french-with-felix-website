@@ -13,7 +13,8 @@ interface Props {
 
 const { title, pageTitle, description, publishDate, dateModified, image } = Astro.props;
 
-const siteUrl = 'https://frenchwithfelix.com';
+// From `site` in astro.config.mjs, without the trailing slash
+const siteUrl = new URL(Astro.site!).origin;
 const ogImage = image ? `${siteUrl}${image}` : undefined;
 
 function toISO(d: Date | string | undefined): string | undefined {

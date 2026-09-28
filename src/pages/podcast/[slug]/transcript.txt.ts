@@ -6,7 +6,7 @@ import { parseSRT } from '../../../utils/parseSRT';
 export const getStaticPaths = (() =>
   parsePodcastCSV().map(ep => ({ params: { slug: ep.slug }, props: { ep } }))) satisfies GetStaticPaths;
 
-export const GET: APIRoute = ({ props }) => {
+export const GET: APIRoute = ({ props, site }) => {
   const ep = props.ep as ReturnType<typeof parsePodcastCSV>[number];
   const paragraphs = parseSRT(ep.slug);
 
@@ -14,7 +14,7 @@ export const GET: APIRoute = ({ props }) => {
     `Liminal French Podcast — Episode ${ep.episodeNumber}`,
     ep.titleFr,
     `Level ${ep.level} · ${ep.duration}${ep.wpm > 0 ? ` · ${ep.wpm} wpm` : ''}`,
-    `https://frenchwithfelix.com/podcast/${ep.slug}`,
+    new URL(`/podcast/${ep.slug}`, site).href, // `site` from astro.config.mjs
   ].join('\n');
 
   const body = paragraphs.length

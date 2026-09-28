@@ -8,7 +8,7 @@ import { unified } from '@astrojs/markdown-remark';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://frenchwithfelix.com',
+  site: 'https://liminalfrench.com',
 
   // Pure-JS Markdown processor: the default one (satteri) loads a native .node file
   // that Windows Smart App Control refuses to run on this machine.
