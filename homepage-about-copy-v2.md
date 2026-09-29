@@ -15,7 +15,7 @@ One platform, one journey.
 A French learning platform that guides you through the hardest transition — from studying French to actually living it. Four levels, live guidance, and a community that grows with you.
 
 **CTAs :**
-- Primary : "Start for free →" → /start
+- Primary : "Start your free trial →" → /start
 - Secondary : "See all levels" → /#levels
 
 ---
@@ -77,12 +77,12 @@ Liste :
 **Section title :** Simple pricing
 
 **Monthly**
-$39 / month
+€39 / month
 Billed monthly. Cancel anytime.
 [Start free]
 
 **Annual** ⭐ Best value
-$290 / year — $24/month
+€290 / year — €24/month
 Save 38% vs monthly. Full year access.
 [Join annual]
 
@@ -119,7 +119,7 @@ The French with Félix podcast is 90+ episodes of real, natural French — with 
 **Body :**
 Start with free content. No credit card. No pressure. Just French.
 
-**CTA :** Start for free →
+**CTA :** Start your free trial →
 
 ---
 
@@ -167,7 +167,7 @@ That's what Liminal French actually does:
 
 At every level: pre-made Anki decks, weekly live sessions with full replay, interactive exercises, and community access.
 
-$39/month — or $290/year ($24/month).
+€39/month — or €290/year (€24/month).
 Your first lessons at each level are free.
 
 ---
@@ -186,4 +186,4 @@ Liminal French holds both sides of that: the practical mechanics of how to actua
 
 ### CTA
 Ready to cross the threshold?
-[Start for free →] → /start
+[Start your free trial →] → /start

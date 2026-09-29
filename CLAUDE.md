@@ -33,7 +33,7 @@ All official URLs live in `src/config/site.ts`. Import them; never hard-code a d
 - `SPOTIFY_SHOW_ID` is only used for the Spotify API, not for links. Patreon is no longer used.
 
 - `frenchwithfelix.com` and `learn.frenchwithfelix.com` are obsolete: never use them.
-- Every "Start for free" / "Start Learning" button links to `/start` (a noindex redirect page, kept out of
+- Every "Start your free trial" / "Start Learning" button links to `/start` (a noindex redirect page, kept out of
   the sitemap), never straight to Kajabi.
 
 ## URL convention
