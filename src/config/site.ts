@@ -11,7 +11,7 @@ export const platformUrl = 'https://learn.liminalfrench.com';
 export const platformHost = new URL(platformUrl).host;
 
 /**
- * Where /start redirects: every "Start for free" / "Start Learning" button on the site links to /start.
+ * Where /start redirects: every "Start your free trial" / "Start Learning" button on the site links to /start.
  * TODO: replace with the Kajabi page that combines sign-in and sign-up (7-day free trial checkout)
  * once it exists. Change it here only.
  */
