@@ -1,5 +1,6 @@
 ---
-// Not wired to a provider yet — the repo has no mailing-list integration.
+// Posts straight to the Kajabi newsletter form (see newsletterFormAction); Kajabi shows its thank-you page.
+import { newsletterFormAction } from '../../config/site';
 ---
 
 <section class="mx-auto max-w-[1180px] px-6 pb-28 md:px-12">
@@ -20,18 +21,36 @@
       </p>
     </div>
 
-    <form data-reveal class="flex flex-col gap-2.5 sm:flex-row">
+    <form
+      data-reveal
+      action={newsletterFormAction}
+      method="post"
+      accept-charset="UTF-8"
+      class="grid grid-cols-1 gap-2.5 sm:grid-cols-2"
+    >
+      <label for="newsletter-name" class="sr-only">First name</label>
+      <input
+        id="newsletter-name"
+        name="form_submission[name]"
+        type="text"
+        required
+        autocomplete="given-name"
+        placeholder="First name"
+        class="text-input min-w-0 rounded-button border border-border bg-bg px-4 py-[14px] text-[15px] text-body outline-none"
+      />
       <label for="newsletter-email" class="sr-only">Email address</label>
       <input
         id="newsletter-email"
+        name="form_submission[email]"
         type="email"
         required
+        autocomplete="email"
         placeholder="you@email.com"
-        class="email-input min-w-0 flex-1 rounded-button border border-border bg-bg px-4 py-[14px] text-[15px] text-body outline-none"
+        class="text-input min-w-0 rounded-button border border-border bg-bg px-4 py-[14px] text-[15px] text-body outline-none"
       />
       <button
         type="submit"
-        class="btn-accent whitespace-nowrap rounded-button bg-accent px-[22px] py-[14px] font-display text-[15px] font-semibold text-onAccent"
+        class="btn-accent whitespace-nowrap rounded-button bg-accent px-[22px] py-[14px] font-display text-[15px] font-semibold text-onAccent sm:col-span-2"
       >
         Subscribe
       </button>
@@ -39,8 +58,21 @@
   </div>
 </section>
 
+<script>
+  // No double submission while Kajabi loads its thank-you page.
+  document.querySelectorAll<HTMLFormElement>('form[action*="/form_submissions"]').forEach((form) => {
+    form.addEventListener('submit', () => {
+      form.querySelector('button[type="submit"]')?.setAttribute('disabled', '');
+    });
+  });
+  // Back button (page restored from cache): make the button usable again.
+  window.addEventListener('pageshow', () => {
+    document.querySelectorAll('form[action*="/form_submissions"] button[disabled]').forEach((b) => b.removeAttribute('disabled'));
+  });
+</script>
+
 <style>
-  .email-input:focus {
+  .text-input:focus {
     border-color: var(--color-title);
   }
 
@@ -49,5 +81,9 @@
   }
   .btn-accent:hover {
     background-color: var(--color-accent-dark);
+  }
+  .btn-accent:disabled {
+    opacity: 0.7;
+    cursor: wait;
   }
 </style>
