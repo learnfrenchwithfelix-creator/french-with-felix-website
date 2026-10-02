@@ -1,0 +1,80 @@
+---
+// Newsletter sign-up (homepage + Library): posts straight to the Kajabi form (see newsletterFormAction);
+// Kajabi shows its thank-you page.
+import { newsletterFormAction } from '../../config/site';
+
+interface Props {
+  /** Prefix for the input ids, unique on the page */
+  id: string;
+  buttonLabel?: string;
+  class?: string;
+}
+
+const { id, buttonLabel = 'Subscribe', class: className } = Astro.props;
+---
+
+<form
+  data-reveal
+  data-newsletter-form
+  action={newsletterFormAction}
+  method="post"
+  accept-charset="UTF-8"
+  class:list={['grid grid-cols-1 gap-2.5 sm:grid-cols-2', className]}
+>
+  <label for={`${id}-name`} class="sr-only">First name</label>
+  <input
+    id={`${id}-name`}
+    name="form_submission[name]"
+    type="text"
+    required
+    autocomplete="given-name"
+    placeholder="First name"
+    class="text-input min-w-0 rounded-button border border-border bg-bg px-4 py-[14px] text-[15px] text-body outline-none"
+  />
+  <label for={`${id}-email`} class="sr-only">Email address</label>
+  <input
+    id={`${id}-email`}
+    name="form_submission[email]"
+    type="email"
+    required
+    autocomplete="email"
+    placeholder="you@email.com"
+    class="text-input min-w-0 rounded-button border border-border bg-bg px-4 py-[14px] text-[15px] text-body outline-none"
+  />
+  <button
+    type="submit"
+    class="btn-accent whitespace-nowrap rounded-button bg-accent px-[22px] py-[14px] font-display text-[15px] font-semibold text-onAccent sm:col-span-2"
+  >
+    {buttonLabel}
+  </button>
+</form>
+
+<script>
+  // No double submission while Kajabi loads its thank-you page.
+  document.querySelectorAll<HTMLFormElement>('[data-newsletter-form]').forEach((form) => {
+    form.addEventListener('submit', () => {
+      form.querySelector('button[type="submit"]')?.setAttribute('disabled', '');
+    });
+  });
+  // Back button (page restored from cache): make the button usable again.
+  window.addEventListener('pageshow', () => {
+    document.querySelectorAll('[data-newsletter-form] button[disabled]').forEach((b) => b.removeAttribute('disabled'));
+  });
+</script>
+
+<style>
+  .text-input:focus {
+    border-color: var(--color-title);
+  }
+
+  .btn-accent {
+    transition: background-color 0.15s ease;
+  }
+  .btn-accent:hover {
+    background-color: var(--color-accent-dark);
+  }
+  .btn-accent:disabled {
+    opacity: 0.7;
+    cursor: wait;
+  }
+</style>

@@ -1,8 +1,8 @@
 ---
 // Placeholder until the Library is built: a "work in progress" note + newsletter sign-up.
-// The form isn't wired to a mailing-list provider yet (same as the homepage newsletter block).
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Reveal from '../components/ui/Reveal.astro';
+import NewsletterForm from '../components/ui/NewsletterForm.astro';
 import { breadcrumbs } from '../utils/schema';
 ---
 
@@ -28,37 +28,11 @@ import { breadcrumbs } from '../utils/schema';
       Stay updated: join the newsletter and you'll be the first to know when it opens.
     </p>
 
-    <form data-reveal class="flex w-full max-w-[460px] flex-col gap-2.5 sm:flex-row">
-      <label for="library-email" class="sr-only">Email address</label>
-      <input
-        id="library-email"
-        type="email"
-        required
-        placeholder="you@email.com"
-        class="email-input min-w-0 flex-1 rounded-button border border-border bg-bg px-4 py-[14px] text-[15px] text-body outline-none"
-      />
-      <button
-        type="submit"
-        class="btn-accent whitespace-nowrap rounded-button bg-accent px-[22px] py-[14px] font-display text-[15px] font-semibold text-onAccent"
-      >
-        Stay updated
-      </button>
-    </form>
+    <NewsletterForm id="library" buttonLabel="Stay updated" class="w-full max-w-[460px]" />
   </section>
 </BaseLayout>
 
 <style>
-  .email-input:focus {
-    border-color: var(--color-title);
-  }
-
-  .btn-accent {
-    transition: background-color 0.15s ease;
-  }
-  .btn-accent:hover {
-    background-color: var(--color-accent-dark);
-  }
-
   /* Small pulsing dot in the "Work in progress" pill */
   .wip-dot {
     width: 6px;
