@@ -11,6 +11,12 @@ export const platformUrl = 'https://learn.liminalfrench.com';
 export const platformHost = new URL(platformUrl).host;
 
 /**
+ * Kajabi newsletter form (form 2149740620): the homepage form posts `form_submission[name]` and
+ * `form_submission[email]` here, and Kajabi shows its thank-you page.
+ */
+export const newsletterFormAction = `${platformUrl}/forms/2149740620/form_submissions`;
+
+/**
  * Where /start redirects: every "Start for free" / "Start Learning" button on the site links to /start.
  * TODO: replace with the Kajabi page that combines sign-in and sign-up (7-day free trial checkout)
  * once it exists. Change it here only.
