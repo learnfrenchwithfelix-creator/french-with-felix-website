@@ -15,8 +15,9 @@
 //    itself on https://liminalfrench.com with a trailing slash; robots.txt names a sitemap that exists.
 import { readFileSync, readdirSync, existsSync, statSync } from 'node:fs';
 import { join, relative } from 'node:path';
+import { fileURLToPath } from 'node:url';
 
-const dist = new URL('../dist/', import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, '$1');
+const dist = fileURLToPath(new URL('../dist/', import.meta.url));
 const pages = [];
 const walk = dir => {
   for (const name of readdirSync(dir)) {
