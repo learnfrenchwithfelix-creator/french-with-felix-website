@@ -1,14 +1,13 @@
 ---
-// Placeholder until the Library is built: a "work in progress" note + newsletter sign-up.
+// Placeholder until the Library is built: a "work in progress" note.
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Reveal from '../components/ui/Reveal.astro';
-import NewsletterForm from '../components/ui/NewsletterForm.astro';
 import { breadcrumbs } from '../utils/schema';
 ---
 
 <BaseLayout
   title="Library — Liminal French"
-  description="The Liminal French library is on its way. Join the newsletter to know when it opens."
+  description="The Liminal French library is a work in progress. Check back soon."
   schema={[breadcrumbs([['Library', '/library/']])]}
 >
   <Reveal />
@@ -24,11 +23,9 @@ import { breadcrumbs } from '../utils/schema';
       <span style="font-weight: var(--weight-bold)"> on its way.</span>
     </h1>
 
-    <p data-reveal class="mb-10 text-base leading-[1.65] text-body md:text-[17px]">
-      Stay updated: join the newsletter and you'll be the first to know when it opens.
+    <p data-reveal class="text-base leading-[1.65] text-body md:text-[17px]">
+      We're still building this page. Check back soon.
     </p>
-
-    <NewsletterForm id="library" buttonLabel="Stay updated" class="w-full max-w-[460px]" />
   </section>
 </BaseLayout>
 
