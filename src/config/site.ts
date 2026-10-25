@@ -17,6 +17,13 @@ export const platformHost = new URL(platformUrl).host;
 export const newsletterFormAction = `${platformUrl}/forms/2149740620/form_submissions`;
 
 /**
+ * Cloudflare Web Analytics site token (public: it ends up in every page). Cookieless, so no
+ * consent banner is needed. BaseLayout loads the beacon in production builds only; an empty
+ * string removes it.
+ */
+export const cloudflareAnalyticsToken = '8d82fe89686e46bf82e83be4905c7dca';
+
+/**
  * Where /start redirects: every "Start your free trial" / "Start Learning" button on the site links to /start.
  * TODO: replace with the Kajabi page that combines sign-in and sign-up (7-day free trial checkout)
  * once it exists. Change it here only.
