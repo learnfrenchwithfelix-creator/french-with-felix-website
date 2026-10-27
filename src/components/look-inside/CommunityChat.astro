@@ -1,14 +1,22 @@
 ---
 // A community exchange redrawn as a chat (not a screenshot): a member shares a daily win, Félix answers.
 // The member stays anonymous (generic avatar, no name). Content: communityChat in src/data/look-inside.ts.
+// `compact`: tighter spacing, smaller text, no timestamp (homepage tab, which must fit in one screen).
 import { communityChat } from '../../data/look-inside';
+
+interface Props {
+  compact?: boolean;
+}
+
+const { compact = false } = Astro.props;
+const bubbleText = compact ? 'text-[14px] leading-[1.5]' : 'text-[15px] leading-[1.6]';
 ---
 
-<figure class="rounded-card border border-border bg-surface p-5 md:p-7">
-  <figcaption class="mb-5 flex items-center gap-2 border-b border-border pb-4 text-[14px] font-semibold text-title">
+<figure class:list={['rounded-card border border-border bg-surface', compact ? 'p-4' : 'p-5 md:p-7']}>
+  <figcaption class:list={['flex items-center gap-2 border-b border-border text-[14px] font-semibold text-title', compact ? 'mb-3 pb-3' : 'mb-5 pb-4']}>
     <span aria-hidden="true">🏆</span><span class="text-muted" aria-hidden="true">#</span>{communityChat.channel}
   </figcaption>
-  <div class="flex flex-col gap-5">
+  <div class:list={['flex flex-col', compact ? 'gap-3' : 'gap-5']}>
     {communityChat.messages.map((message, i) => (
       message.from === 'member' ? (
         <div class="flex items-end gap-3">
@@ -17,7 +25,7 @@ import { communityChat } from '../../data/look-inside';
           </span>
           <div class="max-w-[85%]">
             <p class="mb-1 text-[12px] font-semibold text-muted">A member</p>
-            <div class="relative rounded-[16px] rounded-bl-[4px] border border-border bg-bg px-4 py-3 text-[15px] leading-[1.6] text-body" lang="fr">
+            <div class:list={['relative rounded-[16px] rounded-bl-[4px] border border-border bg-bg px-4 py-3 text-body', bubbleText]} lang="fr">
               {message.lines.map((line) => <p>{line}</p>)}
               {message.hearts ? (
                 <span class="absolute -bottom-3 right-3 rounded-full border border-border bg-bg px-2 py-0.5 text-[12px] text-body">
@@ -29,10 +37,10 @@ import { communityChat } from '../../data/look-inside';
         </div>
       ) : (
         <>
-          {i > 0 && <p class="mt-2 text-center text-[12px] text-muted">{communityChat.time}</p>}
+          {i > 0 && !compact && <p class="mt-2 text-center text-[12px] text-muted">{communityChat.time}</p>}
           <div class="flex flex-col items-end">
             <p class="mb-1 text-[12px] font-semibold text-muted">Félix</p>
-            <div class="max-w-[85%] rounded-[16px] rounded-br-[4px] bg-accent px-4 py-3 text-[15px] leading-[1.6] text-onAccent" lang="fr">
+            <div class:list={['max-w-[85%] rounded-[16px] rounded-br-[4px] bg-accent px-4 py-3 text-onAccent', bubbleText]} lang="fr">
               {message.lines.map((line) => <p>{line}</p>)}
             </div>
           </div>

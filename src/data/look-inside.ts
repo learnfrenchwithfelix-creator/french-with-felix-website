@@ -51,7 +51,12 @@ export const grammarLesson = {
     'How to talk about what happened: avoir or être, the past participle, and the agreements that trip everyone up.',
   /** The lesson's two videos: the course itself, then its immersion (the same grammar in real French) */
   videos: [
-    { label: 'The course', youtubeId: 'd3lcG1tq_fU', title: 'Course 7 – Le passé composé' },
+    {
+      label: 'The course',
+      youtubeId: 'd3lcG1tq_fU',
+      title: 'Course 7 – Le passé composé',
+      thumbnail: '/images/look-inside/passe-compose-course-thumbnail.webp',
+    },
     { label: 'The immersion', youtubeId: 'F1VPugLkT6Q', title: 'Immersion 7 – Le passé composé' },
   ],
   /** Excerpts of the lesson PDFs (key takeaways + vocabulary), cropped from A2 lesson 7 */

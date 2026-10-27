@@ -1,0 +1,292 @@
+---
+// "All in one": the whole membership in one section (it replaces "How it works", "Look inside" and the
+// membership recap). One tab per part (grammar, Daily Immersion, live sessions, community), each with its
+// step in the journey, its size and a light sample (video thumbnail, flashcards, text excerpt, chat) that
+// links to the full sample on /look-inside/; then a button to that page.
+// Content: src/data/look-inside.ts.
+// Each panel is written once; without JS only the first one shows (the tabs need JS anyway).
+// The panels are stacked in one grid cell, so the block keeps the height of the tallest one and
+// switching tabs never resizes it; inactive panels are invisible and inert, the active one sits at the top.
+// With the page's section snapping on (SectionDots.astro: wide screen, the block fits in the window), a
+// wheel notch with the pointer over the block selects the next/previous category instead of moving the page;
+// past the first or last one, or with the pointer elsewhere, the page scrolls on as usual.
+import SectionHeader from '../ui/SectionHeader.astro';
+import Button from '../ui/Button.astro';
+import TodoBox from '../look-inside/TodoBox.astro';
+import VideoFacade from '../look-inside/VideoFacade.astro';
+import CommunityChat from '../look-inside/CommunityChat.astro';
+import FileIcon from '../look-inside/FileIcon.astro';
+import { grammarLesson, dailyImmersion, liveSession, membershipCounts } from '../../data/look-inside';
+
+const tabs = [
+  { id: 'grammar', label: 'Grammar', size: `${membershipCounts.grammarLessons}+ lessons` },
+  { id: 'immersion', label: 'Daily Immersion', size: `${membershipCounts.immersionTexts}+ texts` },
+  { id: 'live', label: 'Live sessions', size: `${membershipCounts.livesPerWeek} a week` },
+  { id: 'community', label: 'Community', size: 'Always open' },
+];
+/** Step of the journey each part covers (formerly "How it works") */
+const stepClass = 'mb-3 block font-mono text-[12px] font-medium uppercase tracking-[0.12em] text-accent';
+const linkClass = 'mt-6 inline-flex items-center gap-1 font-display text-[15px] font-semibold text-accent hover:text-[var(--color-accent-dark)]';
+---
+
+<section class="mx-auto max-w-[1180px] px-6 pb-28 md:px-12">
+  <div data-look>
+  <SectionHeader eyebrow="All in one" headingLight="Everything you need" headingBold="to learn French" gap="tight" />
+  <p data-reveal class="-mt-4 mb-7 max-w-[680px] text-base leading-[1.65] text-body md:-mt-8 md:text-[17px]">
+    Start with structure, cross the threshold into real French, then immerse and expand. One membership
+    for the whole journey: here's a real look at each part.
+  </p>
+
+  <!-- Tabs on one line over a track; the red indicator slides to the selected one -->
+  <div data-reveal role="tablist" aria-label="Membership content" class="look-tabs relative mb-6 grid grid-cols-4 border-b border-border" data-look-tabs>
+    {tabs.map((t, i) => (
+      <button
+        type="button"
+        role="tab"
+        id={`look-tab-${t.id}`}
+        aria-controls={`look-panel-${t.id}`}
+        aria-selected={i === 0 ? 'true' : 'false'}
+        tabindex={i === 0 ? 0 : -1}
+        class="look-tab flex flex-col items-start gap-1 px-1 pb-3 text-left md:px-3"
+      >
+        <span class="look-tab-number font-display text-[22px] font-bold leading-none tracking-[-0.03em] md:text-[28px]">{String(i + 1).padStart(2, '0')}</span>
+        <span class="look-tab-label font-display text-[13px] font-semibold leading-tight md:text-[17px]">{t.label}</span>
+        <span class="hidden text-[13px] text-muted sm:block">{t.size}</span>
+      </button>
+    ))}
+    <span class="look-indicator" aria-hidden="true"></span>
+  </div>
+
+  <div class="look-panels grid">
+  <!-- Grammar -->
+  <div role="tabpanel" id="look-panel-grammar" aria-labelledby="look-tab-grammar" class="look-panel is-active">
+    <div class="grid grid-cols-1 items-center gap-8 lg:grid-cols-[1fr_1fr] lg:gap-12">
+      <VideoFacade
+        youtubeId={grammarLesson.videos[0].youtubeId}
+        title={`Watch the full lesson: ${grammarLesson.title}`}
+        thumbnail={grammarLesson.videos[0].thumbnail}
+        href="/look-inside/#grammar"
+        todo="Thumbnail of the passé composé lesson (grammarLesson.videos)"
+      />
+      <div>
+        <span class={stepClass}>Start with structure</span>
+        <h3 class="mb-3 font-display text-2xl font-bold tracking-[-0.02em] text-title">Grammar lessons</h3>
+        <p class="mb-4 text-base leading-[1.65] text-body">
+          <strong>Over {membershipCounts.grammarLessons} clear video lessons</strong>, one topic at a time: a course to understand
+          the grammar, then an immersion to hear it in real French. Each one comes with:
+        </p>
+        <ul class="flex flex-col gap-3 text-[15px] text-body">
+          <li class="flex items-center gap-3"><FileIcon type="pdf" size={32} /><span><strong class="text-title">2 PDFs</strong>: key takeaways and vocabulary</span></li>
+          <li class="flex items-center gap-3"><FileIcon type="anki" size={32} /><span><strong class="text-title">An Anki deck</strong>: flashcards with audio, made from the lesson's sentences</span></li>
+        </ul>
+        <a href="/look-inside/#grammar" class={linkClass}>Watch the full lesson →</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Daily Immersion -->
+  <div role="tabpanel" id="look-panel-immersion" aria-labelledby="look-tab-immersion" class="look-panel" inert>
+    <div class="grid grid-cols-1 items-center gap-8 lg:grid-cols-[1fr_1fr] lg:gap-12">
+      {dailyImmersion.paragraphs.length ? (
+        <blockquote lang="fr" class="rounded-card border border-border bg-bg p-6 text-[17px] leading-[1.75] text-body md:p-8">
+          {dailyImmersion.paragraphs[0]}
+        </blockquote>
+      ) : (
+        <TodoBox label="First paragraph of the sample Daily Immersion (dailyImmersion.paragraphs)" />
+      )}
+      <div>
+        <span class={stepClass}>Cross the threshold</span>
+        <h3 class="mb-3 font-display text-2xl font-bold tracking-[-0.02em] text-title">Daily Immersion</h3>
+        <p class="mb-4 text-base leading-[1.65] text-body">
+          A short text in French every day, <strong>over {membershipCounts.immersionTexts} texts</strong> in all, with its audio, a comprehension quiz, a PDF and an Anki deck.
+          Read one and take its quiz.
+        </p>
+        <a href="/look-inside/#daily-immersion" class={linkClass}>Read it and take the quiz →</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Live sessions -->
+  <div role="tabpanel" id="look-panel-live" aria-labelledby="look-tab-live" class="look-panel" inert>
+    <div class="grid grid-cols-1 items-center gap-8 lg:grid-cols-[1fr_1fr] lg:gap-12">
+      <VideoFacade
+        youtubeId={liveSession.youtubeId}
+        title="Watch an excerpt of a live session"
+        href="/look-inside/#live-sessions"
+        todo="Thumbnail of a live session excerpt (liveSession.youtubeId)"
+      />
+      <div>
+        <span class={stepClass}>Immerse and expand</span>
+        <h3 class="mb-3 font-display text-2xl font-bold tracking-[-0.02em] text-title">Live sessions</h3>
+        <p class="mb-4 text-base leading-[1.65] text-body">
+          <strong>{membershipCounts.livesPerWeek} live sessions every week</strong>, up to B2: reading circles, storytelling and real
+          conversations with other learners.
+        </p>
+        <a href="/look-inside/#live-sessions" class={linkClass}>Watch an excerpt →</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Community -->
+  <div role="tabpanel" id="look-panel-community" aria-labelledby="look-tab-community" class="look-panel" inert>
+    <div class="grid grid-cols-1 items-center gap-8 lg:grid-cols-[1.9fr_1fr] lg:gap-10">
+      <CommunityChat compact />
+      <div>
+        <span class={stepClass}>Never alone</span>
+        <h3 class="mb-3 font-display text-2xl font-bold tracking-[-0.02em] text-title">The community</h3>
+        <p class="mb-4 text-base leading-[1.65] text-body">
+          A private space where members share their daily wins, ask questions and keep each other going.
+        </p>
+        <a href="/look-inside/#community" class={linkClass}>Take a peek →</a>
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+  <div class="mt-6 text-center">
+    <Button href="/look-inside/" class="justify-center px-8 py-[15px] text-base">View a full course sample →</Button>
+  </div>
+  </div>
+</section>
+
+<script>
+  const WHEEL_LOCK_MS = 800; // absorbs trackpad inertia: one gesture = one category
+
+  document.querySelectorAll<HTMLElement>('[data-look]').forEach((block) => {
+    const list = block.querySelector<HTMLElement>('[data-look-tabs]')!;
+    const tabs = [...list.querySelectorAll<HTMLButtonElement>('[role="tab"]')];
+    const indicator = list.querySelector<HTMLElement>('.look-indicator');
+    let current = 0;
+
+    // The indicator sits under the selected tab (position/width in px, animated by CSS)
+    const placeIndicator = () => {
+      const tab = tabs[current];
+      if (!indicator || !tab) return;
+      indicator.style.width = `${tab.offsetWidth}px`;
+      indicator.style.transform = `translateX(${tab.offsetLeft}px)`;
+    };
+    const select = (index: number) => {
+      if (index === current) return;
+      current = index;
+      tabs.forEach((t, i) => {
+        const on = i === index;
+        t.setAttribute('aria-selected', String(on));
+        t.tabIndex = on ? 0 : -1;
+        const panel = document.getElementById(t.getAttribute('aria-controls')!);
+        if (!panel) return;
+        panel.inert = !on;
+        panel.classList.remove('is-active');
+        if (on) {
+          void panel.offsetWidth; // restart the fade-in
+          panel.classList.add('is-active');
+        }
+      });
+      placeIndicator();
+    };
+
+    // One wheel notch over the block = one category, only while the page snaps section by section and the
+    // whole block is on screen. Capture phase, so SectionDots' own wheel handling doesn't also move the page.
+    let wheelLockUntil = 0;
+    window.addEventListener(
+      'wheel',
+      (e: WheelEvent) => {
+        if (!document.documentElement.classList.contains('snap-mode')) return;
+        if (e.ctrlKey || Math.abs(e.deltaY) < Math.abs(e.deltaX) || e.deltaY === 0) return;
+        if (!block.contains(e.target as Node)) return;
+        const r = block.getBoundingClientRect();
+        const header = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--header-height')) || 73;
+        if (r.top < header - 5 || r.bottom > window.innerHeight + 5) return;
+        const next = current + Math.sign(e.deltaY);
+        if (next < 0 || next >= tabs.length) return;
+        e.preventDefault();
+        e.stopPropagation();
+        if (performance.now() < wheelLockUntil) return;
+        wheelLockUntil = performance.now() + WHEEL_LOCK_MS;
+        select(next);
+      },
+      { capture: true, passive: false },
+    );
+
+    placeIndicator();
+    window.addEventListener('resize', placeIndicator);
+    tabs.forEach((tab, i) => {
+      tab.addEventListener('click', () => select(i));
+      // Arrow keys move between tabs (WAI-ARIA tabs pattern)
+      tab.addEventListener('keydown', (e) => {
+        const dir = e.key === 'ArrowRight' ? 1 : e.key === 'ArrowLeft' ? -1 : 0;
+        if (!dir) return;
+        e.preventDefault();
+        const next = (i + dir + tabs.length) % tabs.length;
+        select(next);
+        tabs[next].focus();
+      });
+    });
+  });
+</script>
+
+<style>
+  .look-tab {
+    cursor: pointer;
+    color: var(--color-muted);
+  }
+  .look-tab-number,
+  .look-tab-label {
+    color: var(--color-muted);
+    transition: color 250ms ease;
+  }
+  .look-tab:hover .look-tab-number,
+  .look-tab:hover .look-tab-label,
+  .look-tab[aria-selected='true'] .look-tab-label {
+    color: var(--color-title);
+  }
+  .look-tab[aria-selected='true'] .look-tab-number {
+    color: var(--color-accent);
+  }
+  .look-tab:focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+    border-radius: 6px;
+  }
+  .look-indicator {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 25%;
+    height: 3px;
+    border-radius: 3px;
+    background: var(--color-accent);
+    transition:
+      transform 400ms cubic-bezier(0.22, 1, 0.36, 1),
+      width 400ms cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  /* All panels share one cell: the tallest sets the height, each sits at the top of it */
+  .look-panel {
+    grid-area: 1 / 1;
+    align-self: start;
+    visibility: hidden;
+  }
+  /* The active panel fades and rises in each time it's selected */
+  .look-panel.is-active {
+    visibility: visible;
+    animation: look-panel-in 450ms cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  @keyframes look-panel-in {
+    from {
+      opacity: 0;
+      transform: translateY(12px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .look-indicator {
+      transition: none;
+    }
+    .look-panel.is-active {
+      animation: none;
+    }
+  }
+</style>

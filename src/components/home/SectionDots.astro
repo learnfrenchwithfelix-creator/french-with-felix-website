@@ -257,7 +257,8 @@
           // A block taller than the screen scrolls normally until its content bottom is in view
           if (tall && bottom > window.innerHeight + 5) {
             holdMagnet = true;
-            window.scrollBy(0, e.deltaY);
+            // Stop at the content bottom, so the next notch snaps cleanly to the next block
+            window.scrollBy(0, Math.min(e.deltaY, bottom - window.innerHeight));
             return;
           }
           target = tops[cur + 1];
