@@ -17,6 +17,13 @@ export const platformHost = new URL(platformUrl).host;
 export const newsletterFormAction = `${platformUrl}/forms/2149740620/form_submissions`;
 
 /**
+ * Kajabi form for the free sample pack on /look-inside/ (passé composé PDF + Anki deck, sent by email).
+ * TODO: create that form in Kajabi (with an automation that emails the download links) and put its
+ * `…/forms/<id>/form_submissions` URL here. While empty, the page shows a TODO box instead of the form.
+ */
+export const samplePackFormAction = '';
+
+/**
  * Cloudflare Web Analytics site token (public: it ends up in every page). Cookieless, so no
  * consent banner is needed. BaseLayout loads the beacon in production builds only; an empty
  * string removes it.

@@ -1,0 +1,43 @@
+---
+// A community exchange redrawn as a chat (not a screenshot): a member shares a daily win, Félix answers.
+// The member stays anonymous (generic avatar, no name). Content: communityChat in src/data/look-inside.ts.
+import { communityChat } from '../../data/look-inside';
+---
+
+<figure class="rounded-card border border-border bg-surface p-5 md:p-7">
+  <figcaption class="mb-5 flex items-center gap-2 border-b border-border pb-4 text-[14px] font-semibold text-title">
+    <span aria-hidden="true">🏆</span><span class="text-muted" aria-hidden="true">#</span>{communityChat.channel}
+  </figcaption>
+  <div class="flex flex-col gap-5">
+    {communityChat.messages.map((message, i) => (
+      message.from === 'member' ? (
+        <div class="flex items-end gap-3">
+          <span class="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-border text-muted" aria-hidden="true">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="8" r="4.5" /><path d="M3.5 21c0-4.7 3.8-7.5 8.5-7.5s8.5 2.8 8.5 7.5z" /></svg>
+          </span>
+          <div class="max-w-[85%]">
+            <p class="mb-1 text-[12px] font-semibold text-muted">A member</p>
+            <div class="relative rounded-[16px] rounded-bl-[4px] border border-border bg-bg px-4 py-3 text-[15px] leading-[1.6] text-body" lang="fr">
+              {message.lines.map((line) => <p>{line}</p>)}
+              {message.hearts ? (
+                <span class="absolute -bottom-3 right-3 rounded-full border border-border bg-bg px-2 py-0.5 text-[12px] text-body">
+                  <span aria-hidden="true">❤️</span> {message.hearts}<span class="sr-only"> heart</span>
+                </span>
+              ) : null}
+            </div>
+          </div>
+        </div>
+      ) : (
+        <>
+          {i > 0 && <p class="mt-2 text-center text-[12px] text-muted">{communityChat.time}</p>}
+          <div class="flex flex-col items-end">
+            <p class="mb-1 text-[12px] font-semibold text-muted">Félix</p>
+            <div class="max-w-[85%] rounded-[16px] rounded-br-[4px] bg-accent px-4 py-3 text-[15px] leading-[1.6] text-onAccent" lang="fr">
+              {message.lines.map((line) => <p>{line}</p>)}
+            </div>
+          </div>
+        </>
+      )
+    ))}
+  </div>
+</figure>

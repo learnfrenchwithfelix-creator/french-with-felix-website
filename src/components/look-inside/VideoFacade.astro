@@ -1,0 +1,52 @@
+---
+// YouTube video that costs no more than an image until it's played: the page only loads the
+// thumbnail; the player (youtube-nocookie, so no cookies before the click) replaces it on click.
+// With `href`, the thumbnail is a link instead (homepage previews pointing to /look-inside/).
+import TodoBox from './TodoBox.astro';
+
+interface Props {
+  youtubeId: string;
+  /** Accessible title of the video, also the iframe title */
+  title: string;
+  /** Link the thumbnail somewhere instead of playing the video in place */
+  href?: string;
+  /** Shown instead of the video while youtubeId is empty */
+  todo: string;
+  class?: string;
+}
+
+const { youtubeId, title, href, todo, class: className = '' } = Astro.props;
+const thumb = `https://i.ytimg.com/vi/${youtubeId}/hqdefault.jpg`;
+const Tag = href ? 'a' : 'button';
+---
+
+{youtubeId ? (
+  <Tag
+    {...(href ? { href } : { type: 'button', 'data-youtube-id': youtubeId, 'data-title': title })}
+    class:list={['video-facade group relative block aspect-video w-full overflow-hidden rounded-card bg-surface', className]}
+    aria-label={href ? title : `Play: ${title}`}
+  >
+    <img src={thumb} alt="" width="480" height="360" loading="lazy" decoding="async" class="h-full w-full object-cover" />
+    <span class="absolute inset-0 flex items-center justify-center bg-black/10 transition-colors group-hover:bg-black/25" aria-hidden="true">
+      <span class="flex h-16 w-16 items-center justify-center rounded-full bg-accent text-onAccent shadow-lg transition-transform group-hover:scale-105">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z" /></svg>
+      </span>
+    </span>
+  </Tag>
+) : (
+  <TodoBox label={todo} class:list={['aspect-video', className]} />
+)}
+
+<script>
+  document.querySelectorAll<HTMLButtonElement>('button.video-facade[data-youtube-id]').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const iframe = document.createElement('iframe');
+      iframe.src = `https://www.youtube-nocookie.com/embed/${btn.dataset.youtubeId}?autoplay=1&rel=0&modestbranding=1`;
+      iframe.title = btn.dataset.title ?? '';
+      iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+      iframe.allowFullscreen = true;
+      iframe.className = 'aspect-video w-full rounded-card';
+      btn.replaceWith(iframe);
+    });
+  });
+</script>

@@ -1,0 +1,21 @@
+---
+// Dashed placeholder for sample content that hasn't been provided yet (see src/data/look-inside.ts).
+// Deliberately loud so it can't go live unnoticed.
+interface Props {
+  /** What is missing, e.g. "Video of the passé composé lesson (YouTube ID)" */
+  label: string;
+  class?: string;
+}
+
+const { label, class: className = '' } = Astro.props;
+---
+
+<div
+  class:list={[
+    'flex min-h-[140px] flex-col items-center justify-center gap-2 rounded-card border-2 border-dashed border-accent/60 bg-surface p-6 text-center',
+    className,
+  ]}
+>
+  <p class="font-mono text-[11px] font-semibold uppercase tracking-[0.14em] text-accent">TODO</p>
+  <p class="text-sm leading-[1.5] text-muted">{label}</p>
+</div>

@@ -1,22 +1,24 @@
 ---
-// Newsletter sign-up (homepage): posts straight to the Kajabi form (see newsletterFormAction);
-// Kajabi shows its thank-you page.
+// Name + email sign-up that posts straight to a Kajabi form; Kajabi shows its thank-you page.
+// Homepage newsletter by default (newsletterFormAction); /look-inside/ passes the sample pack form.
 import { newsletterFormAction } from '../../config/site';
 
 interface Props {
   /** Prefix for the input ids, unique on the page */
   id: string;
   buttonLabel?: string;
+  /** Kajabi form_submissions URL (defaults to the newsletter form) */
+  action?: string;
   class?: string;
 }
 
-const { id, buttonLabel = 'Subscribe', class: className } = Astro.props;
+const { id, buttonLabel = 'Subscribe', action = newsletterFormAction, class: className } = Astro.props;
 ---
 
 <form
   data-reveal
   data-newsletter-form
-  action={newsletterFormAction}
+  action={action}
   method="post"
   accept-charset="UTF-8"
   class:list={['grid grid-cols-1 gap-2.5 sm:grid-cols-2', className]}

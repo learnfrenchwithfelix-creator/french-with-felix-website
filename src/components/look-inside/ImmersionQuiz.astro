@@ -1,0 +1,87 @@
+---
+// The Daily Immersion comprehension quiz, playable on the page, as on Kajabi: picking an answer locks
+// the question, marks it right or wrong, shows the right one and its explanation; the score shows once
+// every question is answered. Nothing is sent anywhere.
+import type { QuizQuestion } from '../../data/look-inside';
+import TodoBox from './TodoBox.astro';
+
+interface Props {
+  questions: QuizQuestion[];
+  todo: string;
+}
+
+const { questions, todo } = Astro.props;
+---
+
+{questions.length ? (
+  <div class="flex flex-col gap-5" data-quiz>
+    {questions.map((q, i) => (
+      <fieldset class="quiz-question rounded-card border border-border bg-bg p-5" data-answer={q.answer}>
+        <legend class="mb-3 px-1 font-display text-[17px] font-semibold text-title" lang="fr">
+          {i + 1}. {q.question}
+        </legend>
+        <div class="flex flex-col gap-2">
+          {q.options.map((option, j) => (
+            <button type="button" class="quiz-option rounded-button border border-border px-4 py-3 text-left text-[15px] text-body" lang="fr" value={j}>
+              {option}
+            </button>
+          ))}
+        </div>
+        <p class="quiz-feedback mt-3 text-[14px] leading-[1.6] text-muted" aria-live="polite" hidden>
+          <strong class="text-title" data-verdict></strong> {q.explanation}
+        </p>
+      </fieldset>
+    ))}
+    <p class="font-display text-[17px] font-semibold text-title" data-quiz-score aria-live="polite" hidden></p>
+  </div>
+) : (
+  <TodoBox label={todo} />
+)}
+
+<script>
+  document.querySelectorAll<HTMLElement>('[data-quiz]').forEach((quiz) => {
+    const questions = [...quiz.querySelectorAll<HTMLFieldSetElement>('.quiz-question')];
+    let score = 0;
+    let answered = 0;
+    questions.forEach((fieldset) => {
+      const answer = fieldset.dataset.answer;
+      const options = [...fieldset.querySelectorAll<HTMLButtonElement>('.quiz-option')];
+      options.forEach((option) => {
+        option.addEventListener('click', () => {
+          const right = option.value === answer;
+          options.forEach((o) => {
+            o.disabled = true;
+            o.classList.toggle('is-right', o.value === answer);
+          });
+          if (!right) option.classList.add('is-wrong');
+          const feedback = fieldset.querySelector<HTMLElement>('.quiz-feedback')!;
+          feedback.querySelector('[data-verdict]')!.textContent = right ? 'Correct!' : 'Not quite.';
+          feedback.hidden = false;
+          if (right) score++;
+          if (++answered === questions.length) {
+            const output = quiz.querySelector<HTMLElement>('[data-quiz-score]')!;
+            output.textContent = `Result: ${score} / ${questions.length}`;
+            output.hidden = false;
+          }
+        });
+      });
+    });
+  });
+</script>
+
+<style>
+  .quiz-option:not(:disabled) {
+    cursor: pointer;
+  }
+  .quiz-option:not(:disabled):hover {
+    border-color: var(--color-title);
+  }
+  .quiz-option.is-right {
+    border-color: #2f8a4c;
+    background: color-mix(in srgb, #2f8a4c 10%, transparent);
+  }
+  .quiz-option.is-wrong {
+    border-color: var(--color-accent);
+    background: color-mix(in srgb, var(--color-accent) 10%, transparent);
+  }
+</style>
