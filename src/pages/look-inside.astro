@@ -14,7 +14,7 @@ import Pictures from '../components/look-inside/Pictures.astro';
 import CommunityChat from '../components/look-inside/CommunityChat.astro';
 import FileIcon from '../components/look-inside/FileIcon.astro';
 import { breadcrumbs } from '../utils/schema';
-import { samplePackFormAction, newsletterFormAction } from '../config/site';
+import { samplePackFormAction } from '../config/site';
 import { grammarLesson, dailyImmersion, liveSession, membershipCounts } from '../data/look-inside';
 
 ---
@@ -119,9 +119,7 @@ import { grammarLesson, dailyImmersion, liveSession, membershipCounts } from '..
           <li class="flex items-center gap-3"><FileIcon type="pdf" size={32} /><span><strong class="text-title">Daily Immersion</strong>: vocabulary &amp; sentence breakdown PDF</span></li>
           <li class="flex items-center gap-3"><FileIcon type="anki" size={32} /><span><strong class="text-title">Daily Immersion</strong>: Anki deck, {dailyImmersion.deckSize} cards with audio</span></li>
         </ul>
-        {/* TODO: samplePackFormAction (src/config/site.ts) = the Kajabi form that emails the pack. Until it
-            exists, sign-ups go to the newsletter form and nobody receives the files. */}
-        <NewsletterForm id="sample-pack" action={samplePackFormAction || newsletterFormAction} buttonLabel="Send me the pack" />
+        <NewsletterForm id="sample-pack" action={samplePackFormAction} buttonLabel="Send me the pack" />
       </div>
     </section>
 
