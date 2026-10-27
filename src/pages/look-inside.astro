@@ -1,0 +1,216 @@
+---
+// "Look inside": real samples of the membership (a grammar lesson, a Daily Immersion with its quiz,
+// a live session, the community). The homepage previews it (components/home/LookInside.astro).
+// Content lives in src/data/look-inside.ts; missing pieces show TODO boxes. Sections are numbered 1–4.
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Reveal from '../components/ui/Reveal.astro';
+import CTABanner from '../components/ui/CTABanner.astro';
+import NewsletterForm from '../components/ui/NewsletterForm.astro';
+import TodoBox from '../components/look-inside/TodoBox.astro';
+import VideoFacade from '../components/look-inside/VideoFacade.astro';
+import AnkiCards from '../components/look-inside/AnkiCards.astro';
+import ImmersionQuiz from '../components/look-inside/ImmersionQuiz.astro';
+import Pictures from '../components/look-inside/Pictures.astro';
+import CommunityChat from '../components/look-inside/CommunityChat.astro';
+import FileIcon from '../components/look-inside/FileIcon.astro';
+import { breadcrumbs } from '../utils/schema';
+import { samplePackFormAction, newsletterFormAction } from '../config/site';
+import { grammarLesson, dailyImmersion, liveSession, membershipCounts } from '../data/look-inside';
+
+---
+
+<BaseLayout
+  title="Look inside the membership | Liminal French"
+  description="See real Liminal French content: a full grammar lesson on the passé composé with its PDF and Anki deck, a Daily Immersion with its quiz, a live session and the community."
+  schema={[breadcrumbs([['Look inside', '/look-inside/']])]}
+>
+  <Reveal />
+
+  <!-- ── Header ── -->
+  <header class="mx-auto max-w-[900px] px-6 pb-10 pt-12 md:px-12 md:pt-16">
+    <p data-reveal class="mb-4 font-mono text-[12px] uppercase tracking-[0.1em] text-accent">Look inside</p>
+    <h1 data-reveal class="mb-5 font-display text-[clamp(2rem,4.5vw,3rem)] leading-[1.06] tracking-[-0.045em] text-title">
+      <span style="font-weight: var(--weight-light)">See exactly what you get</span>
+      <span style="font-weight: var(--weight-bold)"> before you join.</span>
+    </h1>
+    <p data-reveal class="max-w-[640px] text-base leading-[1.65] text-body md:text-[17px]">
+      No screenshots of a dashboard: real content from the membership. Watch a full lesson, flip its
+      flashcards, read a Daily Immersion and test yourself with its quiz.
+    </p>
+  </header>
+
+  <div class="mx-auto flex max-w-[900px] flex-col gap-24 px-6 pb-24 md:px-12">
+    <!-- ── Grammar ── -->
+    <section id="grammar" class="scroll-mt-24">
+      <p data-reveal class="mb-3 font-mono text-[12px] uppercase tracking-[0.1em] text-muted">Learn</p>
+      <h2 data-reveal class="mb-3 font-display text-[clamp(1.6rem,3vw,2.1rem)] font-bold tracking-[-0.03em] text-title">
+        <span class="text-title">1.</span> Grammar lesson: {grammarLesson.title.replace(/^The /, 'the ')}
+      </h2>
+      <p data-reveal class="mb-8 text-[15px] text-muted">{grammarLesson.summary}</p>
+
+      <p data-reveal class="mb-6 max-w-[640px] text-[15px] leading-[1.65] text-body">
+        The grammar course has <strong>over {membershipCounts.grammarLessons} lessons</strong>. This one is an excerpt of
+        the A2 course: lesson {grammarLesson.lesson}, on the passé composé.
+        Every lesson comes in two videos: the <strong>course</strong> explains the grammar step by step, then
+        the <strong>immersion</strong> shows it at work in real, natural French.
+      </p>
+      <div class="flex flex-col gap-10">
+        {grammarLesson.videos.map((video) => (
+          <div data-reveal>
+            <p class="mb-3 font-mono text-[11px] font-medium uppercase tracking-[0.14em] text-muted">{video.label}</p>
+            <VideoFacade
+              youtubeId={video.youtubeId}
+              title={video.title}
+              todo={`${video.label} of the passé composé lesson: YouTube ID (grammarLesson.videos)`}
+            />
+          </div>
+        ))}
+      </div>
+
+      <h3 data-reveal class="mb-2 mt-12 flex items-center gap-3 font-display text-xl font-bold tracking-[-0.02em] text-title"><FileIcon type="pdf" size={28} />The lesson PDFs</h3>
+      <p data-reveal class="mb-5 text-[15px] text-muted">Excerpts of its two PDFs: the key takeaways and the vocabulary.</p>
+      <div data-reveal>
+        <Pictures
+          pictures={grammarLesson.pdfExcerpts}
+          todo="1–2 excerpts of the passé composé PDF, as images in public/images/look-inside/ (grammarLesson.pdfExcerpts)"
+        />
+      </div>
+
+      <h3 data-reveal class="mb-2 mt-12 flex items-center gap-3 font-display text-xl font-bold tracking-[-0.02em] text-title"><FileIcon type="anki" size={28} />Its Anki deck</h3>
+      <p data-reveal class="mb-2 text-[15px] leading-[1.65] text-body">
+        Flashcards made with sentences from the lessons. <strong>You learn, you review, you memorize.</strong>
+      </p>
+      <p data-reveal class="mb-5 text-[15px] text-muted">Tap a card to flip it, and press Listen to hear it.</p>
+      <div data-reveal>
+        <AnkiCards cards={grammarLesson.ankiCards} todo="3–4 cards from the passé composé deck (grammarLesson.ankiCards)" />
+      </div>
+
+      <!-- Anki memo -->
+      <div data-reveal class="mt-8 rounded-card border border-border bg-surface p-6 md:p-8">
+        <h3 class="mb-3 font-display text-lg font-bold tracking-[-0.02em] text-title">Why an Anki deck?</h3>
+        <div class="flex flex-col gap-3 text-[15px] leading-[1.65] text-body">
+          <p>
+            Anki is a free flashcard app built on <strong>spaced repetition</strong>: it shows you each card
+            just before you would forget it. Cards you know come back in a few weeks, cards you struggle
+            with come back tomorrow. Ten minutes a day is enough to keep hundreds of words and structures alive.
+          </p>
+          <p>
+            Every lesson and every Daily Immersion comes with a <strong>ready-made deck</strong>. Download it,
+            import it into Anki (free on computer and Android, paid on iPhone) and start reviewing. No card-making.
+          </p>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ── Sample pack opt-in ── -->
+    <section id="sample-pack" class="scroll-mt-24">
+      <div data-reveal class="rounded-card border border-border bg-surface p-6 md:p-10">
+        <h2 class="mb-2 font-display text-[clamp(1.4rem,2.6vw,1.8rem)] font-bold tracking-[-0.03em] text-title">
+          Get the full sample pack, free
+        </h2>
+        <p class="mb-6 text-[15px] leading-[1.6] text-body">
+          Every file from this lesson and from the Daily Immersion below, sent to your inbox: import the decks into Anki and start reviewing today.
+        </p>
+        <ul class="mb-8 grid grid-cols-1 gap-3 text-[15px] text-body sm:grid-cols-2">
+          <li class="flex items-center gap-3"><FileIcon type="pdf" size={32} /><span><strong class="text-title">Passé composé</strong>: key takeaways + vocabulary PDFs</span></li>
+          <li class="flex items-center gap-3"><FileIcon type="anki" size={32} /><span><strong class="text-title">Passé composé</strong>: Anki deck, {grammarLesson.deckSize} cards with audio</span></li>
+          <li class="flex items-center gap-3"><FileIcon type="pdf" size={32} /><span><strong class="text-title">Daily Immersion</strong>: vocabulary &amp; sentence breakdown PDF</span></li>
+          <li class="flex items-center gap-3"><FileIcon type="anki" size={32} /><span><strong class="text-title">Daily Immersion</strong>: Anki deck, {dailyImmersion.deckSize} cards with audio</span></li>
+        </ul>
+        {/* TODO: samplePackFormAction (src/config/site.ts) = the Kajabi form that emails the pack. Until it
+            exists, sign-ups go to the newsletter form and nobody receives the files. */}
+        <NewsletterForm id="sample-pack" action={samplePackFormAction || newsletterFormAction} buttonLabel="Send me the pack" />
+      </div>
+    </section>
+
+    <!-- ── Daily Immersion ── -->
+    <section id="daily-immersion" class="scroll-mt-24">
+      <p data-reveal class="mb-3 font-mono text-[12px] uppercase tracking-[0.1em] text-muted">Practise</p>
+      <h2 data-reveal class="mb-3 font-display text-[clamp(1.6rem,3vw,2.1rem)] font-bold tracking-[-0.03em] text-title">
+        <span class="text-title">2.</span> Daily Immersion{dailyImmersion.title && <span lang="fr">: {dailyImmersion.title}</span>}
+      </h2>
+      <p data-reveal class="mb-4 max-w-[640px] text-[15px] leading-[1.65] text-body">
+        A short French text every day, at your level, to practise reading:
+        <strong>over {membershipCounts.immersionTexts} texts</strong> to read, listen to and test yourself on. A little every day, and your French will skyrocket.
+      </p>
+      <p data-reveal class="mb-8 text-[15px] text-muted">
+        Here's day {dailyImmersion.day} of the A2 series, on {dailyImmersion.grammarTheme}.
+      </p>
+      {dailyImmersion.audio && (
+        <div data-reveal class="mb-6">
+          <p class="mb-2 text-[14px] font-semibold text-title">Listen while you read</p>
+          <audio controls preload="none" src={dailyImmersion.audio} class="w-full">
+            <a href={dailyImmersion.audio}>Download the audio</a>
+          </audio>
+        </div>
+      )}
+
+      <div data-reveal>
+        {dailyImmersion.paragraphs.length ? (
+          <article lang="fr" class="flex flex-col gap-4 rounded-card border border-border bg-bg p-6 text-[17px] leading-[1.75] text-body md:p-8">
+            {dailyImmersion.paragraphs.map((p) => <p>{p}</p>)}
+          </article>
+        ) : (
+          <TodoBox label="The French text of a sample Daily Immersion (dailyImmersion.title, level, paragraphs)" />
+        )}
+      </div>
+
+      <h3 data-reveal class="mb-2 mt-12 font-display text-xl font-bold tracking-[-0.02em] text-title">Test yourself</h3>
+      <p data-reveal class="mb-5 text-[15px] text-muted">Choose the right answer. The result shows up right away.</p>
+      <div data-reveal>
+        <ImmersionQuiz questions={dailyImmersion.quiz} todo="The comprehension quiz of that immersion (dailyImmersion.quiz)" />
+      </div>
+
+      <!-- Its files: named only, the lesson above already shows what they look like -->
+      <div data-reveal class="mt-8 flex flex-wrap items-center gap-x-6 gap-y-3 text-[15px] text-body">
+        <span class="font-semibold text-title">Its PDF and Anki deck:</span>
+        <span class="inline-flex items-center gap-2"><FileIcon type="pdf" />Vocabulary &amp; sentence breakdown</span>
+        <span class="inline-flex items-center gap-2"><FileIcon type="anki" />{dailyImmersion.deckSize} cards with audio</span>
+      </div>
+    </section>
+
+
+    <!-- ── Live sessions ── -->
+    <section id="live-sessions" class="scroll-mt-24">
+      <p data-reveal class="mb-3 font-mono text-[12px] uppercase tracking-[0.1em] text-muted">Speak</p>
+      <h2 data-reveal class="mb-3 font-display text-[clamp(1.6rem,3vw,2.1rem)] font-bold tracking-[-0.03em] text-title">
+        <span class="text-title">3.</span> Live sessions, every week
+      </h2>
+      <p data-reveal class="mb-8 text-[15px] text-muted">
+        <strong class="text-title">{membershipCounts.livesPerWeek} live sessions every week</strong>, up to B2: {liveSession.caption}
+      </p>
+      <div data-reveal>
+        <VideoFacade
+          youtubeId={liveSession.youtubeId}
+          title="Excerpt of a Liminal French live session"
+          todo="Excerpt of a live session: YouTube ID (liveSession.youtubeId)"
+        />
+      </div>
+    </section>
+
+    <!-- ── Community ── -->
+    <section id="community" class="scroll-mt-24">
+      <p data-reveal class="mb-3 font-mono text-[12px] uppercase tracking-[0.1em] text-muted">Share</p>
+      <h2 data-reveal class="mb-3 font-display text-[clamp(1.6rem,3vw,2.1rem)] font-bold tracking-[-0.03em] text-title">
+        <span class="text-title">4.</span> A community that shows up
+      </h2>
+      <p data-reveal class="mb-8 text-[15px] text-muted">
+        Members share their daily wins, ask questions and keep each other going. Here's one from this week,
+        in the “Share your daily wins” channel (anonymised).
+      </p>
+      <div data-reveal class="max-w-[640px]">
+        <CommunityChat />
+      </div>
+    </section>
+  </div>
+
+  <CTABanner
+    eyebrow="Your turn"
+    headingLight="Like what you see?"
+    headingBold="Try it for 7 days."
+    body="Every lesson, every Daily Immersion, the live sessions and the community. 7 days free, cancel anytime."
+    cta="Start your free trial →"
+    href="/start/"
+  />
+</BaseLayout>

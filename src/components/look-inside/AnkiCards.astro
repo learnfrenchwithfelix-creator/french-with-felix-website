@@ -1,0 +1,159 @@
+---
+// Anki flashcards you can flip: French on the front, English (+ grammar note) on the back, like in
+// the app. Plain buttons, so they work with the keyboard; the hidden side is aria-hidden. A card with
+// audio gets a "Listen" button under it (outside the flip button: buttons can't be nested).
+import type { AnkiCard } from '../../data/look-inside';
+import TodoBox from './TodoBox.astro';
+
+interface Props {
+  cards: AnkiCard[];
+  /** Shown instead of the cards while the list is empty */
+  todo: string;
+  class?: string;
+}
+
+const { cards, todo, class: className = '' } = Astro.props;
+
+/** Splits the front around its highlight, so the grammar point can be shown in bold */
+const splitFront = (card: AnkiCard) => {
+  const at = card.highlight ? card.front.indexOf(card.highlight) : -1;
+  if (at < 0) return { before: card.front, bold: '', after: '' };
+  return { before: card.front.slice(0, at), bold: card.highlight!, after: card.front.slice(at + card.highlight!.length) };
+};
+---
+
+{cards.length ? (
+  <div class:list={['grid grid-cols-1 gap-3 sm:grid-cols-2', className]}>
+    {cards.map((card) => {
+      const { before, bold, after } = splitFront(card);
+      return (
+        <div class="flex flex-col gap-2">
+          <button type="button" class="anki-card" aria-pressed="false" data-anki-card>
+            <span class="anki-card-inner">
+              <span class="anki-face anki-front" lang="fr">
+                <span class="anki-hint" aria-hidden="true">FR</span>
+                <span>{before}{bold && <strong class="anki-bold">{bold}</strong>}{after}</span>
+              </span>
+              <span class="anki-face anki-back" aria-hidden="true">
+                <span class="anki-hint" aria-hidden="true">EN</span>
+                {card.back}
+                {card.note && <span class="anki-note">{card.note}</span>}
+              </span>
+            </span>
+          </button>
+          {card.audio && (
+            <button type="button" class="anki-listen" data-anki-audio={card.audio} aria-label={`Listen: ${card.front}`}>
+              <span aria-hidden="true">▶</span> Listen
+            </button>
+          )}
+        </div>
+      );
+    })}
+  </div>
+) : (
+  <TodoBox label={todo} class={className} />
+)}
+
+<script>
+  document.querySelectorAll<HTMLButtonElement>('[data-anki-card]').forEach((card) => {
+    card.addEventListener('click', () => {
+      const flipped = card.getAttribute('aria-pressed') !== 'true';
+      card.setAttribute('aria-pressed', String(flipped));
+      card.querySelector('.anki-front')?.setAttribute('aria-hidden', String(flipped));
+      card.querySelector('.anki-back')?.setAttribute('aria-hidden', String(!flipped));
+    });
+  });
+
+  // One shared player: a new click stops the card that was playing
+  let player: HTMLAudioElement | null = null;
+  document.querySelectorAll<HTMLButtonElement>('[data-anki-audio]').forEach((button) => {
+    button.addEventListener('click', () => {
+      player?.pause();
+      player = new Audio(button.dataset.ankiAudio);
+      player.play();
+    });
+  });
+</script>
+
+<style>
+  .anki-card {
+    perspective: 900px;
+    min-height: 150px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .anki-card-inner {
+    position: relative;
+    display: block;
+    height: 100%;
+    min-height: inherit;
+    transform-style: preserve-3d;
+    transition: transform 450ms cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  .anki-card[aria-pressed='true'] .anki-card-inner {
+    transform: rotateY(180deg);
+  }
+  .anki-face {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 18px;
+    border: 1px solid var(--color-border);
+    border-radius: 14px;
+    background: var(--color-bg);
+    color: var(--color-title);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.4;
+    backface-visibility: hidden;
+  }
+  .anki-back {
+    transform: rotateY(180deg);
+    background: var(--color-surface);
+    color: var(--color-body);
+    font-weight: 500;
+  }
+  .anki-bold {
+    color: var(--color-accent);
+    font-weight: 700;
+  }
+  .anki-note {
+    font-family: var(--font-mono, 'Spline Sans Mono', monospace);
+    font-size: 12px;
+    color: var(--color-muted);
+  }
+  .anki-listen {
+    align-self: center;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--color-accent);
+    cursor: pointer;
+  }
+  .anki-listen:hover {
+    color: var(--color-accent-dark);
+  }
+  .anki-hint {
+    font-family: var(--font-mono, 'Spline Sans Mono', monospace);
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    color: var(--color-muted);
+  }
+  .anki-card:hover .anki-face {
+    border-color: var(--color-title);
+  }
+  .anki-card:focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 3px;
+    border-radius: 14px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .anki-card-inner {
+      transition: none;
+    }
+  }
+</style>
