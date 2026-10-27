@@ -2,6 +2,7 @@
 import Button from '../ui/Button.astro';
 
 const navLinks = [
+  { href: '/look-inside/', label: 'Look inside' },
   { href: '/blog/', label: 'Blog' },
   { href: '/podcast/', label: 'Podcast' },
   { href: '/library/', label: 'Library' },
@@ -11,16 +12,16 @@ const navLinks = [
 
 <header class="sticky top-0 z-50 border-b border-border">
   <div class="mx-auto flex max-w-[1180px] items-center justify-between px-6 py-5 lg:px-12">
-    <a href="/" class="font-display text-[22px] font-bold tracking-[0.04em] text-title">LIMINAL FRENCH</a>
+    <a href="/" class="whitespace-nowrap font-display text-[22px] font-bold tracking-[0.04em] text-title">LIMINAL FRENCH</a>
 
-    <div class="flex items-center gap-4 md:gap-[34px]">
-      <div class="hidden items-center gap-[34px] md:flex">
-        <nav class="flex items-center gap-[34px]" aria-label="Primary">
+    <div class="flex items-center gap-4 md:gap-5 lg:gap-[34px]">
+      <div class="hidden items-center gap-5 md:flex lg:gap-[34px]">
+        <nav class="flex items-center gap-4 lg:gap-[34px]" aria-label="Primary">
           {navLinks.map((link) => (
-            <a href={link.href} class="text-[15px] font-medium text-body transition-colors hover:text-accent">{link.label}</a>
+            <a href={link.href} class="whitespace-nowrap text-[14px] font-medium text-body lg:text-[15px] transition-colors hover:text-accent">{link.label}</a>
           ))}
         </nav>
-        <Button href="/start/" class="px-5 py-[9px] text-[15px]">Start Learning →</Button>
+        <Button href="/start/" class="whitespace-nowrap px-5 py-[9px] text-[15px]">Start Learning →</Button>
       </div>
 
       <!-- Light / dark toggle. The moon shows in light mode (switch to dark), the sun in dark mode. -->

@@ -10,13 +10,16 @@ interface Props {
   title: string;
   /** Link the thumbnail somewhere instead of playing the video in place */
   href?: string;
+  /** Local 16:9 thumbnail under public/ (default: YouTube's own, which is lower quality) */
+  thumbnail?: string;
   /** Shown instead of the video while youtubeId is empty */
   todo: string;
   class?: string;
 }
 
-const { youtubeId, title, href, todo, class: className = '' } = Astro.props;
-const thumb = `https://i.ytimg.com/vi/${youtubeId}/hqdefault.jpg`;
+const { youtubeId, title, href, thumbnail, todo, class: className = '' } = Astro.props;
+const thumb = thumbnail ?? `https://i.ytimg.com/vi/${youtubeId}/hqdefault.jpg`;
+const [thumbWidth, thumbHeight] = thumbnail ? [960, 540] : [480, 360];
 const Tag = href ? 'a' : 'button';
 ---
 
@@ -26,7 +29,7 @@ const Tag = href ? 'a' : 'button';
     class:list={['video-facade group relative block aspect-video w-full overflow-hidden rounded-card bg-surface', className]}
     aria-label={href ? title : `Play: ${title}`}
   >
-    <img src={thumb} alt="" width="480" height="360" loading="lazy" decoding="async" class="h-full w-full object-cover" />
+    <img src={thumb} alt="" width={thumbWidth} height={thumbHeight} loading="lazy" decoding="async" class="h-full w-full object-cover" />
     <span class="absolute inset-0 flex items-center justify-center bg-black/10 transition-colors group-hover:bg-black/25" aria-hidden="true">
       <span class="flex h-16 w-16 items-center justify-center rounded-full bg-accent text-onAccent shadow-lg transition-transform group-hover:scale-105">
         <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z" /></svg>
