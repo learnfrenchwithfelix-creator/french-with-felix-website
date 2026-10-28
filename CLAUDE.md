@@ -54,7 +54,7 @@ All official URLs live in `src/config/site.ts`. Import them; never hard-code a d
 
 - Each article has ONE level (`level: ["A2"]`): the learner it helps most. Culture/story articles take the level
   of the episode they come from; method articles the stage where the advice matters most. No "all levels" tag
-  and no C1 (the site stops at B2). Current split: A1 4, A2 13, B1 18, B2 4.
+  and no C1 (the site stops at B2). Current split: A1 5, A2 13, B1 18, B2 4.
 - This keeps future level hub pages (/levels/a2/ …) distinct; don't tag an article with several levels.
 
 ## Blog ↔ podcast internal links
@@ -63,7 +63,7 @@ All official URLs live in `src/config/site.ts`. Import them; never hard-code a d
   comes from). The article shows "Listen to the episode"; the episode page shows "Read the article" in return
   (`src/utils/related.ts`). `relatedArticle` in the episode's extras file only overrides that default.
 - A slug that isn't a published episode/article fails the build.
-- 37 of the 39 articles are linked (validated by the owner). Not linked: intensive-vs-extensive-immersion-french,
+- 38 of the 40 articles are linked (validated by the owner). Not linked: intensive-vs-extensive-immersion-french,
   pardon-my-french-vulgar-expressions-explained.
 
 ## Page titles and duplicated content

@@ -16,6 +16,7 @@ const blog = defineCollection({
     lang:           z.string().optional(),
     featuredImage:  z.string().optional(),
     featuredImageAlt: z.string().optional(),
+    youtubeId:      z.string().optional(),      // video shown under the article header (e.g. a step-by-step tutorial)
     readingTime:    z.number().optional(),
     featured:       z.boolean().optional(),
     draft:          z.boolean().optional(),

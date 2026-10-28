@@ -29,6 +29,7 @@ featured: false                 # true = mis en avant sur la homepage
 draft: false                    # true = non publié
 updatedDate: 2025-10-01         # optionnel — dernière mise à jour importante (JSON-LD dateModified)
 relatedEpisode: le-running      # optionnel — slug de l'épisode dont l'article est tiré (bloc « Listen to the episode »)
+youtubeId: 0p-6dyY3yQU          # optionnel — vidéo YouTube affichée sous l'en-tête de l'article
 ---
 ```
 
