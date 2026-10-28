@@ -8,6 +8,7 @@ import { isPublished, isScheduled } from '../../utils/content';
 import ScheduledLabel from '../../components/ui/ScheduledLabel.astro';
 import RelatedEpisode from '../../components/blog/RelatedEpisode.astro';
 import { episodeForArticle } from '../../utils/related';
+import VideoFacade from '../../components/look-inside/VideoFacade.astro';
 
 export async function getStaticPaths() {
   const articles = await getCollection('blog', ({ data }) => isPublished(data));
@@ -31,7 +32,7 @@ const { article } = Astro.props;
 const { Content, headings } = await render(article);
 const h2s = headings.filter(h => h.depth === 2);
 
-const { title, description, category, readingTime, publishDate, updatedDate, level, featuredImage } = article.data;
+const { title, description, category, readingTime, publishDate, updatedDate, level, featuredImage, youtubeId } = article.data;
 // The page is English (<html lang="en">); an article written in French gets lang="fr" on its title and body
 const articleLang = article.data.lang ?? 'en';
 // The podcast episode this article comes from ("Listen to the episode" block)
@@ -98,6 +99,9 @@ function formatDate(d: Date | string): string {
         Written by <a href="/about/" class="text-accent underline-offset-2 hover:underline">Félix</a>
       </p>
     </header>
+
+    <!-- ── Video (optional youtubeId) ── -->
+    {youtubeId && <VideoFacade youtubeId={youtubeId} title={title} todo="" class="mb-10" />}
 
     <!-- ── Table of contents ── -->
     {h2s.length > 1 && (
