@@ -40,6 +40,25 @@ import { grammarLesson, dailyImmersion, liveSession, membershipCounts } from '..
   </header>
 
   <div class="mx-auto flex max-w-[900px] flex-col gap-24 px-6 pb-24 md:px-12">
+    <!-- ── Sample pack opt-in ── -->
+    <section id="sample-pack" class="scroll-mt-24">
+      <div data-reveal class="rounded-card border border-border bg-surface p-6 md:p-10">
+        <h2 class="mb-2 font-display text-[clamp(1.4rem,2.6vw,1.8rem)] font-bold tracking-[-0.03em] text-title">
+          Get the full sample pack, free
+        </h2>
+        <p class="mb-6 text-[15px] leading-[1.6] text-body">
+          Every file from the passé composé lesson and the Daily Immersion below, sent to your inbox: import the decks into Anki and start reviewing today.
+        </p>
+        <ul class="mb-8 grid grid-cols-1 gap-3 text-[15px] text-body sm:grid-cols-2">
+          <li class="flex items-center gap-3"><FileIcon type="pdf" size={32} /><span><strong class="text-title">Passé composé</strong>: key takeaways + vocabulary PDFs</span></li>
+          <li class="flex items-center gap-3"><FileIcon type="anki" size={32} /><span><strong class="text-title">Passé composé</strong>: Anki deck, {grammarLesson.deckSize} cards with audio</span></li>
+          <li class="flex items-center gap-3"><FileIcon type="pdf" size={32} /><span><strong class="text-title">Daily Immersion</strong>: vocabulary &amp; sentence breakdown PDF</span></li>
+          <li class="flex items-center gap-3"><FileIcon type="anki" size={32} /><span><strong class="text-title">Daily Immersion</strong>: Anki deck, {dailyImmersion.deckSize} cards with audio</span></li>
+        </ul>
+        <NewsletterForm id="sample-pack" action={samplePackFormAction} buttonLabel="Send me the pack" />
+      </div>
+    </section>
+
     <!-- ── Grammar ── -->
     <section id="grammar" class="scroll-mt-24">
       <p data-reveal class="mb-3 font-mono text-[12px] uppercase tracking-[0.1em] text-muted">Learn</p>
@@ -102,25 +121,6 @@ import { grammarLesson, dailyImmersion, liveSession, membershipCounts } from '..
         </div>
       </div>
 
-    </section>
-
-    <!-- ── Sample pack opt-in ── -->
-    <section id="sample-pack" class="scroll-mt-24">
-      <div data-reveal class="rounded-card border border-border bg-surface p-6 md:p-10">
-        <h2 class="mb-2 font-display text-[clamp(1.4rem,2.6vw,1.8rem)] font-bold tracking-[-0.03em] text-title">
-          Get the full sample pack, free
-        </h2>
-        <p class="mb-6 text-[15px] leading-[1.6] text-body">
-          Every file from this lesson and from the Daily Immersion below, sent to your inbox: import the decks into Anki and start reviewing today.
-        </p>
-        <ul class="mb-8 grid grid-cols-1 gap-3 text-[15px] text-body sm:grid-cols-2">
-          <li class="flex items-center gap-3"><FileIcon type="pdf" size={32} /><span><strong class="text-title">Passé composé</strong>: key takeaways + vocabulary PDFs</span></li>
-          <li class="flex items-center gap-3"><FileIcon type="anki" size={32} /><span><strong class="text-title">Passé composé</strong>: Anki deck, {grammarLesson.deckSize} cards with audio</span></li>
-          <li class="flex items-center gap-3"><FileIcon type="pdf" size={32} /><span><strong class="text-title">Daily Immersion</strong>: vocabulary &amp; sentence breakdown PDF</span></li>
-          <li class="flex items-center gap-3"><FileIcon type="anki" size={32} /><span><strong class="text-title">Daily Immersion</strong>: Anki deck, {dailyImmersion.deckSize} cards with audio</span></li>
-        </ul>
-        <NewsletterForm id="sample-pack" action={samplePackFormAction} buttonLabel="Send me the pack" />
-      </div>
     </section>
 
     <!-- ── Daily Immersion ── -->
