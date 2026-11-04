@@ -1,0 +1,24 @@
+---
+// Written in the first person: Félix speaking.
+import MembershipPart from './MembershipPart.astro';
+import CommunityChat from '../../look-inside/CommunityChat.astro';
+import Button from '../../ui/Button.astro';
+import { listClass, itemClass, iconClass, linkClass } from './styles';
+---
+
+<MembershipPart number={4} label="Community" headingLight="Never learn" headingBold="alone." mediaWidth="wide">
+  <CommunityChat slot="media" compact />
+  <p class="mb-5 text-base leading-[1.65] text-body md:text-[17px]">
+    The community is where members keep each other going between lessons, and <strong>I'm in it too</strong>.
+    Come and talk with me, ask me your questions, tell me how your French is going.
+  </p>
+  <ul class={listClass}>
+    <li class={itemClass}><span class={iconClass} aria-hidden="true">🏆</span><span><strong class="text-title">Share your daily wins</strong>, in French</span></li>
+    <li class={itemClass}><span class={iconClass} aria-hidden="true">?</span><span><strong class="text-title">Ask your questions</strong>: I answer them myself</span></li>
+    <li class={itemClass}><span class={iconClass} aria-hidden="true">✦</span><span><strong class="text-title">Share resources, methods and tips</strong> with learners on the same path</span></li>
+  </ul>
+  <a href="/look-inside/#community" class={linkClass}>Take a peek →</a>
+  <div slot="after" class="mt-10 text-center">
+    <Button href="/look-inside/" class="justify-center px-8 py-[15px] text-base">View a full course sample →</Button>
+  </div>
+</MembershipPart>

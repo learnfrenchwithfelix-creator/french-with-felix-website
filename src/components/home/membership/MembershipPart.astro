@@ -1,0 +1,35 @@
+---
+// One part of the membership on the homepage (grammar, Daily Immersion, live sessions, community), each in
+// its own snap block: a numbered header, then a sample ("media" slot) beside its details (default slot).
+// Content: src/data/look-inside.ts; the full samples are on /look-inside/.
+import SectionHeader from '../../ui/SectionHeader.astro';
+
+interface Props {
+  /** 1–4, shown as "01 · Grammar" in the side label */
+  number: number;
+  label: string;
+  headingLight: string;
+  headingBold: string;
+  /** Width of the sample column from `lg`: `wide` gives it more room (community chat, live schedule),
+   *  `narrow` gives the details more room (grammar curriculum) */
+  mediaWidth?: 'half' | 'wide' | 'narrow';
+  /** Put the sample on the right from `lg` */
+  mediaRight?: boolean;
+}
+
+const { number, label, headingLight, headingBold, mediaWidth = 'half', mediaRight = false } = Astro.props;
+const cols = {
+  half: 'lg:grid-cols-[1fr_1fr]',
+  wide: mediaRight ? 'lg:grid-cols-[1fr_1.35fr]' : 'lg:grid-cols-[1.6fr_1fr]',
+  narrow: mediaRight ? 'lg:grid-cols-[1.6fr_1fr]' : 'lg:grid-cols-[1fr_1.6fr]',
+}[mediaWidth];
+---
+
+<section class="mx-auto max-w-[1180px] px-6 pb-28 md:px-12">
+  <SectionHeader eyebrow={`${String(number).padStart(2, '0')} · ${label}`} headingLight={headingLight} headingBold={headingBold} gap="tight" eyebrowPosition="top" />
+  <div data-reveal class:list={['grid grid-cols-1 items-center gap-8 lg:gap-12', cols]}>
+    <div class:list={[mediaRight && 'lg:order-2']}><slot name="media" /></div>
+    <div><slot /></div>
+  </div>
+  <slot name="after" />
+</section>

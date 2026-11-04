@@ -1,0 +1,87 @@
+---
+// The grammar curriculum (src/data/curriculum.ts) as an accordion: one row per level, closed by default; a
+// row opens on click to list that level's lessons in course order. Native <details> (works without JS),
+// sharing one `name` so opening a level closes the other.
+import Badge from '../../ui/Badge.astro';
+import { curriculum } from '../../../data/curriculum';
+
+const LEVEL_NAMES: Record<string, string> = { A1: 'Beginner', A2: 'Elementary', B1: 'Intermediate', B2: 'Upper intermediate' };
+const total = curriculum.reduce((n, c) => n + c.lessons.length, 0);
+---
+
+<div>
+  <div class="mb-4 flex flex-wrap items-baseline justify-between gap-2">
+    <p class="font-display text-[19px] font-bold text-title">Course curriculum</p>
+    <p class="text-[13px] text-muted">{total} lessons · tap a level to see them</p>
+  </div>
+  <div class="flex flex-col gap-3">
+    {curriculum.map((c) => (
+      <details name="curriculum" class="curriculum-level rounded-card border border-border bg-surface">
+        <summary class="flex cursor-pointer list-none items-center gap-3 px-5 py-4">
+          <Badge level={c.level} />
+          <span class="font-display text-[16px] font-semibold text-title">{c.level} level · {LEVEL_NAMES[c.level]}</span>
+          <span class="ml-auto text-[13px] text-muted">{c.lessons.length} lessons</span>
+          <span class="curriculum-sign" aria-hidden="true"></span>
+        </summary>
+        <ol class="grid grid-cols-1 gap-x-6 gap-y-1.5 px-5 pb-5 text-[13.5px] leading-snug text-body sm:grid-cols-2">
+          {c.lessons.map((lesson, n) => (
+            <li class="flex gap-2"><span class="w-5 shrink-0 text-right font-mono text-[11px] leading-[1.6] text-muted">{n + 1}</span><span>{lesson}</span></li>
+          ))}
+        </ol>
+      </details>
+    ))}
+  </div>
+</div>
+
+<style>
+  .curriculum-level summary::-webkit-details-marker {
+    display: none;
+  }
+  .curriculum-level summary:focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+    border-radius: var(--radius-card);
+  }
+  .curriculum-level:hover {
+    border-color: var(--color-muted);
+  }
+  /* "+" that turns into "−" when the level is open */
+  .curriculum-sign {
+    position: relative;
+    width: 14px;
+    height: 14px;
+    flex-shrink: 0;
+  }
+  .curriculum-sign::before,
+  .curriculum-sign::after {
+    content: '';
+    position: absolute;
+    inset: 6px 0 auto;
+    height: 2px;
+    border-radius: 2px;
+    background: var(--color-title);
+    transition: transform 250ms ease;
+  }
+  .curriculum-sign::after {
+    transform: rotate(90deg);
+  }
+  .curriculum-level[open] .curriculum-sign::after {
+    transform: rotate(0deg);
+  }
+  .curriculum-level[open] ol {
+    animation: curriculum-open 300ms ease;
+  }
+  @keyframes curriculum-open {
+    from {
+      opacity: 0;
+      transform: translateY(-4px);
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .curriculum-sign::after,
+    .curriculum-level[open] ol {
+      transition: none;
+      animation: none;
+    }
+  }
+</style>

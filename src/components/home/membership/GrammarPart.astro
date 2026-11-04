@@ -1,0 +1,32 @@
+---
+import MembershipPart from './MembershipPart.astro';
+import Curriculum from './Curriculum.astro';
+import VideoFacade from '../../look-inside/VideoFacade.astro';
+import FileIcon from '../../look-inside/FileIcon.astro';
+import { grammarLesson, membershipCounts } from '../../../data/look-inside';
+import { listClass, itemClass, linkClass } from './styles';
+---
+
+<MembershipPart number={1} label="Grammar" headingLight="Start with" headingBold="structure." mediaWidth="narrow">
+  <div slot="media">
+    <p class="mb-5 text-base leading-[1.65] text-body md:text-[17px]">
+      <strong>Over {membershipCounts.grammarLessons} clear video lessons</strong>, one topic at a time, level by level, in the order you need them.
+    </p>
+    <VideoFacade
+      youtubeId={grammarLesson.videos[0].youtubeId}
+      title={`Watch the full lesson: ${grammarLesson.title}`}
+      thumbnail={grammarLesson.videos[0].thumbnail}
+      href="/look-inside/#grammar"
+      todo="Thumbnail of the passé composé lesson (grammarLesson.videos)"
+    />
+    <p class="mb-3 mt-4 text-[14px] leading-[1.6] text-body">
+      Every lesson comes in two videos: the <strong>course</strong> explains the grammar step by step, then the <strong>immersion</strong> shows it in real French. With each one:
+    </p>
+    <ul class={listClass}>
+      <li class={itemClass}><FileIcon type="pdf" size={28} /><span><strong class="text-title">2 PDFs</strong>: key takeaways and vocabulary</span></li>
+      <li class={itemClass}><FileIcon type="anki" size={28} /><span><strong class="text-title">An Anki deck</strong>: flashcards with audio</span></li>
+    </ul>
+    <a href="/look-inside/#grammar" class={linkClass}>Watch a full lesson →</a>
+  </div>
+  <Curriculum />
+</MembershipPart>

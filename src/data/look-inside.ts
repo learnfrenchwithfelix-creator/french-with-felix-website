@@ -182,6 +182,23 @@ export const liveSession = {
   caption: 'we read together, chat, tell stories and discuss, in French, with other learners.',
 };
 
+export interface LiveSlot {
+  /** Day of the week, 0 = Sunday … 6 = Saturday (Paris) */
+  day: number;
+  /** Start time in Paris, "HH:MM" (24 h); the page converts it to the visitor's time zone */
+  paris: string;
+  title: string;
+  /** Levels the session is for; empty = all levels */
+  levels: ('A1' | 'A2' | 'B1' | 'B2')[];
+}
+
+/** The weekly live sessions (1 hour each), shown on the homepage in the visitor's local time */
+export const liveSchedule: LiveSlot[] = [
+  { day: 2, paris: '11:00', title: 'Reading + Grammar', levels: ['A1', 'A2'] },
+  { day: 3, paris: '13:00', title: 'Reading + Grammar', levels: ['B1', 'B2'] },
+  { day: 4, paris: '17:00', title: 'Free discussion + Q&A', levels: [] },
+];
+
 export interface ChatMessage {
   /** "member" (shown anonymised) or "felix" */
   from: 'member' | 'felix';

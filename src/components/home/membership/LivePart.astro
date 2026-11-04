@@ -1,0 +1,23 @@
+---
+// Written in the first person: Félix speaking.
+import MembershipPart from './MembershipPart.astro';
+import LiveSchedule from './LiveSchedule.astro';
+import { membershipCounts } from '../../../data/look-inside';
+import { linkClass } from './styles';
+---
+
+<MembershipPart number={3} label="Live sessions" headingLight="Live sessions," headingBold="with me." mediaWidth="wide" mediaRight>
+  <LiveSchedule slot="media" />
+  <p class="mb-4 text-base leading-[1.65] text-body md:text-[17px]">
+    <strong>{membershipCounts.livesPerWeek} one-hour live sessions every week</strong>, and I run every one of them:
+    I teach you, you ask me your questions, and we speak French together.
+  </p>
+  <p class="text-base leading-[1.65] text-body md:text-[17px]">
+    Two reading and grammar sessions, one for A1–A2 and one for B1–B2, where we read a text together and I explain
+    the grammar in it. Then a free discussion with a Q&amp;A, open to every level.
+  </p>
+  <p class="mt-4 text-[14px] leading-[1.6] text-muted">
+    Depending on attendance, the schedule may change to suit everyone's availability.
+  </p>
+  <a href="/look-inside/#live-sessions" class={linkClass}>Watch an excerpt →</a>
+</MembershipPart>
