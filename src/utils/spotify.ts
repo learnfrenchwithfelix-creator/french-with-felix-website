@@ -68,6 +68,7 @@ export async function fetchSpotifyEpisodes(): Promise<Map<number, SpotifyEpisode
     const data = await res.json();
 
     for (const ep of (data.items as any[]) ?? []) {
+      if (!ep) continue; // the API sometimes lists an unavailable episode as null
       const num = extractEpisodeNumber(ep.name ?? '');
       if (num !== null) {
         episodeMap.set(num, {
