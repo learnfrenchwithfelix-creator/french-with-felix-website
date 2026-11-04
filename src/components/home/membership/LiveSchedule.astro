@@ -1,0 +1,86 @@
+---
+// The weekly live sessions (src/data/look-inside.ts › liveSchedule). The HTML shows Paris time; the script
+// converts each slot to the visitor's own time zone (daylight saving time included, on either side)
+// and keeps Paris time as a second line. Visitors in Paris's time zone, or without JS, just see Paris time.
+import Badge from '../../ui/Badge.astro';
+import { liveSchedule } from '../../../data/look-inside';
+
+const DAYS = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+/** "13:00" → "1 PM", "11:30" → "11:30 AM" */
+const label = (hhmm: string) => {
+  const [h, m] = hhmm.split(':').map(Number);
+  return `${h % 12 || 12}${m ? `:${String(m).padStart(2, '0')}` : ''} ${h < 12 ? 'AM' : 'PM'}`;
+};
+---
+
+<div class="flex flex-col gap-3" data-live-schedule>
+  {liveSchedule.map((slot) => (
+    <div class="flex items-center justify-between gap-4 rounded-card border border-border bg-surface px-5 py-4 md:px-6">
+      <div class="min-w-0">
+        <p class="mb-1 font-mono text-[12px] font-medium uppercase tracking-[0.14em] text-accent">{DAYS[slot.day]}</p>
+        <p class="flex flex-wrap items-center gap-2 font-display text-[17px] font-bold text-title md:text-[19px]">
+          {slot.title}
+          {slot.levels.length
+            ? slot.levels.map((l) => <Badge level={l} />)
+            : <span class="inline-block rounded-full bg-accent px-[9px] py-[3px] text-[11px] font-semibold uppercase tracking-[0.08em] text-onAccent">All levels</span>}
+        </p>
+      </div>
+      <div class="shrink-0 text-right" data-day={slot.day} data-paris={slot.paris}>
+        <p class="font-mono text-[11px] uppercase tracking-[0.12em] text-muted" data-zone>Paris</p>
+        <p class="font-display text-[22px] font-bold leading-tight text-title md:text-[26px]" data-time>{label(slot.paris)}</p>
+        <p class="hidden text-[12px] text-muted" data-paris-line>{label(slot.paris)} in Paris</p>
+      </div>
+    </div>
+  ))}
+  <p class="mt-1 text-center font-mono text-[11px] uppercase tracking-[0.12em] text-muted" data-schedule-note>1-hour sessions · Paris time</p>
+</div>
+
+<script>
+  const PARIS = 'Europe/Paris';
+  const WEEKDAYS = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+
+  /** Wall-clock fields of `date` in time zone `tz` */
+  const fields = (date: Date, tz: string) => {
+    const parts = new Intl.DateTimeFormat('en-US', {
+      timeZone: tz, hourCycle: 'h23', weekday: 'short',
+      year: 'numeric', month: 'numeric', day: 'numeric', hour: 'numeric', minute: 'numeric',
+    }).formatToParts(date);
+    const get = (type: string) => parts.find((p) => p.type === type)!.value;
+    return {
+      y: +get('year'), mo: +get('month'), d: +get('day'), h: +get('hour'), mi: +get('minute'),
+      weekday: WEEKDAYS.indexOf(get('weekday')),
+    };
+  };
+  /** Paris's offset from UTC at `date`, in ms */
+  const parisOffset = (date: Date) => {
+    const f = fields(date, PARIS);
+    return Date.UTC(f.y, f.mo - 1, f.d, f.h, f.mi) - Math.floor(date.getTime() / 60000) * 60000;
+  };
+  /** The next time it's `day` (0–6) at hh:mm in Paris */
+  const nextInParis = (day: number, hh: number, mm: number) => {
+    const today = fields(new Date(), PARIS);
+    const wall = Date.UTC(today.y, today.mo - 1, today.d + ((day - today.weekday + 7) % 7), hh, mm);
+    let instant = wall - parisOffset(new Date(wall));
+    instant = wall - parisOffset(new Date(instant)); // second pass in case DST changes in between
+    return new Date(instant);
+  };
+
+  const zone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+  document.querySelectorAll<HTMLElement>('[data-live-schedule]').forEach((schedule) => {
+    if (!zone || zone === PARIS) return;
+    const city = zone.split('/').pop()!.replace(/_/g, ' ');
+    schedule.querySelectorAll<HTMLElement>('[data-paris]').forEach((cell) => {
+      const day = Number(cell.dataset.day);
+      const [hh, mm] = cell.dataset.paris!.split(':').map(Number);
+      const start = nextInParis(day, hh, mm);
+      const local = fields(start, zone);
+      const time = new Intl.DateTimeFormat('en-US', {
+        timeZone: zone, hour: 'numeric', ...(local.mi ? { minute: '2-digit' } : {}),
+      }).format(start);
+      cell.querySelector('[data-zone]')!.textContent = city;
+      cell.querySelector('[data-time]')!.textContent = local.weekday === day ? time : `${time} (${WEEKDAYS[local.weekday]})`;
+      cell.querySelector('[data-paris-line]')!.classList.remove('hidden');
+    });
+    schedule.querySelector('[data-schedule-note]')!.textContent = `1-hour sessions · times in your time zone (${city})`;
+  });
+</script>

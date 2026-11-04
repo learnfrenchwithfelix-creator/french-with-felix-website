@@ -2,7 +2,7 @@
 import Button from '../ui/Button.astro';
 
 const navLinks = [
-  { href: '/look-inside/', label: 'Look inside' },
+  { href: '/look-inside/', label: 'Get a free course' },
   { href: '/blog/', label: 'Blog' },
   { href: '/podcast/', label: 'Podcast' },
   { href: '/library/', label: 'Library' },
@@ -14,9 +14,9 @@ const navLinks = [
   <div class="mx-auto flex max-w-[1180px] items-center justify-between px-6 py-5 lg:px-12">
     <a href="/" class="whitespace-nowrap font-display text-[22px] font-bold tracking-[0.04em] text-title">LIMINAL FRENCH</a>
 
-    <div class="flex items-center gap-4 md:gap-5 lg:gap-[34px]">
-      <div class="hidden items-center gap-5 md:flex lg:gap-[34px]">
-        <nav class="flex items-center gap-4 lg:gap-[34px]" aria-label="Primary">
+    <div class="flex items-center gap-4 md:gap-3 lg:gap-[34px]">
+      <div class="hidden items-center gap-4 md:flex lg:gap-[34px]">
+        <nav class="flex items-center gap-3 lg:gap-[34px]" aria-label="Primary">
           {navLinks.map((link) => (
             <a href={link.href} class="whitespace-nowrap text-[14px] font-medium text-body lg:text-[15px] transition-colors hover:text-accent">{link.label}</a>
           ))}

@@ -1,0 +1,85 @@
+// The grammar course curriculum, shown on the homepage (GrammarPart.astro).
+// Source: the owner's Google Sheet "Video content prep" (tabs A1, A2, B1), lesson topics in course order,
+// written up in English for the site. Update it here when lessons are added.
+
+export interface CurriculumLevel {
+  level: 'A1' | 'A2' | 'B1' | 'B2';
+  lessons: string[];
+}
+
+export const curriculum: CurriculumLevel[] = [
+  {
+    level: 'A1',
+    lessons: [
+      'How the course works',
+      'Sentence structure',
+      'Masculine, feminine & articles',
+      'Questions: intonation & question words',
+      'Negation',
+      'Writing in French',
+      'Dates & remembering with little stories',
+      'Subject pronouns & verb conjugation',
+      'The main regular verbs',
+      'Être & avoir',
+      'Numbers & memorizing vocabulary (SRS)',
+      'How to build a habit',
+      'Setting up Anki & the ready-made decks',
+      'Il y a / c’est',
+      'Questions with “est-ce que”',
+      'Reflexive verbs',
+      'Partitive articles',
+      'Articles with negation and quantities',
+      'Main irregular verbs & verb patterns',
+      'Basic prepositions',
+      'Simple connectors: et, ou, mais…',
+      'Possessive adjectives',
+      'Pronunciation: telling sounds apart',
+      'Ne… plus, ne… jamais, ne… que',
+      'Adjectives',
+      'Adverbs',
+      'Near future: aller + verb',
+    ],
+  },
+  {
+    level: 'A2',
+    lessons: [
+      'The plural of nouns',
+      'Demonstratives & interrogatives',
+      'Stressed pronouns: moi, toi, lui…',
+      'Modal verbs',
+      'The imperative',
+      'Recent past & present progressive',
+      'Passé composé with être & avoir',
+      'Passé composé: reflexive verbs & more',
+      'Time expressions: depuis, il y a…',
+      'The imparfait',
+      'Passé composé vs imparfait',
+      'Other negative forms',
+      'Comparatives & superlatives',
+      'Direct object pronouns',
+      'Indirect object pronouns',
+      'Direct & indirect pronouns together',
+      'The pronoun “y”',
+      'The pronoun “en”',
+      'Relative pronouns: qui, que, où',
+      'Indefinites: quelqu’un, quelque chose…',
+      'Chronological connectors',
+      'The simple future',
+      'The present conditional',
+    ],
+  },
+  {
+    level: 'B1',
+    lessons: [
+      'The subjunctive',
+      'Putting the emphasis on a word',
+      'Reported speech',
+      'The gerund',
+      'The sequence of tenses',
+      'The future perfect',
+      'Nominalization',
+      'The passive voice',
+      'The pluperfect',
+    ],
+  },
+];

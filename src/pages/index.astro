@@ -1,7 +1,10 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Hero from '../components/home/Hero.astro';
-import AllInOne from '../components/home/AllInOne.astro';
+import GrammarPart from '../components/home/membership/GrammarPart.astro';
+import ImmersionPart from '../components/home/membership/ImmersionPart.astro';
+import LivePart from '../components/home/membership/LivePart.astro';
+import CommunityPart from '../components/home/membership/CommunityPart.astro';
 import Pricing from '../components/home/Pricing.astro';
 import Philosophy from '../components/home/Philosophy.astro';
 import PodcastSection from '../components/home/PodcastSection.astro';
@@ -20,7 +23,10 @@ import Reveal from '../components/ui/Reveal.astro';
   <SectionDots />
 
   <div data-snap data-label="Home" class="page-block"><Hero /></div>
-  <div data-snap data-label="All in one" class="page-block"><AllInOne /></div>
+  <div data-snap data-label="Grammar" class="page-block"><GrammarPart /></div>
+  <div data-snap data-label="Daily Immersion" class="page-block"><ImmersionPart /></div>
+  <div data-snap data-label="Live sessions" class="page-block"><LivePart /></div>
+  <div data-snap data-label="Community" class="page-block"><CommunityPart /></div>
   <div data-snap data-label="Philosophy" class="page-block"><Philosophy /></div>
   <div data-snap data-label="Pricing" class="page-block"><Pricing /></div>
   <div data-snap data-label="Podcast" class="page-block"><PodcastSection /></div>

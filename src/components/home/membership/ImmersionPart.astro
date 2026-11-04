@@ -1,0 +1,57 @@
+---
+// The sample text shows its first paragraphs, fading out, with the full audio; the rest of the text, its quiz
+// and the opt-in for its PDF and Anki deck are on /look-inside/.
+import MembershipPart from './MembershipPart.astro';
+import TodoBox from '../../look-inside/TodoBox.astro';
+import FileIcon from '../../look-inside/FileIcon.astro';
+import Button from '../../ui/Button.astro';
+import { dailyImmersion, membershipCounts } from '../../../data/look-inside';
+import { listClass, itemClass, iconClass } from './styles';
+
+const SHOWN_PARAGRAPHS = 3;
+---
+
+<MembershipPart number={2} label="Daily Immersion" headingLight="Cross the threshold" headingBold="into real French." mediaRight>
+  <div slot="media">
+    {dailyImmersion.paragraphs.length ? (
+      <div class="rounded-card border border-border bg-surface p-6 md:p-7">
+        <div class="mb-4 flex flex-wrap items-baseline justify-between gap-2">
+          <p lang="fr" class="font-display text-[18px] font-bold text-title">{dailyImmersion.title}</p>
+          <p class="font-mono text-[11px] uppercase tracking-[0.12em] text-muted">Day {dailyImmersion.day} · {dailyImmersion.level}</p>
+        </div>
+        {dailyImmersion.audio && (
+          <audio controls preload="none" src={dailyImmersion.audio} class="mb-4 w-full">
+            <a href={dailyImmersion.audio}>Download the audio</a>
+          </audio>
+        )}
+        <div lang="fr" class="immersion-excerpt flex flex-col gap-3 text-[15px] leading-[1.7] text-body">
+          {dailyImmersion.paragraphs.slice(0, SHOWN_PARAGRAPHS).map((p) => <p>{p}</p>)}
+        </div>
+        <a href="/look-inside/#daily-immersion" class="mt-2 inline-flex text-[14px] font-semibold text-accent hover:text-[var(--color-accent-dark)]">Read the rest and take the quiz →</a>
+      </div>
+    ) : (
+      <TodoBox label="First paragraph of the sample Daily Immersion (dailyImmersion.paragraphs)" />
+    )}
+  </div>
+  <p class="mb-5 text-base leading-[1.65] text-body md:text-[17px]">
+    A short French text every day, at your level, to practise reading: <strong>over {membershipCounts.immersionTexts} texts</strong> in all. A little every day, and your French takes off. Each text comes with:
+  </p>
+  <ul class={listClass}>
+    <li class={itemClass}><span class={iconClass} aria-hidden="true">♪</span><span><strong class="text-title">Its audio</strong>, to listen while you read</span></li>
+    <li class={itemClass}><span class={iconClass} aria-hidden="true">✓</span><span><strong class="text-title">A comprehension quiz</strong> with instant feedback</span></li>
+    <li class={itemClass}><FileIcon type="pdf" size={32} /><span><strong class="text-title">A PDF</strong>: the vocabulary and a sentence breakdown</span></li>
+    <li class={itemClass}><FileIcon type="anki" size={32} /><span><strong class="text-title">An Anki deck</strong>, {dailyImmersion.deckSize} cards with audio</span></li>
+  </ul>
+  <div class="mt-7">
+    <Button href="/look-inside/#sample-pack" class="justify-center px-6 py-[13px] text-[15px]">Get the PDF and Anki deck, free →</Button>
+  </div>
+</MembershipPart>
+
+<style>
+  /* The excerpt fades out towards its end: the full text is on /look-inside/ */
+  .immersion-excerpt {
+    max-height: 13.5rem;
+    overflow: hidden;
+    mask-image: linear-gradient(to bottom, #000 60%, transparent);
+  }
+</style>
