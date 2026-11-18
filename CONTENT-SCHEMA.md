@@ -121,78 +121,29 @@ key_vocab:                      # ~10 mots ou expressions tirés de l'épisode
 
 ---
 
-## 3. Fiche bibliothèque (ressource externe ou propre)
+## 3. Lecture de la Library (vidéo + texte + PDF)
 
-**Emplacement :** `src/data/library/[slug].json`
+**Emplacement :** `content/library/<slug>.md` (slug en anglais → URL `/library/<slug>/`).
+**PDF :** `public/library/<slug>.pdf`, téléchargement libre, sans inscription.
 
-> Format JSON car ces fiches sont générées par un outil d'analyse externe (SRT analyser), pas écrites manuellement.
+Le corps du fichier est le texte français, un paragraphe par bloc. Les renvois aux points de grammaire
+s'écrivent `mot<sup><a href="#grammar-2">2</a></sup>` (numéro = position dans `grammar`).
 
-### Structure JSON
-
-```json
-{
-  "slug": "innerfrench-ep102-habitudes",
-  "title": "Mes habitudes du matin en France",
-  "source": "externe",
-  "sourceLabel": "InnerFrench",
-  "youtubeId": "dQw4w9WgXcQ",
-  "youtubeUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-  "publishDate": "2025-08-20",
-  "addedDate": "2025-09-01",
-
-  "level": "B1",
-  "theme": "quotidien",
-  "speechRate": "normal",
-  "speechRateWPM": 118,
-  "wordCount": 1850,
-  "duration": "16:45",
-
-  "tags": ["habitudes", "quotidien", "verbes de routine"],
-
-  "transcript": {
-    "available": true,
-    "partial": "Bonjour à tous. Aujourd'hui je vais vous parler de mes habitudes du matin...",
-    "fullAccessLevel": "premium"
-  },
-
-  "description": "Hugo parle de sa routine matinale avec un vocabulaire accessible et un rythme modéré. Idéal pour consolider les verbes pronominaux et les expressions du quotidien.",
-
-  "featuredImage": "/images/library/innerfrench-ep102.jpg",
-  "featured": false,
-  "draft": false
-}
-```
-
-### Valeurs de `source`
-
-| Valeur | Signification |
-|---|---|
-| `felix` | Contenu créé par French with Félix |
-| `externe` | Contenu YouTube externe analysé et référencé |
-
-### Valeurs de `theme`
-
-```
-quotidien | culture | grammaire | voyage | humour | actualite | histoire | gastronomie
-```
-
-### Valeurs de `level`
-
-```
-A1 | A2 | B1 | B2
-```
-
-### Valeurs de `speechRate`
-
-```
-lent | normal | rapide
-```
-
-### Valeurs de `transcript.fullAccessLevel`
-
-```
-public    → transcription complète visible par tous
-premium   → transcription complète réservée abonnés learn.
+```yaml
+---
+title: "Les bonnes manières à table en France"   # titre français (H1, lang="fr")
+titleEn: "Good table manners in France"           # traduction affichée dessous
+description: "…"                                  # meta description, en anglais
+level: ["A1", "A2"]                               # 1 ou 2 niveaux
+youtubeId: jpzikurcDrw
+pdf: /library/good-table-manners-in-france.pdf
+publishDate: 2026-11-18                           # vraie date de mise en ligne (isPublished)
+wordCount: 110                                    # optionnel : « only 110 words »
+grammar:                                          # optionnel
+  - title: "Il faut + infinitive"
+    explanation: "…"                              # en anglais
+    example: "Il faut attendre tout le monde."    # en français
+---
 ```
 
 ---
@@ -203,7 +154,7 @@ premium   → transcription complète réservée abonnés learn.
 |---|---|---|---|
 | Article blog | Markdown | `src/content/blog/` | Félix (manuel) |
 | Épisode podcast | Markdown | `src/content/podcast/` | Félix (semi-auto depuis SRT) |
-| Fiche bibliothèque | JSON | `src/data/library/` | Outil d'analyse externe |
+| Lecture Library | Markdown + PDF | `content/library/` + `public/library/` | Félix |
 
 ---
 

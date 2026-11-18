@@ -47,4 +47,24 @@ const episodes = defineCollection({
   }),
 });
 
-export const collections = { blog, episodes };
+// Library: Félix's reading videos (a French text read on YouTube, its grammar points and a free PDF).
+// One file per video in content/library/<slug>.md; the body is the French text. See CONTENT-SCHEMA.md.
+const library = defineCollection({
+  loader: glob({ pattern: '*.md', base: './content/library' }),
+  schema: z.object({
+    title:       z.string(),                    // French title of the text (H1, lang="fr")
+    titleEn:     z.string(),                    // English translation, shown under it
+    description: z.string(),                    // meta description, in English
+    level:       z.array(z.enum(['A1', 'A2', 'B1', 'B2'])).min(1).max(2),
+    youtubeId:   z.string().optional(),
+    pdf:         z.string().regex(/^\/library\/.+\.pdf$/, 'pdf must be a file in public/library/'),
+    publishDate: z.coerce.date(),
+    draft:       z.boolean().optional(),
+    wordCount:   z.number().optional(),         // distinct words the text is written with ("Only 110 words")
+    grammar: z
+      .array(z.object({ title: z.string(), explanation: z.string(), example: z.string() }))
+      .optional(),
+  }),
+});
+
+export const collections = { blog, episodes, library };
