@@ -1,0 +1,936 @@
+﻿1
+00:00:00,000 --> 00:00:05,150
+Bonjour et bienvenue dans un nouveau podcast.
+
+2
+00:00:05,900 --> 00:00:12,050
+Aujourd'hui, j'avais envie de vous parler de mon plus gros projet.
+
+3
+00:00:12,533 --> 00:00:20,133
+Pour ce podcast, je n'ai pas de script, donc je vais parler naturellement.
+
+4
+00:00:20,150 --> 00:00:21,933
+Je vais hésiter,
+
+5
+00:00:22,150 --> 00:00:29,133
+je vais chercher mes mots et donc ça va être un français plutôt naturel.
+
+6
+00:00:30,533 --> 00:00:35,000
+Aujourd'hui, ça va faire bientôt un an,
+
+7
+00:00:35,016 --> 00:00:36,350
+un an et trois mois
+
+8
+00:00:36,366 --> 00:00:41,950
+que j'ai commencé à faire des vidéos sur YouTube pour les personnes
+
+9
+00:00:41,966 --> 00:00:48,233
+qui apprennent le français et que j'ai aussi commencé à travailler
+
+10
+00:00:48,250 --> 00:00:51,016
+comme professeur de français.
+
+11
+00:00:51,633 --> 00:00:55,433
+J'ai décidé de devenir professeur de français parce
+
+12
+00:00:55,450 --> 00:00:59,766
+que je suis tombé amoureux de l'apprentissage des langues,
+
+13
+00:00:59,800 --> 00:01:02,333
+j'apprends le japonais et le portugais,
+
+14
+00:01:02,350 --> 00:01:05,700
+et quand j'ai commencé à apprendre le japonais,
+
+15
+00:01:05,716 --> 00:01:08,900
+j'ai adoré apprendre une nouvelle langue
+
+16
+00:01:08,916 --> 00:01:14,633
+et donc j'ai décidé de devenir professeur de français.
+
+17
+00:01:15,316 --> 00:01:21,100
+Et pendant un an, pendant cette année,
+pendant les un an, un an et trois mois,
+
+18
+00:01:21,116 --> 00:01:26,166
+j'ai beaucoup appris parce que ma connaissance du français,
+
+19
+00:01:26,200 --> 00:01:28,216
+elle est très naturelle
+
+20
+00:01:28,233 --> 00:01:33,116
+et parfois je ne connaissais pas certaines règles théoriques.
+
+21
+00:01:33,533 --> 00:01:35,450
+Donc avec les étudiants,
+
+22
+00:01:35,466 --> 00:01:39,033
+j'ai appris à comprendre leurs difficultés
+
+23
+00:01:39,050 --> 00:01:43,266
+et à essayer de les aider le mieux possible.
+
+24
+00:01:43,950 --> 00:01:48,750
+Et grâce à cette expérience, j'ai pu travailler sur mon plus gros projet.
+
+25
+00:01:49,733 --> 00:01:57,566
+Avant même de commencer à donner des cours,
+c'était un peu ce que j'avais planifié.
+
+26
+00:01:57,600 --> 00:02:02,316
+Je prévoyais de faire ce projet que je vais vous présenter.
+
+27
+00:02:02,433 --> 00:02:05,500
+Donc ce n'est pas quelque chose d'improvisé,
+
+28
+00:02:05,516 --> 00:02:07,750
+c'est quelque chose que je voulais faire.
+
+29
+00:02:08,066 --> 00:02:14,000
+Et ce projet, c'est tout simplement
+une plateforme pour apprendre le français.
+
+30
+00:02:14,016 --> 00:02:18,433
+Alors, il existe beaucoup de plateformes pour apprendre le français,
+
+31
+00:02:18,450 --> 00:02:23,616
+mais j'avais envie d'essayer de faire une plateforme à ma manière,
+
+32
+00:02:23,633 --> 00:02:29,266
+à ma façon, parce que quand j'étais étudiant,
+
+33
+00:02:29,300 --> 00:02:31,333
+j'ai appris l'espagnol à l'école
+
+34
+00:02:31,350 --> 00:02:35,466
+mais j'étais très mauvais et je détestais les langues,
+
+35
+00:02:35,500 --> 00:02:38,750
+je détestais apprendre de nouvelles langues, et pourtant,
+
+36
+00:02:38,766 --> 00:02:45,716
+quand j'ai commencé à apprendre le japonais,
+j'ai commencé à m'intéresser aux méthodologies,
+
+37
+00:02:45,766 --> 00:02:49,250
+à ce genre de choses, et maintenant, j'adore ça.
+
+38
+00:02:49,450 --> 00:02:55,250
+Et donc, à travers cette plateforme,
+c'est ce que j'ai envie de transmettre,
+
+39
+00:02:55,266 --> 00:02:57,300
+c'est ce que j'ai envie de partager,
+
+40
+00:02:57,833 --> 00:03:01,533
+c'est un peu la façon de voir l'apprentissage
+
+41
+00:03:01,550 --> 00:03:05,100
+des langues d'une manière différente, c'est-à-dire
+
+42
+00:03:05,200 --> 00:03:11,800
+pouvoir apprendre une langue d'une manière plus intéressante.
+
+43
+00:03:11,833 --> 00:03:18,066
+Alors, il n'y a pas une seule et unique
+façon d'apprendre, mais je pense qu'on a
+
+44
+00:03:18,100 --> 00:03:21,733
+quand même tendance à trop se concentrer sur la théorie
+
+45
+00:03:21,750 --> 00:03:25,500
+et pas assez sur l'immersion et la pratique.
+
+46
+00:03:25,600 --> 00:03:26,933
+Et donc, mon objectif,
+
+47
+00:03:26,950 --> 00:03:32,400
+quand j'ai commencé à construire cette plateforme, c'est de montrer aux
+
+48
+00:03:33,000 --> 00:03:33,400
+personnes,
+
+49
+00:03:33,416 --> 00:03:35,733
+aux personnes qui apprennent le français
+
+50
+00:03:35,750 --> 00:03:39,933
+que c'est possible de faire un peu une transition
+
+51
+00:03:39,950 --> 00:03:43,366
+entre un apprentissage très scolaire
+
+52
+00:03:43,400 --> 00:03:52,066
+avec des livres de grammaire, etc., vers quelque chose de plus naturel.
+
+53
+00:03:52,266 --> 00:03:57,133
+Mon objectif, ce n'est pas de dire
+« il faut faire comme ça et c'est tout ».
+
+54
+00:03:57,333 --> 00:04:01,466
+Mon objectif, c'est de proposer une solution plutôt flexible
+
+55
+00:04:01,500 --> 00:04:07,750
+pour que les personnes puissent essayer une autre forme d'apprentissage.
+
+56
+00:04:07,766 --> 00:04:13,133
+Et donc pour préparer la plateforme,
+j'ai fait des vidéos de grammaire, notamment.
+
+57
+00:04:13,200 --> 00:04:15,916
+J'explique les règles de grammaire en français
+
+58
+00:04:15,933 --> 00:04:21,966
+mais j'essaye, dès le début, de présenter au maximum des exemples,
+
+59
+00:04:22,000 --> 00:04:23,566
+des phrases en français.
+
+60
+00:04:23,916 --> 00:04:28,333
+Et je pense que ça c'est très important de, si on apprend une règle,
+
+61
+00:04:28,350 --> 00:04:35,350
+tout de suite, rapidement, regarder des exemples
+et ne pas aller trop dans les détails, trop dans les exceptions.
+
+62
+00:04:36,616 --> 00:04:41,916
+Pour vous donner un exemple, quand vous apprenez le passé composé,
+
+63
+00:04:41,933 --> 00:04:45,350
+« j'ai mangé », « je suis allé », etc.
+
+64
+00:04:46,100 --> 00:04:50,833
+Il y a une règle qui est très spécifique pour le participe passé.
+
+65
+00:04:51,416 --> 00:04:56,033
+Donc le passé composé, c'est être et avoir plus un participe passé.
+
+66
+00:04:56,400 --> 00:05:02,016
+« Mangé », c'est le participe passé du verbe manger.
+
+67
+00:05:02,466 --> 00:05:07,500
+Et en fait, « mangé », ici, je vais l'écrire é, e avec un accent.
+
+68
+00:05:08,266 --> 00:05:13,050
+Mais la réalité, c'est qu'il y a une règle spécifique qui dit
+
+69
+00:05:13,066 --> 00:05:20,516
+que quand on utilise être on va accorder le verbe au nom.
+
+70
+00:05:20,916 --> 00:05:27,100
+« Je suis allé », « ma femme est allée », ça va être allée.
+
+71
+00:05:27,200 --> 00:05:32,366
+« Je suis allé », ça va être é, parce
+que je suis un homme, et ma femme est une femme.
+
+72
+00:05:33,350 --> 00:05:35,933
+Ça, c'est pour être. Et pour avoir,
+
+73
+00:05:37,016 --> 00:05:44,200
+on accorde le participe si le COD du verbe est avant le verbe.
+
+74
+00:05:45,150 --> 00:05:47,850
+C'est une règle qui est très difficile,
+
+75
+00:05:47,866 --> 00:05:53,166
+enfin, qui est compliquée, sans forcément beaucoup de raisons.
+
+76
+00:05:53,200 --> 00:05:54,200
+Alors, il y a
+
+77
+00:05:55,533 --> 00:06:00,350
+un héritage linguistique, mais disons
+que si vous voulez apprendre à parler,
+
+78
+00:06:00,716 --> 00:06:04,200
+cette règle ne va pas vous apporter beaucoup de choses.
+
+79
+00:06:04,866 --> 00:06:08,900
+Ça, c'est typiquement une règle qu'il
+faut apprendre à un niveau plus avancé,
+
+80
+00:06:08,916 --> 00:06:11,566
+quand vous essayez d'écrire correctement.
+
+81
+00:06:11,800 --> 00:06:15,600
+Mais quand vous commencez à parler, à lire, etc.,
+
+82
+00:06:16,000 --> 00:06:19,116
+ça ne vaut pas la peine d'apprendre ce genre de règle.
+
+83
+00:06:19,150 --> 00:06:25,100
+Et donc ça, c'est un peu ma philosophie,
+c'est-à-dire que je propose des vidéos de grammaire
+
+84
+00:06:25,116 --> 00:06:29,800
+pour que les personnes puissent apprendre
+d'une manière rassurante, on va dire,
+
+85
+00:06:29,816 --> 00:06:32,450
+parce que quand on apprend des règles de grammaire
+
+86
+00:06:32,466 --> 00:06:34,500
+on a l'impression de faire une to-do list,
+
+87
+00:06:34,516 --> 00:06:37,716
+et donc c'est rassurant en quelque sorte.
+
+88
+00:06:38,050 --> 00:06:40,066
+Ça donne confiance en soi,
+
+89
+00:06:40,516 --> 00:06:42,433
+on voit qu'on progresse
+
+90
+00:06:42,450 --> 00:06:47,316
+mais après, l'idée, c'est d'essayer
+de pousser au maximum vers de l'immersion,
+
+91
+00:06:47,333 --> 00:06:51,133
+pour déjà apprendre beaucoup de vocabulaire
+
+92
+00:06:51,150 --> 00:06:55,633
+et aussi développer un sens naturel de la langue.
+
+93
+00:06:56,016 --> 00:07:00,050
+C'est ce que j'ai fait avec le japonais, et c'est ce que j'adore faire
+
+94
+00:07:00,066 --> 00:07:05,933
+avec le japonais, et donc c'est ce que j'ai
+envie de partager avec les étudiants.
+
+95
+00:07:05,950 --> 00:07:12,116
+Et donc pour ça, j'ai créé des textes
+adaptés à chaque niveau, avec un audio,
+
+96
+00:07:12,166 --> 00:07:16,433
+avec des PDF de vocabulaire, avec des cartes Anki,
+
+97
+00:07:16,450 --> 00:07:19,500
+des flashcards Anki préconstruites,
+
+98
+00:07:19,733 --> 00:07:23,766
+donc les étudiants ont juste besoin de télécharger le deck
+
+99
+00:07:23,800 --> 00:07:28,700
+et ensuite, ils peuvent réviser, pour essayer d'encourager,
+
+100
+00:07:28,750 --> 00:07:33,550
+de pousser au maximum les gens à aller vers de l'immersion.
+
+101
+00:07:33,566 --> 00:07:37,100
+Avec des textes adaptés à notre niveau,
+
+102
+00:07:37,400 --> 00:07:40,416
+c'est beaucoup plus satisfaisant et c'est plus facile
+
+103
+00:07:40,433 --> 00:07:45,300
+parce qu'on arrive à comprendre ce qu'on lit et c'est très satisfaisant
+
+104
+00:07:45,316 --> 00:07:49,566
+parce que quand on commence à apprendre une langue, on a l'impression
+
+105
+00:07:49,600 --> 00:07:52,133
+que ça va être difficile de lire.
+
+106
+00:07:52,166 --> 00:07:58,350
+Et donc, il y a un peu plus de 120 textes
+actuellement disponibles aux niveaux A1,
+
+107
+00:07:58,366 --> 00:08:04,500
+A2, B1, et au fur et à mesure, je crée de nouveaux textes à chaque fois.
+
+108
+00:08:04,533 --> 00:08:08,500
+L'idée, c'est de pouvoir lire un peu tous les jours
+
+109
+00:08:08,516 --> 00:08:13,316
+pour continuer de développer notre français naturel
+
+110
+00:08:13,333 --> 00:08:17,416
+et que notre cerveau digère les informations.
+
+111
+00:08:17,716 --> 00:08:21,150
+Donc il y a des cours de grammaire en vidéo,
+
+112
+00:08:21,333 --> 00:08:26,533
+pour l'instant A1, A2, avec plus de 90 vidéos disponibles.
+
+113
+00:08:26,550 --> 00:08:29,933
+Il y a des textes d'immersion avec l'audio,
+
+114
+00:08:30,616 --> 00:08:33,933
+un PDF de vocabulaire et des decks Anki.
+
+115
+00:08:34,316 --> 00:08:40,200
+Et enfin, il y a des lives pour que ce soit vivant,
+pour que ce soit une communauté vivante.
+
+116
+00:08:40,216 --> 00:08:41,866
+Et ça, il y a,
+
+117
+00:08:41,900 --> 00:08:47,050
+pour l'instant, il y a trois lives par semaine.
+Le live, le mardi, c'est pour A1,
+
+118
+00:08:47,066 --> 00:08:53,933
+A2, on fait de la lecture, on fait des exercices.
+Mercredi, pardon, c'est pour B1,
+
+119
+00:08:53,950 --> 00:08:59,100
+B2, et jeudi, c'est juste de la discussion libre,
+
+120
+00:08:59,116 --> 00:09:02,900
+donc vous pouvez venir et discuter de n'importe quel sujet.
+
+121
+00:09:02,916 --> 00:09:05,666
+Pour les lives, j'essaye de trouver un compromis
+
+122
+00:09:05,700 --> 00:09:09,950
+parce qu'il y a des étudiants au Japon et des étudiants aux États-Unis,
+
+123
+00:09:09,966 --> 00:09:12,733
+au Canada, en Amérique latine, etc.
+
+124
+00:09:13,133 --> 00:09:18,316
+Et donc, après, selon le nombre d'étudiants,
+je vais ajouter plus ou moins de lives
+
+125
+00:09:18,333 --> 00:09:22,616
+pour que tout le monde puisse accéder à ce genre de lives.
+
+126
+00:09:23,150 --> 00:09:27,350
+Et donc, la première chose que j'ai faite, c'est créer un site Internet.
+
+127
+00:09:27,566 --> 00:09:34,266
+Bon, sur la home page de ce site Internet,
+ça va principalement être une présentation de la plateforme.
+
+128
+00:09:34,300 --> 00:09:41,550
+Mais il y a aussi un onglet podcast, où vous pouvez
+trouver tous les podcasts de cette chaîne YouTube.
+
+129
+00:09:42,050 --> 00:09:43,433
+Vous pouvez les regarder,
+
+130
+00:09:43,816 --> 00:09:51,500
+il y a la transcription et vous pouvez cliquer sur les timecodes,
+
+131
+00:09:51,516 --> 00:09:56,966
+et ça va synchroniser la vidéo YouTube avec les timecodes.
+
+132
+00:09:57,000 --> 00:09:58,333
+« Et donc apprendre une langue,
+
+133
+00:09:58,350 --> 00:10:05,716
+je pense que tout le monde peut le faire,
+mais qu'on va souvent avoir cette impression
+
+134
+00:10:05,733 --> 00:10:09,000
+que ce sont… » Donc ça, c'est utile pour vous.
+
+135
+00:10:09,016 --> 00:10:14,733
+Et donc, ensuite, j'ai créé une communauté
+où vous allez trouver toutes les ressources
+
+136
+00:10:14,750 --> 00:10:17,200
+que je vous ai présentées précédemment,
+
+137
+00:10:17,800 --> 00:10:22,250
+par exemple, tous les cours vidéo A1, A2, etc.
+
+138
+00:10:22,600 --> 00:10:29,050
+Ce que j'appelle les Daily Immersion : donc là,
+chaque jour, vous pouvez lire un texte,
+
+139
+00:10:29,066 --> 00:10:30,933
+vous pouvez écouter l'audio,
+
+140
+00:10:30,950 --> 00:10:36,350
+vous avez un texte et vous pouvez
+répondre à des questions de compréhension.
+
+141
+00:10:36,616 --> 00:10:38,300
+J'ai eu beaucoup de chance,
+
+142
+00:10:39,000 --> 00:10:41,750
+je n'ai pas eu de chance, etc.
+
+143
+00:10:41,866 --> 00:10:46,450
+Et après, vous avez un PDF et un deck Anki.
+
+144
+00:10:46,516 --> 00:10:51,400
+Et enfin, vous pouvez voir que finalement,
+toutes les semaines, il y a trois lives,
+
+145
+00:10:51,416 --> 00:10:55,733
+il y a des lives que vous pouvez rejoindre pour participer,
+
+146
+00:10:55,750 --> 00:10:58,400
+pour échanger, pour avoir des cours en live.
+
+147
+00:10:58,416 --> 00:11:01,466
+Mon objectif avec ce podcast,
+
+148
+00:11:01,733 --> 00:11:06,216
+c'est un peu de faire la publicité de cette plateforme, bien évidemment,
+
+149
+00:11:06,366 --> 00:11:08,933
+même si je sais que sur cette chaîne,
+
+150
+00:11:09,250 --> 00:11:13,316
+vous êtes beaucoup à avoir déjà un niveau intermédiaire
+
+151
+00:11:13,333 --> 00:11:18,000
+et à apprendre par vous-même, à être autodidactes.
+
+152
+00:11:18,100 --> 00:11:21,500
+Donc dans tous les cas, il y a un essai gratuit de 7 jours,
+
+153
+00:11:21,516 --> 00:11:22,950
+donc si vous voulez essayer,
+
+154
+00:11:22,966 --> 00:11:27,616
+vous pouvez, et n'hésitez pas surtout à me faire des retours,
+
+155
+00:11:27,633 --> 00:11:28,833
+des feedbacks,
+
+156
+00:11:28,850 --> 00:11:32,933
+des critiques pour me dire s'il y a des choses qui ne sont pas très bien.
+
+157
+00:11:32,950 --> 00:11:37,716
+La plateforme est encore en construction,
+donc il y a plein de choses à améliorer,
+
+158
+00:11:37,733 --> 00:11:40,600
+mais mon objectif, c'est que ça devienne vivant.
+
+159
+00:11:40,616 --> 00:11:44,950
+Pour l'instant, il n'y a pas beaucoup de personnes actives,
+
+160
+00:11:44,966 --> 00:11:47,833
+je pense qu'en général, il y a entre 5
+
+161
+00:11:47,850 --> 00:11:53,000
+et 10 personnes connectées chaque jour, mais mon objectif, c'est
+
+162
+00:11:53,016 --> 00:11:56,116
+que ça devienne vraiment quelque chose de vivant
+
+163
+00:11:56,133 --> 00:11:59,316
+où on peut partager l'apprentissage du français
+
+164
+00:11:59,333 --> 00:12:04,333
+parce que j'apprends en autodidacte le japonais, et c'est vrai
+
+165
+00:12:04,350 --> 00:12:08,833
+que parfois c'est un peu dur d'être seul dans son coin,
+
+166
+00:12:08,900 --> 00:12:14,400
+à apprendre tous les jours tout seul, et que cette idée de partager ça,
+
+167
+00:12:14,416 --> 00:12:18,466
+d'avoir un suivi, je pense que ça peut être très motivant.
+
+168
+00:12:18,500 --> 00:12:25,766
+Avec ça, mon objectif, c'est aussi de proposer
+un contenu plus adapté aux débutants.
+
+169
+00:12:25,833 --> 00:12:30,366
+Parce que comme vous êtes intermédiaires,
+comme vous écoutez déjà des podcasts,
+
+170
+00:12:30,700 --> 00:12:38,433
+vous avez déjà un peu cet apprentissage par l'immersion, etc.
+
+171
+00:12:38,450 --> 00:12:41,600
+Et donc, mon objectif, c'est aussi de montrer à des personnes
+
+172
+00:12:41,616 --> 00:12:44,966
+qui ne connaissent pas forcément cette pratique
+
+173
+00:12:45,000 --> 00:12:48,716
+d'écouter des podcasts, etc., qu'on peut apprendre
+
+174
+00:12:48,733 --> 00:12:50,550
+en faisant de l'immersion.
+
+175
+00:12:50,566 --> 00:12:51,733
+Et donc pour ça,
+
+176
+00:12:51,750 --> 00:12:57,750
+j'ai créé une seconde chaîne YouTube dédiée aux débutants, spécifique
+
+177
+00:12:57,766 --> 00:13:00,850
+pour les débutants qui s'appelle Liminal French.
+
+178
+00:13:00,850 --> 00:13:04,833
+Donc si vous voulez
+vous abonner à cette chaîne YouTube,
+
+179
+00:13:04,850 --> 00:13:08,966
+à cette nouvelle chaîne YouTube, je vous mets le lien en description.
+
+180
+00:13:08,983 --> 00:13:12,166
+J'ai pris le nom Liminal French parce
+
+181
+00:13:12,183 --> 00:13:18,183
+que quelque chose de liminal, c'est la frontière entre deux espaces.
+
+182
+00:13:19,700 --> 00:13:22,250
+Et personnellement, c'est un peu ce que j'ai ressenti
+
+183
+00:13:22,266 --> 00:13:24,533
+avec l'apprentissage du japonais,
+
+184
+00:13:24,550 --> 00:13:28,466
+c'est-à-dire qu'il y a un peu un avant et un après.
+
+185
+00:13:28,600 --> 00:13:31,383
+Et quand je suis allé un an au Japon,
+
+186
+00:13:32,566 --> 00:13:36,833
+le japonais a fait une énorme différence dans mon expérience,
+
+187
+00:13:36,850 --> 00:13:40,983
+dans mon voyage et c'était vraiment cette frontière
+
+188
+00:13:41,000 --> 00:13:46,683
+que j'ai passée entre juste être un touriste qui parle anglais
+
+189
+00:13:46,700 --> 00:13:50,866
+et quelqu'un qui échange vraiment avec les locaux,
+
+190
+00:13:50,883 --> 00:13:52,800
+qui découvre en fait un nouveau monde.
+
+191
+00:13:52,833 --> 00:13:55,583
+Apprendre une langue, ça ouvre des portes,
+
+192
+00:13:55,600 --> 00:14:00,583
+ça ouvre sur un nouveau monde et c'est
+cette transition d'un espace à l'autre
+
+193
+00:14:00,600 --> 00:14:05,833
+et c'est pourquoi j'ai décidé d'utiliser
+ce nom de Liminal French. Donc voilà,
+
+194
+00:14:05,850 --> 00:14:10,500
+ça, c'est un peu la raison pour laquelle
+je suis un peu moins actif sur cette chaîne,
+
+195
+00:14:10,566 --> 00:14:13,600
+même si je poste quand même une vidéo par semaine.
+
+196
+00:14:13,950 --> 00:14:17,750
+J'aimerais reprendre un rythme de deux vidéos par semaine,
+
+197
+00:14:17,933 --> 00:14:20,866
+mais pour l'instant, c'est encore un peu compliqué,
+
+198
+00:14:21,233 --> 00:14:24,783
+donc je pense que je vais rester sur une vidéo par semaine.
+
+199
+00:14:25,033 --> 00:14:29,833
+Et aussi, j'aimerais faire des lives YouTube, donc là,
+
+200
+00:14:29,850 --> 00:14:33,866
+n'hésitez pas à me donner vos disponibilités,
+
+201
+00:14:33,883 --> 00:14:37,666
+quels seraient les meilleurs horaires pour vous, pour votre pays,
+
+202
+00:14:38,166 --> 00:14:41,283
+pour assister à ces lives YouTube, en sachant
+
+203
+00:14:41,300 --> 00:14:44,783
+que les lives YouTube, ce ne seraient pas des cours de grammaire,
+
+204
+00:14:44,800 --> 00:14:48,366
+mais plus des discussions sur un thème spécifique.
+
+205
+00:14:48,533 --> 00:14:54,233
+Par exemple, récemment, j'ai adopté un chat,
+et donc on pourrait parler de ça :
+
+206
+00:14:54,250 --> 00:14:56,900
+l'adoption des animaux, acheter des animaux,
+
+207
+00:14:56,933 --> 00:15:01,850
+est-ce que c'est normal d'acheter un animal d'une race spécifique ?
+
+208
+00:15:01,866 --> 00:15:03,666
+Est-ce qu'il ne vaut mieux pas
+
+209
+00:15:04,600 --> 00:15:08,083
+adopter ? C'est le fameux « adopt, don't shop ».
+
+210
+00:15:08,300 --> 00:15:14,783
+Voilà, ce genre de discussion pour pratiquer
+un vocabulaire le plus varié possible.
+
+211
+00:15:15,266 --> 00:15:19,766
+Donc n'hésitez pas à écrire dans les commentaires quel est l'horaire,
+
+212
+00:15:19,783 --> 00:15:25,150
+le meilleur horaire pour vous pour assister à ces lives YouTube.
+
+213
+00:15:25,450 --> 00:15:28,800
+Les lives YouTube, c'est entièrement gratuit, bien sûr.
+
+214
+00:15:28,883 --> 00:15:32,300
+Donc voilà, merci d'avoir regardé cette vidéo.
+
+215
+00:15:32,450 --> 00:15:36,500
+N'hésitez pas si vous voulez essayer
+les 7 jours gratuits de la plateforme,
+
+216
+00:15:36,533 --> 00:15:39,466
+à vous abonner à la chaîne YouTube Liminal French
+
+217
+00:15:39,483 --> 00:15:45,066
+si vous voulez un contenu plus pour débutants, et à me dire les horaires,
+
+218
+00:15:45,066 --> 00:15:49,100
+les meilleures horaires pour assister aux lives.
+
+219
+00:15:49,100 --> 00:15:54,250
+Je vous en demande beaucoup.
+Merci de me suivre depuis un an et quelques mois.
+
+220
+00:15:54,266 --> 00:15:58,000
+Je suis parti de zéro, et maintenant, on est à plus de 1 000 abonnés,
+
+221
+00:15:58,033 --> 00:15:59,983
+donc c'est un sacré chemin.
+
+222
+00:16:00,266 --> 00:16:01,300
+Merci pour ça,
+
+223
+00:16:01,333 --> 00:16:07,700
+et de toute façon, je vais continuer de créer
+des podcasts sur cette chaîne YouTube.
+
+224
+00:16:07,866 --> 00:16:10,666
+Merci d'avoir regardé jusqu'à la fin et à bientôt.
