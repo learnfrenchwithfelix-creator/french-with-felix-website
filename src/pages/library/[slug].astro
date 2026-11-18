@@ -1,0 +1,146 @@
+---
+// One reading video: the video, the French text (indexable, lang="fr"), its grammar points and the free PDF.
+// Content: content/library/<slug>.md (see CONTENT-SCHEMA.md). The PDF is a plain download, no sign-up.
+import { getCollection, render } from 'astro:content';
+import BlogLayout from '../../layouts/BlogLayout.astro';
+import Badge from '../../components/ui/Badge.astro';
+import CTABanner from '../../components/ui/CTABanner.astro';
+import NewsletterForm from '../../components/ui/NewsletterForm.astro';
+import ScheduledLabel from '../../components/ui/ScheduledLabel.astro';
+import VideoFacade from '../../components/look-inside/VideoFacade.astro';
+import FileIcon from '../../components/look-inside/FileIcon.astro';
+import { isPublished, isScheduled } from '../../utils/content';
+
+export async function getStaticPaths() {
+  const readings = await getCollection('library', ({ data }) => isPublished(data));
+  return readings.map((reading) => ({ params: { slug: reading.id }, props: { reading } }));
+}
+
+const { reading } = Astro.props;
+const { Content } = await render(reading);
+const { title, titleEn, description, level, youtubeId, pdf, publishDate, wordCount, grammar = [] } = reading.data;
+const levelLabel = level.join('–');
+const pdfFileName = `Liminal French - ${titleEn}.pdf`;
+---
+
+<BlogLayout
+  title={title}
+  pageTitle={`${title} (${titleEn}) — French Reading ${levelLabel} | Liminal French`}
+  description={description}
+  path={`/library/${reading.id}/`}
+  publishDate={publishDate}
+  lang="fr"
+  breadcrumb={['Library', '/library/']}
+>
+  <div class="mx-auto max-w-[720px] px-6 pb-16 pt-10 lg:px-0">
+    <a href="/library/" class="mb-8 inline-flex items-center gap-1.5 font-mono text-[12px] font-medium text-muted transition-colors hover:text-accent">
+      ← Back to the Library
+    </a>
+
+    <header class="mb-8 mt-4">
+      <p class="mb-3 font-mono text-[11px] font-medium uppercase tracking-[0.1em] text-muted">
+        French reading · {levelLabel}{wordCount && ` · only ${wordCount} words`}
+      </p>
+      <h1 lang="fr" class="mb-2 font-display font-bold leading-[1.15] tracking-[-0.035em] text-title" style="font-size: clamp(1.75rem, 4vw, 2.75rem)">
+        {title}
+      </h1>
+      <p class="mb-5 text-[17px] text-muted">{titleEn}</p>
+      <div class="flex flex-wrap items-center gap-3">
+        {level.map((l) => <Badge level={l} />)}
+        {isScheduled(reading.data) && <ScheduledLabel date={publishDate} />}
+      </div>
+    </header>
+
+    {youtubeId && <VideoFacade youtubeId={youtubeId} title={`${title} (${titleEn})`} todo="" class="mb-8" />}
+
+    <!-- Free PDF: a plain download -->
+    <div class="mb-12 flex flex-wrap items-center gap-4 rounded-card border border-border bg-surface px-5 py-4">
+      <FileIcon type="pdf" size={40} />
+      <div class="min-w-0 flex-1">
+        <p class="font-display text-[16px] font-semibold text-title">The text and its grammar, as a PDF</p>
+        <p class="text-[13px] text-muted">Free, no sign-up: print it, annotate it, read it offline.</p>
+      </div>
+      <a href={pdf} download={pdfFileName} class="btn-accent inline-flex items-center gap-1 rounded-button bg-accent px-5 py-[11px] font-display text-[15px] font-semibold text-onAccent transition-colors">
+        Download the PDF ↓
+      </a>
+    </div>
+
+    <section aria-labelledby="text-heading" class="mb-12">
+      <h2 id="text-heading" class="mb-5 font-display text-[1.5rem] font-bold tracking-[-0.02em] text-title">The text</h2>
+      <div lang="fr" class="reading-text rounded-card border border-border px-6 py-6 md:px-8 md:py-7">
+        <Content />
+      </div>
+      {grammar.length > 0 && (
+        <p class="mt-3 text-[13px] text-muted">The small numbers point to the grammar points below.</p>
+      )}
+    </section>
+
+    {grammar.length > 0 && (
+      <section aria-labelledby="grammar-heading" class="mb-4">
+        <h2 id="grammar-heading" class="mb-5 font-display text-[1.5rem] font-bold tracking-[-0.02em] text-title">
+          The {grammar.length} grammar points
+        </h2>
+        <ol class="flex flex-col gap-4">
+          {grammar.map((g, i) => (
+            <li id={`grammar-${i + 1}`} class="grammar-point flex gap-4 rounded-card border border-border bg-surface px-5 py-4">
+              <span class="font-mono text-[18px] font-medium leading-[1.4] text-accent" aria-hidden="true">{i + 1}</span>
+              <div class="min-w-0">
+                <h3 class="mb-1 font-display text-[16px] font-semibold text-title">{g.title}</h3>
+                <p class="mb-2 text-[14.5px] leading-[1.6] text-body">{g.explanation}</p>
+                <p lang="fr" class="text-[14.5px] italic text-title">→ {g.example}</p>
+              </div>
+            </li>
+          ))}
+        </ol>
+      </section>
+    )}
+  </div>
+
+  <!-- Newsletter -->
+  <section class="mx-auto max-w-[720px] px-6 pb-20 lg:px-0">
+    <div class="rounded-card border border-border px-6 py-7 md:px-8">
+      <h2 class="mb-2 font-display text-[1.375rem] font-bold tracking-[-0.02em] text-title">Want the next reading?</h2>
+      <p class="mb-5 text-[15px] leading-[1.6] text-body">
+        Join the newsletter: new texts and videos as they come out, and a closer look at how Liminal French members learn.
+      </p>
+      <NewsletterForm id="library-newsletter" buttonLabel="Subscribe" />
+    </div>
+  </section>
+
+  <CTABanner
+    eyebrow="Daily Immersion"
+    headingLight="Want a text like this"
+    headingBold="every day?"
+    body="Liminal French members get a new text at their level every day, with its audio, a quiz, a PDF and an Anki deck."
+    cta="See a full sample →"
+    href="/look-inside/#daily-immersion"
+  />
+</BlogLayout>
+
+<style>
+  .btn-accent:hover {
+    background-color: var(--color-accent-dark);
+  }
+  .reading-text {
+    font-size: 17px;
+    line-height: 1.8;
+    color: var(--color-body);
+  }
+  .reading-text :global(p + p) {
+    margin-top: 1.1rem;
+  }
+  .reading-text :global(sup a) {
+    margin-left: 1px;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--color-accent);
+    text-decoration: none;
+  }
+  .grammar-point {
+    scroll-margin-top: 6rem;
+  }
+  .grammar-point:target {
+    border-color: var(--color-accent);
+  }
+</style>

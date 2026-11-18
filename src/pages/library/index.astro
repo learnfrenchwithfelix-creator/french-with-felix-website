@@ -1,0 +1,79 @@
+---
+// The Library: Félix's reading videos, newest first. Each card opens the reading's page
+// (video, French text, grammar points, free PDF). Content: content/library/*.md.
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Badge from '../../components/ui/Badge.astro';
+import ScheduledLabel from '../../components/ui/ScheduledLabel.astro';
+import CTABanner from '../../components/ui/CTABanner.astro';
+import { isPublished, isScheduled } from '../../utils/content';
+import { breadcrumbs } from '../../utils/schema';
+
+const readings = (await getCollection('library', ({ data }) => isPublished(data)))
+  .sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime());
+---
+
+<BaseLayout
+  title="Free French Readings with Video and PDF (A1–B2) | Liminal French"
+  description="Short French texts for learners, read aloud on video, with their grammar points explained and a free PDF to download. Sorted by level, from A1 to B2."
+  schema={[breadcrumbs([['Library', '/library/']])]}
+>
+  <div class="mx-auto max-w-[760px] px-6 pb-10 pt-16 text-center lg:px-12">
+    <p class="mb-3.5 font-mono text-[12px] uppercase tracking-[0.1em] text-accent">Library</p>
+    <h1 class="mb-5 font-display tracking-[-0.045em] text-title" style="font-size: clamp(2rem, 5vw, 2.75rem)">
+      <span style="font-weight: var(--weight-light)">Read French,</span>
+      <span style="font-weight: var(--weight-bold)"> one text at a time.</span>
+    </h1>
+    <p class="text-[17px] leading-[1.6] text-muted">
+      Short texts written for your level. Watch me read and explain each one, then read it yourself, review its grammar
+      points and download the PDF. Free, no sign-up.
+    </p>
+  </div>
+
+  <div class="mx-auto max-w-[1080px] px-6 pb-24 lg:px-12">
+    <ul class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      {readings.map((r) => (
+        <li>
+          <a href={`/library/${r.id}/`} class="library-card group flex h-full flex-col overflow-hidden rounded-card border border-border bg-surface transition-colors">
+            {r.data.youtubeId && (
+              <img
+                src={`https://i.ytimg.com/vi/${r.data.youtubeId}/hqdefault.jpg`}
+                alt=""
+                width="480"
+                height="360"
+                loading="lazy"
+                class="aspect-video w-full object-cover"
+              />
+            )}
+            <div class="flex flex-1 flex-col gap-2 p-5">
+              <div class="flex flex-wrap items-center gap-2">
+                {r.data.level.map((l) => <Badge level={l} />)}
+                {isScheduled(r.data) && <ScheduledLabel date={r.data.publishDate} />}
+              </div>
+              <h2 lang="fr" class="font-display text-[18px] font-bold leading-[1.25] text-title group-hover:text-accent">{r.data.title}</h2>
+              <p class="text-[14px] text-muted">{r.data.titleEn}</p>
+              <p class="mt-auto pt-2 font-mono text-[11px] uppercase tracking-[0.1em] text-muted">
+                Video · Text · {r.data.grammar?.length ? `${r.data.grammar.length} grammar points · ` : ''}PDF
+              </p>
+            </div>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+
+  <CTABanner
+    eyebrow="Daily Immersion"
+    headingLight="Want a new text"
+    headingBold="every day?"
+    body="Liminal French members get a text at their level every day, with its audio, a quiz, a PDF and an Anki deck."
+    cta="See a full sample →"
+    href="/look-inside/#daily-immersion"
+  />
+</BaseLayout>
+
+<style>
+  .library-card:hover {
+    border-color: var(--color-muted);
+  }
+</style>

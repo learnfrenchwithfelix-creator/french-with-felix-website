@@ -12,9 +12,11 @@ interface Props {
   dateModified?: Date;
   image?: string;
   lang?: string;
+  /** Parent page in the breadcrumb (default: the blog) */
+  breadcrumb?: [name: string, path: string];
 }
 
-const { title, pageTitle, description, path, publishDate, dateModified, image, lang } = Astro.props;
+const { title, pageTitle, description, path, publishDate, dateModified, image, lang, breadcrumb = ['Blog', '/blog/'] } = Astro.props;
 
 // Only an image that really exists in public/ (a missing file would be a 404 in link previews)
 const ogImage = publicFileUrl(image);
@@ -22,7 +24,7 @@ const datePublished = publishDate.toISOString();
 
 const schema = [
   articleNode({ path, title, description, publishDate, updatedDate: dateModified, image, lang }),
-  breadcrumbs([['Blog', '/blog/'], [title, path]]),
+  breadcrumbs([breadcrumb, [title, path]]),
 ];
 ---
 
