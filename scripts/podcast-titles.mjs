@@ -14,8 +14,8 @@ const csv = readFileSync(join(process.cwd(), 'src/data/liminal_podcast.csv'), 'u
 const episodes = csv
   .split('\n').map(l => l.replace(/\r$/, '')).filter(Boolean).slice(1)
   .map(l => l.split(','))
-  .map(c => ({ episodeNumber: parseInt(c[1], 10), slug: c[2].trim(), title: c[3].trim(), level: c[4].trim() }))
-  .sort((a, b) => b.episodeNumber - a.episodeNumber);
+  .map(c => ({ episodeNumber: parseInt(c[1], 10) || null, slug: c[2].trim(), title: c[3].trim(), level: c[4].trim() }))
+  .sort((a, b) => (b.episodeNumber ?? Infinity) - (a.episodeNumber ?? Infinity));
 
 // seoTitle override, written as a one-line value in the extras file
 const seoTitleOf = slug => {
@@ -32,7 +32,7 @@ for (const ep of episodes) {
   const tooLong = seo.length > MAX;
   if (tooLong) long++;
   if (onlyLong && !tooLong) continue;
-  console.log(`#${ep.episodeNumber}${override ? '  (seoTitle)' : ''}${tooLong ? `  [${seo.length} chars]` : ''}`);
+  console.log(`${ep.episodeNumber ? `#${ep.episodeNumber}` : ep.slug}${override ? '  (seoTitle)' : ''}${tooLong ? `  [${seo.length} chars]` : ''}`);
   console.log(`  H1    ${ep.title}`);
   console.log(`  title ${seo}`);
 }

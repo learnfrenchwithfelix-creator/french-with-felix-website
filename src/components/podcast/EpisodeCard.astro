@@ -2,7 +2,8 @@
 import Badge from '../ui/Badge.astro';
 
 interface Props {
-  number: number | string;
+  /** Episode number; null for videos outside the numbered series (no "Ep" label) */
+  number: number | string | null;
   level: 'A1' | 'A2' | 'B1' | 'B2';
   title: string;
   duration: string;
@@ -43,7 +44,7 @@ const footer = wpm > 0 ? `${wpm} wpm · ${theme}` : theme;
       <div class="absolute inset-0 bg-[repeating-linear-gradient(135deg,var(--color-surface),var(--color-surface)_11px,var(--color-border)_11px,var(--color-border)_22px)]"></div>
     )}
     <div class="thumb-fade pointer-events-none absolute inset-x-0 bottom-0 h-[56%]"></div>
-    <span class="absolute bottom-3 left-3.5 font-mono text-[11px] font-medium uppercase tracking-[0.12em] text-white/90">Ep {number}</span>
+    {number && <span class="absolute bottom-3 left-3.5 font-mono text-[11px] font-medium uppercase tracking-[0.12em] text-white/90">Ep {number}</span>}
     <span class="absolute bottom-3 right-3.5 font-mono text-[11px] font-medium tracking-[0.12em] text-white/90">{duration}</span>
   </div>
 
