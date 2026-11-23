@@ -65,7 +65,7 @@ interface Props {
   redirectTo?:   string;
   slug:          string;
   spotifyUrl:    string | null;
-  episodeNumber: number;
+  episodeNumber: number | null;
   titleFr:       string;
   level:         'A1' | 'A2' | 'B1' | 'B2';
   theme:         string;
@@ -152,9 +152,11 @@ const schema = [
     <!-- Episode header -->
     <div data-reveal class="mb-10">
       <div class="mb-4 flex flex-wrap items-center gap-2">
-        <span class="font-display text-2xl tracking-[-0.02em] text-accent" style="font-weight: var(--weight-light)">
-          Ep {episodeNumber}
-        </span>
+        {episodeNumber && (
+          <span class="font-display text-2xl tracking-[-0.02em] text-accent" style="font-weight: var(--weight-light)">
+            Ep {episodeNumber}
+          </span>
+        )}
         <Badge level={level} />
         <span class="rounded-full bg-surface px-[10px] py-[3px] font-mono text-[11px] font-medium uppercase tracking-[0.08em] text-muted">
           {theme}
@@ -240,7 +242,7 @@ const schema = [
             <div class="flex gap-2.5" data-print-hide>
               <a
                 href={`/podcast/${slug}/transcript.txt`}
-                download={`liminal-french-ep-${episodeNumber}-transcript.txt`}
+                download={episodeNumber ? `liminal-french-ep-${episodeNumber}-transcript.txt` : `liminal-french-${slug}-transcript.txt`}
                 class="tool-btn inline-flex items-center gap-2 rounded-[10px] border border-border bg-bg px-4 py-2.5 text-[13px] font-semibold text-title"
               >
                 <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">

@@ -130,6 +130,8 @@ All official URLs live in `src/config/site.ts`. Import them; never hard-code a d
   The rule lives in `isIndexableEpisode()` (pages) and `src/utils/episode-meta.mjs` (sitemap);
   `npm run check:links` fails if they disagree.
 - `npm run podcast:missing` lists the published episodes not enriched yet.
+- `episode_number` stays empty for videos outside the numbered series (e.g. the Liminal French channel's vlogs):
+  no "Ep NN" label, title or schema number; the listing places them by publishDate among the numbered episodes.
 - Episode `<title>` = `episodeSeoTitle()` (`src/utils/episode-title.mjs`): the YouTube title without its own
   `#NN` and generic labels ("slow french comprehensible input", "Intermediate French"…), then
   ` — French Podcast Ep. NN (LEVEL)`; `seoTitle` in the extras file overrides it verbatim. The H1 stays the

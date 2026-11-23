@@ -146,7 +146,7 @@ export function episodeNodes(ep: {
   path: string;
   name: string;
   description: string;
-  episodeNumber: number;
+  episodeNumber: number | null;
   publishDate: string | null;
   duration: string;
   youtubeId: string | null;
@@ -175,7 +175,7 @@ export function episodeNodes(ep: {
     name: ep.name,
     description: ep.description,
     url,
-    episodeNumber: ep.episodeNumber,
+    ...(ep.episodeNumber ? { episodeNumber: ep.episodeNumber } : {}),
     ...(ep.publishDate ? { datePublished: ep.publishDate } : {}),
     ...(duration ? { timeRequired: duration } : {}),
     inLanguage: 'fr',

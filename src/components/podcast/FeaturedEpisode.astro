@@ -33,7 +33,7 @@ const speed = ep.wpm > 0 ? `${rate} · ${ep.wpm} wpm` : rate;
       <div class="absolute inset-0 bg-[repeating-linear-gradient(135deg,var(--color-surface),var(--color-surface)_11px,var(--color-border)_11px,var(--color-border)_22px)]"></div>
     )}
     <div class="thumb-fade pointer-events-none absolute inset-x-0 bottom-0 h-[46%]"></div>
-    <span class="absolute bottom-3.5 left-4 font-mono text-xs font-medium uppercase tracking-[0.12em] text-white/90">Ep {ep.episodeNumber}</span>
+    {ep.episodeNumber && <span class="absolute bottom-3.5 left-4 font-mono text-xs font-medium uppercase tracking-[0.12em] text-white/90">Ep {ep.episodeNumber}</span>}
     <span class="absolute bottom-3.5 right-4 font-mono text-xs font-medium tracking-[0.12em] text-white/90">{ep.duration}</span>
   </div>
 

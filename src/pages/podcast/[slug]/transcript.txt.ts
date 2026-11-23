@@ -15,7 +15,7 @@ export const GET: APIRoute = ({ props, site }) => {
   const paragraphs = parseSRT(ep.slug);
 
   const header = [
-    `${podcastName} podcast — Episode ${ep.episodeNumber}`,
+    ep.episodeNumber ? `${podcastName} podcast — Episode ${ep.episodeNumber}` : `${podcastName} podcast`,
     ep.titleFr,
     `Level ${ep.level} · ${ep.duration}${ep.wpm > 0 ? ` · ${ep.wpm} wpm` : ''}`,
     new URL(`/podcast/${ep.slug}/`, site).href, // `site` from astro.config.mjs

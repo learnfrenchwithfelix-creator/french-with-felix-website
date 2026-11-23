@@ -24,8 +24,8 @@ const title = cleanEpisodeTitle(episode.titleFr, episode.episodeNumber);
         {title}
       </p>
       <div class="flex flex-wrap items-center gap-2 font-mono text-[12px] text-muted">
-        <span>Ep {episode.episodeNumber}</span>
-        <span aria-hidden="true">·</span>
+        {episode.episodeNumber && <span>Ep {episode.episodeNumber}</span>}
+        {episode.episodeNumber && <span aria-hidden="true">·</span>}
         <Badge level={episode.level} />
         <span aria-hidden="true">·</span>
         <span>{episode.duration}</span>

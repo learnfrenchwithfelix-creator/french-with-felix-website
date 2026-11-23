@@ -15,6 +15,7 @@ const GENERIC_LABELS = [
   'slow french',
   'easy french news',
   'easy french',
+  'liminal french',
 ];
 const escape = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 const LABEL = GENERIC_LABELS.map(escape).join('|');
@@ -25,8 +26,8 @@ const SEP = '[|:–—-]';
  * ("… - slow french comprehensible input #93" → "…"). Other numbers stay ("Memes #2").
  */
 export function cleanEpisodeTitle(title, episodeNumber) {
-  return title
-    .replace(new RegExp(`\\s*#\\s*${episodeNumber}(?!\\d)`, 'g'), '')        // its own episode number only
+  const own = episodeNumber ? new RegExp(`\\s*#\\s*${episodeNumber}(?!\\d)`, 'g') : null;
+  return (own ? title.replace(own, '') : title)                            // its own episode number only
     .replace(new RegExp(`\\(\\s*(?:${LABEL})\\s*\\)`, 'gi'), '')              // "(Slow French Comprehensible Input)"
     .replace(new RegExp(`^\\s*(?:${LABEL})\\s*${SEP}\\s*`, 'i'), '')          // "French Comprehensible Input | …"
     .replace(new RegExp(`\\s*${SEP}\\s*(?:${LABEL})\\s*$`, 'i'), '')          // "… - Intermediate French"
@@ -56,10 +57,11 @@ export function episodeTitleLang(title, episodeNumber, override) {
   return count(EN_WORDS) > count(FR_WORDS) ? 'en' : 'fr';
 }
 
-/** <title>: `seoTitle` verbatim when set, else "<clean title> — French Podcast Ep. NN (LEVEL)". */
+/** <title>: `seoTitle` verbatim when set, else "<clean title> — French Podcast Ep. NN (LEVEL)" (no "Ep. NN" without a number). */
 export function episodeSeoTitle({ title, episodeNumber, level }, seoTitle) {
   if (seoTitle?.trim()) return seoTitle.trim();
-  return `${cleanEpisodeTitle(title, episodeNumber)} — French Podcast Ep. ${episodeNumber} (${level})`;
+  const ep = episodeNumber ? ` Ep. ${episodeNumber}` : '';
+  return `${cleanEpisodeTitle(title, episodeNumber)} — French Podcast${ep} (${level})`;
 }
 
 /**
@@ -70,6 +72,7 @@ export function episodeSeoTitle({ title, episodeNumber, level }, seoTitle) {
 export function episodeDescription({ title, episodeNumber, level, duration, wpm }, summary, podcastName) {
   if (summary?.trim()) return summary.replace(/\s+/g, ' ').trim();
   const speed = wpm > 0 ? ` · ${wpm} wpm` : '';
-  return `Episode ${episodeNumber} of the ${podcastName} podcast: ${cleanEpisodeTitle(title, episodeNumber)}. ` +
+  const which = episodeNumber ? `Episode ${episodeNumber} of` : 'An episode of';
+  return `${which} the ${podcastName} podcast: ${cleanEpisodeTitle(title, episodeNumber)}. ` +
     `Level ${level} · ${duration}${speed}. Full French transcript.`;
 }

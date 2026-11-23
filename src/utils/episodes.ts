@@ -16,7 +16,8 @@ export interface Episode extends PodcastEpisodeRow {
 
 /**
  * Merges CSV data with Spotify metadata and returns the published episodes
- * (see isPublished) sorted by episode number descending (newest first).
+ * (see isPublished), newest first: numbered episodes by number, and each unnumbered one (e.g. a video
+ * from the Liminal French channel) just before the numbered episodes published on or before its date.
  */
 export async function fetchEpisodes(): Promise<Episode[]> {
   const csvEpisodes = parsePodcastCSV().filter(ep => isPublished(ep));
@@ -26,7 +27,7 @@ export async function fetchEpisodes(): Promise<Episode[]> {
 
   return csvEpisodes
     .map(ep => {
-      const spotify = spotifyMap.get(ep.episodeNumber);
+      const spotify = ep.episodeNumber ? spotifyMap.get(ep.episodeNumber) : undefined;
       return {
         ...ep,
         spotifyEpisodeId: spotify?.spotifyEpisodeId ?? null,
@@ -37,5 +38,11 @@ export async function fetchEpisodes(): Promise<Episode[]> {
         titleLang:        episodeTitleLang(ep.titleFr, ep.episodeNumber, titleLangOverride.get(ep.slug)),
       };
     })
-    .sort((a, b) => b.episodeNumber - a.episodeNumber);
+    .reduce<Episode[]>((list, ep, i, all) => {
+      if (i === 0) list.push(...all.filter(e => e.episodeNumber).sort((a, b) => b.episodeNumber! - a.episodeNumber!));
+      if (ep.episodeNumber) return list;
+      const at = list.findIndex(e => (e.publishDate ?? '') <= (ep.publishDate ?? ''));
+      list.splice(at === -1 ? list.length : at, 0, ep);
+      return list;
+    }, []);
 }

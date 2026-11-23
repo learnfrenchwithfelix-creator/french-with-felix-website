@@ -2,7 +2,7 @@ import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 export interface PodcastEpisodeRow {
-  episodeNumber: number;
+  episodeNumber: number | null;  // col 1 — empty for videos outside the numbered series (e.g. Liminal French channel)
   slug: string;
   titleFr: string;
   level: 'A1' | 'A2' | 'B1' | 'B2';
@@ -38,7 +38,7 @@ export function parsePodcastCSV(): PodcastEpisodeRow[] {
   return lines.slice(1).map(line => {
     const cols = line.split(',');
     return {
-      episodeNumber:  parseInt(cols[1], 10),
+      episodeNumber:  parseInt(cols[1], 10) || null,
       slug:           cols[2].trim(),
       titleFr:        cols[3].trim(),
       level:          cols[4].trim() as PodcastEpisodeRow['level'],
