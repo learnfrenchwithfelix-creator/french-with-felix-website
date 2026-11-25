@@ -16,6 +16,8 @@ const GENERIC_LABELS = [
   'easy french news',
   'easy french',
   'liminal french',
+  'french with felix',
+  'french with félix',
 ];
 const escape = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 const LABEL = GENERIC_LABELS.map(escape).join('|');
@@ -30,7 +32,7 @@ export function cleanEpisodeTitle(title, episodeNumber) {
   return (own ? title.replace(own, '') : title)                            // its own episode number only
     .replace(new RegExp(`\\(\\s*(?:${LABEL})\\s*\\)`, 'gi'), '')              // "(Slow French Comprehensible Input)"
     .replace(new RegExp(`^\\s*(?:${LABEL})\\s*${SEP}\\s*`, 'i'), '')          // "French Comprehensible Input | …"
-    .replace(new RegExp(`\\s*${SEP}\\s*(?:${LABEL})\\s*$`, 'i'), '')          // "… - Intermediate French"
+    .replace(new RegExp(`(?:\\s*${SEP}\\s*(?:${LABEL}))+\\s*$`, 'i'), '')      // "… - Intermediate French", "… - X | French with Felix"
     .replace(/\(\s*\)/g, '')
     .replace(/\s{2,}/g, ' ')
     .replace(new RegExp(`[\\s${SEP.slice(1, -1)}]+$`), '')
