@@ -30,8 +30,8 @@ export const samplePackFormAction = `${platformUrl}/forms/2149766789/form_submis
 export const cloudflareAnalyticsToken = '8d82fe89686e46bf82e83be4905c7dca';
 
 /**
- * Where /start redirects: every "Start your free trial" / "Start Learning" button on the site links to /start.
- * TODO: replace with the Kajabi page that combines sign-in and sign-up (7-day free trial checkout)
+ * Where /start redirects: every "Start learning" / "Join the community" button on the site links to /start.
+ * TODO: replace with the Kajabi page that combines sign-in and sign-up (checkout, no free trial)
  * once it exists. Change it here only.
  */
 export const startUrl = 'https://learn.liminalfrench.com';
